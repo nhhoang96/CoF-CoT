@@ -20,7 +20,7 @@ golds, preds=[],[]
 texts=[]
 for line in open(file_full_loc, 'r'):
     line_output = json.loads(line)
-    print ("Line output", line_output)
+    #print ("Line output", line_output)
     utt, gold_lf, pred_lf = line_output['utterance'], line_output['gold_lf'], line_output['pred_lf']
 
     # Fix pred_lf format
@@ -69,22 +69,22 @@ for line in open(file_full_loc, 'r'):
 
     # closing
     new_pred_lf += ' ]'
-    print ("Intent info:", intent)
-    print ("Slot info:", slot_name)
-    print ("INfo", info_split)
-    print ("New pred lf", new_pred_lf)
+    #print ("Intent info:", intent)
+    #print ("Slot info:", slot_name)
+    #print ("INfo", info_split)
+    #print ("New pred lf", new_pred_lf)
     #intent_info = re.findall(r'(?=\[)[a-zA-Z](?<=\s)', pred_lf)
 
     #print ("Intent search", intent_info)
     truncate_lf = re.sub(r'[\[\]]',' ',pred_lf)
     truncate_lf = re.sub(r'\s\s+', ' ', truncate_lf)
     truncate_lf = truncate_lf.strip()
-    print ("Truncate LF", truncate_lf)
+    #print ("Truncate LF", truncate_lf)
     #preds.append(truncate_lf)
 
     items = truncate_lf.split(' ')
-    print ("Items",items)
-    print ("\n")
+    #print ("Items",items)
+    #print ("\n")
     golds.append(gold_lf)
     #preds.append(pred_lf)
     preds.append(new_pred_lf)

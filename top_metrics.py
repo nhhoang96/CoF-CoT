@@ -69,8 +69,8 @@ def top_metrics(targets, predictions, input_texts):
 
                                 if (predicted.startswith('[')):
                                     print ("Target-Pred-Text", target, predicted, text_input)
-                                    print ("Check label lf", target, target_lf)
-                                    print ("Check pred lf", predicted, predicted_lf)
+                                    #print ("Check label lf", target, target_lf)
+                                    #print ("Check pred lf", predicted, predicted_lf)
                                     print ("\n")
 
                                 #print ("Target", target, target_lf)
@@ -116,7 +116,7 @@ def top_metrics(targets, predictions, input_texts):
                 f1 = round(f1_score(target_bio, predicted_bio),4)
                 precision = round(precision_score(target_bio, predicted_bio),4)
                 recall= round(recall_score(target_bio, predicted_bio),4)
-#print ("F1", f1)
+                #print ("ori score", num_frame_correct, num_correct)
                 return dict(
                                 num_total=num_total,
                                 slot_f1 = f1,
