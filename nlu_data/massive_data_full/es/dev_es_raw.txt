@@ -1,0 +1,2033 @@
+apaga las luces por favor	iot_hue_lightoff	O O O O O	iot	es-ES
+atenua las luces en el pasillo	iot_hue_lightdim	O O O O O B-house_place	iot	es-ES
+oscurece la habitación	iot_hue_lightdim	O O B-house_place	iot	es-ES
+limpia el piso	iot_cleaning	O O B-house_place	iot	es-ES
+limpiar es bueno el polvo es tan malo haz ahora tu magia limpia mi alfombra	iot_cleaning	O O O O O O O O O O O O O O B-house_place	iot	es-ES
+dame el estado de mi memoria disponible	general_quirky	O O O O O O O	general	es-ES
+lista de las opciones de entrega de comida china más valoradas	takeaway_query	O O O O O B-order_type O O B-food_type O O	takeaway	es-ES
+encontrar mi comida para llevar tailandesa alrededor del centro	takeaway_query	O O O B-order_type I-order_type B-food_type O O B-place_name	takeaway	es-ES
+me gustaría escuchar barcelona de queen	play_music	O O O B-song_name O B-artist_name	play	es-ES
+ponme barcelona por queen	play_music	O B-song_name O B-artist_name	play	es-ES
+cuál es el grupo que está sonando ahora mismo	music_query	O O O O O O O O O	music	es-ES
+qué hay en mi pedido de la cena	takeaway_query	O O O O O O O O	takeaway	es-ES
+cuál es el pronóstico del tiempo para la semana	weather_query	O O O O O O O O B-time	weather	es-ES
+pon duele como el cielo	play_music	O B-song_name I-song_name I-song_name I-song_name	play	es-ES
+ponte reina caníbal	play_music	O B-song_name I-song_name	play	es-ES
+pon algo de david bowie	play_music	O O O B-artist_name I-artist_name	play	es-ES
+pon en bucle esta canción	music_settings	O O O O O	music	es-ES
+pon el volumen a bajo	audio_volume_down	O O O O B-change_amount	audio	es-ES
+qué día es hoy	datetime_query	O O O B-date	datetime	es-ES
+que cancion es esa	music_query	O O O O	music	es-ES
+me gusta escuchar jazz	play_music	O O O B-music_genre	play	es-ES
+me gusta escuchar jazz	play_music	O O O B-music_genre	play	es-ES
+oye oye	general_greet	O O	general	es-ES
+pon alarma mañana a las seis de la mañana	alarm_set	O O B-date O O O O O B-date	alarm	es-ES
+sube el volumen	audio_volume_up	O O O	audio	es-ES
+está lloviendo afuera	weather_query	O B-weather_descriptor O	weather	es-ES
+que hora es en las palmas	datetime_query	O O O O B-place_name I-place_name	datetime	es-ES
+qué hora es en madrid	datetime_query	O O O O B-place_name	datetime	es-ES
+poner una alarma a las seis de la mañana	alarm_set	O O O O O B-time O O B-timeofday	alarm	es-ES
+configuré una alarma para despertarme por la mañana	alarm_query	O O O O B-alarm_type B-timeofday I-timeofday I-timeofday	alarm	es-ES
+que esta pasando en america	news_query	O O O O B-place_name	news	es-ES
+death metal ahora	play_music	O B-music_genre O	play	es-ES
+qué hora es en madrid ahora	datetime_query	O O O O B-place_name O	datetime	es-ES
+dime los titulares del periódico de hoy	news_query	O O O O B-media_type O B-date	news	es-ES
+pon chopin	play_music	O B-artist_name	play	es-ES
+que día es la resurreción este año	datetime_query	O O O O O B-date I-date	datetime	es-ES
+esta muy oscuro aqui	iot_hue_lighton	O O O O	iot	es-ES
+va a llover mañana	weather_query	O O B-weather_descriptor B-date	weather	es-ES
+más suave	audio_volume_down	O O	audio	es-ES
+qué temperatura hará mañana	weather_query	O B-weather_descriptor O B-date	weather	es-ES
+lo que es mañana las predicciones del tiempo	weather_query	O O O B-date O O O O	weather	es-ES
+que día de la semana es veintidos de marzo	datetime_query	O O O O O O B-date I-date I-date	datetime	es-ES
+es hoy lunes	datetime_query	O B-date I-date	datetime	es-ES
+cómo está el tiempo en madrid capital	weather_query	O O O O O B-place_name I-place_name	weather	es-ES
+hace sol en mallorca ahora	weather_query	O B-weather_descriptor O B-place_name O	weather	es-ES
+avíseme tan pronto como haya más noticias sobre el brexit	news_query	O O O O O O O O O B-news_topic	news	es-ES
+apaga el enchufe inteligente	iot_wemo_off	O O B-device_type I-device_type	iot	es-ES
+tocar una canción de mis favoritos	play_music	O O O O O O	play	es-ES
+me gustaria escuchar música pop por favor	play_music	O O O O B-music_genre O O	play	es-ES
+cambia las luces de mi habitación para que yo pueda dormir bien	iot_hue_lightchange	O O O O O O O O O O B-color_type I-color_type	iot	es-ES
+qué tiempo hará el viernes	weather_query	O O O O B-date	weather	es-ES
+que día es hoy	datetime_query	O O O B-date	datetime	es-ES
+debo ponerme una chaqueta hoy	weather_query	O O O B-weather_descriptor B-date	weather	es-ES
+deshabilitar la reproducción aleatoria	music_settings	O O O O	music	es-ES
+que fecha es	datetime_query	O O O	datetime	es-ES
+que cosas no puedes hacer	general_quirky	O O O O O	general	es-ES
+dime la hora	datetime_query	O O O	datetime	es-ES
+hace calor fuera	weather_query	O B-weather_descriptor O	weather	es-ES
+tengo alguna alarma programada	alarm_query	O O O O	alarm	es-ES
+por extremoduro	weather_query	O O	weather	es-ES
+silencia en la próxima hora por favor	audio_volume_mute	O O O B-time I-time O O	audio	es-ES
+pon mi canción favorita	play_music	O O O O	play	es-ES
+esto es muy peligroso	weather_query	O O O O	weather	es-ES
+por favor cuéntame algunas noticias internacionales	news_query	O O O O O B-place_name	news	es-ES
+pon una alarma despertador a las diez de la mañana	alarm_set	O O O O O O B-time I-time I-time I-time	alarm	es-ES
+poner una alarma a las tres de la tarde	alarm_set	O O O O O B-time I-time I-time I-time	alarm	es-ES
+pon una alarma a la una de la tarde	alarm_set	O O O O O B-time I-time I-time I-time	alarm	es-ES
+reproduce la canción inmediatamente	play_music	O O O B-song_name	play	es-ES
+mándame al correo la letra de esta canción	music_query	O O O O O O O O	music	es-ES
+deshacerse de mi alarma de las ocho a. m.	alarm_remove	O O O O O O B-time I-time I-time	alarm	es-ES
+va a estar lloviendo mañana	weather_query	O O O B-weather_descriptor B-date	weather	es-ES
+por favor golpe maestro de vetusta morla	play_music	O O O O O O O	play	es-ES
+poner alarma	alarm_set	O O	alarm	es-ES
+quiero levantarme mañana a las seis de la mañana por favor	alarm_set	O O B-date O O O O O B-date O O	alarm	es-ES
+solo reproduce canciones de mi lista de reproducción	play_music	O O O O O O O O	play	es-ES
+qué día de la semana es acción de gracias	datetime_query	O O O O O O B-event_name I-event_name I-event_name	datetime	es-ES
+por favor déjame escuchar seiscientos sesenta y seis el número de la bestia	play_music	O O O O B-song_name I-song_name I-song_name I-song_name I-song_name I-song_name I-song_name I-song_name I-song_name	play	es-ES
+puedes buscar chistes de animales para mí	general_joke	O O O O B-joke_type O O	general	es-ES
+como es el estado del tiempo ahora	weather_query	O O O O O O O	weather	es-ES
+que hora es ahora en andalucía	datetime_query	O O O O O B-place_name	datetime	es-ES
+fija la zona horaria	datetime_convert	O O O O	datetime	es-ES
+enciende la t. v. enchufe cuando llego a casa	iot_wemo_on	O O B-device_type I-device_type O O O O O	iot	es-ES
+sigue las noticias sobre la controversia de papeles de bárcenas en el futuro	news_query	O O O O O B-news_topic I-news_topic I-news_topic I-news_topic I-news_topic O O B-time	news	es-ES
+baja el volumen	audio_volume_down	O O O	audio	es-ES
+no puedo oir sube el volumen	audio_volume_up	O O O O O O	audio	es-ES
+puedes hacer mas brillante s las luces	iot_hue_lightup	O O O O O O O	iot	es-ES
+quiero escuchar bruno mars ahora	play_music	O O B-artist_name I-artist_name O	play	es-ES
+quién está liderando la carrera de formula uno ahora mismo	news_query	O O O O O O B-news_topic I-news_topic O O	news	es-ES
+prepara café	iot_coffee	O O	iot	es-ES
+lee los titulares de la voz de madrid	news_query	O O O O B-media_type I-media_type I-media_type I-media_type	news	es-ES
+puedo conocer las últimas noticias de c. n. n	news_query	O O O O O O B-media_type I-media_type I-media_type	news	es-ES
+puedes bajar el tono por favor	audio_volume_down	O O O O O O	audio	es-ES
+tocar canciones del género r y b y soul	play_music	O O O O B-artist_name I-artist_name I-artist_name O B-music_genre	play	es-ES
+puedes apagar el enchufe wemo	iot_wemo_off	O O O B-device_type I-device_type	iot	es-ES
+como estará el tiempo esta semana	weather_query	O O O O B-date I-date	weather	es-ES
+cómo se supone que está el tiempo esta semana	weather_query	O O O O O O O B-date I-date	weather	es-ES
+dime si ocurre un terremoto en el mundo	news_query	O O O O B-news_topic O O O	news	es-ES
+jugar boogie in your butt por eddie murphy	play_music	O B-song_name I-song_name I-song_name I-song_name O B-artist_name I-artist_name	play	es-ES
+ey olly silencia los altavoces	audio_volume_mute	O O O O O	audio	es-ES
+baje todo el volumen de los altavoces por favor	audio_volume_down	O O O O O O O O O	audio	es-ES
+haz cafe ahora	iot_coffee	O O O	iot	es-ES
+ok google pon algo de música	play_music	O O O O O O	play	es-ES
+cuál es el último cotilleo de marbella	news_query	O O O O O O B-news_topic	news	es-ES
+sube el brillo de luces	iot_hue_lightup	O O O O O	iot	es-ES
+alarma puesta ocho de la mañana	alarm_set	O O B-time I-time I-time I-time	alarm	es-ES
+apagar la alarma de las seis de la mañana del miércoles	alarm_remove	O O O O O B-time I-time I-time I-time O B-date	alarm	es-ES
+apaga mis alarmas de la mañana tras el viernes	alarm_remove	O O O O O B-timeofday B-date I-date I-date	alarm	es-ES
+mira el tiempo de la semana que viene por mi por favor	weather_query	O O O O O B-date I-date I-date O O O O	weather	es-ES
+pon música de mi artista favorito	play_music	O O O O O O	play	es-ES
+por favor baja las luces un poco	iot_hue_lightdim	O O O O O B-change_amount I-change_amount	iot	es-ES
+moviles	alarm_remove	O	alarm	es-ES
+si son las ocho de la tarde en la costa este que hora es en palma mallorca	datetime_convert	O O O B-time I-time I-time I-time O O O O O O O O B-place_name I-place_name	datetime	es-ES
+el rosario's acepta pedidos para llevar	takeaway_query	O B-business_name O O B-order_type I-order_type	takeaway	es-ES
+puedes decirme que hora es en madrid	datetime_query	O O O O O O B-place_name	datetime	es-ES
+noticias actuales la sexta	news_query	O O B-media_type I-media_type	news	es-ES
+llévame a la web del huffington post	social_post	O O O O O B-media_type I-media_type	social	es-ES
+pon los titulares por favor	news_query	O O O O O	news	es-ES
+cuáles son los titulares de el país	news_query	O O O O O B-media_type I-media_type	news	es-ES
+mira si la enriquetta hace pedidos para llevar	takeaway_query	O O B-business_name I-business_name O O B-order_type I-order_type	takeaway	es-ES
+puedo saber la fecha de hoy	datetime_query	O O O O B-date I-date	datetime	es-ES
+está mi alarma de la escuela puesta	alarm_query	O O O O O O O	alarm	es-ES
+cómo de caluroso se está fuera	weather_query	O O B-weather_descriptor O O O	weather	es-ES
+a la una de la tarde de hoy pon en marcha el robot aspirador	iot_cleaning	O O B-time I-time I-time I-time O B-date O O O O B-device_type I-device_type	iot	es-ES
+buenos asistentes	news_query	O O	news	es-ES
+envíame las noticias actuales del día	news_query	O O O O O O	news	es-ES
+pon lady de kenny rogers ahora	play_music	O B-song_name O B-artist_name I-artist_name O	play	es-ES
+fecha de hoy	datetime_query	O O B-date	datetime	es-ES
+cuál es la letra de la canción buleria de david bisbal	music_query	O O O O O O O B-song_name O B-artist_name I-artist_name	music	es-ES
+nunca jamás me pongas country	music_dislikeness	O O O O B-music_genre	music	es-ES
+si son las diez p. m. en madrid qué hora es en tenerife	datetime_convert	O O O B-time I-time I-time O B-place_name O O O O B-place_name	datetime	es-ES
+necesito escuchar a buleria por parte de david bisbal ahora	play_music	O O O B-song_name O O O B-artist_name I-artist_name O	play	es-ES
+como está el tiempo hoy	weather_query	O O O O B-date	weather	es-ES
+lloverá	weather_query	O	weather	es-ES
+cuál es la hora actual en madrid	datetime_query	O O O O O O B-place_name	datetime	es-ES
+me puedes sugerir comida sana para cenar	cooking_recipe	O O O B-food_type I-food_type O O	cooking	es-ES
+pedir una comida de un buen restaurante	takeaway_order	O O O O O O B-business_type	takeaway	es-ES
+convierte la hora de madrid en la hora de londres	datetime_convert	O O O O B-place_name O O O O B-place_name	datetime	es-ES
+olly pon el salón azúl	iot_hue_lightchange	O O O B-house_place B-color_type	iot	es-ES
+haz que la luz del salon sea azul	iot_hue_lightchange	O O O O O B-house_place O B-color_type	iot	es-ES
+por favor pon macarena	play_music	O O O B-song_name	play	es-ES
+cuál es la previsión del tiempo para el martes	weather_query	O O O O O O O O B-date	weather	es-ES
+qué tiempo hará el lunes al mediodía	weather_query	O O O O B-date O B-timeofday	weather	es-ES
+qué será el día quince de marzo	datetime_query	O O O O O O O	datetime	es-ES
+quiero la fecha del último lunes de este mes	datetime_query	O O O O B-date I-date I-date I-date I-date	datetime	es-ES
+cuál es la hora en india cuando la hora en estados unidos es a las doce de la noche	datetime_convert	O O O O O B-place_name O O O O B-place_name I-place_name O O O B-time I-time I-time I-time	datetime	es-ES
+dime qué hora es	datetime_query	O O O O	datetime	es-ES
+encuéntrame el mejor chiste de toc toc en internet	general_joke	O O O O O B-joke_type I-joke_type O O	general	es-ES
+como estará el tiempo el lunes de esta semana	weather_query	O O O O O B-date I-date I-date I-date	weather	es-ES
+tu receta de filete de ternera era magnífica	cooking_recipe	O O O B-food_type I-food_type I-food_type O O	cooking	es-ES
+qué está sucediendo en el mundo hoy	news_query	O O O O O O B-date	news	es-ES
+que día es el cinco de diciembre	datetime_query	O O O O B-date I-date I-date	datetime	es-ES
+oye	general_greet	O	general	es-ES
+quiero las noticias sobre los premios de la academia	news_query	O O O O O B-news_topic I-news_topic I-news_topic I-news_topic	news	es-ES
+dime la hora actual en ottawa	datetime_query	O O O O O B-place_name	datetime	es-ES
+cómo va a estar el tiempo hoy	weather_query	O O O O O O B-date	weather	es-ES
+hace calor hoy no es así	weather_query	O B-weather_descriptor B-date O O O	weather	es-ES
+hace mucho calor hoy no es así	weather_query	O O B-weather_descriptor B-date O O O	weather	es-ES
+cien mil doscientas veintitrés	datetime_query	O O O O	datetime	es-ES
+cómo va a estar el tiempo esta semana	weather_query	O O O O O O B-date I-date	weather	es-ES
+cambia al ajuste de luz nocturna	iot_hue_lightchange	O O O O O O	iot	es-ES
+sube el volumen un poco	audio_volume_up	O O O O O	audio	es-ES
+puedo hacer un pedido para llevar al taco bell	takeaway_query	O O O O B-order_type I-order_type O B-business_name I-business_name	takeaway	es-ES
+pídeme comida para llevar	takeaway_order	O O B-order_type I-order_type	takeaway	es-ES
+encontrar y poner en cola todas las canciones de kate perry y reproducir todo sin aleatorio	play_music	O O O O O O O O O B-artist_name I-artist_name O O O B-player_setting I-player_setting	play	es-ES
+haz una lista de reproducción de todas las canciones de eminem y juega con aleatorio	play_music	O O O O O O O O O O B-artist_name O O O B-player_setting	play	es-ES
+va a nevar esta semana	weather_query	O O B-weather_descriptor B-date I-date	weather	es-ES
+pon música	play_music	O O	play	es-ES
+buscar chistes nuevos	general_joke	O O B-joke_type	general	es-ES
+quiero escuchar rock suave	play_music	O O B-music_genre I-music_genre	play	es-ES
+quiero escuchar música animada	play_music	O O O B-music_descriptor	play	es-ES
+pon el top diez de billboard	play_music	O O O O O O	play	es-ES
+me puedes dar un pronóstico de diez días de mi zona	weather_query	O O O O O O B-time I-time O O O	weather	es-ES
+dime el pronóstico del tiempo para esta semana por favor	weather_query	O O O O O O B-date I-date O O	weather	es-ES
+ponme algo de pop	play_music	O O O B-music_genre	play	es-ES
+pon música de la playlist	play_music	O O O O O	play	es-ES
+puedo tener un espresso por favor	iot_coffee	O O O B-coffee_type O O	iot	es-ES
+ollye enciende la aspiradora	iot_cleaning	O O O B-device_type	iot	es-ES
+puedes encender la roomba	iot_cleaning	O O O B-device_type	iot	es-ES
+envíame una alerta sobre todos los nuevos temas de política	news_query	O O O O O O O O O B-news_topic	news	es-ES
+clasificación	music_likeness	O	music	es-ES
+a. m. o p. m.	alarm_query	O O O O O	alarm	es-ES
+cuáles son los últimos artículos de noticias de yahoo	news_query	O O O O O O B-media_type I-media_type I-media_type	news	es-ES
+encuéntrame alguna noticia de muy limpio las últimas seis horas	news_query	O O O O B-media_type I-media_type O B-time I-time I-time	news	es-ES
+qué música está poniendo actualmente novecientos noventa y nueve f. m.	music_query	O O O O O O O O O O O	music	es-ES
+sube el volumen de la música a noventa	audio_volume_up	O O O O O O B-change_amount I-change_amount	audio	es-ES
+es un sí o no que la temperatura de mañana será cálida	weather_query	O O O O O O O B-weather_descriptor O B-date O B-weather_descriptor	weather	es-ES
+pronóstico del tiempo de esta semana	weather_query	O O O O B-date I-date	weather	es-ES
+quién es el artista de la canción que está sonando ahora	music_query	O O O O O O O O O O O	music	es-ES
+no me gusta esta canción apágala	music_dislikeness	O O O O O O	music	es-ES
+de las diez a las once de la mañana todos los días pongo mi robot aspiradora	iot_cleaning	O O B-time O O B-time I-time I-time I-time B-general_frequency I-general_frequency I-general_frequency O O B-device_type I-device_type	iot	es-ES
+cuál será la temperatura más alta la próxima semana	weather_query	O O O B-weather_descriptor O O B-date I-date I-date	weather	es-ES
+comprueba que la alarma está puesta hoy a las diez de la mañana	alarm_query	O O O O O O B-date O O B-time I-time I-time I-time	alarm	es-ES
+pon enrique	play_music	O B-artist_name	play	es-ES
+jugar a rafael	play_music	O O B-artist_name	play	es-ES
+es posible que proporciones los gustos de mi música	music_query	O O O O O O O O O	music	es-ES
+las últimas noticias sobre españa	news_query	O O O O B-place_name	news	es-ES
+necesito un poco más de luces	iot_hue_lightup	O O O O O O	iot	es-ES
+dime la hora actual	datetime_query	O O O O	datetime	es-ES
+mi cantante favorita es shakira	music_likeness	O O O O B-artist_name	music	es-ES
+qué está pasando en madrid	news_query	O O O O B-place_name	news	es-ES
+pon mis canciones más escuchadas	play_music	O O O O O	play	es-ES
+ve a youtube y ponme las mejores canciones de boda de la colección	play_music	O O B-media_type O O O B-playlist_name I-playlist_name I-playlist_name I-playlist_name O O O	play	es-ES
+tráeme las noticias tecnológicas más actuales	news_query	O O O B-news_topic O O	news	es-ES
+añade esa canción a mi lista de los diez favoritas	music_likeness	O O O O O O O O O O	music	es-ES
+esa canción era increíble puedes repetirla	music_likeness	O O O O O O	music	es-ES
+dame poca luz en la cocina	iot_hue_lightdim	O O O O O B-house_place	iot	es-ES
+guarda esa canción y mi opinion	music_likeness	O O O O O O	music	es-ES
+actualizarme con los resultados de las elecciones	news_query	O O O O O O B-news_topic	news	es-ES
+que dicen los analistas sobre las nuevas políticas de inmigración	news_query	O O O O O O O B-news_topic I-news_topic I-news_topic	news	es-ES
+estado del pedido del restaurante	takeaway_query	O O O O B-business_type	takeaway	es-ES
+avísame a las cinco horas	alarm_set	O O O B-time O	alarm	es-ES
+enciende mi aspiradora robot de limpieza	iot_cleaning	O O O B-device_type O O	iot	es-ES
+toca musica	play_music	O O	play	es-ES
+cuál es el grupo de fecha y hora actual	datetime_query	O O O O O O O O O	datetime	es-ES
+comienza con la limpieza de la casa	iot_cleaning	O O O O O O B-house_place	iot	es-ES
+apaga la luz	iot_hue_lightoff	O O O	iot	es-ES
+broma graciosa	general_joke	O B-joke_type	general	es-ES
+qué canción está sonando actualmente	music_query	O O O O O	music	es-ES
+guarda la información proporcionada por aman en esta canción	music_likeness	O O O O O B-artist_name O O O	music	es-ES
+hey alexa enciende las luces de discoteca en mi piso y que empiece la fiesta	iot_hue_lighton	O O O O B-device_type I-device_type I-device_type O O B-house_place O O O O O	iot	es-ES
+por favor apaga	audio_volume_mute	O O O	audio	es-ES
+por favor pon rap	play_music	O O O B-music_genre	play	es-ES
+cómo estará el tiempo esta semana	weather_query	O O O O B-date I-date	weather	es-ES
+qué día tan soleado	weather_query	O O O B-weather_descriptor	weather	es-ES
+está la reunión programada para mañana	calendar_query	O O B-event_name O O B-date	calendar	es-ES
+está nublado hoy	weather_query	O B-weather_descriptor B-date	weather	es-ES
+toca el botón de silencio	audio_volume_mute	O O O O O	audio	es-ES
+pon una cover reciente de aitana	play_music	O O B-song_name I-song_name O B-artist_name	play	es-ES
+vamos a oír algo de country y salsa que no sea de los estados unidos	play_music	O O O O O B-music_genre O B-music_genre O O O O O O O	play	es-ES
+comprobar el título de la música que se está reproduciendo actualmente	music_query	O O O O O O O O O O O	music	es-ES
+hace envíos a domicilio el dragón de oro	takeaway_query	O O B-order_type I-order_type O B-business_name I-business_name I-business_name	takeaway	es-ES
+reproducir mi última lista de reproducción usada	play_music	O O O O O O O	play	es-ES
+dame la hora en madrid	datetime_query	O O O O B-place_name	datetime	es-ES
+pon pop	play_music	O B-music_genre	play	es-ES
+fija el ambiente por favor	iot_hue_lightchange	O O O O O	iot	es-ES
+convierte las luces azul	iot_hue_lightchange	O O O B-color_type	iot	es-ES
+pon las luces del salón rojo	iot_hue_lightchange	O O O O B-house_place B-color_type	iot	es-ES
+olly dime el tiempo de cádiz	weather_query	O O O O O B-place_name	weather	es-ES
+siri que tiempo hace afuera	weather_query	O O O O O	weather	es-ES
+que día era en mi fecha de nacimiento	datetime_query	O O O O O B-date I-date I-date	datetime	es-ES
+cual es el titulo de la canción que esta sonando	music_query	O O O O O O O O O O	music	es-ES
+puedes decirme que hora es	datetime_query	O O O O O	datetime	es-ES
+clima el lunes	weather_query	O O B-date	weather	es-ES
+tiempo el martes	weather_query	O O B-date	weather	es-ES
+repetir canción	music_settings	O O	music	es-ES
+me puedes decir las condiciones del tiempo ahora	weather_query	O O O O O O O O	weather	es-ES
+puedes por favor apagar la luz de mi dormitorio	iot_hue_lightoff	O O O O O O O O B-house_place	iot	es-ES
+oye compárteme algún chiste para hacerme feliz	general_joke	O O O O O O O	general	es-ES
+cuántas semanas faltan para navidad	datetime_query	O O O O B-event_name	datetime	es-ES
+tienes alguna noticia de los proveedores de noticias	news_query	O O O O O O O O	news	es-ES
+el tiempo en la casa de campo	weather_query	O O O O B-place_name I-place_name I-place_name	weather	es-ES
+por favor convertir nueve de la mañana huso horario a madrid	datetime_convert	O O O B-time I-time I-time I-time B-place_name I-place_name O B-place_name	datetime	es-ES
+apaga la luz del armario	iot_hue_lightoff	O O O O O	iot	es-ES
+pon david bisbal	play_music	O B-artist_name I-artist_name	play	es-ES
+pon mis canciones de pop mejor valoradas por favor	play_music	O O O O B-music_genre B-music_descriptor I-music_descriptor O O	play	es-ES
+establece el color azul para todas las luces de mi casa	iot_hue_lightchange	O O O B-color_type O O O O O O O	iot	es-ES
+soy para siempre del hip hop	music_likeness	O O O O B-music_genre I-music_genre	music	es-ES
+solo baja las luces a siete	iot_hue_lightdim	O O O O B-change_amount I-change_amount	iot	es-ES
+baja las luces a siete	iot_hue_lightdim	O O O B-change_amount I-change_amount	iot	es-ES
+minimiza la potencia de la luz	iot_hue_lightdim	O O O O O O	iot	es-ES
+qué tiempo hará el siete	weather_query	O O O B-date I-date	weather	es-ES
+silencia el altavoz por favor	audio_volume_mute	O O O O O	audio	es-ES
+cuál es el nombre de la música que se está reproduciendo ahora	music_query	O O O O O O O O O O O O	music	es-ES
+sube el volumen	audio_volume_up	O O O	audio	es-ES
+que canción es esta	music_query	O O O O	music	es-ES
+quiero escuchar loco	play_music	O O B-song_name	play	es-ES
+pon de manera aleatoria el álbum de canciones actual	music_settings	O O O O O O O O O	music	es-ES
+que actualizaciones de noticias hay en el pais	news_query	O O O O O O B-media_type I-media_type	news	es-ES
+que novedades hay en canal veinticuatro horas	news_query	O O O O B-media_type I-media_type I-media_type	news	es-ES
+qué está pasando en el abc	news_query	O O O O O B-media_type	news	es-ES
+dime qué hora es	datetime_query	O O O O	datetime	es-ES
+dime que hora es en la india	datetime_query	O O O O O O B-place_name	datetime	es-ES
+qué alarmas están surgiendo	alarm_query	O O O O	alarm	es-ES
+olly apaga las luces	iot_hue_lightoff	O O O O	iot	es-ES
+hay alguna manera de recibir las últimas noticias sobre pedro sánchez	news_query	O O O O O O O O O B-news_topic I-news_topic	news	es-ES
+enciende las luces	iot_hue_lighton	O O O	iot	es-ES
+pide para llevar	takeaway_order	O B-order_type I-order_type	takeaway	es-ES
+atenuarás todas las luces	iot_hue_lightdim	O O O O	iot	es-ES
+dame la noticia	news_query	O O O	news	es-ES
+luces reducidas	iot_hue_lightdim	O O	iot	es-ES
+como está el tiempo esta semana	weather_query	O O O O B-date I-date	weather	es-ES
+dime el tiempo para esta semana	weather_query	O O O O B-date I-date	weather	es-ES
+hola cómo enciendo el robot aspirador	iot_cleaning	O O O O B-device_type I-device_type	iot	es-ES
+por favor ayúdame a encender el robot aspiradora	iot_cleaning	O O O O O O B-device_type I-device_type	iot	es-ES
+quiero escuchar algo de rock moderno	play_music	O O O O B-music_genre I-music_genre	play	es-ES
+cual es el estado de mi ultimo pedido	takeaway_query	O O O O O O O O	takeaway	es-ES
+como esta afuera	weather_query	O O O	weather	es-ES
+que día de la semana es dia de san valentín	datetime_query	O O O O O O O O O O	datetime	es-ES
+dime el tiempo en málaga andalucía	weather_query	O O O O B-place_name I-place_name	weather	es-ES
+quiero algo de música qué tal si pones mi playlist de ejercicio	play_music	O O O O O O O O O B-playlist_name I-playlist_name I-playlist_name	play	es-ES
+pon una alarma para mañana por la mañana a las ocho	alarm_set	O O O O B-date O O B-date O O B-time	alarm	es-ES
+por favor baja las luces de mi habitación	iot_hue_lightdim	O O O O O O O B-house_place	iot	es-ES
+dime el nombre del artista	music_query	O O O O O	music	es-ES
+cuál es el nombre de la canción	music_query	O O O O O O O	music	es-ES
+que pasa en las noticias internacionales de hoy	news_query	O O O O O B-place_name O B-date	news	es-ES
+cuáles son las últimas noticias internacionales	news_query	O O O O O B-place_name	news	es-ES
+me gustaria cafe ahora	iot_coffee	O O O O	iot	es-ES
+apaga mi lámpara de noche por favor	iot_hue_lightoff	O O B-device_type I-device_type I-device_type O O	iot	es-ES
+por favor inicia aspiradora	iot_cleaning	O O O B-device_type	iot	es-ES
+inicia la aspiradora ahora	iot_cleaning	O O B-device_type O	iot	es-ES
+silencia todas las respuestas ahora	audio_volume_mute	O O O O O	audio	es-ES
+por favor no hablar	audio_volume_mute	O O O O	audio	es-ES
+tenemos alguna novedad del nuevo proveedor	news_query	O O O O B-media_type I-media_type	news	es-ES
+qué hay de nuevo en el espacio en blanco	news_query	O O O O O O O O B-news_topic	news	es-ES
+pon adele	play_music	O B-artist_name	play	es-ES
+cuál es el pronóstico del tiempo en barcelona	weather_query	O O O O O O O B-place_name	weather	es-ES
+nevará la semana que viene	weather_query	O B-date I-date I-date I-date	weather	es-ES
+qué está haciendo con el tema de las personas sin hogar en el ayuntamiento de seattle sobre la falta de vivienda	news_query	O O O O O O O O O O O O O O O B-place_name O O O O O	news	es-ES
+dime las noticias de el mundo	news_query	O O O O B-media_type I-media_type	news	es-ES
+cuántas alarmas tengo puestas para las horas de la mañana entre las seis y las nueve	alarm_query	O O O O B-timeofday I-timeofday I-timeofday I-timeofday I-timeofday I-timeofday B-time I-time I-time I-time I-time I-time	alarm	es-ES
+abre lista de reproducción	play_music	O O O O	play	es-ES
+confirmen el pedido	takeaway_order	O O O	takeaway	es-ES
+prepárame una taza de café	iot_coffee	O O O O O	iot	es-ES
+quiero escuchar rock	play_music	O O B-music_genre	play	es-ES
+ok google pon música rock	play_music	O O O O B-music_genre	play	es-ES
+corta la electricidad	iot_hue_lightoff	O O O	iot	es-ES
+poner alarma a las cinco y media	alarm_set	O O O O B-time I-time I-time	alarm	es-ES
+puedo recibir la entrega de este restaurante	takeaway_query	O O O B-order_type O O B-business_type	takeaway	es-ES
+mi restaurante favorito hace pedidos para llevar	takeaway_query	O B-business_type O O O B-order_type I-order_type	takeaway	es-ES
+ofertan para llevar	takeaway_query	O B-order_type I-order_type	takeaway	es-ES
+poner en marcha la cafetera	iot_coffee	O O O O B-device_type	iot	es-ES
+cuales son las noticias de política	news_query	O O O O O B-news_topic	news	es-ES
+enseñame la hora	datetime_query	O O O	datetime	es-ES
+pon música del género jazz	play_music	O O O O B-music_genre	play	es-ES
+que fecha cae el próximo sábado	datetime_query	O O O O O B-date	datetime	es-ES
+ganaron los españoles anoche	news_query	O O O B-date	news	es-ES
+silenciar el sonido de los altavoces	audio_volume_mute	O O O O O O	audio	es-ES
+iluminar las luces del salón	iot_hue_lightup	O O O O B-house_place	iot	es-ES
+haz algo de cafe	iot_coffee	O O O O	iot	es-ES
+cambia los colores de la luz de azul a blanco	iot_hue_lightchange	O O O O O O O B-color_type O B-color_type	iot	es-ES
+haz que las luces de la casa se pongan rojas	iot_hue_lightchange	O O O O O O B-house_place O O B-color_type	iot	es-ES
+en qué día cae el diez de abril	datetime_query	O O O O O B-date I-date I-date	datetime	es-ES
+por favor haz que la aspiradora funcione por una hora	iot_cleaning	O O O O O B-device_type O O B-time I-time	iot	es-ES
+dime la fecha hoy	datetime_query	O O O B-date	datetime	es-ES
+ajusta las luces del salón a rojo	iot_hue_lightchange	O O O O B-house_place O B-color_type	iot	es-ES
+cómo va el envío del restaurante	takeaway_query	O O O B-order_type O B-business_type	takeaway	es-ES
+escucha esta canción	music_query	O O O	music	es-ES
+la pizzería juan tiene para llevar verdad	takeaway_query	O B-business_name I-business_name O B-order_type I-order_type O	takeaway	es-ES
+cambia el color de la luz a azul	iot_hue_lightchange	O O O O O O O B-color_type	iot	es-ES
+dime mis alarmas	alarm_query	O O O	alarm	es-ES
+por favor borra cualquier alarma que yo tenga activada	alarm_remove	O O O O O O O O O	alarm	es-ES
+por favor saca el artículo sobre cuidador de perro en la noticias de la mañana	news_query	O O O O O O O O B-news_topic O O B-media_type I-media_type I-media_type I-media_type	news	es-ES
+cómo está el tiempo aquí	weather_query	O O O O O	weather	es-ES
+pide sandwiches de ensaladilla para llevar	takeaway_order	O B-food_type I-food_type I-food_type O O	takeaway	es-ES
+hay nuevos videos en youtube de el pais	news_query	O O O O B-media_type O B-media_type I-media_type	news	es-ES
+siguiente reproducción despacito	play_music	O O B-song_name	play	es-ES
+reproducir mi lista de reproducción country	play_music	O O O O O B-music_genre	play	es-ES
+pon mi segunda lista de reproducción	play_music	O O B-playlist_name I-playlist_name I-playlist_name I-playlist_name	play	es-ES
+cual es la cita de hoy	datetime_query	O O O O B-date I-date	datetime	es-ES
+alexa apaga el ventilador en la habitación principal	iot_wemo_off	O O O B-device_type O O O O	iot	es-ES
+alexa por favor guarda la canción actual en mis favoritas	music_likeness	O O O O O O O O O O	music	es-ES
+me encanta el hip hop	music_likeness	O O O B-music_genre I-music_genre	music	es-ES
+por favor pon mi canción favorita de bruno mars	play_music	O O O O O O O B-artist_name I-artist_name	play	es-ES
+por favor prepara el café	iot_coffee	O O O O O	iot	es-ES
+baja las luces	iot_hue_lightdim	O O O	iot	es-ES
+modo noche	iot_hue_lightdim	O O	iot	es-ES
+noticias de tecnología de última hora	news_query	O O B-news_topic O O O	news	es-ES
+titulares de tecnología recientes	news_query	O O B-news_topic O	news	es-ES
+pon la siguiente canción	play_music	O O O O	play	es-ES
+en qué año se creó la canción	music_query	O O O O O O O	music	es-ES
+encuentra mi comida	takeaway_query	O O O	takeaway	es-ES
+acumulación de predicciones de nieve en búfalo	weather_query	O O B-weather_descriptor I-weather_descriptor I-weather_descriptor O B-place_name	weather	es-ES
+siri temas de noticias calientes de tendencias	news_query	O O O O O O B-news_topic	news	es-ES
+próxima alarma	alarm_query	O O	alarm	es-ES
+tengo muchas ganas de comida china ahora mismo por favor déjame pedir comida para llevar	takeaway_order	O O O O O B-food_type O O O O O O O O O	takeaway	es-ES
+lo que es nuevo en la política de hoy puede filtrar noticias trump	news_query	O O O O O O B-news_topic O B-date O O O B-person	news	es-ES
+necesito dos pizzas	takeaway_order	O O B-food_type	takeaway	es-ES
+pon una canción	play_music	O O O	play	es-ES
+apaga la luz	iot_hue_lightoff	O O O	iot	es-ES
+la temperatura del sur es soleada	weather_query	O B-weather_descriptor O O O B-weather_descriptor	weather	es-ES
+pon algo de música	play_music	O O O O	play	es-ES
+en qué lugares puedo pedir comida para llevar cerca	takeaway_order	O O O O O O B-order_type I-order_type O	takeaway	es-ES
+baja tu volumen por favor	audio_volume_down	O O O O O	audio	es-ES
+a qué hora esta ajustada mi alarma de despertar	alarm_query	O O O O O O O O O	alarm	es-ES
+tengo alguna alarma para mañana por la mañana	alarm_query	O O O O B-date O O B-date	alarm	es-ES
+eliminar mis alarmas tempranas	alarm_remove	O O O O	alarm	es-ES
+reproducir lista de reproducción de música de canal clásico	play_music	O O O O O O O B-music_genre I-music_genre	play	es-ES
+haz que esa canción suene a continuación	play_music	O O O O O O O	play	es-ES
+cuál es el nombre del cantante de este grupo	music_query	O O O O O O O O O	music	es-ES
+apagar	iot_wemo_off	O	iot	es-ES
+siri pon mi playlist de pop	play_music	O O O O O B-music_genre	play	es-ES
+dime si hay alguna nueva noticia sobre ese tema	news_query	O O O O O O O O O	news	es-ES
+debieras saber que me gusta el jazz	music_likeness	O O O O O O B-music_genre	music	es-ES
+por favor revisa mi lista de reproducción	music_likeness	O O O O O O O	music	es-ES
+puede poner la alarma para las diez y media	alarm_set	O O O O O O B-time I-time I-time	alarm	es-ES
+cancelar alarma para mañana	alarm_remove	O O O B-date	alarm	es-ES
+cuál es la hora central actual	datetime_query	O O O O B-time_zone O	datetime	es-ES
+borrar alarmas para mañana	alarm_remove	O O O B-date	alarm	es-ES
+olly baja las luces por favor	iot_hue_lightdim	O O O O O O	iot	es-ES
+lloverá mañana en madrid	weather_query	O B-date O B-place_name	weather	es-ES
+qué hora es en madrid	datetime_query	O O O O B-place_name	datetime	es-ES
+cuanto tiempo de diferencia hay entre la hora este y la hora pacífico	datetime_convert	O O O O O O O B-time_zone I-time_zone O O B-time_zone I-time_zone	datetime	es-ES
+hace el restaurante chino cercano entregas	takeaway_query	O O B-business_type B-food_type O B-order_type	takeaway	es-ES
+cómo está el tiempo en barcelona	weather_query	O O O O O B-place_name	weather	es-ES
+ok google que tiempo hace	weather_query	O O O O O	weather	es-ES
+bajar la iluminación	iot_hue_lightdim	O O O	iot	es-ES
+por favor enciende el enchufe de mi wemo	iot_wemo_on	O O O O B-device_type I-device_type I-device_type I-device_type	iot	es-ES
+qué tiempo hará la semana que viene	weather_query	O O O O B-date I-date I-date	weather	es-ES
+cómo repetir esta canción	music_query	O O O O	music	es-ES
+que musica es	music_query	O O O	music	es-ES
+sube las luces por favor	iot_hue_lightup	O O O O O	iot	es-ES
+pon una playlist romántica	play_music	O O B-playlist_name I-playlist_name	play	es-ES
+en qué día de la semana cae el diez de este mes	datetime_query	O O O O O O O O B-date O B-date I-date	datetime	es-ES
+ve a dormir	audio_volume_mute	O O O	audio	es-ES
+me gustaría una alarma despertador mañana a las siete de la mañana	alarm_set	O O O O B-alarm_type B-date O O O O O B-date	alarm	es-ES
+por favor enciende todas las luces de fuera	iot_hue_lighton	O O O O O O O O	iot	es-ES
+aumenta el volumen por favor	audio_volume_up	O O O O O	audio	es-ES
+consigue las noticias actuales sobre el cese del gobierno	news_query	O O O O O O B-news_topic I-news_topic I-news_topic	news	es-ES
+pon música de los beatles	play_music	O O O O B-artist_name	play	es-ES
+noche	general_quirky	O	general	es-ES
+consígueme comida para llevar	takeaway_order	O O B-order_type I-order_type	takeaway	es-ES
+pon algo romantico	play_music	O O B-music_genre	play	es-ES
+hará bueno en la playa el viernes	weather_query	O B-weather_descriptor O O B-place_name O B-date	weather	es-ES
+reproducir el cuarto álbum de afi	play_music	O O O O B-artist_name I-artist_name	play	es-ES
+por favor házme un café	iot_coffee	O O O O O	iot	es-ES
+qué día va a estar lloviendo esta semana	weather_query	O O O O O B-weather_descriptor B-date I-date	weather	es-ES
+como está el tiempo esta semana	weather_query	O O O O B-date I-date	weather	es-ES
+poner alarma a la una de la tarde	alarm_set	O O O O B-time I-time I-time I-time	alarm	es-ES
+qué es lo último sobre las elecciones españolas	news_query	O O O O O O B-news_topic I-news_topic	news	es-ES
+por favor haz un cafe para mi	iot_coffee	O O O O O O O	iot	es-ES
+hoy hace sol	weather_query	O B-weather_descriptor I-weather_descriptor	weather	es-ES
+cómo está el tiempo en segovia ahora	weather_query	O O O O O B-place_name O	weather	es-ES
+quiero escuchar mi playlist me la pones	play_music	O O O O O O O	play	es-ES
+olly pon ateo de c tangana	play_music	O O B-song_name O B-artist_name I-artist_name	play	es-ES
+qué calor hace en mallorca	weather_query	O B-weather_descriptor O O B-place_name	weather	es-ES
+que hora es en granada andalucía	datetime_query	O O O O B-place_name I-place_name	datetime	es-ES
+que hora es en barcelona cataluña	datetime_query	O O O O B-place_name I-place_name	datetime	es-ES
+hará demasiado frío para un vestido el domingo	weather_query	O O B-weather_descriptor O O O O B-date	weather	es-ES
+puedo escuchar algo de rosalía	play_music	O O O O B-artist_name	play	es-ES
+esto es muy brillante	iot_hue_lightdim	O O O O	iot	es-ES
+pedir dos pizzas grandes y alitas de pollo picantes del domino's pizza	takeaway_order	O O B-food_type O B-food_type I-food_type I-food_type I-food_type I-food_type O B-business_name I-business_name	takeaway	es-ES
+cuáles son la fechas y la hora de hoy	datetime_query	O O O O O O O O B-date	datetime	es-ES
+reproducir mi lista de reproducción actual desde arriba	play_music	O O O O O O O O	play	es-ES
+toca mi canción country favorita	play_music	O O B-music_genre O O	play	es-ES
+qué hora es en valencia ahora mismo	datetime_query	O O O O B-place_name O O	datetime	es-ES
+olly que hora es en españa ahora mismo	datetime_query	O O O O O B-place_name O O	datetime	es-ES
+por favor pon llámame después de aretha franklin	play_music	O O O O O O B-artist_name I-artist_name	play	es-ES
+dime que hora es	datetime_query	O O O O	datetime	es-ES
+las últimas noticias de telecinco	news_query	O O O O B-news_topic	news	es-ES
+después de esta ponme grito rebelde	play_music	O O O O B-song_name I-song_name	play	es-ES
+quiero escuchar algo de jazz	play_music	O O O O B-music_genre	play	es-ES
+muestra el tiempo de una semana en madrid	weather_query	O O O O B-date I-date O B-place_name	weather	es-ES
+por favor apaga el enchufe inteligente	iot_wemo_off	O O O O B-device_type I-device_type	iot	es-ES
+enciende el enchufe wemo	iot_wemo_on	O O B-device_type I-device_type	iot	es-ES
+baja el volumen del altavoz	audio_volume_down	O O O O O	audio	es-ES
+enciende roomba	iot_cleaning	O B-device_type	iot	es-ES
+pídeme comida china	takeaway_order	O O B-food_type	takeaway	es-ES
+qué persona hizo esta canción que está sonando en la radio	music_query	O O O O O O O O O O O	music	es-ES
+cual es la puntuación en la liga de campeones ahora mismo	news_query	O O O O O O B-news_topic I-news_topic I-news_topic O O	news	es-ES
+cuál es el titular de diario sur	news_query	O O O O O B-media_type I-media_type	news	es-ES
+cómo estará el tiempo el resto de la semana	weather_query	O O O O O B-date I-date I-date I-date	weather	es-ES
+va a hacer tiempo para llevar chanclas pronto	weather_query	O O O B-weather_descriptor I-weather_descriptor I-weather_descriptor I-weather_descriptor O	weather	es-ES
+cómo está el clima ahora mismo	weather_query	O O O O O O	weather	es-ES
+por favor aumente la luz	iot_hue_lightup	O O O O O	iot	es-ES
+va a nevar la próxima semana	weather_query	O O B-weather_descriptor B-date I-date I-date	weather	es-ES
+por favor borra la alarma el miércoles por la noche	alarm_remove	O O O O O O B-date O O B-timeofday	alarm	es-ES
+cuánta nieve ha caído en gijón hoy	weather_query	O B-weather_descriptor O O O B-place_name B-date	weather	es-ES
+guarda el género de éstas canciones para mi	music_likeness	O O O O O O O O	music	es-ES
+me gustaría que rercordases que me gusta esta canción	music_likeness	O O O O O O O O O	music	es-ES
+después de esta canción pon thriller	play_music	O O O O O B-song_name	play	es-ES
+avísame en tres horas	alarm_set	O O B-time I-time	alarm	es-ES
+indie	play_music	O	play	es-ES
+cómo está el tiempo ahora mismo	weather_query	O O O O O O	weather	es-ES
+dime que esta pasando en la política europea	news_query	O O O O O O B-news_topic I-news_topic	news	es-ES
+quiero saber quién está en las posiciones más altas de la liga española en este momento	news_query	O O O O O O O O O O O B-news_topic I-news_topic O O O	news	es-ES
+alexa qué noticias hay en mi zona	news_query	O O O O O O O	news	es-ES
+es hora de escuchar un poco de rafael	play_music	O O O O O O O B-artist_name	play	es-ES
+enciende la repetición	music_settings	O O B-player_setting	music	es-ES
+ve limpiando	iot_cleaning	O O	iot	es-ES
+cuál es el mejor día de la proxima semana para ir a comer pizza	datetime_query	O O O O O O B-date I-date I-date O O O O B-food_type	datetime	es-ES
+qué tipo de tiempo puedo esperar hoy	weather_query	O O O O O O B-date	weather	es-ES
+que hora es en nueva york	datetime_query	O O O O B-place_name I-place_name	datetime	es-ES
+por favor poner una alarma a las ocho de la mañana	alarm_set	O O O O O O O B-time I-time I-time I-time	alarm	es-ES
+añadir un montón de james taylor joni mitchell y cat stevens a la lista de reproducción	play_music	O O O O B-artist_name I-artist_name I-artist_name I-artist_name O B-artist_name I-artist_name O O O O O	play	es-ES
+puedes ponerme algo de música dance	play_music	O O O O B-music_genre I-music_genre	play	es-ES
+reproducir canciones de la lista de reproducción	play_music	O O O O O O O	play	es-ES
+que alarmas he puesto ahora mismo	alarm_query	O O O O O O	alarm	es-ES
+cuál será la temperatura hoy de jaén andalucía	weather_query	O O O B-weather_descriptor B-date O B-place_name I-place_name	weather	es-ES
+cargar spotify	play_music	O B-app_name	play	es-ES
+oye cuentame un chiste	general_joke	O O O O	general	es-ES
+me gustaría pedir algo de comida china para esta noche quén envía	takeaway_order	O O O O O O B-food_type O B-timeofday I-timeofday O O	takeaway	es-ES
+oye siri prueba los ajustes de luz actuales	iot_hue_lightchange	O O O O O O O O	iot	es-ES
+he escuchado este riff antes qué canción robó este riff que es exáctamente el mismo	music_query	O O O O O O O O O O O O O O O	music	es-ES
+borrar las alarmas para las cuatro de la mañana	alarm_remove	O O O O O B-time I-time I-time I-time	alarm	es-ES
+mañana habrá más de treinta y dos grados	weather_query	O O B-weather_descriptor I-weather_descriptor I-weather_descriptor I-weather_descriptor I-weather_descriptor O	weather	es-ES
+reproducir mí canción favorita del último año	play_music	O O O O O B-date I-date	play	es-ES
+por favor no contestes	audio_volume_mute	O O O O	audio	es-ES
+puedes apagar mi lámpara de escritorio	iot_hue_lightoff	O O O B-device_type I-device_type I-device_type	iot	es-ES
+lámpara del escritorio una vez	iot_hue_lightoff	O O O O O	iot	es-ES
+luz aumentada	iot_hue_lightup	O O	iot	es-ES
+voy a necesitar llevarme un paraguas al trabajo hoy	weather_query	O O O O O B-weather_descriptor O O B-date	weather	es-ES
+me puedo poner pantalones cortos hoy mientras compramos	weather_query	O O O B-weather_descriptor I-weather_descriptor B-date O O	weather	es-ES
+pon musica de rosalia	play_music	O O O B-artist_name	play	es-ES
+pon el último álbum de alejandro sanz	play_music	O O O O O B-artist_name I-artist_name	play	es-ES
+poner una alarma para las diez en punto mañana por la mañana	alarm_set	O O O O O B-time O O B-date O O B-date	alarm	es-ES
+despiértame a las diez	alarm_set	O O O B-time	alarm	es-ES
+pon princesa de pereza	play_music	O B-song_name O B-artist_name	play	es-ES
+déjame entrega cerca de mí	takeaway_order	O B-order_type O O O	takeaway	es-ES
+abre internet	takeaway_order	O O	takeaway	es-ES
+déjame escuchar algo de música	play_music	O O O O O	play	es-ES
+quiero escuchar música genial	play_music	O O O O	play	es-ES
+sube la luz de la lampara	iot_hue_lightup	O O B-device_type I-device_type I-device_type I-device_type	iot	es-ES
+por favor sube el volumen al maximo en los ajustes	audio_volume_up	O O O O O O B-change_amount O O O	audio	es-ES
+silencia el audio	audio_volume_mute	O O O	audio	es-ES
+detener el audio	audio_volume_mute	O O O	audio	es-ES
+lloverá esta semana	weather_query	O B-date I-date	weather	es-ES
+apaga todas las luces interiores	iot_hue_lightdim	O O O O B-house_place	iot	es-ES
+podré salirme con pantalones cortos hoy	weather_query	O O O O B-weather_descriptor B-date	weather	es-ES
+debería ponerme capas hoy	weather_query	O O B-weather_descriptor B-date	weather	es-ES
+cambia mi luz a otra aleatoria	iot_hue_lightchange	O O O O O B-color_type	iot	es-ES
+dame el mas nuevo de el país	news_query	O O O O O B-media_type I-media_type	news	es-ES
+silenciar la configuraciones	audio_volume_mute	O O O	audio	es-ES
+se supone que va a nevar esta semana	weather_query	O O O O O O B-date I-date	weather	es-ES
+cambia el color de las luces	iot_hue_lightchange	O O O O O O	iot	es-ES
+día veintidós de abril	datetime_query	O B-date I-date I-date	datetime	es-ES
+qué tan pronto podemos esperar lluvia	weather_query	O O O O O B-weather_descriptor	weather	es-ES
+las predicciones meteorológicas que me diste son para la ciudad equivocada quiero saber la temperatura en la que estoy	weather_query	O O O O O O O O O O O O O O O O O O O	weather	es-ES
+pide una hamburguesa doble de beicon con queso con beicon y queso amarillo	takeaway_order	O O O O O B-food_type O O O B-food_type O B-food_type I-food_type	takeaway	es-ES
+pon pereza	play_music	O B-playlist_name	play	es-ES
+actualización sobre el gorila copito de nieve	news_query	O O O B-news_topic B-date I-date I-date	news	es-ES
+cómo va a estar el tiempo esta semana	weather_query	O O O O O O B-date I-date	weather	es-ES
+enciende las luces de aqui por favor	iot_hue_lightup	O O O O O O O	iot	es-ES
+sube el volumen del altavoz	audio_volume_up	O O O O O	audio	es-ES
+la hora es diferente en madrid	datetime_query	O O O O O B-place_name	datetime	es-ES
+digame que ofertas de catering tienen disponibles	takeaway_query	O O O O O O O	takeaway	es-ES
+estara el cielo cubierto	weather_query	O O O O	weather	es-ES
+mirar si el pizza hut ha enviado mi pedido	takeaway_query	O O O B-business_name I-business_name O O O O	takeaway	es-ES
+enciende nuevo enchufe inteligente	iot_wemo_on	O O B-device_type I-device_type	iot	es-ES
+baja las luces a nivel dos	iot_hue_lightdim	O O O O O O	iot	es-ES
+cómo está el pronóstico del tiempo esta semana	weather_query	O O O O O O B-date I-date	weather	es-ES
+por favor apague las luces del dormitorio	iot_hue_lightoff	O O O O O B-house_place I-house_place	iot	es-ES
+cuándo va a llegar el taco bell	takeaway_query	O O O O O B-business_name I-business_name	takeaway	es-ES
+cuál es el nombre de este grupo de música	music_query	O O O O O O O O O	music	es-ES
+cuándo es la próxima conferencia de prensa de rajoy	news_query	O O O B-news_topic I-news_topic I-news_topic I-news_topic O O	news	es-ES
+cuáles son los precios actuales de las acciones de google	qa_stock	O O O O O O O O O B-business_name	qa	es-ES
+se va a suspender por la lluvia mi partido de golf	weather_query	O O O B-weather_descriptor I-weather_descriptor I-weather_descriptor I-weather_descriptor O O O O	weather	es-ES
+cómo está el tiempo en madrid	weather_query	O O O O O B-place_name	weather	es-ES
+poner una alarma a las cinco de la mañana	alarm_set	O O O O O B-time I-time I-time I-time	alarm	es-ES
+por favor pon alarma a las diez de la noche	alarm_set	O O O O O O B-time I-time I-time I-time	alarm	es-ES
+como estará el tiempo mañana	weather_query	O O O O B-date	weather	es-ES
+va a hacer bueno mañana	weather_query	O O O B-weather_descriptor B-date	weather	es-ES
+cuál es el pronóstico del tiempo en mi área hoy	weather_query	O O O O O O O O O B-date	weather	es-ES
+lista mi alarma diferente	alarm_query	O O O O	alarm	es-ES
+enciende notificación para todas las noticias de la bolsa de valores	qa_stock	O O O O O O O O B-news_topic I-news_topic I-news_topic	qa	es-ES
+notificame de las últimas noticias del mercado de valores	qa_stock	O O O O O O B-news_topic I-news_topic I-news_topic	qa	es-ES
+abre mi música	play_music	O O O	play	es-ES
+dime cuáles son las últimas noticias	news_query	O O O O O O	news	es-ES
+quiero un chiste de nerds	general_joke	O O O O B-joke_type	general	es-ES
+debería ponerme pantalones cortos hoy	weather_query	O O B-weather_descriptor I-weather_descriptor B-date	weather	es-ES
+puedes contarme un buen chiste	general_joke	O O O B-joke_type O	general	es-ES
+repetir la última canción de nuevo	music_settings	O B-music_descriptor I-music_descriptor I-music_descriptor O O	music	es-ES
+que día de la semana es el veinte y siete de junio	datetime_query	O O O O O O B-date I-date I-date I-date I-date I-date	datetime	es-ES
+necesitaré estar caliente	weather_query	O O B-weather_descriptor	weather	es-ES
+que día es hoy	datetime_query	O O O B-date	datetime	es-ES
+apaga las luces del dormitorio	iot_hue_lightoff	O O O O B-house_place	iot	es-ES
+convierte zona horaria	datetime_convert	O O O	datetime	es-ES
+que hora es en otra ciudad	datetime_query	O O O O B-place_name I-place_name	datetime	es-ES
+cuando es el atardecer	qa_factoid	O O O O	qa	es-ES
+pronóstico de diez días	weather_query	O O B-time I-time	weather	es-ES
+se pueden cambiar las luces a verde	iot_hue_lightchange	O O O O O O B-color_type	iot	es-ES
+muéstrame las noticias de el país	news_query	O O O O B-media_type I-media_type	news	es-ES
+hay alguna noticia	news_query	O O O	news	es-ES
+pon princesa de pereza	play_music	O B-song_name O B-artist_name	play	es-ES
+pon una alarma en cinco minutos desde ahora	alarm_set	O O O O B-time I-time I-time I-time	alarm	es-ES
+por favor activa mi alarma	alarm_set	O O O O O	alarm	es-ES
+llama al rosario's y pide un bocadillo de jamón con tomate	takeaway_order	O O B-business_name O O O B-food_type I-food_type I-food_type I-food_type I-food_type	takeaway	es-ES
+cual es la temperatura actual	weather_query	O O O B-weather_descriptor O	weather	es-ES
+sintonizar algo de música	play_music	O O O O	play	es-ES
+sabes sobre la letra de esta canción	music_query	O O O O O O O	music	es-ES
+quién es este	music_query	O O O	music	es-ES
+abre algunos chistes geniales	general_joke	O O O B-joke_type	general	es-ES
+cuentame un chiste	general_joke	O O O	general	es-ES
+cambia las luces a apagado	iot_hue_lightoff	O O O O O	iot	es-ES
+últimas noticias sobre el huracán	news_query	O O O O B-news_topic	news	es-ES
+envíame las actualizaciones del mercado de valores para hoy	qa_stock	O O O O B-news_topic I-news_topic I-news_topic O B-date	qa	es-ES
+cuáles fueron los números ganadores del euromillones anoche	news_query	O O O B-news_topic I-news_topic O B-news_topic B-date	news	es-ES
+borrar alarma a la hora de acostarse de eva	alarm_remove	O O O O O O O O B-person	alarm	es-ES
+háblame más bajo	audio_volume_down	O O O	audio	es-ES
+que hora es en la zona horaria este	datetime_query	O O O O O O O B-time_zone	datetime	es-ES
+por favor me puedes decir las últimas noticias sobre el estado de las elecciones de nuestro país	news_query	O O O O O O O O O O B-news_topic I-news_topic I-news_topic I-news_topic O O B-place_name	news	es-ES
+me gusta el rhythm and blues	music_likeness	O O O B-music_genre I-music_genre I-music_genre	music	es-ES
+muéstranos el rojo	iot_hue_lightchange	O O B-color_type	iot	es-ES
+es el veintitrés de abril un sábado	datetime_query	O B-date I-date I-date I-date O O	datetime	es-ES
+que semana es hoy	datetime_query	O O O B-date	datetime	es-ES
+qué tiempo hace en mi pueblo	weather_query	O O O O B-place_name I-place_name	weather	es-ES
+ejecutar música de esta lista de reproducción	play_music	O O O O O O O	play	es-ES
+dime cuando haya nuevas noticias de mis noticias locales	news_query	O O O O O O O O O	news	es-ES
+cambia la opacidad del color	iot_hue_lightchange	O O O O O	iot	es-ES
+reemplazar el color de claro a oscuro	iot_hue_lightchange	O O O O B-color_type O B-color_type	iot	es-ES
+enciende wemo	iot_wemo_on	O B-device_type	iot	es-ES
+poner alarma a las seis de la mañana	alarm_set	O O O O B-time I-time I-time I-time	alarm	es-ES
+está oscuro aqui	iot_hue_lighton	O O O	iot	es-ES
+olly cancela alarmas	alarm_remove	O O O	alarm	es-ES
+siri borra las alarmas de yoga	alarm_remove	O O O O O O	alarm	es-ES
+olly sube el volumen	audio_volume_up	O O O O	audio	es-ES
+google mezcla la lista de reproducción	music_settings	O B-player_setting O O O O	music	es-ES
+pon luego malamente	play_music	O O B-song_name	play	es-ES
+qué tiempo hará el día siguiente	weather_query	O O O O B-date I-date	weather	es-ES
+el abuso de medicamentos recetados de dea guam en aumento	news_query	O O O O O O O O O O	news	es-ES
+me podrías decir por favor la predicción del tiempo para esta semana	weather_query	O O O O O O O O O O B-date I-date	weather	es-ES
+pondrías la cafetera en funcionamiento	iot_coffee	O O B-device_type O O	iot	es-ES
+está demasiado brillante aquí puedes apagar una luz	iot_hue_lightoff	O O O O O O O O	iot	es-ES
+cómo estará el tiempo esta semana	weather_query	O O O O B-date I-date	weather	es-ES
+por favor añade esta canción a mi playlist favoritos	music_likeness	O O O O O O O O O	music	es-ES
+por favor pon esta canción otra vez	play_music	O O O O O O O	play	es-ES
+va a estar ventoso el jueves	weather_query	O O O B-weather_descriptor O B-date	weather	es-ES
+cuentame un chiste	general_joke	O O O	general	es-ES
+solo dame las noticias sobre donald trump	news_query	O O O O O B-person I-person	news	es-ES
+olly hay alguna noticia actual sobre la elección presidencial	news_query	O O O O O O O B-news_topic I-news_topic	news	es-ES
+cómo es probable que esté el clima en mi área hoy	weather_query	O O O O O O O O O O B-date	weather	es-ES
+apaga la luz en la sala de dibujo	iot_hue_lightoff	O O O O O B-house_place I-house_place I-house_place	iot	es-ES
+dame las noticias más recientes	news_query	O O O O O	news	es-ES
+cuántos goles marcó cristiano ronaldo ayer	news_query	O O O B-person I-person B-date	news	es-ES
+reproduce mi playlist para el gimnacio	play_music	O O B-playlist_name I-playlist_name I-playlist_name I-playlist_name	play	es-ES
+por favor apaga las luces del baño	iot_hue_lightoff	O O O O O O B-house_place	iot	es-ES
+olle necesito llevar guantes hoy	weather_query	O O O B-weather_descriptor B-date	weather	es-ES
+es necesario llevar paraguas para salir	weather_query	O O O B-weather_descriptor O O	weather	es-ES
+iniciar la reproducción lista de reproducción agregada recientemente	play_music	O O O O O O O O	play	es-ES
+muestra las noticias actuales de el país	news_query	O O O O O B-media_type I-media_type	news	es-ES
+muestra noticias rtve en vivo	news_query	O B-media_type I-media_type O O	news	es-ES
+como se está afuera	weather_query	O O O O	weather	es-ES
+como está el tiempo en sóller mallorca hoy	weather_query	O O O O O B-place_name I-place_name B-date	weather	es-ES
+dime qué horario de alarmas tienes puestas	alarm_query	O O O O O O O	alarm	es-ES
+me puedes dar las noticias locales sobre la guardia civil	news_query	O O O O O O O O B-news_topic I-news_topic	news	es-ES
+reproducir desde mi lista de reproducción	play_music	O O O O O O	play	es-ES
+pasa a la zona horaria del este	datetime_convert	O O O O O B-time_zone I-time_zone	datetime	es-ES
+en que día de la próxima semana cae el veinte y cuatro	datetime_query	O O O O O B-date I-date O O B-date I-date I-date	datetime	es-ES
+que hay de nuevo en itunes	music_query	O O O O O O	music	es-ES
+por favor muestra el tiempo del veintisiete de marzo de dos mil diecisiete	weather_query	O O O O O O B-date I-date I-date I-date I-date I-date I-date	weather	es-ES
+como son las noticias en irlanda	news_query	O O O O O B-place_name	news	es-ES
+que canción es esa	music_query	O O O O	music	es-ES
+sube el sonido	audio_volume_up	O O O	audio	es-ES
+pon que el aspirador limpiar la cocina	iot_cleaning	O O O B-device_type O O B-house_place	iot	es-ES
+por favor dame detalles de o. canción de zaalima	music_query	O O O O O B-artist_name O O B-artist_name	music	es-ES
+borra mi alarma de las cinco de la tarde	alarm_remove	O O O O O B-time I-time I-time I-time	alarm	es-ES
+pon canciones de flamenco	play_music	O O O B-music_genre	play	es-ES
+voy a necesitar una chaqueta después de las diez de la mañana o no	weather_query	O O O O B-weather_descriptor B-time I-time I-time I-time I-time I-time I-time O O	weather	es-ES
+quiero leer noticias de yahoo	news_query	O O B-media_type O B-media_type	news	es-ES
+debería traer guantes esta noche	weather_query	O O B-weather_descriptor B-timeofday I-timeofday	weather	es-ES
+necesito una chaqueta hoy	weather_query	O O B-weather_descriptor B-date	weather	es-ES
+olly haz que las luces sean más brillantes	iot_hue_lightup	O O O O O O O O	iot	es-ES
+cambia el color de la luz	iot_hue_lightchange	O O O O O O	iot	es-ES
+activa solo un color de luz diferente	iot_hue_lightchange	O O O O O O O	iot	es-ES
+activar un color de luz diferente	iot_hue_lightchange	O O O O O O	iot	es-ES
+cuál es la última encuesta sobre la opinión pública del presidente trump	news_query	O O O O O O O B-news_topic I-news_topic I-news_topic I-news_topic I-news_topic	news	es-ES
+favorito esta música	music_likeness	O O O	music	es-ES
+apaga la luz de la habitación	iot_hue_lightoff	O O O O O B-house_place	iot	es-ES
+que día es el veintidos de mayo	datetime_query	O O O O B-date I-date I-date	datetime	es-ES
+pon modo silencio hasta que digan lo contrario	audio_volume_mute	O O O O O O O O	audio	es-ES
+repite la canción actual que se está reproduciendo	music_settings	O O O O O O O O	music	es-ES
+por favor infórmame de mi alarma por la mañana par días entre semana	alarm_query	O O O O O O O O B-timeofday O B-date I-date I-date	alarm	es-ES
+gracias a ally por las fotos	general_quirky	O O O O O O	general	es-ES
+toca algo de rap de la vieja escuela	play_music	O O O B-music_genre I-music_genre I-music_genre I-music_genre I-music_genre	play	es-ES
+léeme las noticias del día	news_query	O O O O O	news	es-ES
+volvieron juan y maría juntos	news_query	O B-person O B-person O	news	es-ES
+pon alarma el veinticinco de mayo a las cinco de la tarde	alarm_set	O O O B-date I-date I-date O O B-time I-time I-time I-time	alarm	es-ES
+por favor enciende mi música	play_music	O O O O O	play	es-ES
+asistente pon en aleatorio la biblioteca entera	play_music	O O O B-player_setting O B-music_descriptor I-music_descriptor	play	es-ES
+el taco bell más cercano	takeaway_order	O B-business_name I-business_name O O	takeaway	es-ES
+reproducir en orden aleatorio la playlist azul	play_music	O O O O O B-playlist_name I-playlist_name	play	es-ES
+reportar configuraciones de alarma	alarm_query	O O O O	alarm	es-ES
+temperatura ahora	weather_query	O O	weather	es-ES
+mezcla y toca todas las canciones de la artista shakira	play_music	O O O B-music_descriptor O O O O O B-artist_name	play	es-ES
+voy a necesitar protector solar este fin de semana	weather_query	O O O B-weather_descriptor I-weather_descriptor B-date I-date I-date I-date	weather	es-ES
+debería coger algo de sal descongeladora en la tienda	weather_query	O O O O B-food_type I-food_type O O B-business_type	weather	es-ES
+enciende el enchufe wemo	iot_wemo_on	O O B-device_type I-device_type	iot	es-ES
+activar el enchufe wemo	iot_wemo_on	O O B-device_type I-device_type	iot	es-ES
+sólo dime la fecha de hoy	datetime_query	O O O O O B-date	datetime	es-ES
+el tiempo se actualiza al usar segundos por tiempo de bits o bien actualiza las previsiones del meteo o aemet ambos bastante pobres para mi sitio	weather_query	O O O O O O O O O O O O O O O O O O O O O O O O O O	weather	es-ES
+toque iniciar y luego seleccione configuración	alarm_query	O O O O O O	alarm	es-ES
+qué hora es en madrid españa	datetime_query	O O O O B-place_name I-place_name	datetime	es-ES
+tocar canciones de fiesta	play_music	O B-music_descriptor I-music_descriptor I-music_descriptor	play	es-ES
+ricky martin	play_music	O O	play	es-ES
+empezar a limpiar la casa	iot_cleaning	O O B-house_place I-house_place I-house_place	iot	es-ES
+debo ponerme una chaqueta para trabajar	weather_query	O O O B-weather_descriptor O O	weather	es-ES
+puede hablar más alto	audio_volume_up	O O O O	audio	es-ES
+incrementa la intensidad de todas las luces del cuarto	iot_hue_lightup	O O O O B-device_type I-device_type I-device_type O B-house_place	iot	es-ES
+por favor ponme la canción de madonna otra vez	play_music	O O O O O O B-artist_name O O	play	es-ES
+el grabador de voz orevena es una pagina donde puedo grabar canciones	play_music	O O O O O O O O O O O O	play	es-ES
+clima	weather_query	O	weather	es-ES
+en que día cae mi cumpleaños el próximo año	datetime_query	O O O O B-event_name I-event_name B-date I-date I-date	datetime	es-ES
+que día de la semana es el doce	datetime_query	O O O O O O O B-date	datetime	es-ES
+audio	audio_volume_up	O	audio	es-ES
+pon artista	play_music	O O	play	es-ES
+el restaurante manolo entrega comida para llevar	takeaway_query	O B-business_type B-business_name O O B-order_type I-order_type	takeaway	es-ES
+habrá niebla después de la puesta del sol	weather_query	O B-weather_descriptor B-time I-time I-time I-time I-time I-time	weather	es-ES
+hace frío fuera	weather_query	O B-weather_descriptor O	weather	es-ES
+despertador	datetime_query	O	datetime	es-ES
+ponga una alarma para las cinco en punto de esta noche etiquetada taxi	alarm_set	O O O O O B-time O O O O B-timeofday O B-event_name	alarm	es-ES
+tiempo en mi pueblo	weather_query	O O B-place_name I-place_name	weather	es-ES
+toca la cuarta canción del mismo album después de esta canción	play_music	O O O O O O O O O O O	play	es-ES
+alexa pon rock clásico	play_music	O O B-music_genre I-music_genre	play	es-ES
+activa robot aspirador	iot_cleaning	O B-device_type I-device_type	iot	es-ES
+es este el día mas caliente en sevilla	weather_query	O O O O O O O B-place_name	weather	es-ES
+háblame sobre los temporizadores de alarma	alarm_query	O O O O O O	alarm	es-ES
+significado de una palabra en particular	general_quirky	O O O O O O	general	es-ES
+escuchar música	play_music	O O	play	es-ES
+voy a necesitar un chubasquero para esta noche	weather_query	O O O O B-weather_descriptor I-weather_descriptor I-weather_descriptor I-weather_descriptor	weather	es-ES
+comercio internacional y mercado empresarial	news_query	O O O O O	news	es-ES
+puedes silenciarte un rato por favor	audio_volume_mute	O O O O O O	audio	es-ES
+quiero pedir comida	takeaway_order	O O O	takeaway	es-ES
+a qué hora tienes alarmas programadas para mi	alarm_query	O O O O O O O O	alarm	es-ES
+me gustaría un poco de café ahora	iot_coffee	O O O O O O O	iot	es-ES
+preparar mi café de la mañana	iot_coffee	O O O B-coffee_type I-coffee_type I-coffee_type	iot	es-ES
+tiempo para un cafe	iot_coffee	O O O O	iot	es-ES
+está mi pedido del domino's pizza preparado	takeaway_query	O O O O B-business_name O O	takeaway	es-ES
+donde puedo recoger mi comida china	takeaway_query	O O O O O B-food_type	takeaway	es-ES
+abre reloj	alarm_set	O O	alarm	es-ES
+siguiente reproducir la canción seleccionada	play_music	O O O O O	play	es-ES
+alexa aumenta el brillo de la luz es difícil ver aquí abajo	iot_hue_lightup	O O O O O O O O O O O O	iot	es-ES
+está mi orden lista para recoger ya	takeaway_query	O O O O O O O	takeaway	es-ES
+alarma	alarm_set	O	alarm	es-ES
+necesito llevarme un paraguas esta tarde	weather_query	O O O B-weather_descriptor B-timeofday I-timeofday	weather	es-ES
+pon la canción de daddy yankee	play_music	O O O O B-artist_name I-artist_name	play	es-ES
+oye va a llover hoy en malasaña madrid	weather_query	O O O B-weather_descriptor B-date O B-place_name I-place_name	weather	es-ES
+hola olly cómo está el tiempo en palma mallorca	weather_query	O O O O O O O B-place_name I-place_name	weather	es-ES
+pon michael buble save the last dance	play_music	O B-artist_name I-artist_name B-song_name I-song_name I-song_name I-song_name	play	es-ES
+hola alexa pide dos alas de pollo con papas fritas del restaurante chino	takeaway_order	O O O O B-food_type I-food_type I-food_type I-food_type I-food_type I-food_type O B-business_name I-business_name	takeaway	es-ES
+oye alexa pide una pizza carbonara con extra de queso	takeaway_order	O O O O B-food_type I-food_type I-food_type I-food_type I-food_type I-food_type	takeaway	es-ES
+hola siri que hora es en granada andalucía	datetime_query	O O O O O O B-place_name I-place_name	datetime	es-ES
+reproducir algo cosa en mi lista de reproducción reciente	play_music	O B-music_descriptor O O O O O O O	play	es-ES
+pon cualquier cosa de mi playlist reciente	play_music	O B-music_descriptor I-music_descriptor O O O O	play	es-ES
+dame información sobre la canción que está sonando	music_query	O O O O O O O O	music	es-ES
+se gracioso por mi	general_joke	O O O O	general	es-ES
+olly debo ponerme los guantes o no	weather_query	O O O O B-weather_descriptor O O	weather	es-ES
+dime el tiempo para el próximo mes	weather_query	O O O O O B-time I-time	weather	es-ES
+enciende la aspiradora	iot_cleaning	O O B-device_type	iot	es-ES
+debería ponerme varias capas hoy	weather_query	O O O O B-date	weather	es-ES
+mira el pronóstico del tiempo de esta semana	weather_query	O O O O O O B-date I-date	weather	es-ES
+enséñame el pronóstico del tiempo para una semana	weather_query	O O O O O O B-time I-time	weather	es-ES
+puedo recibir la entrega desde aquí	takeaway_query	O O O B-order_type O O	takeaway	es-ES
+el metro estuvo muy ocupado hoy	general_quirky	O O O O O B-date	general	es-ES
+cuentame sobre mi dia	general_quirky	O O O O	general	es-ES
+dolores notas algo extraño en tu mundo	general_quirky	O O O O O O O	general	es-ES
+quieres escuchar lo que ha pasado hoy	general_quirky	O O O O O O B-date	general	es-ES
+como me conoces	general_quirky	O O O	general	es-ES
+sería genial cenar en este nuevo restaurante abierto en el centro	general_quirky	O O O O O O B-business_type O O O B-place_name	general	es-ES
+como te va	general_quirky	O O O	general	es-ES
+hoy obtuve recompensas olly	general_quirky	O O O O	general	es-ES
+tuve muchas reuniones hoy	general_quirky	O O B-event_name B-date	general	es-ES
+de donde eres	general_quirky	O O O	general	es-ES
+el tiempo esta soleado hoy	general_quirky	O O O O B-date	general	es-ES
+oye google gane un gran premio de loteria de un millon de dolares	general_quirky	O O O O O O O O O O O O O	general	es-ES
+dime las noticias importantes de hoy	news_query	O O O O O B-date	news	es-ES
+como esta el dia hoy	general_quirky	O O O O B-date	general	es-ES
+huevos wakey wakey y panaderia	general_quirky	O O O O O	general	es-ES
+que ha pasado	general_quirky	O O O	general	es-ES
+algo interesante en las noticias de hoy	news_query	O O O O O O B-date	news	es-ES
+me han invitado al pub el sábado	general_quirky	O O O O B-place_name O B-date	general	es-ES
+dime una buena bebida alcohólica	general_quirky	O O O B-drink_type I-drink_type	general	es-ES
+dime algo sobre américa	general_quirky	O O O B-place_name	general	es-ES
+deportes	general_quirky	O	general	es-ES
+oye que buenas peliculas saldran pronto	general_quirky	O O O O O O	general	es-ES
+que haces con mis datos personales	general_quirky	O O O O O O	general	es-ES
+cuando quiero que tome notas	general_quirky	O O O O O	general	es-ES
+mi plan semanal	calendar_query	O O O	calendar	es-ES
+trivia	general_quirky	O	general	es-ES
+temas de wikipedia	general_quirky	O O O	general	es-ES
+que pasa	general_quirky	O O	general	es-ES
+las razas de perros mas hiperalergicas	general_quirky	O O O O O O	general	es-ES
+me metí en un accidente hoy	general_quirky	O O O O O B-date	general	es-ES
+fui a walmart hoy	general_quirky	O O B-place_name B-date	general	es-ES
+chistes sarcásticos	general_joke	O B-joke_type	general	es-ES
+noticias de ocio	news_query	O O B-news_topic	news	es-ES
+móvil	general_quirky	O	general	es-ES
+me empape bajo la lluvia	general_quirky	O O O O O	general	es-ES
+moda	general_quirky	O	general	es-ES
+horario	calendar_query	O	calendar	es-ES
+dame respuestas	general_quirky	O O	general	es-ES
+marca el día de hoy como mi día trampa	calendar_set	O O O O B-date O B-event_name I-event_name I-event_name	calendar	es-ES
+hoy fue un día agotador	general_quirky	O O O O O	general	es-ES
+te gusta mi novia	general_quirky	O O O B-relation	general	es-ES
+háblame de rihanna	general_quirky	O O B-artist_name	general	es-ES
+qué pasa en new york	recommendation_events	O O O B-place_name I-place_name	recommendation	es-ES
+que hice esta vez	general_quirky	O O B-time I-time	general	es-ES
+como estuvo tu dia	general_quirky	O O O O	general	es-ES
+el cosmos	general_quirky	O O	general	es-ES
+niveles de calefacción a que hora en el apartamento	general_quirky	O O O O O O O B-place_name I-place_name	general	es-ES
+chistes	general_joke	O	general	es-ES
+cocine	cooking_query	O	cooking	es-ES
+tasas de previsión	general_quirky	O O O	general	es-ES
+coches	general_quirky	O	general	es-ES
+muy agitado	general_quirky	O O	general	es-ES
+consejos recientes sobre seo en google	general_quirky	O O O O O O	general	es-ES
+chiste del dia	general_joke	O O O	general	es-ES
+ingredientes necesarios en la tienda de comestibles	general_quirky	O O O O B-business_type I-business_type I-business_type	general	es-ES
+como va	general_quirky	O O	general	es-ES
+si pudieras hablar de tres cosas cuales serian	general_quirky	O O O O O O O O	general	es-ES
+investigacion del espacio	general_quirky	O O O	general	es-ES
+libros	general_quirky	O	general	es-ES
+chismeando sobre famosos	general_quirky	O O O	general	es-ES
+olly cuál es mi agenda para lo que queda de semana	calendar_query	O O O O O O B-time I-time I-time I-time I-time	calendar	es-ES
+borrar mi día de reuniones	calendar_remove	O O B-time O B-event_name	calendar	es-ES
+por favor pon en mi calendario despertarme diariamente a las diez a. m.	calendar_set	O O O O O O B-event_name B-general_frequency O O B-time I-time I-time	calendar	es-ES
+cuándo es mi próxima reunión	calendar_query	O O O O B-event_name	calendar	es-ES
+cancela mi llamada diaria de las cinco de la tarde	calendar_remove	O O B-event_name B-general_frequency B-time I-time I-time I-time I-time I-time	calendar	es-ES
+programa una cita con carlota	calendar_set	O O B-event_name O B-person	calendar	es-ES
+cuando es eso	general_quirky	O O O	general	es-ES
+tengo algún evento hoy	calendar_query	O O O B-date	calendar	es-ES
+tengo yo algo reservado para mañana	calendar_query	O O O O O B-date	calendar	es-ES
+di me acerca de mis eventos	calendar_query	O O O O O O	calendar	es-ES
+elimina todos los eventos de mi calendario	calendar_remove	O O O O O O O	calendar	es-ES
+olly recuérdame el picnic en el retiro	calendar_set	O O O B-event_name O B-place_name I-place_name	calendar	es-ES
+olly quiero ir al cine al aire libre este fin de semana recuérdamelo	calendar_set	O O O O B-event_name I-event_name I-event_name I-event_name B-time I-time I-time I-time O	calendar	es-ES
+has añadido una reunión con tomás para mañana a las nueve de la tarde	calendar_query	O O O B-event_name O B-person O B-date O O B-time I-time I-time I-time	calendar	es-ES
+elimina todos los eventos de los próximos cinco días	calendar_remove	O O O O O O B-date I-date I-date	calendar	es-ES
+tengo alguna reunión mañana a las nueve p. m.	calendar_query	O O B-event_name B-date O O B-time I-time I-time	calendar	es-ES
+programa el siguiente evento en el calendario con las siguientes personas	calendar_set	O O O O O O O O O O O	calendar	es-ES
+puedes borrar el evento pasado que yo visité	calendar_remove	O O O O O O O O	calendar	es-ES
+tengo algún evento próximo en mi calendario	calendar_query	O O O O O O O	calendar	es-ES
+cuándo es mi próxima cita en calendario	calendar_query	O O O O B-event_name O O	calendar	es-ES
+borra la fiesta de cumpleaños mañana a las dos de la tarde	calendar_remove	O O B-event_name I-event_name I-event_name B-date O O B-time I-time I-time I-time	calendar	es-ES
+puedes borrar todos los eventos de mi calendario	calendar_remove	O O O O O O O O	calendar	es-ES
+es muy dificil	general_quirky	O O O	general	es-ES
+necesito un recordatorio todos los días a las nueve de la mañana	calendar_set	O O O B-general_frequency I-general_frequency I-general_frequency O O B-time I-time I-time I-time	calendar	es-ES
+quién debería esperar yo que esté en la reunión de hoy	calendar_query	O O O O O O O O B-event_name O B-date	calendar	es-ES
+pon reunión del lunes en agenda todos los lunes	calendar_set	O B-event_name I-event_name I-event_name O O B-general_frequency I-general_frequency I-general_frequency	calendar	es-ES
+programa una notificación para el seis de marzo que hay una reunión de la sociedad a las once a. m.	calendar_set	O O O O O B-date I-date I-date O O O B-event_name I-event_name I-event_name I-event_name O O B-time I-time I-time	calendar	es-ES
+hay algún programa para mañana por la algún	calendar_query	O B-timeofday O O B-date O O B-timeofday	calendar	es-ES
+eliminar todos los eventos e información	calendar_remove	O O O O O O	calendar	es-ES
+elimina todos los eventos y horarios	calendar_remove	O O O O O O	calendar	es-ES
+de qué va mi evento programado para mañana	calendar_query	O O O O O O O B-date	calendar	es-ES
+recuérdame la reunión de mañana a las diez de la mañana	calendar_set	O O B-event_name O B-date O O O O O B-date	calendar	es-ES
+cuántas reuniones tengo yo esta semana	calendar_query	O B-event_name O O B-date I-date	calendar	es-ES
+deja el calendario limpio	calendar_remove	O O O O	calendar	es-ES
+por favor recuerda me una hora antes de la reunión que yo tengo mañana por la mañana	calendar_set	O O O O B-time I-time O O O B-event_name O O O B-date O O B-date	calendar	es-ES
+cuál es mi horario de tarde de mañana	calendar_query	O O O O O B-timeofday O B-date	calendar	es-ES
+próximos eventos	calendar_query	O O	calendar	es-ES
+últimos eventos	calendar_query	O O	calendar	es-ES
+programar una cita para alex mañana	calendar_set	O O B-event_name O B-person B-date	calendar	es-ES
+hay algún evento próximo en mi calendario	calendar_query	O O O O O O O	calendar	es-ES
+poner un recordatorio para las vacaciones el mes que viene	calendar_set	O O O O O B-event_name B-date I-date I-date I-date	calendar	es-ES
+calendario claro para este mes	calendar_remove	O O O B-date I-date	calendar	es-ES
+pon una alarma dentro de dos horas por favor	alarm_set	O O O B-time I-time I-time I-time O O	alarm	es-ES
+tengo que hacer algo este sábado entre las dos y las cuatro de la tarde	calendar_query	O O O O O B-date O B-time I-time O B-time I-time I-time I-time I-time	calendar	es-ES
+por favor borra todos los eventos de mi calendario para el resto del día	calendar_remove	O O O O O O O O O O O B-time I-time I-time	calendar	es-ES
+que eventos hay en mi calendario para hoy	calendar_query	O O O O O O O B-date	calendar	es-ES
+cuáles son mis eventos de calendario	calendar_query	O O O O O O	calendar	es-ES
+tengo algún recordatorio hoy	calendar_query	O O O B-date	calendar	es-ES
+elimina la reunión de hoy por la noche	calendar_remove	O O B-event_name B-date I-date O O B-timeofday	calendar	es-ES
+avísame la mañana de la cita con el médico del doce	calendar_set	O O B-timeofday O O B-event_name I-event_name I-event_name I-event_name O B-date	calendar	es-ES
+crer una entrada de calendario para almorzar el sábado por la mañana con pedro lesma y tomás	calendar_set	O O O O O O B-event_name O B-date O O B-timeofday O B-person I-person O B-person	calendar	es-ES
+recuérdame quedar con virginia hoy a las seis de la tarde	calendar_set	O B-event_name I-event_name B-person B-date O O B-time I-time I-time I-time	calendar	es-ES
+cuándo es la reunión con mi jefe la próxima semana	calendar_query	O O O B-event_name O O B-relation O B-date I-date	calendar	es-ES
+borra la boda del día diez de mi calendario	calendar_remove	O O B-event_name O O B-date O O O	calendar	es-ES
+qué hacer a continuación en los eventos	calendar_query	O O O O O O O	calendar	es-ES
+tengo una cita mañana recuérdame	calendar_set	O O B-event_name B-date O	calendar	es-ES
+cuatro de la tarde	calendar_set	O O O O	calendar	es-ES
+veré a mi terapeuta cada jueves a las dos de la tarde	calendar_set	O O O B-relation B-general_frequency I-general_frequency O O B-time I-time I-time I-time	calendar	es-ES
+cancelar	calendar_remove	O	calendar	es-ES
+quiero ir al cumpleaños de sally el sábado a las diez de la noche	calendar_set	O O O B-event_name O B-person O B-date O O B-time I-time I-time I-time	calendar	es-ES
+que tengo que hacer yo la semana que viene	calendar_query	O O O O O O B-date I-date I-date	calendar	es-ES
+dime la fecha de inauguración de la empresa de mi amigo antón	calendar_query	O O O O B-event_name O O O O O B-relation B-person	calendar	es-ES
+por favor marca en mi agenda vacaciones a cuba el dos de abril	calendar_set	O O O O O O B-event_name O B-place_name O B-date I-date I-date	calendar	es-ES
+recuerda me a las ocho de la tarde que tengo que tomar mi medicamento	calendar_set	O O O O B-time I-time I-time I-time O O O O O B-event_name	calendar	es-ES
+cuando empezará el partido	calendar_query	O O O B-event_name	calendar	es-ES
+qué tengo yo programado para mañana necesito cancelar	calendar_remove	O O O O O B-date O O	calendar	es-ES
+establecer recordatorio para la reunión a las tres de la tarde mañana	calendar_set	O O O O B-event_name O O B-time I-time I-time I-time B-date	calendar	es-ES
+recuérdame que recoja la colada el próximo lunes	calendar_set	O O B-event_name I-event_name I-event_name O O B-date	calendar	es-ES
+establecer un recordatorio de que tengo que visitar a mi padre mañana	calendar_set	O O O O O O O O O O B-relation B-date	calendar	es-ES
+agregar al calendario un evento de reunión para esta tarde	calendar_set	O O O O O O B-event_name O B-timeofday I-timeofday	calendar	es-ES
+cual es mi primera cita hoy	calendar_query	O O O O B-event_name B-date	calendar	es-ES
+qué tengo en mi agenda para hoy	calendar_query	O O O O O O B-date	calendar	es-ES
+recuerdame la reunión con ricardo para almorzar mañana	calendar_set	O O O O B-person O B-meal_type B-date	calendar	es-ES
+puedes fijar la ubicación en casa de mi hermana para este evento	calendar_set	O O O O O B-place_name O O B-relation O O O	calendar	es-ES
+quita el próximo evento de mi agenda	calendar_remove	O O O O O O O	calendar	es-ES
+añade cumpleaños roberto el doce de julio a mi agenda	calendar_set	O B-event_name B-person O B-date I-date I-date O O O	calendar	es-ES
+en agenda pon que tenemos cena con fran a las ocho de la tarde el nueve de agosto	calendar_set	O O O O O B-meal_type O O O O O O O O O O O O	calendar	es-ES
+cuál es la lista de eventos de mi calendario en marzo	calendar_query	O O O O O O O O O O B-date	calendar	es-ES
+cuando esta programada la boda	calendar_query	O O O O B-event_name	calendar	es-ES
+qué reuniones hay available en marzo	calendar_query	O B-event_name O O O B-date	calendar	es-ES
+por favor revisa el tercer evento del veintidós de marzo de dos mil diecisiete	calendar_query	O O O O O O O B-date I-date I-date I-date I-date I-date I-date	calendar	es-ES
+agregue el día de san valentín con ella mañana	calendar_set	O O O O B-event_name I-event_name O O B-date	calendar	es-ES
+añade cumpleaños con mamá el próximo mes	calendar_set	O B-event_name O B-relation O B-date I-date	calendar	es-ES
+crear una reunión con mi amigo	calendar_set	O O B-event_name O O B-relation	calendar	es-ES
+asistir a la fiesta antes de la reunión	calendar_set	O O O B-event_name O O O O	calendar	es-ES
+por favor crea un evento solo con estas personas	calendar_set	O O O O O O O O O	calendar	es-ES
+recuerda recogerme a las doce del mediodía del aeropuerto tengo una reunión a las tres de la tarde	calendar_set	O B-event_name O O B-time I-time I-time O B-place_name O O B-event_name O O B-time I-time I-time I-time	calendar	es-ES
+programa una reunión con joan el diez de marzo	calendar_set	O O B-event_name O B-person O B-date I-date I-date	calendar	es-ES
+recuerda arreglar una reunión entre los jugadores y yo mañana por la tarde noche a las siete	calendar_set	O O O B-event_name O O B-person O O B-date O O B-timeofday I-timeofday O O B-time	calendar	es-ES
+cuáles son mis actuales alertas	calendar_query	O O O O O	calendar	es-ES
+recuérda me la entrevista de mañana	calendar_set	O O O B-event_name O B-date	calendar	es-ES
+próximos eventos	calendar_query	O O	calendar	es-ES
+pon cómo evento que se repite	calendar_set	O O O O O O	calendar	es-ES
+programar una reunión el martes	calendar_set	O O B-event_name O B-date	calendar	es-ES
+que pasó en la reunión de ayer	calendar_query	O O O O B-event_name O B-date	calendar	es-ES
+por favor agregue mi próxima reunión	calendar_set	O O O O O B-event_name	calendar	es-ES
+establecer recordatorio para mañana para este artículo	calendar_set	O O O B-date O O O	calendar	es-ES
+llamar persona para la reunión	calendar_set	O O O O B-event_name	calendar	es-ES
+cuando es el ciclo de facturación	calendar_query	O O O B-event_name I-event_name I-event_name	calendar	es-ES
+programa un temporizador de cinco minutos para las galletas	calendar_set	O O O O B-time I-time O O B-event_name	calendar	es-ES
+cuándo empieza el partido de hockey del viernes	calendar_query	O O O B-event_name I-event_name I-event_name O B-date	calendar	es-ES
+por favor borra todos mis eventos del calendario	calendar_remove	O O O O O O O O	calendar	es-ES
+recuérda me hacer una pizza mañana por la mañana	calendar_set	O O B-event_name I-event_name I-event_name B-date O O B-date	calendar	es-ES
+programa una oración al mediodía todos los viernes	calendar_set	O O B-event_name O B-time B-general_frequency I-general_frequency I-general_frequency	calendar	es-ES
+tengo algún recordatorio pendiente	calendar_query	O O O O	calendar	es-ES
+no te olvides de recordarme el cumpleaños de mi hermano el veinte de abril	calendar_set	O O O O O O B-event_name B-relation I-relation I-relation O B-date I-date I-date	calendar	es-ES
+quiero agregar una cita para almuerzo con miguel juan y andrés	calendar_set	O O O O O B-meal_type O B-person I-person O B-person	calendar	es-ES
+recuérdame la próxima reunión a las cuatro de la mañana de hoy	calendar_set	O O O B-event_name O O B-time I-time I-time I-time O B-date	calendar	es-ES
+enumera la próxima reunión	calendar_set	O O O B-event_name	calendar	es-ES
+buscar y eliminar todos mis eventos de fin de semana con tamara conde	calendar_remove	O O O O O O O B-time I-time I-time O B-person I-person	calendar	es-ES
+anota este evento en mi calendario	calendar_set	O O O O O O	calendar	es-ES
+tengo algún recordatorio pendiente	calendar_query	O O O O	calendar	es-ES
+acuérdate de recordarme esto	calendar_set	O O O O	calendar	es-ES
+hey olly programa un recordatorio para la reunión de mañana a las diez de la mañana	calendar_set	O O O O O O O B-event_name O B-date O O B-time O O B-date	calendar	es-ES
+por favor dime los recordatorios pendientes	calendar_query	O O O O O O	calendar	es-ES
+cuéntame sobre la reunión que tengo esta semana	calendar_query	O O O B-event_name O O B-date I-date	calendar	es-ES
+tengo un cumpleaños el lunes fija el evento	calendar_set	O O B-event_name O B-date O O O	calendar	es-ES
+tengo un vuelo el quince	calendar_set	O O O O B-date	calendar	es-ES
+programar un evento para la tarde	calendar_set	O O O O O B-timeofday	calendar	es-ES
+establecer el cumpleaños de javier para cada tres de junio	calendar_set	O O B-event_name B-person I-person O B-date I-date I-date I-date	calendar	es-ES
+recuérdame que vaya a la tienda todos los viernes	calendar_set	O O O O O O B-date I-date I-date	calendar	es-ES
+elimina hacer la compra de mi agenda del sábado	calendar_remove	O O O O O O O O B-date	calendar	es-ES
+borrar todos los datos de mi calendario	calendar_remove	O O O O O O O	calendar	es-ES
+que tengo que hacer el lunes	calendar_query	O O O O O B-date	calendar	es-ES
+repite un evento en mi calendario	calendar_set	O O O O O O	calendar	es-ES
+hay alguna forma de seguir delante y borrar mi calendario para el mes	calendar_remove	O O O O O O O O O O O B-date I-date	calendar	es-ES
+añade mi práctica en parque del rey del cuatro de febrero a las dos de la tarde	calendar_set	O O O O B-place_name I-place_name I-place_name O B-date I-date I-date O O B-time I-time I-time I-time	calendar	es-ES
+por favor recuérdame el cumpleaños de andrés	calendar_set	O O O O B-event_name O B-person	calendar	es-ES
+cómo tengo el horario de hoy	calendar_query	O O O O B-date I-date	calendar	es-ES
+agregar una nota para asistir	calendar_set	O O O O O	calendar	es-ES
+crea un recordatorio que se repita todos los días a las ocho a. m. para mis tareas del trabajo	calendar_set	O O O O O O B-general_frequency I-general_frequency I-general_frequency O O B-time I-time I-time O O O O O	calendar	es-ES
+despeja mi horario	calendar_remove	O O O	calendar	es-ES
+tengo que estar en algún lado entre las ocho de la mañana y las cinco de la tarde hoy	calendar_query	O O O O O O O O B-time I-time I-time I-time O O B-time I-time I-time I-time B-date	calendar	es-ES
+qué recordatorios tengo para esta semana	calendar_query	O O O O B-date I-date	calendar	es-ES
+añadir evento para el entrenamiento de baloncesto a las cinco de la tarde esta noche	calendar_set	O O O O B-event_name I-event_name I-event_name O O B-time I-time I-time I-time B-timeofday I-timeofday	calendar	es-ES
+cómo será mi mañana mañana	calendar_query	O O O B-timeofday B-timeofday	calendar	es-ES
+quién va a asistir a la reunión este viernes	calendar_query	O O O O O O B-event_name B-date I-date	calendar	es-ES
+qué pasó entre el segundo y el décimo quinto	news_query	O O O B-date I-date O B-date I-date I-date	news	es-ES
+cuénta me todos los eventos entre hoy y el veintiuno	calendar_query	O O O O O O B-date O O B-date	calendar	es-ES
+por favor ponme al día sobre las elecciones cada treinta minutos	calendar_set	O O O O O O O B-event_name O B-time I-time	calendar	es-ES
+tengo alguna cita hoy	calendar_query	O O B-event_name B-date	calendar	es-ES
+abrir calendario eliminar todos los eventos	calendar_remove	O O O O O O	calendar	es-ES
+recordar mi examen de biología en la universidad de sevilla el viernes	calendar_set	O O B-event_name I-event_name I-event_name O O B-place_name I-place_name I-place_name O B-date	calendar	es-ES
+que es el veinte de noviembre	calendar_query	O O O B-date I-date I-date	calendar	es-ES
+cuál es el horario del próximo concierto de maggie rogers	calendar_query	O O O O O O B-event_name I-event_name I-event_name I-event_name	calendar	es-ES
+qué tengo que saber sobre el show	calendar_query	O O O O O O O	calendar	es-ES
+quién y por qué está en el teatro esta noche	recommendation_events	O O O O O O O B-place_name B-timeofday I-timeofday	recommendation	es-ES
+hay algún recordatorio establecido para hoy	calendar_query	O O O O O B-date	calendar	es-ES
+por favor elimina la reunión de padres y profesores programada para el siete de marzo	calendar_remove	O O O O B-event_name I-event_name I-event_name I-event_name I-event_name O O O B-date O B-date	calendar	es-ES
+tengo yo una reunión para hoy en mi calendario	calendar_query	O O O B-event_name O B-date O O O	calendar	es-ES
+por favor establece un recordatorio para ir a trabajar en diez minutos	calendar_set	O O O O O O B-event_name I-event_name I-event_name O B-time I-time	calendar	es-ES
+cuántas reuniones tengo la próxima semana	calendar_query	O O O O B-date I-date	calendar	es-ES
+el catorce de febrero hacer reservaciones para cenar en el restaurante	calendar_set	O B-date I-date I-date O O O B-meal_type O O B-business_type	calendar	es-ES
+que pasa este fin de semana	calendar_query	O O B-date I-date I-date I-date	calendar	es-ES
+es esta semana la semana de recolección de basura	calendar_query	O B-date I-date O O O O O O	calendar	es-ES
+a que hora empieza la cena de fiesta esta noche	calendar_query	O O O O O B-event_name O O B-timeofday I-timeofday	calendar	es-ES
+cuando es mi próximo recordatorio	calendar_query	O O O O O	calendar	es-ES
+cuéntame todos los detalles conocidos sobre el torneo del veintidós de marzo	calendar_query	O O O O O O O B-event_name O B-date I-date I-date	calendar	es-ES
+programar el almuerzo en tomo en arcata california mañana al mediodía	calendar_set	O O B-meal_type B-place_name I-place_name I-place_name I-place_name I-place_name B-date O B-timeofday	calendar	es-ES
+tengo una cita el viernes	calendar_query	O O O O B-date	calendar	es-ES
+envíeme un recordatorio para recoger a mi perro del peluquero a la una por la tarde	calendar_set	O O O O B-event_name O B-event_name I-event_name O B-place_name O O B-time I-time I-time I-time	calendar	es-ES
+cuándo es mi reunión	calendar_set	O O O B-event_name	calendar	es-ES
+olly envíame un correo electrónico con mis citas para reprogramar	email_sendemail	O O O O O O O B-event_name O O	email	es-ES
+alterar el evento del almuerzo para repetir cada viernes	calendar_set	O O O O B-meal_type O O B-date I-date	calendar	es-ES
+reunión actualizar mi calendario para reflejar la reunión	calendar_set	O O O O O B-event_name I-event_name I-event_name	calendar	es-ES
+cuándo saldrán los trenes mañana	calendar_query	O O O O B-date	calendar	es-ES
+fija un recordatorio a las tres p. m. para recoger a gema	calendar_set	O O O O O B-time I-time I-time O O O B-person	calendar	es-ES
+cancela mi reunión del catorce	calendar_remove	O O B-event_name O B-date	calendar	es-ES
+dame información sobre el concierto del martes por la noche	calendar_query	O O O O O O B-date O O B-time	calendar	es-ES
+yo necesito que me recuerden que hay una reunión para la jubilación de paul recordatorio para el martes a las tres de la tarde	calendar_set	O O O O O O O O O O O B-event_name B-person I-person O O O B-date O O B-time I-time I-time I-time	calendar	es-ES
+que esta pasando en ese evento	recommendation_events	O O O O O O	recommendation	es-ES
+qué tengo que hacer esta mañana entre las diez y las doce	calendar_query	O O O O O B-time I-time O B-time I-time O B-time	calendar	es-ES
+a qué hora es la reunión vespertina que tengo con john	calendar_query	O O O O O B-event_name I-event_name O O O B-person	calendar	es-ES
+recordarme que tengo que levantarme a las cinco de la mañana cada día	alarm_set	O O O O O O O B-time I-time I-time I-time B-general_frequency I-general_frequency	alarm	es-ES
+más sobre el concierto en sala caracol	calendar_query	O O O B-event_name O B-place_name I-place_name	calendar	es-ES
+siri recuerda me la reunión de mañana esta noche	calendar_set	O O O O B-event_name B-date I-date B-timeofday I-timeofday	calendar	es-ES
+notificación de la reunión el miércoles	calendar_set	O O O B-event_name O B-date	calendar	es-ES
+agregar mi próxima reunión a mi calendario	calendar_set	O O O B-event_name O O O	calendar	es-ES
+completamente claro mi calendario por favor	calendar_remove	O O O O O O	calendar	es-ES
+por favor borre la reunión que tengo con óscar esta noche	calendar_remove	O O O O B-event_name O O O B-person B-timeofday I-timeofday	calendar	es-ES
+establecer un recordatorio los miércoles a las dos de la tarde	calendar_set	O O O O B-date O O B-time I-time I-time I-time	calendar	es-ES
+es cierto que el cumpleaños de antonia es el primero de marzo	calendar_query	O O O O B-event_name B-person I-person O B-date I-date I-date I-date	calendar	es-ES
+agregaste la reunión de mañana a mi calendario	calendar_query	O O B-event_name B-date I-date O O O	calendar	es-ES
+agregue reuniones de almuerzo al mediodía todos los días de esta semana	calendar_set	O B-event_name O B-meal_type O B-timeofday B-general_frequency I-general_frequency I-general_frequency O B-date I-date	calendar	es-ES
+establecer un recordatorio para la reunión del viernes a las tres p. m.	calendar_set	O O O O O B-event_name O B-date O O B-time I-time I-time	calendar	es-ES
+borrar todo del calendario	calendar_remove	O O O O	calendar	es-ES
+hola siri asegúrate de que mi calendario esté completamente despejado mañana	calendar_remove	O O O O O O O O O O B-date	calendar	es-ES
+nueva notificación de reunión en dos horas	calendar_set	O O O B-event_name O B-time I-time	calendar	es-ES
+recuérdame acerca del calendario	calendar_set	O O O O	calendar	es-ES
+hay citas pendientes esta mañana	calendar_query	O B-event_name O O B-timeofday	calendar	es-ES
+es esta semana una semana de día de pago	calendar_query	O B-date I-date O O O O O O	calendar	es-ES
+cancelar todas las citas en mi calendario	calendar_remove	O O O B-event_name O O O	calendar	es-ES
+que recordatorios he configurado	calendar_query	O O O O	calendar	es-ES
+cuáles son las noticias de las seis y cuarenta y cinco de la mañana hoy	calendar_query	O O O O O O B-time I-time I-time I-time I-time I-time I-time I-time B-date	calendar	es-ES
+eliminar mi evento a la una p. m. en mi calendario	calendar_remove	O O O O O B-time I-time I-time O O O	calendar	es-ES
+solo recuérdame que tengo que estar en la biblioteca semana desde hoy a las cinco	calendar_set	O O O O O O O O B-place_name B-date I-date I-date O O B-time	calendar	es-ES
+establecer un recordatorio para el próximo sábado ir a la biblioteca a las cinco en punto	calendar_set	O O O O O O B-date O O O B-place_name O O B-time O O	calendar	es-ES
+avísame sobre la siguiente fiesta nacional	calendar_set	O O O B-event_name I-event_name I-event_name	calendar	es-ES
+eliminar mi evento de calendario a la una p. m. hoy dia	calendar_remove	O O O O O O O B-time I-time I-time B-date O	calendar	es-ES
+establecer un recordatorio para mi reunión a las cinco p. m.	calendar_set	O O O O O B-event_name O O B-time I-time I-time	calendar	es-ES
+por favor agregue una cita a las nueve de la mañana del miércoles en la oficina del doctor salgado	calendar_set	O O O O O O O B-time I-time I-time I-time O B-date O O B-place_name O B-relation I-relation	calendar	es-ES
+cuáles fueron los aspectos más destacados del partido de fútbol de esta noche	calendar_query	O O O O O O O B-sport_type I-sport_type I-sport_type O B-timeofday I-timeofday	calendar	es-ES
+dime que tengo en mi agenda para hoy	calendar_query	O O O O O O O B-date	calendar	es-ES
+cuándo vendrá bruno mars a salamanca	calendar_query	O O B-person I-person O B-place_name	calendar	es-ES
+quiero agregar algo a mi calendario	calendar_set	O O O O O O	calendar	es-ES
+elimina el evento del calendario y actualiza	calendar_remove	O O O O O O O	calendar	es-ES
+qué eventos tengo yo por venir	calendar_query	O O O O O O	calendar	es-ES
+cancela el próximo evento de la agenda	calendar_remove	O O O O O O O	calendar	es-ES
+cancele el próximo evento en el calendario	calendar_remove	O O O O O O O	calendar	es-ES
+qué reuniones tengo entre las ocho y las diez hoy	calendar_query	O B-event_name O O O B-time I-time I-time I-time B-date	calendar	es-ES
+recuérdame mañana a las dos p. m.	calendar_set	O B-date O O B-time I-time I-time	calendar	es-ES
+programa un evento en mi calendario para la fiesta en la piscina en casa de jose este sábado	calendar_set	O O O O O O O O O O O O B-place_name I-place_name I-place_name I-place_name B-date I-date	calendar	es-ES
+cuál es la dirección del evento programado para el uno de enero	calendar_query	O O O O O O O O O B-date I-date I-date	calendar	es-ES
+quiero quedar con sara mañana	calendar_set	O O O B-person B-date	calendar	es-ES
+cancelar mi reunión del martes con sandra y reubicarla el jueves	calendar_set	O O B-event_name O B-date O B-person O O O B-date	calendar	es-ES
+elimina la comida del jueves de mi calendario	calendar_remove	O O B-meal_type B-date I-date O O O	calendar	es-ES
+programa y evento para el día quince de cada mes para recordarme que debo pagar mi factura de internet	calendar_set	O O O O B-general_frequency I-general_frequency I-general_frequency I-general_frequency I-general_frequency I-general_frequency O O O O B-event_name I-event_name I-event_name I-event_name I-event_name	calendar	es-ES
+agregue la siguiente fecha y hora a mi calendario	calendar_set	O O O O O O O O O	calendar	es-ES
+cuándo es el evento	calendar_query	O O O O	calendar	es-ES
+añade un evento que empiece a as tres de la tarde en sevilla andalucía el cinco de mayo para la graduación de dan	calendar_set	O O O O O O O B-time I-time I-time I-time O B-place_name I-place_name O B-date I-date I-date O B-event_name I-event_name I-event_name I-event_name	calendar	es-ES
+en el ultimo año cuantas horas he estado en reuniones	calendar_query	O O O O O O O O O B-event_name	calendar	es-ES
+eliminar reunión	calendar_remove	O B-event_name	calendar	es-ES
+tengo una reunión con pepi el veintiuno de marzo a las diez	calendar_set	O O B-event_name O B-person O B-date I-date I-date O O B-time	calendar	es-ES
+necesito prepararme para una reunión	calendar_query	O O O O B-event_name	calendar	es-ES
+enséñame mis próximos eventos	calendar_query	O O O O	calendar	es-ES
+borrar el próximo evento del calendario	calendar_remove	O O O O O O	calendar	es-ES
+dice mi calendario si estoy libre el uno de abril de dos mil diecisiete	calendar_query	O O O O O O O B-date I-date I-date I-date I-date I-date I-date	calendar	es-ES
+establecer un recordatorio de cita semanal	calendar_set	O O O O O B-general_frequency	calendar	es-ES
+marcar dentro de dos días como mis vacaciones	calendar_set	O B-date I-date I-date I-date O B-event_name I-event_name	calendar	es-ES
+reunión del martes al mediodía	calendar_set	O O B-date O B-timeofday	calendar	es-ES
+tengo algo programado para el siete de marzo	calendar_query	O O O O B-date I-date I-date I-date	calendar	es-ES
+olly programa mi cita médica del viernes a las dos de la tarde	calendar_set	O O O B-event_name I-event_name O B-date O O B-time I-time I-time I-time	calendar	es-ES
+puedes agregar mis reservas para cenar a mi calendario	calendar_set	O O O B-event_name I-event_name I-event_name O O O	calendar	es-ES
+establecer información de calendario para el matrimonio de albert	calendar_set	O O O O O O B-event_name I-event_name I-event_name	calendar	es-ES
+tengo algún evento en el calendario hoy	calendar_query	O O O O O O B-date	calendar	es-ES
+lugar de vacaciones en mi ubicación	recommendation_events	O O O O O O	recommendation	es-ES
+búsqueda de acontecimientos recientes en fechas concretas	recommendation_events	O O O O O O O	recommendation	es-ES
+tengo algún recordatorio en mi lista	calendar_query	O O O O O O	calendar	es-ES
+por favor recuérdame	calendar_set	O O O	calendar	es-ES
+por favor pon una alarma para	alarm_set	O O O O O O	alarm	es-ES
+necesito que me recuerden las reuniones del lunes	calendar_set	O O O O O B-event_name O B-date	calendar	es-ES
+es falso el evento del calendario	calendar_query	O O O O O O	calendar	es-ES
+eliminar todas mis reuniones por el resto de la semana	calendar_remove	O O O B-event_name O B-time I-time I-time I-time I-time	calendar	es-ES
+añadir al calendario el dos de mayo es el cumpleaños de mary repetir cada año	calendar_set	O O O O B-date I-date I-date O O B-event_name B-person I-person O B-general_frequency I-general_frequency	calendar	es-ES
+quiero que me recuerdes que me lleve mi chubasquero porque puede llover	calendar_set	O O O O O O B-event_name I-event_name I-event_name O O O	calendar	es-ES
+por favor dime que me lleve el paraguas porque hoy va a hacer mucho calor	calendar_set	O O O O O B-event_name I-event_name I-event_name O B-date O O O O O	calendar	es-ES
+cuál es mi programa para el catorce de junio de dos mil diecisiete	calendar_query	O O O O O O B-date I-date I-date I-date I-date I-date I-date	calendar	es-ES
+por favor borra todos los recordatorios del domingo	calendar_remove	O O O O O O O B-date	calendar	es-ES
+recuerda la cena del jueves en el bistro italia	calendar_set	O O B-meal_type O B-date O O B-place_name I-place_name	calendar	es-ES
+establecer recordatorio	calendar_set	O O	calendar	es-ES
+evento de calendario con estas personas	calendar_set	O O O O O O	calendar	es-ES
+limpia mi agenda para hoy	calendar_remove	O O O O B-date	calendar	es-ES
+detalles	calendar_query	O	calendar	es-ES
+dime acerca de los últimos eventos	calendar_query	O O O O O O	calendar	es-ES
+cuándo son la reuniones	calendar_query	O O O B-event_name	calendar	es-ES
+cuando esta programada la fiesta	calendar_query	O O O O B-event_name	calendar	es-ES
+notificarme todos los eventos de la próxima semana	calendar_set	O O O O O O B-time I-time	calendar	es-ES
+aniversario de boda de jesús	calendar_set	O O O O B-person	calendar	es-ES
+cuando hay festivos este mes	calendar_query	O O B-event_name B-time I-time	calendar	es-ES
+déjame saber sobre mi reunión del martes	calendar_set	O O O O B-event_name O B-date	calendar	es-ES
+quiero que me recuerdes sobre el programa de la noche	calendar_set	O O O O O O B-event_name I-event_name O B-event_name	calendar	es-ES
+borra cumpleaños de lucas del calendario	calendar_remove	O B-event_name I-event_name I-event_name O O	calendar	es-ES
+ok google programar una reunión con el subdirector del departamento a veintiuno de marzo de dos mil diecisiete	calendar_set	O O O O B-event_name O B-relation I-relation I-relation I-relation O B-date I-date I-date I-date I-date I-date I-date	calendar	es-ES
+necesito una reunión con el controlador financiero el jueves	calendar_set	O O B-event_name O B-relation I-relation I-relation O B-date	calendar	es-ES
+elimina el evento de cumpleaños de mi calendari	calendar_remove	O O O O B-event_name O O O	calendar	es-ES
+acuérdame el cinco de abril que hay una reunión con el jefe	calendar_set	O O B-date I-date I-date O O O B-event_name O O B-relation	calendar	es-ES
+crea un recordatorio para solicitar un visado este jueves	calendar_set	O O O O B-event_name O B-event_name O B-date	calendar	es-ES
+hacer en blanco el tres de julio calendario	calendar_remove	O O O O B-date I-date I-date O	calendar	es-ES
+pon una alarma para martes a las cuatro de la tarde	alarm_set	O O O O B-date O O B-time I-time I-time I-time	alarm	es-ES
+hacer un recordatorio de evento para la boda de virginia el martes	calendar_set	O O O O O O O B-event_name I-event_name I-event_name O B-date	calendar	es-ES
+pon un evento que se repita en el calendario	calendar_set	O O B-event_name I-event_name I-event_name I-event_name O O O	calendar	es-ES
+estoy ocupado este fin de semana	calendar_query	O O B-date I-date I-date I-date	calendar	es-ES
+olly yo tengo una cita la semana que viene	calendar_query	O O O O B-event_name O B-date I-date I-date	calendar	es-ES
+borrar el día de después del evento	calendar_remove	O O O O O O O	calendar	es-ES
+recuerda reinciar los eventos que lo necesiten	calendar_set	O O O O O O O	calendar	es-ES
+añade visita de mi hermana a mi calendario familia mi	calendar_set	O B-event_name I-event_name I-event_name I-event_name O O O B-event_name O	calendar	es-ES
+donde esta ubicado el centro de convenciones	qa_factoid	O O O O B-place_name I-place_name I-place_name	qa	es-ES
+alguna reunión el viernes	calendar_query	O O O B-date	calendar	es-ES
+recuerda me que yo tengo cita a las doce en punto del sábado	calendar_set	O O O O O B-event_name O O B-time I-time I-time O B-date	calendar	es-ES
+alexa tengo algún evento en el calendario este mes	calendar_query	O O O O O O O B-date I-date	calendar	es-ES
+siri haz una entrada en calendario para el próximo sábado a las diez de la mañana por favor	calendar_set	O O O O O O O O O B-date O O B-time I-time I-time I-time O O	calendar	es-ES
+acuérdame de la reunión de el veintidós de enero	calendar_set	O O O B-event_name O B-date I-date I-date I-date	calendar	es-ES
+recuérda me la reunión en una hora	calendar_set	O O O B-event_name O B-time I-time	calendar	es-ES
+recordar en una hora mi reunión	calendar_set	O O B-time I-time O B-event_name	calendar	es-ES
+pon un algo de radio	play_radio	O O O O O	play	es-ES
+pon la radio	play_radio	O O O	play	es-ES
+abre los cuarenta estación rock	play_radio	O B-app_name I-app_name O B-music_genre	play	es-ES
+abra iheartradio rov la rock	play_radio	O B-app_name O O B-music_genre	play	es-ES
+sintonizar un canal de radio para los chistes buenos	play_radio	O O O O O O O B-radio_name I-radio_name	play	es-ES
+iniciar la radio	play_radio	O O O	play	es-ES
+radio tele taxi	play_radio	O O O	play	es-ES
+enciende la radio	play_radio	O O O	play	es-ES
+por favor sintonice el canal de radio	play_radio	O O O O O O O	play	es-ES
+me gustaria escuchar esa canal de radio	play_radio	O O O O O O O	play	es-ES
+cambia la radio	play_radio	O O O	play	es-ES
+puedes empezar fm ochocientos noventa canal de radio	play_radio	O O O B-radio_name I-radio_name O O O	play	es-ES
+pon melodía	play_radio	O B-media_type	play	es-ES
+pon cadena ser	play_radio	O B-radio_name I-radio_name	play	es-ES
+enciende el emisora novecientos cincuenta y uno	play_radio	O O O B-radio_name I-radio_name I-radio_name I-radio_name	play	es-ES
+por favor pon la radio	play_radio	O O O O O	play	es-ES
+radio encendida	play_radio	O O	play	es-ES
+ir a mi canal de radio favorito	play_radio	O O O O O O O	play	es-ES
+pon una canción que me haga sonreir	play_music	O O O O O O O	play	es-ES
+pon novecientos setenta y uno	play_radio	O B-radio_name I-radio_name I-radio_name I-radio_name	play	es-ES
+pone cataluña radio por favor	play_radio	O B-radio_name I-radio_name O O	play	es-ES
+toca bbc radio uno	play_radio	O B-radio_name I-radio_name I-radio_name	play	es-ES
+por favor abra mi radio f. m. y reproduce novecientos ochenta y siete	play_radio	O O O O B-radio_name I-radio_name I-radio_name O O B-radio_name I-radio_name I-radio_name I-radio_name	play	es-ES
+olly quiero oír una emisora que ponga pop	play_radio	O O O O B-radio_name I-radio_name I-radio_name I-radio_name	play	es-ES
+pon el partido de fútbol en la radio	play_radio	O O O O O O O O	play	es-ES
+cuantos de mis podcasts de deportes tienen episodios nuevos que no haya escuchado	play_radio	O O O O O O O O O O O O O	play	es-ES
+abre pandora y reproduce los mejores éxitos	play_radio	O B-app_name O O O O O	play	es-ES
+por favor pon música popular en itunes	play_radio	O O O O O O B-app_name	play	es-ES
+ponte radio famosa para mi	play_radio	O O B-radio_name O O	play	es-ES
+ponme algo de música de radio de cadena ser	play_radio	O O O B-media_type O O O B-radio_name I-radio_name	play	es-ES
+por favor pon los mejores country	play_music	O O O O O B-music_genre	play	es-ES
+reproducir programas de música en la radio	play_radio	O O O O O O O	play	es-ES
+reproducir la lista de reproducción actual	play_music	O O O O O O	play	es-ES
+encuentra el faro del jazz en spotify	play_radio	O O O O O O B-app_name	play	es-ES
+pon la emisora cadena dial en spotify	play_radio	O O O B-radio_name I-radio_name O O	play	es-ES
+reproducir noticias en f. m.	play_radio	O O O B-radio_name I-radio_name	play	es-ES
+reproduce el episodio de alejandro sanz faro del jazz de los vencejos	play_radio	O O O O O O O O O O O O	play	es-ES
+pon cadena cero	play_radio	O B-radio_name I-radio_name	play	es-ES
+reproducir una emisora de radio de noticias	play_radio	O O O O B-radio_name I-radio_name I-radio_name	play	es-ES
+ok google puedes empezar anda ya	play_radio	O O O O B-person I-person	play	es-ES
+pon mi estación favorita a las veintiún horas	play_radio	O O O O O O B-time I-time	play	es-ES
+cadena ser	play_radio	O O	play	es-ES
+reproducir los programas en este pad requeridos	play_radio	O O O O O O O	play	es-ES
+que estaciones estan poniendo buena música esta mañana	play_radio	O O O O O O O B-timeofday	play	es-ES
+sintoniza kiss f. m.	play_radio	O B-radio_name I-radio_name I-radio_name	play	es-ES
+pon una radio de flamenco	play_radio	O O B-radio_name I-radio_name I-radio_name	play	es-ES
+pon el programa nadie sabe nada	play_radio	O O O O O O	play	es-ES
+reproduce b. b. c. radio cuatro	play_radio	O O O O O O	play	es-ES
+pon este programa	play_radio	O O O	play	es-ES
+puedes poner mi audiolibro favorito de harry potter	play_audiobook	O O O O O O B-audiobook_name I-audiobook_name	play	es-ES
+puedes poner el audiolibro de el tiempo entre costuras	play_audiobook	O B-player_setting O O O B-audiobook_name I-audiobook_name I-audiobook_name I-audiobook_name	play	es-ES
+empieza el capítulo siete de harry potter	play_audiobook	O O O O O B-audiobook_name I-audiobook_name	play	es-ES
+reanuda audiolibro los besos	play_audiobook	O O B-audiobook_name I-audiobook_name	play	es-ES
+puedes pausar la radio	play_audiobook	O B-player_setting O O	play	es-ES
+sigue reproduciendo mi audiolibro	play_audiobook	O O O B-media_type	play	es-ES
+pausar el audiolibro	play_audiobook	O O B-media_type	play	es-ES
+abre el código davinci donde lo dejé	play_audiobook	O O O O O O O	play	es-ES
+comeinza a reproducir el audiolibro de patria	play_audiobook	O O O O B-media_type B-audiobook_name I-audiobook_name	play	es-ES
+reproducir audiolibros agregado recientemente	play_audiobook	O B-media_type O O	play	es-ES
+pon audio	play_audiobook	O B-media_type	play	es-ES
+reanuda mi audiolibro donde lo pausé la última vez	play_audiobook	O O B-media_type O O O O O O	play	es-ES
+reanuda el último audiolibro reproducido	play_audiobook	O O O B-media_type O	play	es-ES
+por favor reproduzca el audio recientemente pausado	play_audiobook	O O O O B-media_type O O	play	es-ES
+reanudar mi audiolibro desde el principio del último capítulo que comencé	play_audiobook	O O B-media_type O O O O O O O O	play	es-ES
+pon el circulo	play_audiobook	O B-audiobook_name I-audiobook_name	play	es-ES
+tomemos un descanso de cinco minutos	play_audiobook	O O B-player_setting O B-time I-time	play	es-ES
+empezar a leer el libro	play_audiobook	O O O O O	play	es-ES
+reanudar el último reino para mí	play_audiobook	O B-audiobook_name I-audiobook_name I-audiobook_name O O	play	es-ES
+abra el audiolibro de harry potter y reprodúzcalo desde la última vez que se reprodujo.	play_audiobook	O O B-media_type O B-audiobook_name I-audiobook_name O O O O O O O O O	play	es-ES
+busca esta reproducción en audiolibro y reprodúcela para mí	play_audiobook	O O O O B-media_type O O O O	play	es-ES
+por favor reanuda esta reproducción en audiolibro	play_audiobook	O O B-player_setting O O O B-media_type	play	es-ES
+escucha the martian del downpour	play_audiobook	O B-audiobook_name I-audiobook_name O B-app_name	play	es-ES
+empieza a leer cincuenta tonos de gris desde el capítulo cuatro	play_audiobook	O O O B-audiobook_name I-audiobook_name I-audiobook_name I-audiobook_name O O O O	play	es-ES
+reanudar una canción del audiolibro de michael jackson	play_audiobook	O O O O B-media_type O B-artist_name I-artist_name	play	es-ES
+reproducir audiolibro blanco como la nieve	play_audiobook	O B-media_type B-audiobook_name I-audiobook_name I-audiobook_name I-audiobook_name	play	es-ES
+puedes continuar con el audiolibro patria	play_audiobook	O B-player_setting O O B-media_type B-audiobook_name	play	es-ES
+pon audiolibro jai ho	play_audiobook	O B-media_type B-song_name I-song_name	play	es-ES
+reanudar la lectura de la lección de francés	play_audiobook	O O O O O B-audiobook_name I-audiobook_name I-audiobook_name	play	es-ES
+por favor reproduce un resumen de algunos puntos importantes	play_audiobook	O O O O O O O O O	play	es-ES
+empieza a leer ese libro de alan partridge	play_audiobook	O O O O B-media_type O B-audiobook_author I-audiobook_author	play	es-ES
+continúa con mi audiolibro por favor	play_audiobook	O O O B-media_type O O	play	es-ES
+seguir reproduciendo el tiempo entre costuras	play_audiobook	O O B-audiobook_name I-audiobook_name I-audiobook_name I-audiobook_name	play	es-ES
+olly reanuda las dos torres	play_audiobook	O B-player_setting B-audiobook_name I-audiobook_name I-audiobook_name	play	es-ES
+reproducir desde este punto de este audiolibro	play_audiobook	O O O O O O B-media_type	play	es-ES
+díme como se hace el pan de ajo	cooking_recipe	O O O O O B-food_type I-food_type I-food_type	cooking	es-ES
+cuánto tiempo para cocinar pasta	cooking_recipe	O O O B-cooking_type B-food_type	cooking	es-ES
+qué puedo cocinar con brocoli y pollo	cooking_recipe	O O O O B-ingredient O B-ingredient	cooking	es-ES
+enséñame como cocinar	cooking_recipe	O O O	cooking	es-ES
+cómo puedo cocinar pasta	cooking_recipe	O O O B-food_type	cooking	es-ES
+qué ingredientes se pueden usar para reemplazar al vino blanco	cooking_recipe	O O O O O O O O B-ingredient I-ingredient	cooking	es-ES
+podría mostrar los vídeos para cocinar comida italiana	cooking_recipe	O O O B-media_type O O O B-food_type	cooking	es-ES
+olly como hago ensaladilla	cooking_recipe	O O O B-food_type	cooking	es-ES
+cómo se cocina la merluza	cooking_recipe	O O O O B-food_type	cooking	es-ES
+qué comida más sexy para cocinar en una cita	cooking_recipe	O O B-food_type I-food_type O O O O O	cooking	es-ES
+por cuánto tiempo tengo que poner la pizza en el horno para que esté crujiente	cooking_recipe	O O O O O O O B-food_type O O O O O O B-cooking_type	cooking	es-ES
+cómo cocinar las judías verdes	cooking_recipe	O O O B-ingredient I-ingredient	cooking	es-ES
+dame recetas	cooking_recipe	O O	cooking	es-ES
+usa google para mostrarme cómo cocinar	cooking_recipe	O O O O O O	cooking	es-ES
+dame las mejores ideas para cocinar	cooking_recipe	O O O O O O	cooking	es-ES
+muéstrame una receta de galletas	cooking_recipe	O O O O B-food_type	cooking	es-ES
+cómo hacer galletas	cooking_recipe	O O B-food_type	cooking	es-ES
+cuántas copas en un cuarto de hora	cooking_recipe	O O O O B-time O O	cooking	es-ES
+cómo hornear una patata	cooking_recipe	O O O B-food_type	cooking	es-ES
+busca una receta de pizza	cooking_recipe	O O O O B-food_type	cooking	es-ES
+cómo hago un pastel de carne	cooking_recipe	O O O B-food_type I-food_type I-food_type	cooking	es-ES
+búscame la receta d ela sopa de fideos con pollo	cooking_recipe	O O O O O B-food_type I-food_type I-food_type I-food_type I-food_type	cooking	es-ES
+busca menus sin gluten	cooking_recipe	O O B-food_type I-food_type	cooking	es-ES
+enséña me cómo cocinar una receta	cooking_recipe	O O O O O O	cooking	es-ES
+cuanto tiempo debo enfriar una tarta	cooking_recipe	O O O O O O	cooking	es-ES
+cómo cocinas una tortilla de queso	cooking_recipe	O O O B-food_type I-food_type I-food_type	cooking	es-ES
+consigue la receta para hacer pizza	cooking_recipe	O O O O O B-food_type	cooking	es-ES
+cazuela receta de pollo guisado	cooking_recipe	O O O B-food_type I-food_type	cooking	es-ES
+puedes mostrar una receta de espaguetis	cooking_recipe	O O O O O B-food_type	cooking	es-ES
+muestra una receta para cocido madrileño	cooking_recipe	O O O O B-food_type I-food_type	cooking	es-ES
+recetas	cooking_recipe	O	cooking	es-ES
+por cuánto tiempo horneo las pechugas de pollo	cooking_recipe	O O O O O B-food_type I-food_type I-food_type	cooking	es-ES
+receta de carne de cangrejo	cooking_recipe	O O B-food_type I-food_type I-food_type	cooking	es-ES
+necesito algunas ideas para la cena que sean mexicanas	cooking_recipe	O O O O O O O O B-food_type	cooking	es-ES
+no más comentarios	cooking_recipe	O O O	cooking	es-ES
+cuál es el tiempo de cocción de los huevos hervidos	cooking_recipe	O O O O O O O O B-food_type I-food_type	cooking	es-ES
+encuentra una receta fácil de leche de almendras	cooking_recipe	O O O O O B-drink_type I-drink_type I-drink_type	cooking	es-ES
+encuentra una receta para hacer estofado de pollo	cooking_recipe	O O O O O B-food_type I-food_type I-food_type	cooking	es-ES
+busca una receta de comida	cooking_recipe	O O O O O	cooking	es-ES
+alexa juega ajedrez conmigo	play_game	O O B-game_name O	play	es-ES
+tengo ganas de jugar al ajedrez puedes jugar a eso	play_game	O O O O O B-game_name O O O O	play	es-ES
+qué tal un buen juego de ajedrez	play_game	O O O O O O B-game_name	play	es-ES
+jugr solitario	play_game	O B-game_name	play	es-ES
+jugar un juego de carreras	play_game	O O B-game_type O O	play	es-ES
+vamos a jugar pinball	play_game	O O O B-game_name	play	es-ES
+comienza a jugar serpiente	play_game	O O O B-game_name	play	es-ES
+quieres jugar un juego conmigo	play_game	O O O O O	play	es-ES
+quiero que juegues a mi juego de fútbol desde el nivel quinto	play_game	O O O O O O O B-game_name O O O O	play	es-ES
+quiero jugar un partida de trivial	play_game	O O O B-game_name I-game_name I-game_name	play	es-ES
+encuentra un juego	play_game	O O O	play	es-ES
+juega al parchís conmigo	play_game	O O B-game_name O	play	es-ES
+vamos a resolver el rompecabezas	play_game	O O O B-game_name I-game_name	play	es-ES
+abre la saga de papa pear	play_game	O O B-game_name I-game_name I-game_name I-game_name	play	es-ES
+juguemos a damas	play_game	O O B-game_name	play	es-ES
+jugar juegos	play_game	O O	play	es-ES
+puedes tomar un papel de enemigo en el juego de coc	play_game	O O O O O O O O B-game_name O O	play	es-ES
+juega conmigo al ajedrez por favor	play_game	O O O B-game_name O O	play	es-ES
+puedes nombrar esa melodía	play_game	O B-game_name I-game_name I-game_name	play	es-ES
+puedes jugar póker conmigo	play_game	O O B-game_name O	play	es-ES
+juguemos warcraft	play_game	O B-game_name	play	es-ES
+juguemos tetris	play_game	O B-game_name	play	es-ES
+enumerar los artículos en mi lista de compras olly	lists_query	O O O O O O B-list_name I-list_name O	lists	es-ES
+me gustaría cancelar el viaje a las vegas la semana que viene	lists_remove	O O O O O O O O O O O O	lists	es-ES
+qué hay en mi lista de la compra hoy	lists_query	O O O O O B-list_name I-list_name I-list_name B-date	lists	es-ES
+tacha el pan de la lista de la compra	lists_remove	O O O O O O O O B-list_name	lists	es-ES
+añadir el vodka a la lista de la compra para mi fiesta	lists_query	O O O O O O O O B-list_name I-list_name I-list_name I-list_name	lists	es-ES
+eliminar una lista de cosas para comprar	lists_remove	O O O O B-list_name I-list_name I-list_name	lists	es-ES
+puedes crear una nueva lista	lists_createoradd	O O O O O	lists	es-ES
+quita la lista de artículos de comida comprados la semana pasada	lists_remove	O O O O O O B-list_name O O B-date I-date	lists	es-ES
+depende de lo visto	lists_remove	O O O O	lists	es-ES
+borrar lista	lists_remove	O O	lists	es-ES
+hacer lista	lists_createoradd	O O	lists	es-ES
+con qué supermercados tengo hecha una lista	lists_query	O O B-list_name O O O O	lists	es-ES
+cuáles son mis listas	lists_query	O O O O	lists	es-ES
+que listas están disponibles	lists_query	O O O O	lists	es-ES
+encuentra la lista y quita manzana	lists_remove	O O O O O O	lists	es-ES
+borrar mi antiguas lista de canciones inglesas	lists_remove	O O B-list_name O O O B-list_name	lists	es-ES
+por favor elimine una lista	lists_remove	O O O O O	lists	es-ES
+añade este articulo a la lista	lists_createoradd	O O O O O O	lists	es-ES
+cuáles fueron las últimas cinco listas que hice	lists_query	O O O O O O O O	lists	es-ES
+envíame la última lista subida	lists_query	O O O O O	lists	es-ES
+haz una lista de números para mi	lists_createoradd	O O O O B-list_name O O	lists	es-ES
+créame una nueva lista por favor	lists_createoradd	O O O O O O	lists	es-ES
+qué hay en mi lista de qué hacer hoy	lists_query	O O O O O O B-list_name I-list_name B-date	lists	es-ES
+que hago hoy	general_quirky	O O B-date	general	es-ES
+marque el punto cinco en mi lista de tareas pendientes	lists_query	O O O O O O O O B-list_name I-list_name	lists	es-ES
+por favor muestra mi lista	lists_query	O O O O O	lists	es-ES
+eliminar el archivo de excel de la lista	lists_remove	O O O O O O O O	lists	es-ES
+dime una lista de reproducción	music_query	O O O O O	music	es-ES
+cuantos artículos de comida hay en la lista	lists_query	O O O O O O O O	lists	es-ES
+la lista no debería de tener ningún artículo de comida con el prefijo seco	lists_remove	O O O O O O O O O O O O O O	lists	es-ES
+crea una nueva lista antes de mañana	lists_createoradd	O O O O O O B-date	lists	es-ES
+hacer una nueva lista	lists_createoradd	O O O O	lists	es-ES
+pon lápiz en mi lista de supermercado	lists_createoradd	O O O O O O B-list_name	lists	es-ES
+por favor elimine este elemento de la lista	lists_remove	O O O O O O O O	lists	es-ES
+añadir supermercado la lista	lists_createoradd	O O O O	lists	es-ES
+lee la lista	lists_query	O O O	lists	es-ES
+reúne mi lista	lists_query	O O O	lists	es-ES
+dime que listas tengo	lists_query	O O O O	lists	es-ES
+eliminar el elemento tres	lists_remove	O O O O	lists	es-ES
+qué contiene la lista	lists_query	O O O O	lists	es-ES
+por favor agregue este artículo a la lista	lists_createoradd	O O O O O O O O	lists	es-ES
+mostrar listas disponibles	lists_query	O O O	lists	es-ES
+puedes decirme por favor que tengo en mi lista	lists_query	O O O O O O O O O	lists	es-ES
+eliminar la pimienta de mi lista de la compra	lists_remove	O O O O O O O O B-list_name	lists	es-ES
+añade algo a mi lsita	lists_createoradd	O O O O O	lists	es-ES
+eliminar ese elemento de mi lista	lists_remove	O O O O O O	lists	es-ES
+traductor google	lists_query	O O	lists	es-ES
+vuelve a leer lo que he puesto en mi lista de tareas para esta semana	lists_query	O O O O O O O O O O O O O B-date O	lists	es-ES
+leer artículos de la lista de compras	lists_query	O O O O O O B-list_name	lists	es-ES
+agregar cereales a mi lista de la compra	lists_createoradd	O O O O O O O O	lists	es-ES
+hay huevos en mi lista de compras	lists_query	O O O O O B-list_name I-list_name	lists	es-ES
+tengo una lista de contactos para la fiesta que estoy planeando	lists_query	O O O O O O O B-event_name O O O	lists	es-ES
+eliminar mi lista de tareas pendientes	lists_remove	O O O B-list_name I-list_name I-list_name	lists	es-ES
+quita el articulo de la lista	lists_remove	O O O O O O	lists	es-ES
+por favor añade la leche a la lista de la compra	lists_createoradd	O O O O O O O O B-list_name I-list_name I-list_name	lists	es-ES
+podrías mostrar me mis listas	lists_query	O O O O O	lists	es-ES
+abre listas quita lista	lists_remove	O O O O	lists	es-ES
+olly qué es lo siguiente en mi lista	lists_query	O O O O O O O O	lists	es-ES
+quita la leche de mi lista de la compra	lists_remove	O O O O O O O O B-list_name	lists	es-ES
+por favor dime que listas he hecho	lists_query	O O O O O O O	lists	es-ES
+reorganizar eso de la lista	lists_remove	O O O O O	lists	es-ES
+deja la lista	lists_remove	O O O	lists	es-ES
+olly qué más tengo en la lista	lists_query	O O O O O O O	lists	es-ES
+añadir compras a mi lista para hacer hoy	lists_createoradd	O O O O O O O B-date	lists	es-ES
+por favor dime cómo puedo eliminar el artículo	lists_remove	O O O O O O O O	lists	es-ES
+puedo comprobar mis listas	lists_query	O O O O	lists	es-ES
+hice una lista de compra	lists_query	O O O O B-list_name	lists	es-ES
+retire el artículo de mi lista	lists_remove	O O O O O O	lists	es-ES
+crear una nueva lista de	lists_createoradd	O O O O O	lists	es-ES
+dime que hay sobre esta lista	lists_query	O O O O O O	lists	es-ES
+por favor elimine la primera lista	lists_remove	O O O O O O	lists	es-ES
+eliminar la reunión del miércoles por la mañana	calendar_remove	O O O O B-date B-timeofday I-timeofday I-timeofday	calendar	es-ES
+crear una nueva lista de mis facturas pendientes	lists_createoradd	O O O O O O B-list_name I-list_name	lists	es-ES
+léeme mi lista	lists_query	O O O	lists	es-ES
+dame mi lista	lists_query	O O O	lists	es-ES
+hacer una lista para el trabajo	lists_createoradd	O O O O O O	lists	es-ES
+por favor elimine la lista titulada futball	lists_remove	O O O O O O B-list_name	lists	es-ES
+no quier mas esta lista	lists_remove	O O O O O	lists	es-ES
+tengo algo en mi lista de cosas por hacer	lists_query	O O O O O B-list_name I-list_name I-list_name I-list_name	lists	es-ES
+que listas están disponibles ahora	lists_query	O O O O O	lists	es-ES
+borra la última linea	lists_remove	O O O O	lists	es-ES
+añadir una nueva lista para material escolar	lists_createoradd	O O O O O B-list_name I-list_name	lists	es-ES
+suprímase el periódico de mi lista de vacaciones	lists_remove	O O O O O B-list_name I-list_name I-list_name	lists	es-ES
+lee mi lista de compras para hoy	lists_query	O O O B-list_name I-list_name O B-date	lists	es-ES
+lo que hay en la lista para hoy	lists_query	O O O O O O O B-date	lists	es-ES
+incluir un elemento en una lista	lists_createoradd	O O O O O O	lists	es-ES
+eliminar la compra de comestibles de la lista	lists_remove	O O O O O O O O	lists	es-ES
+ya no tenemos pintura así que quítalo de la lista de la pintura de baño	lists_remove	O O O O O O O O O O O O O O O	lists	es-ES
+recuérdame pedir más jabón	lists_createoradd	O O O O	lists	es-ES
+abrir mi lista	lists_query	O O O	lists	es-ES
+eliminar la última canción reproducida	lists_remove	O O O O O	lists	es-ES
+por favor añade a rosa a mi lista de contactos	email_addcontact	O O O O B-person O O O O O	email	es-ES
+puedes leerme mis listas	lists_query	O O O O	lists	es-ES
+eh qué hay en mis listas	lists_query	O O O O O O	lists	es-ES
+oye cuáles son mi listas	lists_query	O O O O O	lists	es-ES
+puedes decirme que artículos estan en mi lista de la compra	lists_query	O O O O O O O O O O B-list_name	lists	es-ES
+qué es esto en la lista	lists_query	O O O O O O	lists	es-ES
+dime qué hay en mi lista	lists_query	O O O O O O	lists	es-ES
+borrar una lista	lists_remove	O O O	lists	es-ES
+cancela la leche de la lista de la compra	lists_remove	O O O O O O O O B-list_name	lists	es-ES
+añade leche a mi lista de la compra	lists_createoradd	O O O O O O O B-list_name	lists	es-ES
+quita la lista de musica de santana	lists_remove	O O O O O O O	lists	es-ES
+que esta en esta lista especifica	lists_query	O O O O O O	lists	es-ES
+puedo ver mis listas del trabjao	lists_query	O O O O O O	lists	es-ES
+añade esto a la lista	lists_createoradd	O O O O O	lists	es-ES
+por favor elimine mi lista de tareas pendientes de hoy	lists_remove	O O O O O O B-list_name I-list_name O B-date	lists	es-ES
+no quiero huevos	lists_remove	O O O	lists	es-ES
+lista de lo que hay disponbile	lists_query	O O O O O O	lists	es-ES
+crear una lista de la compra mensual pendiente	lists_createoradd	O O O B-list_name I-list_name I-list_name B-general_frequency O	lists	es-ES
+mi programa de trabajo	calendar_query	O O O O	calendar	es-ES
+mi plan de salud	lists_query	O B-list_name I-list_name I-list_name	lists	es-ES
+añade pásteles a la lista de navidad	lists_createoradd	O O O O O O B-list_name	lists	es-ES
+eliminar la lista de cosas por hacer	lists_remove	O O O O B-list_name I-list_name I-list_name	lists	es-ES
+borra la lista vieja de reproducción y crea una nueva	lists_createoradd	O O B-list_name I-list_name I-list_name I-list_name O O O O	lists	es-ES
+comprobar lista	lists_query	O O	lists	es-ES
+cuántos elementos hay en mi lista de tareas	lists_query	O O O O O O O B-list_name	lists	es-ES
+comprueba mi lista	lists_query	O O O	lists	es-ES
+puedes adelantar un episodio en el podcast	play_podcasts	O B-player_setting O O O O O	play	es-ES
+reproducir el siguiente episodio	play_podcasts	O O B-podcast_descriptor I-podcast_descriptor	play	es-ES
+localizar mi podcast	play_podcasts	O O O	play	es-ES
+pasar al siguiente episodio	play_podcasts	O O B-podcast_descriptor I-podcast_descriptor	play	es-ES
+reproducir el podcast de la razón más reciente	play_podcasts	O O O O O B-podcast_name O O	play	es-ES
+pasar al siguiente episodio	play_podcasts	O O B-podcast_descriptor I-podcast_descriptor	play	es-ES
+reproduce el séptimo episodio de anda ya	play_podcasts	O O O O O B-podcast_name I-podcast_name	play	es-ES
+encuentra y crea una lista de reproducción de las últimas pistas de baile	play_music	O O O O O O O O O O O O O	play	es-ES
+organiza y pon todas las canciones de nach	play_music	O O O O O O O B-artist_name	play	es-ES
+reproduce el podcast desde el principio	play_podcasts	O O O O O O	play	es-ES
+oye pon ese podcast que dejé anoche	play_podcasts	O O O O O B-podcast_descriptor I-podcast_descriptor	play	es-ES
+salta al siguiente podcast	play_podcasts	O O B-podcast_descriptor I-podcast_descriptor	play	es-ES
+reproducir el siguiente podcast	play_podcasts	O O O O	play	es-ES
+salta al siguiente podcast	play_podcasts	O O B-podcast_descriptor I-podcast_descriptor	play	es-ES
+quiero escuchar el podcast de mcs	play_podcasts	O O O O O B-person	play	es-ES
+favorito	play_podcasts	O	play	es-ES
+adelanta por favor	play_podcasts	O O O	play	es-ES
+busca podcast y reprodúce lo	play_podcasts	O O O O O	play	es-ES
+puedes reproducir mi archivo de música	play_music	O O O O O O	play	es-ES
+pasar al siguiente episodio	play_podcasts	O O O O	play	es-ES
+termina este podcast empezar de nuevo	play_podcasts	O O O O O O	play	es-ES
+escuchar el último podcast de duncan trussel	play_podcasts	O O O O O B-person I-person	play	es-ES
+reproducir el último próximo episodio	play_podcasts	O O O B-podcast_descriptor I-podcast_descriptor	play	es-ES
+iniciar podcast diario de mlb	play_podcasts	O O B-podcast_name I-podcast_name I-podcast_name	play	es-ES
+muéstrame los podcasts mejor calificados	play_podcasts	O O O O O	play	es-ES
+pon el episodio de ted en español en cola	play_podcasts	O O O O B-podcast_name O O O O	play	es-ES
+tocar canciones clásicastocar canciones clásicas	play_music	O O O O B-music_genre	play	es-ES
+reproducir podcast dementes	play_podcasts	O O B-podcast_name	play	es-ES
+retrocede un episodio	play_podcasts	O O O	play	es-ES
+botón de rebobina	play_podcasts	O O B-player_setting	play	es-ES
+muéstrame el último episodio	play_podcasts	O O O O	play	es-ES
+pon el podcast de entiende tu mente	play_podcasts	O O O O O O O	play	es-ES
+reproducir el podcast de mariano rajoy guardado en el dispositivo	play_podcasts	O O O O B-podcast_name I-podcast_name O O O O	play	es-ES
+podcast de la red	play_podcasts	O O O O	play	es-ES
+mucho más claro y orientado a temas	play_podcasts	O O O O O O O	play	es-ES
+mecano	play_podcasts	O	play	es-ES
+pon el episodio más actual de ricardo ponce	play_podcasts	O O B-podcast_descriptor I-podcast_descriptor I-podcast_descriptor O O O	play	es-ES
+quiero escuchar este podcast	play_podcasts	O O O O	play	es-ES
+qué nuevas películas se proyectan en los cines esta semana	recommendation_movies	O O O O O O O O B-date I-date	recommendation	es-ES
+hay exposiciones caninas cerca de la ciudad de nueva york	recommendation_events	O B-event_name I-event_name O O O B-place_name I-place_name I-place_name I-place_name	recommendation	es-ES
+dónde está el pub más cercano de la ciudad	recommendation_locations	O O O B-business_type O O O O B-place_name	recommendation	es-ES
+que conciertos hay ahora cerca	recommendation_events	O B-event_name O B-time O	recommendation	es-ES
+que películas estan presentado en cinesa	recommendation_movies	O O O O O B-place_name	recommendation	es-ES
+qué exhibiciones o espectáculos están programados en el teatro real	recommendation_events	O B-event_name O B-event_name O O O O B-place_name I-place_name	recommendation	es-ES
+qué eventos están sucediendo cerca de mí	recommendation_events	O O O O O O O	recommendation	es-ES
+a dónde debo ir para comer comida mexicana en mi área	recommendation_locations	O O O O O O O B-food_type O O O	recommendation	es-ES
+necesito un poco de sushi lo que está más cerca	recommendation_locations	O O O O B-food_type O O O O O	recommendation	es-ES
+buscar restaurantes chinos cercanos	recommendation_locations	O B-business_type B-food_type O	recommendation	es-ES
+dónde está el festival gastronómico esta noche	recommendation_events	O O O B-event_name I-event_name B-timeofday I-timeofday	recommendation	es-ES
+estoy buscando algunos desfiles de vestidos puedes encontrar tiendas de ropa dentro de una milla	recommendation_locations	O O O B-business_type I-business_type I-business_type O O O O O B-place_name I-place_name I-place_name I-place_name	recommendation	es-ES
+donde esta el restaurante mas cercano	recommendation_locations	O O O B-business_type O O	recommendation	es-ES
+olly indicame la posicion exacta de la tienda	recommendation_locations	O O O O O O O O	recommendation	es-ES
+qué nuevas películas están disponibles hoy	recommendation_movies	O O O O O B-date	recommendation	es-ES
+muéstrame unos patio de comidas más cercano a mi ubicación	recommendation_locations	O O B-business_type I-business_type I-business_type B-place_name I-place_name I-place_name I-place_name I-place_name	recommendation	es-ES
+buenas tiendas de bicicletas en valencia	recommendation_locations	O B-business_type I-business_type I-business_type O B-place_name	recommendation	es-ES
+mejor bar en el área local	recommendation_locations	O B-business_type O O O O	recommendation	es-ES
+dime todos los eventos locales	recommendation_events	O O O O O	recommendation	es-ES
+cerca de la tienda de alimentos	recommendation_locations	O O O B-business_type I-business_type I-business_type	recommendation	es-ES
+qué película de comedia romántica puedo ver en los cines de nueva york	recommendation_movies	O O B-movie_type I-movie_type I-movie_type O O O O O O B-place_name I-place_name	recommendation	es-ES
+haga una lista de tareas pendientes mientras visita el parque nacional de yellowstone	recommendation_events	O O O O O O O O O B-place_name I-place_name I-place_name I-place_name	recommendation	es-ES
+qué debo hacer cuando visite el parque nacional yellowstone	recommendation_events	O O O O O O O O O	recommendation	es-ES
+que esta pasando alrededor mio	recommendation_events	O O O O O	recommendation	es-ES
+teatros cerca de mí	recommendation_movies	O O O O	recommendation	es-ES
+qué eventos de la feria del libro se llevarán a cabo la próxima semana en madrid	recommendation_events	O O O O B-event_name I-event_name I-event_name O O O O O B-date I-date O B-place_name	recommendation	es-ES
+cuál es el cine más cercano que reproduce la nueva película de vin diesel	recommendation_movies	O O O O O O O O O O O O B-movie_name I-movie_name	recommendation	es-ES
+qué eventos se celebran en la ciudad de nueva york	recommendation_events	O O O O O O B-place_name I-place_name I-place_name I-place_name	recommendation	es-ES
+todo sobre mi madre	recommendation_movies	O O O O	recommendation	es-ES
+quién vende los netbooks más baratos en el sur de austin	recommendation_locations	O O O O O O O B-place_name I-place_name I-place_name I-place_name	recommendation	es-ES
+cuál es la mejor tienda de ropa aquí	recommendation_locations	O O O O B-business_type I-business_type I-business_type O	recommendation	es-ES
+busca una tienda que venda cerveza	recommendation_locations	O O O O O B-drink_type	recommendation	es-ES
+que películas estan proyectando en cines cerca a mi	recommendation_movies	O O O O O B-place_name O O O	recommendation	es-ES
+qué películas se están proyectando cerca de mí con críticas altas	recommendation_movies	O O O O O O O O O O O	recommendation	es-ES
+películas con buenas calificaciones de tomate podrido	recommendation_movies	O O O O O O O	recommendation	es-ES
+que actividades estan ocurriendo en mi area	recommendation_events	O O O O O O O	recommendation	es-ES
+que compañia de taxi es la mejor	recommendation_events	O O O O O O O	recommendation	es-ES
+que merece la pena ver	recommendation_movies	O O O O O	recommendation	es-ES
+cuéntame sobre las actividades en mi área este fin de semana	recommendation_events	O O O O O O O B-date I-date I-date I-date	recommendation	es-ES
+que esta pasando en la	recommendation_events	O O O O B-place_name	recommendation	es-ES
+que tipo de tiendas hay cerca a mi localidad	recommendation_locations	O O O B-business_type O O O O O	recommendation	es-ES
+puedes recomendar un restaurante barato en esta zona	recommendation_locations	O O O B-business_type O O O O	recommendation	es-ES
+cuáles son algunos restaurantes cerca de mí	recommendation_locations	O O O B-business_type O O O	recommendation	es-ES
+dónde puedo encontrar el pub irlandés más cercano en mi área	recommendation_locations	O O O O B-business_type I-business_type O O O O O	recommendation	es-ES
+qué bares hay a mi alrededor	recommendation_locations	O B-business_type O O O O	recommendation	es-ES
+dime todos los eventos que ocurren en milán	recommendation_events	O O O O O O O B-place_name	recommendation	es-ES
+dime que esta pasando en mi ciudad	recommendation_events	O O O O O O O	recommendation	es-ES
+¿qué está pasando en los angeles hoy dia	recommendation_events	O O O O O O B-date I-date	recommendation	es-ES
+cuántas tiendas de comestibles hay en mi vecindario	recommendation_locations	O O O O O O O O	recommendation	es-ES
+busca un restaurante en mi zona	recommendation_locations	O O B-business_type O O O	recommendation	es-ES
+me muero de hambre lo que es bueno para comer en cincinnati	recommendation_locations	O O O O O O O B-business_type I-business_type I-business_type O B-place_name	recommendation	es-ES
+olly dónde puedo conseguir unas bebidas en madrid	recommendation_locations	O O O O O B-business_type O B-place_name	recommendation	es-ES
+eventos locales de hoy	recommendation_events	O O B-date I-date	recommendation	es-ES
+enumerar todas las tiendas cercanas	recommendation_locations	O O O B-business_type O	recommendation	es-ES
+puedes recomendar algún pub en gran via	recommendation_locations	O O O B-business_type O B-place_name I-place_name	recommendation	es-ES
+que esta pasando en el barrio	recommendation_events	O O O B-place_name I-place_name I-place_name	recommendation	es-ES
+necesito un lugar que me entregue pizza en benton are	recommendation_locations	O O O O O O B-food_type O B-place_name I-place_name	recommendation	es-ES
+hay algún lugar chino en malasaña	recommendation_locations	O O O B-food_type O B-place_name	recommendation	es-ES
+por favor busque eventos en mi ubicación	recommendation_events	O O O O O O O	recommendation	es-ES
+oye olly quiero obtener trenes a madrid el miércoles	transport_ticket	O O O O O O B-place_name O B-date	transport	es-ES
+a qué hora es el próximo tren a barcelona	transport_query	O O O O O O B-transport_type O B-place_name	transport	es-ES
+cuál es el mejor camino a francia	transport_query	O O O O O O B-place_name	transport	es-ES
+voy a chinatown en media hora reserva un uber para mí	transport_taxi	O O B-place_name O B-time I-time O O B-transport_agency O O	transport	es-ES
+olly por favor resérvame un billete de renfe a madrid a las cinco de la tarde para este viernes	transport_ticket	O O O O O O O B-transport_name O B-place_name O O B-time I-time I-time I-time O B-date I-date	transport	es-ES
+reservar mi silla clase ac billete de tren de manhattan a nueva york	transport_ticket	O O O O O O O B-transport_type O B-place_name O B-place_name I-place_name	transport	es-ES
+cómo es la situación del tráfico en la calle houston	transport_traffic	O O O O O O O O B-place_name I-place_name	transport	es-ES
+llámame un uber para ahora mismo	transport_taxi	O O B-transport_agency O O O	transport	es-ES
+hay más tráfico en la calle canal	transport_traffic	O O O O O B-place_name I-place_name	transport	es-ES
+cuánto tráfico hay ahora mismo en la calle sanche	transport_traffic	O O O O O O O B-place_name I-place_name	transport	es-ES
+envíame un uber ahora mismo	transport_taxi	O O B-transport_agency O O	transport	es-ES
+dónde está la estación de tren	transport_query	O O O B-place_name I-place_name I-place_name	transport	es-ES
+podrías tener un uber en mi casa en un cuarto de hora	transport_taxi	O O O B-transport_agency O O B-place_name B-time I-time I-time I-time I-time	transport	es-ES
+necesito un taxi para ir al aeropuerto por favor	transport_taxi	O O B-transport_type O O O B-place_name O O	transport	es-ES
+reservame un billete de avión	transport_ticket	O O O O O	transport	es-ES
+busca un taxi para ir a casa	transport_taxi	O O B-transport_type O O O B-place_name	transport	es-ES
+reservar uber desde mi casa	transport_taxi	O B-transport_agency O O B-place_name	transport	es-ES
+puedes decirme los siguientes cuatro trenes programados para córdoba por favor	transport_query	O O O O O O O O B-place_name O O	transport	es-ES
+como es el trafico en carretera milligrams	transport_traffic	O O O O O B-place_name I-place_name	transport	es-ES
+como esta el trafico	transport_traffic	O O O O	transport	es-ES
+consígueme un billete de tren a madrid para el próximo jueves cuanto más tarde mejor	transport_query	O O O O O O B-place_name O O O B-date O O O O	transport	es-ES
+cuál es el tiempo programado para que el correo de punjab llegue a gwalior	transport_query	O O O O O O O O O O B-place_name O O B-place_name	transport	es-ES
+cual es el siguiente tren a calle larios	transport_query	O O O O B-transport_type O B-place_name I-place_name	transport	es-ES
+consígueme un taxi	transport_taxi	O O B-transport_type	transport	es-ES
+dirígeme a la estación de ferrocarril más cercana	transport_query	O O O B-place_name I-place_name I-place_name O O	transport	es-ES
+horario de tren de málaga a córdoba	transport_query	O O B-transport_type O B-place_name O B-place_name	transport	es-ES
+búscame dos billetes en el tren del martes a santander	transport_ticket	O O O O O B-transport_type B-date I-date O B-place_name	transport	es-ES
+cuál es el estado del tráfico del trabajo a casa	transport_traffic	O O O O O O O O O B-place_name	transport	es-ES
+dime el estado del tráfico de aquí a casa	transport_traffic	O O O O O O O O B-place_name	transport	es-ES
+reservar un taxi	transport_taxi	O O B-transport_type	transport	es-ES
+autobús y tarifas	transport_ticket	O O O	transport	es-ES
+en delhi el nivel de tráfico es demasiado alto	transport_traffic	O B-place_name O O O O O O O	transport	es-ES
+resérvame un taxi al aeropuerto para mañana por la mañana	transport_taxi	O O B-transport_type O B-place_name O B-date O O B-date	transport	es-ES
+me gustaria conocer la situacion del trafico	transport_traffic	O O O O O O O	transport	es-ES
+reservar mi taxi disponible más cercano	transport_taxi	O O B-transport_type O O O	transport	es-ES
+como llego a brighton	transport_query	O O O B-place_name	transport	es-ES
+consígueme un uber	transport_taxi	O O B-transport_agency	transport	es-ES
+reservar un taxi	transport_taxi	O O B-transport_type	transport	es-ES
+recomprar el último billete de tren a huesca	transport_ticket	O O O O O B-transport_type O B-place_name	transport	es-ES
+cómprame un billete de tren para hoy a la ciudad de córdoba	transport_ticket	O O O O B-transport_type O B-date O O O O B-place_name	transport	es-ES
+indicaciones para llegar a la tienda apple más cercana	transport_query	O O O O O B-business_name I-business_name O O	transport	es-ES
+hazme una idea de como son las condiciones de trafico ahora	transport_traffic	O O O O O O O O O O O	transport	es-ES
+qué horarios de trenes hay desde barcelona a málaga	transport_query	O O O B-transport_type O O B-place_name O B-place_name	transport	es-ES
+cómo voy a málaga desde zamora	transport_query	O O O B-place_name O B-place_name	transport	es-ES
+cómo es el tráfico de casa al trabajo	transport_traffic	O O O O O B-place_name O O	transport	es-ES
+coger el coche	transport_taxi	O O O	transport	es-ES
+cuáles son los horarios del tren el veintitrés a clarksville	transport_query	O O O O O B-transport_type O B-date O B-place_name	transport	es-ES
+comprar billete de tren	transport_ticket	O O O B-transport_type	transport	es-ES
+necesito un taxi mañana a las ocho de la mañana	transport_taxi	O O B-transport_type B-date O O B-time O O B-date	transport	es-ES
+reservar boleto para salir por la mañana	transport_ticket	O O O O O O B-timeofday	transport	es-ES
+encontrar un conductor uber disponible para esta noche después de las diez de la noche	transport_taxi	O O O B-transport_agency O O B-timeofday I-timeofday O O O B-time I-time I-time I-time	transport	es-ES
+a qué hora sale el tren para madrid	transport_query	O O O O O B-transport_type O B-place_name	transport	es-ES
+puedes reservarme un billete de tren a boston para el próximo martes	transport_ticket	O O O O O B-transport_type O B-place_name O O O B-date	transport	es-ES
+a qué hora sale el tren de filadelfia	transport_query	O O O O O B-transport_type O B-place_name	transport	es-ES
+cuando sale el siguiente renfe a valencia	transport_query	O O O O O O B-place_name	transport	es-ES
+consígueme el número de un servicio de taxi local	transport_taxi	O O O O O B-business_type I-business_type I-business_type O	transport	es-ES
+dame direcciones para el lugar	transport_query	O O O O O	transport	es-ES
+cómo llegar a disneyland	transport_query	O O O B-place_name	transport	es-ES
+necesito llegar a la ubicación llama a un taxi	transport_taxi	O O O O O O O O B-transport_type	transport	es-ES
+me gustaría una lista de todos los precios de los billetes de tren para esta ubicación por favor	transport_query	O O O O O O O O O O O O B-transport_type O O O O O	transport	es-ES
+necesito ir a lyon reservar un billete de tren	transport_ticket	O O O B-place_name O O O O B-transport_type	transport	es-ES
+cuáles son los horarios de los trenes de san francisco a nueva york	transport_query	O O O O O O B-transport_type O B-place_name I-place_name O B-place_name I-place_name	transport	es-ES
+olly por favor cómprame un billete de tren a cuenca	transport_ticket	O O O O O O O B-transport_type O B-place_name	transport	es-ES
+cuánto por un boleto de tren	transport_query	O O O O O B-transport_type	transport	es-ES
+por favor infórmame de cómo proceder para comprar un billete de tren a madrid	transport_query	O O O O O O O O O O O B-transport_type O B-place_name	transport	es-ES
+puedes darme los horarios de los trenes para ann arbor	transport_query	O O O O O O B-transport_type O B-place_name I-place_name	transport	es-ES
+resérvame un billete de tren a chicago para mañana por la mañana antes de las diez	transport_ticket	O O O O B-transport_type O B-place_name O B-date O O B-date O O O B-time	transport	es-ES
+quiero ir a bankia dime indicaciones de como llegar	transport_query	O O O B-business_name O O O O O	transport	es-ES
+por favor pide un billete de tren a los angeles	transport_ticket	O O O O O O B-transport_type O B-place_name I-place_name	transport	es-ES
+necesito un taxi mañana a las ocho de la mañana para ir al trabajo	transport_taxi	O O B-transport_type B-date O O B-time O O B-date O O O O	transport	es-ES
+el trafico ahora	transport_traffic	O O O	transport	es-ES
+para qué son los horarios del tren	transport_query	O O O O O O B-transport_type	transport	es-ES
+podrías comprobar el tráfico a nuestra casa	transport_traffic	O O O O O O B-place_name	transport	es-ES
+hay trafico denso	transport_traffic	O O O	transport	es-ES
+cómprame un boleto para tomar el tren a atlanta	transport_ticket	O O O O O O B-transport_type O B-place_name	transport	es-ES
+cuánto tráfico hay normalmente en barcelona	transport_traffic	O O O O O B-place_name	transport	es-ES
+reservar billete de tren para esta hora	transport_ticket	O O O B-transport_type O O O	transport	es-ES
+configurar uber	transport_taxi	O B-transport_agency	transport	es-ES
+encuentra un taxi a xanadu	transport_taxi	O O O O B-place_name	transport	es-ES
+llama un taxi para que me recoja ahora mismo	transport_taxi	O O B-transport_type O O O O O O	transport	es-ES
+hay algún problema de tráfico	transport_traffic	O O O O O	transport	es-ES
+cuál es la ruta al mcdonalds más cercano	transport_query	O O O O O B-business_name O O	transport	es-ES
+que calle tomo para llegar al centro	transport_query	O O O O O O B-place_name	transport	es-ES
+necesito comprar un billete de tren	transport_ticket	O O O O O B-transport_type	transport	es-ES
+reserva un billete de tren a	transport_ticket	O O O O B-transport_type O	transport	es-ES
+cuanto cuesta un billete de tren a madrid	transport_query	O O O O O B-transport_type O B-place_name	transport	es-ES
+solicitar un taxi del servicio udrive	transport_taxi	O O B-transport_type O B-business_name I-business_name	transport	es-ES
+cómo está el tráfico esta mañana	transport_traffic	O O O O O B-timeofday	transport	es-ES
+como es el trafico ahora	transport_traffic	O O O O O	transport	es-ES
+cómo está el tráfico cerca de mí	transport_traffic	O O O O O O O	transport	es-ES
+como esta el trafico actual en galicia	transport_traffic	O O O O O O B-place_name	transport	es-ES
+enumerar todo el tiempo de tren a nueva york	transport_query	O O O O O B-transport_type O B-place_name I-place_name	transport	es-ES
+ver todos los trenes y horarios a badajoz	transport_query	O O O B-transport_type O O O B-place_name	transport	es-ES
+consígueme un billete de tren a huesca hoy	transport_ticket	O O O O B-transport_type O B-place_name B-date	transport	es-ES
+cuál es la forma más rápida de llegar a barcelona	transport_query	O O O O O O O O O O	transport	es-ES
+abre la app de renfe y ve a comprar billete	transport_ticket	O O O O B-app_name O O O O O	transport	es-ES
+reserva un billete de tren para madrid	transport_ticket	O O O O B-transport_type O B-place_name	transport	es-ES
+reservar un taxi para que lo recojan en mi ubicación actual dentro de una hora	transport_taxi	O O B-transport_type O O O O O O O O O O B-time I-time	transport	es-ES
+qué ruta tiene menos tráfico hoy	transport_traffic	O O O O O B-date	transport	es-ES
+reservar mi billete de tren a nueva york	transport_ticket	O O O O B-transport_type O B-place_name I-place_name	transport	es-ES
+consígueme un taxi para llevarme al aeropuerto el viernes a las cinco y media de la mañana	transport_taxi	O O B-transport_type O O O B-place_name O B-date O O B-time I-time I-time I-time I-time I-time	transport	es-ES
+consígueme un paseo en el tren de cercanías de nueva jersey a nueva york	transport_ticket	O O O O O B-transport_type O O O B-place_name I-place_name O B-place_name I-place_name	transport	es-ES
+podrías hacer una lista de los trenes que van a málaga el día siguiente	transport_query	O O O O O O O O O O B-place_name B-date I-date I-date	transport	es-ES
+es la carretera en esta zona en particular ancha o estrecha	transport_traffic	O O O O O O O O O O O	transport	es-ES
+reservar un asiento para mí en el tren el veinte de marzo	transport_ticket	O O O O O O O B-transport_type O B-date I-date I-date	transport	es-ES
+por favor dime los horarios de tren de renfe	transport_query	O O O O O O B-transport_type O B-transport_name	transport	es-ES
+necesito reservar un taxi por favor	transport_taxi	O O O B-transport_type O O	transport	es-ES
+abre la aplicación uber y consígueme un coche por favor	transport_taxi	O O O B-transport_agency O O O B-transport_type O O	transport	es-ES
+oye a qué hora puedo coger el tren más cercano a mí	transport_query	O O O O O O O B-transport_type O O O O	transport	es-ES
+encontrar una definición	qa_definition	O O O	qa	es-ES
+quién es el presidente de polonia	qa_factoid	O O O O O B-place_name	qa	es-ES
+que moneda usa españa	qa_currency	O O O B-place_name	qa	es-ES
+cuanto mide una jirafa	qa_factoid	O O O O	qa	es-ES
+en qué escenario usarías la palabra inconveniencia	qa_definition	O O O O O O B-definition_word	qa	es-ES
+calcular la resistencia de esta resistencia	qa_factoid	O O O O O O	qa	es-ES
+google	qa_maths	O	qa	es-ES
+centros de navegación	qa_maths	O O O	qa	es-ES
+dime una definición breve de evacuación	qa_definition	O O O O O B-definition_word	qa	es-ES
+crees que el viaje en el tiempo es posible	general_quirky	O O O O O O O O O	general	es-ES
+que edad tiene rosalía	qa_factoid	O O O B-person	qa	es-ES
+correo electrónico amigo	email_sendemail	O O O	email	es-ES
+explicame cuantos paises diferentes estan representados en el libro del apocalipsis	general_quirky	O O O O O O O O O O O	general	es-ES
+cuanto es tres por siete	qa_maths	O O O O O	qa	es-ES
+qué debería cocinar esta noche	general_quirky	O O O B-timeofday I-timeofday	general	es-ES
+dime que pasa cuando morimos	general_quirky	O O O O O	general	es-ES
+de que estado es david lynch	qa_factoid	O O O O B-person I-person	qa	es-ES
+establece una cita solo para ti y para mi	general_quirky	O O O O O O O O O	general	es-ES
+cuál es la raíz cuadrada de cuarenta y dos	qa_maths	O O O O O O O O O	qa	es-ES
+dime por qué bill bur es mejor comediante que iliza schleshinger	qa_factoid	O O O B-person I-person O O O O B-person I-person	qa	es-ES
+dime el segundo nombre de tom hanks	qa_factoid	O O O O O B-person I-person	qa	es-ES
+cómo deletrear la palabra jirafa	qa_definition	O O O O B-definition_word	qa	es-ES
+puedes decir la palabra desmonetización	qa_definition	O O O O B-definition_word	qa	es-ES
+que eran los edificios más largos del mundo	qa_factoid	O O O O O O O B-place_name	qa	es-ES
+escuchas canciones de david bustamante	music_query	O O O B-artist_name I-artist_name	music	es-ES
+agenda una reunión con mi compañero	calendar_set	O O B-event_name O O B-relation	calendar	es-ES
+actor que actúa un papel	qa_definition	O O O O O	qa	es-ES
+por favor dame información sobre la próxima película de dani rovira	qa_factoid	O O O O O O O O O B-person I-person	qa	es-ES
+ninguno	qa_factoid	O	qa	es-ES
+puedes mentir	general_quirky	O O	general	es-ES
+que es el huracán	qa_definition	O O O B-definition_word	qa	es-ES
+google la palabra	qa_definition	O O O	qa	es-ES
+calcular la distancia de madrid a barcelona	qa_factoid	O O O O B-place_name O B-place_name	qa	es-ES
+resolver el cálculo	qa_maths	O O O	qa	es-ES
+cual es la poblacion de los angeles	qa_factoid	O O O O O B-place_name I-place_name	qa	es-ES
+cual es tu lengua materna	general_quirky	O O O O O	general	es-ES
+cuantos años tiene jennifer lopez	qa_factoid	O O O B-person I-person	qa	es-ES
+resume todas las cosas que podría hacer por mí para ser más feliz	general_quirky	O O O O O O O O O O O O O	general	es-ES
+si hubiera diez sencillos pasos para hacerme rico cuales serian	general_quirky	O O O O O O O O O O	general	es-ES
+animal más grande	qa_factoid	O O O	qa	es-ES
+el edificio más alto	qa_factoid	O O O O	qa	es-ES
+dónde está la base de operaciones de justin bieber	qa_factoid	O O O O O O B-person I-person I-person	qa	es-ES
+cual es mi ubicacion	general_quirky	O O O O	general	es-ES
+con toda la información que pueda recopilar en internet podría proporcionarme la mejor explicación probable de quién mató al presidente kennedy	qa_factoid	O O O O O O O O O O O O O O O O O O O O O	qa	es-ES
+me gustaría que escribiera mensajes románticos originales para mi esposa	general_quirky	O O O O O O O O O B-relation	general	es-ES
+cuéntame la historia de ramanujan y su viaje matemático	qa_factoid	O O O O B-person O O O O	qa	es-ES
+la siguiente pregunta le pide que analice las metas y acciones previstas por el maestro	qa_factoid	O O O O O O O O O O O O O O O	qa	es-ES
+quiénes son los mejores artistas de hip hop	qa_factoid	O O O O O O B-music_genre I-music_genre	qa	es-ES
+que significa hipocresía	qa_definition	O O B-definition_word	qa	es-ES
+qué significa la palabra hipocresía	qa_definition	O O O O B-definition_word	qa	es-ES
+responde a esta pregunta cuál es el primer jefe en super mario bros	general_quirky	O O O O O O O O O O O O O	general	es-ES
+usar en una oración	qa_definition	O O O O	qa	es-ES
+cuál es la respuesta a dos más dos	qa_maths	O O O O O O O O	qa	es-ES
+definir swerving	qa_definition	O B-definition_word	qa	es-ES
+cuando definas algunas palabras pon thesaurus y usa una frase para que sea mas claro	general_quirky	O O O O O O O O O O O O O O O	general	es-ES
+quienes son los cinco primeros goleadores n. h. l.	general_quirky	O O O O O O O O O	general	es-ES
+cuando nació benjamin franklin	qa_factoid	O O B-person I-person	qa	es-ES
+quien es el gobernador de new york	qa_factoid	O O O O O B-place_name I-place_name	qa	es-ES
+cuál es la definición de pda	qa_definition	O O O O O B-definition_word	qa	es-ES
+cuál es el índice de aprobación de trump	qa_factoid	O O O O O O O B-person	qa	es-ES
+me podrias decir como consigo la respuesta a eso	general_quirky	O O O O O O O O O	general	es-ES
+resolver problema de matemáticas	qa_maths	O O O O	qa	es-ES
+hay vida en otros planetas	general_quirky	O O O O O	general	es-ES
+cuál es tu color favorito	general_quirky	O O O O O	general	es-ES
+qué opinas de las tres leyes de la robótica	general_quirky	O O O O O O O O O	general	es-ES
+dime el color de la suerte de hoy	general_quirky	O O O O O O O B-date	general	es-ES
+lee un poema para mí	general_quirky	O O O O O	general	es-ES
+existe una correlación entre el clima en beijing y los precios de nasdaq durante la última semana	general_quirky	O O O O O O O B-place_name O O O O O O O B-date I-date	general	es-ES
+tom cruise es hijo único	qa_factoid	O O O O O	qa	es-ES
+por favor busca esta palabra	qa_definition	O O O O O	qa	es-ES
+porque el cielo es azul	qa_factoid	O O O O O	qa	es-ES
+cuanto es veinticuatro por veinticuatro	qa_maths	O O O O O	qa	es-ES
+cuanto tiempo es un dia de la tierra	qa_factoid	O O O O O O O O	qa	es-ES
+espero que podamos almorzar juntos	general_quirky	O O O B-meal_type O	general	es-ES
+quien estaba en los beatles	qa_factoid	O O O O B-artist_name	qa	es-ES
+el mundo llegara a su fin cuando	general_quirky	O O O O O O O	general	es-ES
+que significa tenso	qa_definition	O O B-definition_word	qa	es-ES
+donde esta mi novia ahora mismo	general_quirky	O O O O O O	general	es-ES
+busque la definición de ambulancia	qa_definition	O O O O B-definition_word	qa	es-ES
+los chupitos de gelatina no tienen calorías	qa_factoid	O O O O O O O	qa	es-ES
+me puedes decir el sitio mas barato para comprar carne picada	recommendation_locations	O O O O O O O O O O O	recommendation	es-ES
+que significa patata	qa_definition	O O B-definition_word	qa	es-ES
+dime un dato interesante sobre esto	general_quirky	O O O O O O	general	es-ES
+cuando es la proxima gira	general_quirky	O O O O O	general	es-ES
+cuál es el tipo de cambio entre el dólar y el euro actualmente	qa_currency	O O O O O O O O B-currency_name O O B-currency_name O	qa	es-ES
+definir marco	qa_definition	O B-definition_word	qa	es-ES
+describir una patata	qa_definition	O O B-definition_word	qa	es-ES
+cuantas veces ha conseguido adele el disco de diamante	qa_factoid	O O O O O O O O O	qa	es-ES
+cuéntame la cosa mas extraña que esta pasando en el mundo hoy	general_quirky	O O O O O O O O O O O B-date	general	es-ES
+dime hora que es	datetime_query	O O O O	datetime	es-ES
+cómo se define textual	qa_definition	O O O B-definition_word	qa	es-ES
+quiero hacer un viaje a suiza gratis puedes llevarme allí	general_quirky	O O O O O B-place_name O O O O	general	es-ES
+cuál es el tipo de cambio del yen a dólar estadounidense	qa_currency	O O O O O O O B-currency_name I-currency_name I-currency_name I-currency_name	qa	es-ES
+cuántas millas hay en cinco kilómetros	qa_maths	O O O O O O	qa	es-ES
+cuantos años tiene angelina jolie	qa_factoid	O O O B-person I-person	qa	es-ES
+donde esta stockton california	qa_factoid	O O B-place_name I-place_name	qa	es-ES
+que está haciendo barack obama ahora mismo	qa_factoid	O O O B-person I-person O O	qa	es-ES
+que es una antena de telefonía móvil	qa_definition	O O O B-definition_word I-definition_word I-definition_word I-definition_word	qa	es-ES
+cuantos sd en francos	qa_currency	O B-currency_name O B-currency_name	qa	es-ES
+a cuántas millas está la ciudad de madrid de barcelona	qa_factoid	O O O O O O O B-place_name O B-place_name	qa	es-ES
+cuál es el tipo de cambio de dólares estadounidenses a dólares canadienses	qa_currency	O O O O O O O B-currency_name I-currency_name O B-currency_name I-currency_name	qa	es-ES
+que sabes sobre la el ángel caído	qa_definition	O O O O B-definition_word I-definition_word I-definition_word	qa	es-ES
+cuáles son los tipos de cambio entre estados unidos y china	qa_currency	O O O O O O O B-place_name I-place_name O B-place_name	qa	es-ES
+encuéntrame información sobre	qa_definition	O O O	qa	es-ES
+cuál es la elevación promedio de los estados unidos	qa_factoid	O O O O O O O O O	qa	es-ES
+cuál es el tipo de cambio entre el dólar estadounidense y el franco	qa_currency	O O O O O O O O B-currency_name I-currency_name O O B-currency_name	qa	es-ES
+cuantos personas viven en madrid	qa_factoid	O O O O B-place_name	qa	es-ES
+siri cuánto es un dólar americano en yenes japoneses	qa_currency	O O O O B-currency_name I-currency_name O B-currency_name I-currency_name	qa	es-ES
+en que año nació mario casas	qa_factoid	O O O O B-person I-person	qa	es-ES
+háblame de las morillas	qa_definition	O O O B-definition_word	qa	es-ES
+precios de las acciones en mercadona	qa_stock	O O O O O B-business_name	qa	es-ES
+que religion es la mas cierta	general_quirky	O O O O O O	general	es-ES
+cuántas millas hay entre illinois y luisiana	qa_factoid	O O O O B-place_name O B-place_name	qa	es-ES
+cuantos años tiene tom hanks	qa_factoid	O O O B-person I-person	qa	es-ES
+candela peña ha ganado alguna vez un premio de la academia	qa_factoid	O O O O O O O O O O O	qa	es-ES
+dime el tipo de cambio del euro	qa_currency	O O O O O O B-currency_name	qa	es-ES
+cuánto cuesta el dólar estadounidense frente a la rupia	qa_currency	O O O B-currency_name I-currency_name O O O B-currency_name	qa	es-ES
+por favor muéstrame el tipo de cambio entre el dólar y el yen	qa_currency	O O O O O O O O O B-currency_name O O B-currency_name	qa	es-ES
+cuál es la definición de un carrera	qa_definition	O O O O O O B-definition_word	qa	es-ES
+cuantos años tiene pedro sánchez	qa_factoid	O O O B-person I-person	qa	es-ES
+necesito mantener a dos niños pequeños ocupados dime qué hacer	general_quirky	O O O O O O O O O O	general	es-ES
+puedes darme el tipo de cambio del dólar en rupias	qa_factoid	O O O O O O O O O O	qa	es-ES
+háblame de las estacas solares para el jardín	qa_definition	O O O B-definition_word I-definition_word I-definition_word I-definition_word I-definition_word	qa	es-ES
+cuál es la ciudad más grande de new hampshire	qa_factoid	O O O O O O O B-place_name I-place_name	qa	es-ES
+definición de cascos de realidad virtual	qa_definition	O O B-definition_word I-definition_word I-definition_word I-definition_word	qa	es-ES
+tengo alguna nueva cerilla	calendar_query	O O O O	calendar	es-ES
+cómo se ve una banana	qa_definition	O O O O B-definition_word	qa	es-ES
+quien es donald trump	qa_factoid	O O B-person I-person	qa	es-ES
+donde esta españa	qa_factoid	O O B-place_name	qa	es-ES
+que es un fiordo	qa_factoid	O O O B-place_name	qa	es-ES
+cuando nació rocío jurado	qa_factoid	O O B-person I-person	qa	es-ES
+que significa tuit	qa_definition	O O B-definition_word	qa	es-ES
+dónde está dakota del norte	qa_factoid	O O B-place_name I-place_name I-place_name	qa	es-ES
+que significa triunfo	qa_definition	O O B-definition_word	qa	es-ES
+cual está más al norte de estados unidos	qa_factoid	O O O O O O O O	qa	es-ES
+donde esta stonehenge	qa_factoid	O O O	qa	es-ES
+necesito el precio de las acciones de amazon	qa_stock	O O O O O O O B-business_name	qa	es-ES
+cual es la tasa para rupias indias	qa_currency	O O O O O B-currency_name I-currency_name	qa	es-ES
+que es el triangulo de las bermudas	qa_factoid	O O O O O O O	qa	es-ES
+cual es la tasa de cambio para pesos filipinos	qa_currency	O O O O O O O B-currency_name I-currency_name	qa	es-ES
+cual es el actual precio de la acción de facebook	qa_stock	O O O O O O O O O B-business_name	qa	es-ES
+mostrar biografía de rihana	qa_factoid	O O O B-artist_name	qa	es-ES
+euros a dólares americanos	qa_currency	O O B-currency_name I-currency_name	qa	es-ES
+podrías por favor darme el cumpleaños de mahatma gandhiji	qa_factoid	O O O O O B-event_name O B-person I-person	qa	es-ES
+que tipo de pantalón es un culotte	qa_factoid	O O O O O O O	qa	es-ES
+probar en wikipedia	qa_definition	O O O	qa	es-ES
+olly vale más o menos un dólar en brasil	qa_currency	O O O O O O B-currency_name O B-place_name	qa	es-ES
+cómo se ve la camisa	qa_definition	O O O O B-definition_word	qa	es-ES
+pregunta a mi asesor	qa_stock	O O O O	qa	es-ES
+en qué está el dow jones hoy	qa_stock	O O O O O O B-date	qa	es-ES
+por favor dígame cuándo puedo hacerme rico si invierto en acciones de dow hoy y cuál será el rendimiento después de cinco años.	qa_stock	O O O O O O O O O O O O O O O O O O O O O O O	qa	es-ES
+en que año nació elvis	qa_factoid	O O O O B-person	qa	es-ES
+encuentra la direccion exacta de los sitios	recommendation_locations	O O O O O O O	recommendation	es-ES
+cuántas pulgadas hay en un pie	qa_maths	O O O O O O	qa	es-ES
+cuanto vale el euro versus dólar canadiense	qa_currency	O O O B-currency_name O B-currency_name I-currency_name	qa	es-ES
+enumera las cinco mejores películas de blanca suárez	qa_factoid	O O O O O O B-person I-person	qa	es-ES
+cuál es el tipo de cambio entre el dólar estadounidense y el euro	qa_currency	O O O O O O O O B-currency_name I-currency_name O O B-currency_name	qa	es-ES
+cuanto es seis menos cuatro	qa_maths	O O O O O	qa	es-ES
+dime un euro a cuántos dólares equivale	qa_currency	O O B-currency_name O O B-currency_name O	qa	es-ES
+como de grande es inglaterra	qa_factoid	O O O O B-place_name	qa	es-ES
+háblame sobre nueva york	qa_factoid	O O O O	qa	es-ES
+mostrar varias plantas en la tierra	qa_factoid	O O O O O O	qa	es-ES
+cómo están las acciones de coca-cola hoy	qa_stock	O O O O O B-business_name B-date	qa	es-ES
+quien es la esposa de obama	qa_factoid	O O O O O B-person	qa	es-ES
+precio de cierre de hoy para google	qa_stock	O O O O O O B-business_name	qa	es-ES
+mencionar el precio de las acciones de aldi	qa_stock	O O O O O O O O	qa	es-ES
+qué significa hipótesis	qa_definition	O O B-definition_word	qa	es-ES
+cuando se hizo la estatua de la libertad	qa_factoid	O O O O O O O O	qa	es-ES
+a que edad se casó michael phelps	qa_factoid	O O O O O B-person I-person	qa	es-ES
+quién es javier bardem	qa_factoid	O O B-person I-person	qa	es-ES
+cuál es la definición de rudimentario	qa_definition	O O O O O B-definition_word	qa	es-ES
+como de alto es el edificio empire state	qa_factoid	O O O O O O O O	qa	es-ES
+cuál es la tasa de cambio entre el u. s. d. e inr	qa_currency	O O O O O O O O B-currency_name I-currency_name I-currency_name O B-currency_name	qa	es-ES
+describir el estado actual de la política	qa_factoid	O O O O O O O	qa	es-ES
+cuando nació justin bieber	qa_factoid	O O B-person I-person	qa	es-ES
+defínete en una palabra	general_quirky	O O O O	general	es-ES
+dónde está el restaurante italiano mas cercano	recommendation_locations	O O O B-business_type B-food_type O O	recommendation	es-ES
+puedes decirme cómo es haggis	qa_definition	O O O O B-definition_word	qa	es-ES
+pink está grabando un disco nuevo	qa_factoid	O O O O O O	qa	es-ES
+definición de nombre de objeto	qa_definition	O O B-definition_word I-definition_word I-definition_word	qa	es-ES
+cómo es el volkswagen golf	qa_definition	O O O B-definition_word I-definition_word	qa	es-ES
+características del ipad air	general_quirky	O O O O	general	es-ES
+dime la distancia entre el sol y la luna	qa_factoid	O O O O O O O O O	qa	es-ES
+encontrar el significado del mundo en el diccionario	qa_definition	O O O O O O O O	qa	es-ES
+cuál es el mejor teléfono inteligente en dos mil diecisiete	qa_factoid	O O O O O O O O O O	qa	es-ES
+tipo de cambio que obtendré con moneda extranjera	qa_currency	O O O O O O O O	qa	es-ES
+dame detalles de esta persona	general_quirky	O O O O O	general	es-ES
+por favor cuentanos algunos detalles sobre esta persona	general_quirky	O O O O O O O O	general	es-ES
+cual es el tema mas preocupante en estados unidos hoy y que se puede hacer para afrontarlo de forma eficaz	general_quirky	O O O O O O O B-place_name I-place_name B-date O O O O O O O O O O	general	es-ES
+quien fue el vigésimo quinto presidente de los estados unidos de américa	qa_factoid	O O O O O O O O O O O O	qa	es-ES
+dime como ir a bali sin avion con la opcion mas barata el tiempo no importa tengo doscientos dias de viaje y solo dolares para gastar	general_quirky	O O O O O O O O O O O O O O O O O O O O O O O O O O	general	es-ES
+dame la descripción de un circuito de portátil	qa_definition	O O O O O B-definition_word I-definition_word I-definition_word	qa	es-ES
+cuándo suele bajar normalmente las acciones de iphone	qa_stock	O O O O O O O O	qa	es-ES
+explica	qa_definition	O	qa	es-ES
+explicame como funciona la gravedad	qa_factoid	O O O O O	qa	es-ES
+cuando se casaron adexe y nau	qa_factoid	O O O B-person O B-person	qa	es-ES
+tasas de cambio entre el dólar y el euro	qa_currency	O O O O O B-currency_name O O B-currency_name	qa	es-ES
+puedes decirme qué significa hipertrofia	qa_definition	O O O O B-definition_word	qa	es-ES
+nombre de la sociedad anónima	qa_stock	O O O O O	qa	es-ES
+me gustaría que mi robot pudiera trabajar por mi	general_quirky	O O O O O O O O O	general	es-ES
+dame la descripción del circuito del portátil	qa_definition	O O O O B-definition_word I-definition_word I-definition_word	qa	es-ES
+definir xy	qa_definition	O O	qa	es-ES
+dame el precio de apertura de las acciones de apple	qa_stock	O O O O O O O O O B-business_name	qa	es-ES
+dónde puedo conseguir avena orgánica	recommendation_locations	O O O O O	recommendation	es-ES
+stock por favor	qa_stock	O O O	qa	es-ES
+cambiar las tasas de dólar a rupias	qa_currency	O O O O B-currency_name O B-currency_name	qa	es-ES
+tipo de cambio dólar rupias	qa_currency	O O O B-currency_name I-currency_name	qa	es-ES
+cual es el factor que permitio que modi ganara las elecciones	general_quirky	O O O O O O O O O O O	general	es-ES
+prediccion de terremotos	general_quirky	O O O	general	es-ES
+ok google cuál es la manera más fácil y rápida de cocinar un pavo	cooking_query	O O O O O O O O O O O O O O	cooking	es-ES
+que tipo de implemento es un asador y como lo uso	general_quirky	O O O O O O O O O O O	general	es-ES
+definir pollo de engorde para mí	qa_definition	O B-definition_word I-definition_word I-definition_word O O	qa	es-ES
+donde esta la estatua de la libertad	qa_factoid	O O O B-place_name I-place_name I-place_name I-place_name	qa	es-ES
+descríbeme cómo se ve una bola	qa_definition	O O O O O B-definition_word	qa	es-ES
+alexa dime todo lo que sabes sobre bob dean	qa_factoid	O O O O O O O B-person I-person	qa	es-ES
+dime los precios de las acciones de repsol	qa_stock	O O O O O O O B-business_name	qa	es-ES
+cuáles son los precios de las acciones de amd	qa_stock	O O O O O O O O B-business_name	qa	es-ES
+cuánto valen las acciones de google	qa_stock	O O O O O B-business_name	qa	es-ES
+ibas a traer nuevos esquemas	general_quirky	O O O O O	general	es-ES
+convierte un euro a dólar estadounidense	qa_currency	O O B-currency_name O B-currency_name I-currency_name	qa	es-ES
+alto precio de las acciones	qa_stock	O O O O O	qa	es-ES
+cuántos mega píxeles se enumeran en la descripción del canon	qa_factoid	O O O O O O O O O O	qa	es-ES
+como tamara falcó se volvió famosa	qa_factoid	O B-person I-person O O O	qa	es-ES
+cuál es la respuesta a dos por tres	qa_maths	O O O O O O O O	qa	es-ES
+cuanto es doce dividido por cuatro	qa_maths	O O O O O O	qa	es-ES
+cuál es el color natural del cabello de julia roberts	qa_factoid	O O O O O O O O B-person I-person	qa	es-ES
+si tengo cinco dólares estadounidenses cuánto es eso en dólares australianos	qa_currency	O O O B-currency_name I-currency_name O O O O B-currency_name I-currency_name	qa	es-ES
+define la luna para mi	qa_definition	O O O O O	qa	es-ES
+cuantos ríos hay en el mundo	qa_factoid	O O O O O O	qa	es-ES
+búscame algunas celebridades que sean capricornio	qa_factoid	O O O O O O	qa	es-ES
+si es un bien de consumo entonces cuál es la retroalimentación del cliente	general_quirky	O O O O O O O O O O O O O	general	es-ES
+cuánto va la rupia india contra el dólar estadounidense	qa_currency	O O O B-currency_name I-currency_name O O B-currency_name I-currency_name	qa	es-ES
+podrías describir ese objeto por favor	qa_definition	O O O O O O	qa	es-ES
+que fue el primer satélite lanzado por la nasa	qa_factoid	O O O O O O O O O	qa	es-ES
+por favor descríbeme un elefante	qa_definition	O O O O B-definition_word	qa	es-ES
+cuál es el tipo de cambio del dólar estadounidense hoy	qa_currency	O O O O O O O B-currency_name I-currency_name B-date	qa	es-ES
+por cuanto tiempo ha estado embarazada la reina leticia	qa_factoid	O O O O O O O B-person I-person	qa	es-ES
+cuál es el precio de las acciones de tesco	qa_stock	O O O O O O O O B-business_name	qa	es-ES
+me gustaría mantener fácilmente un inventario y decirme cuando me estoy quedando sin algo	general_quirky	O O O O O O O O O O O O O O	general	es-ES
+en qué ha estado trump esta semana	qa_factoid	O O O O B-person B-date I-date	qa	es-ES
+cuál es la definición de marinara	qa_definition	O O O O O B-definition_word	qa	es-ES
+cuantas personas piensan de tal manera que pueden esconderse de dios	general_quirky	O O O O O O O O O O O	general	es-ES
+los tipos de cambio de moneda	qa_currency	O O O O O O	qa	es-ES
+que es por	qa_definition	O O O	qa	es-ES
+cuantos años tiene christie brinkley	qa_factoid	O O O B-person I-person	qa	es-ES
+cuentame como empezo el mundo	general_quirky	O O O O O	general	es-ES
+dime el tipo de cambio de diez dólares por euro	qa_currency	O O O O O O O B-currency_name O B-currency_name	qa	es-ES
+que es ordenador	qa_definition	O O B-definition_word	qa	es-ES
+cual es la isla mas pequeña del mundo	qa_factoid	O O O O O O O B-place_name	qa	es-ES
+que tan grande es japón	qa_factoid	O O O O B-place_name	qa	es-ES
+como de lejos esta japón de madrid	transport_query	O O O O B-place_name O B-place_name	transport	es-ES
+puedes decirme qué películas se están proyectando en el cine esta noche	recommendation_movies	O O O O O O O O O O B-timeofday I-timeofday	recommendation	es-ES
+olly que significa la palabra snafu	qa_definition	O O O O O B-definition_word	qa	es-ES
+cuál es el tipo de cambio entre el dólar estadounidense y el dólar australiano	qa_currency	O O O O O O O O B-currency_name I-currency_name O O B-currency_name I-currency_name	qa	es-ES
+en que cotización de apple	qa_stock	O O O O B-business_name	qa	es-ES
+oye cuál es la definición de pasivo	qa_definition	O O O O O O B-definition_word	qa	es-ES
+qué edad tenía albert einstein cuando se le ocurrió la teoría de la relatividad	qa_factoid	O O O B-person I-person O O O O O O O O O	qa	es-ES
+calcular una integral cercana de la función exponencial de cero a cinco	qa_factoid	O O O O O O O O O O O O	qa	es-ES
+dime cómo va a afectar el brexit e. u. ciudadanos a largo y medio plazo	qa_factoid	O O O O O O O O O O O O O O O	qa	es-ES
+por favor busca intercambio entre estados unidos y méxico	qa_currency	O O O O O O O O O	qa	es-ES
+solo busque una descripción sobre un televisor samsung	qa_definition	O O O O O O B-definition_word I-definition_word	qa	es-ES
+cuál es el tipo de cambio para samsung	qa_currency	O O O O O O O B-business_name	qa	es-ES
+que tan lejos esta	qa_factoid	O O O O	qa	es-ES
+que es esta cosa	qa_definition	O O O O	qa	es-ES
+cuál es el stock de ibm en	qa_stock	O O O O O B-business_name O	qa	es-ES
+qué es tendencia en twitter	social_query	O O O O B-media_type	social	es-ES
+qué ha sido lo último que ha dicho mi madre	social_query	O O O O O O O O O B-relation	social	es-ES
+dame actualizaciones sobre el facebook de javier del fin de semana	social_query	O O O O B-media_type B-person I-person O B-time I-time I-time	social	es-ES
+enséñame nuevos comentarios en mi facebook	social_query	O O O O O B-media_type	social	es-ES
+cuántos me gusta tiene mi última foto de instagram	social_query	O O O O O O O O B-media_type	social	es-ES
+léeme el último tweet de el mundo	social_query	O O O O O B-media_type I-media_type	social	es-ES
+publicar nuevo estado en facebook hora de celebrar	social_post	O O O O B-media_type O O O	social	es-ES
+mi actualización de facebook cada tres horas debería estar disponible	social_query	O O O B-media_type B-general_frequency I-general_frequency I-general_frequency O O O	social	es-ES
+pon eso en facebook	social_post	O O O B-media_type	social	es-ES
+este artículo es súper guay puedes compartir el enlace en facebook por mí	social_post	O O O O O O O O O O B-media_type O O	social	es-ES
+transmite un vídeo en youtube	social_post	O O O O B-media_type	social	es-ES
+estado de facebook día ocupado	social_post	O O B-media_type O O	social	es-ES
+por favor envíaselo a carlos	social_post	O O O O B-person	social	es-ES
+por favor enviar estado a facebook	social_post	O O O O O B-media_type	social	es-ES
+enséñame una lista de lugares donde mis familiares han estado basándome en sus fotos	social_query	O O O O O O O B-relation O O O O O O	social	es-ES
+últimas noticias de la página de inicio de facebook	social_query	O O O O O O O O B-media_type	social	es-ES
+dame los detalles de mi perfil de twitter incluyendo el número total de seguidores	social_query	O O O O O O O B-media_type O O O O O O	social	es-ES
+está bien que puedas postear esto en mi facebook	social_post	O O O O O O O O B-media_type	social	es-ES
+me puedes decir que está pasando en mis redes sociales	social_query	O O O O O O O O O O	social	es-ES
+cuál fue el último tuit de mi feed	social_query	O O O O O O O O	social	es-ES
+por favor informame de cualquier actualización de mi estado	social_query	O O O O O O O O O	social	es-ES
+actualidad de redes sociales	social_query	O O O O	social	es-ES
+nuevo tuit	social_post	O B-media_type	social	es-ES
+abre facebook y desea un feliz cumpleaños a españa	social_post	O B-media_type O O O O B-event_name O B-place_name	social	es-ES
+estoy triste con mercadona por favor ayudadme	social_post	O O O B-business_name O O O	social	es-ES
+puedes enviar un tuit a cabify diciendo que su app se ha caído	social_post	O O O B-media_type O B-business_name O O O O O O O	social	es-ES
+publica lo siguiente como estado en facebook	social_post	O O O O O O B-media_type	social	es-ES
+por favor pon un estado en twitter	social_post	O O O O O O B-media_type	social	es-ES
+por favor publica esta foto en mi facebook	social_post	O O O O O O O B-media_type	social	es-ES
+queja a apple y hacerles saber que mi aplicación falló	social_post	O O B-business_name O O O O O O O	social	es-ES
+dile a mi grupo de facebook que he llegado	social_post	O O O O O B-media_type O O O	social	es-ES
+por favor escribe una queja para levis	social_post	O O O O O O B-business_name	social	es-ES
+diles que las lineas eran demasiado largas	social_post	O O O O O O O	social	es-ES
+necesito un pesebre	general_quirky	O O O	general	es-ES
+mandar este mensaje a microsoft en twitter	social_post	O O O B-business_name I-business_name O O	social	es-ES
+publicar una foto en mi teléfono en facebook alexa	social_post	O O O O O B-device_type O B-media_type O	social	es-ES
+tuitear una queja a la página web de el cote inglés	social_post	O O O B-business_name I-business_name I-business_name I-business_name I-business_name I-business_name I-business_name I-business_name	social	es-ES
+enviar un tuit a iberia que estoy enfadado porque me habéis perdido las maletas	social_post	O O B-media_type O B-business_name O O O O O O O O O	social	es-ES
+tuve un servicio horrible en la tagliatella necesito tuiteárselo	social_post	O O O O O O B-business_name O B-media_type	social	es-ES
+enviar queja a través del servicio al consumidor de twitter	social_post	O O O O O B-business_name I-business_name I-business_name O O	social	es-ES
+puedes tuitear una queja al servicio al cliente de la tienda de muebles	social_post	O B-media_type O O O B-business_name I-business_name I-business_name I-business_name I-business_name I-business_name I-business_name I-business_name	social	es-ES
+dile a movistar plus que todavía estoy en espera	social_post	O O B-business_name I-business_name O O O O O	social	es-ES
+escribe una queja a carrefour por la tablet que he comprado hoy	social_post	O O O O B-business_name O O O O O O B-date	social	es-ES
+hazle saber a naturgy que se ha ido la luz otra vez	social_post	O O O B-business_name O O O O O O O O	social	es-ES
+contacta con el servicio de atención al cliente de amazon via twitter	social_post	O O O B-business_name I-business_name I-business_name I-business_name I-business_name I-business_name I-business_name O B-media_type	social	es-ES
+por favor actualiza las cuentas de mis redes sociales	social_query	O O O O O O O O O	social	es-ES
+tuitear queja a samsung	social_post	O O O B-business_name	social	es-ES
+por favor pon un tuit a la compañía vodafone sobre el servicio defectuoso del portátil	social_post	O O O O B-media_type O O B-business_name I-business_name O O O O O O	social	es-ES
+tuitea a alcampo y diles que su servicio de atención al cliente es horrible	social_post	O O B-business_name O O O O O O O O O O O	social	es-ES
+alexa manda un tuit al zara para decirles que tienen el peor servicio de atención al cliente	social_post	O O O B-media_type O B-business_name O O O O O O O O O O O	social	es-ES
+quejas de servicio de atención al cliente tuitear lo siguiente	social_post	O O B-business_name I-business_name I-business_name I-business_name I-business_name B-media_type O O	social	es-ES
+marcos ha publicado algo nuevo en facebook	social_query	O O O O O O B-media_type	social	es-ES
+mandar un tuit a telepizza sobre un mal envío	social_post	O O B-media_type O B-business_name O O O O	social	es-ES
+recuérda me tuitear en esta empresa	calendar_set	O O B-media_type O O O	calendar	es-ES
+postea en facebook que estoy enfermo	social_post	O O B-media_type O O O	social	es-ES
+postea en tumblr que me lo estoy pasando bien	social_post	O O B-media_type O O O O O O	social	es-ES
+abordar la situacion	general_quirky	O O O	general	es-ES
+tuitea una queja a burger king	social_post	O O O O B-business_name I-business_name	social	es-ES
+envía un tuit a la compañía	social_post	O O B-media_type O O O	social	es-ES
+tuitea una queja sobre mi frigorífico a l. g.	social_post	O O O O O O O B-business_name I-business_name	social	es-ES
+nombre de video de publicación de galería abierta	social_post	O O O O O O B-media_type O	social	es-ES
+publica en twitter que tengo un día ajetreado por delante	social_post	O O B-media_type O O O O O O O	social	es-ES
+tuitear el servicio al cliente no es bueno para el servicio de litro por gramo en mi cuenta de twitter	social_post	O O O O O O O O O O O O O O O O O O O B-media_type	social	es-ES
+tuitear queja	social_post	O O	social	es-ES
+cuáles son las últimas fotografías en mi cuenta de instagram	social_query	O O O O O O O O O B-media_type	social	es-ES
+ok google tuitea que el servicio en la yoselén es terrible	social_post	O O B-media_type O O O O O O O O	social	es-ES
+tuitea una queja sobre el drenaje atascándose	social_post	O O O O O O O	social	es-ES
+información social	social_query	O O	social	es-ES
+tuitear al servicio al consumidor que estoy muy decepcionado con mi interacción reciente	social_post	O O B-business_name I-business_name I-business_name O O O O O O O O	social	es-ES
+quiero publicar una actualización en twitter	social_post	O O O O O B-media_type	social	es-ES
+cuándo recibí el mensaje de john smith sobre el accidente	email_query	O O O O O B-person I-person O O O	email	es-ES
+avíseme si tengo nuevos correos electrónicos	email_query	O O O O O O	email	es-ES
+envía un correo a emilia diciendo que llegaré tarde que no me espere para cenar	email_sendemail	O O O O B-person O O O O O O O O O B-meal_type	email	es-ES
+hay algún correo electrónico de emilia	email_query	O O O O O B-person	email	es-ES
+puedes enviar un correo a pedro por favor	email_sendemail	O O O O O B-person O O	email	es-ES
+revisar mi bandeja de entrada	email_query	O O B-email_folder I-email_folder I-email_folder	email	es-ES
+envía un correo a david sobre la reunión de mañana david podemos reunirnos en la tarde	email_sendemail	O O O O B-person O O B-event_name O B-date B-person O O O O B-timeofday	email	es-ES
+me gustaría saber sobre la fiesta de jane	general_quirky	O O O O O B-event_name O B-person	general	es-ES
+abre mi correo más reciente y contesta	email_sendemail	O O O O O O O	email	es-ES
+envía este contenido por correo electrónico	email_sendemail	O O O O O O	email	es-ES
+envía un correo electrónico a mamá con el asunto tiempo y el cuerpo de mensaje que cómo está el tiempo esta semana	email_sendemail	O O O O O B-relation O O O O O O O O O O O O O O B-date I-date	email	es-ES
+comprobar los correos electrónicos para ver si hay correos no leídos de mamá	email_query	O O O O O O O O O O O O B-relation	email	es-ES
+por favor dame detalles de mi contacto andrés	email_querycontact	O O O B-personal_info O O O B-person	email	es-ES
+hay un contacto llamado paco en mi lista	email_querycontact	O O O B-personal_info B-person O O O	email	es-ES
+envía un feliz año nuevo a juan arroba gmail punto com	email_sendemail	O O O O O O B-email_address I-email_address I-email_address I-email_address I-email_address	email	es-ES
+cuál es el apellido de juan	email_querycontact	O O O B-personal_info O B-person	email	es-ES
+envía una respuesta a mi amigo para su pregunta	email_sendemail	O O O O O B-relation O O O	email	es-ES
+revisa mis correos electrónicos de las últimas dos horas	email_query	O O O O O B-time I-time I-time I-time	email	es-ES
+contola correos de las últimas doce horas	email_query	O O O B-time I-time I-time I-time	email	es-ES
+alexa añade erosser arroba hotmail punto com como nuevo contacto para ana lópez	email_addcontact	O O B-email_address I-email_address I-email_address I-email_address I-email_address O O O O B-person I-person	email	es-ES
+avíseme si hay nuevos correos electrónicos de ebay	email_query	O O O O O O O B-business_name	email	es-ES
+envía un correo electrónico con el siguiente mensaje a este contacto	email_sendemail	O O O O O O O O O O O	email	es-ES
+comprobar y ver si he recibido algún correo electrónico de eddie richards que tenga que ver con presupuestos	email_query	O O O O O O O O O O B-person I-person O O O O O O	email	es-ES
+guarda este correo en contacto	email_addcontact	O O O O O	email	es-ES
+enviar a ashmit sus últimos temas tecnológicos disponibles	email_sendemail	O O B-person O O O O O	email	es-ES
+hazme saver cuando laura me envíe un correo electrónico	email_query	O O O B-person O O O O O	email	es-ES
+déjame saber lo que se ha acumulado en mi bandeja de entrada desde las tres p. m.	email_query	O O O O O O O O O B-email_folder I-email_folder I-email_folder O O B-time I-time I-time	email	es-ES
+puedes enviar un correo electrónico a mi amigo rohit que diga que estoy ocupado mañana	email_sendemail	O O O O O O O B-relation B-person O O O O O B-date	email	es-ES
+buscar fechas límite de matthews	email_query	O O O O B-person	email	es-ES
+oye comienza un correo electrónico a mi colega	email_sendemail	O O O O O O O B-relation	email	es-ES
+abre nuevo correo electrónico a esta colega a este correo electrónico	email_sendemail	O O O O O O B-relation O O O O	email	es-ES
+por favor actualiza mi bandeja de entrada	email_query	O O O O B-email_folder I-email_folder I-email_folder	email	es-ES
+enviar un hola a	email_sendemail	O O O O	email	es-ES
+muestra el ultimo correo electrónico de juan	email_query	O O O O O O B-person	email	es-ES
+envía un correo electrónico a mi gerente	email_sendemail	O O O O O O B-relation	email	es-ES
+enséñame los últimos correos electrónicos siri	email_query	O O O O O O	email	es-ES
+envía un correo electrónico a olivia navarro	email_sendemail	O O O O O B-person I-person	email	es-ES
+algún correo en los últimos cinco minutos	email_query	O O O O B-time I-time I-time	email	es-ES
+envía un correo electrónico a mi amigo diciéndole que le deseo un feliz cumpleaños	email_sendemail	O O O O O O B-relation O O O O O O B-event_name	email	es-ES
+cuál es la dirección de correo electrónico de mamá	email_querycontact	O O O O O B-personal_info I-personal_info O B-relation	email	es-ES
+me gustaría que este nuevo correo electrónico se agregara a mi contactos.	email_sendemail	O O O O O O O O O O O O	email	es-ES
+envía un correo electrónico a mateo voy a enviar los archivos al día siguiente	email_sendemail	O O O O O B-person O O O O O B-date I-date I-date	email	es-ES
+mostrar todos los correos electrónicos recibidos recientemente con marca de tiempo	email_query	O O O O O O O O O O O	email	es-ES
+muestra me un nuevo correo electrónico	email_query	O O O O O O	email	es-ES
+abrir respuesta	email_sendemail	O O	email	es-ES
+responder a este correo electrónico	email_sendemail	O O O O O	email	es-ES
+envía un correo electrónico a gerardina para decirle que la abuela la quiere y espera que tenga un buen fin de semana	email_sendemail	O O O O O B-person O O O O O O O O O O O O O O O O	email	es-ES
+redactar respuesta	email_sendemail	O O	email	es-ES
+dime los detalles de contacto de mi hermano	email_querycontact	O O B-personal_info I-personal_info I-personal_info O O B-relation	email	es-ES
+enviar este mensaje al grupo familiar comienza con un	email_sendemail	O O O O O B-relation O O O	email	es-ES
+quién me ha enviado correos electrónicos recientemente y cuáles son los asuntos de cada correo electrónico	email_query	O O O O O O O O O O O O O O O O	email	es-ES
+olly responde al correo electrónico de romina diciendo que su idea es fantastica	email_sendemail	O O O O O B-person I-person O O O O O O	email	es-ES
+enviar correo electrónico al jefe para reunirnos por evaluación de rendimientos	email_sendemail	O O O O B-relation O O O O O O	email	es-ES
+paco vive en francia	email_querycontact	O B-personal_info O B-place_name	email	es-ES
+avísame si recibo algún correo electrónico en mi cuenta de email	email_query	O O O O O O O O O O O	email	es-ES
+enviar el mensaje hola baja a cenar esta noche a hermano	email_sendemail	O O O O O O B-meal_type B-timeofday I-timeofday O B-relation	email	es-ES
+envía un correo electrónico al chico que está vendiendo el bote diciéndole que tengo el dinero	email_sendemail	O O O O O O O O O O O O O O O O	email	es-ES
+dime quien envió el correo electrónico sobre el jefe ayer	email_query	O O O O O O O O O B-date	email	es-ES
+qué dijo la clinica sobre mix exámenes	email_query	O O O B-business_name O O O	email	es-ES
+puedo encontrar información sobre un contacto	email_querycontact	O O O O O O	email	es-ES
+lee mis emails no leídos	email_query	O O O O O	email	es-ES
+comprobar si hay nuevos emails	email_query	O O O O O	email	es-ES
+puede verificar si tiene alguna alerta reciente por correo electrónico	email_query	O O O O O O O O O O	email	es-ES
+envía un correo para mi	email_sendemail	O O O O O	email	es-ES
+responder a todos	email_sendemail	O O O	email	es-ES
+dile a roberto sanchez	email_sendemail	O O B-person I-person	email	es-ES
+responder con gracias	email_sendemail	O O O	email	es-ES
+tengo algún correo nuevo de joan perez	email_query	O O O O O B-person I-person	email	es-ES
+hay algun correo sobre mi ascenso	email_query	O O O O O B-event_name	email	es-ES
+revisa mis correo s	email_query	O O O O	email	es-ES
+hazme una lista de los destinatarios y remitentes de los emails de la ultima semana	email_query	O O O O O O O O O O O O O O O	email	es-ES
+quien me envió correos electrónicos recientemente y que decían	email_query	O O O O O O O O O	email	es-ES
+envía el correo electrónico a juan	email_sendemail	O O O O O B-person	email	es-ES
+comenzar correo	email_sendemail	O O	email	es-ES
+cuántos correos sin leer tengo	email_query	O O O O O	email	es-ES
+enviar un correo a raul a qué hora es la cena	email_sendemail	O O O O B-person I-person I-person I-person I-person I-person I-person	email	es-ES
+enviar correo electrónico a comcast que su servicio es una mierda	email_sendemail	O O O O B-business_name O O O O O O	email	es-ES
+por favor revisa correo reciente estudio de este remitente	email_query	O O O O O O O O O	email	es-ES
+abre mi cuenta de correo electrónico y revisa nuevos correos electrónicos	email_query	O O O O O O O O O O O	email	es-ES
+envía un correo a mi jefe diciendo llegaré tarde	email_sendemail	O O O O O B-relation O O O	email	es-ES
+qué nuevos mensajes tengo	email_query	O O O O	email	es-ES
+abrir mis nuevos correos	email_query	O O O O	email	es-ES
+revisa los correos electrónicos de cristina	email_query	O O O O O O	email	es-ES
+responde al correo electronico de marcos	email_sendemail	O O O O O B-person	email	es-ES
+cuántos correos hoy	email_query	O O B-date	email	es-ES
+me ha enviado mi mamá un correo electrónico	email_query	O O O O B-relation O O O	email	es-ES
+enviar un correo a mamá quiero ir de compras mañana	email_sendemail	O O O O B-relation O O O O B-date	email	es-ES
+revisa todos los correos de eric	email_query	O O O O O B-person	email	es-ES
+me ayudarás a escribir un correo electrónico a chofin	email_sendemail	O O O O O O O O B-person	email	es-ES
+olly por favor compruebe que tengo algunos correos electrónicos de mamá	email_query	O O O O O O O O O O B-relation	email	es-ES
+enviar un correo electrónico a todos los trabajadores de mi empresa	email_sendemail	O O O O O O O B-relation I-relation I-relation I-relation	email	es-ES
+mensaje de correo electrónico a la dirección	email_sendemail	O O O O O O O	email	es-ES
+nueva dirección	email_sendemail	O O	email	es-ES
+busca en google la nueva dirección de correo electrónico de juan que añadí el viernes	email_query	O O O O O O O O O O B-person O O O B-date	email	es-ES
+es esto el código postal correcto de mi jefe	email_querycontact	O O O O O O O O B-relation	email	es-ES
+contesta	email_sendemail	O	email	es-ES
+por favor borra los contactos con los que no he hablado en tres meses	email_querycontact	O O O O O O O O O O O B-date I-date I-date	email	es-ES
+quiero enviar un correo electrónico a jacobo arroba gmail punto com	email_sendemail	O O O O O O B-email_address I-email_address I-email_address I-email_address I-email_address	email	es-ES
+envía un correo a mi hija diciéndola que te quiero	email_sendemail	O O O O O B-relation O O O O	email	es-ES
+envía un correo electrónico a mama diciendo feliz cumpleaños	email_sendemail	O O O O O O O O B-event_name	email	es-ES
+por favor dime si julio me ha enviado algún correo electrónico	email_query	O O O O O O O O O O O	email	es-ES
+algún nuevo correo electrónico del jefe	email_query	O O O O O B-relation	email	es-ES
+he recibido algún correo electrónico en la última hora	email_query	O O O O O O O B-time I-time	email	es-ES
+ha llegado ya algún correo personal	email_query	O O O O O O	email	es-ES
+abre el correo electrónico de mi hermana de ayer dale a contesta y activa la grabación de voz para mi respuesta	email_sendemail	O O O O O O B-relation O B-date O O O O O O O O O O O O	email	es-ES
+cuántos contactos tengo en mi agenda	email_querycontact	O O O O O B-device_type	email	es-ES
+puedes ver sobre lo que andrés me ha escrito en su email	email_query	O O O O O B-person O O O O O O	email	es-ES
+quiero encontrar correos electrónicos de juan con el asunto que contenga la palabra reunión	email_query	O O O O O B-person O O O O O O O O	email	es-ES
+por favor envía un email a mi madre	email_sendemail	O O O O O O O B-relation	email	es-ES
+me envió un correo juan	email_query	O O O O B-person	email	es-ES
+mira mi correo	email_query	O O O	email	es-ES
+abre el correo electrónico de jaime	email_sendemail	O O O O O B-person	email	es-ES
+buscar correo electrónico para contactar	email_query	O O O O O	email	es-ES
+encuentra un contacto	email_query	O O O	email	es-ES
+muestra mi correo electrónico	email_query	O O O O	email	es-ES
+abre el contacto llamado josé	email_querycontact	O O O O B-person	email	es-ES
+a quien envié correos electrónicos recientemente	email_query	O O O O O O	email	es-ES
+cual es el destinatario y remitente del correo electrónico que hay hoy en la bandeja de entrada	email_query	O O O O O O O O O O O B-date O O B-email_folder I-email_folder I-email_folder	email	es-ES
+por favor abre mi lista de contactos	email_querycontact	O O O O B-list_name I-list_name I-list_name	email	es-ES
+abre la información de contacto de pablo	email_querycontact	O O O O O O B-person	email	es-ES
+chequea todos los correos de tom brady	email_query	O O O O O B-person I-person	email	es-ES
+envía una respuesta a juan	email_sendemail	O O O O B-person	email	es-ES
+hola tengo algún nuevo correo electrónico	email_query	O O O O O O	email	es-ES
+enviar correo electrónico a miguel	email_sendemail	O O O O B-person	email	es-ES
+controla mi correo	email_query	O O O	email	es-ES
+necesito mandar un correo a susana y mencia	email_sendemail	O O O O O B-person O B-person	email	es-ES
+mostrar no leído	email_query	O O O	email	es-ES
+hay nuevos correos electrónicos en mi bandeja de entrada	email_query	O O O O O O B-email_folder I-email_folder I-email_folder	email	es-ES
+responder correo electrónico	email_sendemail	O O O	email	es-ES
+envía un correo a m. garcía preguntándole si luis entregó su último deber asignado	email_sendemail	O O O O B-person I-person O O O O O O O O	email	es-ES
+envía una respuesta a mi último correo electrónico	email_sendemail	O O O O O O O O	email	es-ES
+responder a al correo electrónico de francisco con la respuesta seis y media	email_sendemail	O O O O O O B-person O O O O O O	email	es-ES
+qué correo tengo	email_query	O O O	email	es-ES
+quiero enviar una respuesta al correo electrónico de juan	email_sendemail	O O O O O O O B-person I-person	email	es-ES
+chequea correos de ana perez	email_query	O O O B-person I-person	email	es-ES
+hay algunos nuevos correos electrónicos	email_query	O O O O O	email	es-ES
+revisa mi bandeja de entrada por mí	email_query	O O B-email_folder I-email_folder I-email_folder O O	email	es-ES
+guardar correo a mi contacto	email_addcontact	O O O O O	email	es-ES
+guardar en contactos	email_addcontact	O O O	email	es-ES
+dame todos mis correos electrónicos recientes	email_query	O O O O O O	email	es-ES
+cuál es mi actividad de correo reciente	email_query	O O O O O O O	email	es-ES
+dame el correo de contacto	email_querycontact	O O B-personal_info I-personal_info I-personal_info	email	es-ES
+por favor dime los nuevo correos electrónicos de miguel	email_query	O O O O O O O O O	email	es-ES
+sólo hazme saber nuevos correos de sara	email_query	O O O O O O B-person	email	es-ES
+he recibido algún correo desde las diecisiete horas	email_query	O O O O O O B-time I-time	email	es-ES
+recibí algún correo electrónico de pepe hoy	email_query	O O O O O B-person B-date	email	es-ES
+publicar un correo electrónico al trabajador de mi empresa con la información de la reunión programada para hoy	email_sendemail	O O O O O B-relation I-relation I-relation I-relation O O O O O O O O B-date	email	es-ES
+recibí algún nuevo correo hoy de ana	email_query	O O O O B-date O B-person	email	es-ES
+enviar correo electrónico a maría	email_sendemail	O O O O B-person	email	es-ES
+llama al numero de telefono de ramon	email_querycontact	O O O O O O O	email	es-ES
+informa de algún correo electrónico nuevo	email_query	O O O O O O	email	es-ES
+cuántos mensajes no leídos tengo	email_query	O O O O O	email	es-ES
+por favor responde el correo electrónico que yo acabo de leer	email_sendemail	O O O O O O O O O O O	email	es-ES
+juan me escribe hoy	email_query	O O O B-date	email	es-ES
+cúal es la dirección para juan	email_querycontact	O O O B-personal_info O B-person	email	es-ES

@@ -1,0 +1,2033 @@
+turn the lights off please	[IN:iot_hue_lightoff ]	iot	en-US
+dim the lights in the hall	[IN:iot_hue_lightdim [SL:house_place hall] ]	iot	en-US
+make a room darker	[IN:iot_hue_lightdim [SL:house_place room] ]	iot	en-US
+clean the flat	[IN:iot_cleaning [SL:house_place flat] ]	iot	en-US
+cleaning is good dust is so bad do now your magic clean my carpet	[IN:iot_cleaning [SL:house_place carpet] ]	iot	en-US
+give me the status on my available memory	[IN:general_quirky ]	general	en-US
+list most rated delivery options for chinese food	[IN:takeaway_query [SL:order_type delivery] [SL:food_type chinese] ]	takeaway	en-US
+find my thai takeaways around grassmarket	[IN:takeaway_query [SL:food_type thai] [SL:order_type takeaways] [SL:place_name grassmarket] ]	takeaway	en-US
+i'd like to hear queen's barcelona	[IN:play_music [SL:artist_name queen's] [SL:song_name barcelona] ]	play	en-US
+play me barcelona by queen	[IN:play_music [SL:song_name barcelona] [SL:artist_name queen] ]	play	en-US
+what's the band is playing now	[IN:music_query ]	music	en-US
+what's with my dinner order	[IN:takeaway_query ]	takeaway	en-US
+what's the weeks forecast	[IN:weather_query [SL:time weeks] ]	weather	en-US
+play hurts like heaven	[IN:play_music [SL:song_name hurts like heaven] ]	play	en-US
+put on cannibal queen	[IN:play_music [SL:song_name cannibal queen] ]	play	en-US
+play some david bowie	[IN:play_music [SL:artist_name david bowie] ]	play	en-US
+loop this track	[IN:music_settings [SL:player_setting loop] ]	music	en-US
+set the volume to low	[IN:audio_volume_down [SL:change_amount to low] ]	audio	en-US
+what's the day today	[IN:datetime_query [SL:date today] ]	datetime	en-US
+which song is that	[IN:music_query ]	music	en-US
+i like to listen to jazz	[IN:play_music [SL:music_genre jazz] ]	play	en-US
+olly i like to listen to jazz	[IN:play_music [SL:music_genre jazz] ]	play	en-US
+hey hey	[IN:general_greet ]	general	en-US
+set alarm tomorrow at six am	[IN:alarm_set [SL:date tomorrow] [SL:time six am] ]	alarm	en-US
+volume up	[IN:audio_volume_up ]	audio	en-US
+is it raining outside	[IN:weather_query [SL:weather_descriptor raining] ]	weather	en-US
+what time is it in las vegas	[IN:datetime_query [SL:place_name las vegas] ]	datetime	en-US
+what time is it in beijing	[IN:datetime_query [SL:place_name beijing] ]	datetime	en-US
+set an alarm at six in the morning	[IN:alarm_set [SL:time six] [SL:timeofday morning] ]	alarm	en-US
+did i set an alarm to wake up in the morning	[IN:alarm_query [SL:alarm_type wake up] [SL:timeofday morning] ]	alarm	en-US
+what's happening in america	[IN:news_query [SL:place_name america] ]	news	en-US
+olly death metal now	[IN:play_music [SL:music_genre metal] ]	play	en-US
+what's the time in tokyo now	[IN:datetime_query [SL:place_name tokyo] ]	datetime	en-US
+tell me today's newspaper's headlines	[IN:news_query [SL:date today's] [SL:media_type newspaper's] ]	news	en-US
+play chopin	[IN:play_music [SL:artist_name chopin] ]	play	en-US
+what day is memorial day this year	[IN:datetime_query [SL:date this year] ]	datetime	en-US
+it's too dark here	[IN:iot_hue_lighton ]	iot	en-US
+is it going to rain tomorrow	[IN:weather_query [SL:weather_descriptor rain] [SL:date tomorrow] ]	weather	en-US
+softer	[IN:audio_volume_down ]	audio	en-US
+what will be the temperature out there tomorrow	[IN:weather_query [SL:weather_descriptor temperature] [SL:date tomorrow] ]	weather	en-US
+what is tomorrows weather predictions	[IN:weather_query [SL:date tomorrows] ]	weather	en-US
+what day of the week is the twenty second march	[IN:datetime_query [SL:date twenty second march] ]	datetime	en-US
+is it monday today	[IN:datetime_query [SL:date monday today] ]	datetime	en-US
+what's the weather like in new york city	[IN:weather_query [SL:place_name new york city] ]	weather	en-US
+is it sunny in gonbad now	[IN:weather_query [SL:weather_descriptor sunny] [SL:place_name gonbad] ]	weather	en-US
+let me know as soon as there is more news on brexit	[IN:news_query [SL:news_topic brexit] ]	news	en-US
+turn off the smart plug	[IN:iot_wemo_off [SL:device_type smart plug] ]	iot	en-US
+play a song from my favorites	[IN:play_music ]	play	en-US
+i would like to listen to pop music please	[IN:play_music [SL:music_genre pop] ]	play	en-US
+change my room lights so that i can get a good sleep	[IN:iot_hue_lightchange [SL:color_type good sleep] ]	iot	en-US
+what's the weather like on friday	[IN:weather_query [SL:date friday] ]	weather	en-US
+what day is it today	[IN:datetime_query [SL:date today] ]	datetime	en-US
+should i wear a jacket today	[IN:weather_query [SL:weather_descriptor jacket] [SL:date today] ]	weather	en-US
+disable shuffle	[IN:music_settings [SL:player_setting disable shuffle] ]	music	en-US
+what's the date	[IN:datetime_query ]	datetime	en-US
+what things can't you do	[IN:general_quirky ]	general	en-US
+tell me the hour	[IN:datetime_query ]	datetime	en-US
+is it hot outside	[IN:weather_query [SL:weather_descriptor hot] ]	weather	en-US
+do i have an alarm set	[IN:alarm_query ]	alarm	en-US
+by proper formula	[IN:weather_query ]	weather	en-US
+mute for the next hour please	[IN:audio_volume_mute [SL:time next hour] ]	audio	en-US
+play my favorite song	[IN:play_music ]	play	en-US
+its very dangerous one	[IN:weather_query ]	weather	en-US
+please tell me some international news	[IN:news_query [SL:place_name international] ]	news	en-US
+set a wake up call for ten am	[IN:alarm_set [SL:time ten am] ]	alarm	en-US
+make an alarm for three p. m.	[IN:alarm_set [SL:time three p. m.] ]	alarm	en-US
+set an alarm for one p. m.	[IN:alarm_set [SL:time one p. m.] ]	alarm	en-US
+play the song immediately	[IN:play_music [SL:song_name immediately] ]	play	en-US
+email me the lyrics to this song	[IN:music_query ]	music	en-US
+get rid of my eight am alarm	[IN:alarm_remove [SL:time eight am] ]	alarm	en-US
+will it be raining tomorrow	[IN:weather_query [SL:weather_descriptor raining] [SL:date tomorrow] ]	weather	en-US
+please i want to hear we will rock you from queen	[IN:play_music [SL:song_name we will rock you] [SL:artist_name queen] ]	play	en-US
+start alarm	[IN:alarm_set ]	alarm	en-US
+i want to wake up at six am tomorrow please	[IN:alarm_set [SL:time six am] [SL:date tomorrow] ]	alarm	en-US
+olly play songs from my playlist	[IN:play_music ]	play	en-US
+what day of the week is thanksgiving	[IN:datetime_query [SL:event_name thanksgiving] ]	datetime	en-US
+please let me hear six hundred and sixty six the number of the beast	[IN:play_music [SL:song_name six hundred and sixty six the number of the beast] ]	play	en-US
+can you find an animal joke for me	[IN:general_joke [SL:joke_type animal] ]	general	en-US
+what is status of current weather	[IN:weather_query ]	weather	en-US
+what is time now in california	[IN:datetime_query [SL:place_name california] ]	datetime	en-US
+set time zone	[IN:datetime_convert ]	datetime	en-US
+turn on the t. v. socket when i arrive home	[IN:iot_wemo_on [SL:device_type t. v.] ]	iot	en-US
+follow news about hilary email issue in future	[IN:news_query [SL:news_topic hilary email issue] [SL:time future] ]	news	en-US
+lower the volume	[IN:audio_volume_down ]	audio	en-US
+i can't hear just increase the volume	[IN:audio_volume_up ]	audio	en-US
+can you bright the lights please	[IN:iot_hue_lightup ]	iot	en-US
+i want to hear chopin now	[IN:play_music [SL:artist_name chopin] ]	play	en-US
+who is leading the formula one race right now	[IN:news_query [SL:news_topic formula one] ]	news	en-US
+prepare coffee	[IN:iot_coffee ]	iot	en-US
+read the headlines from new york times	[IN:news_query [SL:media_type new york times] ]	news	en-US
+can i know the breaking news from c. n. n.	[IN:news_query [SL:media_type c. n. n.] ]	news	en-US
+could you please lower the tone	[IN:audio_volume_down ]	audio	en-US
+play songs from the r. & b. and soul genre	[IN:play_music [SL:artist_name r. & b.] [SL:music_genre soul] ]	play	en-US
+can you turn off wemo plug socket	[IN:iot_wemo_off [SL:device_type wemo plug socket] ]	iot	en-US
+what does the weather look like this week	[IN:weather_query [SL:date this week] ]	weather	en-US
+what is the weather supposed to be like this week	[IN:weather_query [SL:date this week] ]	weather	en-US
+tell me if an earthquake happens in the world	[IN:news_query [SL:news_topic earthquake] ]	news	en-US
+play boogie in your butt by eddie murphy	[IN:play_music [SL:song_name boogie in your butt] [SL:artist_name eddie murphy] ]	play	en-US
+hey olly mute the speakers	[IN:audio_volume_mute ]	audio	en-US
+lower all volume on speakers please	[IN:audio_volume_down ]	audio	en-US
+make coffee now	[IN:iot_coffee ]	iot	en-US
+ok google play some music	[IN:play_music ]	play	en-US
+what is the latest gossip of hollywood going on	[IN:news_query [SL:news_topic hollywood] ]	news	en-US
+brighten lights	[IN:iot_hue_lightup ]	iot	en-US
+alarm set eight am	[IN:alarm_set [SL:time eight am] ]	alarm	en-US
+turn off the six am alarm for wednesday	[IN:alarm_remove [SL:time six am] [SL:date wednesday] ]	alarm	en-US
+turn off any morning alarms after friday	[IN:alarm_remove [SL:timeofday morning] [SL:date after friday] ]	alarm	en-US
+look up next week weather for me please	[IN:weather_query [SL:date next week] ]	weather	en-US
+play music from my favorite artist	[IN:play_music ]	play	en-US
+please lower the lights a little bit	[IN:iot_hue_lightdim [SL:change_amount a little bit] ]	iot	en-US
+phones	[IN:alarm_remove ]	alarm	en-US
+if it's eight p. m. on the east coast what time is it in sacramento california	[IN:datetime_convert [SL:time eight p. m.] [SL:place_name east coast] [SL:place_name sacramento california] ]	datetime	en-US
+does pf changs accept take-out orders	[IN:takeaway_query [SL:business_name pf changs] [SL:order_type take-out] ]	takeaway	en-US
+can you tell me what time is it in new york	[IN:datetime_query [SL:place_name new york] ]	datetime	en-US
+current news c. n. n.	[IN:news_query [SL:media_type c. n. n.] ]	news	en-US
+take me to the huffington post website	[IN:social_post [SL:media_type huffington post] ]	social	en-US
+pull up the headlines please	[IN:news_query ]	news	en-US
+what are the headlines from the new york times	[IN:news_query [SL:media_type new york times] ]	news	en-US
+find out if the olive garden will let me do takeaway	[IN:takeaway_query [SL:business_name olive garden] [SL:order_type takeaway] ]	takeaway	en-US
+can i have today's date	[IN:datetime_query [SL:date today's] ]	datetime	en-US
+is my school alarm set	[IN:alarm_query ]	alarm	en-US
+how hot is it outside	[IN:weather_query [SL:weather_descriptor hot] ]	weather	en-US
+at one p. m. today start the robot vacuum cleaner	[IN:iot_cleaning [SL:time one p. m.] [SL:date today] [SL:device_type robot vacuum cleaner] ]	iot	en-US
+good assistants	[IN:news_query ]	news	en-US
+send me current news for the day	[IN:news_query ]	news	en-US
+play lady by kenny rogers now	[IN:play_music [SL:song_name lady] [SL:artist_name kenny rogers] ]	play	en-US
+today date	[IN:datetime_query [SL:date today] ]	datetime	en-US
+what are the lyrics to the song i will always love you by dolly parton	[IN:music_query [SL:song_name i will always love you] [SL:artist_name dolly parton] ]	music	en-US
+never ever play me any country	[IN:music_dislikeness [SL:music_genre country] ]	music	en-US
+if it's ten p. m. in california what time is it in alabama	[IN:datetime_convert [SL:time ten p. m.] [SL:place_name california] [SL:place_name alabama] ]	datetime	en-US
+i need to hear notorious thugs by bone thugs now	[IN:play_music [SL:song_name notorious thugs] [SL:artist_name bone thugs] ]	play	en-US
+what is the weather condition today	[IN:weather_query [SL:date today] ]	weather	en-US
+will it rain	[IN:weather_query [SL:weather_descriptor rain] ]	weather	en-US
+what is the current time in new york	[IN:datetime_query [SL:place_name new york] ]	datetime	en-US
+can you suggest me a healthy foods for dinner	[IN:cooking_recipe [SL:food_type healthy foods] ]	cooking	en-US
+order a meal from a nice restaurant	[IN:takeaway_order [SL:business_type restaurant] ]	takeaway	en-US
+convert new york time to london	[IN:datetime_convert [SL:place_name new york] [SL:place_name london] ]	datetime	en-US
+olly make the living room blue	[IN:iot_hue_lightchange [SL:house_place living room] [SL:color_type blue] ]	iot	en-US
+make the living room blue	[IN:iot_hue_lightchange [SL:house_place living room] [SL:color_type blue] ]	iot	en-US
+please play leviathan	[IN:play_music [SL:song_name leviathan] ]	play	en-US
+what is the weather update for tuesday	[IN:weather_query [SL:date tuesday] ]	weather	en-US
+what will be the weather update for monday noon	[IN:weather_query [SL:date monday] [SL:timeofday noon] ]	weather	en-US
+what will be day on fifteenth march	[IN:datetime_query [SL:date fifteenth march] ]	datetime	en-US
+i want the date of last monday of this month	[IN:datetime_query [SL:date last monday of this month] ]	datetime	en-US
+what is the time in india when the time in us is twelve p. m.	[IN:datetime_convert [SL:place_name india] [SL:place_name us] [SL:time twelve p. m.] ]	datetime	en-US
+tell me what time it is	[IN:datetime_query ]	datetime	en-US
+find me the best knock knock joke on the internet	[IN:general_joke [SL:joke_type knock knock] ]	general	en-US
+what will be the weather on monday this week	[IN:weather_query [SL:date monday this week] ]	weather	en-US
+your recipe of steak was superb	[IN:cooking_recipe [SL:food_type steak] ]	cooking	en-US
+what's happening in the world today	[IN:news_query [SL:date today] ]	news	en-US
+what day is it on fifth december	[IN:datetime_query [SL:date fifth december] ]	datetime	en-US
+hey	[IN:general_greet ]	general	en-US
+i want the news about academy awards	[IN:news_query [SL:news_topic academy awards] ]	news	en-US
+tell me the current time in ottawa	[IN:datetime_query [SL:place_name ottawa] ]	datetime	en-US
+what is weather today	[IN:weather_query [SL:date today] ]	weather	en-US
+it is hot today is not it	[IN:weather_query [SL:weather_descriptor hot] [SL:date today] ]	weather	en-US
+it is very hot today is not it	[IN:weather_query [SL:weather_descriptor hot] [SL:date today] ]	weather	en-US
+one hundred thousand two hundred and seventeenth	[IN:datetime_query ]	datetime	en-US
+what will the weather be like this week	[IN:weather_query [SL:date this week] ]	weather	en-US
+switch to night light setting	[IN:iot_hue_lightchange ]	iot	en-US
+just increase the volume a little	[IN:audio_volume_up ]	audio	en-US
+can i get an order delivered from romero's	[IN:takeaway_query [SL:order_type delivered] [SL:business_name romero's] ]	takeaway	en-US
+order some takeaway food	[IN:takeaway_order [SL:order_type takeaway] ]	takeaway	en-US
+find and queue all songs of kate perry and play all without shuffling	[IN:play_music [SL:artist_name kate perry] [SL:player_setting without shuffling] ]	play	en-US
+make a playlist of all songs of eminem and play with shuffle	[IN:play_music [SL:artist_name eminem] [SL:player_setting shuffle] ]	play	en-US
+is it going to snow this week	[IN:weather_query [SL:weather_descriptor snow] [SL:date this week] ]	weather	en-US
+music on	[IN:play_music ]	play	en-US
+search for new jokes	[IN:general_joke [SL:joke_type new] ]	general	en-US
+i want to listen to soft rock	[IN:play_music [SL:music_genre soft rock] ]	play	en-US
+i want to listen to up beat music	[IN:play_music [SL:music_descriptor up beat] ]	play	en-US
+play the billboard top ten	[IN:play_music ]	play	en-US
+can i have the ten day forecast for me area	[IN:weather_query [SL:time ten day] ]	weather	en-US
+get the weather forecast for this week please	[IN:weather_query [SL:date this week] ]	weather	en-US
+play me something pop	[IN:play_music [SL:music_genre pop] ]	play	en-US
+play music from the playlist	[IN:play_music ]	play	en-US
+can i have an espresso please	[IN:iot_coffee [SL:coffee_type espresso] ]	iot	en-US
+olly start the vacuum cleaner	[IN:iot_cleaning [SL:device_type vacuum cleaner] ]	iot	en-US
+can you start the roomba	[IN:iot_cleaning [SL:device_type roomba] ]	iot	en-US
+send me alert on any new topic on politics	[IN:news_query [SL:news_topic politics] ]	news	en-US
+rating	[IN:music_likeness ]	music	en-US
+am or p. m.	[IN:alarm_query ]	alarm	en-US
+what are the latest articles from yahoo news	[IN:news_query [SL:media_type yahoo news] ]	news	en-US
+find me any news from so clean the last six hours	[IN:news_query [SL:media_type so clean] [SL:time last six hours] ]	news	en-US
+nine hundred and ninety nine f. m. is currently playing what music	[IN:music_query ]	music	en-US
+increase the volume of the music to ninety	[IN:audio_volume_up [SL:change_amount to ninety] ]	audio	en-US
+is it a yes or a no that tomorrow's temperature will be hot	[IN:weather_query [SL:date tomorrow's] [SL:weather_descriptor temperature] [SL:weather_descriptor hot] ]	weather	en-US
+what is this week's weather forecast	[IN:weather_query [SL:date this week's] ]	weather	en-US
+who is the artist of the song playing now	[IN:music_query ]	music	en-US
+i don't like that song turn it off	[IN:music_dislikeness ]	music	en-US
+by ten to eleven am daily start my vacuum cleaner	[IN:iot_cleaning [SL:time ten] [SL:time eleven am] [SL:general_frequency daily] [SL:device_type vacuum cleaner] ]	iot	en-US
+what will be the highest temperature in coming week	[IN:weather_query [SL:weather_descriptor temperature] [SL:date coming week] ]	weather	en-US
+checkout today set alarm of ten am	[IN:alarm_query [SL:date today] [SL:time ten am] ]	alarm	en-US
+play enrique	[IN:play_music [SL:artist_name enrique] ]	play	en-US
+play michael jackson	[IN:play_music [SL:artist_name michael jackson] ]	play	en-US
+is it possible for you to provide the likes of my music	[IN:music_query ]	music	en-US
+what is the latest news from syria	[IN:news_query [SL:place_name syria] ]	news	en-US
+i need some more lights	[IN:iot_hue_lightup ]	iot	en-US
+tell me current time	[IN:datetime_query ]	datetime	en-US
+my favorite singer is shakira	[IN:music_likeness [SL:artist_name shakira] ]	music	en-US
+what's going on in new york	[IN:news_query [SL:place_name new york] ]	news	en-US
+play my most listened songs	[IN:play_music ]	play	en-US
+go to youtube and play me the best wedding songs collection	[IN:play_music [SL:media_type youtube] [SL:playlist_name best wedding songs] ]	play	en-US
+bring me the latest tech news	[IN:news_query [SL:news_topic tech] ]	news	en-US
+add that song to my top ten favorites list	[IN:music_likeness ]	music	en-US
+that song was awesome can you repeat	[IN:music_likeness ]	music	en-US
+give me low lighting in the kitchen	[IN:iot_hue_lightdim [SL:house_place kitchen] ]	iot	en-US
+save that song and my opinion	[IN:music_likeness ]	music	en-US
+update me with the election results	[IN:news_query [SL:news_topic election] ]	news	en-US
+what does the analysts say about the new immigration policies	[IN:news_query [SL:news_topic immigration policies] ]	news	en-US
+restaurant order status	[IN:takeaway_query [SL:business_type restaurant] ]	takeaway	en-US
+alert me at five hours	[IN:alarm_set [SL:time five] ]	alarm	en-US
+start my robot vacuum cleaner	[IN:iot_cleaning [SL:device_type robot vacuum cleaner] ]	iot	en-US
+play music	[IN:play_music ]	play	en-US
+what is the current date time group	[IN:datetime_query ]	datetime	en-US
+start house cleanup	[IN:iot_cleaning [SL:house_place house] ]	iot	en-US
+switch off the light	[IN:iot_hue_lightoff ]	iot	en-US
+funny joke	[IN:general_joke [SL:joke_type funny] ]	general	en-US
+what song is currently playing	[IN:music_query ]	music	en-US
+save the information which is provided by aman on this song	[IN:music_likeness [SL:artist_name aman] ]	music	en-US
+hey alexa turn on disco lights in my apartment and let the party begin	[IN:iot_hue_lighton [SL:device_type disco lights] [SL:house_place apartment] ]	iot	en-US
+please shut off	[IN:audio_volume_mute ]	audio	en-US
+please play rap	[IN:play_music [SL:music_genre rap] ]	play	en-US
+what will be this week weather condition	[IN:weather_query [SL:date this week] ]	weather	en-US
+what a sunny day	[IN:weather_query [SL:weather_descriptor sunny] ]	weather	en-US
+is the meeting scheduled for tomorrow	[IN:calendar_query [SL:event_name meeting] [SL:date tomorrow] ]	calendar	en-US
+it is cloudy today	[IN:weather_query [SL:weather_descriptor cloudy] [SL:date today] ]	weather	en-US
+touch the mute button	[IN:audio_volume_mute ]	audio	en-US
+play me a recent cover of cherry bomb	[IN:play_music [SL:song_name recent cover] [SL:artist_name cherry bomb] ]	play	en-US
+let's hear some country and western not from the us	[IN:play_music [SL:music_genre country] [SL:music_genre western] ]	play	en-US
+check the current playing music title	[IN:music_query ]	music	en-US
+does peking garden deliver	[IN:takeaway_query [SL:business_name peking garden] [SL:order_type deliver] ]	takeaway	en-US
+play my last used playlist	[IN:play_music ]	play	en-US
+give me the time in london	[IN:datetime_query [SL:place_name london] ]	datetime	en-US
+play pop	[IN:play_music [SL:music_genre pop] ]	play	en-US
+set the mood please	[IN:iot_hue_lightchange ]	iot	en-US
+turn lights blue	[IN:iot_hue_lightchange [SL:color_type blue] ]	iot	en-US
+turn living room lights red	[IN:iot_hue_lightchange [SL:house_place living room] [SL:color_type red] ]	iot	en-US
+tell me the weather for new brighton pa olly	[IN:weather_query [SL:place_name new brighton pa] ]	weather	en-US
+siri how is the weather outside	[IN:weather_query ]	weather	en-US
+what day was it on my birth date	[IN:datetime_query [SL:date my birth date] ]	datetime	en-US
+what is the title of the song that is playing	[IN:music_query ]	music	en-US
+could you tell me what time it is	[IN:datetime_query ]	datetime	en-US
+weather on monday	[IN:weather_query [SL:date monday] ]	weather	en-US
+weather on tuesday	[IN:weather_query [SL:date tuesday] ]	weather	en-US
+repeat song	[IN:music_settings [SL:player_setting repeat] ]	music	en-US
+can you please tell me the current weather condition	[IN:weather_query ]	weather	en-US
+can you please turn off the light of my bed room	[IN:iot_hue_lightoff [SL:house_place bed room] ]	iot	en-US
+hey share me some joke to make me happy	[IN:general_joke ]	general	en-US
+how many weeks are left for christmas	[IN:datetime_query [SL:event_name christmas] ]	datetime	en-US
+do you have any news from news provides	[IN:news_query ]	news	en-US
+weather in homestead	[IN:weather_query [SL:place_name homestead] ]	weather	en-US
+please convert nine am c. s. t. to e. s. t. time	[IN:datetime_convert [SL:time nine am] [SL:place_name c. s. t.] [SL:place_name e. s. t.] ]	datetime	en-US
+turn off the closet light	[IN:iot_hue_lightoff ]	iot	en-US
+play a r. rahman music	[IN:play_music [SL:artist_name a r. rahman] ]	play	en-US
+play my top rated pop songs please	[IN:play_music [SL:music_descriptor top rated] [SL:music_genre pop] ]	play	en-US
+set color blue for all lights of my house	[IN:iot_hue_lightchange [SL:color_type blue] ]	iot	en-US
+i am forever hip hop	[IN:music_likeness [SL:music_genre hip hop] ]	music	en-US
+olly turn the lights down to seven	[IN:iot_hue_lightdim [SL:change_amount to seven] ]	iot	en-US
+lights down to seven	[IN:iot_hue_lightdim [SL:change_amount to seven] ]	iot	en-US
+minimize the light power	[IN:iot_hue_lightdim ]	iot	en-US
+what will the weather be on the seventh	[IN:weather_query [SL:date seventh] ]	weather	en-US
+mute the speaker please	[IN:audio_volume_mute ]	audio	en-US
+what is the name of the music playing now	[IN:music_query ]	music	en-US
+turn the volume up	[IN:audio_volume_up ]	audio	en-US
+what song is this	[IN:music_query ]	music	en-US
+i want to hear love me	[IN:play_music [SL:song_name love me] ]	play	en-US
+shuffle the current album of songs	[IN:music_settings [SL:player_setting shuffle] ]	music	en-US
+what news updates are there from news express	[IN:news_query [SL:media_type news express] ]	news	en-US
+what's new in news express	[IN:news_query [SL:media_type news express] ]	news	en-US
+what's happening in news express	[IN:news_query [SL:media_type news express] ]	news	en-US
+tell me what time is it	[IN:datetime_query ]	datetime	en-US
+let me know the time in india	[IN:datetime_query [SL:place_name india] ]	datetime	en-US
+what alarms are upcoming	[IN:alarm_query ]	alarm	en-US
+olly turn off the lights	[IN:iot_hue_lightoff ]	iot	en-US
+is there a way to get the latest breaking news on trump	[IN:news_query [SL:news_topic trump] ]	news	en-US
+switch on the lights	[IN:iot_hue_lighton ]	iot	en-US
+order take-out	[IN:takeaway_order [SL:order_type take-out] ]	takeaway	en-US
+will you dim all the lights	[IN:iot_hue_lightdim ]	iot	en-US
+give me the news	[IN:news_query ]	news	en-US
+lights down	[IN:iot_hue_lightdim ]	iot	en-US
+what is the weather of this week	[IN:weather_query [SL:date this week] ]	weather	en-US
+tell me the weather for this week	[IN:weather_query [SL:date this week] ]	weather	en-US
+hey olly how do i start the robot vacuum cleaner	[IN:iot_cleaning [SL:device_type robot vacuum cleaner] ]	iot	en-US
+please help me turn on the robot vacuum cleaner	[IN:iot_cleaning [SL:device_type robot vacuum cleaner] ]	iot	en-US
+i want to hear some modern rock	[IN:play_music [SL:music_genre modern rock] ]	play	en-US
+what is the status on my latest order	[IN:takeaway_query ]	takeaway	en-US
+what is it like outside	[IN:weather_query ]	weather	en-US
+what day of the week is valentine's on	[IN:datetime_query [SL:event_name valentine's] ]	datetime	en-US
+tell me the weather in miami florida	[IN:weather_query [SL:place_name miami florida] ]	weather	en-US
+i want some music how about playing my workout playlist	[IN:play_music [SL:playlist_name workout playlist] ]	play	en-US
+set an alarm for tomorrow morning at eight	[IN:alarm_set [SL:date tomorrow] [SL:timeofday morning] [SL:time eight] ]	alarm	en-US
+please dim the lights in the bedroom	[IN:iot_hue_lightdim [SL:house_place bedroom] ]	iot	en-US
+tell me the artist name	[IN:music_query ]	music	en-US
+what is the song name	[IN:music_query ]	music	en-US
+what's happening in world news today	[IN:news_query [SL:place_name world] [SL:date today] ]	news	en-US
+what is the latest international news	[IN:news_query [SL:place_name international] ]	news	en-US
+i would like coffee now	[IN:iot_coffee ]	iot	en-US
+turn off my bedside lamp please	[IN:iot_hue_lightoff [SL:device_type bedside lamp] ]	iot	en-US
+please start vacuum	[IN:iot_cleaning [SL:device_type vacuum] ]	iot	en-US
+start vacuum cleaner now	[IN:iot_cleaning [SL:device_type vacuum cleaner] ]	iot	en-US
+mute all responses now	[IN:audio_volume_mute ]	audio	en-US
+no speaking please	[IN:audio_volume_mute ]	audio	en-US
+did we get any update from the new provider	[IN:news_query [SL:media_type new provider] ]	news	en-US
+what is new about blank	[IN:news_query [SL:news_topic blank] ]	news	en-US
+play adele	[IN:play_music [SL:artist_name adele] ]	play	en-US
+what is the weather forecast for seattle	[IN:weather_query [SL:place_name seattle] ]	weather	en-US
+will it snow next week	[IN:weather_query [SL:weather_descriptor snow] [SL:date next week] ]	weather	en-US
+what is the seattle city council doing about homelessness	[IN:news_query [SL:place_name seattle] [SL:news_topic city council doing about homelessness] ]	news	en-US
+get news from b. b. c. news	[IN:news_query [SL:media_type b. b. c. news] ]	news	en-US
+how many alarms do i have set for morning hours between six and nine am	[IN:alarm_query [SL:timeofday morning] [SL:time six and nine am] ]	alarm	en-US
+open playlist	[IN:play_music ]	play	en-US
+confirm the order	[IN:takeaway_order ]	takeaway	en-US
+make a cup of coffee for me	[IN:iot_coffee ]	iot	en-US
+i want to listen to rock	[IN:play_music [SL:music_genre rock] ]	play	en-US
+ok google play rock music	[IN:play_music [SL:music_genre rock] ]	play	en-US
+power off the current	[IN:iot_hue_lightoff ]	iot	en-US
+set an alarm for five thirty	[IN:alarm_set [SL:time five thirty] ]	alarm	en-US
+can i get delivery from this restaurant	[IN:takeaway_query [SL:order_type delivery] [SL:business_type restaurant] ]	takeaway	en-US
+does my favorite restaurant do delivery	[IN:takeaway_query [SL:business_type restaurant] [SL:order_type delivery] ]	takeaway	en-US
+do they offer takeaway	[IN:takeaway_query [SL:order_type takeaway] ]	takeaway	en-US
+start up the coffee machine	[IN:iot_coffee [SL:device_type coffee machine] ]	iot	en-US
+what's the news in politics	[IN:news_query [SL:news_topic politics] ]	news	en-US
+show me the time	[IN:datetime_query ]	datetime	en-US
+play music from the jazz genre	[IN:play_music [SL:music_genre jazz] ]	play	en-US
+what is the date of next saturday	[IN:datetime_query [SL:date saturday] ]	datetime	en-US
+did the yankees win last night	[IN:news_query [SL:date last night] ]	news	en-US
+mute sound from speakers	[IN:audio_volume_mute ]	audio	en-US
+brighten lights in living room	[IN:iot_hue_lightup [SL:house_place living room] ]	iot	en-US
+brew some coffee	[IN:iot_coffee ]	iot	en-US
+change light colors from blue to white	[IN:iot_hue_lightchange [SL:color_type blue] [SL:color_type white] ]	iot	en-US
+make the lights in the house red	[IN:iot_hue_lightchange [SL:house_place house] [SL:color_type red] ]	iot	en-US
+what day does april sixteenth fall on	[IN:datetime_query [SL:date april sixteenth] ]	datetime	en-US
+please have vacuum go for one hour	[IN:iot_cleaning [SL:device_type vacuum] [SL:time one hour] ]	iot	en-US
+tell me the date today	[IN:datetime_query [SL:date today] ]	datetime	en-US
+set the living room lights to red	[IN:iot_hue_lightchange [SL:house_place living room] [SL:color_type red] ]	iot	en-US
+how's the restaurant's delivery going	[IN:takeaway_query [SL:business_type restaurant's] [SL:order_type delivery] ]	takeaway	en-US
+listen to this song	[IN:music_query ]	music	en-US
+domino's has takeaway right	[IN:takeaway_query [SL:business_name domino's] [SL:order_type takeaway] ]	takeaway	en-US
+change light color to blue	[IN:iot_hue_lightchange [SL:color_type blue] ]	iot	en-US
+tell me my alarms	[IN:alarm_query ]	alarm	en-US
+please remove any alarms that i have set	[IN:alarm_remove ]	alarm	en-US
+please pull up the article on dog sitting in the morning news	[IN:news_query [SL:news_topic dog] [SL:media_type morning news] ]	news	en-US
+what is the weather here	[IN:weather_query ]	weather	en-US
+order general t'so eggroll to go	[IN:takeaway_order [SL:food_type t'so eggroll] ]	takeaway	en-US
+are there any new videos on the youtube for new york times	[IN:news_query [SL:media_type youtube] [SL:media_type new york times] ]	news	en-US
+next play atmosphere	[IN:play_music [SL:song_name atmosphere] ]	play	en-US
+play my country playlist	[IN:play_music [SL:music_genre country] ]	play	en-US
+play my second playlist	[IN:play_music [SL:playlist_name second playlist] ]	play	en-US
+what's today's date	[IN:datetime_query [SL:date today's] ]	datetime	en-US
+alexa turn off the fan in the master bedroom	[IN:iot_wemo_off [SL:device_type fan] [SL:house_place master bedroom] ]	iot	en-US
+alexa please save the current song to favorites	[IN:music_likeness ]	music	en-US
+i love hip hop	[IN:music_likeness [SL:music_genre hip hop] ]	music	en-US
+please play my favorite song by bruno mars	[IN:play_music [SL:artist_name bruno mars] ]	play	en-US
+please start the coffee	[IN:iot_coffee ]	iot	en-US
+lower lights	[IN:iot_hue_lightdim ]	iot	en-US
+nighttime mode	[IN:iot_hue_lightdim ]	iot	en-US
+trending tech news	[IN:news_query [SL:news_topic tech] ]	news	en-US
+recent tech headlines	[IN:news_query [SL:news_topic tech] ]	news	en-US
+play next song	[IN:play_music ]	play	en-US
+what year was the song created	[IN:music_query ]	music	en-US
+find my food	[IN:takeaway_query ]	takeaway	en-US
+olly accumulation of snow predictions in buffalo	[IN:weather_query [SL:weather_descriptor snow predictions] [SL:place_name buffalo] ]	weather	en-US
+olly trending hot news topics	[IN:news_query [SL:news_topic trending] ]	news	en-US
+next alarm	[IN:alarm_query ]	alarm	en-US
+i am really craving for chinese food right now please let me order take out	[IN:takeaway_order [SL:food_type chinese] ]	takeaway	en-US
+what is new in politics today can you filter out trump news though	[IN:news_query [SL:news_topic politics] [SL:date today] [SL:person trump] ]	news	en-US
+i need two pizzas stat	[IN:takeaway_order [SL:food_type pizzas stat] ]	takeaway	en-US
+turn on a song	[IN:play_music ]	play	en-US
+turn off lighting	[IN:iot_hue_lightoff ]	iot	en-US
+is it sunny what south the temperature	[IN:weather_query [SL:weather_descriptor sunny] [SL:weather_descriptor temperature] ]	weather	en-US
+play me some music	[IN:play_music ]	play	en-US
+what places can i order take-out from near by	[IN:takeaway_order [SL:order_type take-out] ]	takeaway	en-US
+lower your volume please	[IN:audio_volume_down ]	audio	en-US
+what time is my wake up alarm set for	[IN:alarm_query ]	alarm	en-US
+do i have any alarms for tomorrow morning	[IN:alarm_query [SL:date tomorrow] [SL:timeofday morning] ]	alarm	en-US
+remove my early alarms	[IN:alarm_remove ]	alarm	en-US
+play classical chamber music playlist	[IN:play_music [SL:music_genre classical chamber] ]	play	en-US
+make that song play next up	[IN:play_music ]	play	en-US
+what is the name of the lead singer in this band	[IN:music_query ]	music	en-US
+power off on	[IN:iot_wemo_off ]	iot	en-US
+siri play my pop playlist	[IN:play_music [SL:music_genre pop] ]	play	en-US
+tell me if there's any new news on that topic	[IN:news_query ]	news	en-US
+i like jazz you should know	[IN:music_likeness [SL:music_genre jazz] ]	music	en-US
+please check my playlist	[IN:music_likeness ]	music	en-US
+can you set the alarm for one hundred and thirty	[IN:alarm_set [SL:time one hundred and thirty] ]	alarm	en-US
+cancel alarm for tomorrow	[IN:alarm_remove [SL:date tomorrow] ]	alarm	en-US
+what is the current central time	[IN:datetime_query [SL:time_zone central] ]	datetime	en-US
+remove alarms set for tomorrow	[IN:alarm_remove [SL:date tomorrow] ]	alarm	en-US
+olly lower the lights please	[IN:iot_hue_lightdim ]	iot	en-US
+will it rain tomorrow in miami	[IN:weather_query [SL:weather_descriptor rain] [SL:date tomorrow] [SL:place_name miami] ]	weather	en-US
+what time is it in dooa	[IN:datetime_query [SL:place_name dooa] ]	datetime	en-US
+what is the time difference between eastern and pacific	[IN:datetime_convert [SL:time_zone eastern] [SL:time_zone pacific] ]	datetime	en-US
+does the nearby chinese restaurant do delivery	[IN:takeaway_query [SL:food_type chinese] [SL:business_type restaurant] [SL:order_type delivery] ]	takeaway	en-US
+what is the weather in los angeles	[IN:weather_query [SL:place_name los angeles] ]	weather	en-US
+ok google what's the weather like	[IN:weather_query ]	weather	en-US
+decrease lighting	[IN:iot_hue_lightdim ]	iot	en-US
+please turn on my wemo plug socket	[IN:iot_wemo_on [SL:device_type wemo plug socket] ]	iot	en-US
+what will the weather be next week	[IN:weather_query [SL:date next week] ]	weather	en-US
+how to repeat the song	[IN:music_query ]	music	en-US
+what music is it	[IN:music_query ]	music	en-US
+increase lights please	[IN:iot_hue_lightup ]	iot	en-US
+play romantic playlist	[IN:play_music [SL:playlist_name romantic playlist] ]	play	en-US
+what day of the week does the twenty second fall on this month	[IN:datetime_query [SL:date twenty second] [SL:date this month] ]	datetime	en-US
+go to sleep	[IN:audio_volume_mute ]	audio	en-US
+i would like a wake up alarm at seven am tomorrow	[IN:alarm_set [SL:alarm_type wake up] [SL:time seven am] [SL:date tomorrow] ]	alarm	en-US
+please turn on all the outdoor lights	[IN:iot_hue_lighton ]	iot	en-US
+increase volume please	[IN:audio_volume_up ]	audio	en-US
+get current news on government shutdown	[IN:news_query [SL:news_topic government shutdown] ]	news	en-US
+play music by the beatles	[IN:play_music [SL:artist_name beatles] ]	play	en-US
+night time	[IN:general_quirky ]	general	en-US
+get me takeaway food	[IN:takeaway_order [SL:order_type takeaway] ]	takeaway	en-US
+play something romantic	[IN:play_music [SL:music_genre romantic] ]	play	en-US
+will it be nice at the beach on friday	[IN:weather_query [SL:weather_descriptor nice] [SL:place_name beach] [SL:date friday] ]	weather	en-US
+play afi's fourth album	[IN:play_music [SL:artist_name afi's] ]	play	en-US
+please make me a coffee	[IN:iot_coffee ]	iot	en-US
+which day will be rainy in this week	[IN:weather_query [SL:weather_descriptor rainy] [SL:date this week] ]	weather	en-US
+how is the weather in this week	[IN:weather_query [SL:date this week] ]	weather	en-US
+set up an alarm clock at one p. m.	[IN:alarm_set [SL:time one p. m.] ]	alarm	en-US
+what's the latest news about us election	[IN:news_query [SL:news_topic us election] ]	news	en-US
+please make a coffee for me	[IN:iot_coffee ]	iot	en-US
+is today a sunny day	[IN:weather_query [SL:date today] [SL:weather_descriptor sunny] ]	weather	en-US
+what is the weather in sydney now	[IN:weather_query [SL:place_name sydney] ]	weather	en-US
+i want to listen to my playlist will you play it now	[IN:play_music ]	play	en-US
+olly put on be warned by tech nine	[IN:play_music [SL:song_name be warned] [SL:artist_name tech nine] ]	play	en-US
+how hot is it in miami	[IN:weather_query [SL:weather_descriptor hot] [SL:place_name miami] ]	weather	en-US
+what's the current time in orlando floor	[IN:datetime_query [SL:place_name orlando floor] ]	datetime	en-US
+what's the current time in orlando floor	[IN:datetime_query [SL:place_name orlando floor] ]	datetime	en-US
+will it be too cold for a dress on sunday	[IN:weather_query [SL:weather_descriptor cold] [SL:date sunday] ]	weather	en-US
+can i hear some britney spears	[IN:play_music [SL:artist_name britney spears] ]	play	en-US
+this is too bright	[IN:iot_hue_lightdim ]	iot	en-US
+order two large pizzas and pieces of hot wings from dominoes	[IN:takeaway_order [SL:food_type pizzas and pieces of hot wings] [SL:business_name dominoes] ]	takeaway	en-US
+what is the date and time for today	[IN:datetime_query [SL:date today] ]	datetime	en-US
+play my current playlist from top	[IN:play_music ]	play	en-US
+play my most favorite country song	[IN:play_music [SL:music_genre country] ]	play	en-US
+what is the time in zimbabwe right now	[IN:datetime_query [SL:place_name zimbabwe] ]	datetime	en-US
+olly what is the time in zimbabwe right now	[IN:datetime_query [SL:place_name zimbabwe] ]	datetime	en-US
+please play aretha franklin's call me next	[IN:play_music [SL:artist_name aretha franklin's] ]	play	en-US
+let me know the time	[IN:datetime_query ]	datetime	en-US
+what is the latest news on sprint	[IN:news_query [SL:news_topic sprint] ]	news	en-US
+after this play me rebel yell	[IN:play_music [SL:song_name rebel yell] ]	play	en-US
+i want to hear some jazz	[IN:play_music [SL:music_genre jazz] ]	play	en-US
+show me one week weather of mumbai	[IN:weather_query [SL:date one week] [SL:place_name mumbai] ]	weather	en-US
+please turn off the smart plug socket	[IN:iot_wemo_off [SL:device_type smart plug socket] ]	iot	en-US
+turn on the wemo plug socket	[IN:iot_wemo_on [SL:device_type wemo plug socket] ]	iot	en-US
+slow the volume speaker	[IN:audio_volume_down ]	audio	en-US
+turn on the roomba	[IN:iot_cleaning [SL:device_type roomba] ]	iot	en-US
+order me chinese food	[IN:takeaway_order [SL:food_type chinese] ]	takeaway	en-US
+what person produced the song that is on the radio	[IN:music_query ]	music	en-US
+what are the scores for the two ucl games going on right now	[IN:news_query [SL:news_topic two ucl games] ]	news	en-US
+what is the headline from chicago tribune	[IN:news_query [SL:media_type chicago tribune] ]	news	en-US
+what is the weather looking like for the rest of the week	[IN:weather_query [SL:date rest of the week] ]	weather	en-US
+is there going to be any flip flop weather soon	[IN:weather_query [SL:weather_descriptor flip flop weather] ]	weather	en-US
+what is the weather like now	[IN:weather_query ]	weather	en-US
+please increase the light	[IN:iot_hue_lightup ]	iot	en-US
+will there be any snow next week	[IN:weather_query [SL:weather_descriptor snow] [SL:date next week] ]	weather	en-US
+please delete the wednesday evening alarm	[IN:alarm_remove [SL:date wednesday] [SL:timeofday evening] ]	alarm	en-US
+how much snow has maine received as of today	[IN:weather_query [SL:weather_descriptor snow] [SL:place_name maine] [SL:date today] ]	weather	en-US
+save this songs genre for me	[IN:music_likeness ]	music	en-US
+i'd like you to remember that i like this song	[IN:music_likeness ]	music	en-US
+after this song play thriller	[IN:play_music [SL:song_name thriller] ]	play	en-US
+alert me in three hours	[IN:alarm_set [SL:time three hours] ]	alarm	en-US
+indie	[IN:play_music [SL:music_genre indie] ]	play	en-US
+what's the weather right now	[IN:weather_query ]	weather	en-US
+tell me what's happening in european politics	[IN:news_query [SL:news_topic european politics] ]	news	en-US
+i want to know who is at the top of the english premier league at the moment	[IN:news_query [SL:news_topic english premier league] ]	news	en-US
+alexa what is the news in my area	[IN:news_query ]	news	en-US
+time to hear me some blake shelton	[IN:play_music [SL:artist_name blake shelton] ]	play	en-US
+turn on repeat	[IN:music_settings [SL:player_setting repeat] ]	music	en-US
+get the cleaning on	[IN:iot_cleaning ]	iot	en-US
+what's the best day next week to go out for pizza	[IN:datetime_query [SL:date next week] [SL:food_type pizza] ]	datetime	en-US
+what type of weather can i expect today	[IN:weather_query [SL:date today] ]	weather	en-US
+what is the time in new york	[IN:datetime_query [SL:place_name new york] ]	datetime	en-US
+please put on an alarm for eight am	[IN:alarm_set [SL:time eight am] ]	alarm	en-US
+add a lot of james taylor joni mitchell and cat stevens to the playlist	[IN:play_music [SL:artist_name james taylor joni mitchell] [SL:artist_name cat stevens] ]	play	en-US
+can you play me some dance music	[IN:play_music [SL:music_genre dance music] ]	play	en-US
+play songs from playlist	[IN:play_music ]	play	en-US
+what alarms do i have set right now	[IN:alarm_query ]	alarm	en-US
+what will be the temperature today for miami florida	[IN:weather_query [SL:weather_descriptor temperature] [SL:date today] [SL:place_name miami florida] ]	weather	en-US
+load spotify	[IN:play_music [SL:app_name spotify] ]	play	en-US
+hey olly tell me a joke	[IN:general_joke ]	general	en-US
+i want to order some chinese food tonight what's delivering to me	[IN:takeaway_order [SL:food_type chinese] [SL:timeofday tonight] ]	takeaway	en-US
+hey siri chance the current light settings	[IN:iot_hue_lightchange ]	iot	en-US
+i've heard this riff before what song stole this riff it's exactly the same	[IN:music_query ]	music	en-US
+remove the alarm set for four hundred am	[IN:alarm_remove [SL:time four hundred am] ]	alarm	en-US
+will it be over ninety degrees tomorrow	[IN:weather_query [SL:weather_descriptor over ninety] [SL:date tomorrow] ]	weather	en-US
+play my favorite song of last year	[IN:play_music [SL:date last year] ]	play	en-US
+please do not respond	[IN:audio_volume_mute ]	audio	en-US
+can you turn off my desk lamp	[IN:iot_hue_lightoff [SL:device_type desk lamp] ]	iot	en-US
+desk lamp one off	[IN:iot_hue_lightoff [SL:device_type desk lamp one] ]	iot	en-US
+light up	[IN:iot_hue_lightup ]	iot	en-US
+am i going to need to bring an umbrella to work today	[IN:weather_query [SL:weather_descriptor umbrella] [SL:date today] ]	weather	en-US
+can i wear shorts out while shopping today	[IN:weather_query [SL:weather_descriptor shorts] [SL:date today] ]	weather	en-US
+play music by queen	[IN:play_music [SL:artist_name queen] ]	play	en-US
+play the newest album by jay z.	[IN:play_music [SL:artist_name jay z.] ]	play	en-US
+set an alarm for ten o'clock tomorrow morning	[IN:alarm_set [SL:time ten] [SL:date tomorrow] [SL:timeofday morning] ]	alarm	en-US
+wake me up at ten	[IN:alarm_set [SL:time ten] ]	alarm	en-US
+play dynamite by a. c. d. c.	[IN:play_music [SL:song_name dynamite] [SL:artist_name a. c. d. c.] ]	play	en-US
+show me delivery near me	[IN:takeaway_order [SL:order_type delivery] ]	takeaway	en-US
+open the internet	[IN:takeaway_order ]	takeaway	en-US
+let me hear some music	[IN:play_music ]	play	en-US
+i want to hear great music	[IN:play_music ]	play	en-US
+raise the lamp's light	[IN:iot_hue_lightup [SL:device_type lamp's light] ]	iot	en-US
+please turn the volume to the loudest setting	[IN:audio_volume_up [SL:change_amount loudest] ]	audio	en-US
+mute the audio	[IN:audio_volume_mute ]	audio	en-US
+stop the audio	[IN:audio_volume_mute ]	audio	en-US
+will it rain at all this week	[IN:weather_query [SL:weather_descriptor rain] [SL:date this week] ]	weather	en-US
+dim all interior lights	[IN:iot_hue_lightdim [SL:house_place interior] ]	iot	en-US
+will i be able to get away with shorts today	[IN:weather_query [SL:weather_descriptor shorts] [SL:date today] ]	weather	en-US
+should i dress in layers today	[IN:weather_query [SL:weather_descriptor layers] [SL:date today] ]	weather	en-US
+turn my lights to some random color	[IN:iot_hue_lightchange [SL:color_type random] ]	iot	en-US
+give me the newest new york times	[IN:news_query [SL:media_type new york times] ]	news	en-US
+mute the settings	[IN:audio_volume_mute ]	audio	en-US
+is it supposed to snow this week	[IN:weather_query [SL:date this week] ]	weather	en-US
+change the color of the lights	[IN:iot_hue_lightchange ]	iot	en-US
+day on twenty second april	[IN:datetime_query [SL:date twenty second april] ]	datetime	en-US
+how soon can we expect rain	[IN:weather_query [SL:weather_descriptor rain] ]	weather	en-US
+the weather predictions you gave me are for the wrong city i want to know the temperature where i am at	[IN:weather_query ]	weather	en-US
+order a double bacon cheeseburger with bacon an white american cheese	[IN:takeaway_order [SL:food_type bacon cheeseburger] [SL:food_type bacon] [SL:food_type american cheese] ]	takeaway	en-US
+play from smashing pumpkins	[IN:play_music [SL:playlist_name smashing pumpkins] ]	play	en-US
+update on april the giraffe	[IN:news_query [SL:date april] [SL:news_topic giraffe] ]	news	en-US
+what is the weather near me this week	[IN:weather_query [SL:date this week] ]	weather	en-US
+turn up the lights in here please	[IN:iot_hue_lightup ]	iot	en-US
+please turn up the speaker volume	[IN:audio_volume_up ]	audio	en-US
+is the time different in moscow	[IN:datetime_query [SL:place_name moscow] ]	datetime	en-US
+tell me which catering packages are available	[IN:takeaway_query ]	takeaway	en-US
+will the sky be overcast	[IN:weather_query ]	weather	en-US
+check to see if pizza hut has my order on the way	[IN:takeaway_query [SL:business_name pizza hut] ]	takeaway	en-US
+start new smart socket	[IN:iot_wemo_on [SL:device_type smart socket] ]	iot	en-US
+dim the lights to level two	[IN:iot_hue_lightdim ]	iot	en-US
+what is this week's weather forecast	[IN:weather_query [SL:date this week's] ]	weather	en-US
+please turn bedroom lights off	[IN:iot_hue_lightoff [SL:house_place bedroom] ]	iot	en-US
+when is taco bell going to arrive	[IN:takeaway_query [SL:business_name taco bell] ]	takeaway	en-US
+what is the name of this musical group	[IN:music_query ]	music	en-US
+when is trumps next press conference	[IN:news_query [SL:news_topic next press conference] ]	news	en-US
+what are the current stock prices for google	[IN:qa_stock [SL:news_topic stock prices] [SL:business_name google] ]	qa	en-US
+is my golf game going to get rained out	[IN:weather_query [SL:weather_descriptor rained] ]	weather	en-US
+what's the weather in chicago	[IN:weather_query [SL:place_name chicago] ]	weather	en-US
+set an alarm for five am	[IN:alarm_set [SL:time five am] ]	alarm	en-US
+please set an alarm for ten p. m.	[IN:alarm_set [SL:time ten p. m.] ]	alarm	en-US
+what is the weather like tomorrow	[IN:weather_query [SL:date tomorrow] ]	weather	en-US
+is it going to be nice tomorrow	[IN:weather_query [SL:weather_descriptor nice] [SL:date tomorrow] ]	weather	en-US
+what is the forecast in me area today	[IN:weather_query [SL:date today] ]	weather	en-US
+list my different alarm	[IN:alarm_query ]	alarm	en-US
+turn on notification for all news on the stock market	[IN:qa_stock [SL:news_topic stock market] ]	qa	en-US
+notify me of the latest news on the stock market	[IN:qa_stock [SL:news_topic stock market] ]	qa	en-US
+open my music	[IN:play_music ]	play	en-US
+tell me what the latest news is	[IN:news_query ]	news	en-US
+i want a nerd joke	[IN:general_joke [SL:joke_type nerd] ]	general	en-US
+should i wear shorts today	[IN:weather_query [SL:weather_descriptor shorts] [SL:date today] ]	weather	en-US
+can you tell me a nice joke	[IN:general_joke [SL:joke_type nice] ]	general	en-US
+repeat the last song again	[IN:music_settings [SL:player_setting repeat] [SL:music_descriptor the last song] ]	music	en-US
+what day of the week is june twenty seventh on this year	[IN:datetime_query [SL:date june twenty seventh] ]	datetime	en-US
+will i need to be warm	[IN:weather_query [SL:weather_descriptor warm] ]	weather	en-US
+what is it today	[IN:datetime_query [SL:date today] ]	datetime	en-US
+shut off the lights in the bedroom	[IN:iot_hue_lightoff [SL:house_place bedroom] ]	iot	en-US
+convert time zone	[IN:datetime_convert ]	datetime	en-US
+what time is it in another city	[IN:datetime_query [SL:place_name another city] ]	datetime	en-US
+when is sunset	[IN:qa_factoid ]	qa	en-US
+ten day forecast	[IN:weather_query [SL:time ten day] ]	weather	en-US
+can the lights be changed to green	[IN:iot_hue_lightchange [SL:color_type green] ]	iot	en-US
+show me new york times news	[IN:news_query [SL:media_type new york times] ]	news	en-US
+is there any news	[IN:news_query ]	news	en-US
+play uptown girl by billy joel	[IN:play_music [SL:song_name uptown girl] [SL:artist_name billy joel] ]	play	en-US
+set an alarm for five minutes from now	[IN:alarm_set [SL:time five minutes from now] ]	alarm	en-US
+please set my alarm	[IN:alarm_set ]	alarm	en-US
+call pf chang's to order me egg foo young	[IN:takeaway_order [SL:business_name pf chang's] [SL:food_type egg foo young] ]	takeaway	en-US
+what is the current temperature	[IN:weather_query [SL:weather_descriptor temperature] ]	weather	en-US
+tune in some music	[IN:play_music ]	play	en-US
+do you know about this lyrics	[IN:music_query ]	music	en-US
+who sung this	[IN:music_query ]	music	en-US
+open some cools jokes	[IN:general_joke [SL:joke_type cools] ]	general	en-US
+tell me joke	[IN:general_joke ]	general	en-US
+switch the lights to off	[IN:iot_hue_lightoff ]	iot	en-US
+give me updates on the hurricane news	[IN:news_query [SL:news_topic hurricane] ]	news	en-US
+send me the stock market updates for today	[IN:qa_stock [SL:news_topic stock market] [SL:date today] ]	qa	en-US
+what were the winning powerball numbers last night	[IN:news_query [SL:news_topic winning powerball numbers] [SL:date last night] ]	news	en-US
+remove finlee's bedtime alarm	[IN:alarm_remove [SL:person finlee's] ]	alarm	en-US
+please speak quieter to me	[IN:audio_volume_down ]	audio	en-US
+what is the time for the eastern time zone	[IN:datetime_query [SL:time_zone eastern] ]	datetime	en-US
+please tell me the latest news about the election scenario in our state	[IN:news_query [SL:news_topic election scenario] [SL:place_name state] ]	news	en-US
+i like r. & b.	[IN:music_likeness [SL:music_genre r. & b.] ]	music	en-US
+show us red	[IN:iot_hue_lightchange [SL:color_type red] ]	iot	en-US
+is the twenty third of april a saturday	[IN:datetime_query [SL:date the twenty third of april] ]	datetime	en-US
+what is the week today	[IN:datetime_query [SL:date today] ]	datetime	en-US
+what is home town weather	[IN:weather_query [SL:place_name home town] ]	weather	en-US
+run music from this playlist	[IN:play_music ]	play	en-US
+tell me when there is new news from my local news	[IN:news_query ]	news	en-US
+change the opacity of the color	[IN:iot_hue_lightchange ]	iot	en-US
+replace color from light to dark	[IN:iot_hue_lightchange [SL:color_type light] [SL:color_type dark] ]	iot	en-US
+turn wemo on	[IN:iot_wemo_on [SL:device_type wemo] ]	iot	en-US
+set an alarm for six am	[IN:alarm_set [SL:time six am] ]	alarm	en-US
+it's dark in here	[IN:iot_hue_lighton ]	iot	en-US
+olly cancel alarms	[IN:alarm_remove ]	alarm	en-US
+siri cancel yoga alarms	[IN:alarm_remove ]	alarm	en-US
+olly turn the volume up	[IN:audio_volume_up ]	audio	en-US
+google shuffle playlist	[IN:music_settings [SL:player_setting shuffle] ]	music	en-US
+play thinking out loud next	[IN:play_music [SL:song_name thinking out loud] ]	play	en-US
+what will be the weather day after	[IN:weather_query [SL:date day after] ]	weather	en-US
+d. e. a. guam prescription drug abuse on the rise	[IN:news_query [SL:news_topic d. e. a. guam prescription drug abuse on the rise] ]	news	en-US
+could you please tell me what is the weather predication for this week	[IN:weather_query [SL:date this week] ]	weather	en-US
+would you set the coffee maker running	[IN:iot_coffee [SL:device_type coffee maker] ]	iot	en-US
+it's too bright in here can you turn a light off	[IN:iot_hue_lightoff ]	iot	en-US
+what will the weather be like for this week	[IN:weather_query [SL:date this week] ]	weather	en-US
+please add this song to my playlist favorites	[IN:music_likeness ]	music	en-US
+please play this song again	[IN:play_music ]	play	en-US
+is it still going to be windy on thursday	[IN:weather_query [SL:weather_descriptor windy] [SL:date thursday] ]	weather	en-US
+tell a joke	[IN:general_joke ]	general	en-US
+olly give me the news on donald trump	[IN:news_query [SL:person donald trump] ]	news	en-US
+olly is there any current news on the presidential election	[IN:news_query [SL:news_topic the presidential election] ]	news	en-US
+how is weather likely to be in my area today	[IN:weather_query [SL:date today] ]	weather	en-US
+kindly switch off the light in the drawing hall	[IN:iot_hue_lightoff [SL:house_place drawing hall] ]	iot	en-US
+get me the most recent news	[IN:news_query ]	news	en-US
+how many runs did cheteshwar pujara scored yesterday	[IN:news_query [SL:person cheteshwar pujara] [SL:date yesterday] ]	news	en-US
+play my gym playlist	[IN:play_music [SL:playlist_name gym playlist] ]	play	en-US
+please turn the lights off in the bathroom	[IN:iot_hue_lightoff [SL:house_place bathroom] ]	iot	en-US
+olly do i need to wear gloves today	[IN:weather_query [SL:weather_descriptor gloves] [SL:date today] ]	weather	en-US
+is umbrella necessary for my outing	[IN:weather_query [SL:weather_descriptor umbrella] ]	weather	en-US
+start play recently added playlist	[IN:play_music ]	play	en-US
+show current news from b. b. c.	[IN:news_query [SL:media_type b. b. c.] ]	news	en-US
+show b. b. c. news live	[IN:news_query [SL:media_type b. b. c. news] ]	news	en-US
+what's it like outside	[IN:weather_query ]	weather	en-US
+what is the weather like in miami florida today	[IN:weather_query [SL:place_name miami florida] [SL:date today] ]	weather	en-US
+provide me the alarm times you have set	[IN:alarm_query ]	alarm	en-US
+can you give me local news on wayne county sheriffs	[IN:news_query [SL:news_topic wayne county sheriffs] ]	news	en-US
+play from my play list	[IN:play_music ]	play	en-US
+switch to eastern time zone	[IN:datetime_convert [SL:time_zone eastern] ]	datetime	en-US
+when does twenty fourth come in the next week	[IN:datetime_query [SL:date twenty fourth] [SL:date next week] ]	datetime	en-US
+what's new on itunes	[IN:music_query ]	music	en-US
+please show me weather on twenty seventh march two thousand seventeen	[IN:weather_query [SL:date twenty seventh march two thousand seventeen] ]	weather	en-US
+how is the news in ireland	[IN:news_query [SL:place_name ireland] ]	news	en-US
+what is the song playing	[IN:music_query ]	music	en-US
+turn the sound up	[IN:audio_volume_up ]	audio	en-US
+get the roomba to clean the kitchen	[IN:iot_cleaning [SL:device_type roomba] [SL:house_place kitchen] ]	iot	en-US
+please give me detail of o. zaalima song	[IN:music_query [SL:artist_name o. zaalima] ]	music	en-US
+get rid of the five p. m. alarm	[IN:alarm_remove [SL:time five p. m.] ]	alarm	en-US
+run indian folk song	[IN:play_music [SL:music_genre indian folk] ]	play	en-US
+i need jacket after ten am or not	[IN:weather_query [SL:weather_descriptor jacket] [SL:time after ten am] ]	weather	en-US
+i want to read yahoo news	[IN:news_query [SL:media_type yahoo news] ]	news	en-US
+should i bring gloves with me tonight	[IN:weather_query [SL:weather_descriptor gloves] [SL:timeofday tonight] ]	weather	en-US
+do i need a jacket today	[IN:weather_query [SL:weather_descriptor jacket] [SL:date today] ]	weather	en-US
+olly brighten the lights	[IN:iot_hue_lightup ]	iot	en-US
+change the color of lights	[IN:iot_hue_lightchange ]	iot	en-US
+olly activate a different light color	[IN:iot_hue_lightchange ]	iot	en-US
+activate a different light color	[IN:iot_hue_lightchange ]	iot	en-US
+what is the latest poll on the public view of president trump	[IN:news_query [SL:news_topic latest poll on the public view of president trump] ]	news	en-US
+favorite this music	[IN:music_likeness ]	music	en-US
+turn the room light off	[IN:iot_hue_lightoff [SL:house_place room] ]	iot	en-US
+what day is the twenty second of may	[IN:datetime_query [SL:date twenty second of may] ]	datetime	en-US
+set mute until said otherwise	[IN:audio_volume_mute ]	audio	en-US
+please repeat the current song is being played	[IN:music_settings [SL:player_setting repeat] ]	music	en-US
+please let me know the morning alarm time for weekdays	[IN:alarm_query [SL:timeofday morning] [SL:date weekdays] ]	alarm	en-US
+thanks to ally for the photos	[IN:general_quirky ]	general	en-US
+play some old school rap	[IN:play_music [SL:music_genre old school rap] ]	play	en-US
+read me the news for the day	[IN:news_query ]	news	en-US
+did ben and jen get back together	[IN:news_query [SL:person ben] [SL:person jen] ]	news	en-US
+set alarm on twenty fifth may at five p. m.	[IN:alarm_set [SL:date twenty fifth may] [SL:time five p. m.] ]	alarm	en-US
+please turn on my music	[IN:play_music ]	play	en-US
+assistant shuffle entire library	[IN:play_music [SL:player_setting shuffle] [SL:music_descriptor entire library] ]	play	en-US
+closest chipotle	[IN:takeaway_order [SL:business_name chipotle] ]	takeaway	en-US
+shuffle and play blue playlist	[IN:play_music [SL:player_setting shuffle] [SL:playlist_name blue playlist] ]	play	en-US
+report alarm settings	[IN:alarm_query ]	alarm	en-US
+temperature now	[IN:weather_query [SL:weather_descriptor temperature] ]	weather	en-US
+shuffle and play all songs by gavenda artist	[IN:play_music [SL:player_setting shuffle] [SL:music_descriptor all] [SL:artist_name gavenda] ]	play	en-US
+will i need sunblock this weekend	[IN:weather_query [SL:weather_descriptor sunblock] [SL:date this weekend] ]	weather	en-US
+should i pick up some defrosting salt at the store	[IN:weather_query [SL:food_type defrosting salt] [SL:business_type store] ]	weather	en-US
+turn wemo plug socket on	[IN:iot_wemo_on [SL:device_type wemo plug socket] ]	iot	en-US
+toggle wemo plug socket on	[IN:iot_wemo_on [SL:device_type wemo plug socket] ]	iot	en-US
+just let me know the current date today	[IN:datetime_query [SL:date today] ]	datetime	en-US
+the weather updated to the using seconds per bit weatherit either updates forecasts from intellicast or weathercom both rather poor for my site	[IN:weather_query ]	weather	en-US
+tap start and then select settings	[IN:alarm_query ]	alarm	en-US
+what time is it in tokyo japan	[IN:datetime_query [SL:place_name tokyo japan] ]	datetime	en-US
+play party songs	[IN:play_music [SL:music_descriptor party songs] ]	play	en-US
+ricky matin	[IN:play_music [SL:artist_name ricky matin] ]	play	en-US
+start house cleaning	[IN:iot_cleaning [SL:house_place house cleaning] ]	iot	en-US
+should i wear a jacket to work	[IN:weather_query [SL:weather_descriptor jacket] ]	weather	en-US
+can you speak louder	[IN:audio_volume_up ]	audio	en-US
+every light of room increase its intensity	[IN:iot_hue_lightup [SL:device_type every light] [SL:house_place room] ]	iot	en-US
+please play me the madonna song again	[IN:play_music [SL:artist_name madonna] ]	play	en-US
+orevena voice recorder let me the system page is where to save songs	[IN:play_music ]	play	en-US
+climate	[IN:weather_query [SL:weather_descriptor climate] ]	weather	en-US
+what day does my birthday fall on next year	[IN:datetime_query [SL:event_name my birthday] [SL:date next year] ]	datetime	en-US
+what day of the week is twelfth	[IN:datetime_query [SL:date twelfth] ]	datetime	en-US
+audio on	[IN:audio_volume_up ]	audio	en-US
+play artist	[IN:play_music ]	play	en-US
+does restaurant royale deliver takeaway	[IN:takeaway_query [SL:business_type restaurant] [SL:business_name royale] [SL:order_type takeaway] ]	takeaway	en-US
+will there be fog after sunset	[IN:weather_query [SL:weather_descriptor fog] [SL:time after sunset] ]	weather	en-US
+its cold outside	[IN:weather_query [SL:weather_descriptor cold] ]	weather	en-US
+alarm clock	[IN:datetime_query ]	datetime	en-US
+set an alarm for five o'clock this evening labeled taxi	[IN:alarm_set [SL:time five] [SL:timeofday evening] [SL:event_name taxi] ]	alarm	en-US
+weather in home town	[IN:weather_query [SL:place_name home town] ]	weather	en-US
+play fourth song of the same album after this song	[IN:play_music ]	play	en-US
+alexa put classic rock on	[IN:play_music [SL:music_genre classic rock] ]	play	en-US
+activate robot vacuum	[IN:iot_cleaning [SL:device_type robot vacuum] ]	iot	en-US
+is this the hottest day in mangalore	[IN:weather_query [SL:place_name mangalore] ]	weather	en-US
+tell me about the alarm timings	[IN:alarm_query ]	alarm	en-US
+meaning of a particular word	[IN:general_quirky ]	general	en-US
+to listen music	[IN:play_music ]	play	en-US
+i am need of an evening rain coat	[IN:weather_query [SL:weather_descriptor evening rain coat] ]	weather	en-US
+international trade and business market	[IN:news_query [SL:news_topic international trade and business market] ]	news	en-US
+can you please be muted for a while	[IN:audio_volume_mute ]	audio	en-US
+i want to order food	[IN:takeaway_order ]	takeaway	en-US
+at what time have you set alarm for me	[IN:alarm_query ]	alarm	en-US
+i would like some coffee now	[IN:iot_coffee ]	iot	en-US
+prepare my morning coffee	[IN:iot_coffee [SL:coffee_type morning] ]	iot	en-US
+it's coffee time	[IN:iot_coffee ]	iot	en-US
+is my order at domino's ready	[IN:takeaway_query [SL:business_name domino's] ]	takeaway	en-US
+when can i pick up my chinese food	[IN:takeaway_query [SL:food_type chinese] ]	takeaway	en-US
+open clock	[IN:alarm_set ]	alarm	en-US
+next play selected song	[IN:play_music ]	play	en-US
+alexa increase the brightness of the light it is hard to see down here	[IN:iot_hue_lightup ]	iot	en-US
+is my order ready for pick up now	[IN:takeaway_query ]	takeaway	en-US
+alarm	[IN:alarm_set ]	alarm	en-US
+do i need to take an umbrella with me this afternoon	[IN:weather_query [SL:weather_descriptor umbrella] [SL:timeofday this afternoon] ]	weather	en-US
+play song by daddy yankee	[IN:play_music [SL:artist_name daddy yankee] ]	play	en-US
+hey is it going to rain today in brooklyn new york	[IN:weather_query [SL:weather_descriptor rain] [SL:date today] [SL:place_name brooklyn new york] ]	weather	en-US
+hey olly how is the weather in long island new york	[IN:weather_query [SL:place_name long island new york] ]	weather	en-US
+play michael buble save the last dance	[IN:play_music [SL:artist_name michael buble] [SL:song_name save the last dance] ]	play	en-US
+hey olly order two wings with french fries from the chinese food store	[IN:takeaway_order [SL:food_type wings with french fries] [SL:business_name chinese food store] ]	takeaway	en-US
+hey olly order a pizza pie with extra cheese	[IN:takeaway_order [SL:food_type pizza pie with extra cheese] ]	takeaway	en-US
+hey olly what time is it in orlando florida	[IN:datetime_query [SL:place_name orlando florida] ]	datetime	en-US
+play anything in my recent playlist	[IN:play_music [SL:music_descriptor anything] ]	play	en-US
+olly play anything in my recent playlist	[IN:play_music [SL:music_descriptor anything] ]	play	en-US
+give me information on the song that's playing	[IN:music_query ]	music	en-US
+be funny for me	[IN:general_joke ]	general	en-US
+olly should i wear my gloves or not	[IN:weather_query [SL:weather_descriptor gloves] ]	weather	en-US
+tell me the weather for the following month	[IN:weather_query [SL:time the following month] ]	weather	en-US
+turn on the vacuum	[IN:iot_cleaning [SL:device_type vacuum] ]	iot	en-US
+should i wear layers sometime today	[IN:weather_query [SL:date today] ]	weather	en-US
+check on this week's weather report	[IN:weather_query [SL:date this week's] ]	weather	en-US
+show me the one week forecast	[IN:weather_query [SL:time one week] ]	weather	en-US
+can i get delivery from here	[IN:takeaway_query [SL:order_type delivery] ]	takeaway	en-US
+tube was super busy today	[IN:general_quirky [SL:date today] ]	general	en-US
+tell me about my day	[IN:general_quirky ]	general	en-US
+dolores do you notice something odd about your world	[IN:general_quirky ]	general	en-US
+do you want to hear what have happened today	[IN:general_quirky [SL:date today] ]	general	en-US
+how you know me	[IN:general_quirky ]	general	en-US
+it would be great to dinner in this new opened restaurant downtown	[IN:general_quirky [SL:business_type restaurant] [SL:place_name downtown] ]	general	en-US
+olly how's it hangin	[IN:general_quirky ]	general	en-US
+today i got rewards olly	[IN:general_quirky [SL:date today] ]	general	en-US
+i had a lot of meetings today	[IN:general_quirky [SL:event_name meetings] [SL:date today] ]	general	en-US
+where are you from	[IN:general_quirky ]	general	en-US
+the weather is sunny today	[IN:general_quirky [SL:date today] ]	general	en-US
+hey google i hit a million dollar lottery jackpot	[IN:general_quirky ]	general	en-US
+tell me important news today	[IN:news_query [SL:date today] ]	news	en-US
+how is the day today	[IN:general_quirky [SL:date today] ]	general	en-US
+wakey wakey eggs and bakey	[IN:general_quirky ]	general	en-US
+what's been going on	[IN:general_quirky ]	general	en-US
+anything interesting in the news today	[IN:news_query [SL:date today] ]	news	en-US
+i got invited to the pub on saturday	[IN:general_quirky [SL:place_name pub] [SL:date saturday] ]	general	en-US
+tell me a good alcoholic drink	[IN:general_quirky [SL:drink_type alcoholic drink] ]	general	en-US
+tell me something about america	[IN:general_quirky [SL:place_name america] ]	general	en-US
+sports	[IN:general_quirky ]	general	en-US
+hey what are some good movies coming out soon	[IN:general_quirky ]	general	en-US
+what do you do with my personal data	[IN:general_quirky ]	general	en-US
+when i want it to take down notes	[IN:general_quirky ]	general	en-US
+my weekly plan	[IN:calendar_query ]	calendar	en-US
+trivia	[IN:general_quirky ]	general	en-US
+wikipedia topics	[IN:general_quirky ]	general	en-US
+what's up	[IN:general_quirky ]	general	en-US
+breeds of dog that are most hypoallergenic	[IN:general_quirky ]	general	en-US
+olly i got into a wreck today	[IN:general_quirky [SL:date today] ]	general	en-US
+i went to walmart today	[IN:general_quirky [SL:place_name walmart] [SL:date today] ]	general	en-US
+sarcastic jokes	[IN:general_joke [SL:joke_type sarcastic] ]	general	en-US
+entertainment news	[IN:news_query [SL:news_topic entertainment] ]	news	en-US
+mobile	[IN:general_quirky ]	general	en-US
+i got drenched in the rain	[IN:general_quirky ]	general	en-US
+fashion	[IN:general_quirky ]	general	en-US
+schedule	[IN:calendar_query ]	calendar	en-US
+get me answers	[IN:general_quirky ]	general	en-US
+today needs to be marked as my cheat day	[IN:calendar_set [SL:date today] [SL:event_name my cheat day] ]	calendar	en-US
+today was a tiring day	[IN:general_quirky [SL:date today] ]	general	en-US
+do you like my girlfriend	[IN:general_quirky [SL:relation girlfriend] ]	general	en-US
+tell me about rihana	[IN:general_quirky [SL:artist_name rihana] ]	general	en-US
+what's happening in ny	[IN:recommendation_events [SL:place_name ny] ]	recommendation	en-US
+what i did at this time	[IN:general_quirky [SL:time this time] ]	general	en-US
+how was your day	[IN:general_quirky ]	general	en-US
+the cosmos	[IN:general_quirky ]	general	en-US
+heating levels at what times in the apt	[IN:general_quirky [SL:place_name the apt] ]	general	en-US
+jokes	[IN:general_joke ]	general	en-US
+cooking	[IN:cooking_query ]	cooking	en-US
+forecast rates	[IN:general_quirky ]	general	en-US
+cars	[IN:general_quirky ]	general	en-US
+very hectic	[IN:general_quirky ]	general	en-US
+recent advice concerning google seo	[IN:general_quirky ]	general	en-US
+joke of the day	[IN:general_joke ]	general	en-US
+ingredients needed at grocery store	[IN:general_quirky [SL:business_type grocery store] ]	general	en-US
+how's it going	[IN:general_quirky ]	general	en-US
+if you could talk about three things what would they be	[IN:general_quirky ]	general	en-US
+space research	[IN:general_quirky ]	general	en-US
+books	[IN:general_quirky ]	general	en-US
+gossiping about celebrities	[IN:general_quirky ]	general	en-US
+olly what's my agenda for the remainder of the week	[IN:calendar_query [SL:time remainder of the week] ]	calendar	en-US
+clear my day from meetings	[IN:calendar_remove [SL:time day] [SL:event_name meetings] ]	calendar	en-US
+please put to my calendar daily stand-up to ten am	[IN:calendar_set [SL:general_frequency daily] [SL:event_name stand-up] [SL:time ten am] ]	calendar	en-US
+when is my next meeting	[IN:calendar_query [SL:event_name meeting] ]	calendar	en-US
+cancel my five p. m. daily call	[IN:calendar_remove [SL:time five p. m.] [SL:general_frequency daily] [SL:event_name call] ]	calendar	en-US
+book a meeting with chelsea	[IN:calendar_set [SL:event_name meeting] [SL:person chelsea] ]	calendar	en-US
+when is it	[IN:general_quirky ]	general	en-US
+do i have any events today	[IN:calendar_query [SL:date today] ]	calendar	en-US
+do i have anything booked for tomorrow	[IN:calendar_query [SL:date tomorrow] ]	calendar	en-US
+tell me about my events	[IN:calendar_query ]	calendar	en-US
+remove all the events on my calendar	[IN:calendar_remove ]	calendar	en-US
+olly remind me about the picnic at regent park	[IN:calendar_set [SL:event_name picnic] [SL:place_name regent park] ]	calendar	en-US
+olly i want to go to the outdoor movie screening this weekend remind me	[IN:calendar_set [SL:event_name outdoor movie] [SL:time weekend] ]	calendar	en-US
+have you added a meeting with tom tomorrow at nine p. m.	[IN:calendar_query [SL:event_name meeting] [SL:person tom] [SL:date tomorrow] [SL:time nine p. m.] ]	calendar	en-US
+delete all events for the next five days	[IN:calendar_remove [SL:date next five days] ]	calendar	en-US
+do i have any meetings tomorrow at nine p. m.	[IN:calendar_query [SL:event_name meetings] [SL:date tomorrow] [SL:time nine p. m.] ]	calendar	en-US
+set up the following event in the calendar with the following people	[IN:calendar_set ]	calendar	en-US
+can you erase the past event i visited	[IN:calendar_remove ]	calendar	en-US
+do i have any upcoming events in my calendar	[IN:calendar_query ]	calendar	en-US
+when is the next appointment on my calendar	[IN:calendar_query [SL:event_name appointment] ]	calendar	en-US
+delete the birthday party tomorrow at two p. m.	[IN:calendar_remove [SL:event_name birthday party] [SL:date tomorrow] [SL:time two p. m.] ]	calendar	en-US
+can you delete all events from my calendar	[IN:calendar_remove ]	calendar	en-US
+it's very tough one	[IN:general_quirky ]	general	en-US
+i need a reminder every single day at nine am	[IN:calendar_set [SL:general_frequency every single day] [SL:time nine am] ]	calendar	en-US
+who should i expect to be at the meeting today	[IN:calendar_query [SL:event_name meeting] [SL:date today] ]	calendar	en-US
+put monday meeting on calendar every monday	[IN:calendar_set [SL:event_name monday meeting] [SL:general_frequency every monday] ]	calendar	en-US
+set a notification for sixth march that there is a society meeting at eleven am	[IN:calendar_set [SL:date sixth march] [SL:event_name society meeting] [SL:time eleven am] ]	calendar	en-US
+is there any program for tomorrow evening	[IN:calendar_query [SL:date tomorrow] [SL:timeofday evening] ]	calendar	en-US
+delete all events and information	[IN:calendar_remove ]	calendar	en-US
+remove all the events and schedules	[IN:calendar_remove ]	calendar	en-US
+what is my event schedule tomorrow	[IN:calendar_query [SL:date tomorrow] ]	calendar	en-US
+remind me about tomorrow meeting at ten am	[IN:calendar_set [SL:date tomorrow] [SL:event_name meeting] [SL:time ten am] ]	calendar	en-US
+how many meetings do i have this week	[IN:calendar_query [SL:event_name meetings] [SL:date this week] ]	calendar	en-US
+wipe calendar clean	[IN:calendar_remove ]	calendar	en-US
+please remind me one hour before the meeting i have tomorrow morning	[IN:calendar_set [SL:time one hour] [SL:event_name meeting] [SL:date tomorrow] [SL:timeofday morning] ]	calendar	en-US
+what is my afternoon schedule tomorrow	[IN:calendar_query [SL:timeofday afternoon] [SL:date tomorrow] ]	calendar	en-US
+upcoming events	[IN:calendar_query ]	calendar	en-US
+latest events	[IN:calendar_query ]	calendar	en-US
+set an appointment for allen on tomorrow	[IN:calendar_set [SL:event_name appointment] [SL:person allen] [SL:date tomorrow] ]	calendar	en-US
+are there any upcoming events on my calendar	[IN:calendar_query ]	calendar	en-US
+set a reminder for vacation next month	[IN:calendar_set [SL:event_name vacation] [SL:date next month] ]	calendar	en-US
+clear calendar for this month	[IN:calendar_remove [SL:date this month] ]	calendar	en-US
+set an alarm for two hours from now please	[IN:alarm_set [SL:time two hours from now] ]	alarm	en-US
+do i have anything going on this saturday between two and four p. m.	[IN:calendar_query [SL:date saturday] [SL:time two] [SL:time four p. m.] ]	calendar	en-US
+please delete all of my calendar events for the rest of the day	[IN:calendar_remove [SL:time rest of the day] ]	calendar	en-US
+what events are in my calendar for today	[IN:calendar_query [SL:date today] ]	calendar	en-US
+what are my calendar event	[IN:calendar_query ]	calendar	en-US
+do i have any reminders today	[IN:calendar_query [SL:date today] ]	calendar	en-US
+remove today's meeting at evening	[IN:calendar_remove [SL:date today's] [SL:event_name meeting] [SL:timeofday evening] ]	calendar	en-US
+let me know the morning of my doctor appointment on the twelfth	[IN:calendar_set [SL:timeofday morning] [SL:event_name doctor appointment] [SL:date twelfth] ]	calendar	en-US
+make a calendar entry for brunch on saturday morning with chris kimberly and aaronson	[IN:calendar_set [SL:event_name brunch] [SL:date saturday] [SL:timeofday morning] [SL:person chris kimberly] [SL:person aaronson] ]	calendar	en-US
+remember me to meet reveca today at six p. m.	[IN:calendar_set [SL:event_name meet] [SL:person reveca] [SL:date today] [SL:time six p. m.] ]	calendar	en-US
+when is that meeting with my boss next week	[IN:calendar_query [SL:event_name meeting] [SL:relation boss] [SL:date next week] ]	calendar	en-US
+delete the wedding on the tenth from my calendar	[IN:calendar_remove [SL:event_name wedding] [SL:date tenth] ]	calendar	en-US
+what to do next on events	[IN:calendar_query ]	calendar	en-US
+i have an appointment tomorrow remind me	[IN:calendar_set [SL:event_name appointment] [SL:date tomorrow] ]	calendar	en-US
+four p. m.	[IN:calendar_set [SL:time four p. m.] ]	calendar	en-US
+olly i'll be seeing my therapist every thursday at two p. m.	[IN:calendar_set [SL:relation therapist] [SL:general_frequency every thursday] [SL:time two p. m.] ]	calendar	en-US
+cancel	[IN:calendar_remove ]	calendar	en-US
+i want to go to sally's birthday on saturday at ten p. m.	[IN:calendar_set [SL:person sally's] [SL:event_name birthday] [SL:date saturday] [SL:time ten p. m.] ]	calendar	en-US
+what do i have going on next week	[IN:calendar_query [SL:date next week] ]	calendar	en-US
+tell me the date of inauguration of my friend sams business	[IN:calendar_query [SL:event_name inauguration] [SL:relation friend] [SL:person sams] ]	calendar	en-US
+please mark my calendar for a holiday in cuba on april two	[IN:calendar_set [SL:event_name holiday] [SL:place_name cuba] [SL:date april two] ]	calendar	en-US
+remind to at eight p. m. to take my medicine	[IN:calendar_set [SL:time eight p. m.] [SL:event_name medicine] ]	calendar	en-US
+when will the match start	[IN:calendar_query [SL:event_name match] ]	calendar	en-US
+what do i have scheduled for tomorrow i need to cancel	[IN:calendar_remove [SL:date tomorrow] ]	calendar	en-US
+set reminder for meeting at three p. m. tomorrow	[IN:calendar_set [SL:event_name meeting] [SL:time three p. m.] [SL:date tomorrow] ]	calendar	en-US
+remind me to pick up the laundry next monday	[IN:calendar_set [SL:event_name pick up the laundry] [SL:date monday] ]	calendar	en-US
+set a reminder that i have to visit my father tomorrow	[IN:calendar_set [SL:relation father] [SL:date tomorrow] ]	calendar	en-US
+add to the calendar a reunion event for this afternoon	[IN:calendar_set [SL:event_name reunion] [SL:timeofday this afternoon] ]	calendar	en-US
+what is my first appointment today	[IN:calendar_query [SL:event_name appointment] [SL:date today] ]	calendar	en-US
+what's on my schedule for today	[IN:calendar_query [SL:date today] ]	calendar	en-US
+remind me to meet joe for lunch tomorrow	[IN:calendar_set [SL:person joe] [SL:meal_type lunch] [SL:date tomorrow] ]	calendar	en-US
+can you set the location to my sisters house for this event	[IN:calendar_set [SL:relation sisters] [SL:place_name house] ]	calendar	en-US
+do remove next event from the calendar	[IN:calendar_remove ]	calendar	en-US
+add bola birthday of twelveth july to my calendar	[IN:calendar_set [SL:person bola] [SL:event_name birthday] [SL:date twelveth july] ]	calendar	en-US
+in the calendar put that we are having dinner with frank at eight p. m. on the ninth of august	[IN:calendar_set [SL:meal_type dinner] ]	calendar	en-US
+what are the list of events in my calendar in march	[IN:calendar_query [SL:date march] ]	calendar	en-US
+when is the wedding scheduled	[IN:calendar_query [SL:event_name wedding] ]	calendar	en-US
+what meetings are available in march	[IN:calendar_query [SL:event_name meetings] [SL:date march] ]	calendar	en-US
+please check third event of twenty second of march twenty seventeen	[IN:calendar_query [SL:date twenty second of march twenty seventeen] ]	calendar	en-US
+add valentine's day with her tomorrow	[IN:calendar_set [SL:event_name valentine's day] [SL:date tomorrow] ]	calendar	en-US
+add birthday with mom for next month	[IN:calendar_set [SL:event_name birthday] [SL:relation mom] [SL:date next month] ]	calendar	en-US
+create a meeting with friend	[IN:calendar_set [SL:event_name meeting] [SL:relation friend] ]	calendar	en-US
+attend party before the meeting	[IN:calendar_set [SL:event_name party] ]	calendar	en-US
+please create an event with only these people	[IN:calendar_set ]	calendar	en-US
+remember to pick me up by twelve noon from the airport i have a three p. m. meeting	[IN:calendar_set [SL:event_name pick me up] [SL:time twelve noon] [SL:place_name airport] [SL:time three p. m.] [SL:event_name meeting] ]	calendar	en-US
+set meeting with jack on ten march	[IN:calendar_set [SL:event_name meeting] [SL:person jack] [SL:date ten march] ]	calendar	en-US
+remember to fix a meeting between me and the players tomorrow evening by seven	[IN:calendar_set [SL:event_name meeting] [SL:person players] [SL:date tomorrow] [SL:timeofday evening] [SL:time seven] ]	calendar	en-US
+what are my current alerts	[IN:calendar_query ]	calendar	en-US
+remind me for tomorrow interview	[IN:calendar_set [SL:date tomorrow] [SL:event_name interview] ]	calendar	en-US
+up coming events	[IN:calendar_query [SL:time up coming] ]	calendar	en-US
+set event on recurring	[IN:calendar_set ]	calendar	en-US
+schedule a meeting on tuesday	[IN:calendar_set [SL:event_name meeting] [SL:date tuesday] ]	calendar	en-US
+what we got in that meeting which held yesterday	[IN:calendar_query [SL:event_name meeting] [SL:date yesterday] ]	calendar	en-US
+please add my next meeting	[IN:calendar_set [SL:event_name meeting] ]	calendar	en-US
+set reminder for tomorrow for this item	[IN:calendar_set [SL:date tomorrow] ]	calendar	en-US
+call person a for meeting	[IN:calendar_set [SL:event_name meeting] ]	calendar	en-US
+when is the bill cycle	[IN:calendar_query [SL:event_name bill cycle] ]	calendar	en-US
+set a timer for five minutes for cookies	[IN:calendar_set [SL:time five minutes] [SL:event_name cookies] ]	calendar	en-US
+when does the hockey game start on friday	[IN:calendar_query [SL:event_name hockey game] [SL:date friday] ]	calendar	en-US
+please delete all my calendar events	[IN:calendar_remove ]	calendar	en-US
+remind me to make a pizza tomorrow morning	[IN:calendar_set [SL:event_name make a pizza] [SL:date tomorrow] [SL:timeofday morning] ]	calendar	en-US
+set twelve noon prayer for every friday	[IN:calendar_set [SL:time twelve noon] [SL:event_name prayer] [SL:general_frequency every friday] ]	calendar	en-US
+do i have any pending reminder	[IN:calendar_query ]	calendar	en-US
+don't forget to remind me of my brother's birthday on april twenty	[IN:calendar_set [SL:relation brother's] [SL:event_name birthday] [SL:date april twenty] ]	calendar	en-US
+i want to add a lunch date with mike jim and bob	[IN:calendar_set [SL:meal_type lunch] [SL:person mike jim] [SL:person bob] ]	calendar	en-US
+remind me the upcoming meeting at four am today	[IN:calendar_set [SL:event_name meeting] [SL:time four am] [SL:date today] ]	calendar	en-US
+list out the upcoming meeting	[IN:calendar_set [SL:event_name meeting] ]	calendar	en-US
+find and delete all of my weekend events with evan parker	[IN:calendar_remove [SL:time weekend] [SL:person evan parker] ]	calendar	en-US
+note this event to my calendar	[IN:calendar_set ]	calendar	en-US
+do i have any reminders pending	[IN:calendar_query ]	calendar	en-US
+be sure to remind me of this	[IN:calendar_set ]	calendar	en-US
+hey olly please set a reminder for tomorrow morning ten am meeting	[IN:calendar_set [SL:date tomorrow] [SL:timeofday morning] [SL:time ten am] [SL:event_name meeting] ]	calendar	en-US
+please tell me the pending reminders	[IN:calendar_query ]	calendar	en-US
+tell me about the meeting i have this week	[IN:calendar_query [SL:event_name meeting] [SL:date this week] ]	calendar	en-US
+i have a birthday on monday set the event	[IN:calendar_set [SL:event_name birthday] [SL:date monday] ]	calendar	en-US
+i have a flight to take on the fifteenth	[IN:calendar_set [SL:date fifteenth] ]	calendar	en-US
+set a event for the evening	[IN:calendar_set [SL:timeofday evening] ]	calendar	en-US
+set bob's birthday for every june third	[IN:calendar_set [SL:person bob's] [SL:event_name birthday] [SL:date every june third] ]	calendar	en-US
+remind me to go to the store every friday	[IN:calendar_set [SL:date every friday] ]	calendar	en-US
+delete grocery shopping from my saturday schedule	[IN:calendar_remove [SL:date saturday] ]	calendar	en-US
+remove all data from my calendar	[IN:calendar_remove ]	calendar	en-US
+what do i have to do on monday	[IN:calendar_query [SL:date monday] ]	calendar	en-US
+repeat an event in my calendar	[IN:calendar_set ]	calendar	en-US
+are there ways to go ahead and clear my calendar for the month	[IN:calendar_remove [SL:date the month] ]	calendar	en-US
+add my practice at king's park on feb four at two p. m.	[IN:calendar_set [SL:place_name king's park] [SL:date feb four] [SL:time two p. m.] ]	calendar	en-US
+please remind me about swatishs birthday	[IN:calendar_set [SL:person swatishs] [SL:event_name birthday] ]	calendar	en-US
+what does today's schedule look like	[IN:calendar_query [SL:date today's] ]	calendar	en-US
+add a note to attend	[IN:calendar_set ]	calendar	en-US
+make a repeating reminder for my work tasks every day at eight am	[IN:calendar_set [SL:general_frequency every day] [SL:time eight am] ]	calendar	en-US
+clear my schedule	[IN:calendar_remove ]	calendar	en-US
+do i have anywhere to be between eight am and five p. m. today	[IN:calendar_query [SL:time eight am] [SL:time five p. m.] [SL:date today] ]	calendar	en-US
+what reminders are coming up this week	[IN:calendar_query [SL:date this week] ]	calendar	en-US
+add event baseball practice five p. m. tonight	[IN:calendar_set [SL:event_name baseball practice] [SL:time five p. m.] [SL:timeofday tonight] ]	calendar	en-US
+what does my morning look like tomorrow	[IN:calendar_query [SL:timeofday morning] [SL:date tomorrow] ]	calendar	en-US
+who will be attending the meeting this friday	[IN:calendar_query [SL:event_name meeting] [SL:date this friday] ]	calendar	en-US
+what happened between the second and the fifteenth	[IN:news_query [SL:date the second] [SL:date the fifteenth] ]	news	en-US
+tell me all the events between today and the twenty first	[IN:calendar_query [SL:date today] [SL:date twenty first] ]	calendar	en-US
+please give me an update on the election every thirty minutes	[IN:calendar_set [SL:event_name election] [SL:time thirty minutes] ]	calendar	en-US
+do i have any appointments today	[IN:calendar_query [SL:event_name appointments] [SL:date today] ]	calendar	en-US
+open calendar remove all events	[IN:calendar_remove ]	calendar	en-US
+remind me about my biology test at fsu on friday	[IN:calendar_set [SL:event_name biology test] [SL:place_name fsu] [SL:date friday] ]	calendar	en-US
+what is on november twenty	[IN:calendar_query [SL:date november twenty] ]	calendar	en-US
+what is the schedule of the next maggie rogers concert	[IN:calendar_query [SL:event_name maggie rogers concert] ]	calendar	en-US
+what do i need to know about the show	[IN:calendar_query ]	calendar	en-US
+who and why is on at the theater tonight	[IN:recommendation_events [SL:place_name theater] [SL:timeofday tonight] ]	recommendation	en-US
+are there any reminders set for today	[IN:calendar_query [SL:date today] ]	calendar	en-US
+please remove the parent teacher conference scheduled on march seven	[IN:calendar_remove [SL:event_name parent teacher conference] [SL:date march seven] ]	calendar	en-US
+do i have a meeting for today in my calendar	[IN:calendar_query [SL:event_name meeting] [SL:date today] ]	calendar	en-US
+please set a reminder for me to go to work in ten minutes	[IN:calendar_set [SL:event_name go to work] [SL:time ten minutes] ]	calendar	en-US
+how many meetings do i have next week	[IN:calendar_query [SL:date next week] ]	calendar	en-US
+on february fourteenth make dinner reservations at the restaurant	[IN:calendar_set [SL:date february fourteenth] [SL:meal_type dinner] [SL:business_type restaurant] ]	calendar	en-US
+what is happening this weekend	[IN:calendar_query [SL:date this weekend] ]	calendar	en-US
+is this week trash pickup week	[IN:calendar_query [SL:date this week] ]	calendar	en-US
+what time does the dinner party start tonight	[IN:calendar_query [SL:event_name dinner party] [SL:timeofday tonight] ]	calendar	en-US
+when is my next reminder	[IN:calendar_query ]	calendar	en-US
+tell me all known details about the tournament on march twenty two	[IN:calendar_query [SL:event_name tournament] [SL:date march twenty two] ]	calendar	en-US
+schedule lunch at tomo in arcata california tomorrow at noon	[IN:calendar_set [SL:meal_type lunch] [SL:place_name tomo in arcata california] [SL:date tomorrow] [SL:timeofday noon] ]	calendar	en-US
+do i have a date friday	[IN:calendar_query [SL:date friday] ]	calendar	en-US
+send me a reminder to pick up my dog from the groomer at one p. m.	[IN:calendar_set [SL:event_name pick up my dog] [SL:place_name groomer] [SL:time one p. m.] ]	calendar	en-US
+when is my meeting	[IN:calendar_set [SL:event_name meeting] ]	calendar	en-US
+olly email my appointments to reschedule	[IN:email_sendemail [SL:event_name appointments] ]	email	en-US
+alter lunch event to repeat every friday	[IN:calendar_set [SL:meal_type lunch] [SL:date every friday] ]	calendar	en-US
+meeting update my calendar to reflect meeting	[IN:calendar_set [SL:event_name reflect meeting] ]	calendar	en-US
+when are the trains running tomorrow	[IN:calendar_query [SL:date tomorrow] ]	calendar	en-US
+set a remainder at three p. m. to pick jo	[IN:calendar_set [SL:time three p. m.] [SL:person jo] ]	calendar	en-US
+cancel my meeting on the fourteenth	[IN:calendar_remove [SL:event_name meeting] [SL:date fourteenth] ]	calendar	en-US
+give me information about the concert on tuesday night	[IN:calendar_query [SL:date tuesday] [SL:time night] ]	calendar	en-US
+i need to be reminded that there is a meeting for paul's retirement set reminder for tuesday at three p. m.	[IN:calendar_set [SL:person paul's] [SL:event_name retirement] [SL:date tuesday] [SL:time three p. m.] ]	calendar	en-US
+what is happening at that event	[IN:recommendation_events ]	recommendation	en-US
+what do i have going on this morning between ten twelve	[IN:calendar_query [SL:time what] [SL:time morning between ten twelve] ]	calendar	en-US
+what time is the evening meeting i have with john	[IN:calendar_query [SL:event_name evening meeting] [SL:person john] ]	calendar	en-US
+set a reminder i need to wake up at five am every morning	[IN:alarm_set [SL:time five am] [SL:general_frequency every morning] ]	alarm	en-US
+more about the concert in street pete	[IN:calendar_query [SL:event_name concert] [SL:place_name street pete] ]	calendar	en-US
+olly remind me about tomorrow's meeting tonight	[IN:calendar_set [SL:date tomorrow's] [SL:event_name meeting] [SL:timeofday tonight] ]	calendar	en-US
+notification of meeting on wednesday	[IN:calendar_set [SL:event_name meeting] [SL:date wednesday] ]	calendar	en-US
+add my upcoming meeting to my calendar	[IN:calendar_set [SL:event_name meeting] ]	calendar	en-US
+completely clear my calendar please	[IN:calendar_remove ]	calendar	en-US
+please delete the meeting i have with john tonight	[IN:calendar_remove [SL:event_name meeting] [SL:person john] [SL:timeofday tonight] ]	calendar	en-US
+set a reminder for wednesdays at two p. m.	[IN:calendar_set [SL:date wednesdays] [SL:time two p. m.] ]	calendar	en-US
+is it true that susan's birthday is on march first	[IN:calendar_query [SL:person susan's] [SL:event_name birthday] [SL:date march first] ]	calendar	en-US
+did you add tomorrow's meeting to my calendar	[IN:calendar_query [SL:date tomorrow's] [SL:event_name meeting] ]	calendar	en-US
+add lunch meetings at noon every day this week	[IN:calendar_set [SL:meal_type lunch] [SL:event_name meetings] [SL:timeofday noon] [SL:general_frequency every day] [SL:date this week] ]	calendar	en-US
+set a reminder for the meeting friday at three p. m.	[IN:calendar_set [SL:event_name meeting] [SL:date friday] [SL:time three p. m.] ]	calendar	en-US
+remove everything from the calendar	[IN:calendar_remove ]	calendar	en-US
+hey siri make sure my calendar is completely clear tomorrow	[IN:calendar_remove [SL:date tomorrow] ]	calendar	en-US
+new notification for meeting in two hours	[IN:calendar_set [SL:event_name meeting] [SL:time two hours] ]	calendar	en-US
+remind me about calendar	[IN:calendar_set ]	calendar	en-US
+are there any pending appointments this morning	[IN:calendar_query [SL:event_name appointments] [SL:timeofday morning] ]	calendar	en-US
+is this week a payday week	[IN:calendar_query [SL:date this week] ]	calendar	en-US
+cancel all appointments in my calendar	[IN:calendar_remove [SL:event_name appointments] ]	calendar	en-US
+what reminders do i have set	[IN:calendar_query ]	calendar	en-US
+what's the news for six hundred and forty five am today	[IN:calendar_query [SL:time six hundred and forty five am] [SL:date today] ]	calendar	en-US
+remove my event at one p. m. in my calendar	[IN:calendar_remove [SL:time one p. m.] ]	calendar	en-US
+olly remind me i need to be at the library a week from today at five	[IN:calendar_set [SL:place_name library] [SL:date week from today] [SL:time five] ]	calendar	en-US
+set a reminder for next saturday go to the library at five o'clock	[IN:calendar_set [SL:date saturday] [SL:place_name library] [SL:time five] ]	calendar	en-US
+remind me about the upcoming national holiday	[IN:calendar_set [SL:event_name upcoming national holiday] ]	calendar	en-US
+remove my calendar event at one p. m. today	[IN:calendar_remove [SL:time one p. m.] [SL:date today] ]	calendar	en-US
+set a reminder for my meeting at five p. m.	[IN:calendar_set [SL:event_name meeting] [SL:time five p. m.] ]	calendar	en-US
+please add an appointment at nine am wednesday at doctor greens office	[IN:calendar_set [SL:time nine am] [SL:date wednesday] [SL:relation doctor greens] [SL:place_name office] ]	calendar	en-US
+what were the highlights from this evening's soccer match	[IN:calendar_query [SL:timeofday this evening's] [SL:sport_type soccer match] ]	calendar	en-US
+tell me what is on my schedule for today	[IN:calendar_query [SL:date today] ]	calendar	en-US
+when is bruno mars coming to sacramento	[IN:calendar_query [SL:person bruno mars] [SL:place_name sacramento] ]	calendar	en-US
+i want to add something to my calendar	[IN:calendar_set ]	calendar	en-US
+clear event from calendar and refresh	[IN:calendar_remove ]	calendar	en-US
+what events do i have coming up	[IN:calendar_query ]	calendar	en-US
+delete the next event on the calendar	[IN:calendar_remove ]	calendar	en-US
+please cancel the next event on the calendar	[IN:calendar_remove ]	calendar	en-US
+what meetings do i have between eight ten today	[IN:calendar_query [SL:event_name meetings] [SL:time eight ten] [SL:date today] ]	calendar	en-US
+remind me tomorrow at two p. m.	[IN:calendar_set [SL:date tomorrow] [SL:time two p. m.] ]	calendar	en-US
+schedule an event in my calendar for the pool party at jack's place this saturday	[IN:calendar_set [SL:event_name pool party] [SL:place_name jack's place] [SL:date this saturday] ]	calendar	en-US
+what is the address for the event scheduled on the first of january	[IN:calendar_query [SL:date first of january] ]	calendar	en-US
+i want to meet with sara tomorrow	[IN:calendar_set [SL:person sara] [SL:date tomorrow] ]	calendar	en-US
+cancel my meeting with lisa on tuesday and reschedule it for thursday	[IN:calendar_set [SL:event_name meeting] [SL:person lisa] [SL:date tuesday] [SL:date thursday] ]	calendar	en-US
+remove thursday's lunch from my calendar	[IN:calendar_remove [SL:date thursday's] [SL:meal_type lunch] ]	calendar	en-US
+set and event for the fifteenth of every month to remind me to pay my internet bill	[IN:calendar_set [SL:general_frequency fifteenth of every month] [SL:event_name pay my internet bill] ]	calendar	en-US
+add the following date and time to my calendar	[IN:calendar_set ]	calendar	en-US
+when is the event	[IN:calendar_query ]	calendar	en-US
+add an event starting at three p. m. in goshen new york on may fifth for dan's graduation	[IN:calendar_set [SL:time three p. m.] [SL:place_name goshen new york] [SL:date may fifth] [SL:event_name dan's graduation] ]	calendar	en-US
+in the last year how many hours have i been in meetings	[IN:calendar_query [SL:time last year] [SL:event_name meetings] ]	calendar	en-US
+delete meeting	[IN:calendar_remove [SL:event_name meeting] ]	calendar	en-US
+i have a meeting with al on march twenty first at ten	[IN:calendar_set [SL:event_name meeting] [SL:person al] [SL:date march twenty first] [SL:time ten] ]	calendar	en-US
+i needed to prepare for a meeting	[IN:calendar_query [SL:event_name meeting] ]	calendar	en-US
+show my upcoming events	[IN:calendar_query ]	calendar	en-US
+delete from the calendar the next event	[IN:calendar_remove ]	calendar	en-US
+does my calendar say i'm free on april one two thousand and seventeen	[IN:calendar_query [SL:date april one two thousand and seventeen] ]	calendar	en-US
+set a weekly appointment reminder	[IN:calendar_set [SL:general_frequency weekly] ]	calendar	en-US
+flag two day after this day as my holiday	[IN:calendar_set [SL:date two day after this day] [SL:event_name my holiday] ]	calendar	en-US
+tuesday meeting noon	[IN:calendar_set [SL:date tuesday] [SL:event_name meeting] [SL:timeofday noon] ]	calendar	en-US
+do i have anything scheduled for march seventh	[IN:calendar_query [SL:date march seventh] ]	calendar	en-US
+olly schedule my doctors appointment on friday at two p. m.	[IN:calendar_set [SL:event_name doctors appointment] [SL:date friday] [SL:time two p. m.] ]	calendar	en-US
+can you please add my dinner reservations to my calendar	[IN:calendar_set [SL:event_name dinner reservations] ]	calendar	en-US
+set calendar info for albert's marriage	[IN:calendar_set [SL:event_name albert's marriage] ]	calendar	en-US
+do i have any calendar events today	[IN:calendar_query [SL:date today] ]	calendar	en-US
+searching on holidays in my location	[IN:recommendation_events [SL:event_name holidays] ]	recommendation	en-US
+searching for recent happenings on the particular dates	[IN:recommendation_events ]	recommendation	en-US
+do i have any reminders on my list	[IN:calendar_query ]	calendar	en-US
+please remind me of	[IN:calendar_set ]	calendar	en-US
+please set alarm for	[IN:alarm_set ]	alarm	en-US
+do i need to be reminded of any meetings on monday	[IN:calendar_set [SL:event_name meetings] [SL:date monday] ]	calendar	en-US
+is calendar event false	[IN:calendar_query ]	calendar	en-US
+remove all my meetings for the rest of the week	[IN:calendar_remove [SL:event_name meetings] [SL:time the rest of the week] ]	calendar	en-US
+add to calendar may two is mary's birthday repeat every year	[IN:calendar_set [SL:date may two] [SL:person mary's] [SL:event_name birthday] [SL:general_frequency every year] ]	calendar	en-US
+i want you to remind me to take my rain coat because it may rain	[IN:calendar_set [SL:event_name take my rain coat] ]	calendar	en-US
+please tell me to take my umbrella because it will be very hot today	[IN:calendar_set [SL:event_name take my umbrella] [SL:date today] ]	calendar	en-US
+what is my schedule for june fourteenth two thousand and seventeen	[IN:calendar_query [SL:date june fourteenth two thousand and seventeen] ]	calendar	en-US
+please delete all reminder of sunday	[IN:calendar_remove [SL:date sunday] ]	calendar	en-US
+remember dinner on thursday at bistro italia	[IN:calendar_set [SL:meal_type dinner] [SL:date thursday] [SL:place_name bistro italia] ]	calendar	en-US
+set reminder	[IN:calendar_set ]	calendar	en-US
+calendar event with these people	[IN:calendar_set ]	calendar	en-US
+clear my schedule for today	[IN:calendar_remove [SL:date today] ]	calendar	en-US
+details	[IN:calendar_query ]	calendar	en-US
+tell about latest events	[IN:calendar_query ]	calendar	en-US
+when are the meetings	[IN:calendar_query [SL:event_name meetings] ]	calendar	en-US
+when is the party scheduled	[IN:calendar_query [SL:event_name party] ]	calendar	en-US
+notify me with all events in the next one week	[IN:calendar_set [SL:time next one week] ]	calendar	en-US
+john marriage anniversary	[IN:calendar_set [SL:person john] [SL:event_name marriage anniversary] ]	calendar	en-US
+when are holiday in current month	[IN:calendar_query [SL:event_name holiday] [SL:time current month] ]	calendar	en-US
+let me know of the meeting on tuesday	[IN:calendar_set [SL:event_name meeting] [SL:date tuesday] ]	calendar	en-US
+i want you to remind me about the evening program	[IN:calendar_set [SL:event_name evening program] ]	calendar	en-US
+delete eric's b. day from the calendar	[IN:calendar_remove [SL:event_name eric's b. day] ]	calendar	en-US
+ok google schedule a meeting with the v. p. of the department on the twenty first of march two thousand and seventeen	[IN:calendar_set [SL:event_name meeting] [SL:relation the v. p. of the department] [SL:date the twenty first of march two thousand and seventeen] ]	calendar	en-US
+i need a meeting with the c. f. o. on thursday	[IN:calendar_set [SL:event_name meeting] [SL:relation the c. f. o.] [SL:date thursday] ]	calendar	en-US
+remove birthday event from my calendar	[IN:calendar_remove [SL:event_name birthday] ]	calendar	en-US
+remind me on fifth april there is a meeting with boss	[IN:calendar_set [SL:date fifth april] [SL:event_name meeting] [SL:relation boss] ]	calendar	en-US
+create a reminder for visa application on this thursday	[IN:calendar_set [SL:event_name visa application] [SL:date thursday] ]	calendar	en-US
+make blank on july three calendar	[IN:calendar_remove [SL:date july three] ]	calendar	en-US
+set an alarm for four p. m. tuesday	[IN:alarm_set [SL:time four p. m.] [SL:date tuesday] ]	alarm	en-US
+make an event reminder for monas wedding on tuesday	[IN:calendar_set [SL:event_name monas wedding] [SL:date tuesday] ]	calendar	en-US
+put a repeating event on the calendar	[IN:calendar_set [SL:event_name repeating event] ]	calendar	en-US
+am i busy this weekend	[IN:calendar_query [SL:date this weekend] ]	calendar	en-US
+olly do i have an appointment next week	[IN:calendar_query [SL:event_name appointment] [SL:date next week] ]	calendar	en-US
+delete day after event	[IN:calendar_remove ]	calendar	en-US
+remind the required events to be reset	[IN:calendar_set ]	calendar	en-US
+add my sister visiting to my family calendar	[IN:calendar_set [SL:event_name sister visiting] [SL:event_name family] ]	calendar	en-US
+where is the convention center located	[IN:qa_factoid [SL:place_name convention center] ]	qa	en-US
+any meeting on friday	[IN:calendar_query [SL:date friday] ]	calendar	en-US
+remind me that i have an appointment twelve o'clock on saturday	[IN:calendar_set [SL:event_name appointment] [SL:time twelve o'clock] [SL:date saturday] ]	calendar	en-US
+olly do i have any calendar events this month	[IN:calendar_query [SL:date this month] ]	calendar	en-US
+olly make a calendar entry for next saturday at ten am please	[IN:calendar_set [SL:date saturday] [SL:time ten am] ]	calendar	en-US
+remind me of the meeting on the twenty second of january	[IN:calendar_set [SL:event_name meeting] [SL:date the twenty second of january] ]	calendar	en-US
+remind me about the meeting in one hour	[IN:calendar_set [SL:event_name meeting] [SL:time one hour] ]	calendar	en-US
+remind me in one hour about my meeting	[IN:calendar_set [SL:time one hour] [SL:event_name meeting] ]	calendar	en-US
+play some radio	[IN:play_radio ]	play	en-US
+showcase the radio	[IN:play_radio ]	play	en-US
+open pandora play rock station	[IN:play_radio [SL:app_name pandora] [SL:music_genre rock] ]	play	en-US
+open iheartradio rov the rock	[IN:play_radio [SL:app_name iheartradio] [SL:music_genre rock] ]	play	en-US
+tune a radio channel for good jokes	[IN:play_radio [SL:radio_name good jokes] ]	play	en-US
+start radio	[IN:play_radio ]	play	en-US
+shoutcast dot com	[IN:play_radio [SL:radio_name shoutcast dot com] ]	play	en-US
+put the radio on	[IN:play_radio ]	play	en-US
+please tune the radio channel	[IN:play_radio ]	play	en-US
+i wish to listen that radio channel	[IN:play_radio ]	play	en-US
+switch on radio	[IN:play_radio ]	play	en-US
+can you start f. m. eight hundred and ninety radio channel	[IN:play_radio [SL:radio_name f. m. eight hundred and ninety] ]	play	en-US
+play tunes	[IN:play_radio [SL:media_type tunes] ]	play	en-US
+turn it to frequency nine hundred and ninety seven	[IN:play_radio [SL:radio_name frequency nine hundred and ninety seven] ]	play	en-US
+turn on channel nine hundred and fifty one	[IN:play_radio [SL:radio_name nine hundred and fifty one] ]	play	en-US
+please play the radio	[IN:play_radio ]	play	en-US
+radio on	[IN:play_radio ]	play	en-US
+go to my favorite radio channel	[IN:play_radio ]	play	en-US
+play a song that will make me smile	[IN:play_music ]	play	en-US
+play nine hundred and seventy one	[IN:play_radio [SL:radio_name nine hundred and seventy one] ]	play	en-US
+play b. b. c. radio four please	[IN:play_radio [SL:radio_name b. b. c. radio four] ]	play	en-US
+play b. b. c. radio one	[IN:play_radio [SL:radio_name b. b. c. radio one] ]	play	en-US
+please open my f. m. radio and play nine hundred and eighty seven	[IN:play_radio [SL:radio_name f. m. radio] [SL:radio_name nine hundred and eighty seven] ]	play	en-US
+olly i want to hear a station that plays r. & b.	[IN:play_radio [SL:radio_name station that plays r. & b.] ]	play	en-US
+play the football game on the radio	[IN:play_radio ]	play	en-US
+how many of my sports podcasts have new episodes i have not listened to yet	[IN:play_radio ]	play	en-US
+open pandora and play top hits	[IN:play_radio [SL:app_name pandora] ]	play	en-US
+please play popular music on pandora	[IN:play_radio [SL:app_name pandora] ]	play	en-US
+play famosa radio for me	[IN:play_radio [SL:radio_name famosa] ]	play	en-US
+get me some radio music from kamp f. m.	[IN:play_radio [SL:media_type music] [SL:radio_name kamp f. m.] ]	play	en-US
+please play top country	[IN:play_music [SL:music_genre country] ]	play	en-US
+play music programs in radio	[IN:play_radio ]	play	en-US
+play the current playlist	[IN:play_music ]	play	en-US
+find joel osteen's broadcast on sirius	[IN:play_radio [SL:app_name sirius] ]	play	en-US
+play the station one hundred and two point four the buzz	[IN:play_radio [SL:radio_name one hundred and two point four] ]	play	en-US
+play news in f. m.	[IN:play_radio [SL:radio_name f. m.] ]	play	en-US
+play the neal brennan episode of wait wait don't tell me	[IN:play_radio ]	play	en-US
+play ninety three point five f. m.	[IN:play_radio [SL:radio_name ninety three point five f. m.] ]	play	en-US
+play a news radio station	[IN:play_radio [SL:radio_name news radio station] ]	play	en-US
+ok google can you start ryan seacrest	[IN:play_radio [SL:person ryan seacrest] ]	play	en-US
+play my favorite station at nine p. m.	[IN:play_radio [SL:time nine p. m.] ]	play	en-US
+pdr am radio	[IN:play_radio [SL:radio_name pdr am radio] ]	play	en-US
+play the programs in this required pad's	[IN:play_radio ]	play	en-US
+what stations are playing good music this morning	[IN:play_radio [SL:timeofday morning] ]	play	en-US
+tune into ninety nine point five f. m.	[IN:play_radio [SL:radio_name ninety nine point five f. m.] ]	play	en-US
+play a country station	[IN:play_radio [SL:radio_name country station] ]	play	en-US
+turn to billy bob show	[IN:play_radio ]	play	en-US
+play b. b. c. radio four	[IN:play_radio [SL:radio_name b. b. c. radio four] ]	play	en-US
+play this program	[IN:play_radio ]	play	en-US
+can you play my favorite audio book of harry potter	[IN:play_audiobook [SL:audiobook_name harry potter] ]	play	en-US
+can you put on the chuck palhunik audio book	[IN:play_audiobook [SL:player_setting put on] [SL:audiobook_name chuck palhunik] ]	play	en-US
+start chapter seven of alma	[IN:play_audiobook [SL:player_setting start] [SL:audiobook_name alma] ]	play	en-US
+resume audio book history of rome	[IN:play_audiobook [SL:player_setting resume] [SL:audiobook_name history of rome] ]	play	en-US
+can you pause the audio	[IN:play_audiobook [SL:player_setting pause] [SL:media_type audio] ]	play	en-US
+continue playing my audiobook	[IN:play_audiobook [SL:media_type audiobook] ]	play	en-US
+pause the audiobook	[IN:play_audiobook [SL:player_setting pause] [SL:media_type audiobook] ]	play	en-US
+open the davinci code where i left off	[IN:play_audiobook [SL:audiobook_name davinci code] ]	play	en-US
+start play johns audiobook	[IN:play_audiobook [SL:audiobook_name johns] [SL:media_type audiobook] ]	play	en-US
+play recently added audiobook	[IN:play_audiobook [SL:media_type audiobook] ]	play	en-US
+play audio	[IN:play_audiobook [SL:media_type audio] ]	play	en-US
+resume my audiobook where we paused last	[IN:play_audiobook [SL:player_setting resume] [SL:media_type audiobook] ]	play	en-US
+resume last played audiobook	[IN:play_audiobook [SL:player_setting resume] [SL:media_type audiobook] ]	play	en-US
+please play recently paused audio	[IN:play_audiobook [SL:media_type audio] ]	play	en-US
+resume my audiobook from the beginning of the last chapter i started	[IN:play_audiobook [SL:player_setting resume] [SL:media_type audiobook] ]	play	en-US
+play the circle	[IN:play_audiobook [SL:audiobook_name the circle] ]	play	en-US
+lets have a break for five minutes	[IN:play_audiobook [SL:player_setting break] [SL:time five minutes] ]	play	en-US
+start reading book	[IN:play_audiobook [SL:player_setting start reading] ]	play	en-US
+resume the last kingdom for me	[IN:play_audiobook [SL:player_setting resume] [SL:audiobook_name the last kingdom] ]	play	en-US
+open harrypotter audiobook and play from last played	[IN:play_audiobook [SL:audiobook_name harrypotter] [SL:media_type audiobook] ]	play	en-US
+look for this playback in audiobook and play for me	[IN:play_audiobook [SL:media_type audiobook] ]	play	en-US
+please resume this playback in audiobook	[IN:play_audiobook [SL:player_setting resume] [SL:media_type audiobook] ]	play	en-US
+listen to the martian from downpour	[IN:play_audiobook [SL:audiobook_name the martian] [SL:app_name downpour] ]	play	en-US
+start reading fifty shades of grey from chapter four	[IN:play_audiobook [SL:player_setting start reading] [SL:audiobook_name fifty shades of grey] ]	play	en-US
+resume a song from the audiobook by michael jackson	[IN:play_audiobook [SL:player_setting resume] [SL:media_type audiobook] [SL:artist_name michael jackson] ]	play	en-US
+play audiobook snow white	[IN:play_audiobook [SL:media_type audiobook] [SL:audiobook_name snow white] ]	play	en-US
+can you continue audiobook the circle	[IN:play_audiobook [SL:player_setting continue] [SL:media_type audiobook] [SL:audiobook_name the circle] ]	play	en-US
+audio book play jai ho	[IN:play_audiobook [SL:media_type audio book] [SL:song_name jai ho] ]	play	en-US
+resume the reading of the french lesson	[IN:play_audiobook [SL:player_setting resume] [SL:audiobook_name french lesson] ]	play	en-US
+please play back some important points summary	[IN:play_audiobook ]	play	en-US
+start reading that alan partridge book	[IN:play_audiobook [SL:player_setting start reading] [SL:audiobook_author alan partridge] [SL:media_type book] ]	play	en-US
+continue with my audiobook please	[IN:play_audiobook [SL:player_setting continue] [SL:media_type audiobook] ]	play	en-US
+continue playing my book of vitamins	[IN:play_audiobook [SL:player_setting continue playing] [SL:audiobook_name book of vitamins] ]	play	en-US
+olly resume the two towers	[IN:play_audiobook [SL:player_setting resume] [SL:audiobook_name the two towers] ]	play	en-US
+play from this point from this audiobook	[IN:play_audiobook [SL:media_type audiobook] ]	play	en-US
+tell me how to make garlic bread	[IN:cooking_recipe [SL:food_type garlic bread] ]	cooking	en-US
+how much time to cook pasta	[IN:cooking_recipe [SL:cooking_type cook] [SL:food_type pasta] ]	cooking	en-US
+what can i cook with broccoli and chicken	[IN:cooking_recipe [SL:ingredient broccoli] [SL:ingredient chicken] ]	cooking	en-US
+instruct me to cook	[IN:cooking_recipe ]	cooking	en-US
+how can i cook pasta	[IN:cooking_recipe [SL:food_type pasta] ]	cooking	en-US
+what ingredient can be used to replace white wine	[IN:cooking_recipe [SL:ingredient white wine] ]	cooking	en-US
+could you please display the videos for cooking italian food	[IN:cooking_recipe [SL:media_type videos] [SL:food_type italian] ]	cooking	en-US
+olly how do i make lobster bisque	[IN:cooking_recipe [SL:food_type lobster bisque] ]	cooking	en-US
+how is pav bhaji cooked	[IN:cooking_recipe [SL:food_type pav bhaji] ]	cooking	en-US
+what the sexiest food to cook on a date	[IN:cooking_recipe [SL:food_type sexiest] ]	cooking	en-US
+for how much time should i oven pizza to make it perfect crispy	[IN:cooking_recipe [SL:food_type pizza] [SL:cooking_type crispy] ]	cooking	en-US
+how do you cook black eye pea	[IN:cooking_recipe [SL:ingredient black eye pea] ]	cooking	en-US
+give me recipes	[IN:cooking_recipe ]	cooking	en-US
+use google to show me how to cook	[IN:cooking_recipe ]	cooking	en-US
+give me best cooking ideas	[IN:cooking_recipe ]	cooking	en-US
+show me the recipe for cookies	[IN:cooking_recipe [SL:food_type cookies] ]	cooking	en-US
+how do i make cookies	[IN:cooking_recipe [SL:food_type cookies] ]	cooking	en-US
+how many cups are in a quart	[IN:cooking_recipe [SL:time quart] ]	cooking	en-US
+how do i bake a potato	[IN:cooking_recipe [SL:food_type potato] ]	cooking	en-US
+look for a pizza recipe	[IN:cooking_recipe [SL:food_type pizza] ]	cooking	en-US
+how do i make meatloaf	[IN:cooking_recipe [SL:food_type meatloaf] ]	cooking	en-US
+find me a recipe for chicken noodle soup	[IN:cooking_recipe [SL:food_type chicken noodle soup] ]	cooking	en-US
+search for gluten free menus	[IN:cooking_recipe [SL:food_type gluten free] ]	cooking	en-US
+show me how to cook a recipe	[IN:cooking_recipe ]	cooking	en-US
+how long do i chill an icebox pie	[IN:cooking_recipe ]	cooking	en-US
+how do you cook a four cheese omelet	[IN:cooking_recipe [SL:food_type cheese omelet] ]	cooking	en-US
+get recipe for making a hotdog	[IN:cooking_recipe [SL:food_type hotdog] ]	cooking	en-US
+crockpot recipe for chicken alfredo	[IN:cooking_recipe [SL:food_type chicken alfredo] ]	cooking	en-US
+can you pull up a recipe for spaghetti	[IN:cooking_recipe [SL:food_type spaghetti] ]	cooking	en-US
+bring up a recipe for turkey meatballs	[IN:cooking_recipe [SL:food_type turkey meatballs] ]	cooking	en-US
+recipes	[IN:cooking_recipe ]	cooking	en-US
+how long do i roast chicken breasts	[IN:cooking_recipe [SL:food_type chicken breasts] ]	cooking	en-US
+recipe for crabmeat	[IN:cooking_recipe [SL:food_type crabmeat] ]	cooking	en-US
+i need some ideas for dinner that are mexican	[IN:cooking_recipe [SL:food_type mexican] ]	cooking	en-US
+no more comments	[IN:cooking_recipe ]	cooking	en-US
+what is the cooking time for boiled eggs	[IN:cooking_recipe [SL:food_type boiled eggs] ]	cooking	en-US
+find easy recipe for almond milk	[IN:cooking_recipe [SL:drink_type almond milk] ]	cooking	en-US
+find recipe chicken casserole	[IN:cooking_recipe [SL:food_type chicken casserole] ]	cooking	en-US
+look up meal recipe	[IN:cooking_recipe ]	cooking	en-US
+alexa play chess with me	[IN:play_game [SL:game_name chess] ]	play	en-US
+i feel like playing chess can you play that	[IN:play_game [SL:game_name chess] ]	play	en-US
+how about a nice game of chess	[IN:play_game [SL:game_name chess] ]	play	en-US
+play solitaire	[IN:play_game [SL:game_name solitaire] ]	play	en-US
+play a race game	[IN:play_game [SL:game_type race] ]	play	en-US
+lets play pinball	[IN:play_game [SL:game_name pinball] ]	play	en-US
+start play spider	[IN:play_game [SL:game_name spider] ]	play	en-US
+want to play a game with me	[IN:play_game ]	play	en-US
+i want you to play my soccer game from fifth level	[IN:play_game [SL:game_name soccer] ]	play	en-US
+want to play a game of trivia	[IN:play_game [SL:game_name game of trivia] ]	play	en-US
+find game	[IN:play_game ]	play	en-US
+play snake with me	[IN:play_game [SL:game_name snake] ]	play	en-US
+lets solve the puzzle	[IN:play_game [SL:game_name the puzzle] ]	play	en-US
+open papa pear saga	[IN:play_game [SL:game_name papa pear saga] ]	play	en-US
+let's play checkers	[IN:play_game [SL:game_name checkers] ]	play	en-US
+play games	[IN:play_game ]	play	en-US
+can you take a role of enemy in the game of coc	[IN:play_game [SL:game_name coc] ]	play	en-US
+play chess with me please	[IN:play_game [SL:game_name chess] ]	play	en-US
+can you do name that tune	[IN:play_game [SL:game_name name that tune] ]	play	en-US
+could you play poker with me	[IN:play_game [SL:game_name poker] ]	play	en-US
+let us play millionaires	[IN:play_game [SL:game_name millionaires] ]	play	en-US
+lets play tic tac toe	[IN:play_game [SL:game_name tic tac toe] ]	play	en-US
+list the items on my shopping list olly	[IN:lists_query [SL:list_name shopping] ]	lists	en-US
+i'd like to cancel the trip to vegas next week	[IN:lists_remove ]	lists	en-US
+what is on my shopping list today	[IN:lists_query [SL:list_name shopping] [SL:date today] ]	lists	en-US
+cross out bread from shopping list	[IN:lists_remove [SL:list_name shopping] ]	lists	en-US
+add vodka to my party shopping list	[IN:lists_query [SL:list_name party shopping] ]	lists	en-US
+remove a list of things to buy	[IN:lists_remove [SL:list_name things to buy] ]	lists	en-US
+can you create a new list	[IN:lists_createoradd ]	lists	en-US
+remove a list of food items purchased last week	[IN:lists_remove [SL:list_name food] [SL:date last week] ]	lists	en-US
+it's depend pon the seen	[IN:lists_remove ]	lists	en-US
+clear list	[IN:lists_remove ]	lists	en-US
+make list	[IN:lists_createoradd ]	lists	en-US
+which grocery stores have i mad a list with	[IN:lists_query [SL:list_name grocery stores] ]	lists	en-US
+what are my lists	[IN:lists_query ]	lists	en-US
+what lists are available	[IN:lists_query ]	lists	en-US
+find list and remove apple	[IN:lists_remove ]	lists	en-US
+erase my old english songs list	[IN:lists_remove [SL:list_name old english] ]	lists	en-US
+please remove a list	[IN:lists_remove ]	lists	en-US
+add this item to the list	[IN:lists_createoradd ]	lists	en-US
+what were the last five lists i made	[IN:lists_query ]	lists	en-US
+send me the last list uploaded	[IN:lists_query ]	lists	en-US
+make a list of numbers for me	[IN:lists_createoradd [SL:list_name numbers] ]	lists	en-US
+create a new list for me please	[IN:lists_createoradd ]	lists	en-US
+what's on my to do list for today	[IN:lists_query [SL:list_name to do] [SL:date today] ]	lists	en-US
+what am i doing today	[IN:general_quirky [SL:date today] ]	general	en-US
+check item five on my to do list	[IN:lists_query [SL:list_name to do] ]	lists	en-US
+please show my list	[IN:lists_query ]	lists	en-US
+remove the excel file from the list	[IN:lists_remove ]	lists	en-US
+tell me a play list	[IN:music_query ]	music	en-US
+how many food items on the list	[IN:lists_query ]	lists	en-US
+the list should not contain all food items with the prefix dry	[IN:lists_remove ]	lists	en-US
+by tomorrow create a new list	[IN:lists_createoradd [SL:date tomorrow] ]	lists	en-US
+make a new list	[IN:lists_createoradd ]	lists	en-US
+put pencil on a new grocery list	[IN:lists_createoradd [SL:list_name grocery] ]	lists	en-US
+please remove this item from the list	[IN:lists_remove ]	lists	en-US
+add grocery to list	[IN:lists_createoradd ]	lists	en-US
+read the list	[IN:lists_query ]	lists	en-US
+bing up my list	[IN:lists_query ]	lists	en-US
+tell me what lists i have	[IN:lists_query ]	lists	en-US
+remove item three	[IN:lists_remove ]	lists	en-US
+what does the list contain	[IN:lists_query ]	lists	en-US
+please add this item to the list	[IN:lists_createoradd ]	lists	en-US
+display available lists	[IN:lists_query ]	lists	en-US
+can you please tell me what i have on my list	[IN:lists_query ]	lists	en-US
+remove pepper from my grocery list	[IN:lists_remove [SL:list_name grocery] ]	lists	en-US
+add something to my list	[IN:lists_createoradd ]	lists	en-US
+remove that item from my list	[IN:lists_remove ]	lists	en-US
+google translate	[IN:lists_query ]	lists	en-US
+read back what i put on my to do list for this week	[IN:lists_query [SL:date this week] ]	lists	en-US
+read shopping list items	[IN:lists_query [SL:list_name shopping] ]	lists	en-US
+add cereal to my shopping list	[IN:lists_createoradd ]	lists	en-US
+are eggs on my shopping list	[IN:lists_query [SL:list_name shopping] ]	lists	en-US
+do i have a list of contacts for the party i'm planning	[IN:lists_query [SL:event_name party] ]	lists	en-US
+delete my to do list	[IN:lists_remove [SL:list_name to do] ]	lists	en-US
+remove item from list	[IN:lists_remove ]	lists	en-US
+please add milk to the grocery list	[IN:lists_createoradd [SL:list_name grocery] ]	lists	en-US
+will you please show me my lists	[IN:lists_query ]	lists	en-US
+open lists remove list	[IN:lists_remove ]	lists	en-US
+olly what's next on my list	[IN:lists_query ]	lists	en-US
+take milk off my grocery list	[IN:lists_remove [SL:list_name grocery] ]	lists	en-US
+please tell me what lists i have made	[IN:lists_query ]	lists	en-US
+rearrange that off the list	[IN:lists_remove ]	lists	en-US
+drop it from list	[IN:lists_remove ]	lists	en-US
+olly what else do i have on the list	[IN:lists_query ]	lists	en-US
+add buy groceries to my to do list for today	[IN:lists_createoradd [SL:date today] ]	lists	en-US
+please tell me how can i remove the item	[IN:lists_remove ]	lists	en-US
+can i check my lists	[IN:lists_query ]	lists	en-US
+did i make a shopping list	[IN:lists_query [SL:list_name shopping] ]	lists	en-US
+remove item from my list	[IN:lists_remove ]	lists	en-US
+create a new list of	[IN:lists_createoradd ]	lists	en-US
+tell me the list about	[IN:lists_query ]	lists	en-US
+please remove the first list	[IN:lists_remove ]	lists	en-US
+remove meeting for wednesday morning	[IN:calendar_remove [SL:date wednesday] [SL:timeofday morning] ]	calendar	en-US
+create a new list of my pending bills	[IN:lists_createoradd [SL:list_name pending bills] ]	lists	en-US
+read my list to me	[IN:lists_query ]	lists	en-US
+give me my list	[IN:lists_query ]	lists	en-US
+make a list for work	[IN:lists_createoradd ]	lists	en-US
+please delete list titled kickball	[IN:lists_remove [SL:list_name kickball] ]	lists	en-US
+i don't want this list any more	[IN:lists_remove ]	lists	en-US
+do i have anything on my to do list	[IN:lists_query [SL:list_name to do] ]	lists	en-US
+what lists are currently available right now	[IN:lists_query ]	lists	en-US
+delete the last line	[IN:lists_remove ]	lists	en-US
+create a new list for school supplies	[IN:lists_createoradd [SL:list_name school supplies] ]	lists	en-US
+delete call newspaper from my vacation list	[IN:lists_remove [SL:list_name vacation list] ]	lists	en-US
+read out my shopping list for today	[IN:lists_query [SL:list_name shopping] [SL:date today] ]	lists	en-US
+what is on the list for today	[IN:lists_query [SL:date today] ]	lists	en-US
+include an item to a list	[IN:lists_createoradd ]	lists	en-US
+take grocery buying off of the list	[IN:lists_remove ]	lists	en-US
+we're out of paint so take bathroom painting off the list	[IN:lists_remove ]	lists	en-US
+remind me to order more soap	[IN:lists_createoradd ]	lists	en-US
+open my list	[IN:lists_query ]	lists	en-US
+remove last played song	[IN:lists_remove ]	lists	en-US
+please add tom to my contact list	[IN:email_addcontact [SL:person tom] ]	email	en-US
+can you read me my lists	[IN:lists_query ]	lists	en-US
+hey what are my lists	[IN:lists_query ]	lists	en-US
+hey olly what are my lists	[IN:lists_query ]	lists	en-US
+can you tell me what the items on my grocery list are	[IN:lists_query [SL:list_name grocery] ]	lists	en-US
+what is that on the list	[IN:lists_query ]	lists	en-US
+tell me what's on my list	[IN:lists_query ]	lists	en-US
+remove a list	[IN:lists_remove ]	lists	en-US
+cancel the milk from the shopping list	[IN:lists_remove [SL:list_name shopping] ]	lists	en-US
+add milk to my grocery list	[IN:lists_createoradd [SL:list_name grocery] ]	lists	en-US
+remove the santana music list	[IN:lists_remove [SL:list_name santana music] ]	lists	en-US
+what is on this specific list	[IN:lists_query ]	lists	en-US
+can i see my work lists	[IN:lists_query ]	lists	en-US
+add this to a list	[IN:lists_createoradd ]	lists	en-US
+please remove my to do list from today	[IN:lists_remove [SL:list_name to do] [SL:date today] ]	lists	en-US
+i don't want eggs	[IN:lists_remove ]	lists	en-US
+list the available's	[IN:lists_query ]	lists	en-US
+create a list of monthly groceries to be bought	[IN:lists_createoradd [SL:general_frequency monthly] [SL:list_name groceries] ]	lists	en-US
+my work schedule	[IN:calendar_query ]	calendar	en-US
+my health planning	[IN:lists_query [SL:list_name health planning] ]	lists	en-US
+add pastries to the christmas list	[IN:lists_createoradd [SL:list_name christmas] ]	lists	en-US
+remove the list of things to do	[IN:lists_remove [SL:list_name things to do] ]	lists	en-US
+delete the old playlist and create new	[IN:lists_createoradd [SL:list_name old playlist] ]	lists	en-US
+check list	[IN:lists_query ]	lists	en-US
+how many items are on my to do list	[IN:lists_query [SL:list_name to do] ]	lists	en-US
+check my list	[IN:lists_query ]	lists	en-US
+can you forward an episode in the podcast	[IN:play_podcasts [SL:player_setting forward] ]	play	en-US
+play next episode	[IN:play_podcasts [SL:podcast_descriptor next episode] ]	play	en-US
+locate my podcast	[IN:play_podcasts ]	play	en-US
+proceed to the next episode	[IN:play_podcasts [SL:podcast_descriptor next episode] ]	play	en-US
+play newest reason podcast	[IN:play_podcasts [SL:podcast_name reason] ]	play	en-US
+move to the next episode	[IN:play_podcasts [SL:podcast_descriptor next episode] ]	play	en-US
+play the seventh episode of the morning after	[IN:play_podcasts [SL:podcast_name the morning after] ]	play	en-US
+find and make a playlist of all the latest dancing tracks	[IN:play_music ]	play	en-US
+arrange and play all songs of eminem	[IN:play_music [SL:artist_name eminem] ]	play	en-US
+plays the podcast from the beginning	[IN:play_podcasts ]	play	en-US
+hey play that podcast i stopped last night	[IN:play_podcasts [SL:podcast_descriptor stopped last night] ]	play	en-US
+skip to next podcast	[IN:play_podcasts [SL:podcast_descriptor next podcast] ]	play	en-US
+replay the following podcast	[IN:play_podcasts ]	play	en-US
+skip to the next podcast	[IN:play_podcasts [SL:podcast_descriptor next podcast] ]	play	en-US
+i want to listen to m. c.'s podcast	[IN:play_podcasts [SL:person m. c.'s] ]	play	en-US
+favorite	[IN:play_podcasts ]	play	en-US
+go forward please	[IN:play_podcasts [SL:player_setting forward] ]	play	en-US
+find podcast and play it	[IN:play_podcasts ]	play	en-US
+can you play my music file	[IN:play_music ]	play	en-US
+skip to the next episode	[IN:play_podcasts [SL:podcast_descriptor next episode] ]	play	en-US
+end this podcast start anew	[IN:play_podcasts ]	play	en-US
+listen to duncan trussel's latest podcast	[IN:play_podcasts [SL:person duncan trussel's] ]	play	en-US
+play the last next episode	[IN:play_podcasts [SL:podcast_descriptor next episode] ]	play	en-US
+start podcast m. l. b. daily	[IN:play_podcasts [SL:podcast_name m. l. b. daily] ]	play	en-US
+show me the top rated podcasts	[IN:play_podcasts [SL:podcast_descriptor top rated] ]	play	en-US
+play episode of stuff you should know in queue	[IN:play_podcasts [SL:podcast_name stuff] ]	play	en-US
+play classic songs	[IN:play_music [SL:music_genre classic] ]	play	en-US
+play good mythical morning podcast	[IN:play_podcasts [SL:podcast_name good mythical morning] ]	play	en-US
+back one episode	[IN:play_podcasts ]	play	en-US
+rewind button	[IN:play_podcasts [SL:player_setting rewind] ]	play	en-US
+show me the last episode	[IN:play_podcasts ]	play	en-US
+olly play heavyweight podcast	[IN:play_podcasts [SL:podcast_name heavyweight] ]	play	en-US
+play the podcast of barack obama saved in device	[IN:play_podcasts [SL:podcast_name barack obama] ]	play	en-US
+network podcast	[IN:play_podcasts ]	play	en-US
+much more clearer and subject oriented	[IN:play_podcasts ]	play	en-US
+short and simple	[IN:play_podcasts ]	play	en-US
+play the most current episode of levin	[IN:play_podcasts [SL:podcast_descriptor most current episode] [SL:podcast_name levin] ]	play	en-US
+i want to hear this podcast	[IN:play_podcasts ]	play	en-US
+what new movies are played in cinemas this week	[IN:recommendation_movies [SL:date this week] ]	recommendation	en-US
+are there dog shows going on near new york city	[IN:recommendation_events [SL:event_name dog shows] [SL:place_name new york city] ]	recommendation	en-US
+where is the nearest pub in the city	[IN:recommendation_locations [SL:business_type pub] [SL:place_name city] ]	recommendation	en-US
+what concerts are due nearby	[IN:recommendation_events [SL:event_name concerts] [SL:time due] ]	recommendation	en-US
+what movies are being shown at the regal cinema	[IN:recommendation_movies [SL:place_name regal cinema] ]	recommendation	en-US
+what exhibits or shows are scheduled at the metropolitan theater	[IN:recommendation_events [SL:event_name exhibits] [SL:event_name shows] [SL:place_name metropolitan theater] ]	recommendation	en-US
+what events are happening near me	[IN:recommendation_events ]	recommendation	en-US
+where should i go for mexican food in my area	[IN:recommendation_locations [SL:food_type mexican] ]	recommendation	en-US
+i need some sushi what's closest	[IN:recommendation_locations [SL:food_type sushi] ]	recommendation	en-US
+search for nearby chinese restaurants	[IN:recommendation_locations [SL:food_type chinese] [SL:business_type restaurants] ]	recommendation	en-US
+where is the food festival tonight	[IN:recommendation_events [SL:event_name food festival] [SL:timeofday tonight] ]	recommendation	en-US
+i'm looking for some dress shows can you find clothing stores within one mile	[IN:recommendation_locations [SL:business_type dress shows] [SL:place_name within one mile] ]	recommendation	en-US
+where is the closest restaurant	[IN:recommendation_locations [SL:business_type restaurant] ]	recommendation	en-US
+olly pinpoint me the location of the shop	[IN:recommendation_locations ]	recommendation	en-US
+what new movies available today	[IN:recommendation_movies [SL:date today] ]	recommendation	en-US
+show me some food court nearest to my location	[IN:recommendation_locations [SL:business_type food court] [SL:place_name nearest to my location] ]	recommendation	en-US
+any good bike shops in oxford	[IN:recommendation_locations [SL:business_type bike shops] [SL:place_name oxford] ]	recommendation	en-US
+best bar in local area	[IN:recommendation_locations [SL:business_type bar] ]	recommendation	en-US
+tell me all local events	[IN:recommendation_events ]	recommendation	en-US
+near by grocery	[IN:recommendation_locations [SL:business_type grocery] ]	recommendation	en-US
+which rom com movie can i watch in theaters around new york	[IN:recommendation_movies [SL:movie_type rom com] [SL:place_name new york] ]	recommendation	en-US
+make a to do list while visiting the yellow stone national park	[IN:recommendation_events [SL:place_name yellow stone national park] ]	recommendation	en-US
+which things should i do when i visit the yellowstone national park	[IN:recommendation_events [SL:place_name yellowstone national park] ]	recommendation	en-US
+what's going on around me	[IN:recommendation_events ]	recommendation	en-US
+theaters near to me	[IN:recommendation_movies [SL:business_type theaters] ]	recommendation	en-US
+which book fair events are taking place next week in washington d. c.	[IN:recommendation_events [SL:event_name book fair] [SL:date next week] [SL:place_name washington d. c.] ]	recommendation	en-US
+what is the nearest theater that plays the new vin diesel movie	[IN:recommendation_movies [SL:movie_name vin diesel] ]	recommendation	en-US
+what events are going on in new york city	[IN:recommendation_events [SL:place_name new york city] ]	recommendation	en-US
+logan	[IN:recommendation_movies [SL:movie_name logan] ]	recommendation	en-US
+who sells the cheapest netbooks in south austin	[IN:recommendation_locations [SL:place_name south austin] ]	recommendation	en-US
+what's the best clothes store here	[IN:recommendation_locations [SL:business_type clothes store] ]	recommendation	en-US
+find a shop that sells beer	[IN:recommendation_locations [SL:drink_type beer] ]	recommendation	en-US
+what movies are playing at theaters near me	[IN:recommendation_movies [SL:place_name theaters] ]	recommendation	en-US
+what are movies that are playing near me with high reviews	[IN:recommendation_movies ]	recommendation	en-US
+movies with good rotten tomato ratings	[IN:recommendation_movies ]	recommendation	en-US
+what activities are taking place in my area	[IN:recommendation_events ]	recommendation	en-US
+which flags ride is the best	[IN:recommendation_events ]	recommendation	en-US
+what's worth watching	[IN:recommendation_movies ]	recommendation	en-US
+tell me about activities in my area this weekend	[IN:recommendation_events [SL:date this weekend] ]	recommendation	en-US
+what's going on in la	[IN:recommendation_events [SL:place_name la] ]	recommendation	en-US
+what kind of shops are near my locality	[IN:recommendation_locations [SL:business_type shops] ]	recommendation	en-US
+can you recommend a cheap restaurant in this area	[IN:recommendation_locations [SL:business_type restaurant] ]	recommendation	en-US
+olly what are some restaurants near me	[IN:recommendation_locations [SL:business_type restaurants] ]	recommendation	en-US
+where can i find the nearest irish pub in my area	[IN:recommendation_locations [SL:business_type irish pub] ]	recommendation	en-US
+olly what bars are around me	[IN:recommendation_locations [SL:business_type bars] ]	recommendation	en-US
+show me all the events happening in milan	[IN:recommendation_events [SL:place_name milan] ]	recommendation	en-US
+tell me what's going on in my city	[IN:recommendation_events ]	recommendation	en-US
+what is going on in la today	[IN:recommendation_events [SL:place_name la] [SL:date today] ]	recommendation	en-US
+how many grocery stores are located in my neighborhood	[IN:recommendation_locations ]	recommendation	en-US
+ask a restaurant in my area	[IN:recommendation_locations [SL:business_type restaurant] ]	recommendation	en-US
+i'm starving what's good to eat in cincinnati	[IN:recommendation_locations [SL:business_type good to eat] [SL:place_name cincinnati] ]	recommendation	en-US
+olly where can i got to grab some drinks in west chester	[IN:recommendation_locations [SL:business_type drinks] [SL:place_name west chester] ]	recommendation	en-US
+today's local events	[IN:recommendation_events [SL:date today's] ]	recommendation	en-US
+list all the nearby shops	[IN:recommendation_locations [SL:business_type shops] ]	recommendation	en-US
+can you recommend any pub in milligrams road	[IN:recommendation_locations [SL:business_type pub] [SL:place_name milligrams road] ]	recommendation	en-US
+what's going on around the neighborhood	[IN:recommendation_events [SL:place_name around the neighborhood] ]	recommendation	en-US
+i need a place that will deliver pizza to me in benton are	[IN:recommendation_locations [SL:food_type pizza] [SL:place_name benton are] ]	recommendation	en-US
+is there any chinese places in benton are	[IN:recommendation_locations [SL:food_type chinese] [SL:place_name benton are] ]	recommendation	en-US
+please search for events in my location	[IN:recommendation_events ]	recommendation	en-US
+hey olly i want to get trains to manchester on wednesday	[IN:transport_ticket [SL:place_name manchester] [SL:date wednesday] ]	transport	en-US
+when's the next train to cornwall	[IN:transport_query [SL:transport_type train] [SL:place_name cornwall] ]	transport	en-US
+what's the best way to france	[IN:transport_query [SL:place_name france] ]	transport	en-US
+i am going to chinatown in half an hour book an uber for me	[IN:transport_taxi [SL:place_name chinatown] [SL:time half an hour] [SL:transport_agency uber] ]	transport	en-US
+olly book a ticket to paris on eurostar at five p. m. this friday	[IN:transport_ticket [SL:place_name paris] [SL:transport_name eurostar] [SL:time five p. m.] [SL:date this friday] ]	transport	en-US
+book my chair class a. c. train ticket from manhattan to new york	[IN:transport_ticket [SL:transport_type train] [SL:place_name manhattan] [SL:place_name new york] ]	transport	en-US
+how is the traffic situation in houston street	[IN:transport_traffic [SL:place_name houston street] ]	transport	en-US
+call me an uber for right now	[IN:transport_taxi [SL:transport_agency uber] ]	transport	en-US
+is there more traffic in canal street	[IN:transport_traffic [SL:place_name canal street] ]	transport	en-US
+how much traffic is there right now in bowery street	[IN:transport_traffic [SL:place_name bowery street] ]	transport	en-US
+send an uber to me right now	[IN:transport_taxi [SL:transport_agency uber] ]	transport	en-US
+where is the train station	[IN:transport_query [SL:place_name train station] ]	transport	en-US
+could you please have uber be at my house in fifteen minutes	[IN:transport_taxi [SL:transport_agency uber] [SL:place_name house] [SL:time fifteen minutes] ]	transport	en-US
+i need a taxi to take me to the airport please	[IN:transport_taxi [SL:transport_type taxi] [SL:place_name airport] ]	transport	en-US
+book me a plane ticket	[IN:transport_ticket ]	transport	en-US
+look for a taxi to go home	[IN:transport_taxi [SL:transport_type taxi] [SL:place_name home] ]	transport	en-US
+book uber from my home	[IN:transport_taxi [SL:transport_agency uber] [SL:place_name home] ]	transport	en-US
+can you please let me know the next four scheduled trains to chicago	[IN:transport_query [SL:place_name chicago] ]	transport	en-US
+how is the traffic in milligrams road	[IN:transport_traffic [SL:place_name milligrams road] ]	transport	en-US
+how is traffic	[IN:transport_traffic ]	transport	en-US
+get me an amtrak ticket to boston for next thursday the later the better	[IN:transport_query [SL:place_name boston] [SL:date thursday] ]	transport	en-US
+what is the schedule time of punjab mail to reach gwalior	[IN:transport_query [SL:place_name punjab] [SL:place_name gwalior] ]	transport	en-US
+when is the next train to b. street	[IN:transport_query [SL:transport_type train] [SL:place_name b. street] ]	transport	en-US
+lets get a taxi	[IN:transport_taxi [SL:transport_type taxi] ]	transport	en-US
+direct me towards nearest railway station	[IN:transport_query [SL:place_name railway station] ]	transport	en-US
+train time from brooklyn to queens	[IN:transport_query [SL:transport_type train] [SL:place_name brooklyn] [SL:place_name queens] ]	transport	en-US
+search for two tickets on tuesday's train to paris	[IN:transport_ticket [SL:date tuesday's] [SL:transport_type train] [SL:place_name paris] ]	transport	en-US
+what is the condition of traffic from work to home	[IN:transport_traffic [SL:place_name home] ]	transport	en-US
+tell me the traffic condition from here to home	[IN:transport_traffic [SL:place_name home] ]	transport	en-US
+reserve a taxi	[IN:transport_taxi [SL:transport_type taxi] ]	transport	en-US
+coach and fare	[IN:transport_ticket ]	transport	en-US
+in delhi traffic level too high	[IN:transport_traffic [SL:place_name delhi] ]	transport	en-US
+book a taxi to the airport for tomorrow morning	[IN:transport_taxi [SL:transport_type taxi] [SL:place_name airport] [SL:date tomorrow] [SL:timeofday morning] ]	transport	en-US
+i would like to know the traffic condition	[IN:transport_traffic ]	transport	en-US
+book my nearest available taxi	[IN:transport_taxi [SL:transport_type taxi] ]	transport	en-US
+how do i get to brighton	[IN:transport_query [SL:place_name brighton] ]	transport	en-US
+get me an uber	[IN:transport_taxi [SL:transport_agency uber] ]	transport	en-US
+book a taxi	[IN:transport_taxi [SL:transport_type taxi] ]	transport	en-US
+repurchase last train ticket to phillyx	[IN:transport_ticket [SL:transport_type train] [SL:place_name phillyx] ]	transport	en-US
+buy me today train ticket to city leeds	[IN:transport_ticket [SL:date today] [SL:transport_type train] [SL:place_name leeds] ]	transport	en-US
+directions to nearest apple store	[IN:transport_query [SL:business_name apple store] ]	transport	en-US
+give me the idea of current traffic condition	[IN:transport_traffic ]	transport	en-US
+what are the train times to travel from new york city to poughkeepsie	[IN:transport_query [SL:transport_type train] [SL:place_name new york city] [SL:place_name poughkeepsie] ]	transport	en-US
+how do i get to poughkeepsie from new york city	[IN:transport_query [SL:place_name poughkeepsie] [SL:place_name new york city] ]	transport	en-US
+how is the traffic from home to work	[IN:transport_traffic [SL:place_name home] ]	transport	en-US
+catch a ride	[IN:transport_taxi ]	transport	en-US
+what are the train times on the twenty third to clarksville	[IN:transport_query [SL:transport_type train] [SL:date twenty third] [SL:place_name clarksville] ]	transport	en-US
+purchase train ticket	[IN:transport_ticket [SL:transport_type train] ]	transport	en-US
+need a taxi tomorrow at eight in the morning	[IN:transport_taxi [SL:transport_type taxi] [SL:date tomorrow] [SL:time eight] [SL:timeofday morning] ]	transport	en-US
+book ticket to depart in the morning	[IN:transport_ticket [SL:timeofday morning] ]	transport	en-US
+find an uber driver available for tonight after ten p. m.	[IN:transport_taxi [SL:transport_agency uber] [SL:timeofday tonight] [SL:time ten p. m.] ]	transport	en-US
+what time does the train leave for chicago	[IN:transport_query [SL:transport_type train] [SL:place_name chicago] ]	transport	en-US
+can you book me a train ticket to boston for next tuesday	[IN:transport_ticket [SL:transport_type train] [SL:place_name boston] [SL:date tuesday] ]	transport	en-US
+what time does the train leave philadelphia	[IN:transport_query [SL:transport_type train] [SL:place_name philadelphia] ]	transport	en-US
+when is the next septa train to philadelphia	[IN:transport_query [SL:transport_type train] [SL:place_name philadelphia] ]	transport	en-US
+get me the number for local taxi service	[IN:transport_taxi [SL:business_type taxi service] ]	transport	en-US
+give me directions for the place	[IN:transport_query ]	transport	en-US
+directions to disney world	[IN:transport_query [SL:place_name disney world] ]	transport	en-US
+i need to get to location call a cab	[IN:transport_taxi [SL:transport_type cab] ]	transport	en-US
+i'd like a listing of all train ticket prices for this location please	[IN:transport_query [SL:transport_type train] ]	transport	en-US
+i need to go to lyon book a train ticket	[IN:transport_ticket [SL:place_name lyon] [SL:transport_type train] ]	transport	en-US
+what are the train times from san francisco to new york	[IN:transport_query [SL:transport_type train] [SL:place_name san francisco] [SL:place_name new york] ]	transport	en-US
+olly please purchase me a train ticket to atlanta	[IN:transport_ticket [SL:transport_type train] [SL:place_name atlanta] ]	transport	en-US
+how much for a train ticket	[IN:transport_query [SL:transport_type train] ]	transport	en-US
+please send me info on how to go about purchasing a train ticket to new york	[IN:transport_query [SL:transport_type train] [SL:place_name new york] ]	transport	en-US
+can you give me train times for ann arbor	[IN:transport_query [SL:transport_type train] [SL:place_name ann arbor] ]	transport	en-US
+book me a train ticket to chicago for tomorrow morning before ten	[IN:transport_ticket [SL:transport_type train] [SL:place_name chicago] [SL:date tomorrow] [SL:time ten] ]	transport	en-US
+i want to go to bank of america give me directions	[IN:transport_query [SL:business_name bank of america] ]	transport	en-US
+please order one train ticket to los angeles	[IN:transport_ticket [SL:transport_type train] [SL:place_name los angeles] ]	transport	en-US
+i need a taxi at eight tomorrow morning to take me to work	[IN:transport_taxi [SL:transport_type taxi] [SL:time eight] [SL:date tomorrow] [SL:timeofday morning] ]	transport	en-US
+current traffic	[IN:transport_traffic ]	transport	en-US
+what are the train times for	[IN:transport_query [SL:transport_type train] ]	transport	en-US
+could you please check the traffic to our home	[IN:transport_traffic [SL:place_name home] ]	transport	en-US
+is traffic heavy	[IN:transport_traffic ]	transport	en-US
+buy me a ticket to take the train to atlanta	[IN:transport_ticket [SL:transport_type train] [SL:place_name atlanta] ]	transport	en-US
+how much traffic does atlanta georgia usually have	[IN:transport_traffic [SL:place_name atlanta georgia] ]	transport	en-US
+book train ticket for this time	[IN:transport_ticket [SL:transport_type train] ]	transport	en-US
+set up uber	[IN:transport_taxi [SL:transport_agency uber] ]	transport	en-US
+find me a ride to the mall of america please	[IN:transport_taxi [SL:place_name mall of america] ]	transport	en-US
+call a taxi to pick me up right now	[IN:transport_taxi [SL:transport_type taxi] ]	transport	en-US
+are there any traffic issues	[IN:transport_traffic ]	transport	en-US
+what is the route to the closest mcdonalds	[IN:transport_query [SL:business_name mcdonalds] ]	transport	en-US
+what street do i take to get to downtown	[IN:transport_query [SL:place_name downtown] ]	transport	en-US
+i need to buy a train ticket	[IN:transport_ticket [SL:transport_type train] ]	transport	en-US
+book a train ticket to	[IN:transport_ticket [SL:transport_type train] ]	transport	en-US
+how much is a train ticket to san fransisco	[IN:transport_query [SL:transport_type train] [SL:place_name san fransisco] ]	transport	en-US
+request a taxi from udrive service	[IN:transport_taxi [SL:transport_type taxi] [SL:business_name udrive service] ]	transport	en-US
+what is the traffic this morning	[IN:transport_traffic [SL:timeofday morning] ]	transport	en-US
+what is the traffic now	[IN:transport_traffic ]	transport	en-US
+how is the traffic near me	[IN:transport_traffic ]	transport	en-US
+what is current traffic in ohio	[IN:transport_traffic [SL:place_name ohio] ]	transport	en-US
+list all train time to ny	[IN:transport_query [SL:transport_type train] [SL:place_name ny] ]	transport	en-US
+show all train and time to ny	[IN:transport_query [SL:transport_type train] [SL:place_name ny] ]	transport	en-US
+get me a train ticket to chicago today	[IN:transport_ticket [SL:transport_type train] [SL:place_name chicago] [SL:date today] ]	transport	en-US
+what is the quickest way to grand central	[IN:transport_query ]	transport	en-US
+open irctc application and go to book ticket	[IN:transport_ticket [SL:app_name irctc] ]	transport	en-US
+book for me a train ticket to washingdon d. c.	[IN:transport_ticket [SL:transport_type train] [SL:place_name washingdon d. c.] ]	transport	en-US
+book a taxi for pickup at my current location in one hour's time	[IN:transport_taxi [SL:transport_type taxi] [SL:time one hour's] ]	transport	en-US
+which route has less traffic today	[IN:transport_traffic [SL:date today] ]	transport	en-US
+book my train ticket to new york	[IN:transport_ticket [SL:transport_type train] [SL:place_name new york] ]	transport	en-US
+get me a taxi to take me to the airport on friday at five thirty am	[IN:transport_taxi [SL:transport_type taxi] [SL:place_name airport] [SL:date friday] [SL:time five thirty am] ]	transport	en-US
+get me a ride on the commuter train from nj to ny	[IN:transport_ticket [SL:transport_type train] [SL:place_name nj] [SL:place_name ny] ]	transport	en-US
+could you list out the list of trains heading to chester the day after	[IN:transport_query [SL:place_name chester] [SL:date the day after] ]	transport	en-US
+is the road in some particular area wide or narrow	[IN:transport_traffic ]	transport	en-US
+reserve a seat for me on the train march twentieth	[IN:transport_ticket [SL:transport_type train] [SL:date march twentieth] ]	transport	en-US
+please let me know the time of train northern rail	[IN:transport_query [SL:transport_type train] [SL:transport_name northern rail] ]	transport	en-US
+please book the next taxi	[IN:transport_taxi [SL:transport_type taxi] ]	transport	en-US
+open the uber app and get me a car please	[IN:transport_taxi [SL:transport_agency uber] [SL:transport_type car] ]	transport	en-US
+hey what time can i catch the nearest train to me	[IN:transport_query [SL:transport_type train] ]	transport	en-US
+find a definition	[IN:qa_definition ]	qa	en-US
+who is president of poland	[IN:qa_factoid [SL:place_name poland] ]	qa	en-US
+what currency does croatia use	[IN:qa_currency [SL:place_name croatia] ]	qa	en-US
+how tall is a giraffe	[IN:qa_factoid ]	qa	en-US
+in what scenario would you use word inconvenience	[IN:qa_definition [SL:definition_word inconvenience] ]	qa	en-US
+calculate the resistance of this resistor	[IN:qa_factoid ]	qa	en-US
+google	[IN:qa_maths ]	qa	en-US
+browsing centers	[IN:qa_maths ]	qa	en-US
+tell me the brief definition of evacuation	[IN:qa_definition [SL:definition_word evacuation] ]	qa	en-US
+do you think time travel is possible	[IN:general_quirky ]	general	en-US
+what age is britney spears	[IN:qa_factoid [SL:person britney spears] ]	qa	en-US
+email friend	[IN:email_sendemail ]	email	en-US
+explain to me about what different countries are represented in the book of revelation	[IN:general_quirky ]	general	en-US
+what is three times seven	[IN:qa_maths ]	qa	en-US
+what should i cook tonight	[IN:general_quirky [SL:timeofday tonight] ]	general	en-US
+tell me what happens when we die	[IN:general_quirky ]	general	en-US
+what state is david lynch from	[IN:qa_factoid [SL:person david lynch] ]	qa	en-US
+set up a date for just you and me	[IN:general_quirky ]	general	en-US
+what is the square root of forty two	[IN:qa_maths ]	qa	en-US
+tell me why bill bur is a better comedian than iliza schleshinger	[IN:qa_factoid [SL:person bill bur] [SL:person iliza schleshinger] ]	qa	en-US
+tell me tom hanks middle name	[IN:qa_factoid [SL:person tom hanks] ]	qa	en-US
+how to spell the word giraffe	[IN:qa_definition [SL:definition_word giraffe] ]	qa	en-US
+can you able to say the word demonetisation	[IN:qa_definition [SL:definition_word demonetisation] ]	qa	en-US
+which was longest buildings in the world	[IN:qa_factoid [SL:place_name world] ]	qa	en-US
+do you hear songs of arrahman music	[IN:music_query [SL:artist_name arrahman] ]	music	en-US
+schedule a meeting with my colleague	[IN:calendar_set [SL:event_name meeting] [SL:relation colleague] ]	calendar	en-US
+actor who acts a role	[IN:qa_definition ]	qa	en-US
+please give me information next movie of aamir khan	[IN:qa_factoid [SL:person aamir khan] ]	qa	en-US
+none	[IN:qa_factoid ]	qa	en-US
+can you lie	[IN:general_quirky ]	general	en-US
+what is hurricane	[IN:qa_definition [SL:definition_word hurricane] ]	qa	en-US
+google the word	[IN:qa_definition ]	qa	en-US
+calculate distance from boston to new york	[IN:qa_factoid [SL:place_name boston] [SL:place_name new york] ]	qa	en-US
+solve the calculation	[IN:qa_maths ]	qa	en-US
+what is the population of los angeles	[IN:qa_factoid [SL:place_name los angeles] ]	qa	en-US
+what is your mother language	[IN:general_quirky ]	general	en-US
+how old is jennifer lopez	[IN:qa_factoid [SL:person jennifer lopez] ]	qa	en-US
+sum up all the things for me i could do to make myself happier	[IN:general_quirky ]	general	en-US
+if there were ten easy steps to make myself rich what would they be	[IN:general_quirky ]	general	en-US
+largest animal	[IN:qa_factoid ]	qa	en-US
+tallest building	[IN:qa_factoid ]	qa	en-US
+where is justin bieber's home base	[IN:qa_factoid [SL:person justin bieber's] ]	qa	en-US
+what is my location	[IN:general_quirky ]	general	en-US
+with all of the information you can gather on the internet could you please provide me with the best probable explanation of who killed president kennedy	[IN:qa_factoid ]	qa	en-US
+i would like my to write original romantic messages for my wife	[IN:general_quirky [SL:relation wife] ]	general	en-US
+tell me the story of ramanujan and his mathematical journey	[IN:qa_factoid [SL:person ramanujan] ]	qa	en-US
+the following question asks you to analyze teacher goals and actions intended	[IN:qa_factoid ]	qa	en-US
+who are the greatest hip hop artists	[IN:qa_factoid [SL:music_genre hip hop] ]	qa	en-US
+what does hypocrisy mean	[IN:qa_definition [SL:definition_word hypocrisy] ]	qa	en-US
+what does the word hypocrisy mean	[IN:qa_definition [SL:definition_word hypocrisy] ]	qa	en-US
+answer this question what's the first boss in super mario brothers	[IN:general_quirky ]	general	en-US
+use in a sentence	[IN:qa_definition ]	qa	en-US
+what is the answer to two plus two	[IN:qa_maths ]	qa	en-US
+define swerving	[IN:qa_definition [SL:definition_word swerving] ]	qa	en-US
+when defining words give thesaurus and use in a sentence to make it clearer	[IN:general_quirky ]	general	en-US
+who are the top five all time n. h. l. goal scorers	[IN:general_quirky ]	general	en-US
+when was benjamin franklin born	[IN:qa_factoid [SL:person benjamin franklin] ]	qa	en-US
+who is the governor of new york	[IN:qa_factoid [SL:place_name new york] ]	qa	en-US
+what is the definition of pda	[IN:qa_definition [SL:definition_word pda] ]	qa	en-US
+what is trump's approval rating	[IN:qa_factoid [SL:person trump's] ]	qa	en-US
+can you tell me how to get the answer to this	[IN:general_quirky ]	general	en-US
+solve math issue	[IN:qa_maths ]	qa	en-US
+is there life on other planets	[IN:general_quirky ]	general	en-US
+what is your favorite color	[IN:general_quirky ]	general	en-US
+what do you think of the three laws of robotics	[IN:general_quirky ]	general	en-US
+tell me the lucky color of today	[IN:general_quirky [SL:date today] ]	general	en-US
+read a poem for me	[IN:general_quirky ]	general	en-US
+is there a correlation between the weather in beijing and nasdaq prices over the last week	[IN:general_quirky [SL:place_name beijing] [SL:date last week] ]	general	en-US
+is tom cruise an only child	[IN:qa_factoid [SL:person tom cruise] ]	qa	en-US
+please search for this word	[IN:qa_definition ]	qa	en-US
+why is the sky blue	[IN:qa_factoid ]	qa	en-US
+what is twenty four times twenty four	[IN:qa_maths ]	qa	en-US
+how long is an earth day	[IN:qa_factoid ]	qa	en-US
+i hope we could have lunch together	[IN:general_quirky [SL:meal_type lunch] ]	general	en-US
+who was in the beatles	[IN:qa_factoid [SL:artist_name beatles] ]	qa	en-US
+will the world come to an end when	[IN:general_quirky ]	general	en-US
+what does tense mean	[IN:qa_definition [SL:definition_word tense] ]	qa	en-US
+where is my girl friend right now	[IN:general_quirky ]	general	en-US
+look up the definition to ambulance	[IN:qa_definition [SL:definition_word ambulance] ]	qa	en-US
+are jello shots calorie free	[IN:qa_factoid ]	qa	en-US
+can you tell me the cheapest place to get ground beef	[IN:recommendation_locations ]	recommendation	en-US
+what does potato mean	[IN:qa_definition [SL:definition_word potato] ]	qa	en-US
+tell me an interesting fact about this	[IN:general_quirky ]	general	en-US
+when is the next touring	[IN:general_quirky ]	general	en-US
+what is the exchange rate between the dollar and the euro currently	[IN:qa_currency [SL:currency_name dollar] [SL:currency_name euro] ]	qa	en-US
+define framework	[IN:qa_definition [SL:definition_word framework] ]	qa	en-US
+describe a potato	[IN:qa_definition [SL:definition_word potato] ]	qa	en-US
+how many times has adel gone diamond	[IN:qa_factoid ]	qa	en-US
+tell me the most strange thing happening in the world today	[IN:general_quirky [SL:date today] ]	general	en-US
+tell me time it is	[IN:datetime_query ]	datetime	en-US
+how do you define textual	[IN:qa_definition [SL:definition_word textual] ]	qa	en-US
+i want to take a trip to switzerland for free can you take me there	[IN:general_quirky [SL:place_name switzerland] ]	general	en-US
+what is the yen us dollar exchange rate	[IN:qa_currency [SL:currency_name yen us dollar] ]	qa	en-US
+how many miles in five kilometers	[IN:qa_maths ]	qa	en-US
+how old is angelina jolie	[IN:qa_factoid [SL:person angelina jolie] ]	qa	en-US
+where is stockton california	[IN:qa_factoid [SL:place_name stockton california] ]	qa	en-US
+what is barack obama doing right now	[IN:qa_factoid [SL:person barack obama] ]	qa	en-US
+what is a cell tower	[IN:qa_definition [SL:definition_word cell tower] ]	qa	en-US
+what is s. d. in francs	[IN:qa_currency [SL:currency_name s. d.] [SL:currency_name francs] ]	qa	en-US
+how many miles is new york city from los angeles	[IN:qa_factoid [SL:place_name new york city] [SL:place_name los angeles] ]	qa	en-US
+what is the exchange rate of u. s. d. to cad	[IN:qa_currency [SL:currency_name u. s. d.] [SL:currency_name cad] ]	qa	en-US
+what do you know about the statue of liberty	[IN:qa_definition [SL:definition_word the statue of liberty] ]	qa	en-US
+what's the exchange rates between u. s. a. and china	[IN:qa_currency [SL:place_name u. s. a.] [SL:place_name china] ]	qa	en-US
+find me info on	[IN:qa_definition ]	qa	en-US
+what's the average elevation of the united states	[IN:qa_factoid ]	qa	en-US
+what is the exchange rate between us and france	[IN:qa_currency [SL:currency_name us] [SL:currency_name france] ]	qa	en-US
+how many people live in san francisco	[IN:qa_factoid [SL:place_name san francisco] ]	qa	en-US
+siri what is one american dollar in japanese yen	[IN:qa_currency [SL:currency_name american dollar] [SL:currency_name japanese yen] ]	qa	en-US
+what year was bill pullman born	[IN:qa_factoid [SL:person bill pullman] ]	qa	en-US
+tell me about morel mushrooms	[IN:qa_definition [SL:definition_word morel mushrooms] ]	qa	en-US
+stock prices at walmart	[IN:qa_stock [SL:business_name walmart] ]	qa	en-US
+which religion is most true	[IN:general_quirky ]	general	en-US
+how many miles is it between illinois and louisiana	[IN:qa_factoid [SL:place_name illinois] [SL:place_name louisiana] ]	qa	en-US
+how old is tom hanks	[IN:qa_factoid [SL:person tom hanks] ]	qa	en-US
+has sally fields ever won an academy award	[IN:qa_factoid [SL:person sally fields] ]	qa	en-US
+tell me the exchange rate for the yen	[IN:qa_currency [SL:currency_name yen] ]	qa	en-US
+how much is us dollar against rupee	[IN:qa_currency [SL:currency_name us dollar] [SL:currency_name rupee] ]	qa	en-US
+please show me the exchange rate between the dollar and the yen	[IN:qa_currency [SL:currency_name dollar] [SL:currency_name yen] ]	qa	en-US
+what is the definition of a home run	[IN:qa_definition [SL:definition_word home run] ]	qa	en-US
+how old is barack obaba	[IN:qa_factoid [SL:person barack obaba] ]	qa	en-US
+i need to keep two toddlers busy tell me what to do	[IN:general_quirky ]	general	en-US
+can you give me the exchange rate for dollar in rupees	[IN:qa_factoid ]	qa	en-US
+tell me about the solar powered garden stakes	[IN:qa_definition [SL:definition_word solar powered garden stakes] ]	qa	en-US
+what is the biggest city in new hampshire	[IN:qa_factoid [SL:place_name new hampshire] ]	qa	en-US
+what's a description of a virtual reality headset	[IN:qa_definition [SL:definition_word virtual reality headset] ]	qa	en-US
+do i have any new tinder matches	[IN:calendar_query ]	calendar	en-US
+what does a banana look like	[IN:qa_definition [SL:definition_word banana] ]	qa	en-US
+who is donald trump	[IN:qa_factoid [SL:person donald trump] ]	qa	en-US
+where is denmark	[IN:qa_factoid [SL:place_name denmark] ]	qa	en-US
+what is a fjord	[IN:qa_factoid [SL:place_name fjord] ]	qa	en-US
+when was dolly parton born	[IN:qa_factoid [SL:person dolly parton] ]	qa	en-US
+what does tweet mean	[IN:qa_definition [SL:definition_word tweet] ]	qa	en-US
+where is north dakota	[IN:qa_factoid [SL:place_name north dakota] ]	qa	en-US
+what does triumph mean	[IN:qa_definition [SL:definition_word triumph] ]	qa	en-US
+what us state is farthest north	[IN:qa_factoid ]	qa	en-US
+where is stonehenge	[IN:qa_factoid ]	qa	en-US
+i need the stock price for amazon	[IN:qa_stock [SL:business_name amazon] ]	qa	en-US
+what is the rate of inr	[IN:qa_currency [SL:currency_name inr] ]	qa	en-US
+what is burmuda tiangle	[IN:qa_factoid ]	qa	en-US
+what is the exchange rate for philippine pesos	[IN:qa_currency [SL:currency_name philippine pesos] ]	qa	en-US
+what is the current stock rate of facebook	[IN:qa_stock [SL:business_name facebook] ]	qa	en-US
+show bio of rihana	[IN:qa_factoid [SL:artist_name rihana] ]	qa	en-US
+euro to u. s. d.	[IN:qa_currency [SL:currency_name euro] [SL:currency_name u. s. d.] ]	qa	en-US
+could you please give me the birthday of mahatma gandhiji	[IN:qa_factoid [SL:event_name birthday] [SL:person mahatma gandhiji] ]	qa	en-US
+what type of pant is a culotte	[IN:qa_factoid ]	qa	en-US
+try out in wikipedia	[IN:qa_definition ]	qa	en-US
+olly is a dollar worth more or less in brazil	[IN:qa_currency [SL:currency_name dollar] [SL:place_name brazil] ]	qa	en-US
+what does the shirt look like	[IN:qa_definition [SL:definition_word shirt] ]	qa	en-US
+ask my adviser	[IN:qa_stock ]	qa	en-US
+what's the dow jones at today	[IN:qa_stock [SL:date today] ]	qa	en-US
+please tell me when i can become rich if i invested in dow stocks today and what will be the return after five years	[IN:qa_stock ]	qa	en-US
+what year was elvis born	[IN:qa_factoid [SL:person elvis] ]	qa	en-US
+find the exact location of the places	[IN:recommendation_locations ]	recommendation	en-US
+how many inches make one feet	[IN:qa_maths ]	qa	en-US
+how much is the euro versus the canadian dollar	[IN:qa_currency [SL:currency_name euro] [SL:currency_name canadian dollar] ]	qa	en-US
+list top five movies of emma watson	[IN:qa_factoid [SL:person emma watson] ]	qa	en-US
+what's the exchange rate between the us dollar and the euro	[IN:qa_currency [SL:currency_name us dollar] [SL:currency_name euro] ]	qa	en-US
+what is six minus four	[IN:qa_maths ]	qa	en-US
+tell me one euro equals dollars	[IN:qa_currency [SL:currency_name euro] [SL:currency_name dollars] ]	qa	en-US
+how big is england	[IN:qa_factoid [SL:place_name england] ]	qa	en-US
+tell me about new york	[IN:qa_factoid [SL:place_name new york] ]	qa	en-US
+show various plants in earth	[IN:qa_factoid ]	qa	en-US
+how is coca-cola stock doing today	[IN:qa_stock [SL:business_name coca-cola] [SL:date today] ]	qa	en-US
+who is the wife of obama	[IN:qa_factoid [SL:person obama] ]	qa	en-US
+today's closing price for google	[IN:qa_stock [SL:business_name google] ]	qa	en-US
+mention the stock price of hdfc	[IN:qa_stock [SL:business_name hdfc] ]	qa	en-US
+what does hypothesis mean	[IN:qa_definition [SL:definition_word hypothesis] ]	qa	en-US
+when did the statue of liberty made	[IN:qa_factoid ]	qa	en-US
+at what age michael phelps got married	[IN:qa_factoid [SL:person michael phelps] ]	qa	en-US
+who is arnold schwarzenegger	[IN:qa_factoid [SL:person arnold schwarzenegger] ]	qa	en-US
+what is the definition of inchoate	[IN:qa_definition [SL:definition_word inchoate] ]	qa	en-US
+how tall is the empire state building	[IN:qa_factoid ]	qa	en-US
+what is the exchange rate between u. s. d. and inr	[IN:qa_currency [SL:currency_name u. s. d.] [SL:currency_name inr] ]	qa	en-US
+describe the current state of politics	[IN:qa_factoid ]	qa	en-US
+when was justin bieber born	[IN:qa_factoid [SL:person justin bieber] ]	qa	en-US
+define yourself in one word	[IN:general_quirky ]	general	en-US
+where is the nearest italian restaurant	[IN:recommendation_locations [SL:food_type italian] [SL:business_type restaurant] ]	recommendation	en-US
+can you tell me what haggis looks like	[IN:qa_definition [SL:definition_word haggis] ]	qa	en-US
+is pink recording a new album	[IN:qa_factoid ]	qa	en-US
+definition for object name	[IN:qa_definition [SL:definition_word object name] ]	qa	en-US
+how would the volkswagen golf car look like	[IN:qa_definition [SL:definition_word volkswagen golf car] ]	qa	en-US
+features of ipad air	[IN:general_quirky ]	general	en-US
+tell me distance between sun and moon	[IN:qa_factoid ]	qa	en-US
+find world meaning in dictionary	[IN:qa_definition [SL:definition_word world] ]	qa	en-US
+which is the best smartphone in two thousand and seventeen	[IN:qa_factoid ]	qa	en-US
+exchange rate i will get with foreign currency	[IN:qa_currency ]	qa	en-US
+get me details of this person	[IN:general_quirky ]	general	en-US
+please tell few details about this person	[IN:general_quirky ]	general	en-US
+what is the most concern issue in u. s. a. today and what can be done to deal with it effectively	[IN:general_quirky [SL:place_name u. s. a.] [SL:date today] ]	general	en-US
+who was the twenty fifth president of the united states of america	[IN:qa_factoid [SL:place_name the united states of america] ]	qa	en-US
+tell me how to go bali without airplane with lowest cost option time doesn't matter i have two hundred days travel time and only dollars to spend	[IN:general_quirky ]	general	en-US
+give me the description of a laptop circuit	[IN:qa_definition [SL:definition_word laptop circuit] ]	qa	en-US
+when does iphone stock usually drop	[IN:qa_stock ]	qa	en-US
+explain	[IN:qa_definition ]	qa	en-US
+explain to me how gravity works	[IN:qa_factoid ]	qa	en-US
+when did beyonce and jay z. get married	[IN:qa_factoid [SL:person beyonce] [SL:person jay z.] ]	qa	en-US
+exchange rates between dollar and euro	[IN:qa_currency [SL:currency_name dollar] [SL:currency_name euro] ]	qa	en-US
+can you tell me what hypertrophy means	[IN:qa_definition [SL:definition_word hypertrophy] ]	qa	en-US
+stock company name	[IN:qa_stock ]	qa	en-US
+i would like it if my robot could do my work for me	[IN:general_quirky ]	general	en-US
+give me the description of laptop circuit	[IN:qa_definition [SL:definition_word laptop circuit] ]	qa	en-US
+define xy	[IN:qa_definition ]	qa	en-US
+give me the opening stock price of apple	[IN:qa_stock [SL:business_name apple] ]	qa	en-US
+where can i get organic wheat	[IN:recommendation_locations ]	recommendation	en-US
+stock please	[IN:qa_stock ]	qa	en-US
+change dollar to rupees rates	[IN:qa_currency [SL:currency_name dollar] [SL:currency_name rupees] ]	qa	en-US
+dollar rupees exchange rate	[IN:qa_currency [SL:currency_name dollar rupees] ]	qa	en-US
+what is the factor that let modi win the election	[IN:general_quirky ]	general	en-US
+earthquake prediction	[IN:general_quirky ]	general	en-US
+ok google what's the easiest and quickest way to cook a turkey	[IN:cooking_query ]	cooking	en-US
+what kind of implement is a broiler and how do i use it	[IN:general_quirky ]	general	en-US
+define broiler for me	[IN:qa_definition [SL:definition_word broiler] ]	qa	en-US
+where is statue of liberty	[IN:qa_factoid [SL:place_name statue of liberty] ]	qa	en-US
+describe to me what a ball looks like	[IN:qa_definition [SL:definition_word ball] ]	qa	en-US
+alexa give me everything you know about bob dean	[IN:qa_factoid [SL:person bob dean] ]	qa	en-US
+tell me amd stock prices	[IN:qa_stock [SL:business_name amd] ]	qa	en-US
+what are amd stock prices	[IN:qa_stock [SL:business_name amd] ]	qa	en-US
+what is the stock value of google	[IN:qa_stock [SL:business_name google] ]	qa	en-US
+you were bring an new schemes	[IN:general_quirky ]	general	en-US
+convert one pound to us dollar	[IN:qa_currency [SL:currency_name pound] [SL:currency_name us dollar] ]	qa	en-US
+high stock price	[IN:qa_stock ]	qa	en-US
+how many mega pixel is listed in the description of the canon	[IN:qa_factoid ]	qa	en-US
+how did paris hilton become famous	[IN:qa_factoid [SL:person paris hilton] ]	qa	en-US
+what is the answer to two times three	[IN:qa_maths ]	qa	en-US
+how much is twelve divided by four	[IN:qa_maths ]	qa	en-US
+what is julia roberts natural hair color	[IN:qa_factoid [SL:person julia roberts] ]	qa	en-US
+if i have five u. s. d. how much is that in aud	[IN:qa_currency [SL:currency_name u. s. d.] [SL:currency_name aud] ]	qa	en-US
+define the moon for me	[IN:qa_definition [SL:definition_word the moon] ]	qa	en-US
+how many rivers are there in the world	[IN:qa_factoid [SL:place_name world] ]	qa	en-US
+find me some celebrities that are capricorns	[IN:qa_factoid ]	qa	en-US
+if it is a consumer good then what is the customer feedback	[IN:general_quirky ]	general	en-US
+how much is indian rupee going against u. s. dollar	[IN:qa_currency [SL:currency_name indian rupee] [SL:currency_name u. s. dollar] ]	qa	en-US
+could you describe that object please	[IN:qa_definition ]	qa	en-US
+which was the first satellite to be launched by nasa	[IN:qa_factoid ]	qa	en-US
+please describe an elephant to me	[IN:qa_definition [SL:definition_word elephant] ]	qa	en-US
+what's the us dollar rate today	[IN:qa_currency [SL:currency_name us dollar] [SL:date today] ]	qa	en-US
+how long has princess kate been pregnant	[IN:qa_factoid [SL:person princess kate] ]	qa	en-US
+what's the stock price for tesco	[IN:qa_stock [SL:business_name tesco] ]	qa	en-US
+i would like it to easily keep an inventory and tell me when i'm running low on something	[IN:general_quirky ]	general	en-US
+what's trump been on about this week	[IN:qa_factoid [SL:person trump] [SL:date this week] ]	qa	en-US
+what is the definition of marinara	[IN:qa_definition [SL:definition_word marinara] ]	qa	en-US
+how people are thinking in such a manner that they can hide everything from god	[IN:general_quirky ]	general	en-US
+currency exchange rates	[IN:qa_currency ]	qa	en-US
+what is a by	[IN:qa_definition ]	qa	en-US
+how old is christie brinkley	[IN:qa_factoid [SL:person christie brinkley] ]	qa	en-US
+tell me how the world began	[IN:general_quirky ]	general	en-US
+tell me the exchange rate of ten dollar to euro	[IN:qa_currency [SL:currency_name dollar] [SL:currency_name euro] ]	qa	en-US
+what is computer	[IN:qa_definition [SL:definition_word computer] ]	qa	en-US
+which is the smallest island in the world	[IN:qa_factoid [SL:place_name world] ]	qa	en-US
+how big is japan	[IN:qa_factoid [SL:place_name japan] ]	qa	en-US
+how far is it from new york to japan	[IN:transport_query [SL:place_name new york] [SL:place_name japan] ]	transport	en-US
+can you tell me what movies are playing at the movies tonight	[IN:recommendation_movies [SL:timeofday tonight] ]	recommendation	en-US
+olly what is the definition of the word snafu	[IN:qa_definition [SL:definition_word snafu] ]	qa	en-US
+olly what is the exchange rate between the us dollar and the aus dollar	[IN:qa_currency [SL:currency_name us dollar] [SL:currency_name aus dollar] ]	qa	en-US
+what apple trading at	[IN:qa_stock [SL:business_name apple] ]	qa	en-US
+hey olly what is the definition of passive	[IN:qa_definition [SL:definition_word passive] ]	qa	en-US
+how old was albert einstein when he came up with relativity theory	[IN:qa_factoid [SL:person albert einstein] ]	qa	en-US
+calculate a close integral of exponential function from zero to five	[IN:qa_factoid ]	qa	en-US
+tell me how brexit is going to affect e. u. citizens in the long and mid terms	[IN:qa_factoid ]	qa	en-US
+please look up exchange between us and mexico	[IN:qa_currency ]	qa	en-US
+olly find a description about a samsung t. v.	[IN:qa_definition [SL:definition_word samsung t. v.] ]	qa	en-US
+what's the exchange rate for samsung	[IN:qa_currency [SL:business_name samsung] ]	qa	en-US
+how far away is	[IN:qa_factoid ]	qa	en-US
+what is this thing	[IN:qa_definition ]	qa	en-US
+what is i. b. m. stock at	[IN:qa_stock [SL:business_name i. b. m.] ]	qa	en-US
+what trending on twitter	[IN:social_query [SL:media_type twitter] ]	social	en-US
+what was the last thing my mom said	[IN:social_query [SL:relation mom] ]	social	en-US
+get me updates from kenny's facebook from the weekend	[IN:social_query [SL:person kenny's] [SL:media_type facebook] [SL:time weekend] ]	social	en-US
+find me new comments from my facebook	[IN:social_query [SL:media_type facebook] ]	social	en-US
+how many likes does my last instagram photo have	[IN:social_query [SL:media_type instagram] ]	social	en-US
+read me the last tweet from the washington post	[IN:social_query [SL:media_type washington post] ]	social	en-US
+post new status on facebook time to celebrate	[IN:social_post [SL:media_type facebook] ]	social	en-US
+my facebook update in every three hour should be available	[IN:social_query [SL:media_type facebook] [SL:general_frequency every three hour] ]	social	en-US
+put that on facebook	[IN:social_post [SL:media_type facebook] ]	social	en-US
+this article is super cool can you share the link to facebook for me	[IN:social_post [SL:media_type facebook] ]	social	en-US
+broadcast a video in youtube	[IN:social_post [SL:media_type youtube] ]	social	en-US
+facebook status busy day	[IN:social_post [SL:media_type facebook] ]	social	en-US
+please post to jeff	[IN:social_post [SL:person jeff] ]	social	en-US
+please submit status to facebook	[IN:social_post [SL:media_type facebook] ]	social	en-US
+show me a list of places where my relatives have been based on their photos	[IN:social_query [SL:relation relatives] ]	social	en-US
+latest news feed from facebook	[IN:social_query [SL:media_type facebook] ]	social	en-US
+give me details of my twitter handle profile including the total number of followers	[IN:social_query [SL:media_type twitter] ]	social	en-US
+nice can you post this to my facebook	[IN:social_post [SL:media_type facebook] ]	social	en-US
+can you tell me what happened to my social media	[IN:social_query ]	social	en-US
+what is the latest from my feed	[IN:social_query ]	social	en-US
+please inform me of any new status updates	[IN:social_query ]	social	en-US
+trending social media	[IN:social_query ]	social	en-US
+new tweet	[IN:social_post [SL:media_type tweet] ]	social	en-US
+bring up facebook and wish a happy birthday to the country u. s. a.	[IN:social_post [SL:media_type facebook] [SL:event_name birthday] [SL:place_name u. s. a.] ]	social	en-US
+i'm unhappy with tesco please help me	[IN:social_post [SL:business_name tesco] ]	social	en-US
+can you send a tweet to lif saying that their app crashed	[IN:social_post [SL:media_type tweet] [SL:business_name lif] ]	social	en-US
+post the following as a status on facebook	[IN:social_post [SL:media_type facebook] ]	social	en-US
+please post a status on twitter say	[IN:social_post [SL:media_type twitter] ]	social	en-US
+please post this picture to my facebook	[IN:social_post [SL:media_type facebook] ]	social	en-US
+tweet lfi and let them know my app crashed	[IN:social_post [SL:media_type tweet] [SL:business_name lfi] ]	social	en-US
+tell my facebook group that i've arrived	[IN:social_post [SL:media_type facebook] ]	social	en-US
+please make a complaint to levis	[IN:social_post [SL:business_name levis] ]	social	en-US
+tell them that their lines were too long	[IN:social_post ]	social	en-US
+i need a manger	[IN:general_quirky ]	general	en-US
+send this message to at microsoft on twitter	[IN:social_post [SL:business_name at microsoft] ]	social	en-US
+post pic on my phone on facebook alexa	[IN:social_post [SL:device_type phone] [SL:media_type facebook] ]	social	en-US
+tweet a complaint to old navy website	[IN:social_post [SL:media_type tweet] [SL:business_name old navy website] ]	social	en-US
+send tweet to united airlines i'm angry you lost my bags	[IN:social_post [SL:media_type tweet] [SL:business_name united airlines] ]	social	en-US
+i had a horrible service at olive garden i need to tweet them	[IN:social_post [SL:business_name olive garden] [SL:media_type tweet] ]	social	en-US
+send complaint through twitter consumer service	[IN:social_post [SL:business_name consumer service] ]	social	en-US
+can you tweet a complaint to the furniture store customer service	[IN:social_post [SL:media_type tweet] [SL:business_name furniture store customer service] ]	social	en-US
+tell comcast i am still on hold	[IN:social_post [SL:business_name comcast] ]	social	en-US
+write a complaint to alzacz for the tablet i bought today	[IN:social_post [SL:business_name alzacz] [SL:date today] ]	social	en-US
+let national grid know the power is out again	[IN:social_post [SL:business_name national grid] ]	social	en-US
+contact amazon customer service via twitter	[IN:social_post [SL:business_name amazon customer service] [SL:media_type twitter] ]	social	en-US
+please update me on my social media accounts	[IN:social_query ]	social	en-US
+tweet complaint to samsung	[IN:social_post [SL:media_type tweet] [SL:business_name samsung] ]	social	en-US
+please make a tweet to dell company about the faulty service of laptop	[IN:social_post [SL:media_type tweet] [SL:business_name dell company] ]	social	en-US
+tweet walmart and tell them their customer service is horrible	[IN:social_post [SL:media_type tweet] [SL:business_name walmart] ]	social	en-US
+olly send a tweet to meijer tell them that they have the worst customer service	[IN:social_post [SL:media_type tweet] [SL:business_name meijer] ]	social	en-US
+customer service complaint tweet the following	[IN:social_post [SL:business_name customer service] [SL:media_type tweet] ]	social	en-US
+did mark post anything new on facebook	[IN:social_query [SL:person mark] [SL:media_type facebook] ]	social	en-US
+send a tweet to dominoes about bad delivery	[IN:social_post [SL:media_type tweet] [SL:business_name dominoes] ]	social	en-US
+remind me to tweet at this company	[IN:calendar_set [SL:media_type tweet] ]	calendar	en-US
+post to facebook aww i'm sick	[IN:social_post [SL:media_type facebook] ]	social	en-US
+post to tumblr i'm having fun	[IN:social_post [SL:media_type tumblr] ]	social	en-US
+address the situation	[IN:general_quirky ]	general	en-US
+tweet complaint to burger king	[IN:social_post [SL:media_type tweet] [SL:business_name burger king] ]	social	en-US
+olly send a tweet to company	[IN:social_post [SL:media_type tweet] ]	social	en-US
+tweet a complaint about my refrigerator to l. g.	[IN:social_post [SL:media_type tweet] [SL:business_name l. g.] ]	social	en-US
+open gallery post video name	[IN:social_post [SL:media_type gallery] ]	social	en-US
+post to twitter got a hectic day ahead	[IN:social_post [SL:media_type twitter] ]	social	en-US
+tweet customer service not good for liter per gram service in my twitter account	[IN:social_post [SL:media_type tweet] [SL:media_type twitter] ]	social	en-US
+tweet complaint	[IN:social_post [SL:media_type tweet] ]	social	en-US
+what are the latest photos on my instagram account	[IN:social_query [SL:media_type instagram] ]	social	en-US
+ok google tweet the service at moe's diner is terrible	[IN:social_post [SL:media_type tweet] ]	social	en-US
+tweet for me the complaint about drainage choke up	[IN:social_post [SL:media_type tweet] ]	social	en-US
+social info	[IN:social_query ]	social	en-US
+tweet consumer service that i am very disappointed with my recent interaction	[IN:social_post [SL:media_type tweet] [SL:business_name consumer service] ]	social	en-US
+i want to post a status on twitter	[IN:social_post [SL:media_type twitter] ]	social	en-US
+when did i get an email from john smith about car accident	[IN:email_query [SL:person john smith] ]	email	en-US
+let me know if i have new emails	[IN:email_query ]	email	en-US
+send email to emilia saying i will be late please don't wait with dinner	[IN:email_sendemail [SL:person emilia] [SL:meal_type dinner] ]	email	en-US
+is there any email from emilia	[IN:email_query [SL:person emilia] ]	email	en-US
+can you send an email to chelsea please	[IN:email_sendemail [SL:person chelsea] ]	email	en-US
+check my inbox	[IN:email_query [SL:email_folder inbox] ]	email	en-US
+email david about the meeting tomorrow david can we have the meeting in the afternoon	[IN:email_sendemail [SL:person david] [SL:event_name meeting] [SL:date tomorrow] [SL:person david] [SL:timeofday afternoon] ]	email	en-US
+olly i would like to know about jane's party	[IN:general_quirky [SL:person jane's] [SL:event_name party] ]	general	en-US
+open my most recent email and reply	[IN:email_sendemail ]	email	en-US
+send this content via email	[IN:email_sendemail ]	email	en-US
+send an email to mom subject weather body what is the weather like there this week	[IN:email_sendemail [SL:relation mom] [SL:date this week] ]	email	en-US
+check emails for unread emails from mom	[IN:email_query [SL:relation mom] ]	email	en-US
+please give me details of allen from my contact	[IN:email_querycontact [SL:personal_info details] [SL:person allen] ]	email	en-US
+is there a contact named allen in my list	[IN:email_querycontact [SL:personal_info named] [SL:person allen] ]	email	en-US
+send happy new year to john at gmail dot com	[IN:email_sendemail [SL:email_address john at gmail dot com] ]	email	en-US
+what is john's last name	[IN:email_querycontact [SL:person john's] [SL:personal_info last name] ]	email	en-US
+send a reply to my friend for his question	[IN:email_sendemail [SL:relation friend] ]	email	en-US
+check emails for last two hours	[IN:email_query [SL:time last two hours] ]	email	en-US
+check emails for last twelve hours	[IN:email_query [SL:time last twelve hours] ]	email	en-US
+alexa add erosser at hotmail dot com as a new contact for emily rosser	[IN:email_addcontact [SL:email_address erosser at hotmail dot com] [SL:person emily rosser] ]	email	en-US
+let me know if there are any new emails from ebay	[IN:email_query [SL:business_name ebay] ]	email	en-US
+email the following message to this contact please	[IN:email_sendemail ]	email	en-US
+check and see if i've received any emails from eddie richards having to do with budgets	[IN:email_query [SL:person eddie richards] ]	email	en-US
+save this email in contact	[IN:email_addcontact ]	email	en-US
+send ashmit his latest tech topics available	[IN:email_sendemail [SL:person ashmit] ]	email	en-US
+let me know when casey emails me	[IN:email_query [SL:person casey] ]	email	en-US
+let me know what's accumulated in my inbox since three p. m.	[IN:email_query [SL:email_folder inbox] [SL:time three p. m.] ]	email	en-US
+can you send email to my friend rohit which says i am busy tomorrow	[IN:email_sendemail [SL:relation friend] [SL:person rohit] [SL:date tomorrow] ]	email	en-US
+search matthews deadlines	[IN:email_query [SL:person matthews] ]	email	en-US
+hey start an email to coworker	[IN:email_sendemail [SL:relation coworker] ]	email	en-US
+open new email to this coworker at this email	[IN:email_sendemail [SL:relation coworker] ]	email	en-US
+please refresh my gmail inbox	[IN:email_query [SL:email_folder inbox] ]	email	en-US
+send a hi to	[IN:email_sendemail ]	email	en-US
+show latest email from mark	[IN:email_query [SL:person mark] ]	email	en-US
+send an email to my manager	[IN:email_sendemail [SL:relation manager] ]	email	en-US
+display latest emails olly	[IN:email_query ]	email	en-US
+email george brown	[IN:email_sendemail [SL:person george brown] ]	email	en-US
+any incoming emails in the last five minutes	[IN:email_query [SL:time last five minutes] ]	email	en-US
+send an email to my friend say birthday wishes	[IN:email_sendemail [SL:relation friend] [SL:event_name birthday] ]	email	en-US
+what is mom's email address	[IN:email_querycontact [SL:relation mom's] [SL:personal_info email address] ]	email	en-US
+i would like this new email should be added to my contacts	[IN:email_sendemail ]	email	en-US
+send email to enalen i'm going to send the files the next day	[IN:email_sendemail [SL:person enalen] [SL:date next day] ]	email	en-US
+show all the received emails recently with time stamp	[IN:email_query ]	email	en-US
+show me new email	[IN:email_query ]	email	en-US
+open reply	[IN:email_sendemail ]	email	en-US
+reply back to this email	[IN:email_sendemail ]	email	en-US
+send email to gbaby tell her gma loves her and hopes she has a great weekend	[IN:email_sendemail [SL:person gbaby] ]	email	en-US
+compose reply	[IN:email_sendemail ]	email	en-US
+tell me the contact details of my brother	[IN:email_querycontact [SL:personal_info contact details] [SL:relation brother] ]	email	en-US
+send this message to the family group starts with a	[IN:email_sendemail [SL:relation family] ]	email	en-US
+who have emailed me recently and what are the subjects of each email	[IN:email_query ]	email	en-US
+olly please respond to greg's email stating that his idea is fantastic	[IN:email_sendemail [SL:person greg's] ]	email	en-US
+send email to boss to meet for performance review	[IN:email_sendemail [SL:relation boss] ]	email	en-US
+does bob live in france	[IN:email_querycontact [SL:person bob] [SL:personal_info live] [SL:place_name france] ]	email	en-US
+notify me if i receive any mail on my email account	[IN:email_query ]	email	en-US
+email the message hi come down for dinner tonight to bro	[IN:email_sendemail [SL:meal_type dinner] [SL:timeofday tonight] [SL:relation bro] ]	email	en-US
+send an email to guy selling the boat telling him that i have the money	[IN:email_sendemail ]	email	en-US
+tell me who send the email about the boss yesterday	[IN:email_query [SL:date yesterday] ]	email	en-US
+what did the clinic say about my exams	[IN:email_query [SL:business_name clinic] ]	email	en-US
+can i find out information about a contact	[IN:email_querycontact ]	email	en-US
+read my unread emails	[IN:email_query ]	email	en-US
+check for new emails	[IN:email_query ]	email	en-US
+can you check to see if i have any recent email alerts	[IN:email_query ]	email	en-US
+send an email for me	[IN:email_sendemail ]	email	en-US
+reply to all	[IN:email_sendemail ]	email	en-US
+tell bob smith	[IN:email_sendemail [SL:person bob smith] ]	email	en-US
+reply with thanks	[IN:email_sendemail ]	email	en-US
+do i have any new emails from john smith	[IN:email_query [SL:person john smith] ]	email	en-US
+are there any emails in regard to my promotion	[IN:email_query [SL:event_name promotion] ]	email	en-US
+hey check emails	[IN:email_query ]	email	en-US
+list the subjects and senders of all emails to me in the last week	[IN:email_query [SL:date last week] ]	email	en-US
+who emailed me recently and what did they email about	[IN:email_query ]	email	en-US
+send the email to john	[IN:email_sendemail [SL:person john] ]	email	en-US
+start email	[IN:email_sendemail ]	email	en-US
+how many unread emails do i have	[IN:email_query ]	email	en-US
+send email to robert what time is dinner	[IN:email_sendemail [SL:person robert what time is dinner] ]	email	en-US
+send email to comcast that their service sucks	[IN:email_sendemail [SL:business_name comcast] ]	email	en-US
+please check for recent email study from this sender	[IN:email_query ]	email	en-US
+open my email account and check for new email	[IN:email_query ]	email	en-US
+send an email to my boss saying i will be late	[IN:email_sendemail [SL:relation boss] ]	email	en-US
+what new messages do i have	[IN:email_query ]	email	en-US
+open my new emails	[IN:email_query ]	email	en-US
+check emails from cindy	[IN:email_query [SL:person cindy] ]	email	en-US
+reply to mark's email	[IN:email_sendemail [SL:person mark's] ]	email	en-US
+how many emails today	[IN:email_query [SL:date today] ]	email	en-US
+did my mom send me an email	[IN:email_query [SL:relation mom] ]	email	en-US
+send email to mom want to go shopping tomorrow	[IN:email_sendemail [SL:relation mom] [SL:date tomorrow] ]	email	en-US
+check all emails from eric	[IN:email_query [SL:person eric] ]	email	en-US
+will you help me write an email to chelsea	[IN:email_sendemail [SL:person chelsea] ]	email	en-US
+olly please check if i got any emails from mom	[IN:email_query [SL:relation mom] ]	email	en-US
+send an email to all my company workers	[IN:email_sendemail [SL:relation company workers] ]	email	en-US
+email message to address	[IN:email_sendemail ]	email	en-US
+new address	[IN:email_sendemail ]	email	en-US
+google find the new email address for bill that i added friday	[IN:email_query [SL:person bill] [SL:date friday] ]	email	en-US
+is this the correct area code for my boss	[IN:email_querycontact [SL:relation boss] ]	email	en-US
+reply	[IN:email_sendemail ]	email	en-US
+please delete the contacts that i haven't spoken to in three of months	[IN:email_querycontact [SL:date three of months] ]	email	en-US
+i want to send email to jack at gmail dot com	[IN:email_sendemail [SL:email_address jack at gmail dot com] ]	email	en-US
+send email to daughter saying i love you	[IN:email_sendemail [SL:relation daughter] ]	email	en-US
+send email to mom saying happy birthday	[IN:email_sendemail [SL:relation mom] [SL:event_name birthday] ]	email	en-US
+please tell me if july has sent me any emails	[IN:email_query [SL:person july] ]	email	en-US
+any new email from the boss	[IN:email_query [SL:relation boss] ]	email	en-US
+did i receive any email in the past hour	[IN:email_query [SL:time past hour] ]	email	en-US
+has any personal emails come in yet	[IN:email_query ]	email	en-US
+open up my sister's email from yesterday click reply and turn on voice activation for my response	[IN:email_sendemail [SL:relation sister's] [SL:date yesterday] ]	email	en-US
+how many contacts do i have in my phone book	[IN:email_querycontact [SL:device_type phone book] ]	email	en-US
+can you see what andrew emailed me about	[IN:email_query [SL:person andrew] ]	email	en-US
+i want to find emails from bob with the subject that contains the word meeting	[IN:email_query [SL:person bob] ]	email	en-US
+please send the email to my mom	[IN:email_sendemail [SL:relation mom] ]	email	en-US
+did mike send me an email	[IN:email_query [SL:person mike] ]	email	en-US
+look at my email	[IN:email_query ]	email	en-US
+open terry's email	[IN:email_sendemail [SL:person terry's] ]	email	en-US
+search email for contact	[IN:email_query ]	email	en-US
+find contact	[IN:email_query ]	email	en-US
+bring up my email	[IN:email_query ]	email	en-US
+open the contact named john	[IN:email_querycontact [SL:person john] ]	email	en-US
+who did i email recently	[IN:email_query ]	email	en-US
+what are the subject line and sender from today's email inbox	[IN:email_query [SL:date today's] [SL:email_folder inbox] ]	email	en-US
+please open my contact list	[IN:email_querycontact [SL:list_name contact list] ]	email	en-US
+open derek's contact information	[IN:email_querycontact [SL:person derek's] ]	email	en-US
+check for all emails from tom brady	[IN:email_query [SL:person tom brady] ]	email	en-US
+send a reply to mike	[IN:email_sendemail [SL:person mike] ]	email	en-US
+hey did i get any new emails	[IN:email_query ]	email	en-US
+email tom	[IN:email_sendemail [SL:person tom] ]	email	en-US
+check my mail	[IN:email_query ]	email	en-US
+i need to email susan and metion	[IN:email_sendemail [SL:person susan] [SL:person metion] ]	email	en-US
+show unread	[IN:email_query ]	email	en-US
+are there new emails in my inbox	[IN:email_query [SL:email_folder inbox] ]	email	en-US
+reply mail	[IN:email_sendemail ]	email	en-US
+send an email to m. s. palmer ask her if dean turned in his last homework assignment	[IN:email_sendemail [SL:person m. s. palmer] ]	email	en-US
+send a response to my last email	[IN:email_sendemail ]	email	en-US
+reply to jason's email with the response six thirty	[IN:email_sendemail [SL:person jason's] ]	email	en-US
+what mail do i have	[IN:email_query ]	email	en-US
+i want to reply to jean's email	[IN:email_sendemail [SL:person jean's] ]	email	en-US
+check emails from jane doe	[IN:email_query [SL:person jane doe] ]	email	en-US
+is there any new emails	[IN:email_query ]	email	en-US
+check by inbox for me	[IN:email_query [SL:email_folder inbox] ]	email	en-US
+save the email to my contact	[IN:email_addcontact ]	email	en-US
+save to contacts	[IN:email_addcontact ]	email	en-US
+give me all my recent emails	[IN:email_query ]	email	en-US
+what is my recent email activity	[IN:email_query ]	email	en-US
+give me contact mail id	[IN:email_querycontact [SL:personal_info mail id] ]	email	en-US
+please let me know new emails from michael	[IN:email_query [SL:person michael] ]	email	en-US
+just let me know new emails from sara	[IN:email_query [SL:person sara] ]	email	en-US
+have i received any email since five p. m.	[IN:email_query [SL:time five p. m.] ]	email	en-US
+did i get any emails from sam today	[IN:email_query [SL:person sam] [SL:date today] ]	email	en-US
+publish an email to my company worker with today's scheduled meeting information	[IN:email_sendemail [SL:relation company worker] [SL:date today's] ]	email	en-US
+did i get any new emails today from claire	[IN:email_query [SL:date today] [SL:person claire] ]	email	en-US
+send email to marissa	[IN:email_sendemail [SL:person marissa] ]	email	en-US
+call raju phone number	[IN:email_querycontact [SL:person raju] [SL:personal_info phone number] ]	email	en-US
+report any new emails	[IN:email_query ]	email	en-US
+how many unread messages have i got	[IN:email_query ]	email	en-US
+please respond to the email i just read	[IN:email_sendemail ]	email	en-US
+did bert write me today	[IN:email_query [SL:person bert] [SL:date today] ]	email	en-US
+what's the address for alex	[IN:email_querycontact [SL:personal_info address] [SL:person alex] ]	email	en-US

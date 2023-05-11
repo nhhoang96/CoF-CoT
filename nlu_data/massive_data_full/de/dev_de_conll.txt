@@ -1,0 +1,15294 @@
+schalte	O
+bitte	O
+die	O
+lichter	O
+aus	O
+
+dimme	O
+die	O
+lichter	O
+im	O
+eingangsbereich	B-house_place
+
+mache	O
+einen	O
+raum	B-house_place
+dunkler	O
+
+reinige	O
+die	O
+wohnung	B-house_place
+
+putzen	O
+ist	O
+gut	O
+staub	O
+ist	O
+so	O
+schlecht	O
+mach	O
+jetzt	O
+deinen	O
+zauber	O
+sauber	O
+mein	O
+teppich	B-house_place
+
+wie	O
+lautet	O
+der	O
+status	O
+meines	O
+verfügbaren	O
+speichers	O
+
+liste	O
+der	O
+am	O
+besten	O
+bewerteten	O
+liefer	B-order_type
+optionen	O
+für	O
+chinesisches	B-food_type
+essen	O
+
+finde	O
+meine	O
+thai	B-food_type
+imbisse	B-order_type
+um	O
+den	O
+torgauer	B-place_name
+platz	I-place_name
+
+ich	O
+würde	O
+gerne	O
+queen's	B-artist_name
+barcelona	B-song_name
+hören	O
+
+spiel	O
+barcelona	B-song_name
+von	O
+queen	B-artist_name
+
+was	O
+spielt	O
+die	O
+band	O
+gerade	O
+
+was	O
+ist	O
+mit	O
+meiner	O
+abendessensbestellung	O
+
+wie	O
+ist	O
+die	O
+wöchentliche	B-time
+worhersage	O
+
+spiel	O
+hurts	B-song_name
+like	I-song_name
+heaven	I-song_name
+
+schalte	O
+cannibal	B-song_name
+queen	I-song_name
+an	O
+
+spiel	O
+ein	O
+bisschen	O
+david	B-artist_name
+bowie	I-artist_name
+
+wiederhole	O
+diesen	O
+titel	O
+
+stell	O
+die	O
+lautstärke	O
+auf	B-change_amount
+niedrig	I-change_amount
+
+welchen	O
+tag	O
+haben	O
+wir	O
+heute	B-date
+
+welches	O
+lied	O
+ist	O
+das	O
+
+ich	O
+würde	O
+gerne	O
+jazz	B-music_genre
+hören	O
+
+ich	O
+möchte	O
+jazz	B-music_genre
+hören	O
+
+hallo	O
+hallo	O
+
+stelle	O
+alarm	O
+morgen	B-date
+um	O
+sechs	B-time
+uhr	I-time
+
+lautstärke	O
+hoch	O
+
+regnet	O
+es	O
+draußen	O
+
+wie	O
+spät	O
+ist	O
+es	O
+in	O
+hamburg	B-place_name
+
+wie	O
+lautet	O
+die	O
+uhrzeit	O
+von	O
+berlin	B-place_name
+
+stelle	O
+einen	O
+wecker	O
+für	O
+sechs	B-time
+uhr	O
+am	O
+morgen	B-timeofday
+
+habe	O
+ich	O
+einen	O
+alarm	O
+morgen	B-timeofday
+zum	O
+aufwachen	B-alarm_type
+eingestellt	O
+
+was	O
+ist	O
+in	O
+amerika	B-place_name
+los	O
+
+olly	O
+death	O
+metal	B-music_genre
+jetzt	O
+
+wie	O
+spät	O
+is	O
+es	O
+jetzt	O
+in	O
+erlangen	B-place_name
+
+was	O
+sind	O
+heutige	B-date
+zeitungs	B-media_type
+schlagzeilen	O
+
+spiel	O
+chopin	B-artist_name
+
+an	O
+welchem	O
+tag	O
+ist	O
+dieses	B-date
+jahr	I-date
+der	O
+volkstrauertag	O
+
+hier	O
+ist	O
+es	O
+zu	O
+dunkel	O
+
+wird	O
+es	O
+morgen	B-date
+regnen	B-weather_descriptor
+
+leiser	O
+
+wie	O
+wird	O
+morgen	B-date
+die	O
+temperatur	B-weather_descriptor
+draußen	O
+sein	O
+
+was	O
+ist	O
+die	B-date
+morgige	I-date
+wetter	O
+vorhersage	O
+
+der	O
+zweiundzwanzigste	B-date
+märz	I-date
+ist	O
+welcher	O
+wochentag	O
+
+ist	O
+heute	O
+montag	O
+
+wie	O
+ist	O
+das	O
+wetter	O
+in	O
+hamburg	B-place_name
+
+ist	O
+es	O
+jetzt	O
+sonnig	B-weather_descriptor
+in	O
+nürnberg	B-place_name
+
+gib	O
+mir	O
+bescheid	O
+sobald	O
+es	O
+etwas	O
+neues	O
+zum	O
+brexit	B-news_topic
+gibt	O
+
+den	O
+smart	B-device_type
+plug	I-device_type
+ausschalten	O
+
+spiele	O
+lied	O
+aus	O
+meinen	O
+favoriten	O
+
+ich	O
+würde	O
+gerne	O
+pop	B-music_genre
+musik	O
+hören	O
+
+ändere	O
+meine	O
+zimmer	O
+beleuchtung	O
+damit	O
+ich	O
+gut	B-color_type
+schlafen	I-color_type
+kann	O
+
+wie	O
+wird	O
+das	O
+wetter	O
+am	O
+freitag	B-date
+
+welcher	O
+tag	O
+ist	O
+heute	B-date
+
+sollte	O
+ich	O
+heute	B-date
+eine	O
+jacke	B-weather_descriptor
+anziehen	O
+
+schalte	O
+zufallswiedergabe	O
+aus	O
+
+was	O
+ist	O
+das	O
+datum	O
+
+welche	O
+dinge	O
+kannst	O
+du	O
+nicht	O
+tun	O
+
+sag	O
+mir	O
+die	O
+zeit	O
+
+ist	O
+es	O
+draußen	O
+heiß	B-weather_descriptor
+
+habe	O
+ich	O
+einen	O
+wecker	O
+eingestellt	O
+
+richtiger	O
+formel	O
+bitte	O
+
+für	O
+die	O
+nächste	B-time
+stunde	I-time
+stummschalten	O
+
+spiel	O
+mein	O
+lieblings	O
+lied	O
+
+es	O
+ist	O
+ein	O
+sehr	O
+gefährlicher	O
+
+gib	O
+mir	O
+ein	O
+paar	O
+internationale	B-place_name
+nachrichten	O
+
+stelle	O
+einen	O
+weckruf	O
+für	O
+zehn	B-time
+uhr	I-time
+
+stelle	O
+einen	O
+wecker	O
+für	O
+fünfzehn	B-time
+uhr	I-time
+
+stelle	O
+einen	O
+alarm	O
+für	O
+dreizehn	B-time
+uhr	I-time
+
+spiel	O
+das	O
+lied	O
+rasch	B-song_name
+
+emaile	O
+mir	O
+den	O
+text	O
+zu	O
+dem	O
+lied	O
+
+entferne	O
+meinen	O
+acht	B-time
+uhr	I-time
+wecker	O
+
+wird	O
+es	O
+morgen	B-date
+regnen	B-weather_descriptor
+
+ich	O
+möchte	O
+bitte	O
+we	B-song_name
+will	I-song_name
+rock	I-song_name
+you	I-song_name
+von	O
+queen	B-artist_name
+anhören	O
+
+stelle	O
+wecker	O
+
+ich	O
+möchte	O
+morgen	B-date
+bitte	O
+um	O
+sechs	B-time
+uhr	I-time
+aufwachen	O
+
+spiel	O
+songs	O
+meiner	O
+playlist	O
+
+an	O
+welchem	O
+wochentag	O
+ist	O
+erntedankfest	B-event_name
+
+lass	O
+mich	O
+bitte	O
+six	B-song_name
+hundred	I-song_name
+and	I-song_name
+sixty	I-song_name
+six	I-song_name
+the	I-song_name
+number	I-song_name
+of	I-song_name
+the	I-song_name
+beast	I-song_name
+hören	O
+
+kannst	O
+du	O
+mir	O
+einen	O
+tier	B-joke_type
+witz	O
+finden	O
+
+wie	O
+ist	O
+der	O
+status	O
+vom	O
+derzeitigem	O
+wetter	O
+
+welche	O
+zeit	O
+ist	O
+es	O
+jetzt	O
+in	O
+sachsen	B-place_name
+anhalt	I-place_name
+
+stelle	O
+zeit	O
+zone	O
+ein	O
+
+schalten	O
+die	O
+t.	B-device_type
+v.	I-device_type
+steckdose	O
+ein	O
+wenn	O
+ich	O
+nach	O
+hause	O
+komme	O
+
+folge	O
+den	O
+nachrichten	O
+zur	O
+email	B-news_topic
+affaire	I-news_topic
+von	I-news_topic
+hillary	I-news_topic
+in	O
+der	O
+zukunft	B-time
+
+reduziere	O
+die	O
+lautstärke	O
+
+ich	O
+kann	O
+nicht	O
+hören	O
+erhöhe	O
+die	O
+lautstärke	O
+
+kannst	O
+du	O
+bitte	O
+die	O
+lichter	O
+hell	O
+machen	O
+
+ich	O
+möchte	O
+jetzt	O
+chopin	B-artist_name
+hören	O
+
+wer	O
+führt	O
+gerade	O
+im	O
+formel	B-news_topic
+eins	I-news_topic
+rennen	O
+
+kaffee	O
+zubereiten	O
+
+lies	O
+mir	O
+die	O
+schlagzeilen	O
+der	O
+new	B-media_type
+york	I-media_type
+times	I-media_type
+vor	O
+
+kann	O
+ich	O
+die	O
+neusten	O
+nachrichten	O
+von	O
+n.	B-media_type
+t.	I-media_type
+v.	I-media_type
+bekommen	O
+
+kannst	O
+du	O
+bitte	O
+den	O
+ton	O
+leiser	O
+machen	O
+
+spiele	O
+songs	O
+vom	O
+r	B-artist_name
+und	I-artist_name
+b	I-artist_name
+und	O
+soul	B-music_genre
+genre	O
+
+können	O
+sie	O
+ausschalten	O
+wemo	B-device_type
+steckdose	I-device_type
+
+wie	O
+sieht	O
+das	O
+wetter	O
+diese	B-date
+woche	I-date
+aus	O
+
+wie	O
+wird	O
+das	O
+wetter	O
+diese	B-date
+woche	I-date
+werden	O
+
+sag	O
+mir	O
+ob	O
+es	O
+gerade	O
+auf	O
+der	O
+welt	O
+ein	O
+erdbeben	B-news_topic
+gibt	O
+
+spiel	O
+boogie	B-song_name
+in	I-song_name
+your	I-song_name
+butt	I-song_name
+von	O
+eddie	B-artist_name
+murphy	I-artist_name
+
+hey	O
+olly	O
+schalte	O
+die	O
+lautsprecher	O
+auf	O
+stumm	O
+
+bitte	O
+die	O
+lautstärke	O
+der	O
+lautsprecher	O
+verringern	O
+
+mach	O
+jetzt	O
+kaffee	O
+
+o	O
+k	O
+google	O
+spiele	O
+beliebige	O
+musik	O
+
+was	O
+ist	O
+der	O
+neueste	O
+klatsch	O
+aus	O
+hollywood	B-news_topic
+
+lichter	O
+aufhellen	O
+
+alarm	O
+um	O
+acht	B-time
+uhr	I-time
+morgens	O
+gestellt	O
+
+schalte	O
+den	O
+sechs	B-time
+uhr	I-time
+alarm	O
+für	O
+mittwoch	B-date
+aus	O
+
+stelle	O
+alle	O
+alarme	O
+am	O
+morgen	B-timeofday
+nach	B-date
+freitag	I-date
+aus	O
+
+schau	O
+bitte	O
+das	O
+wetter	O
+nächste	B-date
+woche	I-date
+für	O
+mich	O
+nach	O
+
+spiel	O
+musik	O
+von	O
+meinem	O
+lieblings	O
+künstler	O
+
+verringere	O
+bitte	O
+ein	B-change_amount
+bisschen	I-change_amount
+das	O
+licht	O
+
+lösch	O
+diesen	O
+wecker	O
+
+wenn	O
+es	O
+zwanzig	B-time
+uhr	I-time
+an	O
+der	O
+ostküste	B-place_name
+ist	O
+wie	O
+spät	O
+ist	O
+es	O
+dann	O
+in	O
+münchen	B-place_name
+
+akzeptiert	O
+pf	B-business_name
+changs	I-business_name
+auch	O
+bestellungen	O
+zum	B-order_type
+mitnehmen	I-order_type
+
+kannst	O
+du	O
+mir	O
+sagen	O
+wie	O
+spät	O
+es	O
+in	O
+berlin	B-place_name
+ist	O
+
+aktuelle	O
+nachrichten	O
+n.	B-media_type
+t.	I-media_type
+v.	I-media_type
+
+bringe	O
+mich	O
+zur	O
+webseite	O
+der	O
+frankfurter	B-media_type
+rundschau	I-media_type
+
+bitte	O
+die	O
+schlagzeilen	O
+anzeigen	O
+
+was	O
+sind	O
+die	O
+schlagzeilen	O
+der	O
+frankfurter	B-media_type
+rundschau	I-media_type
+
+finde	O
+heraus	O
+ob	O
+das	O
+vapiano	B-business_name
+essen	B-order_type
+zum	I-order_type
+mitnehmen	I-order_type
+anbietet	O
+
+kann	O
+ich	O
+das	O
+heutige	B-date
+datum	O
+erfahren	O
+
+ist	O
+mein	O
+wecker	O
+für	O
+die	O
+schule	O
+gestellt	O
+
+wie	O
+heiß	B-weather_descriptor
+ist	O
+es	O
+draußen	O
+
+starte	O
+den	O
+staubsaugerroboter	B-device_type
+heute	B-date
+um	O
+dreizehn	B-time
+uhr	I-time
+
+gute	O
+assistenten	O
+
+schicke	O
+mir	O
+aktuelle	O
+nachrichten	O
+vom	O
+tag	O
+
+spiele	O
+lady	B-song_name
+von	O
+kenny	B-artist_name
+rogers	I-artist_name
+jetzt	O
+
+heute	O
+datum	O
+
+wie	O
+ist	O
+der	O
+text	O
+zum	O
+lied	O
+abschied	B-song_name
+nehmen	I-song_name
+von	O
+xavier	B-artist_name
+naidoo	I-artist_name
+
+irgendwas	O
+country	B-music_genre
+
+wenn	O
+es	O
+zweiundzwanzig	B-time
+uhr	I-time
+in	O
+kalifornien	B-place_name
+ist	O
+wie	O
+spät	O
+ist	O
+es	O
+dann	O
+in	O
+alabama	B-place_name
+
+ich	O
+muss	O
+regenbogen	B-song_name
+von	O
+lena	B-artist_name
+meyer	I-artist_name
+hören	O
+
+wie	O
+sind	O
+heute	B-date
+die	O
+wetterbedingunge	O
+
+wird	O
+es	O
+regnen	B-weather_descriptor
+
+in	O
+berlin	B-place_name
+ist	O
+welche	O
+uhrzeit	O
+gerade	O
+
+kannst	O
+du	O
+mir	O
+ein	O
+gesundes	B-food_type
+essen	I-food_type
+zum	O
+abendessen	O
+vorschlagen	O
+
+bestelle	O
+ein	O
+essen	O
+von	O
+einem	O
+guten	O
+restaurant	B-business_type
+
+wandel	O
+die	O
+berlin	B-place_name
+zeit	O
+in	O
+london	B-place_name
+zeit	O
+um	O
+
+olly	O
+mache	O
+das	O
+wohnzimmer	B-house_place
+blau	B-color_type
+
+mache	O
+den	O
+wohnraum	B-house_place
+blau	B-color_type
+
+bitte	O
+spiele	O
+leviathan	B-song_name
+
+was	O
+sind	O
+die	O
+wetterupdates	O
+für	O
+dienstag	B-date
+
+wie	O
+wird	O
+das	O
+wetterupdate	O
+für	O
+montag	B-date
+mittag	B-timeofday
+sein	O
+
+am	O
+fünfzehnten	B-date
+märz	I-date
+wird	O
+welcher	O
+tag	O
+sein	O
+
+ich	O
+möchte	O
+das	O
+datum	O
+vom	O
+letzten	B-date
+montag	I-date
+in	I-date
+diesem	I-date
+monat	I-date
+wissen	O
+
+wie	O
+viel	O
+uhr	O
+ist	O
+es	O
+in	O
+indien	B-place_name
+wenn	O
+es	O
+in	O
+deutschland	B-place_name
+zwölf	B-time
+uhr	I-time
+mittags	I-time
+ist	O
+
+sag	O
+mir	O
+wie	O
+spät	O
+es	O
+ist	O
+
+finde	O
+den	O
+besten	O
+klopf	B-joke_type
+klopf	I-joke_type
+witz	O
+im	O
+internet	O
+für	O
+mich	O
+
+wie	O
+wird	O
+das	O
+wetter	O
+am	O
+montag	B-date
+diese	I-date
+woche	I-date
+
+dein	O
+rezept	O
+für	O
+das	O
+steak	B-food_type
+war	O
+hervorragend	O
+
+was	O
+passiert	O
+heute	B-date
+auf	O
+der	O
+welt	O
+
+welcher	O
+tag	O
+ist	O
+der	O
+fünfte	B-date
+dezember	I-date
+
+hallo	O
+
+ich	O
+möchte	O
+nachrichten	O
+zum	O
+bambi	B-news_topic
+
+nenn	O
+mir	O
+die	O
+augenblickliche	O
+uhrzeit	O
+in	O
+nürnberg	B-place_name
+
+wie	O
+wird	O
+heute	B-date
+das	O
+wetter	O
+
+es	O
+ist	O
+heiß	B-weather_descriptor
+heute	B-date
+oder	O
+nicht	O
+
+es	O
+ist	O
+heute	B-date
+sehr	O
+heiß	B-weather_descriptor
+oder	O
+
+einhunderttausendzweihundertsiebzehn	O
+
+wie	O
+wird	O
+das	O
+wetter	O
+diese	B-date
+woche	I-date
+
+umschalten	O
+auf	O
+nachtlicht	O
+
+einfach	O
+die	O
+lautstärke	O
+ein	O
+wenig	O
+erhöhen	O
+
+kann	O
+ich	O
+eine	O
+bestellung	O
+von	O
+romero's	B-business_name
+geliefert	B-order_type
+bekommen	O
+
+bestelle	O
+essen	O
+zum	O
+mitnehmen	B-order_type
+
+finde	O
+und	O
+spiel	O
+alle	O
+lieder	O
+von	O
+kate	B-artist_name
+perry	I-artist_name
+und	O
+spiel	O
+sie	O
+ohne	B-player_setting
+zufällige	I-player_setting
+wiedergabe	I-player_setting
+ab	O
+
+erstelle	O
+eine	O
+playlist	O
+aus	O
+allen	O
+liedern	O
+von	O
+eminem	B-artist_name
+und	O
+spiel	O
+mit	O
+zufälliger	B-player_setting
+wiedergabe	I-player_setting
+
+wird	O
+es	O
+diese	B-date
+woche	I-date
+schneien	B-weather_descriptor
+
+musik	O
+an	O
+
+suche	O
+nach	O
+neuen	B-joke_type
+witzen	O
+
+ich	O
+möchte	O
+soft	B-music_genre
+rock	I-music_genre
+hören	O
+
+ich	O
+möchte	O
+up	B-music_descriptor
+beat	I-music_descriptor
+musik	O
+anhören	O
+
+spiele	O
+billboard	O
+top	O
+zehn	O
+
+kann	O
+ich	O
+die	O
+zehn	B-time
+tages	I-time
+vorhersage	O
+für	O
+meine	O
+gegend	O
+haben	O
+
+bitte	O
+rufe	O
+die	O
+wettervorhersage	O
+für	O
+diese	B-date
+woche	I-date
+ab	O
+
+spiel	O
+mir	O
+etwas	O
+pop	B-music_genre
+
+spiel	O
+musik	O
+von	O
+der	O
+playlist	O
+
+kann	O
+ich	O
+bitte	O
+einen	O
+espresso	B-coffee_type
+haben	O
+
+olly	O
+starte	O
+den	O
+staubsauger	B-device_type
+
+kannst	O
+du	O
+den	O
+roomba	B-device_type
+starten	O
+
+schicke	O
+mir	O
+benachrichtigung	O
+zu	O
+jedem	O
+neuen	O
+thema	O
+in	O
+der	O
+politik	B-news_topic
+
+bewertem	O
+
+morgens	O
+oder	O
+abends	O
+
+was	O
+sind	O
+die	O
+neusten	O
+artikel	O
+bei	O
+yahoo	B-media_type
+news	I-media_type
+
+finde	O
+nachrichten	O
+der	O
+letzten	B-time
+sechs	I-time
+stunden	I-time
+von	O
+der	O
+bild	B-media_type
+
+welche	O
+musik	O
+spielt	O
+neun	O
+hundertneunundneunzig	O
+f.	O
+m.	O
+gerade	O
+
+erhöhe	O
+die	O
+lautstärke	O
+der	O
+musik	O
+auf	B-change_amount
+neunzig	I-change_amount
+
+ist	O
+es	O
+ein	O
+ja	O
+oder	O
+nein	O
+dass	O
+die	B-date
+morgige	I-date
+temperatur	B-weather_descriptor
+heiß	I-weather_descriptor
+sein	O
+wird	O
+
+wie	O
+ist	O
+die	O
+wettervorhersage	O
+für	O
+diese	B-date
+woche	I-date
+
+wer	O
+ist	O
+der	O
+künstler	O
+des	O
+lieds	O
+das	O
+gerade	O
+spielt	O
+
+ich	O
+mag	O
+das	O
+lied	O
+nicht	O
+schalte	O
+es	O
+aus	O
+
+starte	O
+täglich	B-general_frequency
+von	O
+zehn	B-time
+bis	O
+elf	B-time
+uhr	I-time
+meinen	O
+staubsauger	B-device_type
+
+was	O
+wird	O
+die	O
+höchst	O
+temperatur	B-weather_descriptor
+in	O
+der	O
+kommenden	B-date
+woche	I-date
+sein	O
+
+stelle	O
+den	O
+alarm	O
+heute	B-date
+von	O
+zehn	B-time
+uhr	I-time
+aus	O
+
+spiel	O
+enrique	B-artist_name
+
+spiel	O
+michael	B-artist_name
+jackson	I-artist_name
+
+ist	O
+es	O
+möglich	O
+dass	O
+du	O
+mir	O
+die	O
+likes	O
+von	O
+meiner	O
+musik	O
+zur	O
+verfügung	O
+stellen	O
+kannst	O
+
+was	O
+sind	O
+die	O
+aktuellen	O
+nachrichten	O
+aus	O
+syrien	B-place_name
+
+ich	O
+brauche	O
+mehr	O
+lichter	O
+
+sag	O
+mir	O
+die	O
+aktuelle	O
+zeit	O
+
+meine	O
+lieblingssängerin	O
+ist	O
+helene	B-artist_name
+fischer	I-artist_name
+
+was	O
+ist	O
+in	O
+köln	B-place_name
+los	O
+
+spiel	O
+meine	O
+meist	O
+gehörten	O
+lieder	O
+
+geh	O
+zu	O
+youtube	B-media_type
+und	O
+spiel	O
+mir	O
+die	O
+besten	B-playlist_name
+hochzeitssongs	I-playlist_name
+kollektion	O
+
+zeig	O
+mir	O
+die	O
+neuesten	O
+technik	B-news_topic
+news	O
+
+füge	O
+dieses	O
+lied	O
+meinen	O
+top	O
+ten	O
+favoriten	O
+hinzu	O
+
+dieses	O
+lied	O
+war	O
+genial	O
+bitte	O
+wiederholen	O
+
+gib	O
+mir	O
+niedrige	O
+beleuchtung	O
+in	O
+der	O
+küche	B-house_place
+
+speichere	O
+dieses	O
+lied	O
+und	O
+meine	O
+meinung	O
+
+gib	O
+mir	O
+ein	O
+update	O
+zu	O
+den	O
+ergebnissen	O
+der	O
+wahl	B-news_topic
+
+was	O
+sagen	O
+die	O
+analysten	O
+zur	O
+neuen	O
+immigrationspolitik	B-news_topic
+
+status	O
+der	O
+restaurant	B-business_type
+bestellung	O
+
+wecke	O
+mich	O
+um	O
+fünf	B-time
+uhr	O
+
+starte	O
+meinen	O
+staubsaugroboter	B-device_type
+
+spiele	O
+musik	O
+
+was	O
+ist	O
+die	O
+derzeitige	O
+datumszeit	O
+gruppe	O
+
+starte	O
+haus	B-house_place
+säuberung	O
+
+ausschalten	O
+vom	O
+licht	O
+
+lustiger	O
+witz	O
+
+welches	O
+lied	O
+wird	O
+gerade	O
+wiedergegeben	O
+
+speichere	O
+die	O
+informationen	O
+welche	O
+von	O
+aman	B-artist_name
+über	O
+dieses	O
+lied	O
+bereitgestellt	O
+werden	O
+
+hey	O
+alexa	O
+schalte	O
+die	O
+disco	B-device_type
+beleuchtung	I-device_type
+in	O
+meiner	O
+wohnung	B-house_place
+ein	O
+und	O
+lass	O
+uns	O
+feiern	O
+
+bitte	O
+leise	O
+sein	O
+
+bitte	O
+spiele	O
+rap	B-music_genre
+musik	O
+
+wie	O
+wird	O
+das	O
+wetter	O
+diese	B-date
+woche	I-date
+
+was	O
+für	O
+ein	O
+sonniger	B-weather_descriptor
+tag	O
+
+ist	O
+die	O
+besprechung	B-event_name
+für	O
+morgen	B-date
+geplant	O
+
+ist	O
+es	O
+heute	B-date
+wolkig	B-weather_descriptor
+
+berühre	O
+die	O
+stummschalttaste	O
+
+spiel	O
+mir	O
+ein	O
+aktuelles	B-song_name
+cover	I-song_name
+von	O
+cherry	B-artist_name
+bomb	I-artist_name
+
+lass	O
+uns	O
+ein	O
+bisschen	O
+country	B-music_genre
+und	O
+western	B-music_genre
+nicht	O
+von	O
+den	O
+usa	O
+anhören	O
+
+prüfe	O
+den	O
+musik	O
+titel	O
+der	O
+gerade	O
+spielt	O
+
+liefert	O
+peking	B-business_name
+garden	I-business_name
+
+spiele	O
+meine	O
+letzte	O
+genutzte	O
+playlist	O
+
+gib	O
+mir	O
+die	O
+zeit	O
+in	O
+hannover	B-place_name
+
+spiel	O
+pop	B-music_genre
+
+stell	O
+bitte	O
+die	O
+stimmung	O
+ein	O
+
+schalte	O
+die	O
+lichter	O
+auf	O
+blau	B-color_type
+
+schalte	O
+die	O
+wohnzimmer	B-house_place
+lichter	O
+rot	B-color_type
+
+sage	O
+mir	O
+wie	O
+das	O
+wetter	O
+in	O
+münchen	B-place_name
+bayern	I-place_name
+ist	O
+olly	O
+
+siri	O
+wie	O
+ist	O
+das	O
+wetter	O
+draußen	O
+
+welcher	O
+tag	O
+ist	O
+an	O
+meinem	B-date
+geburtsdatum	I-date
+
+wie	O
+ist	O
+der	O
+titel	O
+von	O
+dem	O
+lied	O
+das	O
+gerade	O
+läuft	O
+
+kannst	O
+du	O
+mir	O
+sagen	O
+wie	O
+spät	O
+es	O
+ist	O
+
+wetter	O
+am	O
+montag	B-date
+
+wetter	O
+am	O
+dienstag	B-date
+
+wiederholen	O
+lied	O
+
+kannst	O
+du	O
+mir	O
+die	O
+aktuellen	O
+wetter	O
+verhältnisse	O
+sagen	O
+
+bitte	O
+schalte	O
+aus	O
+das	O
+licht	O
+von	O
+meinem	O
+schlafzimmer	B-house_place
+
+hey	O
+erzähle	O
+mir	O
+einen	O
+witz	O
+und	O
+mach	O
+mich	O
+glücklich	O
+
+wie	O
+viele	O
+wochen	O
+sind	O
+es	O
+noch	O
+bis	O
+weihnachten	B-event_name
+
+hast	O
+du	O
+irgendwelche	O
+nachrichten	O
+von	O
+der	O
+taz	O
+
+wetter	O
+in	O
+mainz	B-place_name
+
+errechne	O
+den	O
+zeitunterschied	O
+zwischen	O
+neun	B-time
+uhr	I-time
+c.	B-place_name
+s.	I-place_name
+t.	I-place_name
+und	O
+e.	B-place_name
+s.	I-place_name
+t.	I-place_name
+
+schalte	O
+aus	O
+das	O
+wandschrank	O
+licht	O
+
+spiel	O
+herbert	B-artist_name
+grönemeyer	I-artist_name
+musik	O
+
+spiel	O
+meine	O
+bestbewertete	B-music_descriptor
+pop	B-music_genre
+lieder	O
+bitte	O
+
+stell	O
+die	O
+farbe	O
+aller	O
+lichter	O
+auf	O
+blau	B-color_type
+in	O
+meinem	O
+haus	O
+
+hip	O
+hop	O
+
+olly	O
+dreh	O
+die	O
+beleuchtung	O
+auf	B-change_amount
+sieben	I-change_amount
+runter	O
+
+beleuchtung	O
+runter	O
+auf	B-change_amount
+sieben	I-change_amount
+
+verringere	O
+die	O
+lichtstärke	O
+
+wie	O
+wird	O
+das	O
+wetter	O
+am	O
+siebten	B-date
+
+den	O
+lautsprecher	O
+stumm	O
+schalten	O
+bitte	O
+
+wie	O
+ist	O
+der	O
+titel	O
+von	O
+der	O
+musik	O
+die	O
+gerade	O
+läuft	O
+
+dreh	O
+die	O
+lautstärke	O
+hoch	O
+
+welches	O
+lied	O
+ist	O
+das	O
+
+ich	O
+möchte	O
+chöre	B-song_name
+hören	O
+
+zufallswiedergabe	O
+des	O
+aktuellen	O
+albums	O
+von	O
+liedern	O
+
+welche	O
+neuen	O
+nachrichten	O
+gibt	O
+es	O
+beim	O
+handelsblatt	B-media_type
+
+was	O
+gibt	O
+es	O
+neues	O
+in	O
+der	O
+tagesschau	B-media_type
+
+was	O
+gibt	O
+es	O
+neues	O
+bei	O
+der	O
+süddeutschen	B-media_type
+zeitung	I-media_type
+
+sag	O
+mir	O
+wie	O
+spät	O
+es	O
+ist	O
+
+lass	O
+mich	O
+die	O
+zeit	O
+in	O
+indien	B-place_name
+wissen	O
+
+welche	O
+wecker	O
+stehen	O
+an	O
+
+olly	O
+ausmachen	O
+der	O
+lichter	O
+
+gibt	O
+es	O
+eine	O
+möglichkeit	O
+die	O
+neusten	O
+nachrichten	O
+zu	O
+trump	B-news_topic
+zu	O
+bekommen	O
+
+anmachen	O
+der	O
+lichter	O
+
+bestelle	O
+essen	B-order_type
+zum	I-order_type
+mitnehmen	I-order_type
+
+kannst	O
+du	O
+alle	O
+lichter	O
+dimmen	O
+
+gib	O
+mir	O
+die	O
+nachrichten	O
+
+lichter	O
+runter	O
+
+wie	O
+ist	O
+das	O
+wetter	O
+diese	B-date
+woche	I-date
+
+sag	O
+mir	O
+das	O
+wetter	O
+für	O
+diese	B-date
+woche	I-date
+
+hey	O
+olly	O
+wie	O
+starte	O
+ich	O
+den	O
+staubsaugerroboter	B-device_type
+
+hilf	O
+mir	O
+bitte	O
+den	O
+staubsaugerroboter	B-device_type
+einzuschalten	O
+
+ich	O
+möchte	O
+ein	O
+bisschen	O
+modern	B-music_genre
+rock	I-music_genre
+hören	O
+
+was	O
+ist	O
+der	O
+status	O
+meiner	O
+letzten	O
+bestellung	O
+
+wie	O
+ist	O
+es	O
+draußen	O
+
+auf	O
+welchen	O
+wochentag	O
+fällt	O
+der	O
+valentinstag	B-event_name
+
+sage	O
+mir	O
+wie	O
+das	O
+wetter	O
+in	O
+münchen	B-place_name
+bayern	I-place_name
+ist	O
+
+ich	O
+will	O
+etwas	O
+musik	O
+spiel	O
+meine	O
+workout	B-playlist_name
+playlist	I-playlist_name
+ab	O
+
+einen	O
+wecker	O
+für	O
+morgen	B-date
+früh	B-timeofday
+um	O
+acht	B-time
+uhr	O
+stellen	O
+
+dimme	O
+bitte	O
+die	O
+lichter	O
+im	O
+schlafzimmer	B-house_place
+
+sag	O
+mir	O
+den	O
+namen	O
+des	O
+interpreten	O
+
+wie	O
+lautet	O
+der	O
+titel	O
+von	O
+diesem	O
+lied	O
+
+was	O
+passiert	O
+heute	B-date
+in	O
+der	O
+welt	B-place_name
+
+was	O
+sind	O
+die	O
+neuesten	O
+internationalen	B-place_name
+nachrichten	O
+
+ich	O
+hätte	O
+jetzt	O
+gern	O
+kaffee	O
+
+schalte	O
+bitte	O
+meine	O
+nachttischlampe	B-device_type
+aus	O
+
+bitte	O
+starte	O
+den	O
+staubsauger	B-device_type
+
+starte	O
+jetzt	O
+den	O
+staubsauger	B-device_type
+
+alle	O
+antworten	O
+jetzt	O
+stummschalten	O
+
+kein	O
+gespräch	O
+bitte	O
+
+haben	O
+wir	O
+von	O
+dem	O
+neuen	B-media_type
+anbieter	I-media_type
+ein	O
+update	O
+erhalten	O
+
+was	O
+gibt	O
+es	O
+neues	O
+zu	O
+kanzler	B-news_topic
+kurz	I-news_topic
+
+spiel	O
+adele	B-artist_name
+
+wie	O
+ist	O
+die	O
+wettervorhersage	O
+für	O
+münchen	B-place_name
+
+soll	O
+es	O
+nächste	B-date
+woche	I-date
+schneien	B-weather_descriptor
+
+was	O
+tut	O
+der	O
+stadtrat	B-news_topic
+gegen	I-news_topic
+obdachlosigkeit	I-news_topic
+in	O
+köln	B-place_name
+
+rufe	O
+die	O
+nachrichten	O
+von	O
+b.	B-media_type
+b.	I-media_type
+c.	I-media_type
+news	I-media_type
+auf	O
+
+wie	O
+viele	O
+wecker	O
+habe	O
+ich	O
+morgens	B-timeofday
+zwischen	O
+sechs	B-time
+und	I-time
+neun	I-time
+uhr	I-time
+gestellt	O
+
+öffne	O
+playlist	O
+
+bestellung	O
+bestätigen	O
+
+mach	O
+mir	O
+eine	O
+tasse	O
+kaffee	O
+
+ich	O
+möchte	O
+rock	B-music_genre
+anhören	O
+
+ok	O
+google	O
+spiele	O
+rock	B-music_genre
+musik	O
+
+schalte	O
+den	O
+strom	O
+aus	O
+
+stelle	O
+einen	O
+wecker	O
+für	O
+fünf	B-time
+uhr	I-time
+dreißig	I-time
+
+kann	O
+ich	O
+von	O
+diesem	O
+restaurant	B-business_type
+eine	O
+lieferung	B-order_type
+erhalten	O
+
+bietet	O
+mein	O
+lieblings	O
+restaurant	B-business_type
+lieferung	B-order_type
+an	O
+
+bieten	O
+sie	O
+essen	B-order_type
+zum	I-order_type
+mitnehmen	I-order_type
+an	O
+
+einschalten	O
+der	O
+kaffeemaschine	B-device_type
+
+was	O
+gibt	O
+es	O
+neues	O
+in	O
+der	O
+politik	B-news_topic
+
+zeig	O
+mir	O
+die	O
+zeit	O
+
+spiele	O
+musik	O
+aus	O
+dem	O
+jazz	B-music_genre
+genre	O
+
+nächster	O
+samstag	B-date
+ist	O
+welches	O
+datum	O
+
+hat	O
+bayern	O
+münchen	O
+gestern	B-date
+abend	I-date
+gewonnen	O
+
+ton	O
+aus	O
+den	O
+lautsprechern	O
+stummschalten	O
+
+hellere	O
+lichter	O
+im	O
+wohnzimmer	B-house_place
+
+koche	O
+ein	O
+bisschen	O
+kaffee	O
+
+ändere	O
+die	O
+farben	O
+vom	O
+licht	O
+von	O
+blau	B-color_type
+zu	O
+weiß	B-color_type
+
+mache	O
+die	O
+lichter	O
+im	O
+haus	B-house_place
+rot	B-color_type
+
+auf	O
+welchen	O
+tag	O
+fällt	O
+der	O
+sechzehnte	B-date
+april	I-date
+
+starte	O
+bitte	O
+den	O
+staubsauger	B-device_type
+für	O
+eine	B-time
+stunde	I-time
+
+sag	O
+mir	O
+das	O
+datum	O
+von	O
+heute	B-date
+
+stelle	O
+die	O
+wohnzimmer	B-house_place
+lichter	O
+auf	O
+rot	B-color_type
+
+wie	O
+läuft	O
+es	O
+mit	O
+der	O
+lieferung	B-order_type
+des	O
+restaurants	B-business_type
+
+dieses	O
+lied	O
+anhören	O
+
+call	O
+a	O
+pizza	O
+bietet	O
+essen	B-order_type
+zum	I-order_type
+mitnehmen	I-order_type
+nicht	O
+wahr	O
+
+ändere	O
+die	O
+licht	O
+farbe	O
+auf	O
+blau	B-color_type
+
+sag	O
+mir	O
+meine	O
+wecker	O
+
+bitte	O
+lösche	O
+alle	O
+wecker	O
+die	O
+ich	O
+gestellt	O
+habe	O
+
+bitte	O
+suche	O
+den	O
+artikel	O
+zum	O
+thema	O
+hunde	B-news_topic
+gassiservice	O
+aus	O
+der	O
+süddeutschen	B-media_type
+zeitung	I-media_type
+
+wie	O
+ist	O
+das	O
+wetter	O
+hier	O
+
+bestelle	O
+schnitzel	B-food_type
+zum	O
+mitnehmen	O
+
+gibt	O
+es	O
+bei	O
+youtube	B-media_type
+irgendwelche	O
+neuen	O
+videos	O
+von	O
+der	O
+süddeutschen	B-media_type
+zeitung	I-media_type
+
+spiel	O
+atmosphere	B-song_name
+als	O
+nächstes	O
+
+spiel	O
+meine	O
+country	B-music_genre
+playlist	O
+
+spiele	O
+meine	O
+zweite	B-playlist_name
+wiedergabeliste	I-playlist_name
+
+was	O
+ist	O
+das	O
+heutige	B-date
+datum	O
+
+alexa	O
+ausschalten	O
+des	O
+ventilators	B-device_type
+im	O
+hauptschlafzimmer	B-house_place
+
+alexa	O
+speichere	O
+bitte	O
+das	O
+aktuelle	O
+lied	O
+in	O
+meinen	O
+favoriten	O
+
+ich	O
+liebe	O
+hip	B-music_genre
+hop	I-music_genre
+
+bitte	O
+spiele	O
+meinen	O
+lieblings	O
+song	O
+von	O
+bruno	B-artist_name
+mars	I-artist_name
+
+bitte	O
+starte	O
+die	O
+kaffeemaschine	O
+
+lichter	O
+reduzieren	O
+
+nachtzeit	O
+modus	O
+
+angesagte	O
+technik	B-news_topic
+nachrichten	O
+
+neuste	O
+schlagzeilen	O
+zu	O
+technik	B-news_topic
+
+spiel	O
+das	O
+nächste	O
+lied	O
+
+in	O
+welchem	O
+jahr	O
+wurde	O
+das	O
+lied	O
+geschrieben	O
+
+finde	O
+mein	O
+essen	O
+
+olly	O
+zusammenfassung	O
+von	O
+schneevorhersagen	B-weather_descriptor
+in	O
+köln	B-place_name
+
+olly	O
+brandheiße	O
+trendende	B-news_topic
+themen	O
+
+nächster	O
+wecker	O
+
+ich	O
+habe	O
+grad	O
+richtig	O
+bock	O
+auf	O
+chinesisches	B-food_type
+bitte	O
+lass	O
+mich	O
+essen	O
+zum	O
+mitnehmen	O
+bestellen	O
+
+was	O
+gibt	O
+es	O
+heute	B-date
+neues	O
+in	O
+der	O
+politik	B-news_topic
+kannst	O
+nachrichten	O
+zu	O
+trump	B-person
+aber	O
+bitte	O
+rausfiltern	O
+
+ich	O
+will	O
+zwei	O
+pizzen	B-food_type
+sofort	O
+
+mache	O
+einen	O
+song	O
+an	O
+
+ausmachen	O
+der	O
+beleuchtung	O
+
+ist	O
+es	O
+sonnig	B-weather_descriptor
+wie	O
+ist	O
+die	O
+temperatur	B-weather_descriptor
+
+spiel	O
+mir	O
+etwas	O
+musik	O
+
+wo	O
+kann	O
+ich	O
+essen	B-order_type
+zum	I-order_type
+mitnehmen	I-order_type
+in	O
+der	O
+nähe	O
+bestellen	O
+
+lautstärke	O
+bitte	O
+niedriger	O
+machen	O
+
+auf	O
+welche	O
+zeit	O
+ist	O
+mein	O
+aufwach	O
+alarm	O
+gestellt	O
+
+habe	O
+ich	O
+irgendwelche	O
+wecker	O
+für	O
+morgen	B-date
+früh	B-timeofday
+
+lösche	O
+meine	O
+frühen	O
+awecker	O
+
+spielen	O
+klassische	B-music_genre
+kammer	I-music_genre
+musik	O
+wiedergabeliste	O
+
+spiel	O
+das	O
+lied	O
+als	O
+nächstes	O
+
+was	O
+ist	O
+der	O
+name	O
+des	O
+frontmanns	O
+der	O
+band	O
+
+schalte	O
+das	O
+ab	O
+
+siri	O
+spiel	O
+meine	O
+pop	B-music_genre
+playlist	O
+
+sag	O
+mir	O
+ob	O
+es	O
+irgendwelche	O
+neuigkeiten	O
+zu	O
+diesem	O
+thema	O
+gibt	O
+
+du	O
+solltest	O
+wissen	O
+dass	O
+ich	O
+jazz	B-music_genre
+mag	O
+
+überprüf	O
+bitte	O
+meine	O
+playlist	O
+
+kannst	O
+du	O
+den	O
+wecker	O
+auf	O
+ein	B-time
+uhr	I-time
+dreißig	I-time
+stellen	O
+
+lösche	O
+den	O
+wecker	O
+für	O
+morgen	B-date
+
+was	O
+ist	O
+die	O
+aktuelle	O
+zentrale	B-time_zone
+uhrzeit	O
+
+entferne	O
+die	O
+für	O
+morgen	B-date
+eingestellten	O
+wecker	O
+
+olly	O
+drehe	O
+die	O
+lichter	O
+runter	O
+
+wird	O
+es	O
+morgen	B-date
+in	O
+münchen	B-place_name
+regnen	B-weather_descriptor
+
+was	O
+ist	O
+die	O
+zeit	O
+in	O
+wien	B-place_name
+
+wie	O
+groß	O
+ist	O
+die	O
+zeitverschiebung	O
+zwischen	O
+östlicher	B-time_zone
+und	O
+pazifischer	B-time_zone
+zeitzohne	O
+
+bietet	O
+das	O
+nächstgelegenste	O
+chinesische	B-food_type
+restaurant	B-business_type
+lieferung	B-order_type
+an	O
+
+wie	O
+ist	O
+das	O
+wetter	O
+in	O
+münchen	B-place_name
+
+ok	O
+google	O
+wie	O
+ist	O
+das	O
+wetter	O
+
+beleuchtung	O
+verringern	O
+
+bitte	O
+mache	O
+meine	O
+wemo	B-device_type
+steckdose	I-device_type
+an	O
+
+wie	O
+wird	O
+nächste	B-date
+woche	I-date
+das	O
+wetter	O
+
+wie	O
+kann	O
+man	O
+ein	O
+lied	O
+wiederholen	O
+
+welche	O
+musik	O
+ist	O
+es	O
+
+erhöhe	O
+bitte	O
+die	O
+lichter	O
+
+spiel	O
+romantische	B-playlist_name
+wiedergabeliste	I-playlist_name
+
+auf	O
+welchen	O
+wochentag	O
+fällt	O
+der	O
+zweiundzwanzigste	B-date
+diesen	I-date
+monat	I-date
+
+gehe	O
+schlafen	O
+
+ich	O
+hätte	O
+gerne	O
+einen	O
+wach	B-alarm_type
+auf	I-alarm_type
+alarm	O
+um	O
+sieben	B-time
+uhr	I-time
+morgen	B-date
+
+bitte	O
+alle	O
+lampen	O
+außen	O
+anschalten	O
+
+erhöhe	O
+die	O
+lautstärke	O
+bitte	O
+
+suche	O
+nach	O
+aktuellen	O
+nachrichten	O
+zum	O
+regierungsshutdown	B-news_topic
+
+spiele	O
+musik	O
+von	O
+den	O
+beatles	B-artist_name
+
+nacht	O
+zeit	O
+
+besorge	O
+mir	O
+takeaway	B-order_type
+essen	O
+
+spiel	O
+etwas	O
+romantisches	B-music_genre
+
+wird	O
+es	O
+am	O
+freitag	B-date
+schön	B-weather_descriptor
+am	O
+strand	B-place_name
+
+spiele	O
+afi's	B-artist_name
+viertes	O
+album	O
+
+mach	O
+mir	O
+bitte	O
+einen	O
+kaffee	O
+
+welche	O
+tage	O
+werden	O
+diese	B-date
+woche	I-date
+regnerisch	B-weather_descriptor
+
+wie	O
+ist	O
+das	O
+wetter	O
+in	O
+dieser	B-date
+woche	I-date
+
+stell	O
+meinen	O
+wecker	O
+auf	O
+ein	B-time
+uhr	I-time
+
+was	O
+sind	O
+die	O
+neusten	O
+nachrichten	O
+zur	O
+bundestagswahl	B-news_topic
+
+mache	O
+mir	O
+bitte	O
+einen	O
+kaffee	O
+
+ist	O
+heute	B-date
+ein	O
+sonniger	B-weather_descriptor
+tag	O
+
+wie	O
+ist	O
+gerade	O
+das	O
+wetter	O
+in	O
+münchen	B-place_name
+
+ich	O
+möchte	O
+meine	O
+playlist	O
+hören	O
+spiel	O
+diese	O
+bitte	O
+jetzt	O
+ab	O
+
+olly	O
+mädchen	B-song_name
+lucilectric	B-artist_name
+anmachen	O
+
+wie	O
+heiß	B-weather_descriptor
+ist	O
+es	O
+in	O
+münchen	B-place_name
+
+wie	O
+lautet	O
+die	O
+aktuelle	O
+uhrzeit	O
+in	O
+leipzig	B-place_name
+sachsen	I-place_name
+
+wie	O
+ist	O
+die	O
+aktuelle	O
+uhrzeit	O
+in	O
+münchen	B-place_name
+bayern	I-place_name
+
+wird	O
+es	O
+am	O
+sonntag	B-date
+zu	O
+kalt	B-weather_descriptor
+für	O
+ein	O
+kleid	O
+sein	O
+
+kann	O
+ich	O
+ein	O
+bisschen	O
+britney	B-artist_name
+spears	I-artist_name
+hören	O
+
+das	O
+ist	O
+zu	O
+hell	O
+
+bestelle	O
+zwei	O
+große	O
+pizza	B-food_type
+und	I-food_type
+hot	I-food_type
+wings	I-food_type
+von	O
+dominoes	B-business_name
+
+was	O
+ist	O
+die	O
+zeit	O
+und	O
+das	O
+datum	O
+für	O
+heute	B-date
+
+spiele	O
+meine	O
+aktuelle	O
+playlist	O
+von	O
+oben	O
+
+spiel	O
+mein	O
+lieblings	O
+country	B-music_genre
+lied	O
+
+wie	O
+spät	O
+ist	O
+es	O
+momentan	O
+in	O
+polen	B-place_name
+
+olly	O
+wie	O
+spät	O
+ist	O
+es	O
+augenblicklich	O
+in	O
+deutschland	B-place_name
+
+spiel	O
+bitte	O
+aretha	B-artist_name
+franklin's	I-artist_name
+call	O
+me	O
+next	O
+
+lass	O
+mich	O
+die	O
+zeit	O
+wissen	O
+
+was	O
+sind	O
+die	O
+neusten	O
+nachrichten	O
+über	O
+die	O
+grünen	B-news_topic
+
+bitte	O
+spiel	O
+nach	O
+dem	O
+hier	O
+rebel	B-song_name
+yell	I-song_name
+
+ich	O
+möchte	O
+ein	O
+wenig	O
+jazz	B-music_genre
+hören	O
+
+zeige	O
+mir	O
+das	O
+wetter	O
+von	O
+köln	B-place_name
+für	O
+eine	B-date
+woche	I-date
+
+bitte	O
+schalte	O
+die	O
+intelligente	B-device_type
+steckdose	I-device_type
+aus	O
+
+schalte	O
+den	O
+wemo	B-device_type
+plug	I-device_type
+socket	I-device_type
+ein	O
+
+reduziere	O
+die	O
+lautstärke	O
+
+stelle	O
+an	O
+den	O
+roomba	B-device_type
+
+bestell	O
+mir	O
+chinesisches	B-food_type
+essen	O
+
+wer	O
+hat	O
+das	O
+lied	O
+geschrieben	O
+was	O
+im	O
+radio	O
+ist	O
+
+was	O
+ist	O
+der	O
+aktuelle	O
+stand	O
+bei	O
+den	O
+beiden	B-news_topic
+fußballspielen	I-news_topic
+die	O
+gerade	O
+stattfinden	O
+
+was	O
+ist	O
+die	O
+schlagzeile	O
+der	O
+frankfurter	B-media_type
+rundschau	I-media_type
+
+wie	O
+wird	O
+das	O
+wetter	O
+den	O
+rest	B-date
+der	I-date
+woche	I-date
+werden	O
+
+wird	O
+es	O
+in	O
+nächster	O
+zeit	O
+flip	B-weather_descriptor
+flop	I-weather_descriptor
+wetter	I-weather_descriptor
+geben	O
+
+wie	O
+ist	O
+das	O
+wetter	O
+jetzt	O
+
+bitte	O
+licht	O
+verstärken	O
+
+gibt	O
+es	O
+nächste	B-date
+woche	I-date
+schnee	B-weather_descriptor
+
+lösche	O
+den	O
+alarm	O
+für	O
+mittwoch	B-date
+abend	B-timeofday
+
+wieviel	O
+schnee	B-weather_descriptor
+hat	O
+mainz	B-place_name
+heute	B-date
+abbekommen	O
+
+speichere	O
+von	O
+diesem	O
+lied	O
+das	O
+genre	O
+
+ich	O
+möchte	O
+dass	O
+du	O
+dich	O
+daran	O
+erinnerst	O
+dass	O
+ich	O
+das	O
+lied	O
+mag	O
+
+spiel	O
+thriller	B-song_name
+nach	O
+diesem	O
+song	O
+
+alarmiere	O
+mich	O
+in	O
+drei	B-time
+stunden	I-time
+
+indie	O
+
+wie	O
+ist	O
+das	O
+wetter	O
+jetzt	O
+gerade	O
+
+sag	O
+mir	O
+was	O
+in	O
+der	O
+europäischen	B-news_topic
+politik	I-news_topic
+passiert	O
+
+ich	O
+möchte	O
+wissen	O
+wer	O
+gerade	O
+die	O
+bundesliga	B-news_topic
+anführt	O
+
+alexa	O
+was	O
+sind	O
+die	O
+nachrichten	O
+in	O
+meiner	O
+region	O
+
+es	O
+ist	O
+zeit	O
+etwas	O
+mark	B-artist_name
+forster	I-artist_name
+zu	O
+hören	O
+
+schalte	O
+wiederholung	B-player_setting
+ein	O
+
+die	O
+reinigung	O
+beginnen	O
+
+was	O
+ist	O
+der	O
+beste	O
+tag	O
+nächste	B-date
+woche	I-date
+um	O
+pizza	B-food_type
+essen	O
+zu	O
+gehen	O
+
+welche	O
+art	O
+von	O
+wetter	O
+kann	O
+ich	O
+heute	B-date
+erwarten	O
+
+in	O
+münchen	B-place_name
+ist	O
+es	O
+jetzt	O
+wieviel	O
+uhr	O
+
+bitte	O
+stell	O
+einen	O
+wecker	O
+für	O
+acht	B-time
+uhr	I-time
+morgens	O
+
+füge	O
+viel	O
+annenmaykantereit	B-artist_name
+und	O
+cat	B-artist_name
+stevens	I-artist_name
+zu	O
+der	O
+playliste	O
+hinzu	O
+
+kannst	O
+du	O
+etwas	O
+dance	B-music_genre
+musik	I-music_genre
+spielen	O
+
+spiel	O
+lieder	O
+von	O
+der	O
+wiedergabeliste	O
+
+welche	O
+alarme	O
+habe	O
+ich	O
+richtig	O
+jetzt	O
+
+wie	O
+ist	O
+heute	B-date
+die	O
+temperatur	B-weather_descriptor
+in	O
+münchen	B-place_name
+bayern	I-place_name
+
+lade	O
+spotify	B-app_name
+
+hey	O
+olly	O
+erzähl	O
+mir	O
+einen	O
+witz	O
+
+ich	O
+möchte	O
+heute	B-timeofday
+abend	I-timeofday
+chinesisches	B-food_type
+essen	O
+was	O
+liefert	O
+zu	O
+mir	O
+
+hey	O
+siri	O
+ändere	O
+die	O
+aktuellen	O
+licht	O
+einstellungen	O
+
+ich	O
+hab	O
+dieses	O
+riff	O
+schon	O
+mal	O
+gehört	O
+welches	O
+lied	O
+hat	O
+dieses	O
+riff	O
+gestohlen	O
+es	O
+ist	O
+genau	O
+dasselbe	O
+
+lösche	O
+den	O
+wecker	O
+um	O
+vier	B-time
+uhr	I-time
+
+morgen	O
+über	B-weather_descriptor
+neunzig	I-weather_descriptor
+grad	O
+
+spiel	O
+meinen	O
+lieblings	O
+song	O
+vom	O
+letzten	B-date
+jahr	I-date
+
+bitte	O
+nicht	O
+antworten	O
+
+kannst	O
+du	O
+meine	O
+schreibtischlampe	B-device_type
+einschalten	O
+
+schreibtischlampe	O
+eins	O
+aus	O
+
+licht	O
+hoch	O
+
+muss	O
+ich	O
+heute	B-date
+einen	O
+regenschirm	B-weather_descriptor
+mit	O
+in	O
+die	O
+arbeit	O
+nehmen	O
+
+kann	O
+ich	O
+heute	B-date
+beim	O
+einkaufen	O
+kurze	B-weather_descriptor
+hosen	I-weather_descriptor
+tragen	O
+
+spiel	O
+musik	O
+von	O
+queen	B-artist_name
+
+spiel	O
+das	O
+neueste	O
+album	O
+von	O
+jay	B-artist_name
+z.	I-artist_name
+
+stelle	O
+einen	O
+wecker	O
+für	O
+morgen	B-date
+früh	B-timeofday
+zehn	B-time
+uhr	O
+
+wecke	O
+mich	O
+auf	O
+um	O
+zehn	B-time
+
+spiel	O
+so	B-song_name
+ist	I-song_name
+es	I-song_name
+von	O
+sero	B-artist_name
+
+lieferdienst	O
+in	O
+meiner	O
+nähe	O
+zeigen	O
+
+internet	O
+öffnen	O
+
+lass	O
+mich	O
+etwas	O
+musik	O
+hören	O
+
+ich	O
+möchte	O
+gute	O
+musik	O
+anhören	O
+
+erhöhe	O
+das	O
+licht	B-device_type
+der	I-device_type
+lampe	I-device_type
+
+bitte	O
+dreh	O
+die	O
+lautstärke	O
+auf	O
+die	O
+lauteste	B-change_amount
+einstellung	O
+
+schalte	O
+das	O
+audio	O
+stumm	O
+
+audio	O
+anhalten	O
+
+wird	O
+es	O
+diese	B-date
+woche	I-date
+überhaupt	O
+regnen	B-weather_descriptor
+
+dimme	O
+alle	O
+lichter	O
+im	O
+innenbereich	B-house_place
+
+werde	O
+ich	O
+heute	B-date
+mit	O
+kurzer	B-weather_descriptor
+hose	I-weather_descriptor
+durchkommen	O
+
+sollte	O
+ich	O
+mich	O
+heute	B-date
+in	O
+lagen	B-weather_descriptor
+anziehen	O
+
+ändere	O
+meiner	O
+lichter	O
+auf	O
+eine	O
+zufällige	B-color_type
+farbe	O
+
+zeig	O
+mir	O
+das	O
+neuste	O
+der	O
+new	B-media_type
+york	I-media_type
+times	I-media_type
+
+stelle	O
+die	O
+einstellungen	O
+lautlos	O
+
+soll	O
+es	O
+diese	B-date
+woche	I-date
+schnee	O
+geben	O
+
+ändere	O
+die	O
+farbe	O
+der	O
+lichter	O
+
+tag	O
+am	O
+zweiundzwanzigsten	B-date
+april	I-date
+
+wie	O
+schnell	O
+können	O
+wir	O
+mit	O
+regen	B-weather_descriptor
+rechnen	O
+
+die	O
+wettervorhersage	O
+die	O
+du	O
+mir	O
+gegeben	O
+hast	O
+ist	O
+für	O
+die	O
+falsche	O
+stadt	O
+ich	O
+möchte	O
+wissen	O
+wie	O
+die	O
+temperatur	O
+ist	O
+wo	O
+ich	O
+gerade	O
+bin	O
+
+bestell	O
+einen	O
+double	O
+bacon	B-food_type
+cheeseburger	I-food_type
+mit	O
+speck	B-food_type
+und	O
+gouda	B-food_type
+
+spiele	O
+etwas	O
+von	O
+den	O
+smashing	B-playlist_name
+pumpkins	I-playlist_name
+
+update	O
+zu	O
+april	B-date
+die	O
+giraffe	B-news_topic
+
+wie	O
+ist	O
+diese	B-date
+woche	I-date
+das	O
+wetter	O
+in	O
+meiner	O
+umgebung	O
+
+drehe	O
+die	O
+beleuchtung	O
+hier	O
+drin	O
+auf	O
+
+bitte	O
+drehe	O
+die	O
+lautstärke	O
+der	O
+lautsprecher	O
+hoch	O
+
+ist	O
+in	O
+hannover	B-place_name
+eine	O
+andere	O
+zeit	O
+
+sag	O
+mir	O
+welche	O
+catering	O
+pakete	O
+verfügbar	O
+sind	O
+
+wird	O
+der	O
+himmel	O
+bedeckt	O
+sein	O
+
+schau	O
+nach	O
+ob	O
+pizza	B-business_name
+hut	I-business_name
+meine	O
+bestellung	O
+auf	O
+den	O
+weg	O
+gebracht	O
+hat	O
+
+starte	O
+neue	O
+smarte	B-device_type
+steckdose	I-device_type
+
+dimme	O
+die	O
+lichter	O
+auf	O
+level	O
+zwei	O
+
+wie	O
+ist	O
+die	O
+wettervorhersage	O
+für	O
+diese	B-date
+woche	I-date
+
+stelle	O
+die	O
+schlafzimmer	B-house_place
+beleuchtung	O
+aus	O
+
+wann	O
+wird	O
+taco	B-business_name
+bell	I-business_name
+ankommen	O
+
+was	O
+ist	O
+der	O
+name	O
+dieser	O
+gruppe	O
+
+wann	O
+ist	O
+die	O
+nächste	B-news_topic
+presse	I-news_topic
+konferenz	I-news_topic
+von	O
+baerbock	O
+
+was	O
+sind	O
+die	O
+derzeitigen	O
+aktienpreise	B-news_topic
+von	O
+google	B-business_name
+
+wird	O
+mein	O
+goldspiel	O
+verregnet	B-weather_descriptor
+
+wie	O
+ist	O
+das	O
+wetter	O
+in	O
+hamburg	B-place_name
+
+stelle	O
+einen	O
+wecker	O
+für	O
+fünf	B-time
+uhr	I-time
+
+stell	O
+bitte	O
+einen	O
+wecker	O
+für	O
+zweiundzwanzig	B-time
+uhr	I-time
+
+wie	O
+soll	O
+morgen	B-date
+das	O
+wetter	O
+werden	O
+
+wird	O
+es	O
+morgen	B-date
+schön	B-weather_descriptor
+werden	O
+
+wie	O
+ist	O
+die	O
+vorhersage	O
+für	O
+heute	B-date
+in	O
+meiner	O
+gegend	O
+
+liste	O
+meine	O
+unterschiedlichen	O
+wecker	O
+auf	O
+
+schalte	O
+die	O
+benachrichtigung	O
+für	O
+alle	O
+nachrichten	O
+vom	O
+aktienmarkt	B-news_topic
+
+benachrichtige	O
+mich	O
+über	O
+die	O
+aktuellsten	O
+nachrichten	O
+zum	O
+aktienmarkt	B-news_topic
+
+öffne	O
+meine	O
+musik	O
+
+sag	O
+mir	O
+was	O
+die	O
+letzten	O
+neuigkeiten	O
+sind	O
+
+ich	O
+will	O
+einen	O
+nerd	B-joke_type
+witz	O
+
+sollte	O
+ich	O
+heute	B-date
+eine	O
+kurze	B-weather_descriptor
+hose	I-weather_descriptor
+anziehen	O
+
+kannst	O
+du	O
+mir	O
+einen	O
+guten	B-joke_type
+witz	O
+sagen	O
+
+wiederhole	O
+das	B-music_descriptor
+letzte	I-music_descriptor
+lied	I-music_descriptor
+nochmal	O
+
+welcher	O
+wochentag	O
+ist	O
+in	O
+diesem	O
+jahr	O
+der	O
+siebenundzwanzigste	B-date
+juni	I-date
+
+muss	O
+ich	O
+mich	O
+warm	B-weather_descriptor
+halten	O
+
+was	O
+ist	O
+es	O
+heute	B-date
+
+schalte	O
+das	O
+licht	O
+im	O
+schlafzimmer	B-house_place
+aus	O
+
+konvertiere	O
+die	O
+zeitzone	O
+
+wie	O
+spät	O
+ist	O
+es	O
+in	O
+einer	B-place_name
+anderen	I-place_name
+stadt	I-place_name
+
+wann	O
+ist	O
+der	O
+sonnenuntergang	O
+
+zehn	O
+tage	O
+vorschau	O
+
+können	O
+die	O
+lichter	O
+auf	O
+grün	B-color_type
+geändert	O
+werden	O
+
+zeige	O
+mir	O
+die	O
+nachrichten	O
+von	O
+der	O
+süddeutschen	B-media_type
+zeitung	I-media_type
+
+gibt	O
+es	O
+irgendwelche	O
+nachrichten	O
+
+spiel	O
+uptown	B-song_name
+girl	I-song_name
+von	O
+billy	B-artist_name
+joel	I-artist_name
+
+stelle	O
+einen	O
+wecker	O
+für	O
+fünf	B-time
+minuten	I-time
+ab	I-time
+jetzt	I-time
+
+stelle	O
+meinen	O
+wecker	O
+
+ruf	O
+china	B-business_name
+city	I-business_name
+an	O
+und	O
+bestell	O
+mir	O
+ein	B-food_type
+chinesisches	I-food_type
+omelett	I-food_type
+
+wie	O
+ist	O
+die	O
+aktuelle	O
+temperatur	B-weather_descriptor
+
+spiel	O
+ein	O
+bisschen	O
+musik	O
+
+weißt	O
+du	O
+was	O
+vom	O
+text	O
+
+wer	O
+sang	O
+das	O
+
+öffne	O
+einige	O
+coole	B-joke_type
+witze	O
+
+erzähl	O
+mir	O
+einen	O
+witz	O
+
+schalte	O
+die	O
+lichter	O
+aus	O
+
+gib	O
+mir	O
+nachrichten	O
+updates	O
+zu	O
+dem	O
+sturm	B-news_topic
+
+schicke	O
+mir	O
+die	O
+aktienmarkt	B-news_topic
+neuigkeiten	O
+von	O
+heute	B-date
+
+was	O
+waren	O
+die	O
+lottozahlen	B-news_topic
+letzte	B-date
+nacht	I-date
+
+entferne	O
+finjas	B-person
+schlafenszeit	O
+wecker	O
+
+bitte	O
+sprich	O
+leiser	O
+mit	O
+mir	O
+
+wie	O
+spät	O
+ist	O
+es	O
+in	O
+der	O
+östlichen	B-time_zone
+zeitzone	O
+
+bitte	O
+informiere	O
+mich	O
+über	O
+die	O
+neuesten	O
+entwicklungen	O
+bei	O
+den	O
+wahlen	B-news_topic
+in	O
+unserem	O
+land	B-place_name
+
+ich	O
+mag	O
+r.	B-music_genre
+and	I-music_genre
+b.	I-music_genre
+
+zeige	O
+uns	O
+rot	B-color_type
+
+ist	O
+der	O
+dreiundzwanzigste	B-date
+april	I-date
+ein	O
+samstag	O
+
+welche	O
+woche	O
+ist	O
+heute	B-date
+
+wie	O
+ist	O
+das	O
+wetter	O
+in	O
+meiner	O
+heimatstadt	B-place_name
+
+spiele	O
+musik	O
+aus	O
+dieser	O
+playlist	O
+
+informiere	O
+mich	O
+wenn	O
+es	O
+neue	O
+nachrichten	O
+in	O
+meinen	O
+lokalnachrichten	O
+gibt	O
+
+ändere	O
+die	O
+opazität	O
+der	O
+farben	O
+
+farbe	O
+von	O
+hell	B-color_type
+nach	O
+dunkel	B-color_type
+ersetzen	O
+
+stelle	O
+wemo	B-device_type
+an	O
+
+stell	O
+einen	O
+wecker	O
+für	O
+sechs	B-time
+uhr	I-time
+
+es	O
+ist	O
+dunkel	O
+hier	O
+drin	O
+
+olly	O
+wecker	O
+sreichen	O
+
+siri	O
+lösche	O
+meinen	O
+yoga	O
+wecker	O
+
+olly	O
+bitte	O
+dreh	O
+die	O
+lautstärke	O
+hoch	O
+
+google	O
+mische	B-player_setting
+wiedergabeliste	O
+
+spiele	O
+thinking	B-song_name
+out	I-song_name
+loud	I-song_name
+als	O
+nächstes	O
+
+wie	O
+wird	O
+das	O
+wetter	O
+am	O
+tag	B-date
+danach	I-date
+
+der	O
+bundesanzeiger	O
+bonn	O
+meldet	O
+der	O
+missbrauch	O
+verschreibungspflichtiger	O
+medikamente	O
+nimmt	O
+zu	O
+
+kannst	O
+du	O
+mir	O
+bitte	O
+sagen	O
+wie	O
+die	O
+wettervorhersage	O
+für	O
+diese	B-date
+woche	I-date
+ist	O
+
+würdest	O
+du	O
+die	O
+kaffeemaschine	B-device_type
+anschalten	O
+
+hier	O
+drin	O
+ist	O
+es	O
+zu	O
+hell	O
+kannst	O
+du	O
+ein	O
+licht	O
+aus	O
+machen	O
+
+wie	O
+soll	O
+das	O
+wetter	O
+diese	B-date
+woche	I-date
+werden	O
+
+dieses	O
+lied	O
+meiner	O
+playlist	O
+lieblinge	O
+hinzufügen	O
+
+bitte	O
+spiel	O
+diesen	O
+song	O
+nochmal	O
+ab	O
+
+wird	O
+es	O
+am	O
+donnerstag	B-date
+noch	O
+windig	B-weather_descriptor
+sein	O
+
+erzähl	O
+einen	O
+witz	O
+
+siri	O
+besorge	O
+mir	O
+die	O
+nachrichten	O
+zu	O
+donald	B-person
+trump	I-person
+
+siri	O
+gibt	O
+es	O
+aktuelle	O
+nachrichten	O
+zur	O
+bundestagswahl	B-news_topic
+
+wie	O
+wird	O
+das	O
+wetter	O
+wahrscheinlich	O
+in	O
+meiner	O
+gegen	O
+heute	B-date
+sein	O
+
+bitte	O
+schalte	O
+das	O
+licht	O
+im	O
+lesezimmer	B-house_place
+aus	O
+
+besorg	O
+mir	O
+die	O
+aktuellsten	O
+nachrichten	O
+
+wieviele	O
+tore	O
+hat	O
+nadine	B-person
+angerer	I-person
+gestern	B-date
+geschossen	O
+
+spiel	O
+meine	O
+fitnessplaylist	B-playlist_name
+
+schalte	O
+bitte	O
+die	O
+lichter	O
+im	O
+badezimmer	B-house_place
+aus	O
+
+olly	O
+muss	O
+ich	O
+heute	B-date
+handschuhe	B-weather_descriptor
+anziehen	O
+
+ist	O
+ein	O
+regenschirm	B-weather_descriptor
+notwendig	O
+für	O
+meinen	O
+ausflug	O
+
+starte	O
+die	O
+in	O
+letzter	O
+zeit	O
+hinzugefügte	O
+playlist	O
+
+zeige	O
+aktuelle	O
+nachrichten	O
+von	O
+n.	B-media_type
+t.	I-media_type
+v.	I-media_type
+
+zeige	O
+mir	O
+die	O
+live	O
+n.	B-media_type
+t.	I-media_type
+v.	I-media_type
+nachrichten	I-media_type
+
+wie	O
+ist	O
+es	O
+draußen	O
+
+wie	O
+ist	O
+heute	B-date
+das	O
+wetter	O
+in	O
+münchen	B-place_name
+bayern	I-place_name
+
+sag	O
+mir	O
+die	O
+wecker	O
+zeiten	O
+die	O
+du	O
+gestellt	O
+hast	O
+
+bekomme	O
+ich	O
+die	O
+regionalen	O
+nachrichten	O
+zur	O
+hamburger	B-news_topic
+feuerwehr	I-news_topic
+
+spiel	O
+von	O
+meiner	O
+playlist	O
+
+schalte	O
+zur	O
+standard	B-time_zone
+zeitzone	O
+
+wann	O
+wird	O
+der	O
+vierundzwanzigste	B-date
+nächste	I-date
+woche	I-date
+sein	O
+
+was	O
+gibt	O
+es	O
+neues	O
+auf	O
+itunes	O
+
+bitte	O
+zeige	O
+mir	O
+wetter	O
+am	O
+siebenundzwanzigsten	B-date
+märz	I-date
+zweitausendsiebzehn	I-date
+
+wie	O
+sind	O
+die	O
+nachrichten	O
+in	O
+irland	B-place_name
+
+was	O
+für	O
+ein	O
+lied	O
+läuft	O
+gerade	O
+
+lautstärke	O
+erhöhen	O
+
+den	O
+roomba	B-device_type
+zum	O
+reinigen	O
+der	O
+küche	B-house_place
+einsetzen	O
+
+bitte	O
+geben	O
+sie	O
+mir	O
+einzelheiten	O
+über	O
+qntai	B-artist_name
+lied	O
+
+werde	O
+den	O
+siebzehn	B-time
+uhr	I-time
+wecker	O
+los	O
+
+spiel	O
+einen	O
+indian	B-music_genre
+folk	I-music_genre
+song	O
+
+brauche	O
+ich	O
+nach	B-time
+zehn	I-time
+uhr	I-time
+eine	O
+jacke	B-weather_descriptor
+oder	O
+nicht	O
+
+ich	O
+möchte	O
+die	O
+yahoo	B-media_type
+news	I-media_type
+lesen	O
+
+sollte	O
+ich	O
+heute	B-timeofday
+abend	I-timeofday
+handschuhe	B-weather_descriptor
+mitnehmen	O
+
+brauche	O
+ich	O
+heute	B-date
+eine	O
+jacke	B-weather_descriptor
+
+olly	O
+erhelle	O
+die	O
+lichter	O
+
+ändere	O
+die	O
+farbe	O
+der	O
+beleuchtung	O
+
+wechsel	O
+zu	O
+einer	O
+anderen	O
+licht	O
+farbe	O
+
+aktiviere	O
+eine	O
+andere	O
+licht	O
+farbe	O
+
+was	O
+ist	O
+die	O
+neueste	B-news_topic
+umfrage	I-news_topic
+von	I-news_topic
+der	I-news_topic
+öffentlichen	I-news_topic
+meinung	I-news_topic
+über	I-news_topic
+donald	I-news_topic
+trump	I-news_topic
+
+favorisiere	O
+diese	O
+musik	O
+
+schalte	O
+die	O
+zimmer	B-house_place
+beleuchtung	O
+aus	O
+
+was	O
+für	O
+ein	O
+tag	O
+ist	O
+der	O
+zweiundzwanzigste	B-date
+mai	I-date
+
+schalte	O
+auf	O
+stumm	O
+bis	O
+ich	O
+was	O
+anderes	O
+sage	O
+
+wiederhole	O
+bitte	O
+das	O
+aktuelle	O
+lied	O
+wird	O
+gespielt	O
+
+bitte	O
+teile	O
+mir	O
+die	O
+morgendliche	B-timeofday
+weckzeit	O
+für	O
+wochentage	B-date
+mit	O
+
+danke	O
+an	O
+ally	O
+für	O
+die	O
+ganzen	O
+fotos	O
+
+spiele	O
+etwas	O
+old	B-music_genre
+school	I-music_genre
+rap	I-music_genre
+
+lies	O
+mir	O
+die	O
+nachrichten	O
+des	O
+tages	O
+vor	O
+
+sind	O
+ben	B-person
+und	O
+jen	B-person
+wieder	O
+zusammen	O
+
+stell	O
+einen	O
+wecker	O
+für	O
+den	O
+fünfundzwanzigsten	B-date
+mai	I-date
+um	O
+siebzehn	B-time
+uhr	I-time
+
+spiel	O
+meine	O
+musik	O
+ab	O
+
+assistent	O
+shuffle	B-player_setting
+die	O
+gesamte	B-music_descriptor
+bibliothek	I-music_descriptor
+
+das	O
+nächste	O
+chipotle	B-business_name
+
+mischen	O
+blaue	B-playlist_name
+wiedergabeliste	I-playlist_name
+
+berichte	O
+weckereinstellungen	O
+
+temperatur	O
+jetzt	O
+
+spiele	O
+alle	B-music_descriptor
+lieder	O
+der	O
+sängerin	O
+siri	B-artist_name
+svegler	I-artist_name
+zufällig	B-player_setting
+ab	O
+
+werde	O
+ich	O
+dieses	B-date
+wochenende	I-date
+sonnenblocker	B-weather_descriptor
+brauchen	O
+
+sollte	O
+ich	O
+etwas	O
+streusalz	B-food_type
+vom	O
+laden	B-business_type
+mitnehmen	O
+
+schalten	O
+die	O
+wemo	B-device_type
+steckdose	I-device_type
+ein	O
+
+kippschalter	O
+wemo	B-device_type
+steckdose	I-device_type
+auf	O
+
+lass	O
+mich	O
+einfach	O
+nur	O
+das	O
+aktuelle	O
+datum	O
+von	O
+heute	B-date
+wissen	O
+
+die	O
+wetter	O
+vorhersage	O
+für	O
+berlin	O
+von	O
+wetter	O
+punkt	O
+com	O
+und	O
+apple	O
+ist	O
+leider	O
+schlecht	O
+für	O
+meine	O
+region	O
+
+clicke	O
+auf	O
+start	O
+und	O
+wähle	O
+die	O
+einstellungen	O
+aus	O
+
+wie	O
+spät	O
+ist	O
+es	O
+in	O
+weimar	B-place_name
+deutschland	I-place_name
+
+spiel	O
+partylieder	B-music_descriptor
+
+kool	O
+savas	O
+
+fang	O
+an	O
+mit	O
+der	O
+hausreinigung	B-house_place
+
+muss	O
+ich	O
+eine	O
+jacke	B-weather_descriptor
+zur	O
+arbeit	O
+anziehen	O
+
+kannst	O
+du	O
+lauter	O
+sprechen	O
+
+steigere	O
+jedes	B-device_type
+licht	I-device_type
+im	O
+zimmer	B-house_place
+
+bitte	O
+spiel	O
+das	O
+madonna	B-artist_name
+lied	O
+nochmal	O
+
+orevena	O
+voice	O
+recorder	O
+lass	O
+mich	O
+auf	O
+die	O
+systemseite	O
+wo	O
+ich	O
+lieder	O
+speichern	O
+kann	O
+
+klima	O
+
+an	O
+welchem	O
+tag	O
+ist	O
+mein	B-event_name
+geburtstag	I-event_name
+nächstes	B-date
+jahr	I-date
+
+welcher	O
+wochentag	O
+ist	O
+der	O
+zwölfte	B-date
+
+ton	O
+an	O
+
+spiel	O
+eine	O
+künstlerin	O
+
+kann	O
+man	O
+im	O
+restaurant	B-business_type
+royale	B-business_name
+essen	B-order_type
+abholen	I-order_type
+
+wird	O
+es	O
+heute	O
+nebel	B-weather_descriptor
+nach	B-time
+sonnenuntergang	I-time
+geben	O
+
+es	O
+ist	O
+kalt	B-weather_descriptor
+draußen	O
+
+weck	O
+uhr	O
+
+stelle	O
+einen	O
+wecker	O
+für	O
+fünf	B-time
+uhr	O
+heute	O
+abend	B-timeofday
+mit	O
+dem	O
+namen	O
+taxi	B-event_name
+
+wetter	O
+in	O
+der	O
+heimatstadt	B-place_name
+
+spiel	O
+nach	O
+diesem	O
+lied	O
+das	O
+vierte	O
+lied	O
+auf	O
+dem	O
+selben	O
+album	O
+
+alexa	O
+spiel	O
+klassischer	B-music_genre
+rock	I-music_genre
+
+schalte	O
+den	O
+staubsaugerroboter	B-device_type
+ein	O
+
+ist	O
+dies	O
+der	O
+heißeste	O
+tag	O
+in	O
+münchen	B-place_name
+
+erzähl	O
+mir	O
+von	O
+den	O
+weckern	O
+
+bedeutung	O
+eines	O
+bestimmten	O
+wortes	O
+
+musik	O
+hören	O
+
+benötige	O
+ich	O
+einen	O
+abendlichen	B-weather_descriptor
+regenmantel	I-weather_descriptor
+
+internationaler	O
+handels	O
+und	O
+wirtschaftsmarkt	O
+
+kannst	O
+du	O
+bitte	O
+stumm	O
+sein	O
+für	O
+eine	O
+weile	O
+
+ich	O
+will	O
+essen	O
+bestellen	O
+
+zu	O
+welcher	O
+zeit	O
+hast	O
+du	O
+den	O
+wecker	O
+für	O
+mich	O
+gestellt	O
+
+ich	O
+hätte	O
+nun	O
+gern	O
+etwas	O
+kaffee	O
+
+koche	O
+meinen	O
+morgendlichen	B-coffee_type
+kaffee	O
+
+es	O
+ist	O
+kaffeezeit	O
+
+ist	O
+meine	O
+bestellung	O
+bei	O
+domino's	B-business_name
+bereit	O
+
+wann	O
+kann	O
+ich	O
+mein	O
+chinesisches	B-food_type
+essen	O
+abholen	O
+
+öffne	O
+uhr	O
+
+spiele	O
+das	O
+lied	O
+haus	O
+am	O
+see	O
+als	O
+nächstes	O
+
+alexa	O
+erhöhe	O
+die	O
+helligkeit	O
+des	O
+licht	O
+es	O
+ist	O
+schwer	O
+hier	O
+unten	O
+zu	O
+sehen	O
+
+ist	O
+meine	O
+bestellung	O
+jetzt	O
+bereit	O
+zum	O
+abholen	O
+
+wecker	O
+
+muss	O
+ich	O
+diesen	B-timeofday
+nachmittag	I-timeofday
+einen	O
+regenschirm	B-weather_descriptor
+mitnehmen	O
+
+spiel	O
+ein	O
+song	O
+von	O
+daddy	B-artist_name
+yankee	I-artist_name
+
+hey	O
+wird	O
+es	O
+heute	B-date
+in	O
+münchen	B-place_name
+regnen	B-weather_descriptor
+
+hey	O
+olly	O
+wie	O
+ist	O
+das	O
+wetter	O
+in	O
+aubing	B-place_name
+münchen	I-place_name
+
+spiel	O
+michael	B-artist_name
+buble	I-artist_name
+save	B-song_name
+the	I-song_name
+last	I-song_name
+dance	I-song_name
+
+hey	O
+olly	O
+bestell	O
+mir	O
+zwei	O
+chicken	B-food_type
+wings	I-food_type
+mit	I-food_type
+pommes	I-food_type
+frites	I-food_type
+von	O
+dem	O
+asialaden	B-business_name
+
+hey	O
+olly	O
+bestell	O
+eine	O
+pizza	B-food_type
+mit	I-food_type
+extra	I-food_type
+käse	I-food_type
+
+hey	O
+olly	O
+wie	O
+spät	O
+es	O
+in	O
+potsdam	B-place_name
+brandenburg	I-place_name
+
+spiele	O
+irgendwas	B-music_descriptor
+von	O
+meiner	O
+aktuellen	O
+playlist	O
+
+spiel	O
+irgendwas	B-music_descriptor
+von	O
+meiner	O
+neusten	O
+playlist	O
+
+gib	O
+mir	O
+informationen	O
+zum	O
+lied	O
+das	O
+gerade	O
+spielt	O
+
+sei	O
+lustig	O
+für	O
+mich	O
+
+olly	O
+sollte	O
+ich	O
+meine	O
+handschuhe	B-weather_descriptor
+anziehen	O
+oder	O
+nicht	O
+
+sag	O
+mir	O
+das	O
+wetter	O
+für	O
+den	B-time
+folgenden	I-time
+monat	I-time
+
+anmachen	O
+vom	O
+staubsauger	B-device_type
+
+sollte	O
+ich	O
+heute	B-date
+irgendwann	O
+lagen	O
+tragen	O
+
+checke	O
+den	O
+wetterbericht	O
+für	O
+diese	B-date
+woche	I-date
+
+zeige	O
+mir	O
+die	O
+vorhersage	O
+für	O
+eine	B-time
+woche	I-time
+
+kann	O
+ich	O
+hier	O
+lieferung	B-order_type
+nehmen	O
+
+die	O
+u-bahn	O
+war	O
+heute	B-date
+total	O
+voll	O
+
+erzähl	O
+mir	O
+von	O
+meinem	O
+tag	O
+
+dolores	O
+fällt	O
+dir	O
+etwas	O
+merkwürdiges	O
+in	O
+deiner	O
+welt	O
+auf	O
+
+willst	O
+du	O
+wissen	O
+was	O
+heute	B-date
+passiert	O
+ist	O
+
+woher	O
+kennst	O
+du	O
+mich	O
+
+es	O
+wäre	O
+toll	O
+in	O
+diesem	O
+neu	O
+eröffneten	O
+restaurant	B-business_type
+in	O
+der	O
+innenstadt	B-place_name
+zu	O
+essen	O
+
+olly	O
+wie	O
+läufts	O
+
+heute	O
+habe	O
+ich	O
+belohnungen	O
+bekommen	O
+siri	O
+
+ich	O
+hatte	O
+heute	B-date
+viele	O
+meetings	B-event_name
+
+wo	O
+kommst	O
+du	O
+her	O
+
+das	O
+wetter	O
+ist	O
+heute	B-date
+sonnig	O
+
+hey	O
+google	O
+ich	O
+habe	O
+den	O
+eine	O
+millionen	O
+euro	O
+lotto	O
+jackpot	O
+geknackt	O
+
+sag	O
+mir	O
+wichtige	O
+nachrichten	O
+von	O
+heute	B-date
+
+wie	O
+ist	O
+der	O
+heutige	B-date
+tag	O
+
+aufwachen	O
+eier	O
+backen	O
+
+was	O
+ist	O
+los	O
+
+irgendetwas	O
+interessantes	O
+heute	B-date
+in	O
+den	O
+nachrichten	O
+
+ich	O
+bin	O
+am	O
+samstag	B-date
+ins	O
+pub	B-place_name
+eingeladen	O
+
+nenne	O
+mir	O
+ein	O
+gutes	O
+alkoholisches	B-drink_type
+getränk	I-drink_type
+
+erzähle	O
+mir	O
+etwas	O
+über	O
+amerika	B-place_name
+
+sport	O
+
+hey	O
+was	O
+sind	O
+einige	O
+gute	O
+filme	O
+die	O
+bald	O
+rauskommen	O
+
+was	O
+machst	O
+du	O
+mit	O
+meinen	O
+persönlichen	O
+daten	O
+
+ich	O
+will	O
+notizen	O
+machen	O
+
+mein	O
+wochenplan	O
+
+wissenswertes	O
+
+wikipedia	O
+themen	O
+
+wie	O
+geht's	O
+
+hunderassen	O
+die	O
+allergisch	O
+sind	O
+
+olly	O
+ich	O
+hatte	O
+heute	B-date
+einen	O
+unfall	O
+
+ich	O
+bin	O
+heute	B-date
+bei	O
+marktkauf	B-place_name
+gewesen	O
+
+sarkastische	O
+witze	O
+
+unterhaltungs	O
+nachrichten	O
+
+mobil	O
+
+ich	O
+bin	O
+im	O
+regen	O
+durchnässt	O
+worden	O
+
+mode	O
+
+plan	O
+
+ich	O
+brauche	O
+antworten	O
+
+heute	O
+muss	O
+als	O
+mein	B-event_name
+schummeltag	I-event_name
+markiert	O
+werden	O
+
+heute	O
+war	O
+ein	O
+ermüdender	O
+tag	O
+
+magst	O
+du	O
+meine	O
+freundin	B-relation
+
+erzähle	O
+mir	O
+von	O
+helene	B-artist_name
+fischer	I-artist_name
+
+was	O
+ist	O
+los	O
+in	O
+berlin	B-place_name
+
+was	O
+ich	O
+zu	O
+dieser	B-time
+zeit	I-time
+machte	O
+
+wie	O
+war	O
+dein	O
+tag	O
+
+der	O
+kosmos	O
+
+wann	O
+startet	O
+die	O
+heizung	O
+in	O
+der	B-place_name
+wohnung	I-place_name
+
+witze	O
+
+kochen	O
+
+prognose	O
+raten	O
+
+autos	O
+
+sehr	O
+hektisch	O
+
+derzeitige	O
+empfehlung	O
+bezüglich	O
+google	O
+seo	O
+
+witz	O
+des	O
+tages	O
+
+im	O
+supermarkt	B-business_type
+benötigte	O
+tutaten	O
+
+wie	O
+läufts	O
+
+wenn	O
+du	O
+über	O
+drei	O
+dinge	O
+reden	O
+könntest	O
+worüber	O
+wäre	O
+es	O
+
+weltraumforschung	O
+
+bücher	O
+
+über	O
+promis	O
+tratschen	O
+
+olly	O
+wie	O
+sieht	O
+meine	O
+terminplanung	O
+für	O
+den	O
+rest	B-time
+der	I-time
+woche	I-time
+aus	O
+
+lösche	O
+alle	O
+besprechungen	B-event_name
+für	O
+diesen	O
+tag	B-time
+
+bitte	O
+stell	O
+meine	O
+tägliche	B-general_frequency
+aufstehzeit	B-event_name
+auf	O
+zehn	B-time
+uhr	I-time
+morgens	I-time
+in	O
+meinem	O
+kalender	O
+
+was	O
+ist	O
+meine	O
+nächste	O
+besprechung	B-event_name
+
+lösche	O
+meinen	O
+täglichen	B-general_frequency
+siebzehn	B-time
+uhr	I-time
+anruf	B-event_name
+
+buch	O
+ein	O
+treffen	B-event_name
+mit	O
+charlotte	B-person
+
+wann	O
+ist	O
+es	O
+
+habe	O
+ich	O
+heute	B-date
+events	O
+
+habe	O
+ich	O
+etwas	O
+für	O
+morgen	B-date
+gebucht	O
+
+erzähle	O
+von	O
+meinen	O
+veranstaltungen	O
+
+entferne	O
+alle	O
+veranstaltungen	O
+von	O
+meinem	O
+kalender	O
+
+olly	O
+erinnere	O
+mich	O
+an	O
+das	O
+picknick	B-event_name
+im	O
+mauerpark	B-place_name
+
+olly	O
+ich	O
+möchte	O
+zu	O
+der	O
+filmvorführung	B-event_name
+im	I-event_name
+freien	I-event_name
+an	O
+diesem	O
+wochenende	B-time
+gehen	O
+erinnere	O
+mich	O
+
+hast	O
+du	O
+eine	O
+treffen	B-event_name
+mit	O
+tom	B-person
+für	O
+morgen	B-date
+um	O
+einundzwanzig	B-time
+uhr	I-time
+erstellt	O
+
+lösch	O
+alle	O
+veranstaltungen	O
+für	O
+die	O
+nächsten	B-date
+fünf	I-date
+tage	I-date
+
+habe	O
+ich	O
+irgendwelche	O
+besprechungen	B-event_name
+morgen	B-date
+um	O
+einundzwanzig	B-time
+uhr	I-time
+
+erstelle	O
+eine	O
+veranstaltung	O
+in	O
+meinem	O
+kalendar	O
+
+bitte	O
+lösche	O
+die	O
+letzte	O
+veranstaltung	O
+die	O
+ich	O
+besucht	O
+habe	O
+
+habe	O
+ich	O
+irgendwelche	O
+anstehenden	O
+events	O
+in	O
+meinem	O
+kalender	O
+
+wann	O
+ist	O
+der	O
+nächste	O
+termin	B-event_name
+in	O
+meinem	O
+kalendar	O
+
+lösche	O
+diese	O
+geburtstagsfeier	B-event_name
+morgen	B-date
+um	O
+vierzehn	B-time
+uhr	I-time
+
+lösche	O
+alle	O
+veranstaltung	O
+aus	O
+mein	O
+kalender	O
+
+es	O
+ist	O
+sehr	O
+schwierig	O
+
+ich	O
+brauche	O
+jeden	B-general_frequency
+einzelnen	I-general_frequency
+tag	I-general_frequency
+um	O
+neun	B-time
+uhr	I-time
+eine	O
+erinnerung	O
+
+wer	O
+soll	O
+ich	O
+erwarten	O
+bei	O
+der	O
+besprechung	B-event_name
+heute	B-date
+zu	O
+sein	O
+
+setz	O
+die	O
+montagsbesprechung	B-event_name
+für	O
+jeden	B-general_frequency
+montag	I-general_frequency
+in	O
+den	O
+kalender	O
+
+speichere	O
+einen	O
+hinweis	O
+für	O
+den	O
+sechsten	B-date
+märz	I-date
+über	O
+ein	O
+gesellschaftstreffen	B-event_name
+um	O
+elf	B-time
+uhr	I-time
+
+gibt	O
+es	O
+morgen	B-date
+abend	B-timeofday
+irgendein	O
+programm	O
+
+lösche	O
+alle	O
+veranstaltungen	O
+und	O
+informationen	O
+
+lösche	O
+alle	O
+veranstaltungen	O
+und	O
+pläne	O
+
+wann	O
+ist	O
+mein	O
+termin	O
+plan	O
+morgen	B-date
+
+erinnere	O
+mich	O
+an	O
+mein	O
+treffen	B-event_name
+morgen	B-date
+um	O
+zehn	B-time
+uhr	I-time
+
+wie	O
+viele	O
+besprechungen	B-event_name
+habe	O
+ich	O
+diese	B-date
+woche	I-date
+
+mach	O
+kalender	O
+leer	O
+
+erinnere	O
+mich	O
+eine	B-time
+stunde	I-time
+vor	O
+dem	O
+treffen	B-event_name
+das	O
+ich	O
+morgen	B-date
+früh	B-timeofday
+habe	O
+
+was	O
+ist	O
+morgen	B-date
+nachmittag	B-timeofday
+für	O
+mich	O
+geplant	O
+
+bevorstehende	O
+veranstaltungen	O
+
+letzte	O
+veranstaltungen	O
+
+termin	O
+anna	B-person
+morgen	B-date
+erstellen	O
+
+sind	O
+da	O
+irgendwelche	O
+bevorstehenden	O
+termine	O
+in	O
+meinem	O
+kalender	O
+
+setz	O
+eine	O
+erinnerung	O
+für	O
+urlaub	B-event_name
+nächsten	B-date
+monat	I-date
+
+leere	O
+kalender	O
+für	O
+diesen	B-date
+monat	I-date
+
+stell	O
+einen	O
+wecker	O
+für	O
+jetzt	B-time
+in	I-time
+zwei	I-time
+stunden	I-time
+bitte	O
+
+habe	O
+ich	O
+diesen	O
+samstag	B-date
+zwischen	O
+zwei	B-time
+und	O
+sechzehn	B-time
+uhr	I-time
+etwas	O
+zu	O
+tun	O
+
+bitte	O
+lösche	O
+alle	O
+meine	O
+kalendertermine	O
+für	O
+den	O
+rest	B-time
+des	I-time
+tages	I-time
+
+welche	O
+ereignisse	O
+sind	O
+heute	B-date
+in	O
+meinem	O
+kalender	O
+eingetragen	O
+
+was	O
+sind	O
+meine	O
+termine	O
+
+mache	O
+ich	O
+verfügen	O
+über	O
+irgendwelche	O
+erinnerungen	O
+heute	B-date
+
+entferne	O
+mein	O
+heutiges	B-date
+treffen	B-event_name
+am	O
+abend	B-timeofday
+
+erinnere	O
+mich	O
+am	O
+morgen	B-timeofday
+des	O
+zwölften	B-date
+an	O
+meinen	O
+arzttermin	B-event_name
+
+brunch	O
+samstag	B-date
+morgen	B-timeofday
+mit	O
+chris	B-person
+und	O
+anna	B-person
+und	O
+andre	B-person
+
+erinnere	O
+mich	O
+daran	O
+ria	B-person
+heute	B-date
+um	O
+sechs	B-time
+uhr	I-time
+abends	I-time
+zu	O
+treffen	B-event_name
+
+wann	O
+ist	O
+das	O
+treffen	B-event_name
+mit	O
+meinem	O
+chef	B-relation
+nächste	B-date
+woche	I-date
+
+lösche	O
+die	O
+hochzeit	B-event_name
+am	O
+zehnten	B-date
+aus	O
+meinem	O
+kalender	O
+
+nächste	O
+veranstaltungen	O
+
+erinnere	O
+mich	O
+an	O
+meine	O
+verabredung	B-event_name
+morgen	B-date
+
+sechzehn	O
+uhr	O
+
+olly	O
+ich	O
+werde	O
+meinen	O
+therapeuten	B-relation
+jeden	B-general_frequency
+donnerstag	I-general_frequency
+um	O
+vierzehn	B-time
+uhr	I-time
+sehen	O
+
+absagen	O
+
+ich	O
+will	O
+zu	O
+sandras	B-person
+geburtstag	B-event_name
+am	O
+samstag	B-date
+um	O
+zehn	B-time
+uhr	I-time
+abends	I-time
+gehen	O
+
+was	O
+habe	O
+ich	O
+nächste	B-date
+woche	I-date
+so	O
+vor	O
+
+sag	O
+mir	O
+das	O
+datum	O
+der	O
+geschäfts	O
+einführung	B-event_name
+meines	O
+freundes	B-relation
+felix	B-person
+
+bitte	O
+trag	O
+ferien	B-event_name
+in	O
+kuba	B-place_name
+am	O
+zweiten	B-date
+april	I-date
+in	O
+meinen	O
+kalender	O
+ein	O
+
+erinnern	O
+um	O
+acht	B-time
+p.	I-time
+m	I-time
+um	O
+meine	O
+medizin	B-event_name
+zu	O
+nehmen	O
+
+wann	O
+fängt	O
+das	O
+spiel	B-event_name
+an	O
+
+was	O
+habe	O
+ich	O
+für	O
+morgen	B-date
+geplant	O
+das	O
+ich	O
+absagen	O
+muss	O
+
+erstelle	O
+eine	O
+erinnerung	O
+für	O
+die	O
+besprechung	B-event_name
+morgen	B-date
+um	O
+fünfzehn	B-time
+uhr	I-time
+
+erinnere	O
+mich	O
+heb	B-event_name
+die	I-event_name
+wäsche	I-event_name
+auf	I-event_name
+nächste	O
+woche	O
+montag	B-date
+
+stelle	O
+eine	O
+erinnerung	O
+ein	O
+dass	O
+ich	O
+morgen	B-date
+meinen	O
+vater	B-relation
+besuchen	O
+muss	O
+
+trage	O
+für	O
+diesen	B-timeofday
+nachmittag	I-timeofday
+ein	O
+wiedersehenstreffen	B-event_name
+in	O
+den	O
+kalender	O
+ein	O
+
+wann	O
+ist	O
+mein	O
+erster	O
+termin	B-event_name
+heute	B-date
+
+was	O
+steht	O
+heute	B-date
+auf	O
+meinem	O
+terminkalender	O
+
+erinnnere	O
+mich	O
+an	O
+mein	O
+mittagessen	B-meal_type
+mit	O
+joe	B-person
+morgen	B-date
+
+kannst	O
+du	O
+den	O
+standort	O
+für	O
+diese	O
+veranstaltung	O
+auf	O
+das	O
+haus	B-place_name
+meiner	O
+schwester	B-relation
+einstelltn	O
+
+lösche	O
+veranstaltung	O
+
+benny	O
+geburtstag	B-event_name
+am	O
+zwölften	B-date
+juli	I-date
+meinem	O
+kalender	O
+hinzufügen	O
+
+abendessen	O
+löschen	O
+
+welche	O
+veranstaltungen	O
+habe	O
+ich	O
+im	O
+märz	B-date
+in	O
+meinem	O
+kalender	O
+
+wann	O
+findet	O
+die	O
+hochzeit	B-event_name
+statt	O
+
+welche	O
+treffen	B-event_name
+sind	O
+im	O
+märz	B-date
+verfügbar	O
+
+zweiundzwanzig	O
+märz	O
+zwanzig	O
+siebzehn	O
+checken	O
+
+ergänze	O
+valentinstag	B-event_name
+mit	O
+ihr	O
+morgen	B-date
+
+geburtstag	O
+mit	O
+mama	B-relation
+nächsten	B-date
+monat	I-date
+hinzufügen	O
+
+erstelle	O
+ein	O
+treffen	B-event_name
+mit	O
+freund	B-relation
+
+besuche	O
+party	B-event_name
+vor	O
+dem	O
+meeting	O
+
+bitte	O
+erstelle	O
+eine	O
+veranstaltung	O
+nur	O
+mit	O
+diesen	O
+leuten	O
+
+erinnere	O
+dich	O
+daran	O
+mich	B-event_name
+um	O
+zwölf	B-time
+uhr	I-time
+vom	O
+flughafen	B-place_name
+abzuholen	B-event_name
+ich	O
+habe	O
+um	O
+fünfzehn	B-time
+uhr	I-time
+eine	O
+besprechung	B-event_name
+
+setze	O
+ein	O
+treffen	B-event_name
+mit	O
+jack	B-person
+am	O
+zehnten	B-date
+märz	I-date
+
+morgen	O
+abend	B-timeofday
+mit	O
+spielern	B-person
+treffen	B-event_name
+um	O
+sieben	B-time
+
+was	O
+sind	O
+meine	O
+aktuellen	O
+alarme	O
+
+erinnere	O
+mich	O
+an	O
+mein	O
+interview	B-event_name
+morgen	B-date
+
+anstehende	O
+veranstaltungen	O
+
+veranstaltungen	O
+erstellen	O
+
+plane	O
+eine	O
+besprechung	B-event_name
+am	O
+dienstag	B-date
+ein	O
+
+was	O
+wir	O
+bei	O
+dem	O
+gestrigen	B-date
+treffen	B-event_name
+erfahren	O
+haben	O
+
+bitte	O
+ergänze	O
+mein	O
+nächstes	O
+treffen	B-event_name
+
+erinnerung	O
+morgen	B-date
+für	O
+diese	O
+veranstaltung	O
+
+anruf	O
+und	O
+treffen	B-event_name
+ausmachen	O
+
+wann	O
+ist	O
+der	O
+abrechnungszeitraum	B-event_name
+
+stelle	O
+einen	O
+timer	O
+auf	O
+fünf	B-time
+minuten	I-time
+für	O
+die	O
+cookies	B-event_name
+
+wann	O
+beginnt	O
+das	O
+hockeyspiel	B-event_name
+am	O
+freitag	B-date
+
+lösch	O
+alle	O
+meine	O
+kalender	O
+veranstaltungen	O
+
+morgen	O
+am	O
+morgen	B-date
+erinnern	O
+eine	B-event_name
+pizza	I-event_name
+zu	O
+machen	B-event_name
+
+trage	O
+für	O
+jeden	B-general_frequency
+freitag	I-general_frequency
+ein	O
+zwölf	B-time
+uhr	I-time
+mittags	I-time
+gebet	B-event_name
+ein	O
+
+habe	O
+ich	O
+irgendwelche	O
+ausstehenden	O
+erinnerungen	O
+
+vergiss	O
+nicht	O
+mich	O
+an	O
+den	O
+geburtstag	B-event_name
+meines	O
+bruders	B-relation
+am	O
+zwanzigsten	B-date
+april	I-date
+zu	O
+erinnern	O
+
+ich	O
+möchte	O
+eine	O
+verabredung	O
+zum	O
+mittagessen	B-meal_type
+mit	O
+michael	B-person
+andi	I-person
+und	O
+bernd	B-person
+hinzufügen	O
+
+erinnere	O
+mich	O
+an	O
+das	O
+anstehende	O
+treffen	B-event_name
+um	O
+vier	B-time
+uhr	I-time
+heute	B-date
+
+liste	O
+alle	O
+kommenden	O
+treffen	B-event_name
+auf	O
+
+finde	O
+und	O
+lösche	O
+alle	O
+wochenend	B-time
+veranstaltungen	O
+mit	O
+adam	B-person
+krause	I-person
+
+notiere	O
+dieses	O
+event	O
+in	O
+meinem	O
+kalender	O
+
+habe	O
+ich	O
+irgendein	O
+mahnungen	O
+
+stell	O
+sicher	O
+mich	O
+daran	O
+zu	O
+erinnern	O
+
+hallo	O
+setze	O
+eine	O
+erinnerung	O
+für	O
+ein	O
+treffen	B-event_name
+morgen	B-date
+früh	B-timeofday
+zehn	B-time
+uhr	I-time
+
+zeige	O
+mir	O
+die	O
+ausstehenden	O
+erinnerungen	O
+
+erzähle	O
+mir	O
+über	O
+das	O
+treffen	B-event_name
+das	O
+ich	O
+diese	B-date
+woche	I-date
+habe	O
+
+ich	O
+habe	O
+einen	O
+geburtstag	B-event_name
+am	O
+montag	B-date
+notiere	O
+das	O
+ereignis	O
+
+ich	O
+muss	O
+am	O
+fünfzehnten	B-date
+einen	O
+flug	O
+nehmen	O
+
+trage	O
+für	O
+heute	O
+abend	B-timeofday
+eine	O
+veranstaltung	O
+ein	O
+
+bernds	O
+geburtstag	B-event_name
+jeden	B-date
+zweiten	I-date
+juni	I-date
+wiederholen	O
+
+erinnere	O
+mich	O
+daran	O
+jeden	B-date
+freitag	I-date
+zum	O
+laden	O
+zu	O
+gehen	O
+
+lösche	O
+lebensmittel	O
+kaufen	O
+aus	O
+meinen	O
+terminen	O
+für	O
+samstag	B-date
+
+lösche	O
+alle	O
+daten	O
+in	O
+meinem	O
+kalender	O
+
+was	O
+habe	O
+ich	O
+montags	B-date
+zu	O
+tun	O
+
+wiederhole	O
+eine	O
+veranstaltung	O
+in	O
+meinem	O
+kalender	O
+
+gibt	O
+es	O
+einen	O
+weg	O
+meinen	O
+kalender	O
+für	O
+den	B-date
+monat	I-date
+zu	O
+bereinigen	O
+
+füge	O
+mein	O
+training	O
+am	O
+vierten	B-date
+februar	I-date
+um	O
+vierzehn	B-time
+uhr	I-time
+im	O
+schlosspark	B-place_name
+hinzu	O
+
+erinnere	O
+mich	O
+an	O
+sandras	B-person
+geburtstag	B-event_name
+
+wie	O
+sieht	O
+der	O
+heutige	B-date
+terminplan	O
+aus	O
+
+füge	O
+eine	O
+notiz	O
+zu	O
+teilnehmen	O
+hinzu	O
+
+erstelle	O
+eine	O
+wiederholende	O
+erinnering	O
+für	O
+meine	O
+aufgaben	O
+jeden	B-general_frequency
+tag	I-general_frequency
+um	O
+acht	B-time
+uhr	I-time
+
+meine	O
+termine	O
+
+muss	O
+ich	O
+heute	B-date
+zwischen	O
+acht	B-time
+uhr	I-time
+und	O
+siebzehn	B-time
+uhr	I-time
+irgendwo	O
+sein	O
+
+welche	O
+erinnerungen	O
+kommen	O
+diese	B-date
+woche	I-date
+
+füge	O
+veranstaltung	O
+fußballtraining	B-event_name
+siebzehn	B-time
+uhr	I-time
+heute	B-timeofday
+abend	I-timeofday
+hinzu	O
+
+wie	O
+sieht	O
+morgen	B-timeofday
+mein	O
+morgen	B-timeofday
+aus	O
+
+wer	O
+wird	O
+an	O
+der	O
+besprechung	B-event_name
+diesen	B-date
+freitag	I-date
+teilnehmen	O
+
+was	O
+ist	O
+zwischen	O
+dem	B-date
+zweiten	I-date
+und	O
+dem	B-date
+fünfzehnten	I-date
+passiert	O
+
+nenne	O
+mir	O
+alle	O
+veranstaltungen	O
+zwischen	O
+heute	B-date
+und	O
+dem	O
+einundzwanzigsten	B-date
+
+gib	O
+mir	O
+bitte	O
+aller	O
+dreißig	B-time
+minuten	I-time
+ein	O
+update	O
+zur	O
+wahl	B-event_name
+
+habe	O
+ich	O
+irgendwelche	O
+termine	B-event_name
+heute	B-date
+
+öffne	O
+den	O
+kalendar	O
+und	O
+lösche	O
+alle	O
+termine	O
+
+erinnere	O
+mich	O
+an	O
+meinen	O
+biologietest	B-event_name
+an	O
+der	O
+fhk	B-place_name
+am	O
+freitag	B-date
+
+was	O
+ist	O
+am	O
+november	B-date
+zwanzigsten	I-date
+
+was	O
+ist	O
+das	O
+nächste	O
+nena	B-event_name
+konzert	I-event_name
+geplant	O
+
+was	O
+muss	O
+ich	O
+über	O
+die	O
+show	O
+wissen	O
+
+wer	O
+und	O
+warum	O
+ist	O
+heute	B-timeofday
+abend	I-timeofday
+im	O
+theater	B-place_name
+
+gibt	O
+es	O
+irgendwelche	O
+erinnerungen	O
+für	O
+heute	B-date
+
+märz	O
+sieben	O
+elternabend	B-event_name
+
+habe	O
+ich	O
+in	O
+meinem	O
+kalender	O
+heute	B-date
+ein	O
+meeting	B-event_name
+
+in	O
+zehn	B-time
+minuten	I-time
+zur	B-event_name
+arbeit	I-event_name
+gehen	I-event_name
+
+wie	O
+viele	O
+treffen	O
+habe	O
+ich	O
+nächste	B-date
+woche	I-date
+
+reserviere	O
+fürs	O
+abendessen	B-meal_type
+am	O
+vierzehnten	B-date
+februar	I-date
+im	O
+restaurant	B-business_type
+
+was	O
+passiert	O
+dieses	B-date
+wochenende	I-date
+
+wird	O
+diese	B-date
+woche	I-date
+der	O
+müll	O
+abgeholt	O
+
+zu	O
+welcher	O
+uhrzeit	O
+startet	O
+das	O
+abendessen	B-event_name
+heute	B-timeofday
+abend	I-timeofday
+
+wann	O
+ist	O
+meine	O
+nächste	O
+erinnerung	O
+
+nenne	O
+mir	O
+alle	O
+details	O
+über	O
+das	O
+turnier	B-event_name
+am	O
+zweiundzwanzigsten	B-date
+märz	I-date
+
+plane	O
+eine	O
+mittagessen	B-meal_type
+bei	O
+rizzo	B-place_name
+im	I-place_name
+zentrum	I-place_name
+für	O
+morgen	B-date
+mittag	B-timeofday
+
+habe	O
+ich	O
+freitag	B-date
+einen	O
+termin	O
+
+schick	O
+mir	O
+eine	O
+erinnerung	O
+daran	O
+meinen	B-event_name
+hund	I-event_name
+um	O
+dreizehn	B-time
+uhr	I-time
+vom	O
+tierfriseur	B-place_name
+abzuholen	B-event_name
+
+wann	O
+ist	O
+mein	O
+treffen	B-event_name
+
+olly	O
+email	O
+meine	O
+termine	B-event_name
+zum	O
+umplanen	O
+
+alter	O
+mittagstisch	B-meal_type
+wird	O
+jeden	B-date
+freitag	I-date
+wiederholt	O
+
+aktualisiere	O
+meinen	O
+kalender	O
+das	O
+meeting	B-event_name
+zu	I-event_name
+berücksichtigen	I-event_name
+
+wann	O
+fahren	O
+morgen	B-date
+züge	O
+
+erstelle	O
+eine	O
+erinnerung	O
+daran	O
+johann	B-person
+abzuholen	O
+für	O
+fünfzehn	B-time
+uhr	I-time
+
+sage	O
+meine	O
+besprechung	B-event_name
+am	O
+vierzehnten	B-date
+ab	O
+
+gib	O
+mir	O
+informationen	O
+über	O
+das	O
+konzert	O
+am	O
+dienstag	B-date
+abend	B-time
+
+erinnere	O
+mich	O
+an	O
+das	O
+treffen	O
+für	O
+pauls	B-person
+pensionierung	B-event_name
+erstelle	O
+eine	O
+erinnerung	O
+für	O
+dienstag	B-date
+fünfzehn	B-time
+uhr	I-time
+
+was	O
+passiert	O
+bei	O
+dieser	O
+veranstaltung	O
+
+was	O
+habe	O
+ich	O
+heute	O
+morgen	B-time
+zwischen	I-time
+zehn	I-time
+und	I-time
+zwölf	I-time
+uhr	I-time
+zu	O
+tun	O
+
+um	O
+wieviel	O
+uhr	O
+ist	O
+die	O
+abendbesprechung	B-event_name
+die	O
+ich	O
+mit	O
+johannes	B-person
+habe	O
+
+eine	O
+erinnerung	O
+einstellen	O
+dass	O
+ich	O
+jeden	B-general_frequency
+morgen	I-general_frequency
+um	O
+fünf	B-time
+uhr	I-time
+aufstehen	O
+muss	O
+
+mehr	O
+über	O
+das	O
+konzert	B-event_name
+im	O
+gleis	B-place_name
+zweiundzwanzig	I-place_name
+
+olly	O
+erinnere	O
+mich	O
+heute	B-timeofday
+abend	I-timeofday
+an	O
+das	O
+treffen	B-event_name
+morgen	B-date
+
+treffen	O
+am	O
+mittwoch	B-date
+
+füge	O
+mein	O
+kommendes	O
+treffen	B-event_name
+meinem	O
+kalender	O
+hinzu	O
+
+lösche	O
+mein	O
+kalender	O
+
+bitte	O
+lösche	O
+das	O
+treffen	B-event_name
+mit	O
+john	B-person
+heute	B-timeofday
+abend	I-timeofday
+
+erinnerung	O
+mittwochs	B-date
+um	O
+zwei	B-time
+p.	I-time
+m.	I-time
+
+stimmt	O
+es	O
+da	O
+susans	B-person
+geburtstag	B-event_name
+am	O
+ersten	B-date
+märz	I-date
+ist	O
+
+hast	O
+du	O
+morgiges	B-date
+treffen	B-event_name
+meinem	O
+kalendar	O
+hinzugefügt	O
+
+füge	O
+mittagessen	B-meal_type
+treffen	B-event_name
+jeden	B-general_frequency
+tag	I-general_frequency
+mittags	B-timeofday
+diese	B-date
+woche	I-date
+hinzu	O
+
+erinnere	O
+mich	O
+an	O
+das	O
+treffen	B-event_name
+am	O
+freitag	B-date
+um	O
+drei	B-time
+p.	I-time
+m.	I-time
+
+lösche	O
+alles	O
+aus	O
+dem	O
+kalender	O
+
+leere	O
+mein	O
+kalender	O
+morgen	B-date
+
+neue	O
+benachrichtigungen	O
+für	O
+treffen	B-event_name
+in	O
+zwei	B-time
+stunden	I-time
+
+erinnere	O
+mich	O
+an	O
+den	O
+kalender	O
+
+habe	O
+ich	O
+morgen	B-timeofday
+termine	B-event_name
+
+ist	O
+diese	B-date
+woche	I-date
+lohnwoche	O
+
+lösche	O
+alle	O
+termine	B-event_name
+aus	O
+meinem	O
+kalender	O
+
+welche	O
+erinnerungen	O
+habe	O
+ich	O
+aktiviert	O
+
+welche	O
+nachrichten	O
+gibt	O
+es	O
+heute	B-date
+um	O
+sechs	B-time
+uhr	I-time
+fünfundvierzig	I-time
+
+lösche	O
+die	O
+veranstaltung	O
+um	O
+dreizehn	B-time
+uhr	I-time
+aus	O
+meinem	O
+plan	O
+
+olly	O
+erinnere	O
+mich	O
+daran	O
+dass	O
+ich	O
+in	O
+einer	O
+woche	B-date
+von	I-date
+heute	I-date
+an	O
+um	O
+fünf	B-time
+in	O
+der	O
+bücherei	B-place_name
+sein	O
+muss	O
+
+erinnere	O
+mich	O
+samstag	B-date
+um	O
+fünf	B-time
+in	O
+der	O
+bücherei	B-place_name
+zu	O
+sien	O
+
+erinnere	O
+mich	O
+an	O
+den	O
+anstehenden	B-event_name
+nationalfeiertag	I-event_name
+
+entferne	O
+meinen	O
+kalendereintrag	O
+für	O
+dreizehn	B-time
+uhr	I-time
+heute	B-date
+
+stell	O
+eine	O
+erinnerung	O
+an	O
+mein	O
+treffen	B-event_name
+um	O
+siebzehn	B-time
+uhr	I-time
+
+bitte	O
+füge	O
+einen	O
+termin	O
+in	O
+doktor	B-relation
+grüns	I-relation
+büro	B-place_name
+für	O
+mittwoch	B-date
+neun	B-time
+uhr	I-time
+hinzu	O
+
+was	O
+waren	O
+die	O
+highlights	O
+beim	O
+fußballspiel	B-sport_type
+heute	B-timeofday
+abend	I-timeofday
+
+was	O
+ist	O
+meine	O
+zeitplan	O
+für	O
+heute	B-date
+
+wann	O
+kommt	O
+siri	B-person
+svegler	I-person
+nach	O
+berlin	B-place_name
+
+ich	O
+möchte	O
+etwas	O
+zu	O
+meinem	O
+kalender	O
+hinzufügen	O
+
+lösche	O
+termin	O
+vom	O
+kalender	O
+und	O
+aktualisiere	O
+
+welche	O
+termine	O
+habe	O
+ich	O
+
+lösche	O
+die	O
+nächste	O
+veranstaltung	O
+im	O
+kalender	O
+
+lösche	O
+termin	O
+im	O
+kalender	O
+
+welche	O
+besprechungen	B-event_name
+habe	O
+ich	O
+heute	B-date
+zwischen	O
+acht	B-time
+und	O
+zehn	B-time
+
+erinnere	O
+mich	O
+morgen	B-date
+um	O
+vierzehn	B-time
+uhr	I-time
+
+erstelle	O
+pool	B-event_name
+party	I-event_name
+in	O
+jans	B-place_name
+zuhause	I-place_name
+diesen	B-date
+samstag	I-date
+
+event	O
+erster	B-date
+januar	I-date
+
+ich	O
+möchte	O
+mich	O
+morgen	B-date
+mit	O
+sarah	B-person
+treffen	O
+
+lösche	O
+mein	O
+treffen	B-event_name
+mit	O
+lisa	B-person
+am	O
+dienstag	B-date
+und	O
+donnerstag	B-date
+
+donnerstägiges	O
+mittagessen	B-meal_type
+aus	O
+meinem	O
+kalender	O
+löschen	O
+
+trage	O
+einen	O
+termin	O
+für	O
+den	O
+fünfzehnten	B-general_frequency
+jeden	I-general_frequency
+monats	I-general_frequency
+ein	O
+um	O
+mich	O
+an	O
+das	O
+bezahlen	B-event_name
+meiner	I-event_name
+internetrechnung	I-event_name
+zu	O
+erinnern	O
+
+füge	O
+das	O
+folgende	O
+datum	O
+und	O
+uhrzeit	O
+zu	O
+meinem	O
+kalender	O
+hinzu	O
+
+wann	O
+ist	O
+die	O
+veranstaltung	O
+
+füge	O
+ein	O
+event	O
+um	O
+fünfzehn	B-time
+uhr	I-time
+in	O
+friedrichshain	B-place_name
+berlin	I-place_name
+am	O
+fünften	B-date
+mai	I-date
+für	O
+sarah's	B-event_name
+abschluss	I-event_name
+
+wie	O
+oft	O
+war	O
+in	O
+im	O
+letzten	B-time
+jahr	I-time
+in	O
+meetings	B-event_name
+
+lösche	O
+mein	O
+treffen	B-event_name
+
+ich	O
+haben	O
+a	O
+treffen	B-event_name
+mit	O
+jens	B-person
+von	O
+einundzwanzigsten	B-date
+märz	I-date
+unter	O
+zehn	B-time
+
+ich	O
+muss	O
+ein	O
+treffen	B-event_name
+vorbereiten	O
+
+zeig	O
+meine	O
+aufkommenden	O
+ereignisse	O
+
+lösche	O
+den	O
+nächsten	O
+termin	O
+von	O
+meinem	O
+kalender	O
+
+gibt	O
+mein	O
+kalender	O
+an	O
+dass	O
+ich	O
+am	O
+ersten	B-date
+april	I-date
+zwanzig	I-date
+uhr	I-date
+siebzehn	I-date
+frei	O
+habe	O
+
+setz	O
+eine	O
+erinnerung	O
+für	O
+einen	O
+wöchentlichen	B-general_frequency
+termin	O
+
+makiere	O
+den	O
+tag	O
+zwei	B-date
+tage	I-date
+nach	I-date
+diesem	I-date
+tag	I-date
+als	O
+mein	B-event_name
+urlaub	I-event_name
+
+dienstag	O
+besprechung	B-event_name
+mittag	B-timeofday
+
+habe	O
+ich	O
+irgendwas	O
+für	O
+den	O
+siebten	B-date
+märz	I-date
+geplant	O
+
+olly	O
+plane	O
+meinen	O
+arzttermin	B-event_name
+am	O
+freitag	B-date
+um	O
+vierzehn	B-time
+uhr	I-time
+
+trage	O
+in	O
+meinem	O
+kalender	O
+meine	O
+reservierungen	O
+fürs	O
+abendessen	O
+ein	O
+
+setze	O
+die	O
+info	O
+für	O
+alberts	B-event_name
+hochzeit	I-event_name
+
+habe	O
+ich	O
+für	O
+heute	B-date
+irgendwelche	O
+veranstaltungen	O
+in	O
+meinem	O
+kalender	O
+
+suche	O
+nach	O
+urlaub	B-event_name
+an	O
+meinem	O
+standort	O
+
+suche	O
+letzte	O
+veranstaltungen	O
+an	O
+bestimmten	O
+tagen	O
+
+habe	O
+ich	O
+irgendwelche	O
+erinnerungen	O
+auf	O
+meiner	O
+liste	O
+
+erinnere	O
+mich	O
+bitte	O
+an	O
+
+bitte	O
+stelle	O
+einen	O
+wecker	O
+für	O
+
+muss	O
+ich	O
+an	O
+irgendwelche	O
+treffen	B-event_name
+am	O
+montag	B-date
+denken	O
+
+ist	O
+der	O
+kalender	O
+termin	O
+falsch	O
+
+entferne	O
+alle	O
+treffen	B-event_name
+für	O
+den	B-time
+rest	I-time
+der	I-time
+woche	I-time
+
+füge	O
+im	O
+kalender	O
+am	O
+zweiten	B-date
+mai	I-date
+mary's	B-person
+geburtstag	B-event_name
+hinzu	O
+und	O
+wiederhole	O
+jedes	B-general_frequency
+jahr	I-general_frequency
+
+erinnere	O
+mich	O
+daran	O
+meine	B-event_name
+regenjacke	I-event_name
+mitzunehmen	I-event_name
+weil	O
+es	O
+regnen	O
+könnte	O
+
+erinnere	O
+mich	O
+daran	O
+heute	B-date
+meinen	B-event_name
+schirm	I-event_name
+mitzunehmen	I-event_name
+
+was	O
+ist	O
+am	O
+vierzehnten	B-date
+juni	I-date
+zweitausendundsiebzehn	I-date
+geplant	O
+
+lösche	O
+bitte	O
+alle	O
+erinnerungen	O
+von	O
+sonntag	B-date
+
+erinner	O
+mich	O
+ans	O
+abendessen	B-meal_type
+am	O
+donnerstag	B-date
+im	O
+bistro	B-place_name
+italia	I-place_name
+
+erstelle	O
+erinnerung	O
+
+kalender	O
+termin	O
+mit	O
+diesen	O
+leuten	O
+
+lösche	O
+meinen	O
+plan	O
+für	O
+heute	B-date
+
+details	O
+
+nenne	O
+mir	O
+die	O
+aktuellsten	O
+veranstaltungen	O
+
+wann	O
+sind	O
+die	O
+treffen	B-event_name
+
+wann	O
+ist	O
+die	O
+party	B-event_name
+
+erinnere	O
+mich	O
+an	O
+alle	O
+veranstaltungen	O
+nächste	B-time
+woche	I-time
+
+klaus	O
+hochzeitstag	B-event_name
+
+wann	O
+sind	O
+ferien	B-event_name
+im	O
+aktuellen	B-time
+monat	I-time
+
+erinnere	O
+mich	O
+an	O
+die	O
+besprechung	B-event_name
+am	O
+dienstag	B-date
+
+ich	O
+möchte	O
+dass	O
+du	O
+mich	O
+an	O
+das	O
+abendprogramm	B-event_name
+erinnerst	O
+
+erics	O
+geburtstag	O
+löschen	O
+
+ok	O
+google	O
+zeitplan	O
+a	O
+treffen	B-event_name
+mit	O
+die	B-relation
+v.	I-relation
+s.	I-relation
+der	I-relation
+abteilung	I-relation
+am	O
+der	B-date
+einundzwanzigsten	I-date
+märz	I-date
+zweitausendsiebzehn	I-date
+
+ich	O
+brauche	O
+ein	O
+treffen	B-event_name
+am	O
+donnerstag	B-date
+mit	O
+dem	B-relation
+finanzvorstand	I-relation
+
+entferne	O
+die	O
+veranstaltung	O
+geburtstag	B-event_name
+aus	O
+meinem	O
+kalender	O
+
+erinnere	O
+mich	O
+am	O
+fünfter	B-date
+april	I-date
+gibt	O
+es	O
+ein	O
+treffen	B-event_name
+mit	O
+dem	O
+chef	B-relation
+
+erinnerung	O
+für	O
+visumantrag	B-event_name
+donnerstag	B-date
+
+leer	O
+den	O
+dritten	B-date
+juli	I-date
+aus	O
+dem	O
+kalender	O
+
+stelle	O
+einen	O
+wecker	O
+für	O
+dienstag	B-date
+sechzehn	B-time
+uhr	I-time
+
+stell	O
+eine	O
+terminerinnerung	O
+für	O
+monas	B-event_name
+hochzeit	I-event_name
+am	O
+dienstag	B-date
+ein	O
+
+stelle	O
+ein	O
+sich	B-event_name
+wiederholendes	I-event_name
+ereignis	I-event_name
+auf	O
+den	O
+kalender	O
+
+was	O
+mache	O
+ich	O
+dieses	B-date
+wochenende	I-date
+
+habe	O
+ich	O
+nächste	B-date
+woche	I-date
+einen	O
+termin	B-event_name
+
+lösche	O
+tag	O
+nach	O
+veranstaltung	O
+
+erinnere	O
+mich	O
+an	O
+notwendige	O
+veranstaltungen	O
+
+ergänze	O
+meine	O
+schwester	B-event_name
+zu	I-event_name
+besuch	I-event_name
+in	O
+meinem	O
+familienkalender	B-event_name
+
+wo	O
+befindet	O
+sich	O
+das	O
+kongresszentrum	B-place_name
+
+irgendein	O
+treffen	O
+am	O
+freitag	B-date
+
+erinnere	O
+an	O
+termin	B-event_name
+den	O
+ich	O
+samstag	B-date
+um	O
+zwölf	B-time
+uhr	I-time
+
+habe	O
+ich	O
+diesen	B-date
+monat	I-date
+irgendwelche	O
+events	O
+
+olly	O
+nimm	O
+einen	O
+kalendereintrag	O
+für	O
+nächstens	O
+samstag	B-date
+um	O
+zehn	B-time
+uhr	I-time
+vor	O
+
+erinnere	O
+mich	O
+an	O
+das	O
+treffen	B-event_name
+an	O
+den	B-date
+zweiundzwanzigsten	I-date
+januar	I-date
+
+erinnere	O
+mich	O
+ans	O
+treffen	B-event_name
+in	O
+eine	B-time
+stunde	I-time
+
+eine	O
+stunde	O
+erinnern	O
+zum	O
+treffen	B-event_name
+
+spiel	O
+etwas	O
+radio	O
+
+zeige	O
+radio	O
+
+öffne	O
+pandora	B-app_name
+spiel	O
+den	O
+rock	B-music_genre
+sender	O
+
+öffne	O
+iheartradio	B-app_name
+rock	B-music_genre
+
+spiele	O
+gute	B-radio_name
+witze	I-radio_name
+
+starte	O
+radio	O
+
+shoutcast.com	O
+
+mach	O
+das	O
+radio	O
+an	O
+
+stell	O
+bitte	O
+den	O
+radio	O
+kanal	O
+ein	O
+
+ich	O
+würde	O
+gerne	O
+den	O
+radiosender	O
+hören	O
+
+schalte	O
+das	O
+radio	O
+an	O
+
+kannst	O
+du	O
+den	O
+f.	B-radio_name
+m.	I-radio_name
+achthundertneunzig	I-radio_name
+radiokanal	O
+starten	O
+
+spiele	O
+melodien	B-media_type
+
+stelle	O
+es	O
+auf	O
+die	O
+frequenz	B-radio_name
+neunhundertsiebenundneunzig	I-radio_name
+ein	O
+
+starte	O
+den	O
+sender	O
+neunhunderteinundfünfzig	B-radio_name
+
+bitte	O
+spiel	O
+das	O
+radio	O
+
+radio	O
+an	O
+
+geh	O
+zu	O
+meinen	O
+lieblings	O
+radio	O
+sender	O
+
+spiele	O
+song	O
+smile	O
+
+spiel	O
+neunhunderteinundsiebzig	B-radio_name
+
+spiel	O
+inforadio	B-radio_name
+bitte	O
+
+spiel	O
+b.	B-radio_name
+b.	I-radio_name
+c.	I-radio_name
+radio	I-radio_name
+one	I-radio_name
+
+öffne	O
+bitte	O
+mein	O
+f.	B-radio_name
+m.	I-radio_name
+radio	I-radio_name
+und	O
+spiel	O
+neunhundertachtundsiebzig	B-radio_name
+
+olly	O
+ich	O
+möchte	O
+einen	O
+sender	B-radio_name
+hören	O
+der	B-radio_name
+r	I-radio_name
+n	I-radio_name
+b	I-radio_name
+spielt	I-radio_name
+
+spiele	O
+das	O
+fussball	O
+spiel	O
+im	O
+radio	O
+
+wie	O
+viele	O
+meiner	O
+sport	O
+podcast	O
+haben	O
+neue	O
+folgen	O
+die	O
+ich	O
+noch	O
+nicht	O
+gehört	O
+habe	O
+
+öffne	O
+pandora	B-app_name
+und	O
+spiel	O
+top	O
+hits	O
+
+spiel	O
+bitte	O
+beliebte	O
+musik	O
+auf	O
+pandora	B-app_name
+
+spiel	O
+berliner	B-radio_name
+radio	O
+für	O
+mich	O
+
+besorg	O
+mir	O
+radio	O
+musik	B-media_type
+von	O
+kamp	B-radio_name
+f.	I-radio_name
+m.	I-radio_name
+
+spiel	O
+bitte	O
+top	O
+country	B-music_genre
+
+spiele	O
+radio	O
+musik	O
+programme	O
+
+spiele	O
+die	O
+aktuelle	O
+wiedergabeliste	O
+
+finde	O
+den	O
+tahnee	O
+podcast	O
+auf	O
+spotify	B-app_name
+
+spiel	O
+den	O
+sender	O
+einhundertzwei	B-radio_name
+komma	I-radio_name
+vier	I-radio_name
+the	O
+buzz	O
+
+f.	O
+m.	O
+spielen	O
+
+spiel	O
+die	O
+anke	O
+engelke	O
+episode	O
+von	O
+blind	O
+date	O
+
+spiele	O
+dreiundneunzig	B-radio_name
+punkt	I-radio_name
+fünf	I-radio_name
+f.	I-radio_name
+m.	I-radio_name
+
+spiel	O
+einen	O
+nachrichten	B-radio_name
+radiosender	I-radio_name
+
+ok	O
+google	O
+kannst	O
+du	O
+ryan	B-person
+seacrest	I-person
+starten	O
+
+spiel	O
+meinen	O
+lieblings	O
+sender	O
+um	O
+neun	B-time
+uhr	I-time
+abends	I-time
+
+radio	O
+pdr	O
+
+spielen	O
+die	O
+programme	O
+in	O
+dieser	O
+erforderlichen	O
+polster	O
+
+welche	O
+sender	O
+spielen	O
+heute	O
+früh	B-timeofday
+gute	O
+musik	O
+
+stimme	O
+auf	O
+neunundneunzig	B-radio_name
+punkt	I-radio_name
+fünf	I-radio_name
+f.	I-radio_name
+m.	I-radio_name
+ein	O
+
+spiel	O
+einen	O
+countrysender	B-radio_name
+
+mach	O
+die	O
+billy	O
+bob	O
+show	O
+an	O
+
+spielen	O
+b.	B-radio_name
+b.	I-radio_name
+c.	I-radio_name
+radio	I-radio_name
+vier	I-radio_name
+
+spiel	O
+dieses	O
+programm	O
+
+spiel	O
+mein	O
+lieblings	O
+harry	B-audiobook_name
+potter	I-audiobook_name
+hörbuch	O
+
+können	O
+sie	O
+auf	O
+den	O
+anschalten	B-player_setting
+tiur	B-audiobook_name
+vermes	I-audiobook_name
+hörbuch	O
+
+starte	O
+das	O
+kapitel	O
+sieben	O
+von	O
+alma	B-audiobook_name
+
+hörbuch	O
+geschichte	B-audiobook_name
+von	I-audiobook_name
+rom	I-audiobook_name
+fortsetzen	B-player_setting
+
+kannst	O
+du	O
+die	O
+musik	B-media_type
+pausieren	B-player_setting
+
+fahre	O
+mit	O
+dem	O
+abspielen	O
+von	O
+meinem	O
+hörbuch	B-media_type
+fort	O
+
+pause	O
+die	O
+hörbuch	B-media_type
+
+öffne	O
+den	O
+davinci	B-audiobook_name
+code	I-audiobook_name
+dort	O
+wo	O
+ich	O
+zuletzt	O
+aufgehört	O
+habe	O
+
+spiele	O
+johns	B-audiobook_name
+hörbuch	B-media_type
+ab	O
+
+spiele	O
+das	O
+zuletzt	O
+hinzugefügte	O
+hörbuch	B-media_type
+
+spiel	O
+audio	B-media_type
+
+setz	O
+mein	O
+hörbuch	B-media_type
+von	O
+dort	O
+fort	B-player_setting
+wo	O
+ich	O
+zuletzt	O
+aufgehört	O
+habe	O
+
+fahre	O
+mit	O
+dem	O
+zuletzt	O
+gespielten	O
+hörbuch	B-media_type
+fort	B-player_setting
+
+kürzlich	O
+pausiertes	O
+audio	B-media_type
+spielen	O
+
+lebenslauf	O
+meine	O
+hörbuch	B-media_type
+vom	O
+anfang	O
+des	O
+letzten	O
+kapitel	O
+i	O
+gestartet	O
+
+spiel	O
+the	B-audiobook_name
+circle	I-audiobook_name
+ab	O
+
+lass	O
+uns	O
+eine	O
+fünf	B-time
+minuten	I-time
+pause	B-player_setting
+haben	O
+
+beginne	O
+das	O
+buch	O
+zu	B-player_setting
+lesen	I-player_setting
+
+setze	O
+das	B-audiobook_name
+letzte	I-audiobook_name
+königreich	I-audiobook_name
+fort	B-player_setting
+
+öffne	O
+das	O
+harry	B-audiobook_name
+potter	I-audiobook_name
+hörbuch	B-media_type
+und	O
+spiel	O
+vom	O
+letzten	O
+stand	O
+ab	O
+
+such	O
+nach	O
+dieser	O
+wiedergabe	O
+im	O
+hörbuch	B-media_type
+und	O
+spiel	O
+sie	O
+für	O
+mich	O
+ab	O
+
+bitte	O
+fortsetzen	B-player_setting
+der	O
+wiedergabe	O
+von	O
+diesem	O
+hörbuch	B-media_type
+
+the	O
+martian	O
+von	O
+downpour	B-app_name
+anhören	O
+
+beginne	O
+mit	O
+dem	O
+lesen	O
+von	O
+fifty	B-audiobook_name
+shades	I-audiobook_name
+of	I-audiobook_name
+grey	I-audiobook_name
+ab	O
+dem	O
+kapitel	O
+vier	O
+
+spiele	O
+das	O
+lied	O
+vom	O
+hörbuch	B-media_type
+von	O
+michael	B-artist_name
+jackson	I-artist_name
+weiter	O
+
+spiel	O
+das	O
+hörbuch	B-media_type
+schneewittchen	B-audiobook_name
+
+kannst	O
+du	O
+das	O
+hörbuch	B-media_type
+the	B-audiobook_name
+circle	I-audiobook_name
+fortsetzen	B-player_setting
+
+hörbuch	O
+spiel	O
+jai	B-song_name
+ho	I-song_name
+
+mache	O
+weiter	O
+und	O
+eine	B-audiobook_name
+stunde	I-audiobook_name
+history	I-audiobook_name
+lesen	O
+
+spiele	O
+er	O
+ist	O
+wieder	O
+da	O
+
+lesen	O
+beginnen	O
+dass	O
+johann	B-audiobook_author
+wolfgang	I-audiobook_author
+buch	B-media_type
+
+fahre	O
+bitte	O
+mit	O
+meinem	O
+hörbuch	B-media_type
+fort	B-player_setting
+
+spiele	O
+book	B-audiobook_name
+of	I-audiobook_name
+vitamins	I-audiobook_name
+weiter	B-player_setting
+
+setze	O
+die	B-audiobook_name
+zwei	I-audiobook_name
+türme	I-audiobook_name
+fort	B-player_setting
+
+spiele	O
+dieses	O
+hörbuch	B-media_type
+von	O
+hier	O
+ab	O
+
+sag	O
+mir	O
+wie	O
+man	O
+knoblauchbrot	B-food_type
+macht	O
+
+wie	O
+lange	O
+muss	O
+man	O
+pasta	B-food_type
+kochen	B-cooking_type
+
+was	O
+kann	O
+ich	O
+mit	O
+brokkoli	B-ingredient
+und	O
+hähnchen	B-ingredient
+kochen	O
+
+leite	O
+mich	O
+zum	O
+kochen	O
+an	O
+
+wie	O
+kann	O
+man	O
+nudeln	B-food_type
+kochen	O
+
+welche	O
+zutat	O
+kann	O
+man	O
+verwenden	O
+um	O
+weißwein	B-ingredient
+zu	O
+ersetzen	O
+
+kannst	O
+du	O
+bitte	O
+videos	B-media_type
+zum	O
+kochen	O
+von	O
+italienischem	B-food_type
+essen	O
+anzeigen	O
+
+olly	O
+wie	O
+mache	O
+ich	O
+hummersuppe	B-food_type
+
+wie	O
+kocht	O
+man	O
+pav	B-food_type
+bhaji	I-food_type
+
+was	O
+ist	O
+das	O
+sexieste	B-food_type
+essen	O
+
+wie	O
+lange	O
+sollte	O
+ich	O
+pizza	B-food_type
+im	O
+ofen	O
+backen	O
+damit	O
+sie	O
+perfekt	O
+knusprig	B-cooking_type
+wird	O
+
+wie	O
+kocht	O
+man	O
+schwarzäugige	B-ingredient
+erbsen	I-ingredient
+
+gib	O
+mir	O
+rezepte	O
+
+verwende	O
+google	O
+um	O
+mir	O
+zu	O
+zeigen	O
+wie	O
+man	O
+kocht	O
+
+gib	O
+mir	O
+die	O
+besten	O
+kochideen	O
+
+zeig	O
+mir	O
+keks	B-food_type
+rezepte	O
+
+wie	O
+macht	O
+man	O
+kekse	B-food_type
+
+wie	O
+viele	O
+cups	O
+sind	O
+ein	O
+quart	B-time
+
+wie	O
+backe	O
+ich	O
+eine	O
+kartoffel	B-food_type
+
+such	O
+nach	O
+einem	O
+pizza	B-food_type
+rezept	O
+
+wie	O
+macht	O
+man	O
+hackbraten	B-food_type
+
+finde	O
+mir	O
+ein	O
+rezept	O
+für	O
+hühnernudelsuppe	B-food_type
+
+suche	O
+nach	O
+glutenfreien	B-food_type
+gerichten	O
+
+zeig	O
+mir	O
+wie	O
+man	O
+ein	O
+rezept	O
+kocht	O
+
+wie	O
+lange	O
+lasse	O
+ich	O
+einen	O
+eiskuchen	O
+ruhen	O
+
+wie	O
+kocht	O
+man	O
+ein	O
+vierkäseomelett	B-food_type
+
+hol	O
+mir	O
+ein	O
+rezept	O
+zur	O
+zubereitung	O
+für	O
+einen	O
+hotdog	B-food_type
+
+kochtopf	O
+rezept	O
+für	O
+hühnchen	B-food_type
+alfredo	I-food_type
+
+kannst	O
+du	O
+ein	O
+rezept	O
+für	O
+spaghetti	B-food_type
+aufrufen	O
+
+rufe	O
+ein	O
+rezept	O
+für	O
+truthahn	B-food_type
+fleischbällchen	I-food_type
+auf	O
+
+rezepte	O
+
+wie	O
+lange	O
+röste	O
+ich	O
+hühnerbrust	B-food_type
+
+rezept	O
+für	O
+krabbenfleisch	B-food_type
+
+ich	O
+brauche	O
+ein	O
+paar	O
+ideen	O
+für	O
+ein	O
+mexikanisches	B-food_type
+abendessen	O
+
+keine	O
+kommentare	O
+mehr	O
+
+wie	O
+lautet	O
+die	O
+kochzeit	O
+für	O
+gekochte	B-food_type
+eier	I-food_type
+
+finde	O
+ein	O
+einfaches	O
+rezept	O
+für	O
+mandelmilch	B-drink_type
+
+finde	O
+ein	O
+rezept	O
+für	O
+hühnchenauflauf	B-food_type
+
+schau	O
+das	O
+rezept	O
+für	O
+das	O
+gericht	O
+nach	O
+
+spiele	O
+schach	B-game_name
+mit	O
+mir	O
+
+mir	O
+ist	O
+nach	O
+schach	B-game_name
+spielen	O
+kannst	O
+du	O
+das	O
+spielen	O
+
+wie	O
+wärs	O
+mit	O
+einem	O
+spiel	O
+schach	B-game_name
+
+spiel	O
+solitaire	B-game_name
+
+spiel	O
+ein	O
+renn	B-game_type
+spiel	O
+
+lass	O
+uns	O
+pinball	B-game_name
+spielen	O
+
+spiel	O
+spider	B-game_name
+
+möchtest	O
+du	O
+ein	O
+spiel	O
+mit	O
+mir	O
+spielen	O
+
+ich	O
+möchte	O
+dass	O
+du	O
+mein	O
+fußball	B-game_name
+spiel	O
+ab	O
+dem	O
+fünften	O
+level	O
+spielst	O
+
+ich	O
+möchte	O
+ein	O
+wissensspiel	B-game_name
+spielen	O
+
+finde	O
+das	O
+spiel	O
+
+spiele	O
+fortnite	B-game_name
+mit	O
+mir	O
+
+lass	O
+uns	O
+das	B-game_name
+puzzle	I-game_name
+lösen	O
+
+öffne	O
+papa	B-game_name
+pear	I-game_name
+saga	I-game_name
+
+lass	O
+uns	O
+dame	B-game_name
+spielen	O
+
+spiel	O
+spiele	O
+
+kannst	O
+du	O
+die	O
+rolle	O
+eines	O
+gegners	O
+annehmen	O
+in	O
+einem	O
+world	B-game_name
+of	I-game_name
+warcraft	I-game_name
+spiel	O
+
+spiel	O
+bitte	O
+schach	B-game_name
+mit	O
+mir	O
+
+kannst	O
+du	O
+rate	B-game_name
+das	I-game_name
+lied	I-game_name
+spielen	O
+
+poker	O
+mit	O
+mir	O
+spielen	O
+
+lass	O
+uns	O
+millionaires	B-game_name
+spielen	O
+
+lass	O
+uns	O
+tic	B-game_name
+tac	I-game_name
+toe	I-game_name
+spielen	O
+
+liste	O
+die	O
+dinge	O
+auf	O
+meiner	O
+einkaufs	B-list_name
+liste	O
+auf	O
+olly	O
+
+ich	O
+möchte	O
+meine	O
+reise	O
+nach	O
+köln	O
+nächste	O
+woche	O
+absagen	O
+
+was	O
+steht	O
+heute	B-date
+auf	O
+meiner	O
+einkaufs	B-list_name
+liste	O
+
+streiche	O
+brot	O
+von	O
+meiner	O
+einkaufs	B-list_name
+liste	O
+
+füge	O
+vodka	O
+meiner	O
+partyeinkaufs	B-list_name
+liste	O
+hinzu	O
+
+entferne	O
+eine	O
+liste	O
+von	O
+dingen	B-list_name
+die	I-list_name
+ich	I-list_name
+kaufen	I-list_name
+will	I-list_name
+
+kannst	O
+du	O
+eine	O
+neue	O
+liste	O
+erstellen	O
+
+lösche	O
+die	O
+liste	O
+mit	O
+eingekauften	O
+lebensmitteln	B-list_name
+von	O
+letzter	B-date
+woche	I-date
+
+es	O
+kommt	O
+auf	O
+die	O
+betrachtung	O
+an	O
+
+liste	O
+löschen	O
+
+liste	O
+machen	O
+
+von	O
+welchen	O
+supermärkten	B-list_name
+habe	O
+ich	O
+eine	O
+liste	O
+gemacht	O
+
+was	O
+sind	O
+meine	O
+listen	O
+
+welche	O
+listen	O
+sind	O
+verfügbar	O
+
+finde	O
+liste	O
+und	O
+entferne	O
+äpfel	O
+
+lösch	O
+meine	O
+list	O
+mit	O
+alten	B-list_name
+englischen	I-list_name
+liedern	O
+
+bitte	O
+lösche	O
+eine	O
+liste	O
+
+füge	O
+diesen	O
+artikel	O
+zur	O
+liste	O
+hinzu	O
+
+was	O
+waren	O
+die	O
+letzten	O
+fünf	O
+listen	O
+die	O
+ich	O
+gemacht	O
+habe	O
+
+sende	O
+mir	O
+die	O
+letzte	O
+liste	O
+die	O
+hochgeladen	O
+wurde	O
+
+mach	O
+eine	O
+liste	O
+von	O
+zahlen	B-list_name
+für	O
+mich	O
+
+erstell	O
+bitte	O
+eine	O
+neue	O
+liste	O
+für	O
+mich	O
+
+was	O
+steht	O
+heute	B-date
+auf	O
+meiner	O
+to	B-list_name
+do	I-list_name
+liste	O
+
+was	O
+mache	O
+ich	O
+heute	B-date
+
+hake	O
+eintrag	O
+fünf	O
+auf	O
+meiner	O
+aufgaben	B-list_name
+liste	O
+ab	O
+
+bitte	O
+zeige	O
+mir	O
+meine	O
+liste	O
+
+entferne	O
+die	O
+exceldatei	O
+von	O
+der	O
+liste	O
+
+sage	O
+mir	O
+eine	O
+wiedergabeliste	O
+
+wie	O
+viele	O
+lebensmittel	O
+auf	O
+der	O
+liste	O
+
+die	O
+liste	O
+soll	O
+nicht	O
+alle	O
+lebensmittel	O
+mit	O
+dem	O
+präfix	O
+trocken	O
+beinhalten	O
+
+erstelle	O
+eine	O
+neue	O
+liste	O
+bis	O
+morgen	B-date
+
+erstell	O
+eine	O
+neue	O
+liste	O
+
+setz	O
+stift	O
+auf	O
+eine	O
+neue	O
+einkaufs	B-list_name
+liste	O
+
+bitte	O
+entferne	O
+diesen	O
+gegenstand	O
+von	O
+der	O
+liste	O
+
+füge	O
+lebensmittel	O
+zur	O
+liste	O
+hinzu	O
+
+lese	O
+die	O
+liste	O
+
+hol	O
+mir	O
+meine	O
+liste	O
+
+sag	O
+mir	O
+welche	O
+listen	O
+ich	O
+habe	O
+
+lösche	O
+dritten	O
+gegenstand	O
+
+was	O
+beinhaltet	O
+die	O
+liste	O
+
+bitte	O
+füge	O
+diesen	O
+artikel	O
+zur	O
+liste	O
+hinzu	O
+
+zeige	O
+verfügbare	O
+listen	O
+
+kannst	O
+du	O
+mir	O
+bitte	O
+sagen	O
+was	O
+auf	O
+meiner	O
+liste	O
+steht	O
+
+entferne	O
+pfeffer	O
+von	O
+meiner	O
+lebensmittel	B-list_name
+liste	O
+
+füge	O
+etwas	O
+meiner	O
+liste	O
+hinzu	O
+
+entferne	O
+diesen	O
+gegenstand	O
+von	O
+meiner	O
+liste	O
+
+google	O
+übersetze	O
+
+lies	O
+nochmal	O
+was	O
+ich	O
+für	O
+diese	B-date
+woche	I-date
+auf	O
+die	O
+to	O
+do	O
+liste	O
+gepackt	O
+habe	O
+
+lies	O
+die	O
+gegenstände	O
+auf	O
+der	O
+einkaufsliste	B-list_name
+vor	O
+
+füge	O
+cerealien	O
+zu	O
+meiner	O
+einkaufsliste	O
+hinzu	O
+
+stehen	O
+eier	O
+auf	O
+meiner	O
+einkaufs	B-list_name
+liste	O
+
+habe	O
+ich	O
+eine	O
+liste	O
+für	O
+kontakte	O
+für	O
+die	O
+party	B-event_name
+
+lösch	O
+meine	O
+to	B-list_name
+do	I-list_name
+liste	O
+
+entferne	O
+eintrag	O
+von	O
+liste	O
+
+bitte	O
+füge	O
+milch	O
+zur	O
+einkaufs	B-list_name
+liste	O
+hinzu	O
+
+würdest	O
+du	O
+mir	O
+bitte	O
+meine	O
+listen	O
+zeigen	O
+
+öffne	O
+listen	O
+entferne	O
+liste	O
+
+olly	O
+was	O
+ist	O
+als	O
+nächstes	O
+auf	O
+meiner	O
+liste	O
+
+lösche	O
+die	O
+milch	O
+von	O
+meiner	O
+einkaufs	B-list_name
+liste	O
+
+bitte	O
+sage	O
+mir	O
+welche	O
+listen	O
+ich	O
+erstellt	O
+habe	O
+
+streich	O
+das	O
+von	O
+der	O
+liste	O
+
+lösche	O
+es	O
+von	O
+der	O
+liste	O
+
+olly	O
+was	O
+habe	O
+ich	O
+sonst	O
+auf	O
+der	O
+liste	O
+
+füge	O
+lebensmittel	O
+kaufen	O
+meiner	O
+erledigungsliste	O
+für	O
+heute	B-date
+hinzu	O
+
+sage	O
+mir	O
+bitte	O
+wie	O
+ich	O
+einen	O
+gegenstand	O
+entfernen	O
+kann	O
+
+kann	O
+ich	O
+meine	O
+listen	O
+überprüfen	O
+
+habe	O
+ich	O
+eine	O
+einkaufs	B-list_name
+liste	O
+gemacht	O
+
+entferne	O
+gegenstand	O
+von	O
+meiner	O
+liste	O
+
+erstelle	O
+eine	O
+neue	O
+liste	O
+von	O
+
+erzähle	O
+mir	O
+von	O
+der	O
+liste	O
+
+entfern	O
+bitte	O
+die	O
+erste	O
+liste	O
+
+entferne	O
+besprechung	O
+für	O
+mittwoch	B-date
+früh	B-timeofday
+
+erstelle	O
+eine	O
+liste	O
+meiner	O
+offenen	B-list_name
+rechnungen	I-list_name
+
+lies	O
+mir	O
+meine	O
+liste	O
+vor	O
+
+gib	O
+mir	O
+meine	O
+liste	O
+
+mach	O
+eine	O
+liste	O
+für	O
+die	O
+arbeit	O
+
+bitte	O
+lösche	O
+die	O
+liste	O
+mit	O
+dem	O
+namen	O
+kickball	B-list_name
+
+ich	O
+will	O
+diese	O
+liste	O
+nicht	O
+mehr	O
+
+hab	O
+ich	O
+irgendwas	O
+auf	O
+meiner	O
+to	B-list_name
+do	I-list_name
+liste	O
+
+welche	O
+listen	O
+sind	O
+aktuell	O
+verfügbar	O
+
+entferne	O
+die	O
+letzte	O
+zeile	O
+
+mach	O
+eine	O
+neue	O
+liste	O
+für	O
+schulutensilien	B-list_name
+
+lösche	O
+zeitung	O
+anrufen	O
+von	O
+meiner	O
+urlaubsliste	B-list_name
+
+lese	O
+meine	O
+einkaufs	B-list_name
+liste	O
+für	O
+heute	B-date
+vor	O
+
+was	O
+ist	O
+für	O
+heute	B-date
+auf	O
+der	O
+liste	O
+
+füge	O
+der	O
+liste	O
+einen	O
+posten	O
+hinzu	O
+
+streiche	O
+lebensmittel	O
+kaufen	O
+von	O
+der	O
+liste	O
+
+uns	O
+ist	O
+die	O
+farbe	O
+ausgegangen	O
+also	O
+streich	O
+badezimmer	O
+streichen	O
+von	O
+der	O
+liste	O
+
+erinner	O
+mich	O
+daran	O
+mehr	O
+seife	O
+zu	O
+bestellen	O
+
+öffne	O
+meine	O
+liste	O
+
+entferne	O
+das	O
+zuletzt	O
+gespielte	O
+lied	O
+
+füge	O
+bitte	O
+tom	B-person
+meiner	O
+kontaktliste	O
+hinzu	O
+
+kannst	O
+du	O
+meine	O
+listen	O
+vorlesen	O
+
+hey	O
+was	O
+sind	O
+meine	O
+listen	O
+
+hallo	O
+olly	O
+was	O
+sind	O
+meine	O
+listen	O
+
+kannst	O
+du	O
+mir	O
+sagen	O
+was	O
+die	O
+einträge	O
+auf	O
+meiner	O
+lebensmittel	B-list_name
+liste	O
+sind	O
+
+was	O
+ist	O
+das	O
+auf	O
+der	O
+liste	O
+
+sag	O
+mir	O
+was	O
+auf	O
+meiner	O
+liste	O
+steht	O
+
+entferne	O
+eine	O
+liste	O
+
+streiche	O
+die	O
+milch	O
+von	O
+der	O
+einkaufs	B-list_name
+liste	O
+
+füge	O
+milch	O
+meiner	O
+lebensmittel	B-list_name
+liste	O
+hinzu	O
+
+entferne	O
+die	O
+liste	O
+mit	O
+santana	B-list_name
+musik	I-list_name
+
+was	O
+steht	O
+auf	O
+dieser	O
+speziellen	O
+liste	O
+
+kann	O
+ich	O
+meine	O
+arbeits	O
+listen	O
+sehen	O
+
+füge	O
+das	O
+einer	O
+liste	O
+hinzu	O
+
+bitte	O
+entferne	O
+meine	O
+to	B-list_name
+do	I-list_name
+liste	O
+von	O
+heute	B-date
+
+ich	O
+möchte	O
+keine	O
+eier	O
+
+liste	O
+die	O
+verfügbaren	O
+auf	O
+
+erstelle	O
+eine	O
+liste	O
+von	O
+monatlichen	B-general_frequency
+lebensmitteln	B-list_name
+die	O
+ich	O
+kaufen	O
+muss	O
+
+mein	O
+arbeitsplan	O
+
+meine	O
+gesundheitsplanung	B-list_name
+
+gebäck	O
+auf	O
+die	O
+weihnachts	B-list_name
+liste	O
+setzen	O
+
+lösche	O
+die	O
+liste	O
+mit	O
+den	O
+zu	B-list_name
+erledigenden	I-list_name
+sachen	I-list_name
+
+lösche	O
+die	O
+alte	B-list_name
+playlist	I-list_name
+und	O
+erstelle	O
+eine	O
+neue	O
+
+liste	O
+überprüfen	O
+
+wie	O
+viele	O
+gegenstände	O
+sind	O
+auf	O
+meiner	O
+to	B-list_name
+do	I-list_name
+liste	O
+
+meine	O
+liste	O
+überprüfen	O
+
+kann	O
+man	O
+eine	O
+folge	O
+des	O
+podcast	O
+vorspulen	B-player_setting
+
+spiel	O
+die	O
+nächste	B-podcast_descriptor
+episode	I-podcast_descriptor
+ab	O
+
+öffne	O
+meinen	O
+podcast	O
+
+weiter	O
+zur	O
+nächsten	B-podcast_descriptor
+folge	I-podcast_descriptor
+
+spiel	O
+den	O
+neuesten	O
+reason	B-podcast_name
+podcast	O
+
+fahre	O
+zur	O
+nächsten	B-podcast_descriptor
+episode	I-podcast_descriptor
+fort	O
+
+spiel	O
+die	O
+siebte	O
+episode	O
+von	O
+the	B-podcast_name
+morning	I-podcast_name
+after	I-podcast_name
+
+finde	O
+und	O
+erstelle	O
+eine	O
+wiedergabeliste	O
+mit	O
+den	O
+neuesten	O
+dance	O
+liedern	O
+
+arrangiere	O
+und	O
+spiel	O
+alle	O
+songs	O
+von	O
+eminem	B-artist_name
+
+spiele	O
+den	O
+podcast	O
+von	O
+vorne	O
+
+hey	O
+spiel	O
+den	O
+podcast	O
+den	O
+ich	O
+letzte	B-podcast_descriptor
+nacht	I-podcast_descriptor
+aufgehört	I-podcast_descriptor
+habe	I-podcast_descriptor
+
+überspringe	O
+zum	O
+nächsten	B-podcast_descriptor
+podcast	I-podcast_descriptor
+
+wiederhole	O
+den	O
+folgenden	O
+podcast	O
+
+überspringe	O
+zum	O
+nächsten	B-podcast_descriptor
+podcast	I-podcast_descriptor
+
+ich	O
+möchte	O
+m.	B-person
+c.'s	I-person
+podcast	O
+hören	O
+
+favorit	O
+
+geh	O
+weiter	B-player_setting
+bitte	O
+
+finde	O
+den	O
+podcast	O
+und	O
+spiel	O
+ihn	O
+ab	O
+
+kannst	O
+du	O
+meine	O
+musik	O
+datei	O
+abspielen	O
+
+überspringe	O
+zur	O
+nächsten	B-podcast_descriptor
+episode	I-podcast_descriptor
+
+ende	O
+diesen	O
+podcast	O
+und	O
+starte	O
+einen	O
+neuen	O
+
+spiele	O
+duncan	B-person
+trussel's	I-person
+neusten	O
+podcast	O
+ab	O
+
+spiel	O
+die	O
+nächste	B-podcast_descriptor
+episode	I-podcast_descriptor
+
+starte	O
+den	O
+podcast	O
+queerantine	B-podcast_name
+
+zeige	O
+mir	O
+die	O
+am	B-podcast_descriptor
+besten	I-podcast_descriptor
+bewerteten	I-podcast_descriptor
+podcasts	O
+
+spielen	O
+folge	O
+auf	O
+sachen	B-podcast_name
+die	O
+sie	O
+in	O
+der	O
+warteschlange	O
+kennen	O
+sollten	O
+
+spiel	O
+klassische	B-music_genre
+songs	O
+
+spiele	O
+den	O
+podcast	O
+kirche	B-podcast_name
+im	I-podcast_name
+radio	I-podcast_name
+
+zurück	O
+eine	O
+folge	O
+
+zurückspul	O
+knopf	O
+
+zeige	O
+mir	O
+die	O
+letzte	O
+episode	O
+
+olly	O
+spiel	O
+den	O
+heavyweight	B-podcast_name
+podcast	O
+
+spiele	O
+den	O
+podcast	O
+von	O
+barack	B-podcast_name
+obama	I-podcast_name
+der	O
+auf	O
+dem	O
+gerät	O
+gespeichert	O
+ist	O
+
+geh	O
+zum	O
+podcast	O
+netzwerk	O
+
+viel	O
+mehr	O
+klar	O
+und	O
+themenorientiert	O
+
+kurz	O
+und	O
+einfach	O
+
+spiel	O
+die	O
+aller	B-podcast_descriptor
+neueste	I-podcast_descriptor
+episode	I-podcast_descriptor
+von	O
+levin	B-podcast_name
+
+ich	O
+möchte	O
+diesen	O
+podcast	O
+hören	O
+
+welche	O
+neuen	O
+filme	O
+laufen	O
+diese	B-date
+woche	I-date
+in	O
+den	O
+kino	O
+
+gibt	O
+es	O
+in	O
+der	O
+nähe	O
+von	O
+berlin	B-place_name
+hundeshows	B-event_name
+
+wo	O
+ist	O
+die	O
+nächste	O
+kneipe	B-business_type
+in	O
+der	O
+stadt	B-place_name
+
+welche	O
+konzerte	B-event_name
+wurden	O
+in	O
+der	O
+nähe	O
+angekündigt	B-time
+
+welche	O
+filme	O
+werden	O
+im	O
+lokalen	B-place_name
+kino	I-place_name
+gezeigt	O
+
+welche	O
+ausstellungen	B-event_name
+oder	O
+veranstaltungen	B-event_name
+sind	O
+im	O
+metropoltheater	B-place_name
+geplant	O
+
+welche	O
+veranstaltungen	O
+finden	O
+in	O
+der	O
+nähe	O
+von	O
+mir	O
+statt	O
+
+wohin	O
+sollte	O
+ich	O
+für	O
+mexikanisches	B-food_type
+essen	O
+in	O
+meiner	O
+gegend	O
+gehen	O
+
+ich	O
+möchte	O
+etwas	O
+sushi	B-food_type
+wo	O
+was	O
+ist	O
+am	O
+nächsten	O
+
+suche	O
+nach	O
+nahegelegenen	O
+chinesischen	B-food_type
+restaurants	B-business_type
+
+wo	O
+ist	O
+heute	B-timeofday
+abend	I-timeofday
+das	O
+food	B-event_name
+festival	I-event_name
+
+ich	O
+suche	O
+ein	O
+paar	O
+anziehsachen	B-business_type
+kannst	O
+du	O
+mir	O
+bekleidungsgeschäfte	O
+im	O
+umkreis	B-place_name
+von	I-place_name
+einem	I-place_name
+kilometer	I-place_name
+zeigen	O
+
+wo	O
+ist	O
+das	O
+nächste	O
+restaurant	B-business_type
+
+olly	O
+sende	O
+mir	O
+den	O
+standort	O
+des	O
+shops	O
+
+welche	O
+neuen	O
+filme	O
+sind	O
+heute	B-date
+erhältlich	O
+
+zeige	O
+mir	O
+irgendeine	O
+fressmeile	B-business_type
+in	B-place_name
+meiner	I-place_name
+nähe	I-place_name
+
+irgendwelche	O
+guten	O
+fahrradläden	B-business_type
+in	O
+augsburg	B-place_name
+
+beste	O
+kneipe	B-business_type
+in	O
+lokalen	O
+gebiet	O
+
+sag	O
+mir	O
+alle	O
+lokalen	O
+veranstaltungen	O
+
+supermarkt	O
+in	O
+der	O
+nähe	O
+
+welche	O
+romantische	B-movie_type
+komödie	I-movie_type
+kann	O
+ich	O
+in	O
+hamburg	B-place_name
+im	O
+kino	O
+anschauen	O
+
+erstelle	O
+eine	O
+to	O
+do	O
+liste	O
+während	O
+wir	O
+den	O
+nationalpark	B-place_name
+eifel	I-place_name
+besuchen	O
+
+was	O
+sollte	O
+ich	O
+unbedingt	O
+machen	O
+wenn	O
+ich	O
+den	O
+englischen	B-place_name
+garten	I-place_name
+besuche	O
+
+was	O
+passiert	O
+um	O
+mich	O
+herum	O
+
+theater	O
+in	O
+meiner	O
+nähe	O
+
+welche	O
+buchmesse	B-event_name
+veranstaltungen	O
+nächste	B-date
+woche	I-date
+in	O
+stattfinden	O
+frankfurt	B-place_name
+
+welches	O
+ist	O
+das	O
+nächste	O
+kino	O
+dass	O
+den	O
+neuen	O
+matthias	B-movie_name
+schweighöfer	I-movie_name
+film	O
+spielt	O
+
+welche	O
+veranstaltungen	O
+gibt	O
+es	O
+in	O
+berlin	B-place_name
+
+logan	O
+
+wer	O
+verkauft	O
+die	O
+günstigsten	O
+netbooks	O
+in	O
+hamburg	B-place_name
+
+welches	O
+ist	O
+das	O
+beste	O
+kleidungsgeschäft	B-business_type
+hier	O
+
+finde	O
+einen	O
+laden	O
+der	O
+bier	B-drink_type
+verkauft	O
+
+welche	O
+filme	O
+laufen	O
+in	O
+den	O
+kinos	B-place_name
+in	O
+der	O
+nähe	O
+
+was	O
+für	O
+filme	O
+laufen	O
+aktuell	O
+in	O
+meiner	O
+nähe	O
+die	O
+sehr	O
+gute	O
+bewertungen	O
+haben	O
+
+filme	O
+mit	O
+guter	O
+bewertung	O
+auf	O
+rotten	O
+tomato	O
+
+welche	O
+aktivitäten	O
+finden	O
+in	O
+meiner	O
+nähe	O
+statt	O
+
+welche	O
+flaggenfahrt	O
+ist	O
+die	O
+beste	O
+
+was	O
+ist	O
+es	O
+wert	O
+zu	O
+schauen	O
+
+erzählen	O
+sie	O
+mir	O
+von	O
+aktivitäten	O
+in	O
+meiner	O
+umgebung	O
+dieses	B-date
+wochenende	I-date
+
+was	O
+kann	O
+man	O
+in	O
+berlin	B-place_name
+machen	O
+
+welche	O
+läden	B-business_type
+gibt	O
+es	O
+nahe	O
+meines	O
+standortes	O
+
+kannst	O
+du	O
+ein	O
+preiswertes	O
+restaurant	B-business_type
+in	O
+der	O
+gegend	O
+empfehlen	O
+
+olly	O
+was	O
+sind	O
+ein	O
+paar	O
+restaurants	B-business_type
+in	O
+meiner	O
+nähe	O
+
+wo	O
+kann	O
+ich	O
+in	O
+meiner	O
+gegend	O
+den	O
+nächsten	O
+irish	B-business_type
+pub	I-business_type
+finden	O
+
+olly	O
+welche	O
+kneipen	B-business_type
+gibt	O
+es	O
+in	O
+meiner	O
+nähe	O
+
+zeige	O
+mir	O
+alle	O
+veranstaltungen	O
+in	O
+münchen	B-place_name
+
+sag	O
+mir	O
+was	O
+in	O
+meiner	O
+stadt	O
+los	O
+ist	O
+
+was	O
+geht	O
+heute	B-date
+in	O
+stuttgart	B-place_name
+
+wie	O
+viele	O
+lebensmittel	O
+geschäfte	O
+gibt	O
+es	O
+in	O
+meiner	O
+nachbarschaft	O
+
+frage	O
+ein	O
+restaurant	B-business_type
+in	O
+meiner	O
+nähe	O
+
+ich	O
+verhungere	O
+was	O
+sollte	B-business_type
+man	I-business_type
+in	O
+köln	B-place_name
+essen	B-business_type
+
+olly	O
+wohin	O
+kann	O
+ich	O
+für	O
+ein	O
+paar	O
+drinks	B-business_type
+in	O
+köln	B-place_name
+gehen	O
+
+heutige	O
+lokale	O
+veranstaltungen	O
+
+liste	O
+alle	O
+shops	B-business_type
+in	O
+der	O
+nähe	O
+auf	O
+
+kannst	O
+du	O
+eine	O
+bar	B-business_type
+in	O
+der	B-place_name
+maxvorstadt	I-place_name
+empfehlen	O
+
+was	O
+ist	O
+in	B-place_name
+der	I-place_name
+nachbarschaft	I-place_name
+los	O
+
+ich	O
+brauche	O
+ein	O
+geschäft	O
+das	O
+mir	O
+pizza	B-food_type
+in	O
+münchen	B-place_name
+liefert	O
+
+gibt	O
+es	O
+chinesische	B-food_type
+restaurants	O
+in	O
+köln	B-place_name
+
+bitte	O
+suche	O
+nach	O
+veranstaltungen	O
+an	O
+meinem	O
+standort	O
+
+hey	O
+siri	O
+ich	O
+brauche	O
+züge	O
+nach	O
+hamburg	B-place_name
+am	O
+mittwoch	B-date
+
+wann	O
+geht	O
+der	O
+nächste	O
+zug	B-transport_type
+nach	O
+bentheim	B-place_name
+
+wie	O
+komme	O
+ich	O
+am	O
+besten	O
+nach	O
+polen	B-place_name
+
+ich	O
+werde	O
+kreuzberg	B-place_name
+in	O
+halben	B-time
+stunde	I-time
+buchen	O
+ein	O
+uber	B-transport_agency
+für	O
+mich	O
+
+olly	O
+buche	O
+ein	O
+ticket	O
+nach	O
+berlin	B-place_name
+auf	O
+dem	O
+i.	B-transport_name
+c.	I-transport_name
+e.	I-transport_name
+um	O
+siebzehn	B-time
+uhr	I-time
+diesen	B-date
+freitag	I-date
+
+buche	O
+mir	O
+ein	O
+zweite	O
+klasse	O
+zug	B-transport_type
+ticket	O
+von	O
+kreuzberg	B-place_name
+nach	O
+potsdam	B-place_name
+
+wie	O
+ist	O
+die	O
+verkehrssituation	O
+auf	O
+der	O
+bockenheimer	B-place_name
+landstraße	I-place_name
+
+ruf	O
+mich	O
+an	O
+uber	B-transport_agency
+für	O
+jetzt	O
+
+ist	O
+auf	O
+der	O
+bergstraße	B-place_name
+mehr	O
+verkehr	O
+
+wie	O
+viel	O
+verkehr	O
+gibt	O
+es	O
+aktuell	O
+auf	O
+der	O
+limesstraße	B-place_name
+
+schicke	O
+jetzt	O
+ein	O
+uber	B-transport_agency
+zu	O
+mir	O
+
+wo	O
+ist	O
+der	O
+bahnhof	B-place_name
+
+könnten	O
+sie	O
+bitte	O
+uber	B-transport_agency
+haben	O
+bei	O
+mir	O
+sein	O
+haus	B-place_name
+in	O
+fünfzehn	B-time
+minuten	I-time
+
+ich	O
+brauche	O
+bitte	O
+ein	O
+taxi	B-transport_type
+dass	O
+mich	O
+zum	O
+flughafen	B-place_name
+fährt	O
+
+buche	O
+mir	O
+ein	O
+flug	O
+ticket	O
+
+buch	O
+ein	O
+taxi	B-transport_type
+um	O
+nach	O
+hause	B-place_name
+zu	O
+gelangen	O
+
+bestelle	O
+ein	O
+uber	B-transport_agency
+um	O
+mich	O
+in	O
+meinem	O
+zu	B-place_name
+hause	I-place_name
+abzuholen	O
+
+kannst	O
+du	O
+mir	O
+bitte	O
+die	O
+nächsten	O
+vier	O
+zugabfahrten	O
+nach	O
+hannover	B-place_name
+anzeigen	O
+
+wie	O
+ist	O
+der	O
+verkehr	O
+in	O
+der	O
+karl	B-place_name
+marx	I-place_name
+allee	I-place_name
+
+wie	O
+ist	O
+der	O
+verkehr	O
+
+wann	O
+fährt	O
+der	O
+letzte	O
+zug	O
+am	O
+donnerstag	B-date
+nach	O
+bamberg	B-place_name
+
+wie	O
+ist	O
+die	O
+geplante	O
+zeit	O
+von	O
+deutsche	B-place_name
+post	O
+zu	O
+erreichen	O
+hamburg	B-place_name
+
+wann	O
+geht	O
+der	O
+nächste	O
+zug	B-transport_type
+zum	O
+frankfurter	B-place_name
+tor	I-place_name
+
+lass	O
+uns	O
+ein	O
+taxi	B-transport_type
+nehmen	O
+
+navigiere	O
+mich	O
+zum	O
+nächsten	O
+bahnhof	B-place_name
+
+zug	O
+fahrzeit	O
+von	O
+charlottenburg	B-place_name
+nach	O
+kreuzberg	B-place_name
+
+such	O
+zwei	O
+tickets	O
+für	O
+den	O
+dienstag	B-date
+zug	B-transport_type
+nach	O
+berlin	B-place_name
+
+wie	O
+ist	O
+der	O
+verkehr	O
+von	O
+arbeit	O
+nach	B-place_name
+hause	I-place_name
+
+sag	O
+mir	O
+wie	O
+der	O
+verkehr	O
+von	O
+hier	O
+nach	O
+hause	B-place_name
+ist	O
+
+reserviere	O
+ein	O
+taxi	B-transport_type
+
+bus	O
+und	O
+fahrpreis	O
+
+in	O
+berlin	B-place_name
+ist	O
+das	O
+verkehrsaufkommen	O
+zu	O
+hoch	O
+
+buch	O
+für	O
+morgen	B-date
+früh	B-timeofday
+ein	O
+taxi	B-transport_type
+zum	O
+flughafen	B-place_name
+
+ich	O
+würde	O
+gerne	O
+die	O
+verkehrsbedingungen	O
+wissen	O
+
+buche	O
+das	O
+nächstgelegene	O
+taxi	B-transport_type
+für	O
+mich	O
+
+wie	O
+komme	O
+ich	O
+nach	O
+gera	B-place_name
+
+besorg	O
+mir	O
+ein	O
+uber	B-transport_agency
+
+taxi	O
+
+kaufe	O
+das	O
+zug	B-transport_type
+ticket	O
+nach	O
+hamburg	B-place_name
+noch	O
+einmal	O
+
+kauf	O
+mir	O
+heute	B-date
+zug	B-transport_type
+fahrkarte	O
+in	O
+die	O
+stadt	O
+gera	B-place_name
+
+wegbeschreibung	O
+zum	O
+nächsten	O
+apple	B-business_name
+store	I-business_name
+
+gib	O
+mir	O
+die	O
+aktuelle	O
+verkehrssituation	O
+
+was	O
+sind	O
+die	O
+abfahrtszeiten	O
+für	O
+den	O
+zug	B-transport_type
+von	O
+berlin	B-place_name
+nach	O
+gera	B-place_name
+
+wie	O
+kommt	O
+man	O
+von	O
+köln	B-place_name
+nach	O
+berlin	B-place_name
+
+wie	O
+ist	O
+der	O
+verkehr	O
+von	O
+zuhause	B-place_name
+zur	O
+arbeit	O
+
+finde	O
+eine	O
+fahrt	O
+
+was	O
+sind	O
+die	O
+abfahrtszeiten	O
+für	O
+den	O
+zug	B-transport_type
+am	O
+dreiundzwanzigsten	B-date
+nach	O
+zeitz	B-place_name
+
+kaufe	O
+zug	B-transport_type
+ticket	O
+
+brauche	O
+ein	O
+taxi	B-transport_type
+morgen	B-date
+um	O
+acht	B-time
+morgens	B-timeofday
+
+buch	O
+ticket	O
+um	O
+in	O
+der	O
+früh	B-timeofday
+abzufahren	O
+
+finde	O
+ein	O
+uber	B-transport_agency
+das	O
+heute	B-timeofday
+abend	I-timeofday
+nach	O
+zweiundzwanzig	B-time
+uhr	I-time
+verfügbar	O
+ist	O
+
+um	O
+wieviel	O
+uhr	O
+fährt	O
+der	O
+zug	B-transport_type
+nach	O
+hannover	B-place_name
+ab	O
+
+kannst	O
+du	O
+mir	O
+eine	O
+zug	B-transport_type
+fahrkarte	O
+nach	O
+nürnberg	B-place_name
+am	O
+nächsten	O
+dienstag	B-date
+buchen	O
+
+um	O
+wieviel	O
+uhr	O
+verlässt	O
+der	O
+zug	B-transport_type
+potsdam	B-place_name
+
+wann	O
+geht	O
+der	O
+nächste	O
+i.c.e.	O
+zug	B-transport_type
+nach	O
+leipzig	B-place_name
+
+geben	O
+sie	O
+mir	O
+die	O
+nummer	O
+für	O
+lokal	O
+taxi	B-business_type
+unternehmen	I-business_type
+
+gib	O
+mir	O
+die	O
+wegbeschreibung	O
+zu	O
+dem	O
+ort	O
+
+richtungen	O
+nach	O
+center	B-place_name
+park	I-place_name
+
+ruf	O
+ein	O
+taxi	B-transport_type
+ich	O
+muss	O
+zu	O
+dem	O
+ort	O
+kommen	O
+
+ich	O
+würde	O
+gerne	O
+eine	O
+auflistung	O
+von	O
+alle	O
+zug	B-transport_type
+fahrkarte	O
+preise	O
+für	O
+diesen	O
+standort	O
+bitte	O
+
+ich	O
+muss	O
+nach	O
+münchen	B-place_name
+fahren	O
+buch	O
+ein	O
+zug	B-transport_type
+ticket	O
+
+wie	O
+ist	O
+der	O
+bahn	B-transport_type
+fahrplan	O
+von	O
+berlin	B-place_name
+nach	O
+hamburg	B-place_name
+
+siri	O
+kaufe	O
+ein	O
+zug	B-transport_type
+ticket	O
+nach	O
+gera	B-place_name
+für	O
+mich	O
+
+wieviel	O
+kostet	O
+ein	O
+zug	B-transport_type
+ticket	O
+
+bitte	O
+senden	O
+sie	O
+mir	O
+informationen	O
+zum	O
+kauf	O
+eines	O
+zug	B-transport_type
+tickets	O
+zu	O
+berlin	B-place_name
+
+zeig	O
+mir	O
+die	O
+zug	B-transport_type
+abfahrtszeiten	O
+von	O
+berlin	B-place_name
+
+buche	O
+mir	O
+ein	O
+zug	B-transport_type
+ticket	O
+nach	O
+hamburg	B-place_name
+für	O
+morgen	B-date
+früh	O
+vor	O
+zehn	B-time
+uhr	O
+
+ich	O
+möchte	O
+gehen	O
+d.	B-business_name
+k.	I-business_name
+b.	I-business_name
+gib	O
+mir	O
+eine	O
+anleitung	O
+
+buch	O
+bitte	O
+ein	O
+zug	B-transport_type
+ticket	O
+nach	O
+hamburg	B-place_name
+
+ich	O
+brauche	O
+ein	O
+taxi	B-transport_type
+bei	O
+acht	B-time
+morgen	B-date
+frü	B-timeofday
+um	O
+mich	O
+zur	O
+arbeit	O
+zu	O
+bringen	O
+
+aktueller	O
+verkehr	O
+
+wie	O
+ist	O
+der	O
+bahn	B-transport_type
+fahrplan	O
+für	O
+
+könnten	O
+sie	O
+bitte	O
+den	O
+datenverkehr	O
+überprüfen	O
+unserem	O
+zuhause	B-place_name
+
+ist	O
+der	O
+verkehr	O
+schlimm	O
+
+kauf	O
+mir	O
+ein	O
+fahrkarte	O
+um	O
+die	O
+zu	O
+nehmen	O
+zug	B-transport_type
+köln	B-place_name
+
+wie	O
+viel	O
+verkehr	O
+gibt	O
+es	O
+normalerweise	O
+in	O
+frankfurt	B-place_name
+hessen	I-place_name
+
+kaufe	O
+einen	O
+bahn	B-transport_type
+fahrschein	O
+für	O
+diese	O
+zeit	O
+
+uber	O
+buchen	O
+
+finde	O
+eine	O
+mitfahrgelegenheit	O
+zur	O
+mall	B-place_name
+of	I-place_name
+berlin	I-place_name
+bitte	O
+
+ruf	O
+ein	O
+taxi	B-transport_type
+dass	O
+mich	O
+jetzt	O
+sofort	O
+auflesen	O
+soll	O
+
+gibt	O
+es	O
+verkehr	O
+probleme	O
+
+was	O
+ist	O
+die	O
+strecke	O
+zum	O
+nächstgelegenen	O
+mcdonalds	B-business_name
+
+welche	O
+straße	O
+muss	O
+ich	O
+nehmen	O
+um	O
+zur	O
+innenstadt	B-place_name
+zu	O
+gelangen	O
+
+ich	O
+möchte	O
+ein	O
+bahn	B-transport_type
+ticket	O
+kaufen	O
+
+buche	O
+ein	O
+zug	B-transport_type
+ticket	O
+nach	O
+
+wie	O
+viel	O
+kostet	O
+ein	O
+zug	B-transport_type
+fahrkarte	O
+zu	O
+berlin	B-place_name
+
+bestelle	O
+mir	O
+ein	O
+taxi	B-transport_type
+mit	O
+uber	B-business_name
+
+wie	O
+ist	O
+heute	O
+morgen	B-timeofday
+der	O
+verkehr	O
+
+wie	O
+ist	O
+der	O
+verkehr	O
+jetzt	O
+
+wie	O
+ist	O
+der	O
+verkehr	O
+nähe	O
+mich	O
+
+was	O
+ist	O
+der	O
+aktuelle	O
+verkehr	O
+in	O
+sachsen	B-place_name
+
+liste	O
+alle	O
+zug	B-transport_type
+zeiten	O
+nach	O
+hamburg	B-place_name
+auf	O
+
+zeige	O
+alle	O
+züge	B-transport_type
+und	O
+abfahrtzeiten	O
+nach	O
+berlin	B-place_name
+
+besorge	O
+mir	O
+ein	O
+zug	B-transport_type
+ticket	O
+nach	O
+bremen	B-place_name
+für	O
+heute	B-date
+
+was	O
+ist	O
+der	O
+schnellste	O
+weg	O
+zum	O
+berliner	O
+hauptbahnhof	O
+
+öffne	O
+die	O
+deutsche	B-app_name
+bahn	I-app_name
+app	O
+und	O
+gehe	O
+zu	O
+ticket	O
+buchen	O
+
+kauf	O
+mir	O
+ein	O
+zug	B-transport_type
+ticket	O
+nach	O
+berlin	B-place_name
+
+buche	O
+ein	O
+taxi	B-transport_type
+für	O
+eine	O
+abholung	O
+an	O
+meinem	O
+derzeitigen	O
+standort	O
+in	O
+einer	B-time
+stunde	I-time
+
+auf	O
+welcher	O
+route	O
+ist	O
+heute	B-date
+weniger	O
+verkehr	O
+
+buche	O
+mein	O
+zug	B-transport_type
+ticket	O
+nach	O
+köln	B-place_name
+
+hol	O
+mir	O
+ein	O
+taxi	B-transport_type
+mich	O
+zu	O
+bringen	O
+flughafen	B-place_name
+auf	O
+freitag	B-date
+unter	O
+fünf	B-time
+uhr	I-time
+dreißig	I-time
+
+buche	O
+mir	O
+einen	O
+platz	O
+im	O
+pendler	O
+zug	B-transport_type
+von	O
+bremen	B-place_name
+nach	O
+hamburg	B-place_name
+
+kannst	O
+du	O
+mir	O
+alle	O
+züge	O
+nach	O
+gera	B-place_name
+am	B-date
+tag	I-date
+danach	I-date
+auflisten	O
+
+ist	O
+die	O
+straße	O
+an	O
+einer	O
+bestimmten	O
+stelle	O
+breit	O
+oder	O
+schmall	O
+
+reserviere	O
+einen	O
+platz	O
+für	O
+mich	O
+in	O
+dem	O
+zug	B-transport_type
+am	O
+zwanzigsten	B-date
+märz	I-date
+
+bitte	O
+sag	O
+mir	O
+wann	O
+der	O
+zug	B-transport_type
+der	O
+deutschen	B-transport_name
+bahn	I-transport_name
+abfährt	O
+
+buch	O
+bitte	O
+das	O
+nächste	O
+taxi	B-transport_type
+
+öffne	O
+die	O
+uber	B-transport_agency
+app	O
+und	O
+besorg	O
+mir	O
+ein	O
+auto	B-transport_type
+
+wann	O
+kann	O
+ich	O
+den	O
+nähesten	O
+zug	B-transport_type
+nehmen	O
+
+finde	O
+eine	O
+definition	O
+
+wer	O
+ist	O
+präsident	O
+von	O
+polen	B-place_name
+
+wie	O
+ist	O
+die	O
+währung	O
+von	O
+kroatien	B-place_name
+
+wie	O
+groß	O
+ist	O
+eine	O
+giraffe	O
+
+welches	O
+szenario	O
+würdest	O
+du	O
+für	O
+unannehmlichkeiten	B-definition_word
+benutzen	O
+
+berechne	O
+den	O
+widerstand	O
+dieses	O
+widerstands	O
+
+google	O
+
+browser	O
+zentrum	O
+
+nenn	O
+mir	O
+die	O
+kurze	O
+definition	O
+von	O
+evakuierung	B-definition_word
+
+denkst	O
+du	O
+zeitreisen	O
+sind	O
+möglich	O
+
+wie	O
+alt	O
+ist	O
+lena	B-person
+
+email	O
+freund	O
+
+erklär	O
+mir	O
+welche	O
+verschiedenen	O
+länder	O
+im	O
+buch	O
+der	O
+offenbarung	O
+dargestellt	O
+sind	O
+
+was	O
+ist	O
+drei	O
+mal	O
+sieben	O
+
+was	O
+soll	O
+ich	O
+heute	B-timeofday
+abend	I-timeofday
+kochen	O
+
+sag	O
+mit	O
+was	O
+passiert	O
+wenn	O
+ich	O
+sterbe	O
+
+aus	O
+welchem	O
+staat	O
+stammt	O
+david	B-person
+lynch	I-person
+
+mache	O
+ein	O
+date	O
+nur	O
+für	O
+uns	O
+zwei	O
+
+was	O
+ist	O
+die	O
+wurzel	O
+aus	O
+zweiundvierzig	O
+
+sag	O
+mir	O
+warum	O
+bill	B-person
+bur	I-person
+ein	O
+besserer	O
+comedian	O
+ist	O
+als	O
+iliza	B-person
+schleshinger	I-person
+
+sag	O
+mir	O
+tom	B-person
+hanks	I-person
+mittleren	O
+namen	O
+
+wie	O
+buchstabiert	O
+man	O
+giraffe	B-definition_word
+
+kannst	O
+du	O
+das	O
+wort	O
+demonitarisierung	B-definition_word
+definieren	O
+
+was	O
+war	O
+das	O
+längste	O
+gebäude	O
+der	O
+welt	B-place_name
+
+hörst	O
+du	O
+lieder	O
+von	O
+xavier	B-artist_name
+naidoo	I-artist_name
+musik	O
+
+plane	O
+ein	O
+treffen	B-event_name
+mit	O
+meinem	O
+kollegen	B-relation
+
+schauspieler	O
+der	O
+eine	O
+rolle	O
+spielt	O
+
+gib	O
+mir	O
+infos	O
+zum	O
+nächsten	O
+film	O
+von	O
+mirko	B-person
+lang	I-person
+
+wo	O
+lebt	O
+heidi	O
+klum	O
+
+kannst	O
+du	O
+lügen	O
+
+was	O
+ist	O
+wirbelsturm	B-definition_word
+
+google	O
+das	O
+wort	O
+
+wie	O
+weit	O
+ist	O
+boston	B-place_name
+von	O
+new	B-place_name
+york	I-place_name
+entfernt	O
+
+löse	O
+die	O
+rechnung	O
+
+wie	O
+hoch	O
+ist	O
+die	O
+bevölkerung	O
+von	O
+köln	B-place_name
+
+was	O
+ist	O
+deine	O
+muttersprache	O
+
+wie	O
+alt	O
+ist	O
+sarah	B-person
+connor	I-person
+
+alle	O
+dinge	O
+zusammenfassen	O
+die	O
+ich	O
+für	O
+mich	O
+tun	O
+könnte	O
+um	O
+glücklicher	O
+zu	O
+werden	O
+
+wenn	O
+es	O
+zehn	O
+einfache	O
+schritte	O
+gäbe	O
+um	O
+reich	O
+zu	O
+werden	O
+was	O
+wären	O
+sie	O
+
+größtes	O
+tier	O
+
+höchstes	O
+gebäude	O
+
+wo	O
+ist	O
+justin	B-person
+bieber	I-person
+zuhause	O
+
+was	O
+ist	O
+mein	O
+standort	O
+
+mit	O
+all	O
+der	O
+information	O
+die	O
+im	O
+internet	O
+zu	O
+finden	O
+ist	O
+kannst	O
+du	O
+mir	O
+die	O
+beste	O
+wahrscheinlichste	O
+erklärung	O
+geben	O
+wer	O
+präsident	O
+kennedy	O
+ermordet	O
+hat	O
+
+ich	O
+möchte	O
+meiner	O
+frau	B-relation
+romantische	O
+nachrichten	O
+schreiben	O
+
+erzähl	O
+mir	O
+die	O
+geschichte	O
+von	O
+ramanujan	B-person
+und	O
+seiner	O
+mathemischen	O
+reise	O
+
+die	O
+nächste	O
+frage	O
+will	O
+dass	O
+du	O
+lehrer	O
+zeile	O
+und	O
+intentionen	O
+analysierst	O
+
+wer	O
+sind	O
+die	O
+größten	O
+hip	B-music_genre
+hop	I-music_genre
+künstler	O
+
+was	O
+bedeutet	O
+heuchelei	B-definition_word
+
+was	O
+bedeutet	O
+das	O
+wort	O
+heuchelei	B-definition_word
+
+beantworte	O
+diese	O
+frage	O
+wie	O
+heißt	O
+der	O
+erste	O
+boss	O
+bei	O
+super	O
+mario	O
+brothers	O
+
+benutze	O
+es	O
+im	O
+satz	O
+
+was	O
+ist	O
+zwei	O
+plus	O
+zwei	O
+
+definier	O
+wischen	B-definition_word
+
+wenn	O
+du	O
+wörter	O
+definierst	O
+benutze	O
+thesaurus	O
+und	O
+benutze	O
+sie	O
+im	O
+satz	O
+um	O
+es	O
+deutlicher	O
+zu	O
+machen	O
+
+wer	O
+sind	O
+die	O
+fünf	O
+besten	O
+d.	O
+f.	O
+b.	O
+torschützen	O
+aller	O
+zeiten	O
+
+wann	O
+wurde	O
+konrad	B-person
+adenauer	I-person
+geboren	O
+
+wer	O
+ist	O
+der	O
+gouverneur	O
+von	O
+new	B-place_name
+york	I-place_name
+
+was	O
+ist	O
+die	O
+definition	O
+von	O
+p.	B-definition_word
+d.	I-definition_word
+a.	I-definition_word
+
+was	O
+ist	O
+trump's	B-person
+zustimmungsrate	O
+
+kannst	O
+du	O
+mir	O
+sagen	O
+wie	O
+ich	O
+die	O
+antwort	O
+darauf	O
+bekomme	O
+
+löse	O
+mathe	O
+problem	O
+
+gibt	O
+es	O
+leben	O
+auf	O
+anderen	O
+planeten	O
+
+was	O
+ist	O
+deine	O
+lieblingsfarbe	O
+
+was	O
+hältst	O
+du	O
+von	O
+den	O
+drei	O
+gesetzen	O
+der	O
+robotik	O
+
+sag	O
+mir	O
+die	O
+glücksfarbe	O
+von	O
+heute	B-date
+
+lies	O
+mir	O
+ein	O
+gedicht	O
+vor	O
+
+gibt	O
+es	O
+eine	O
+korrelation	O
+zwischen	O
+dem	O
+wetter	O
+in	O
+peking	B-place_name
+und	O
+den	O
+nasdaqpreisen	O
+in	O
+der	O
+letzten	B-date
+woche	I-date
+
+ist	O
+tom	B-person
+cruise	I-person
+einzelkind	O
+
+bitte	O
+suche	O
+dieses	O
+wort	O
+
+warum	O
+ist	O
+der	O
+himmel	O
+blau	O
+
+was	O
+ist	O
+vierundzwanzig	O
+mal	O
+vierundzwanzig	O
+
+wie	O
+lange	O
+ist	O
+ein	O
+tag	O
+auf	O
+der	O
+erde	O
+
+ich	O
+hoffe	O
+wir	O
+könnten	O
+zusammen	O
+mittagessen	B-meal_type
+
+wer	O
+war	O
+in	O
+den	O
+beatles	B-artist_name
+
+wird	O
+die	O
+welt	O
+enden	O
+wenn	O
+
+was	O
+bedeutet	O
+angespannt	B-definition_word
+
+wo	O
+ist	O
+meine	O
+freundin	O
+jetzt	O
+gerade	O
+
+suche	O
+nach	O
+der	O
+definition	O
+für	O
+krankenwagen	B-definition_word
+
+ist	O
+wackelpudding	O
+kalorienfrei	O
+
+kannst	O
+du	O
+mir	O
+den	O
+günstigsten	O
+platz	O
+sagen	O
+um	O
+beef	O
+zu	O
+kaufen	O
+
+was	O
+bedeutet	O
+kartoffel	B-definition_word
+
+erzähle	O
+mir	O
+einen	O
+interessanten	O
+fakt	O
+darüber	O
+
+wann	O
+ist	O
+die	O
+nächste	O
+tournee	O
+
+was	O
+ist	O
+die	O
+wechselrate	O
+zwischen	O
+dollar	B-currency_name
+und	O
+euro	B-currency_name
+gerade	O
+
+definiere	O
+rahmenwerk	B-definition_word
+
+beschreib	O
+eine	O
+kartoffel	B-definition_word
+
+wie	O
+oft	O
+ist	O
+adele	O
+diamant	O
+gegangen	O
+
+sag	O
+mir	O
+die	O
+merkwürdigste	O
+sache	O
+die	O
+heute	B-date
+auf	O
+der	O
+welt	O
+passiert	O
+
+sag	O
+mir	O
+wie	O
+spät	O
+es	O
+ist	O
+
+wie	O
+definiert	O
+man	O
+textlich	B-definition_word
+
+ich	O
+möchte	O
+kostenlos	O
+in	O
+die	O
+schweiz	B-place_name
+reisen	O
+kannst	O
+du	O
+mich	O
+dorthin	O
+bringen	O
+
+was	O
+ist	O
+der	O
+euro	B-currency_name
+wechselkurs	O
+
+wie	O
+viele	O
+meilen	O
+sind	O
+fünf	O
+kilometer	O
+
+wie	O
+alt	O
+ist	O
+angelina	B-person
+jolie	I-person
+
+wo	O
+ist	O
+fulda	B-place_name
+in	I-place_name
+hessen	I-place_name
+
+was	O
+macht	O
+joachim	B-person
+gauck	I-person
+im	O
+moment	O
+
+was	O
+ist	O
+ein	O
+mobilfunkmast	B-definition_word
+
+was	O
+sind	O
+s.	B-currency_name
+d.	I-currency_name
+in	O
+franken	B-currency_name
+
+wie	O
+viele	O
+meilen	O
+ist	O
+new	B-place_name
+york	I-place_name
+city	I-place_name
+von	O
+los	B-place_name
+angeles	I-place_name
+entfernt	O
+
+wie	O
+ist	O
+der	O
+wechselkurs	O
+von	O
+u.	B-currency_name
+s.	I-currency_name
+d.	I-currency_name
+zu	O
+c.	B-currency_name
+a.	I-currency_name
+d.	I-currency_name
+
+was	O
+weißt	O
+du	O
+über	O
+die	O
+freiheitsstatue	B-definition_word
+
+wie	O
+ist	O
+der	O
+wechselkurs	O
+zwischen	O
+u.	B-place_name
+s.	I-place_name
+a.	I-place_name
+und	O
+china	B-place_name
+
+finde	O
+info	O
+über	O
+
+was	O
+ist	O
+die	O
+durchschnittshöhe	O
+der	O
+vereinigten	O
+staaten	O
+
+was	O
+ist	O
+der	O
+wechselkurs	O
+zwischen	O
+u.	B-currency_name
+s.	I-currency_name
+a.	I-currency_name
+und	O
+frankreich	B-currency_name
+
+wie	O
+viele	O
+menschen	O
+leben	O
+in	O
+san	B-place_name
+francisco	I-place_name
+
+siri	O
+was	O
+sind	O
+euro	B-currency_name
+in	O
+japanischer	B-currency_name
+yen	I-currency_name
+
+in	O
+welchem	O
+jahr	O
+wurde	O
+till	B-person
+schweiger	I-person
+geboren	O
+
+erzähl	O
+mir	O
+etwas	O
+über	O
+morcheln	B-definition_word
+
+aktienpreis	O
+für	O
+edeka	B-business_name
+
+welche	O
+religion	O
+ist	O
+die	O
+ehrlichste	O
+
+wie	O
+viele	O
+kilometer	O
+liegen	O
+zwischen	O
+sachsen	B-place_name
+und	O
+bayern	B-place_name
+
+wie	O
+alt	O
+ist	O
+tom	B-person
+hanks	I-person
+
+hat	O
+nursel	B-person
+köse	I-person
+jemals	O
+die	O
+academy	O
+awards	O
+gewonnen	O
+
+nenn	O
+mir	O
+den	O
+wechselkurs	O
+für	O
+den	O
+yen	B-currency_name
+
+u.	O
+s.	O
+dollar	O
+in	O
+rupie	B-currency_name
+
+bitte	O
+zeige	O
+mir	O
+den	O
+wechselkurs	O
+zwischen	O
+dem	O
+dollar	B-currency_name
+und	O
+dem	O
+yen	B-currency_name
+
+was	O
+ist	O
+die	O
+defintion	O
+von	O
+home	B-definition_word
+run	I-definition_word
+
+wie	O
+alt	O
+ist	O
+barack	B-person
+obama	I-person
+
+ich	O
+muss	O
+zwei	O
+kleinkinder	O
+beschäftigen	O
+was	O
+soll	O
+ich	O
+tun	O
+
+kannst	O
+du	O
+mir	O
+den	O
+wechselkurs	O
+von	O
+dollar	O
+in	O
+rupien	O
+sagen	O
+
+erzähl	O
+mir	O
+von	O
+den	O
+solarbetriebenen	B-definition_word
+gartenpflöcken	I-definition_word
+
+was	O
+ist	O
+die	O
+größte	O
+stadt	O
+in	O
+sachsen	B-place_name
+
+was	O
+wäre	O
+eine	O
+beschreibung	O
+eines	O
+virtual	B-definition_word
+reality	I-definition_word
+headsets	I-definition_word
+
+habe	O
+ich	O
+neue	O
+tinder	O
+matches	O
+
+wie	O
+schaut	O
+eine	O
+banane	B-definition_word
+aus	O
+
+wer	O
+ist	O
+gerhard	B-person
+schröder	I-person
+
+wo	O
+ist	O
+dänemark	B-place_name
+
+was	O
+ist	O
+ein	O
+fjord	B-place_name
+
+wann	O
+wurde	O
+sarah	B-person
+lombardi	I-person
+geboren	O
+
+was	O
+bedeutet	O
+tweet	B-definition_word
+
+wo	O
+ist	O
+sachsen	B-place_name
+anhalt	I-place_name
+
+was	O
+bedeutet	O
+triumph	B-definition_word
+
+welcher	O
+us	O
+staat	O
+ist	O
+der	O
+nördlichste	O
+
+wo	O
+ist	O
+die	O
+stonehenge	O
+
+ich	O
+brauche	O
+den	O
+aktienpreis	O
+von	O
+amazon	B-business_name
+
+was	O
+ist	O
+der	O
+kurs	O
+von	O
+i.	B-currency_name
+n.	I-currency_name
+r.	I-currency_name
+
+was	O
+ist	O
+das	O
+bermuda	O
+dreick	O
+
+wie	O
+ist	O
+der	O
+wechselkurs	O
+für	O
+philippinische	B-currency_name
+pesos	I-currency_name
+
+was	O
+ist	O
+der	O
+derzeitige	O
+aktienkurs	O
+von	O
+facebook	B-business_name
+
+zeig	O
+mir	O
+die	O
+biographie	O
+von	O
+sarah	B-artist_name
+connor	I-artist_name
+
+euro	O
+in	O
+u.	B-currency_name
+s.	I-currency_name
+d.	I-currency_name
+
+kannst	O
+du	O
+mit	O
+den	O
+geburtstag	B-event_name
+von	O
+angela	B-person
+merkel	I-person
+sagen	O
+
+was	O
+für	O
+eine	O
+hose	O
+ist	O
+eine	O
+culotte	O
+
+benutze	O
+wikipedia	O
+
+olly	O
+ist	O
+ein	O
+dollar	B-currency_name
+in	O
+brasilien	B-place_name
+mehr	O
+oder	O
+weniger	O
+wert	O
+
+wie	O
+schaut	O
+das	O
+tshirt	B-definition_word
+aus	O
+
+frag	O
+meinen	O
+berater	O
+
+wie	O
+liegt	O
+der	O
+dow	O
+jones	O
+heute	B-date
+
+bitte	O
+sag	O
+mir	O
+ob	O
+ich	O
+reichen	O
+werden	O
+kann	O
+wenn	O
+ich	O
+heute	O
+in	O
+dow	O
+aktien	O
+investiere	O
+und	O
+gib	O
+mir	O
+die	O
+rendite	O
+nach	O
+fünf	O
+jahren	O
+an	O
+
+in	O
+welchem	O
+jahr	O
+wurde	O
+herbert	B-person
+grönemeyer	I-person
+geboren	O
+
+finde	O
+den	O
+exakten	O
+standort	O
+der	O
+orte	O
+
+wie	O
+viele	O
+inches	O
+sind	O
+ein	O
+fuß	O
+
+wie	O
+viel	O
+ist	O
+der	O
+euro	B-currency_name
+wert	O
+im	O
+vergleich	O
+zum	O
+kanadischen	B-currency_name
+dollar	I-currency_name
+
+liste	O
+top	O
+fünf	O
+filme	O
+von	O
+til	B-person
+schweiger	I-person
+
+wie	O
+ist	O
+der	O
+wechselkurs	O
+zwischen	O
+dem	O
+u.	B-currency_name
+s.	I-currency_name
+dollar	I-currency_name
+und	O
+dem	O
+euro	B-currency_name
+
+was	O
+ist	O
+sechs	O
+minus	O
+vier	O
+
+ein	O
+euro	B-currency_name
+in	O
+dollars	B-currency_name
+
+wie	O
+groß	O
+ist	O
+england	B-place_name
+
+erzähle	O
+mir	O
+von	O
+new	B-place_name
+york	I-place_name
+
+zeige	O
+verschiedene	O
+pflanzen	O
+auf	O
+der	O
+welt	O
+
+wie	O
+ist	O
+die	O
+coca-cola	B-business_name
+aktie	O
+heute	B-date
+
+wer	O
+ist	O
+die	O
+frau	O
+von	O
+obama	B-person
+
+heutiger	O
+schlusskurs	O
+für	O
+google	B-business_name
+
+erwähne	O
+den	O
+aktienpreis	O
+von	O
+h.	B-business_name
+d.	I-business_name
+f.	I-business_name
+c.	I-business_name
+
+was	O
+bedeutet	O
+hypothese	B-definition_word
+
+wann	O
+wurde	O
+die	O
+freiheitsstatue	O
+gebaut	O
+
+mit	O
+wie	O
+vielen	O
+jahren	O
+hat	O
+michael	B-person
+phelps	I-person
+geheiratet	O
+
+wer	O
+ist	O
+arnold	B-person
+schwarzenegger	I-person
+
+was	O
+ist	O
+die	O
+definition	O
+von	O
+turbulent	B-definition_word
+
+wie	O
+hoch	O
+ist	O
+das	O
+empire	O
+state	O
+building	O
+
+wie	O
+ist	O
+der	O
+wechselkurs	O
+zwischen	O
+u.	B-currency_name
+s.	I-currency_name
+d.	I-currency_name
+und	O
+i.	B-currency_name
+n.	I-currency_name
+r.	I-currency_name
+
+beschreibe	O
+die	O
+politische	O
+situation	O
+
+wann	O
+wurde	O
+justin	B-person
+bieber	I-person
+geboren	O
+
+definiere	O
+dich	O
+in	O
+einem	O
+wort	O
+
+wo	O
+ist	O
+das	O
+nächste	O
+italienische	B-food_type
+restaurant	B-business_type
+
+kannst	O
+du	O
+mir	O
+sagen	O
+wie	O
+hackfleisch	B-definition_word
+aussieht	O
+
+nimmt	O
+pink	O
+ein	O
+neues	O
+album	O
+auf	O
+
+definition	O
+von	O
+objektname	B-definition_word
+
+wie	O
+sieht	O
+der	O
+vw	B-definition_word
+golf	I-definition_word
+aus	O
+
+eigenschaften	O
+des	O
+ipad	O
+air	O
+
+sag	O
+mir	O
+die	O
+distanz	O
+zwischen	O
+sonne	O
+und	O
+mond	O
+
+finde	O
+welt	B-definition_word
+bedeutung	O
+im	O
+wörterbuch	O
+
+welches	O
+war	O
+das	O
+beste	O
+smartphone	O
+in	O
+zweitausendsiebzehn	O
+
+wechselkurs	O
+für	O
+die	O
+auslänndische	O
+währung	O
+
+finde	O
+details	O
+zu	O
+dieser	O
+person	O
+heraus	O
+
+bitte	O
+sage	O
+ein	O
+paar	O
+details	O
+über	O
+diese	O
+person	O
+
+was	O
+ist	O
+heute	B-date
+das	O
+größte	O
+problem	O
+in	O
+europa	B-place_name
+und	O
+was	O
+kann	O
+getan	O
+werden	O
+um	O
+es	O
+nachhaltig	O
+zu	O
+lösen	O
+
+wer	O
+war	O
+der	O
+fünfundzwanzgste	O
+präsident	O
+der	B-place_name
+vereinigten	I-place_name
+staaten	I-place_name
+von	I-place_name
+amerika	I-place_name
+
+sag	O
+mir	O
+wie	O
+ich	O
+ohne	O
+flugzeug	O
+mit	O
+der	O
+günstigsten	O
+option	O
+nach	O
+bali	O
+reisen	O
+kann	O
+zeit	O
+ist	O
+egal	O
+ich	O
+habe	O
+zweihundert	O
+tage	O
+reisezeit	O
+und	O
+nur	O
+dollar	O
+zum	O
+ausgeben	O
+
+gib	O
+mir	O
+die	O
+definition	O
+zu	O
+laptop	B-definition_word
+schaltkreis	I-definition_word
+
+wann	O
+sinkt	O
+der	O
+apple	O
+preis	O
+in	O
+der	O
+regel	O
+
+erklär	O
+
+erklär	O
+mir	O
+wie	O
+schwerkraft	O
+funktioniert	O
+
+wan	O
+hat	O
+romina	B-person
+power	I-person
+al	I-person
+bano	I-person
+geheiratet	O
+
+wechselkurse	O
+zwischen	O
+dollar	B-currency_name
+und	O
+euro	B-currency_name
+
+kannst	O
+du	O
+mir	O
+sagen	O
+was	O
+hypertrophie	B-definition_word
+bedeutet	O
+
+aktienunternehmen	O
+name	O
+
+ich	O
+hätte	O
+gerne	O
+dass	O
+mein	O
+roboter	O
+meine	O
+arbeit	O
+macht	O
+
+gib	O
+mir	O
+die	O
+beschreibung	O
+einer	O
+laptop-schaltung	B-definition_word
+
+definiere	O
+xy	O
+
+gib	O
+mir	O
+den	O
+eröffnungskurs	O
+von	O
+apple	B-business_name
+
+wo	O
+kann	O
+ich	O
+organischen	O
+weizen	O
+bekommen	O
+
+aktien	O
+bitte	O
+
+wechsel	O
+dollar	B-currency_name
+zu	O
+rupien	B-currency_name
+rate	O
+
+dollar	O
+rupien	O
+wechselkurs	O
+
+was	O
+ist	O
+der	O
+faktor	O
+der	O
+scholz	O
+die	O
+wahl	O
+gewinnen	O
+ließ	O
+
+erdbeben	O
+vorhersage	O
+
+ok	O
+google	O
+was	O
+ist	O
+der	O
+einfachste	O
+und	O
+schnellste	O
+weg	O
+einen	O
+truthahn	O
+zu	O
+kochen	O
+
+was	O
+ist	O
+ein	O
+broiler	O
+und	O
+wie	O
+verwende	O
+ich	O
+ihn	O
+
+definiere	O
+brathähnchen	B-definition_word
+für	O
+mich	O
+
+wo	O
+ist	O
+die	O
+freiheitsstatue	B-place_name
+
+beschreibe	O
+mir	O
+wie	O
+ein	O
+ball	B-definition_word
+aussieht	O
+
+alexa	O
+sag	O
+mir	O
+alles	O
+was	O
+du	O
+über	O
+bob	B-person
+dean	I-person
+weisst	O
+
+nenn	O
+mir	O
+die	O
+amd	B-business_name
+aktienpreise	O
+
+was	O
+sind	O
+die	O
+amd	B-business_name
+aktienpreise	O
+
+was	O
+ist	O
+der	O
+aktienwert	O
+von	O
+google	B-business_name
+
+du	O
+kannst	O
+neue	O
+witze	O
+liefern	O
+
+wandle	O
+einen	O
+pfund	B-currency_name
+in	O
+u.	B-currency_name
+s.	I-currency_name
+dollar	I-currency_name
+um	O
+
+hoher	O
+aktienkurs	O
+
+wie	O
+viele	O
+megapixel	O
+sind	O
+in	O
+der	O
+beschreibung	O
+von	O
+canon	O
+gelistet	O
+
+wie	O
+ist	O
+verona	B-person
+pooth	I-person
+berühmt	O
+geworden	O
+
+was	O
+ist	O
+die	O
+antwort	O
+auf	O
+zwei	O
+mal	O
+drei	O
+
+wie	O
+viel	O
+ist	O
+zwölf	O
+durch	O
+vier	O
+
+was	O
+ist	O
+julia	B-person
+roberts	I-person
+naturhaarfarbe	O
+
+wenn	O
+ich	O
+fünf	O
+u.	B-currency_name
+s.	I-currency_name
+d.	I-currency_name
+habe	O
+wie	O
+viel	O
+ist	O
+das	O
+in	O
+euro	B-currency_name
+
+definier	O
+den	B-definition_word
+mond	I-definition_word
+für	O
+mich	O
+
+wie	O
+viele	O
+flüsse	O
+gibt	O
+es	O
+auf	O
+der	O
+welt	B-place_name
+
+finde	O
+mir	O
+berühmtheiten	O
+die	O
+steinbock	O
+sind	O
+
+wenn	O
+es	O
+ein	O
+verbraucherprodukt	O
+ist	O
+was	O
+ist	O
+dann	O
+das	O
+feedback	O
+der	O
+kunden	O
+
+wie	O
+viel	O
+ist	O
+eine	O
+indische	B-currency_name
+rupie	I-currency_name
+im	O
+verhältnis	O
+zum	O
+u.	B-currency_name
+s.	I-currency_name
+dollar	I-currency_name
+wert	O
+
+könntest	O
+du	O
+bitte	O
+das	O
+objekt	O
+beschreiben	O
+
+was	O
+war	O
+der	O
+erste	O
+satelit	O
+von	O
+der	O
+nasa	O
+
+bitte	O
+beschreibe	O
+mir	O
+einen	O
+elefant	B-definition_word
+
+wie	O
+hoch	O
+ist	O
+der	O
+us	B-currency_name
+dollar	I-currency_name
+kurs	O
+heute	B-date
+
+seit	O
+wann	O
+ist	O
+prinzessin	B-person
+kate	I-person
+schwanger	O
+
+was	O
+ist	O
+der	O
+aktienpreis	O
+für	O
+tesco	B-business_name
+
+ich	O
+möchte	O
+dass	O
+es	O
+einfach	O
+ein	O
+inventar	O
+führt	O
+und	O
+mir	O
+mitteilt	O
+wenn	O
+mir	O
+etwas	O
+ausgeht	O
+
+was	O
+ist	O
+söder	B-person
+gewesen	O
+an	O
+über	O
+diese	B-date
+woche	I-date
+
+was	O
+ist	O
+die	O
+definition	O
+des	O
+wort	O
+marinara	B-definition_word
+
+wie	O
+die	O
+menschen	O
+so	O
+denken	O
+dass	O
+sie	O
+alles	O
+vor	O
+gott	O
+verbergen	O
+können	O
+
+aktueller	O
+kurs	O
+
+was	O
+ist	O
+ein	O
+by	O
+
+wie	O
+alt	O
+ist	O
+heidi	B-person
+klum	I-person
+
+erzähl	O
+mir	O
+wie	O
+die	O
+welt	O
+entsanden	O
+ist	O
+
+wie	O
+ist	O
+der	O
+wechselkurs	O
+von	O
+zehn	O
+dollar	B-currency_name
+zu	O
+euro	B-currency_name
+
+was	O
+ist	O
+ein	O
+computer	B-definition_word
+
+welche	O
+ist	O
+die	O
+kleinste	O
+insel	O
+der	O
+welt	B-place_name
+
+wie	O
+groß	O
+ist	O
+japan	B-place_name
+
+wie	O
+weit	O
+ist	O
+es	O
+von	O
+berlin	B-place_name
+nach	O
+kairo	B-place_name
+
+kannst	O
+du	O
+mir	O
+sagen	O
+welche	O
+kinofilme	O
+heute	B-timeofday
+abend	I-timeofday
+gezeigt	O
+werden	O
+
+olly	O
+was	O
+ist	O
+die	O
+bedeutung	O
+von	O
+schlamassel	B-definition_word
+
+olly	O
+was	O
+ist	O
+der	O
+wechselkur	O
+zwischen	O
+us	B-currency_name
+dollar	I-currency_name
+und	O
+aus	B-currency_name
+dollar	I-currency_name
+
+auf	O
+wieviel	O
+wird	O
+apple	B-business_name
+gehandelt	O
+
+hey	O
+olly	O
+was	O
+ist	O
+die	O
+definition	O
+von	O
+passiv	B-definition_word
+
+wie	O
+alt	O
+war	O
+albert	B-person
+einstein	I-person
+als	O
+er	O
+die	O
+relativitätstheorie	O
+erdachte	O
+
+berechne	O
+einen	O
+geschlossenen	O
+integral	O
+der	O
+exponentialfunktion	O
+von	O
+null	O
+bis	O
+fünf	O
+
+sag	O
+mir	O
+wie	O
+der	O
+brexit	O
+sich	O
+auf	O
+e.	O
+u.	O
+bürger	O
+mittel-	O
+und	O
+langfristig	O
+auswirken	O
+wird	O
+
+bitte	O
+schau	O
+nach	O
+dem	O
+wechselkurs	O
+zwischen	O
+u.	O
+s.	O
+dollar	O
+und	O
+mexikanischen	O
+pesos	O
+
+olly	O
+finde	O
+eine	O
+beschreibung	O
+von	O
+dyon	B-definition_word
+t.	I-definition_word
+v.	I-definition_word
+
+was	O
+ist	O
+der	O
+wechselkurs	O
+des	O
+dollars	B-business_name
+
+wie	O
+weit	O
+weg	O
+ist	O
+
+was	O
+ist	O
+dieses	O
+ding	O
+
+wo	O
+liegt	O
+die	O
+i.	B-business_name
+b.	I-business_name
+m.	I-business_name
+aktie	O
+gerade	O
+
+was	O
+ist	O
+auf	O
+twitter	B-media_type
+angesagt	O
+
+was	O
+ist	O
+das	O
+letzte	O
+das	O
+mama	B-relation
+gesagt	O
+hat	O
+
+hole	O
+mir	O
+die	O
+neuigkeiten	O
+von	O
+sandra's	B-person
+facebook	B-media_type
+vom	O
+wochenende	B-time
+
+suche	O
+nach	O
+neuen	O
+kommentaren	O
+auf	O
+meinem	O
+facebook	B-media_type
+
+wie	O
+viele	O
+likes	O
+hat	O
+mein	O
+letztes	O
+instagram	B-media_type
+foto	O
+
+lies	O
+mir	O
+den	O
+letzten	O
+tweet	O
+der	O
+frankfurter	B-media_type
+allgemeinen	I-media_type
+vor	O
+
+poste	O
+neuen	O
+status	O
+auf	O
+facebook	B-media_type
+zeit	O
+zu	O
+feiern	O
+
+mein	O
+facebook	B-media_type
+update	O
+sollte	O
+alle	B-general_frequency
+drei	I-general_frequency
+stunden	I-general_frequency
+zugänglich	O
+sein	O
+
+packe	O
+das	O
+auf	O
+facebook	B-media_type
+
+der	O
+artikel	O
+ist	O
+super	O
+cool	O
+kannst	O
+du	O
+den	O
+link	O
+bei	O
+facebook	B-media_type
+für	O
+mich	O
+teilen	O
+
+veröffentliche	O
+ein	O
+video	O
+auf	O
+youtube	B-media_type
+
+status	O
+auf	O
+facebook	B-media_type
+arbeitsreicher	O
+tag	O
+
+bitte	O
+poste	O
+an	O
+jeff	B-person
+
+bitte	O
+übertrage	O
+status	O
+an	O
+facebook	B-media_type
+
+zeige	O
+mir	O
+eine	O
+liste	O
+von	O
+den	O
+orten	O
+wo	O
+meine	O
+verwandten	B-relation
+waren	O
+basierend	O
+auf	O
+ihren	O
+fotos	O
+
+neuster	O
+nachrichten	O
+feed	O
+von	O
+facebook	B-media_type
+
+gib	O
+mir	O
+details	O
+zu	O
+meinem	O
+twitter	B-media_type
+nutzernamen	O
+konto	O
+inklusive	O
+aller	O
+folgenden	O
+
+schön	O
+kannst	O
+du	O
+das	O
+auf	O
+meinem	O
+facebook	B-media_type
+posten	O
+
+kannst	O
+du	O
+mir	O
+sagen	O
+was	O
+mit	O
+meinen	O
+sozialen	O
+medien	O
+passiert	O
+ist	O
+
+was	O
+ist	O
+das	O
+neuste	O
+von	O
+meinem	O
+feed	O
+
+bitte	O
+informiere	O
+mich	O
+über	O
+neue	O
+status	O
+updates	O
+
+trending	O
+in	O
+den	O
+sozialen	O
+medien	O
+
+neuer	O
+tweet	B-media_type
+
+öffne	O
+facebook	B-media_type
+und	O
+wünsche	O
+der	O
+u.	B-place_name
+s.	I-place_name
+a.	I-place_name
+einen	O
+schönen	O
+geburtstag	B-event_name
+
+ich	O
+bin	O
+unglücklich	O
+über	O
+aldi	B-business_name
+bitte	O
+hilf	O
+mir	O
+
+kannst	O
+du	O
+einen	O
+tweet	B-media_type
+an	O
+lisa	B-business_name
+schicken	O
+und	O
+ihr	O
+sagen	O
+dass	O
+die	O
+app	O
+abgestürzt	O
+ist	O
+
+poste	O
+folgendes	O
+als	O
+ein	O
+status	O
+bei	O
+facebook	B-media_type
+
+poste	O
+bitte	O
+einen	O
+status	O
+bei	O
+twitter	B-media_type
+und	O
+sage	O
+
+bitte	O
+poste	O
+dieses	O
+foto	O
+auf	O
+mein	O
+facebook	B-media_type
+
+tweete	O
+lfi	B-business_name
+und	O
+sag	O
+ihnen	O
+dass	O
+meine	O
+app	O
+abgestürzt	O
+ist	O
+
+sag	O
+meiner	O
+facebook	B-media_type
+gruppe	O
+dass	O
+ich	O
+angekommen	O
+bin	O
+
+bitte	O
+schreibe	O
+eine	O
+beschwerde	O
+an	O
+levis	B-business_name
+
+sag	O
+ihnen	O
+dass	O
+die	O
+schlangen	O
+zu	O
+lang	O
+waren	O
+
+ich	O
+brauche	O
+einen	O
+trog	O
+
+sende	O
+diese	O
+nachricht	O
+an	B-business_name
+microsoft	I-business_name
+auf	O
+twitter	O
+
+alexa	O
+veröffentliche	O
+das	O
+foto	O
+von	O
+meinem	O
+telefon	B-device_type
+auf	O
+facebook	B-media_type
+
+twittere	O
+eine	O
+beschwerde	O
+an	O
+die	O
+bundeswehr	B-business_name
+website	I-business_name
+
+sende	O
+einen	O
+tweet	B-media_type
+an	O
+die	O
+lufthansa	B-business_name
+dass	O
+ich	O
+wütend	O
+bin	O
+ihr	O
+habt	O
+mein	O
+gepäck	O
+verloren	O
+
+ich	O
+hatte	O
+schlimmen	O
+service	O
+bei	O
+burger	B-business_name
+king	I-business_name
+ich	O
+muss	O
+ihnen	O
+twittern	B-media_type
+
+schicke	O
+eine	O
+beschwerde	O
+über	O
+twitter	O
+an	O
+den	O
+kundenservice	B-business_name
+
+kannst	O
+du	O
+eine	O
+beschwerde	O
+an	O
+den	O
+kundenservice	B-business_name
+des	I-business_name
+möbelhaus	I-business_name
+twittern	B-media_type
+
+sag	O
+einsundeins	B-business_name
+ich	O
+bin	O
+immernoch	O
+in	O
+der	O
+warteschlange	O
+
+schreibe	O
+eine	O
+beschwerde	O
+an	O
+apple	B-business_name
+über	O
+das	O
+tablet	O
+welches	O
+ich	O
+heute	B-date
+gekauft	O
+habe	O
+
+lass	O
+die	O
+leipziger	B-business_name
+stadtwerke	I-business_name
+wissen	O
+dass	O
+der	O
+strom	O
+wieder	O
+weg	O
+ist	O
+
+kontaktiere	O
+den	O
+amazon	B-business_name
+kundenservice	I-business_name
+über	O
+twitter	B-media_type
+
+bitte	O
+update	O
+mich	O
+bezüglich	O
+meiner	O
+social	O
+media	O
+accounts	O
+
+twittere	O
+eine	O
+beschwerde	O
+an	O
+samsung	B-business_name
+
+bitte	O
+schicke	O
+einen	O
+tweet	B-media_type
+an	O
+apple	B-business_name
+über	O
+ihren	O
+lausigen	O
+service	O
+für	O
+laptops	O
+
+twitter	O
+edeka	B-business_name
+und	O
+sage	O
+ihnen	O
+dass	O
+ihr	O
+kundenservice	O
+furchtbar	O
+ist	O
+
+olly	O
+sende	O
+einen	O
+tweet	B-media_type
+an	O
+meijer	B-business_name
+und	O
+sage	O
+ihnen	O
+sie	O
+haben	O
+einen	O
+furchtbaren	O
+kundenservice	O
+
+kundenservice	O
+beschwerde	O
+twittere	B-media_type
+folgendes	O
+
+hat	O
+mark	B-person
+irgendwas	O
+neues	O
+auf	O
+facebook	B-media_type
+geschrieben	O
+
+schick	O
+tweet	B-media_type
+an	O
+dominoes	B-business_name
+wegen	O
+schlechter	O
+lieferung	O
+
+erinnere	O
+mich	O
+diesem	O
+unternehmen	O
+zu	O
+tweet	B-media_type
+
+poste	O
+auf	O
+facebook	B-media_type
+mist	O
+ich	O
+bin	O
+krank	O
+
+poste	O
+auf	O
+tumblr	B-media_type
+dass	O
+ich	O
+spaß	O
+habe	O
+
+die	O
+situation	O
+ansprechen	O
+
+schreibe	O
+einen	O
+tweet	B-media_type
+als	O
+beschwerde	O
+an	O
+burger	B-business_name
+king	I-business_name
+
+siri	O
+sende	O
+einen	O
+tweet	B-media_type
+an	O
+das	O
+unternehmen	O
+
+twittere	O
+eine	O
+beschwerde	O
+an	O
+bauknecht	B-business_name
+über	O
+meinen	O
+kühlschrank	O
+
+öffne	O
+galerie	B-media_type
+poste	O
+video	O
+name	O
+
+poste	O
+auf	O
+twitter	B-media_type
+ich	O
+habe	O
+einen	O
+hektischen	O
+tag	O
+vor	O
+mir	O
+
+twittere	O
+an	O
+kundenservice	O
+auf	O
+twitter	B-media_type
+
+tweet	O
+beschwerde	O
+
+was	O
+sind	O
+die	O
+neuesten	O
+fotos	O
+auf	O
+meinem	O
+instagram	B-media_type
+konto	O
+
+ok	O
+google	O
+twitter	B-media_type
+das	O
+der	O
+service	O
+in	O
+moe's	O
+diner	O
+furchtbar	O
+ist	O
+
+twittere	O
+für	O
+mich	O
+eine	O
+beschwerde	O
+dass	O
+die	O
+rohre	O
+verstopft	O
+sind	O
+
+soziale	O
+info	O
+
+twittere	O
+dem	O
+kundenservice	B-business_name
+dass	O
+ich	O
+sehr	O
+enttäuscht	O
+von	O
+meiner	O
+letzten	O
+interaktion	O
+bin	O
+
+ich	O
+möchte	O
+einen	O
+status	O
+auf	O
+twitter	B-media_type
+veröffentlichen	O
+
+wann	O
+habe	O
+ich	O
+die	O
+email	O
+von	O
+anne	B-person
+hahn	I-person
+über	O
+den	O
+autounfall	O
+bekommen	O
+
+sag	O
+mir	O
+ob	O
+ich	O
+neue	O
+emails	O
+habe	O
+
+schicke	O
+alexa	B-person
+eine	O
+email	O
+und	O
+worin	O
+steht	O
+ich	O
+komme	O
+zu	O
+spät	O
+bitte	O
+warte	O
+nicht	O
+mit	O
+dem	O
+abendessen	B-meal_type
+
+gibt	O
+es	O
+irgendeine	O
+email	O
+von	O
+emilia	B-person
+
+kannst	O
+du	O
+bitte	O
+eine	O
+email	O
+an	O
+sandra	B-person
+schicken	O
+
+check	O
+meinen	O
+posteingang	B-email_folder
+
+email	O
+an	O
+david	B-person
+wegen	O
+des	O
+morgigen	B-date
+treffens	B-event_name
+david	B-person
+können	O
+wir	O
+das	O
+treffen	O
+auf	O
+den	O
+nachmittag	B-timeofday
+legen	O
+
+siri	O
+ich	O
+möchte	O
+etwas	O
+über	O
+janas	B-person
+party	B-event_name
+erfahren	O
+
+öffne	O
+meine	O
+neueste	O
+email	O
+und	O
+antworte	O
+darauf	O
+
+sende	O
+diesen	O
+inhalt	O
+als	O
+email	O
+
+sende	O
+mama	B-relation
+eine	O
+email	O
+subject	O
+wetter	O
+body	O
+wie	O
+ist	O
+diese	B-date
+woche	I-date
+das	O
+wetter	O
+bei	O
+euch	O
+
+emails	O
+auf	O
+ungelesene	O
+emails	O
+von	O
+mama	B-relation
+prüfen	O
+
+bitte	O
+gib	O
+mir	O
+die	O
+einzelheiten	B-personal_info
+zu	O
+susi	B-person
+aus	O
+meinen	O
+kontakten	O
+
+gibt	O
+es	O
+einen	O
+kontakt	O
+genannt	B-personal_info
+allen	B-person
+in	O
+meiner	O
+liste	O
+
+schicke	O
+frohes	O
+neues	O
+jahr	O
+an	O
+jonas	B-email_address
+at	I-email_address
+g.	I-email_address
+m.	I-email_address
+x.	I-email_address
+punkt	I-email_address
+d.	I-email_address
+e.	I-email_address
+
+was	O
+ist	O
+john's	B-person
+nachname	B-personal_info
+
+sende	O
+eine	O
+antwort	O
+an	O
+meinen	O
+freund	B-relation
+für	O
+seine	O
+frage	O
+
+ruf	O
+die	O
+emails	O
+der	O
+letzten	B-time
+zwei	I-time
+stunden	I-time
+ab	O
+
+prüfe	O
+emails	O
+der	O
+letzten	B-time
+zwölf	I-time
+stunden	I-time
+
+alexa	O
+füge	O
+erosser	B-email_address
+at	I-email_address
+g.m.x.	I-email_address
+punkt	I-email_address
+d.e.	I-email_address
+als	O
+neuen	O
+kontakt	O
+zu	O
+emily	B-person
+rosser	I-person
+hinzu	O
+
+gib	O
+mir	O
+bescheid	O
+wenn	O
+ich	O
+irgendwelche	O
+neue	O
+emails	O
+von	O
+ebay	B-business_name
+bekomme	O
+
+bitte	O
+sende	O
+eine	O
+email	O
+mit	O
+der	O
+folgenden	O
+nachricht	O
+an	O
+diesen	O
+kontakt	O
+
+eddie	O
+richards	O
+email	O
+suchen	O
+
+speichere	O
+diese	O
+email	O
+als	O
+kontakt	O
+
+sende	O
+andre	B-person
+die	O
+neuesten	O
+it	O
+themen	O
+die	O
+es	O
+gibt	O
+
+gib	O
+mir	O
+bescheid	O
+wenn	O
+casey	B-person
+mir	O
+geschrieben	O
+hat	O
+
+lass	O
+mich	O
+wissen	O
+was	O
+sich	O
+in	O
+meinem	O
+posteingang	B-email_folder
+gesammelt	O
+hat	O
+seit	O
+fünfzehn	B-time
+uhr	I-time
+
+können	O
+sie	O
+eine	O
+email	O
+an	O
+meine	O
+freund	B-relation
+jan	B-person
+was	O
+besagt	O
+dass	O
+ich	O
+morgen	B-date
+beschäftigt	O
+bin	O
+
+suche	O
+nach	O
+deadlines	O
+von	O
+matze	B-person
+
+hey	O
+beginne	O
+eine	O
+email	O
+an	O
+meine	O
+arbeitskollegen	B-relation
+
+öffne	O
+eine	O
+neue	O
+email	O
+an	O
+diesen	O
+mitarbeiter	B-relation
+an	O
+diese	O
+email	O
+
+bitte	O
+aktualisieren	O
+sie	O
+meinen	O
+gmail	O
+inbox	B-email_folder
+
+sende	O
+ein	O
+hi	O
+zu	O
+
+zeige	O
+die	O
+neueste	O
+email	O
+von	O
+mark	B-person
+
+senden	O
+an	O
+email	O
+zu	O
+meine	O
+managerin	B-relation
+
+neueste	O
+emails	O
+anzeigen	O
+olly	O
+
+maile	O
+george	B-person
+brown	I-person
+
+irgendwelche	O
+eingehende	O
+email	O
+in	O
+der	O
+letzten	B-time
+fünf	I-time
+minuten	I-time
+
+sende	O
+meinem	O
+freund	B-relation
+eine	O
+email	O
+die	O
+sagt	O
+alles	O
+liebe	O
+zum	O
+geburtstag	B-event_name
+
+was	O
+ist	O
+mamas	B-relation
+email	B-personal_info
+addresse	I-personal_info
+
+ich	O
+würde	O
+gern	O
+diese	O
+neue	O
+emailadresse	O
+zu	O
+meinen	O
+kontakten	O
+hinzufügen	O
+
+sende	O
+email	O
+an	O
+enalen	B-person
+für	O
+den	O
+nächster	B-date
+tag	I-date
+
+zeig	O
+alle	O
+empfangenen	O
+emails	O
+mit	O
+zeitstempel	O
+
+zeige	O
+mir	O
+neue	O
+email	O
+
+öffne	O
+antwort	O
+
+dieser	O
+email	O
+antworten	O
+
+schicke	O
+eine	O
+email	O
+an	O
+eda	B-person
+sag	O
+ihr	O
+oma	O
+liebt	O
+sie	O
+und	O
+wünscht	O
+ihr	O
+ein	O
+tolles	O
+wochenende	O
+
+schreibe	O
+antwort	O
+
+gib	O
+mir	O
+die	O
+kontaktinformationen	B-personal_info
+von	O
+meinem	O
+bruder	B-relation
+
+sende	O
+diese	O
+nachricht	O
+an	O
+die	O
+familiengruppe	B-relation
+beginnt	O
+mit	O
+einem	O
+
+wer	O
+hat	O
+mir	O
+in	O
+letzter	O
+zeit	O
+geemailt	O
+und	O
+was	O
+sind	O
+die	O
+betreffs	O
+jeder	O
+einzelnen	O
+email	O
+
+olly	O
+antworte	O
+bitte	O
+auf	O
+georgs	B-person
+email	O
+mit	O
+der	O
+aussage	O
+dass	O
+seine	O
+idee	O
+fantastisch	O
+ist	O
+
+schick	O
+email	O
+an	O
+chef	B-relation
+um	O
+uns	O
+wegen	O
+leistungsbeurteilung	O
+zu	O
+treffen	O
+
+lebt	O
+bernhard	B-person
+in	O
+deutschland	B-place_name
+
+habe	O
+ich	O
+irgendein	O
+email	O
+in	O
+mein	O
+account	O
+
+maile	O
+die	O
+nachricht	O
+hallo	O
+komm	O
+rüber	O
+zum	O
+abendessen	B-meal_type
+heute	O
+abend	B-timeofday
+bro	B-relation
+
+schicke	O
+eine	O
+email	O
+an	O
+den	O
+typ	O
+der	O
+das	O
+boot	O
+verkauft	O
+und	O
+sage	O
+ihm	O
+dass	O
+ich	O
+das	O
+geld	O
+habe	O
+
+sag	O
+mir	O
+wer	O
+mir	O
+die	O
+email	O
+über	O
+den	O
+boss	O
+gestern	B-date
+geschickt	O
+hat	O
+
+was	O
+hat	O
+die	O
+klinik	B-business_name
+über	O
+meine	O
+prüfungen	O
+gesagt	O
+
+kann	O
+ich	O
+informationen	O
+über	O
+einen	O
+kontakt	O
+herausfinden	O
+
+lesen	O
+mein	O
+ungelesen	O
+emails	O
+
+neue	O
+emails	O
+checken	O
+
+habe	O
+ich	O
+irgendein	O
+warnungen	O
+
+sende	O
+eine	O
+email	O
+für	O
+mich	O
+
+allen	O
+antworten	O
+
+berichte	O
+bob	B-person
+smith	I-person
+
+antworte	O
+mit	O
+danke	O
+
+habe	O
+ich	O
+irgendwelche	O
+neuen	O
+emails	O
+von	O
+jan	B-person
+schmidt	I-person
+
+gibt	O
+es	O
+irgendwelche	O
+emails	O
+im	O
+zusammenhang	O
+mit	O
+meiner	O
+beförderung	B-event_name
+
+hey	O
+emails	O
+checken	O
+
+liste	O
+die	O
+themen	O
+und	O
+absender	O
+aller	O
+emails	O
+an	O
+mich	O
+aus	O
+der	O
+letzten	B-date
+woche	I-date
+
+wer	O
+hat	O
+mir	O
+zuletzt	O
+eine	O
+email	O
+geschrieben	O
+und	O
+worüber	O
+war	O
+diese	O
+email	O
+
+schick	O
+die	O
+email	O
+an	O
+johann	B-person
+
+starte	O
+email	O
+
+wie	O
+viele	O
+ungelesene	O
+emails	O
+habe	O
+ich	O
+
+sende	O
+eine	O
+email	O
+an	O
+robert	O
+um	O
+wie	O
+viel	O
+uhr	O
+gibt	O
+es	O
+abendessen	O
+
+schicke	O
+email	O
+an	O
+vodafone	B-business_name
+dass	O
+ihr	O
+service	O
+schlecht	O
+ist	O
+
+bitte	O
+prüfe	O
+auf	O
+neue	O
+email	O
+studie	O
+von	O
+diesem	O
+absender	O
+
+öffne	O
+mein	O
+email	O
+konto	O
+und	O
+check	O
+nach	O
+neuer	O
+email	O
+
+schick	O
+eine	O
+email	O
+an	O
+meinem	O
+chef	B-relation
+mit	O
+dem	O
+inhalt	O
+ich	O
+werde	O
+mich	O
+verspäten	O
+
+welche	O
+neuen	O
+nachrichten	O
+habe	O
+ich	O
+
+öffne	O
+meine	O
+neuen	O
+emails	O
+
+emails	O
+von	O
+cindy	B-person
+checken	O
+
+antworte	O
+auf	O
+marks	B-person
+email	O
+
+wie	O
+viele	O
+emails	O
+gibt	O
+es	O
+heute	B-date
+
+hat	O
+mir	O
+meine	O
+mutter	B-relation
+eine	O
+email	O
+geschickt	O
+
+schick	O
+email	O
+an	O
+mutti	B-relation
+willst	O
+du	O
+morgen	B-date
+shoppen	O
+gehen	O
+
+check	O
+alle	O
+emails	O
+von	O
+erik	B-person
+
+helfen	O
+sie	O
+mir	O
+eine	O
+email	O
+zu	O
+schreiben	O
+chelsea	B-person
+
+olly	O
+bitte	O
+überprüfe	O
+ob	O
+ich	O
+irgendwelche	O
+emails	O
+von	O
+meiner	O
+mutter	B-relation
+habe	O
+
+sende	O
+eine	O
+email	O
+an	O
+alle	O
+meine	O
+firmen	B-relation
+angestellte	I-relation
+
+email	O
+nachricht	O
+senden	O
+
+neue	O
+adresse	O
+
+google	O
+finde	O
+die	O
+neue	O
+email	O
+adresse	O
+von	O
+thomas	B-person
+die	O
+ich	O
+freitag	B-date
+hinzugefügt	O
+habe	O
+
+ist	O
+das	O
+die	O
+richtige	O
+postleitzahl	O
+meiner	O
+chefin	B-relation
+
+antworte	O
+
+lösche	O
+kontakte	O
+mit	O
+deinen	O
+ich	O
+drei	B-date
+monaten	I-date
+nicht	O
+gesprochen	O
+hab	O
+
+ich	O
+möchte	O
+eine	O
+email	O
+an	O
+jack	B-email_address
+at	I-email_address
+gmail	I-email_address
+punkt	I-email_address
+com	I-email_address
+schicken	O
+
+schick	O
+meiner	O
+tochter	B-relation
+eine	O
+email	O
+mit	O
+dem	O
+inhalt	O
+ich	O
+liebe	O
+dich	O
+
+geburtstag	O
+mit	O
+mama	B-relation
+
+bitte	O
+sage	O
+mir	O
+ob	O
+julia	B-person
+irgendwelche	O
+emails	O
+geschickt	O
+hat	O
+
+habe	O
+ich	O
+irgendeine	O
+neue	O
+email	O
+vom	O
+vorgesetzten	B-relation
+bekommen	O
+
+habe	O
+ich	O
+irgendeine	O
+email	O
+in	O
+der	O
+letzten	B-time
+stunde	I-time
+erhalten	O
+
+sind	O
+schon	O
+irgendwelche	O
+persönlichen	O
+emails	O
+angekommen	O
+
+öffne	O
+meine	O
+email	O
+von	O
+meiner	O
+schwester	B-relation
+von	O
+gestern	B-date
+klicke	O
+auf	O
+antworten	O
+und	O
+starte	O
+die	O
+spracherkennung	O
+für	O
+meine	O
+antwort	O
+
+wie	O
+viele	O
+kontakte	O
+habe	O
+ich	O
+in	O
+meinem	O
+telefonbuch	B-device_type
+
+kannst	O
+du	O
+sehen	O
+um	O
+was	O
+in	O
+der	O
+mail	O
+von	O
+andreas	B-person
+an	O
+mich	O
+geht	O
+
+ich	O
+möchte	O
+emails	O
+von	O
+bob	B-person
+finden	O
+mit	O
+dem	O
+wort	O
+meeting	O
+im	O
+betreff	O
+
+bitte	O
+sende	O
+die	O
+email	O
+an	O
+meine	O
+mama	B-relation
+
+tat	O
+mike	B-person
+schicken	O
+mich	O
+ein	O
+email	O
+
+schaue	O
+in	O
+meine	O
+email	O
+
+öffne	O
+toms	B-person
+email	O
+
+email	O
+nach	O
+kontakt	O
+suchen	O
+
+kontakt	O
+finden	O
+
+zeig	O
+mir	O
+meine	O
+emails	O
+
+kontakt	O
+thomas	B-person
+öffnen	O
+
+wem	O
+habe	O
+ich	O
+vor	O
+kurzem	O
+eine	O
+email	O
+geschickt	O
+
+wie	O
+lauten	O
+die	O
+betreffzeile	O
+und	O
+absender	O
+des	O
+heutigen	B-date
+emailposteingangs	B-email_folder
+
+öffne	O
+bitte	O
+meine	O
+kontaktliste	B-list_name
+
+offener	O
+tom's	B-person
+kontakt	O
+informationen	O
+
+prüfe	O
+alle	O
+emails	O
+von	O
+tom	B-person
+brady	I-person
+
+schick	O
+eine	O
+antwort	O
+an	O
+max	B-person
+
+hey	O
+habe	O
+ich	O
+irgendwelche	O
+neuen	O
+emails	O
+bekommen	O
+
+email	O
+an	O
+tom	B-person
+
+überprüfe	O
+meine	O
+mail	O
+
+ich	O
+muss	O
+susan	B-person
+eine	O
+email	O
+schreiben	O
+und	O
+erwähnen	B-person
+
+zeig	O
+mir	O
+ungelesene	O
+
+gibt	O
+es	O
+neue	O
+emails	O
+in	O
+meinem	O
+posteingang	B-email_folder
+
+antwort	O
+auf	O
+die	O
+mail	O
+
+schick	O
+eine	O
+email	O
+an	O
+frau	B-person
+palmer	I-person
+und	O
+frag	O
+sie	O
+ob	O
+dean	O
+seine	O
+letzten	O
+hausaufgaben	O
+abgegeben	O
+hat	O
+
+email	O
+sendne	O
+
+antworte	O
+auf	O
+jürgens	B-person
+email	O
+mit	O
+der	O
+antwort	O
+sechs	O
+dreißig	O
+
+welche	O
+mail	O
+habe	O
+ich	O
+
+ich	O
+möchte	O
+auf	O
+janas	B-person
+email	O
+antworten	O
+
+rufe	O
+emails	O
+von	O
+jane	B-person
+doe	I-person
+ab	O
+
+es	O
+dort	O
+irgendein	O
+neu	O
+emails	O
+
+prüfe	O
+posteingang	B-email_folder
+für	O
+mich	O
+
+speichere	O
+die	O
+email	O
+zu	O
+meinem	O
+kontakt	O
+
+als	O
+kontakt	O
+speichern	O
+
+zeige	O
+mir	O
+alle	O
+meine	O
+jüngsten	O
+emails	O
+
+was	O
+ist	O
+meine	O
+jüngste	O
+email	O
+aktivität	O
+
+gib	O
+mir	O
+die	O
+kontakt	O
+mail	B-personal_info
+id	I-personal_info
+
+lass	O
+mich	O
+wissen	O
+ob	O
+ich	O
+neue	O
+emails	O
+von	O
+michael	B-person
+erhalten	O
+habe	O
+
+sage	O
+mir	O
+bescheid	O
+bei	O
+neuen	O
+emails	O
+von	O
+susanne	B-person
+
+habe	O
+ich	O
+seit	O
+siebzehn	B-time
+uhr	I-time
+irgendeine	O
+email	O
+erhalten	O
+
+habe	O
+ich	O
+irgendwelche	O
+emails	O
+von	O
+sam	B-person
+heute	B-date
+
+veröffentliche	O
+eine	O
+email	O
+an	O
+meine	O
+firmenangestellte	B-relation
+mit	O
+den	O
+geplanten	O
+treffen	O
+für	O
+heute	B-date
+
+habe	O
+ich	O
+heute	B-date
+irgendwelche	O
+neuen	O
+emails	O
+von	O
+klara	B-person
+erhalten	O
+
+email	O
+an	O
+marissa	B-person
+
+ruf	O
+raju	B-person
+telefonnummer	B-personal_info
+an	O
+
+melde	O
+jegliche	O
+neuen	O
+emails	O
+
+wie	O
+viele	O
+ungelesene	O
+nachrichten	O
+habe	O
+ich	O
+bekommen	O
+
+antworte	O
+bitte	O
+auf	O
+die	O
+email	O
+die	O
+ich	O
+gerade	O
+gelesen	O
+habe	O
+
+hat	O
+mir	O
+bert	B-person
+heute	B-date
+geschrieben	O
+
+wie	O
+lautet	O
+alex'	B-person
+adresse	B-personal_info
+

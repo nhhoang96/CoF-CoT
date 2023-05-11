@@ -1,0 +1,2033 @@
+लाइट्स को बंद कर दो	[IN:iot_hue_lightoff ]	iot	hi-IN
+हॉल में रोशनी कम करें	[IN:iot_hue_lightdim [SL:house_place हॉल] ]	iot	hi-IN
+एक कमरे को गहरा बनाओ	[IN:iot_hue_lightdim [SL:house_place कमरे] ]	iot	hi-IN
+समतल साफ करें	[IN:iot_cleaning [SL:house_place समतल] ]	iot	hi-IN
+सफाई अच्छी है धूल इतनी खराब है अब अपना जादू करो मेरे कालीन को साफ करो	[IN:iot_cleaning [SL:house_place कालीन] ]	iot	hi-IN
+मुझे मेरी उपलब्ध स्मृति पर स्थिति दें	[IN:general_quirky ]	general	hi-IN
+साउथ इंडियन भोजन के लिए सबसे अधिक मूल्यांकित वितरण विकल्पों की सूची बनाएं	[IN:takeaway_query [SL:food_type साउथ इंडियन] [SL:order_type वितरण] ]	takeaway	hi-IN
+कलिका भोजनालय में मेरे भारतीय टेकअवे का पता लगाओ	[IN:takeaway_query [SL:place_name कलिका भोजनालय] [SL:food_type भारतीय] [SL:order_type टेकअवे] ]	takeaway	hi-IN
+अरिजीत सिंह का तुम ही हो चलाओ	[IN:play_music [SL:artist_name अरिजीत सिंह] [SL:song_name तुम ही हो] ]	play	hi-IN
+नीति मोहन द्वारा इश्क वाला लव चलाओ	[IN:play_music [SL:artist_name नीति मोहन] [SL:song_name इश्क वाला लव] ]	play	hi-IN
+अभी कौन सा बैंड बज रहा है	[IN:music_query ]	music	hi-IN
+मेरे रत के खाने कि खरीदारी के साथ क्या है	[IN:takeaway_query ]	takeaway	hi-IN
+सप्ताह का पूर्वानुमान क्या है	[IN:weather_query [SL:time सप्ताह] ]	weather	hi-IN
+इश्क सूफियाना चलाएं	[IN:play_music [SL:song_name इश्क सूफियाना] ]	play	hi-IN
+तुम ही हो को शुरू पर रखो	[IN:play_music [SL:song_name तुम ही हो] ]	play	hi-IN
+कुछ सोनू निगम खेलें	[IN:play_music [SL:artist_name सोनू निगम] ]	play	hi-IN
+इस ट्रैक को लूप करें	[IN:music_settings [SL:player_setting लूप] ]	music	hi-IN
+आवाज़ को कम करो	[IN:audio_volume_down [SL:change_amount कम करो] ]	audio	hi-IN
+आज कौन सा दिन है	[IN:datetime_query [SL:date आज] ]	datetime	hi-IN
+वह कौन सा गाना है	[IN:music_query ]	music	hi-IN
+मुझे शास्त्रीय संगीत सुनना पसंद है	[IN:play_music [SL:music_genre शास्त्रीय संगीत] ]	play	hi-IN
+olly मुझे शास्त्रीय सुनना पसंद है	[IN:play_music [SL:music_genre शास्त्रीय] ]	play	hi-IN
+अरे अरे	[IN:general_greet ]	general	hi-IN
+कल सुबह छह बजे अलार्म लगाओ	[IN:alarm_set [SL:date कल] [SL:time सुबह छह बजे] ]	alarm	hi-IN
+वॉल्यूम बढ़ाएं	[IN:audio_volume_up ]	audio	hi-IN
+क्या बाहर बारिश हो रही है	[IN:weather_query [SL:weather_descriptor बारिश हो रही] ]	weather	hi-IN
+पणजी में समय क्या हुआ है	[IN:datetime_query [SL:place_name पणजी] ]	datetime	hi-IN
+मुंबई में कितने बजे हैं	[IN:datetime_query [SL:place_name मुंबई] ]	datetime	hi-IN
+सुबह छह बजे का अलार्म लगाओ	[IN:alarm_set [SL:timeofday सुबह] [SL:time छह] ]	alarm	hi-IN
+क्या मैंने सुबह उठने के लिए अलार्म लगाया है	[IN:alarm_query [SL:timeofday सुबह] [SL:alarm_type उठने] ]	alarm	hi-IN
+भारत में क्या हो रहा है	[IN:news_query [SL:place_name भारत] ]	news	hi-IN
+ओली डेथ मेटल अब	[IN:play_music [SL:music_genre मेटल] ]	play	hi-IN
+नई दिल्ली में अभी समय क्या है	[IN:datetime_query [SL:place_name नई दिल्ली] ]	datetime	hi-IN
+आज के अखबार की सुर्खियां बताओ	[IN:news_query [SL:date आज के] [SL:media_type अखबार की] ]	news	hi-IN
+कुमार सानू को चलो करें	[IN:play_music [SL:artist_name कुमार सानू] ]	play	hi-IN
+इस साल स्मृति दिवस कौन से दिन है	[IN:datetime_query [SL:date इस साल] ]	datetime	hi-IN
+यहाँ बहुत अंधेरा है	[IN:iot_hue_lighton ]	iot	hi-IN
+क्या कल बारिश होने वाली है	[IN:weather_query [SL:date कल] [SL:weather_descriptor बारिश] ]	weather	hi-IN
+आवाज़ कम करो	[IN:audio_volume_down ]	audio	hi-IN
+कल वहाँ का तापमान क्या होगा	[IN:weather_query [SL:date कल] [SL:weather_descriptor तापमान] ]	weather	hi-IN
+कल के मौसम की भविष्यवाणी क्या है	[IN:weather_query [SL:date कल] ]	weather	hi-IN
+सप्ताह का कौन सा दिन बाईस मार्च है	[IN:datetime_query [SL:date बाईस मार्च] ]	datetime	hi-IN
+क्या आज सोमवार है	[IN:datetime_query [SL:date आज सोमवार] ]	datetime	hi-IN
+नैनीताल में मौसम कैसा है	[IN:weather_query [SL:place_name नैनीताल] ]	weather	hi-IN
+क्या अभी गोनबाद में धूप खिली हुई है	[IN:weather_query [SL:place_name गोनबाद] [SL:weather_descriptor धूप] ]	weather	hi-IN
+जैसे ही डोकलम विवाद पर और खबरें हों वैसे ही मुझे बताएं	[IN:news_query [SL:news_topic डोकलम विवाद] ]	news	hi-IN
+स्मार्ट प्लग बंद करें	[IN:iot_wemo_off [SL:device_type स्मार्ट प्लग] ]	iot	hi-IN
+मेरा पसंदीदा गाना चलाओ	[IN:play_music ]	play	hi-IN
+मैं पॉप संगीत सुनना पसंद करूंगा	[IN:play_music [SL:music_genre पॉप] ]	play	hi-IN
+मेरे कमरे की बत्तियाँ बदलो ताकि मुझे अच्छी नींद आ सके	[IN:iot_hue_lightchange [SL:color_type अच्छी नींद] ]	iot	hi-IN
+शुक्रवार को मौसम कैसा रहेगा	[IN:weather_query [SL:date शुक्रवार] ]	weather	hi-IN
+आज कौन सा दिन है	[IN:datetime_query [SL:date आज] ]	datetime	hi-IN
+क्या मुझे आज जैकेट पहननी चाहिए	[IN:weather_query [SL:date आज] [SL:weather_descriptor जैकेट] ]	weather	hi-IN
+फेरबदल अक्षम करें	[IN:music_settings [SL:player_setting फेरबदल अक्षम करें] ]	music	hi-IN
+दिनांक क्या है	[IN:datetime_query ]	datetime	hi-IN
+आप कौन सी चीजें नहीं कर सकते	[IN:general_quirky ]	general	hi-IN
+मुझे समय बताओ	[IN:datetime_query ]	datetime	hi-IN
+क्या बाहर गर्म है	[IN:weather_query [SL:weather_descriptor गर्म] ]	weather	hi-IN
+क्या मेरे पास अलार्म सेट है	[IN:alarm_query ]	alarm	hi-IN
+सिल्क रूट द्वारा	[IN:weather_query ]	weather	hi-IN
+कृपया अगले घंटे के लिए म्यूट करें	[IN:audio_volume_mute [SL:time अगले घंटे] ]	audio	hi-IN
+मेरे पसंदीदा गाने को चालू करो	[IN:play_music ]	play	hi-IN
+यह बहुत ही खतरनाक है	[IN:weather_query ]	weather	hi-IN
+कृपया मुझे कुछ अंतरराष्ट्रीय समाचार बताएं	[IN:news_query [SL:place_name अंतरराष्ट्रीय] ]	news	hi-IN
+सुबह दस बजे के लिए वेक अप कॉल सेट करें	[IN:alarm_set [SL:time सुबह दस बजे] ]	alarm	hi-IN
+दोपहर तीन बजे के लिए अलार्म लगाओ	[IN:alarm_set [SL:time दोपहर तीन बजे] ]	alarm	hi-IN
+दोपहर एक बजे का अलार्म लगाओ	[IN:alarm_set [SL:time दोपहर एक बजे] ]	alarm	hi-IN
+सनम रे गाना बजाओ	[IN:play_music [SL:song_name सनम रे] ]	play	hi-IN
+मुझे इस गाने के बोल ईमेल करें	[IN:music_query ]	music	hi-IN
+मेरे सुबह आठ बजे के अलार्म से छुटकारा पाओ	[IN:alarm_remove [SL:time आठ बजे] ]	alarm	hi-IN
+क्या raining tomorrow होगी	[IN:weather_query [SL:weather_descriptor raining] [SL:date tomorrow] ]	weather	hi-IN
+कृपया मैं अरिजीत सिंह का सनम रे सुनना चाहता हूँ	[IN:play_music [SL:artist_name अरिजीत सिंह] [SL:song_name सनम रे] ]	play	hi-IN
+अलार्म शुरू करो	[IN:alarm_set ]	alarm	hi-IN
+मैं कृपया कल सुबह छह बजे उठना चाहता हूँ	[IN:alarm_set [SL:date कल] [SL:time छह बजे] ]	alarm	hi-IN
+मेरी प्लेलिस्ट से ओली प्ले गाने	[IN:play_music ]	play	hi-IN
+सप्ताह का कौन सा दिन धन्यवाद देना है	[IN:datetime_query [SL:event_name धन्यवाद देना] ]	datetime	hi-IN
+कृपया मुझे सनम रे सुनने दें	[IN:play_music [SL:song_name सनम रे] ]	play	hi-IN
+क्या आप मेरे लिए जानवरों का मज़ाक ढूंढ सकते हैं	[IN:general_joke [SL:joke_type जानवरों] ]	general	hi-IN
+वर्तमान मौसम की स्थिति क्या है	[IN:weather_query ]	weather	hi-IN
+रामपुर में अभी कितने बजे हैं	[IN:datetime_query [SL:place_name रामपुर में] ]	datetime	hi-IN
+समय क्षेत्र सेट करें	[IN:datetime_convert ]	datetime	hi-IN
+टी. वी. सॉकेट ऑन कर देना जब मैं घर पहुँचू	[IN:iot_wemo_on [SL:device_type टी. वी.] ]	iot	hi-IN
+भविष्य में पेगासिस वाइरस के बारे में समाचारों का पालन करें	[IN:news_query [SL:time भविष्य] [SL:news_topic पेगासिस वाइरस] ]	news	hi-IN
+कृपया वॉल्यूम कम करें	[IN:audio_volume_down ]	audio	hi-IN
+कृपया वॉल्यूम बंद कर दें	[IN:audio_volume_up ]	audio	hi-IN
+क्या आप कृपया रोशनी तेज कर सकते हैं	[IN:iot_hue_lightup ]	iot	hi-IN
+मैं लव डोस अभी सुनना चाहता हूँ	[IN:play_music [SL:artist_name लव डोस] ]	play	hi-IN
+कौन अभी फॉर्मूला वन रेस में आगे चल रहा है	[IN:news_query [SL:news_topic फॉर्मूला वन] ]	news	hi-IN
+कॉफी तैयार करें	[IN:iot_coffee ]	iot	hi-IN
+दैनिक जागरण की सुर्खियां पढ़ें	[IN:news_query [SL:media_type दैनिक जागरण] ]	news	hi-IN
+क्या मैं आज तक से ब्रेकिंग न्यूज जान सकता हूँ	[IN:news_query [SL:media_type आज तक] ]	news	hi-IN
+क्या आप कृपया स्वर कम कर सकते हैं	[IN:audio_volume_down ]	audio	hi-IN
+अरिजीत सिंह और सोनू निगम के गीत चलाओ	[IN:play_music [SL:music_genre अरिजीत सिंह] [SL:artist_name सोनू निगम] ]	play	hi-IN
+क्या आप वेमो प्लग सॉकेट बंद कर सकते हैं	[IN:iot_wemo_off [SL:device_type वेमो प्लग सॉकेट] ]	iot	hi-IN
+इस सप्ताह मौसम कैसा दिख रहा है	[IN:weather_query [SL:date इस सप्ताह] ]	weather	hi-IN
+इस सप्ताह मौसम कैसा रहेगा	[IN:weather_query [SL:date इस सप्ताह] ]	weather	hi-IN
+भारत में भूकंप आता है तो बताओ	[IN:news_query [SL:news_topic भूकंप] ]	news	hi-IN
+अरिजीत सिंह का सनम रे चालू करें	[IN:play_music [SL:artist_name अरिजीत सिंह] [SL:song_name सनम रे] ]	play	hi-IN
+अरे olly स्पीकर को म्यूट कर दो	[IN:audio_volume_mute ]	audio	hi-IN
+कृपया स्पीकर पर सभी वॉल्यूम कम करें	[IN:audio_volume_down ]	audio	hi-IN
+अभी कॉफ़ी बनाओ	[IN:iot_coffee ]	iot	hi-IN
+ओके गूगल कुछ संगीत चलाओ	[IN:play_music ]	play	hi-IN
+बॉलीवुड की नवीनतम गपशप क्या चल रही है	[IN:news_query [SL:news_topic बॉलीवुड] ]	news	hi-IN
+रोशनी चमकाना	[IN:iot_hue_lightup ]	iot	hi-IN
+आठ बजे का अलार्म सेट करो	[IN:alarm_set [SL:time आठ बजे] ]	alarm	hi-IN
+बुधवार के लिए सुबह छह बजे का अलार्म बंद करें	[IN:alarm_remove [SL:date बुधवार] [SL:time सुबह छह बजे] ]	alarm	hi-IN
+शुक्रवार के बाद किसी भी सुबह के अलार्म को बंद कर दें	[IN:alarm_remove [SL:date शुक्रवार के बाद] [SL:timeofday सुबह] ]	alarm	hi-IN
+कृपया मेरे लिए अगले सप्ताह का मौसम देखें	[IN:weather_query [SL:date अगले सप्ताह] ]	weather	hi-IN
+मेरे पसंदीदा कलाकार का संगीत चलाओ	[IN:play_music ]	play	hi-IN
+कृपया रोशनी थोड़ी सी कम करें	[IN:iot_hue_lightdim [SL:change_amount थोड़ी सी] ]	iot	hi-IN
+फ़ोन	[IN:alarm_remove ]	alarm	hi-IN
+अगर पूर्वी तट पर रात के आठ बज रहे हैं तो जामनगर में कितने बजे हैं	[IN:datetime_convert [SL:place_name पूर्वी तट] [SL:time रात के आठ बज] [SL:place_name जामनगर] ]	datetime	hi-IN
+क्या पीएफ परिवर्तन टेक-आउट आदेश स्वीकार करते हैं	[IN:takeaway_query [SL:business_name पीएफ परिवर्तन] [SL:order_type टेक-आउट] ]	takeaway	hi-IN
+क्या आप मुझे बता सकते हैं कि दिल्ली में कितने बजे हैं	[IN:datetime_query [SL:place_name दिल्ली] ]	datetime	hi-IN
+ज़ी न्यूज़ में वर्तमान समाचार क्या है	[IN:news_query [SL:media_type ज़ी न्यूज़] ]	news	hi-IN
+मुझे first post की website पर ले जाओ	[IN:social_post [SL:media_type first post] ]	social	hi-IN
+कृपया सुर्खियां बटोरें	[IN:news_query ]	news	hi-IN
+टाइम्स ऑफ इंडिया की सुर्खियां क्या हैं	[IN:news_query [SL:media_type टाइम्स ऑफ इंडिया] ]	news	hi-IN
+पता करें कि क्या olive garden मुझे takeaway करने देगा	[IN:takeaway_query [SL:business_name olive garden] [SL:order_type takeaway] ]	takeaway	hi-IN
+क्या मुझे आज की तारीख मिल सकती है	[IN:datetime_query [SL:date आज की] ]	datetime	hi-IN
+क्या मेरे स्कूल का अलार्म सेट है	[IN:alarm_query ]	alarm	hi-IN
+बाहर कितनी गर्मी है	[IN:weather_query [SL:weather_descriptor गर्मी] ]	weather	hi-IN
+आज दोपहर एक बजे रोबोट वैक्यूम क्लीनर स्टार्ट कर दो	[IN:iot_cleaning [SL:date आज] [SL:time दोपहर एक बजे] [SL:device_type रोबोट वैक्यूम क्लीनर] ]	iot	hi-IN
+अच्छे सहायक	[IN:news_query ]	news	hi-IN
+मुझे दिन के लिए वर्तमान समाचार भेजें	[IN:news_query ]	news	hi-IN
+अरिजीत सिंह का तुम ही हो अभी चालू करो	[IN:play_music [SL:artist_name अरिजीत सिंह] [SL:song_name तुम ही हो] ]	play	hi-IN
+आज की तारीख़	[IN:datetime_query [SL:date आज] ]	datetime	hi-IN
+जुबिन नौटियाल द्वारा गीत के बोल क्या हैं मैं हमेशा तुमसे प्यार करूंगा	[IN:music_query [SL:artist_name जुबिन नौटियाल] [SL:song_name मैं हमेशा तुमसे प्यार करूंगा] ]	music	hi-IN
+कभी भी कोई शिर्ले सेठीया को play मत करना	[IN:music_dislikeness [SL:music_genre शिर्ले सेठीया] ]	music	hi-IN
+अगर दार्जलिंग में रात के दस बज रहे हैं तो बरेली में क्या समय है	[IN:datetime_convert [SL:place_name दार्जलिंग] [SL:time रात के दस बज] [SL:place_name बरेली] ]	datetime	hi-IN
+मुझे नेहा कक्कड़ का मिले हो तुम सुनने की जरूरत है	[IN:play_music [SL:artist_name नेहा कक्कड़] [SL:song_name मिले हो तुम] ]	play	hi-IN
+आज मौसम की स्थिति क्या है	[IN:weather_query [SL:date आज] ]	weather	hi-IN
+क्या वर्षा होगी	[IN:weather_query [SL:weather_descriptor वर्षा] ]	weather	hi-IN
+मुंबई में वर्तमान समय क्या है	[IN:datetime_query [SL:place_name मुंबई] ]	datetime	hi-IN
+क्या आप मुझे रात के खाने के लिए healthy foods सुझा सकते हैं	[IN:cooking_recipe [SL:food_type healthy foods] ]	cooking	hi-IN
+किसी अच्छे रेस्टोरेंट से खाना ऑर्डर करें	[IN:takeaway_order [SL:business_type रेस्टोरेंट] ]	takeaway	hi-IN
+शिमला समय को जयपुर में बदलें	[IN:datetime_convert [SL:place_name शिमला] [SL:place_name जयपुर] ]	datetime	hi-IN
+olly बैठक कक्ष को नीला बनाओ	[IN:iot_hue_lightchange [SL:house_place बैठक कक्ष] [SL:color_type नीला] ]	iot	hi-IN
+बैठक कक्ष को नीला बनाएं	[IN:iot_hue_lightchange [SL:house_place बैठक कक्ष] [SL:color_type नीला] ]	iot	hi-IN
+कृपया तुम ही हो गाना चलाओ	[IN:play_music [SL:song_name तुम ही हो] ]	play	hi-IN
+मंगलवार के लिए मौसम का क्या अपडेट है	[IN:weather_query [SL:date मंगलवार] ]	weather	hi-IN
+सोमवार दोपहर के लिए मौसम की क्या जानकारी है	[IN:weather_query [SL:date सोमवार] [SL:timeofday दोपहर] ]	weather	hi-IN
+पन्द्रह मार्च को कौन सा दिन होगा	[IN:datetime_query [SL:date पन्द्रह मार्च] ]	datetime	hi-IN
+मुझे इस महीने का आखिरी सोमवार की तारीख चाहिए	[IN:datetime_query [SL:date इस महीने का आखिरी सोमवार] ]	datetime	hi-IN
+भारत में समय क्या है जब भारतीय गणतंत्र में समय रात्रि बारह बजे है	[IN:datetime_convert [SL:place_name भारत] [SL:place_name भारतीय गणतंत्र] [SL:time रात्रि बारह बजे] ]	datetime	hi-IN
+मुझे बताओ क्या समय हो गया है	[IN:datetime_query ]	datetime	hi-IN
+मुझे इंटरनेट पर सबसे अच्छा नॉक नॉक चुटकुला ढूंढो	[IN:general_joke [SL:joke_type नॉक नॉक] ]	general	hi-IN
+इस सप्ताह सोमवार को मौसम कैसा रहेगा	[IN:weather_query [SL:date इस सप्ताह सोमवार] ]	weather	hi-IN
+पकौड़ी बनाने की तुम्हारी विधि सर्वोत्तम थी	[IN:cooking_recipe [SL:food_type पकौड़ी] ]	cooking	hi-IN
+दुनिया में आज क्या हो रहा है	[IN:news_query [SL:date आज] ]	news	hi-IN
+पांच दिसंबर को कौन सा दिन है	[IN:datetime_query [SL:date पांच दिसंबर] ]	datetime	hi-IN
+अरे	[IN:general_greet ]	general	hi-IN
+मुझे अकादमी पुरस्कारों के बारे में समाचार चाहिए	[IN:news_query [SL:news_topic अकादमी पुरस्कारों] ]	news	hi-IN
+मुझे नई दिल्ली में वर्तमान समय बताओ	[IN:datetime_query [SL:place_name नई दिल्ली] ]	datetime	hi-IN
+आज मौसम क्या है	[IN:weather_query [SL:date आज] ]	weather	hi-IN
+आज गर्मी है ना	[IN:weather_query [SL:date आज] [SL:weather_descriptor गर्मी] ]	weather	hi-IN
+आज बहुत गर्मी है ना	[IN:weather_query [SL:date आज] [SL:weather_descriptor गर्मी] ]	weather	hi-IN
+सौ हजार दो सौ सत्रह	[IN:datetime_query ]	datetime	hi-IN
+इस सप्ताह मौसम कैसा रहेगा	[IN:weather_query [SL:date इस सप्ताह] ]	weather	hi-IN
+रात्रि बत्ती सेटिंग पर बदलो	[IN:iot_hue_lightchange ]	iot	hi-IN
+बस आवाज़ थोड़ा बढ़ाएं	[IN:audio_volume_up ]	audio	hi-IN
+क्या मुझे पिज्जा हट से ऑर्डर डिलीवर हो सकता है	[IN:takeaway_query [SL:business_name पिज्जा हट] [SL:order_type डिलीवर] ]	takeaway	hi-IN
+कुछ टेकअवे खाना ऑर्डर करें	[IN:takeaway_order [SL:order_type टेकअवे] ]	takeaway	hi-IN
+सुनिधि चौहान के सभी गीतों को ढूंढें और कतारबद्ध करें और बिना फेरबदल के सभी बजाएं	[IN:play_music [SL:artist_name सुनिधि चौहान] [SL:player_setting बिना फेरबदल के] ]	play	hi-IN
+अरिजीत सिंह के सभी गानों की प्लेलिस्ट बनाएं और फेरबदल के साथ बजाएं	[IN:play_music [SL:artist_name अरिजीत सिंह] [SL:player_setting फेरबदल] ]	play	hi-IN
+क्या इस सप्ताह बर्फ़बारी होगी	[IN:weather_query [SL:date इस सप्ताह] [SL:weather_descriptor बर्फ़बारी] ]	weather	hi-IN
+इसपर संगीत	[IN:play_music ]	play	hi-IN
+नए चुटकुलों की खोज करें	[IN:general_joke [SL:joke_type नए] ]	general	hi-IN
+मैं भक्ति सुनना चाहता हूँ	[IN:play_music [SL:music_genre भक्ति] ]	play	hi-IN
+मैं अप बीट संगीत सुनना चाहता हूँ	[IN:play_music [SL:music_descriptor अप बीट] ]	play	hi-IN
+सोनू निगम का पापा मेरे पापा चलाओ	[IN:play_music ]	play	hi-IN
+क्या मेरे पास मेरे क्षेत्र के लिए दस दिन का पूर्वानुमान हो सकता है	[IN:weather_query [SL:time दस दिन] ]	weather	hi-IN
+कृपया ये सप्ताह के मौसम का पूर्वानुमान दें	[IN:weather_query [SL:date ये सप्ताह] ]	weather	hi-IN
+मेरे लिए कुछ pop बजाओ	[IN:play_music [SL:music_genre pop] ]	play	hi-IN
+प्लेलिस्ट से गाने को चालू करो	[IN:play_music ]	play	hi-IN
+क्या मुझे कॉफी मिल सकती है	[IN:iot_coffee [SL:coffee_type कॉफी] ]	iot	hi-IN
+olly वैक्यूम क्लीनर शुरू करें	[IN:iot_cleaning [SL:device_type वैक्यूम क्लीनर] ]	iot	hi-IN
+क्या आप रूम्बा शुरू कर सकते हैं	[IN:iot_cleaning [SL:device_type रूम्बा] ]	iot	hi-IN
+राजनीति पर किसी भी नए विषय पर मुझे चेतावनी भेजें	[IN:news_query [SL:news_topic राजनीति] ]	news	hi-IN
+रेटिंग	[IN:music_likeness ]	music	hi-IN
+सुबह या शाम	[IN:alarm_query ]	alarm	hi-IN
+जियो समाचार से नवीनतम लेख क्या हैं	[IN:news_query [SL:media_type जियो समाचार] ]	news	hi-IN
+पिछले छह घंटों में जियो न्यूज़ से कोई भी खबर मेरे लिए ढूंढो	[IN:news_query [SL:time पिछले छह घंटों] [SL:media_type जियो न्यूज़] ]	news	hi-IN
+अरिजीत सिंह का संगीत फेरबदल करो	[IN:music_query ]	music	hi-IN
+संगीत की मात्रा को नब्बे तक बढ़ाएँ	[IN:audio_volume_up [SL:change_amount नब्बे तक] ]	audio	hi-IN
+कल का तापमान गर्म रहने वाला है हाँ या ना	[IN:weather_query [SL:date कल] [SL:weather_descriptor तापमान गर्म] ]	weather	hi-IN
+इस सप्ताह का मौसम पूर्वानुमान क्या है	[IN:weather_query [SL:date इस सप्ताह] ]	weather	hi-IN
+अभी बज रहे गाने का कलाकार कौन है	[IN:music_query ]	music	hi-IN
+मैं वह गाना पसंद नहीं है इसे बंद कर दो	[IN:music_dislikeness ]	music	hi-IN
+रोजाना सुबह दस से ग्यारह बजे तक मेरा वैक्यूम क्लीनर चालू करें	[IN:iot_cleaning [SL:general_frequency रोजाना] [SL:time दस] [SL:time ग्यारह बजे] [SL:device_type वैक्यूम क्लीनर] ]	iot	hi-IN
+आने वाले सप्ताह में उच्च तापमान क्या रहने वाला है	[IN:weather_query [SL:date आने वाले सप्ताह] [SL:weather_descriptor तापमान] ]	weather	hi-IN
+चेकआउट आज सुबह दस बजे का अलार्म सेट करें	[IN:alarm_query [SL:date आज] [SL:time दस बजे] ]	alarm	hi-IN
+सोनू निगम चलाएं	[IN:play_music [SL:artist_name सोनू निगम] ]	play	hi-IN
+अरिजीत सिंह प्ले करो	[IN:play_music [SL:artist_name अरिजीत सिंह] ]	play	hi-IN
+क्या आपके लिए मेरे संगीत की पसंद प्रदान करना संभव है	[IN:music_query ]	music	hi-IN
+भारत से ताजा ख़बर क्या है	[IN:news_query [SL:place_name भारत] ]	news	hi-IN
+मुझे कुछ और रोशनी चाहिए	[IN:iot_hue_lightup ]	iot	hi-IN
+मुझे वर्तमान समय बताओ	[IN:datetime_query ]	datetime	hi-IN
+अरिजीत सिंह मेरा पसंदीदा संगीतकार हैं	[IN:music_likeness [SL:artist_name अरिजीत सिंह] ]	music	hi-IN
+लखनऊ में क्या हो रहा है	[IN:news_query [SL:place_name लखनऊ] ]	news	hi-IN
+मेरे अधिकांश सुने जाने वाले गाने चलाओ	[IN:play_music ]	play	hi-IN
+youtube पर जाइए और मेरे लिए शादी के बेहतरीन गानों का संग्रह चलाइए	[IN:play_music [SL:media_type youtube] [SL:playlist_name शादी के बेहतरीन गानों] ]	play	hi-IN
+मेरे लिए नवीनतम तकनीकी समाचार लाओ	[IN:news_query [SL:news_topic तकनीकी] ]	news	hi-IN
+उस गाने को मेरी top दस पसंदीदा सूची में सुरक्षित कर लो	[IN:music_likeness ]	music	hi-IN
+हैट गाना कमाल का था क्या आप इसे दोहरा सकते हैं	[IN:music_likeness ]	music	hi-IN
+मुझे रसोई में कम रोशनी दो	[IN:iot_hue_lightdim [SL:house_place रसोई] ]	iot	hi-IN
+वह गीत और मेरी राय को सुरक्षित करें	[IN:music_likeness ]	music	hi-IN
+मुझे चुनाव नतीजों के साथ अपडेट करें	[IN:news_query [SL:news_topic चुनाव] ]	news	hi-IN
+नई आव्रजन नीतियों के बारे में विश्लेषक क्या कहते हैं	[IN:news_query [SL:news_topic आव्रजन नीतियों] ]	news	hi-IN
+रेस्टोरेंट ऑर्डर की स्थिति	[IN:takeaway_query [SL:business_type रेस्टोरेंट] ]	takeaway	hi-IN
+मुझे पाँच घंटे में सचेत करें	[IN:alarm_set [SL:time पाँच] ]	alarm	hi-IN
+मेरा रोबोट वैक्यूम क्लीनर शुरू करो	[IN:iot_cleaning [SL:device_type रोबोट वैक्यूम क्लीनर] ]	iot	hi-IN
+संगीत बजाना	[IN:play_music ]	play	hi-IN
+वर्तमान दिनांक समय समूह क्या है	[IN:datetime_query ]	datetime	hi-IN
+घर की सफाई शुरू करें	[IN:iot_cleaning [SL:house_place घर] ]	iot	hi-IN
+बत्ती बुझा दो	[IN:iot_hue_lightoff ]	iot	hi-IN
+मज़ेदार चुटकुला	[IN:general_joke [SL:joke_type मज़ेदार] ]	general	hi-IN
+अभी कौन सा गाना चल रहा है	[IN:music_query ]	music	hi-IN
+मुझे यह अरिजीत सिंह का तू जाने ना संगीत पसंद है	[IN:music_likeness [SL:artist_name अरिजीत सिंह] ]	music	hi-IN
+अरे alexa मेरे अपार्टमेंट में डिस्को लाइट चालू करो और पार्टी शुरू करो	[IN:iot_hue_lighton [SL:house_place अपार्टमेंट] [SL:device_type डिस्को लाइट] ]	iot	hi-IN
+ध्वनि को म्यूट करें	[IN:audio_volume_mute ]	audio	hi-IN
+कृपया भक्ति चालू करें	[IN:play_music [SL:music_genre भक्ति] ]	play	hi-IN
+इस सप्ताह क्या होगा मौसम की स्थिति	[IN:weather_query [SL:date इस सप्ताह] ]	weather	hi-IN
+क्या धूप वाला दिन है	[IN:weather_query [SL:weather_descriptor धूप वाला] ]	weather	hi-IN
+कल के लिए निर्धारित बैठक है	[IN:calendar_query [SL:date कल] [SL:event_name बैठक] ]	calendar	hi-IN
+आज बादल भरा मौसम है	[IN:weather_query [SL:date आज] [SL:weather_descriptor बादल] ]	weather	hi-IN
+म्यूट बटन स्पर्श करें	[IN:audio_volume_mute ]	audio	hi-IN
+मेरे लिए अरिजीत सिंह का हाल ही का एल्बम चालू करो	[IN:play_music [SL:artist_name अरिजीत सिंह] [SL:song_name हाल ही का एल्बम] ]	play	hi-IN
+चलो कही और का राग और hip hop सुनते है us का नहीं	[IN:play_music [SL:music_genre राग] [SL:music_genre hip hop] ]	play	hi-IN
+वर्तमान चल रहे संगीत शीर्षक की जाँच करें	[IN:music_query ]	music	hi-IN
+क्या pizza hut deliver करता है	[IN:takeaway_query [SL:business_name pizza hut] [SL:order_type deliver करता है] ]	takeaway	hi-IN
+मेरी पिछली बार इस्तेमाल की गई प्लेलिस्ट चलाओ	[IN:play_music ]	play	hi-IN
+मुझे नई दिल्ली में समय दो	[IN:datetime_query [SL:place_name नई दिल्ली] ]	datetime	hi-IN
+भक्ति चालू करो	[IN:play_music [SL:music_genre भक्ति] ]	play	hi-IN
+कृपया मूड सेट करो	[IN:iot_hue_lightchange ]	iot	hi-IN
+बत्तियाँ नीली करें	[IN:iot_hue_lightchange [SL:color_type नीली] ]	iot	hi-IN
+बैठक कक्ष की बत्तियों को लाल करें	[IN:iot_hue_lightchange [SL:house_place बैठक कक्ष] [SL:color_type लाल] ]	iot	hi-IN
+मुझे दिल्ली का मौसम बताओ olly	[IN:weather_query [SL:place_name दिल्ली] ]	weather	hi-IN
+सीरी बाहर का मौसम कैसा है	[IN:weather_query ]	weather	hi-IN
+मेरी जन्म तिथि को कौन सा दिन था	[IN:datetime_query [SL:date मेरी जन्म तिथि] ]	datetime	hi-IN
+जो गाना चल रहा है उसका शीर्षक क्या है	[IN:music_query ]	music	hi-IN
+क्या आप मुझे बता सकते हैं कि यह कौन सा समय है	[IN:datetime_query ]	datetime	hi-IN
+सोमवार का मौसम	[IN:weather_query [SL:date सोमवार] ]	weather	hi-IN
+मंगलवार को मौसम	[IN:weather_query [SL:date मंगलवार] ]	weather	hi-IN
+गाना दोहराएं	[IN:music_settings [SL:player_setting गाना] ]	music	hi-IN
+क्या आप कृपया मुझे वर्तमान मौसम की स्थिति बता सकते हैं	[IN:weather_query ]	weather	hi-IN
+क्या आप कृपया मेरे शयनकक्ष की बत्ती बंद करो	[IN:iot_hue_lightoff [SL:house_place शयनकक्ष] ]	iot	hi-IN
+अरे मुझे खुश करने के लिए कुछ चुटकुला सुनाओ	[IN:general_joke ]	general	hi-IN
+होली के लिए कितने सप्ताह शेष हैं	[IN:datetime_query [SL:event_name होली] ]	datetime	hi-IN
+क्या आपके पास समाचार प्रदान करने वाली कोई खबर है	[IN:news_query ]	news	hi-IN
+मुंबई में मौसम	[IN:weather_query [SL:place_name मुंबई] ]	weather	hi-IN
+कृपया सुबह नौ बजे सी. एस. टी. को आई. एस. टी. में बदलें	[IN:datetime_convert [SL:time सुबह नौ बजे] [SL:place_name सी. एस. टी.] [SL:place_name आई. एस. टी.] ]	datetime	hi-IN
+कोठरी की बत्ती बंद करो	[IN:iot_hue_lightoff ]	iot	hi-IN
+सोनू निगम का संगीत	[IN:play_music [SL:artist_name सोनू निगम] ]	play	hi-IN
+कृपया मेरे शीर्ष मूल्यांकित भक्ति गाने चलाएं	[IN:play_music [SL:music_descriptor शीर्ष मूल्यांकित] [SL:music_genre भक्ति] ]	play	hi-IN
+मेरे घर की सभी बत्तियो के लिए नीला रंग सेट करें	[IN:iot_hue_lightchange [SL:color_type नीला] ]	iot	hi-IN
+मैं हमेशा के लिए हिप हॉप हूँ	[IN:music_likeness [SL:music_genre हिप हॉप] ]	music	hi-IN
+ऑली बत्तियों को सात कर दें	[IN:iot_hue_lightdim [SL:change_amount को सात] ]	iot	hi-IN
+रोशनी नीचे सात करें	[IN:iot_hue_lightdim [SL:change_amount रोशनी नीचे सात] ]	iot	hi-IN
+बत्ती की शक्ति को कम करें	[IN:iot_hue_lightdim ]	iot	hi-IN
+सातवें दिन मौसम कैसा रहेगा	[IN:weather_query [SL:date सातवें] ]	weather	hi-IN
+कृपया स्पीकर को म्यूट करो	[IN:audio_volume_mute ]	audio	hi-IN
+अभी चल रहे संगीत का नाम क्या है	[IN:music_query ]	music	hi-IN
+वॉल्यूम बढ़ाओ	[IN:audio_volume_up ]	audio	hi-IN
+यह कौन सा गाना है	[IN:music_query ]	music	hi-IN
+मैं कुछ-कुछ होता है सुनना चाहता हूँ	[IN:play_music [SL:song_name कुछ-कुछ होता है] ]	play	hi-IN
+गानों के मौजूदा एल्बम को फेरबदल करें	[IN:music_settings [SL:player_setting फेरबदल] ]	music	hi-IN
+इंडियन एक्सप्रेस से क्या समाचार अपडेट हैं	[IN:news_query [SL:media_type इंडियन एक्सप्रेस] ]	news	hi-IN
+समाचार एक्सप्रेस में नया क्या है	[IN:news_query [SL:media_type समाचार एक्सप्रेस] ]	news	hi-IN
+समाचार एक्सप्रेस पर क्या चल रहा है	[IN:news_query [SL:media_type समाचार एक्सप्रेस] ]	news	hi-IN
+मुझे बताओ क्या समय हो गया है	[IN:datetime_query ]	datetime	hi-IN
+मुझे दिल्ली में समय बताएं	[IN:datetime_query [SL:place_name दिल्ली] ]	datetime	hi-IN
+कौन से अलार्म आने वाले हैं	[IN:alarm_query ]	alarm	hi-IN
+olly बत्तियाँ बंद करो	[IN:iot_hue_lightoff ]	iot	hi-IN
+क्या मोदी पर नवीनतम ब्रेकिंग न्यूज प्राप्त करने का कोई तरीका है	[IN:news_query [SL:news_topic मोदी] ]	news	hi-IN
+बत्तियाँ चालू करो	[IN:iot_hue_lighton ]	iot	hi-IN
+ऑर्डर टेक-आउट	[IN:takeaway_order [SL:order_type टेक-आउट] ]	takeaway	hi-IN
+क्या आप सभी रोशनी कम कर देंगे	[IN:iot_hue_lightdim ]	iot	hi-IN
+मुझे समाचार दो	[IN:news_query ]	news	hi-IN
+रोशनी कम करें	[IN:iot_hue_lightdim ]	iot	hi-IN
+इस सप्ताह का मौसम क्या है	[IN:weather_query [SL:date इस सप्ताह] ]	weather	hi-IN
+मुझे इस सप्ताह के लिए मौसम बताओ	[IN:weather_query [SL:date इस सप्ताह] ]	weather	hi-IN
+अरे ओली मैं रोबोट वैक्यूम क्लीनर कैसे शुरू करूं	[IN:iot_cleaning [SL:device_type रोबोट वैक्यूम क्लीनर] ]	iot	hi-IN
+कृपया रोबोट वैक्यूम क्लीनर चालू करने में मेरी मदद करें	[IN:iot_cleaning [SL:device_type रोबोट वैक्यूम क्लीनर] ]	iot	hi-IN
+मैं कुछ आधुनिक रॉक सुनना चाहता हूँ	[IN:play_music [SL:music_genre आधुनिक रॉक] ]	play	hi-IN
+मेरे नवीनतम आदेश पर क्या स्थिति है	[IN:takeaway_query ]	takeaway	hi-IN
+बाहर कैसा है	[IN:weather_query ]	weather	hi-IN
+सप्ताह के किस दिन गणतंत्र दिवस का है	[IN:datetime_query [SL:event_name गणतंत्र दिवस का] ]	datetime	hi-IN
+मुझे दिल्ली में मौसम बताओ	[IN:weather_query [SL:place_name दिल्ली] ]	weather	hi-IN
+मुझे कुछ संगीत चाहिए मेरी कसरत प्लेलिस्ट को चलाने के बारे में कैसे	[IN:play_music [SL:playlist_name कसरत प्लेलिस्ट] ]	play	hi-IN
+कल सुबह आठ बजे का अलार्म लगाओ	[IN:alarm_set [SL:date कल] [SL:timeofday सुबह] [SL:time आठ] ]	alarm	hi-IN
+बेडरूम की लाइट्स को डिम कर दो	[IN:iot_hue_lightdim [SL:house_place बेडरूम] ]	iot	hi-IN
+मुझे कलाकार का नाम बताओ	[IN:music_query ]	music	hi-IN
+गाने का नाम क्या है	[IN:music_query ]	music	hi-IN
+आज विश्व समाचार में क्या हो रहा है	[IN:news_query [SL:date आज] [SL:place_name विश्व] ]	news	hi-IN
+ताजा अंतरराष्ट्रीय समाचार क्या है	[IN:news_query [SL:place_name अंतरराष्ट्रीय] ]	news	hi-IN
+मुझे अभी कॉफी चाहिए	[IN:iot_coffee ]	iot	hi-IN
+कृपया मेरे बिस्तर के किनारे का लैम्प को बंद कर दें	[IN:iot_hue_lightoff [SL:device_type बिस्तर के किनारे का लैम्प] ]	iot	hi-IN
+कृपया वैक्यूम शुरू करें	[IN:iot_cleaning [SL:device_type वैक्यूम] ]	iot	hi-IN
+अब वैक्यूम क्लीनर शुरू करें	[IN:iot_cleaning [SL:device_type वैक्यूम क्लीनर] ]	iot	hi-IN
+सभी प्रतिक्रियाओं को अभी म्यूट करें	[IN:audio_volume_mute ]	audio	hi-IN
+कृपया बोलना बंद करो	[IN:audio_volume_mute ]	audio	hi-IN
+क्या हमें नए प्रदाता से कोई अपडेट मिला	[IN:news_query [SL:media_type नए प्रदाता] ]	news	hi-IN
+रिक्त के बारे में नया क्या है	[IN:news_query [SL:news_topic रिक्त] ]	news	hi-IN
+नेहा कक्कड़ चलाओ	[IN:play_music [SL:artist_name नेहा कक्कड़] ]	play	hi-IN
+हैदराबाद के लिए मौसम का पूर्वानुमान क्या है	[IN:weather_query [SL:place_name हैदराबाद] ]	weather	hi-IN
+क्या अगले सप्ताह बर्फ़ पड़ेगी	[IN:weather_query [SL:date अगले सप्ताह] [SL:weather_descriptor बर्फ़] ]	weather	hi-IN
+बेघर होने के बारे में लखनऊ नगर परिषद क्या कर रही है	[IN:news_query [SL:news_topic बेघर होने के बारे में] [SL:place_name लखनऊ] [SL:news_topic नगर परिषद] ]	news	hi-IN
+न्यूज़ नेशन से समाचार प्राप्त करें	[IN:news_query [SL:media_type न्यूज़ नेशन] ]	news	hi-IN
+मैंने सुबह छह बजे से नौ बजे के बीच कितने अलार्म लगाए हैं	[IN:alarm_query [SL:timeofday सुबह] [SL:time छह बजे से नौ बजे] ]	alarm	hi-IN
+प्लेलिस्ट खोलें	[IN:play_music ]	play	hi-IN
+आदेश की पुष्टि करें	[IN:takeaway_order ]	takeaway	hi-IN
+मेरे लिए एक कप कॉफ़ी बनाओ	[IN:iot_coffee ]	iot	hi-IN
+मैं रॉक सुनना चाहता हूँ	[IN:play_music [SL:music_genre रॉक] ]	play	hi-IN
+ok google शास्त्रीय संगीत चलाओ	[IN:play_music [SL:music_genre शास्त्रीय] ]	play	hi-IN
+करंट बंद करें	[IN:iot_hue_lightoff ]	iot	hi-IN
+five thirty के लिए alarm लगाओ	[IN:alarm_set [SL:time five thirty] ]	alarm	hi-IN
+क्या मुझे इस रेस्टोरेंट से डिलीवरी मिल सकती है	[IN:takeaway_query [SL:business_type रेस्टोरेंट] [SL:order_type डिलीवरी] ]	takeaway	hi-IN
+क्या मेरा पसंदीदा रेस्टोरेंट डिलीवरी करता है	[IN:takeaway_query [SL:business_type रेस्टोरेंट] [SL:order_type डिलीवरी] ]	takeaway	hi-IN
+क्या उनके यहाँ टेकअवे है	[IN:takeaway_query [SL:order_type टेकअवे] ]	takeaway	hi-IN
+कॉफी मशीन शुरू करो	[IN:iot_coffee [SL:device_type कॉफी मशीन] ]	iot	hi-IN
+राजनीति में क्या सामाचार हैं	[IN:news_query [SL:news_topic राजनीति] ]	news	hi-IN
+मुझे समय दिखाओ	[IN:datetime_query ]	datetime	hi-IN
+जैज़ अरिजीत सिंह के संगीत चलाएं	[IN:play_music [SL:music_genre जैज़] ]	play	hi-IN
+अगले शनिवार की तारीख क्या है	[IN:datetime_query [SL:date शनिवार] ]	datetime	hi-IN
+क्या पिछली रात को यांकीस जीते	[IN:news_query [SL:date पिछली रात] ]	news	hi-IN
+स्पीकरों की आवाज़ म्यूट कर दो	[IN:audio_volume_mute ]	audio	hi-IN
+लिविंग रूम में रोशनी रोशन करें	[IN:iot_hue_lightup [SL:house_place लिविंग रूम] ]	iot	hi-IN
+कुछ कॉफी बनाओ	[IN:iot_coffee ]	iot	hi-IN
+बत्ती का रंग बदलें नीला से सफ़ेद	[IN:iot_hue_lightchange [SL:color_type नीला] [SL:color_type सफ़ेद] ]	iot	hi-IN
+घर की बत्तियाँ लाल कर दो	[IN:iot_hue_lightchange [SL:house_place घर] [SL:color_type लाल] ]	iot	hi-IN
+सोलह अप्रैल को कौन सा दिन पड़ता है	[IN:datetime_query [SL:date सोलह अप्रैल] ]	datetime	hi-IN
+कृपया एक घंटा के लिए वैक्यूम करें	[IN:iot_cleaning [SL:time एक घंटा] [SL:device_type वैक्यूम] ]	iot	hi-IN
+मुझे आज की तारीख़ बताओ	[IN:datetime_query [SL:date आज] ]	datetime	hi-IN
+बैठक कक्ष की बत्तियों को लाल पर संग्रह करें	[IN:iot_hue_lightchange [SL:house_place बैठक कक्ष] [SL:color_type लाल] ]	iot	hi-IN
+रेस्टोरेंट का वितरण कैसा चल रहा है	[IN:takeaway_query [SL:business_type रेस्टोरेंट का] [SL:order_type वितरण] ]	takeaway	hi-IN
+यह गाना को सुनने के लिए	[IN:music_query ]	music	hi-IN
+क्या डोमिनोज से साथ ले जाने ली सुविधा है	[IN:takeaway_query [SL:business_name डोमिनोज] [SL:order_type साथ ले जाने] ]	takeaway	hi-IN
+रोशनी को नीले रंग में बदलें	[IN:iot_hue_lightchange [SL:color_type नीले] ]	iot	hi-IN
+मेरे अलार्म्स बताओ	[IN:alarm_query ]	alarm	hi-IN
+कृपया मेरे द्वारा सेट किए गए किसी भी अलार्म को हटा दें	[IN:alarm_remove ]	alarm	hi-IN
+कृपया सुबह की खबर में बंगाल बाघ पर लेख को ऊपर खींचे	[IN:news_query [SL:media_type सुबह की खबर] [SL:news_topic बाघ] ]	news	hi-IN
+यहाँ का मौसम कैसा है	[IN:weather_query ]	weather	hi-IN
+जाने के लिए सामान्य अंडा रोल का आदेश दें	[IN:takeaway_order [SL:food_type अंडा रोल] ]	takeaway	hi-IN
+क्या हिंदुस्तान टाइम्स का यूट्यूब पर कोई नया वीडियो है	[IN:news_query [SL:media_type हिंदुस्तान टाइम्स] [SL:media_type यूट्यूब] ]	news	hi-IN
+अगला तुझे भूल जाना चलाओ	[IN:play_music [SL:song_name तुझे भूल जाना] ]	play	hi-IN
+मेरे देश की प्लेलिस्ट चलाओ	[IN:play_music [SL:music_genre देश] ]	play	hi-IN
+मेरी दूसरी प्लेलिस्ट चलाओ	[IN:play_music [SL:playlist_name दूसरी प्लेलिस्ट] ]	play	hi-IN
+आज की तारीख क्या है	[IN:datetime_query [SL:date आज] ]	datetime	hi-IN
+alexa ने शयन कक्ष में पंखा बंद करो	[IN:iot_wemo_off [SL:house_place शयन कक्ष] [SL:device_type पंखा] ]	iot	hi-IN
+alexa please चल रहे गाने को पसंदीदा में save कर लो	[IN:music_likeness ]	music	hi-IN
+मुझे हिप हॉप पसंद है	[IN:music_likeness [SL:music_genre हिप हॉप] ]	music	hi-IN
+कृपया अरिजीत सिंह का मेरा पसंदीदा गाना चालू करो	[IN:play_music [SL:artist_name अरिजीत सिंह] ]	play	hi-IN
+कृपया कॉफी शुरू करें	[IN:iot_coffee ]	iot	hi-IN
+कम लाइट	[IN:iot_hue_lightdim ]	iot	hi-IN
+रात का समय मोड	[IN:iot_hue_lightdim ]	iot	hi-IN
+ट्रेंडिंग तकनीक समाचार	[IN:news_query [SL:news_topic तकनीक] ]	news	hi-IN
+हाल की तकनीकी सुर्खियाँ	[IN:news_query [SL:news_topic तकनीकी] ]	news	hi-IN
+अगला गाना चालू करो	[IN:play_music ]	play	hi-IN
+कौनसे साल में गाना बना	[IN:music_query ]	music	hi-IN
+मेरे खाने का पता लगाओ	[IN:takeaway_query ]	takeaway	hi-IN
+olly श्रीनगर में हिमपात की भविष्यवाणी	[IN:weather_query [SL:place_name श्रीनगर] [SL:weather_descriptor हिमपात की भविष्यवाणी] ]	weather	hi-IN
+olly ट्रेंडिंग गरम समाचार विषय दिखाओ	[IN:news_query [SL:news_topic ट्रेंडिंग] ]	news	hi-IN
+अगला अलार्म	[IN:alarm_query ]	alarm	hi-IN
+मैं वास्तव ने साउथ इंडियन भोजन के लिए तरस रहा हूँ कृपया मेरे लिए ऑर्डर take out करो	[IN:takeaway_order [SL:food_type साउथ इंडियन] ]	takeaway	hi-IN
+आज राजनीति में नया क्या है क्या आप मोदी की खबरों को फ़िल्टर कर सकते हैं	[IN:news_query [SL:date आज] [SL:news_topic राजनीति] [SL:person मोदी] ]	news	hi-IN
+मुझे दो पिज्जा चाहिए	[IN:takeaway_order [SL:food_type पिज्जा] ]	takeaway	hi-IN
+गाना चालू करें	[IN:play_music ]	play	hi-IN
+बत्तियाँ बंद करो	[IN:iot_hue_lightoff ]	iot	hi-IN
+क्या धूप है तापमान क्या है	[IN:weather_query [SL:weather_descriptor धूप] [SL:weather_descriptor तापमान] ]	weather	hi-IN
+मुझे कुछ संगीत बजाओ	[IN:play_music ]	play	hi-IN
+मेरे आसपास में किन स्थानों से मैं साथ ले जाने के लिए खरीदारी कर सकता हूँ	[IN:takeaway_order [SL:order_type साथ ले जाने के लिए] ]	takeaway	hi-IN
+कृपया अपना वॉल्यूम कम करें	[IN:audio_volume_down ]	audio	hi-IN
+मेरा जागने का अलार्म कितने बजे के लिए सेट है	[IN:alarm_query ]	alarm	hi-IN
+क्या मेरे कल सुबह के लिए कोई अलार्म्स हैं	[IN:alarm_query [SL:date कल] [SL:timeofday सुबह] ]	alarm	hi-IN
+मेरा जल्दी का अलार्म हटा दो	[IN:alarm_remove ]	alarm	hi-IN
+शास्त्रीय कक्ष संगीत प्लेलिस्ट चलाएं	[IN:play_music [SL:music_genre शास्त्रीय कक्ष] ]	play	hi-IN
+उस गाने को आगे चलाओ	[IN:play_music ]	play	hi-IN
+इस बैंड के प्रमुख गायक का नाम क्या है	[IN:music_query ]	music	hi-IN
+बिजली बंद	[IN:iot_wemo_off ]	iot	hi-IN
+siri मेरी pop playlist चलाओ	[IN:play_music [SL:music_genre pop] ]	play	hi-IN
+मुझे बताएं कि क्या उस विषय पर कोई नई खबर है	[IN:news_query ]	news	hi-IN
+मुझे जैज़ पसंद है आपको पता होना चाहिए	[IN:music_likeness [SL:music_genre जैज़] ]	music	hi-IN
+कृपया my playlist देखें	[IN:music_likeness ]	music	hi-IN
+क्या तुम एक सौ तीस का अलार्म लगा सकती हो	[IN:alarm_set [SL:time एक सौ तीस] ]	alarm	hi-IN
+कल के लिए अलार्म कैंसिल करो	[IN:alarm_remove [SL:date कल] ]	alarm	hi-IN
+वर्तमान केंद्रीय समय क्या है	[IN:datetime_query [SL:time_zone केंद्रीय] ]	datetime	hi-IN
+कल के लिए सेट अलार्म हटा दें	[IN:alarm_remove [SL:date कल] ]	alarm	hi-IN
+olly कृपया रोशनी कम करें	[IN:iot_hue_lightdim ]	iot	hi-IN
+क्या कल नई दिल्ली में बारिश होगी	[IN:weather_query [SL:date कल] [SL:place_name नई दिल्ली] [SL:weather_descriptor बारिश] ]	weather	hi-IN
+मुंबई में कितने बजे हैं	[IN:datetime_query [SL:place_name मुंबई] ]	datetime	hi-IN
+पूर्वी और प्रशांत के बीच समय का अंतर क्या है	[IN:datetime_convert [SL:time_zone पूर्वी] [SL:time_zone प्रशांत] ]	datetime	hi-IN
+क्या आस-पास के भारतीय भोजनालय वितरण करते हैं	[IN:takeaway_query [SL:food_type भारतीय] [SL:business_type भोजनालय] [SL:order_type वितरण] ]	takeaway	hi-IN
+चेन्नई में मौसम कैसा है	[IN:weather_query [SL:place_name चेन्नई] ]	weather	hi-IN
+ok google मौसम कैसा है	[IN:weather_query ]	weather	hi-IN
+प्रकाश कम करें	[IN:iot_hue_lightdim ]	iot	hi-IN
+कृपया मेरा वेमो प्लग सॉकेट चालू करें	[IN:iot_wemo_on [SL:device_type वेमो प्लग सॉकेट] ]	iot	hi-IN
+अगले सप्ताह मौसम कैसा रहेगा	[IN:weather_query [SL:date अगले सप्ताह] ]	weather	hi-IN
+गाना कैसे रिपीट करें	[IN:music_query ]	music	hi-IN
+यह कौनसा संगीत है	[IN:music_query ]	music	hi-IN
+कृपया रोशनी बढ़ाएं	[IN:iot_hue_lightup ]	iot	hi-IN
+भक्ति प्लेलिस्ट चालू करें	[IN:play_music [SL:playlist_name भक्ति प्लेलिस्ट] ]	play	hi-IN
+इस माह में सप्ताह का कौन सा दिन बाइसवां पड़ता है	[IN:datetime_query [SL:date इस माह] [SL:date बाइसवां] ]	datetime	hi-IN
+सोने जाओ	[IN:audio_volume_mute ]	audio	hi-IN
+मुझे कल प्रातः सात बजे उठने का अलार्म चाहिए	[IN:alarm_set [SL:date कल] [SL:time प्रातः सात बजे] [SL:alarm_type उठने] ]	alarm	hi-IN
+कृपया सभी बाहरी बत्तियाँ चालू करो	[IN:iot_hue_lighton ]	iot	hi-IN
+कृपया वॉल्यूम बढ़ाएं	[IN:audio_volume_up ]	audio	hi-IN
+सरकारी तालाबंदी पर ताजा खबर प्राप्त करें	[IN:news_query [SL:news_topic सरकारी तालाबंदी] ]	news	hi-IN
+हनी सिंह के गाने चलाओ	[IN:play_music [SL:artist_name हनी सिंह] ]	play	hi-IN
+रात का समय	[IN:general_quirky ]	general	hi-IN
+मुझे खाने की डिलीवरी मिल गई	[IN:takeaway_order [SL:order_type डिलीवरी] ]	takeaway	hi-IN
+कुछ भक्ति वाला चालू करें	[IN:play_music [SL:music_genre भक्ति] ]	play	hi-IN
+क्या यह शुक्रवार को समुद्र तट पर अच्छा रहेगा	[IN:weather_query [SL:date शुक्रवार] [SL:place_name समुद्र तट] [SL:weather_descriptor अच्छा] ]	weather	hi-IN
+अरिजीत सिंह का तुम ही हो एल्बम चलाएं	[IN:play_music [SL:artist_name अरिजीत सिंह] ]	play	hi-IN
+कृपया मेरे लिए एक कॉफी बनाओ	[IN:iot_coffee ]	iot	hi-IN
+इस सप्ताह में किस दिन बारिश होगी	[IN:weather_query [SL:date इस सप्ताह] [SL:weather_descriptor बारिश] ]	weather	hi-IN
+इस सप्ताह में मौसम कैसा है	[IN:weather_query [SL:date इस सप्ताह] ]	weather	hi-IN
+दोपहर एक बजे का alarm set करो	[IN:alarm_set [SL:time एक बजे] ]	alarm	hi-IN
+भारतीय चुनाव के बारे में ताजा खबर क्या है	[IN:news_query [SL:news_topic भारतीय चुनाव] ]	news	hi-IN
+कृपया मेरे लिए एक कॉफी बनाओ	[IN:iot_coffee ]	iot	hi-IN
+आज चमकीला दिन है	[IN:weather_query [SL:date आज] [SL:weather_descriptor चमकीला] ]	weather	hi-IN
+सिडनी में अभी मौसम कैसा है	[IN:weather_query [SL:place_name सिडनी] ]	weather	hi-IN
+मैं अपनी प्लेलिस्ट सुनना चाहता हूँ क्या आप इसे अभी चलाएंगे	[IN:play_music ]	play	hi-IN
+ज़रूरी नहीं ar rahman चलाओ	[IN:play_music [SL:song_name ज़रूरी नहीं] [SL:artist_name ar rahman] ]	play	hi-IN
+ओडिसा में कितनी गर्मी है	[IN:weather_query [SL:place_name ओडिसा] [SL:weather_descriptor गर्मी] ]	weather	hi-IN
+दिल्ली में वर्तमान समय क्या है	[IN:datetime_query [SL:place_name दिल्ली] ]	datetime	hi-IN
+हैदराबाद में वर्तमान समय क्या है	[IN:datetime_query [SL:place_name हैदराबाद] ]	datetime	hi-IN
+क्या रविवार को एक पोशाक के लिए यह बहुत ठंडा होगा	[IN:weather_query [SL:date रविवार] [SL:weather_descriptor ठंडा] ]	weather	hi-IN
+सुनिधि चौहान का कुछ सुनाओ	[IN:play_music [SL:artist_name सुनिधि चौहान] ]	play	hi-IN
+यह बहुत उज्ज्वल है	[IN:iot_hue_lightdim ]	iot	hi-IN
+dominoes से दो बड़े pizzas and pieces of hot wings ऑर्डर करें	[IN:takeaway_order [SL:business_name dominoes] [SL:food_type pizzas and pieces of hot wings] ]	takeaway	hi-IN
+आज की तारीख और समय क्या है	[IN:datetime_query [SL:date आज] ]	datetime	hi-IN
+ऊपर से मेरा वर्तमान प्लेलिस्ट चलाओ	[IN:play_music ]	play	hi-IN
+मेरा पसंदीदा देशी गाना बजाओ	[IN:play_music [SL:music_genre देशी] ]	play	hi-IN
+भारत में इस समय क्या समय है	[IN:datetime_query [SL:place_name भारत] ]	datetime	hi-IN
+olly भारत में इस समय क्या समय है	[IN:datetime_query [SL:place_name भारत] ]	datetime	hi-IN
+प्लीज प्ले अरिजीत सिंह सनम रे	[IN:play_music [SL:artist_name अरिजीत सिंह] ]	play	hi-IN
+मुझे समय बताओ	[IN:datetime_query ]	datetime	hi-IN
+दा प्रिंट पर ताजा खबर क्या है	[IN:news_query [SL:news_topic दा प्रिंट] ]	news	hi-IN
+इसके बाद मेरे लिए दिलवाले चालू करो	[IN:play_music [SL:song_name दिलवाले] ]	play	hi-IN
+मैं कुछ जैज़ सुनना चाहता हूँ	[IN:play_music [SL:music_genre जैज़] ]	play	hi-IN
+मुझे मुंबई का एक सप्ताह का मौसम दिखाओ	[IN:weather_query [SL:place_name मुंबई] [SL:date एक सप्ताह] ]	weather	hi-IN
+smart plug socket को बंद करें	[IN:iot_wemo_off [SL:device_type smart plug socket को] ]	iot	hi-IN
+वेमो प्लग सॉकेट चालू करें	[IN:iot_wemo_on [SL:device_type वेमो प्लग सॉकेट] ]	iot	hi-IN
+स्पीकर वॉल्यूम को कम करें	[IN:audio_volume_down ]	audio	hi-IN
+रूम्बा को चालू करो	[IN:iot_cleaning [SL:device_type रूम्बा] ]	iot	hi-IN
+मेरे लिए साउथ इंडियन खाना खरीदो	[IN:takeaway_order [SL:food_type साउथ इंडियन] ]	takeaway	hi-IN
+जो गाना रेडियो पर है उसका निर्माता कौन है	[IN:music_query ]	music	hi-IN
+अभी चल रहे इंडियन प्रीमियर लीग खेल के लिए स्कोर क्या हैं	[IN:news_query [SL:news_topic इंडियन प्रीमियर लीग] ]	news	hi-IN
+अमर उजाला की हेडलाइन क्या है	[IN:news_query [SL:media_type अमर उजाला] ]	news	hi-IN
+सप्ताह के बाकी दिनों में मौसम कैसा दिखता है	[IN:weather_query [SL:date सप्ताह के बाकी दिनों] ]	weather	hi-IN
+क्या जल्द ही कोई फ्लिप फ्लॉप मौसम होने वाला है	[IN:weather_query [SL:weather_descriptor फ्लिप फ्लॉप मौसम] ]	weather	hi-IN
+जैसा मौसम अब है	[IN:weather_query ]	weather	hi-IN
+कृपया प्रकाश बढ़ाएं	[IN:iot_hue_lightup ]	iot	hi-IN
+क्या अगले सप्ताह कोई हिमपात होगा	[IN:weather_query [SL:date अगले सप्ताह] [SL:weather_descriptor हिमपात] ]	weather	hi-IN
+कृपया बुधवार शाम का अलार्म हटा दें	[IN:alarm_remove [SL:date बुधवार] [SL:timeofday शाम] ]	alarm	hi-IN
+श्रीनगर में आज कितनी बर्फ गिरी	[IN:weather_query [SL:place_name श्रीनगर] [SL:date आज] [SL:weather_descriptor बर्फ] ]	weather	hi-IN
+मेरे लिए इस गाने की शैली को सेव करें	[IN:music_likeness ]	music	hi-IN
+मुझे यह गाना सुनना अच्छा लगता है	[IN:music_likeness ]	music	hi-IN
+इस गाने के बाद सनम रे प्ले करें	[IN:play_music [SL:song_name सनम रे] ]	play	hi-IN
+मुझे तीन घंटे में सचेत करें	[IN:alarm_set [SL:time तीन घंटे] ]	alarm	hi-IN
+साथिया	[IN:play_music [SL:music_genre साथिया] ]	play	hi-IN
+अभी मौसम क्या है	[IN:weather_query ]	weather	hi-IN
+मुझे बताओ कि भारतीय राजनीति में क्या हो रहा है	[IN:news_query [SL:news_topic भारतीय राजनीति] ]	news	hi-IN
+मैं जानना चाहता हूं कि इस समय इंग्लिश प्रीमियर लीग में कौन शीर्ष पर है	[IN:news_query [SL:news_topic इंग्लिश प्रीमियर लीग] ]	news	hi-IN
+एलेक्सा मेरे क्षेत्र में क्या खबर है	[IN:news_query ]	news	hi-IN
+मुझे कुछ अरिजीत सिंह सुनने का समय	[IN:play_music [SL:artist_name अरिजीत सिंह] ]	play	hi-IN
+दोहराना चालू करें	[IN:music_settings [SL:player_setting दोहराना] ]	music	hi-IN
+सफाई चालू करें	[IN:iot_cleaning ]	iot	hi-IN
+पिज़्ज़ा के लिए बाहर जाने के लिए अगले सप्ताह सबसे अच्छा दिन कौन सा है	[IN:datetime_query [SL:food_type पिज़्ज़ा] [SL:date अगले सप्ताह] ]	datetime	hi-IN
+मैं आज किस तरह के मौसम की उम्मीद कर सकता हूं	[IN:weather_query [SL:date आज] ]	weather	hi-IN
+इंदौर में समय क्या है	[IN:datetime_query [SL:place_name इंदौर] ]	datetime	hi-IN
+कृपया सुबह आठ बजे का अलार्म लगा दें	[IN:alarm_set [SL:time आठ बजे] ]	alarm	hi-IN
+बहुत सारे अरिजीत सिंह सोनू निगम और अरमान मालिक को प्लेलिस्ट में जोड़ें	[IN:play_music [SL:artist_name अरिजीत सिंह सोनू निगम] ]	play	hi-IN
+क्या आप मेरे लिए कुछ नृत्य संगीत चला सकते हैं	[IN:play_music [SL:music_genre नृत्य संगीत] ]	play	hi-IN
+playlist से गाने चलाए	[IN:play_music ]	play	hi-IN
+मैंने अभी कौन से अलार्म लगा रखे हैं	[IN:alarm_query ]	alarm	hi-IN
+मुंबई भारत में आज का तापमान क्या होगा	[IN:weather_query [SL:place_name मुंबई भारत] [SL:date आज] [SL:weather_descriptor तापमान] ]	weather	hi-IN
+gaana लोड करो	[IN:play_music [SL:app_name gaana] ]	play	hi-IN
+अरे ओली मुझे एक चुटकुला सुनाओ	[IN:general_joke ]	general	hi-IN
+मैं chinese food tonight ऑर्डर करना चाहता हूँ जो मुझे डिलीवर कर रहा है	[IN:takeaway_order [SL:food_type chinese] [SL:timeofday tonight] ]	takeaway	hi-IN
+hey siri अभी की लाइट सेटिंग को चेंज कर दो	[IN:iot_hue_lightchange ]	iot	hi-IN
+अरिजीत सिंह के नए गाने बजाएं	[IN:music_query ]	music	hi-IN
+चार सौ बजे का अलार्म सेट हटा दें	[IN:alarm_remove [SL:time चार सौ बजे] ]	alarm	hi-IN
+क्या कल तापमान नब्बे डिग्री से अधिक होगा	[IN:weather_query [SL:date कल] [SL:weather_descriptor नब्बे डिग्री] ]	weather	hi-IN
+मेरे पिछले साल के पसंदीदा गाने चलाओ	[IN:play_music [SL:date पिछले साल] ]	play	hi-IN
+कृपया जवाब मत दो	[IN:audio_volume_mute ]	audio	hi-IN
+क्या आप मेरा desk lamp बंद कर सकते हैं	[IN:iot_hue_lightoff [SL:device_type desk lamp] ]	iot	hi-IN
+डेस्क का लैंप वन बंद कर दो	[IN:iot_hue_lightoff [SL:device_type डेस्क का लैंप वन] ]	iot	hi-IN
+बतियाँ चालू	[IN:iot_hue_lightup ]	iot	hi-IN
+क्या मुझे आज काम करने के लिए छाता लाने की आवश्यकता होगी	[IN:weather_query [SL:date आज] [SL:weather_descriptor छाता] ]	weather	hi-IN
+क्या आज मैं shopping करते वक़्त निकर पहन सकता हूँ	[IN:weather_query [SL:date आज] [SL:weather_descriptor निकर] ]	weather	hi-IN
+अरिजीत सिंह के संगीत को चालू करें	[IN:play_music [SL:artist_name अरिजीत सिंह] ]	play	hi-IN
+अय्यूब भाई द्वारा नवीनतम एल्बम चलाओ	[IN:play_music [SL:artist_name अय्यूब भाई] ]	play	hi-IN
+कल सुबह दस बजे का अलार्म लगाओ	[IN:alarm_set [SL:date कल] [SL:timeofday सुबह] [SL:time दस] ]	alarm	hi-IN
+दस बजे मुझे उठाओ	[IN:alarm_set [SL:time दस] ]	alarm	hi-IN
+a. c. d. c. द्वारा dynamite बजाओ	[IN:play_music [SL:artist_name a. c. d. c.] [SL:song_name dynamite] ]	play	hi-IN
+मुझे वितरण दिखाओ	[IN:takeaway_order [SL:order_type वितरण] ]	takeaway	hi-IN
+इंटरनेट खोलो	[IN:takeaway_order ]	takeaway	hi-IN
+मुझे कुछ संगीत सुनने दे	[IN:play_music ]	play	hi-IN
+मैं एक अच्छा संगीत सुनना चाहता हूँ	[IN:play_music ]	play	hi-IN
+लैम्प की रोशनी बढ़ाओ	[IN:iot_hue_lightup [SL:device_type लैम्प की रोशनी] ]	iot	hi-IN
+कृपया वॉल्यूम को सबसे तेज़ सेटिंग में बदलें	[IN:audio_volume_up [SL:change_amount सबसे तेज़] ]	audio	hi-IN
+आवाज बंद करो	[IN:audio_volume_mute ]	audio	hi-IN
+ऑडियो बंद करो	[IN:audio_volume_mute ]	audio	hi-IN
+क्या इस बार पूरा सप्ताह बारिश होगी	[IN:weather_query [SL:date सप्ताह] [SL:weather_descriptor बारिश] ]	weather	hi-IN
+सभी आंतरिक रोशनी मंद करें	[IN:iot_hue_lightdim [SL:house_place आंतरिक] ]	iot	hi-IN
+क्या मैं आज शॉर्ट्स से दूर हो पाऊंगा	[IN:weather_query [SL:date आज] [SL:weather_descriptor शॉर्ट्स] ]	weather	hi-IN
+क्या मुझे आज परतों में कपड़े पहनने चाहिए	[IN:weather_query [SL:date आज] [SL:weather_descriptor परतों] ]	weather	hi-IN
+मेरी रोशनी को कुछ यादृच्छिक रंग में बदल दें	[IN:iot_hue_lightchange [SL:color_type यादृच्छिक] ]	iot	hi-IN
+मुझे दैनिक जागरण का सबसे ताजा ख़बर दो	[IN:news_query [SL:media_type दैनिक जागरण] ]	news	hi-IN
+सेटिंग्स को म्यूट करें	[IN:audio_volume_mute ]	audio	hi-IN
+क्या इस सप्ताह हिमपात होने की सम्भावना है	[IN:weather_query [SL:date इस सप्ताह] ]	weather	hi-IN
+बत्तियों का रंग बदलें	[IN:iot_hue_lightchange ]	iot	hi-IN
+बाईस अप्रैल का दिन	[IN:datetime_query [SL:date बाईस अप्रैल] ]	datetime	hi-IN
+हम कितनी जल्दी बारिश की उम्मीद कर सकते हैं	[IN:weather_query [SL:weather_descriptor बारिश] ]	weather	hi-IN
+आपने मुझे जो मौसम की भविष्यवाणियां दी हैं वे गलत शहर के लिए हैं मैं वहां के तापमान को जानना चाहता हूं जहां मैं हूं	[IN:weather_query ]	weather	hi-IN
+एक सफेद अमेरिकी पनीर मशरूम के साथ एक डबल मशरूम चीज बर्गर ऑर्डर करें	[IN:takeaway_order [SL:food_type अमेरिकी पनीर मशरूम] [SL:food_type मशरूम चीज बर्गर] ]	takeaway	hi-IN
+सनम का चालू करें	[IN:play_music [SL:playlist_name सनम] ]	play	hi-IN
+बगिरा बाघ पर जानकारी दें	[IN:news_query [SL:date बगिरा] [SL:news_topic बाघ] ]	news	hi-IN
+मेरे आसपास इस सप्ताह मौसम कैसा रहने वाला है	[IN:weather_query [SL:date इस सप्ताह] ]	weather	hi-IN
+कृपया यहां बत्तियां चालू करें	[IN:iot_hue_lightup ]	iot	hi-IN
+स्पीकर की आवाज़ बढ़ाओ	[IN:audio_volume_up ]	audio	hi-IN
+मुंबई में समय अलग है	[IN:datetime_query [SL:place_name मुंबई] ]	datetime	hi-IN
+मुझे बताएं कि कौन से कैटरिंग पैकेज उपलब्ध हैं	[IN:takeaway_query ]	takeaway	hi-IN
+क्या आसमान में बादल छाए रहेंगे	[IN:weather_query ]	weather	hi-IN
+यह देखने के लिए जांचें कि क्या पिज्जा हट के रास्ते में मेरा ऑर्डर है	[IN:takeaway_query [SL:business_name पिज्जा हट] ]	takeaway	hi-IN
+नया स्मार्ट सॉकेट शुरू करें	[IN:iot_wemo_on [SL:device_type स्मार्ट सॉकेट] ]	iot	hi-IN
+रोशनी को दो स्तर तक कम करें	[IN:iot_hue_lightdim ]	iot	hi-IN
+इस सप्ताह का मौसम पूर्वानुमान क्या है	[IN:weather_query [SL:date इस सप्ताह] ]	weather	hi-IN
+कृपया शयनकक्ष की लाइट को बंद करे	[IN:iot_hue_lightoff [SL:house_place शयनकक्ष] ]	iot	hi-IN
+टैको बेल कब आने वाली है	[IN:takeaway_query [SL:business_name टैको बेल] ]	takeaway	hi-IN
+इस संगीत समूह का नाम क्या है	[IN:music_query ]	music	hi-IN
+मोदी की अगली प्रेस कॉन्फ्रेंस कब है	[IN:news_query [SL:news_topic मोदी] ]	news	hi-IN
+गूगल के लिए वर्तमान शेयर भाव क्या हैं	[IN:qa_stock [SL:business_name गूगल] [SL:news_topic शेयर भाव] ]	qa	hi-IN
+क्या मेरा गोल्फ खेल बारिश से धूल जाने वाला है	[IN:weather_query [SL:weather_descriptor बारिश] ]	weather	hi-IN
+भोपाल में मौसम कैसा है	[IN:weather_query [SL:place_name भोपाल] ]	weather	hi-IN
+सुबह पांच बजे का अलार्म लगाओ	[IN:alarm_set [SL:time सुबह पांच बजे] ]	alarm	hi-IN
+रात के दस बजे के लिए अलार्म सेट करो	[IN:alarm_set [SL:time रात] [SL:time दस बजे] ]	alarm	hi-IN
+कल का मौसम कैसा है	[IN:weather_query [SL:date कल] ]	weather	hi-IN
+क्या कल अच्छा रहेगा	[IN:weather_query [SL:date कल] [SL:weather_descriptor अच्छा] ]	weather	hi-IN
+आज मेरे क्षेत्र में क्या पूर्वानुमान है	[IN:weather_query [SL:date आज] ]	weather	hi-IN
+मेरा अलग अलार्म सूचीबद्ध करें	[IN:alarm_query ]	alarm	hi-IN
+शेयर बाजार की सभी खबरों के लिए अधिसूचना चालू करें	[IN:qa_stock [SL:news_topic शेयर बाजार] ]	qa	hi-IN
+शेयर बाजार की ताजा खबरों के बारे में मुझे सूचित करें	[IN:qa_stock [SL:news_topic शेयर बाजार] ]	qa	hi-IN
+मेरा संगीत खोलो	[IN:play_music ]	play	hi-IN
+ताजा खबर क्या है बताओ	[IN:news_query ]	news	hi-IN
+मुझे एक बेवकूफ चुटकुला चाहिए	[IN:general_joke [SL:joke_type बेवकूफ] ]	general	hi-IN
+क्या मुझे आज निक्कर पहनना चाहिए	[IN:weather_query [SL:date आज] [SL:weather_descriptor निक्कर] ]	weather	hi-IN
+क्या तुम मुझे एक अच्छा चुटकुला सकती हो	[IN:general_joke [SL:joke_type अच्छा] ]	general	hi-IN
+अंतिम गाने को फिर से दोहराओ	[IN:music_settings [SL:music_descriptor अंतिम गाने को] [SL:player_setting दोहराओ] ]	music	hi-IN
+इस वर्ष सप्ताह का कौन सा दिन सत्ताईस जून है	[IN:datetime_query [SL:date सत्ताईस जून] ]	datetime	hi-IN
+क्या मुझे गर्म होने की आवश्यकता होगी	[IN:weather_query [SL:weather_descriptor गर्म] ]	weather	hi-IN
+आज क्या है	[IN:datetime_query [SL:date आज] ]	datetime	hi-IN
+बेडरूम की लाइट्स को बंद कर दो	[IN:iot_hue_lightoff [SL:house_place बेडरूम] ]	iot	hi-IN
+समय क्षेत्र परिवर्तित करें	[IN:datetime_convert ]	datetime	hi-IN
+अन्य शहर में टाइम क्या हो रहा है	[IN:datetime_query [SL:place_name अन्य शहर] ]	datetime	hi-IN
+सूर्यास्त कब है	[IN:qa_factoid ]	qa	hi-IN
+दस दिन का पूर्वानुमान बताओ	[IN:weather_query [SL:time दस दिन] ]	weather	hi-IN
+क्या रोशनी को हरे रंग में बदला जा सकता है	[IN:iot_hue_lightchange [SL:color_type हरे] ]	iot	hi-IN
+मुझे इंडिया टी. वी. समाचार दिखाओ	[IN:news_query [SL:media_type इंडिया टी. वी.] ]	news	hi-IN
+क्या कोई खबर है	[IN:news_query ]	news	hi-IN
+कृष्णा के गाने चलाओ	[IN:play_music [SL:artist_name कृष्णा] [SL:song_name गाने] ]	play	hi-IN
+अब से पांच मिनट के लिए अलार्म सेट करें	[IN:alarm_set [SL:time अब से पांच मिनट] ]	alarm	hi-IN
+कृपया मेरा अलार्म सेट करो	[IN:alarm_set ]	alarm	hi-IN
+मुझे मशरूम पिज़्ज़ा ऑर्डर करने के लिए डोमिनोज को कॉल करें	[IN:takeaway_order [SL:food_type मशरूम पिज़्ज़ा] [SL:business_name डोमिनोज] ]	takeaway	hi-IN
+वर्तमान तापमान क्या है	[IN:weather_query [SL:weather_descriptor तापमान] ]	weather	hi-IN
+कुछ संगीत को शुरू करो	[IN:play_music ]	play	hi-IN
+क्या आप इस गीत के बारे में जानते हैं	[IN:music_query ]	music	hi-IN
+यह किसने गाया है	[IN:music_query ]	music	hi-IN
+कुछ मजेदार चुटकुले खोलें	[IN:general_joke [SL:joke_type मजेदार] ]	general	hi-IN
+मुझे एक चुटकुला सुनाओ	[IN:general_joke ]	general	hi-IN
+लाइट बंद करें	[IN:iot_hue_lightoff ]	iot	hi-IN
+मुझे तूफान समाचार पर जानकारी दें	[IN:news_query [SL:news_topic तूफान] ]	news	hi-IN
+मुझे आज के लिए शेयर बाजार की अपडेट भेजें	[IN:qa_stock [SL:date आज] [SL:news_topic शेयर बाजार] ]	qa	hi-IN
+आखिरी रात जीतने वाले क्रिकेट मैच नंबर क्या थे	[IN:news_query [SL:date आखिरी रात] [SL:news_topic जीतने वाले क्रिकेट मैच] ]	news	hi-IN
+फिनली के सोने के समय का अलार्म हटा दें	[IN:alarm_remove [SL:person फिनली] ]	alarm	hi-IN
+कृपया मुझसे शांति से बात करें	[IN:audio_volume_down ]	audio	hi-IN
+पूर्वी समय क्षेत्र के लिए समय क्या है	[IN:datetime_query [SL:time_zone पूर्वी] ]	datetime	hi-IN
+कृपया मुझे हमारे राज्य में चुनावी परिदृश्य के बारे में नवीनतम समाचार बताएं	[IN:news_query [SL:place_name राज्य] [SL:news_topic चुनावी परिदृश्य] ]	news	hi-IN
+मुझे यह गाना सुनना अच्छा लगता है	[IN:music_likeness [SL:music_genre मुझे यह गाना सुनना अच्छा लगता है] ]	music	hi-IN
+हमें लाल प्रदर्शन करो	[IN:iot_hue_lightchange [SL:color_type लाल] ]	iot	hi-IN
+अप्रैल की तेईस तारीख का शनिवार है	[IN:datetime_query [SL:date अप्रैल की तेईस तारीख] ]	datetime	hi-IN
+आज का सप्ताह क्या है	[IN:datetime_query [SL:date आज] ]	datetime	hi-IN
+गृह नगर का मौसम क्या है	[IN:weather_query [SL:place_name गृह नगर] ]	weather	hi-IN
+इस प्लेलिस्ट से संगीत को दौड़ाओ	[IN:play_music ]	play	hi-IN
+जब मेरे स्थानीय समाचार से कोई नई खबर हो तो मुझे बताएं	[IN:news_query ]	news	hi-IN
+रंग की अस्पष्टता बदलें	[IN:iot_hue_lightchange ]	iot	hi-IN
+रंग को प्रकाश से अंधेरे में बदलें	[IN:iot_hue_lightchange [SL:color_type प्रकाश] [SL:color_type अंधेरे] ]	iot	hi-IN
+wemo को ऑन करो	[IN:iot_wemo_on [SL:device_type wemo] ]	iot	hi-IN
+सुबह छह बजे का अलार्म लगाओ	[IN:alarm_set [SL:time छह बजे] ]	alarm	hi-IN
+यहाँ तो अंधेरा है	[IN:iot_hue_lighton ]	iot	hi-IN
+olly अलार्म रद्द करना	[IN:alarm_remove ]	alarm	hi-IN
+सिरी कैंसिल योग अलार्म	[IN:alarm_remove ]	alarm	hi-IN
+olly वॉल्यूम बढ़ाएं	[IN:audio_volume_up ]	audio	hi-IN
+इस गाने को रिपीट पर रखो	[IN:music_settings [SL:player_setting रिपीट] ]	music	hi-IN
+आगे तुम मिले खेलें	[IN:play_music [SL:song_name तुम मिले] ]	play	hi-IN
+day after मौसम क्या होगा	[IN:weather_query [SL:date day after] ]	weather	hi-IN
+आर्यन खान ड्रग्स केस	[IN:news_query [SL:news_topic आर्यन खान ड्रग्स केस] ]	news	hi-IN
+क्या आप कृपया मुझे बता सकते हैं कि इस सप्ताह के लिए मौसम की भविष्यवाणी क्या है	[IN:weather_query [SL:date इस सप्ताह] ]	weather	hi-IN
+क्या तुम कॉफ़ी मेकर को चला सकते हो	[IN:iot_coffee [SL:device_type कॉफ़ी मेकर] ]	iot	hi-IN
+यह यहाँ बहुत चमकीला है क्या आप बत्ती बंद कर सकते हैं	[IN:iot_hue_lightoff ]	iot	hi-IN
+इस सप्ताह मौसम कैसा रहेगा	[IN:weather_query [SL:date इस सप्ताह] ]	weather	hi-IN
+कृपया इस गाने को मेरी पसंदीदा प्लेलिस्ट में जोड़ें	[IN:music_likeness ]	music	hi-IN
+please ये गाना दोबारा बजाओ	[IN:play_music ]	play	hi-IN
+क्या गुरुवार को भी हवा चलेगी	[IN:weather_query [SL:date गुरुवार] [SL:weather_descriptor हवा] ]	weather	hi-IN
+एक चटकुला सुनाओ	[IN:general_joke ]	general	hi-IN
+ओली मुझे नरेंद्र मोदी पर कोई समाचार दो	[IN:news_query [SL:person नरेंद्र मोदी] ]	news	hi-IN
+olly क्या राष्ट्रपति चुनाव के बारे में कोई ताजा खबर है	[IN:news_query [SL:news_topic राष्ट्रपति चुनाव] ]	news	hi-IN
+आज मेरे क्षेत्र में मौसम कैसा रहने की संभावना है	[IN:weather_query [SL:date आज] ]	weather	hi-IN
+ड्राइंग हॉल में लाइट को बंद कर दो	[IN:iot_hue_lightoff [SL:house_place ड्राइंग हॉल] ]	iot	hi-IN
+मुझे नवीनतम समाचार प्राप्त करें	[IN:news_query ]	news	hi-IN
+चेतेश्वर पुजारा ने कल कितने रन बनाए थे	[IN:news_query [SL:person चेतेश्वर पुजारा] [SL:date कल] ]	news	hi-IN
+मेरा जिम प्लेलिस्ट चलाओ	[IN:play_music [SL:playlist_name जिम प्लेलिस्ट] ]	play	hi-IN
+बाथरूम की लाइट्स को बंद कर दो	[IN:iot_hue_lightoff [SL:house_place बाथरूम] ]	iot	hi-IN
+क्या मुझे आज क्या मुझे आज दस्ताने पहनने की ज़रूरत हैपहनने की ज़रूरत है	[IN:weather_query [SL:date आज] ]	weather	hi-IN
+क्या मेरी सैर के लिए छाता ज़रूरी है	[IN:weather_query [SL:weather_descriptor छाता] ]	weather	hi-IN
+हाल ही में जोड़ी गई प्लेलिस्ट खेलना शुरू करें	[IN:play_music ]	play	hi-IN
+इंडिया न्यूज़ से वर्तमान समाचार दिखाओ	[IN:news_query [SL:media_type इंडिया न्यूज़] ]	news	hi-IN
+आज तक समाचार दिखाओ	[IN:news_query [SL:media_type आज तक] ]	news	hi-IN
+बाहर कैसा है	[IN:weather_query ]	weather	hi-IN
+भोपाल में आज मौसम कैसा है	[IN:weather_query [SL:place_name भोपाल] [SL:date आज] ]	weather	hi-IN
+मुझे आपके द्वारा सेट किया गया अलार्म समय प्रदान करें	[IN:alarm_query ]	alarm	hi-IN
+क्या आप मुझे लखनऊ पुलिस पर स्थानीय समाचार दे सकते हैं	[IN:news_query [SL:news_topic लखनऊ पुलिस] ]	news	hi-IN
+मेरी प्लेलिस्ट से चलाएं	[IN:play_music ]	play	hi-IN
+पूर्वी समय क्षेत्र में स्विच करें	[IN:datetime_convert [SL:time_zone पूर्वी] ]	datetime	hi-IN
+अगले हफ्ते में चौबीस कब आता है	[IN:datetime_query [SL:date अगले हफ्ते] [SL:date चौबीस] ]	datetime	hi-IN
+itunes में नया क्या है	[IN:music_query ]	music	hi-IN
+कृपया मुझे सत्ताईस मार्च दो हजार सत्रह का मौसम दिखाएँ	[IN:weather_query [SL:date सत्ताईस मार्च दो हजार सत्रह] ]	weather	hi-IN
+भारत में खबर कैसी है	[IN:news_query [SL:place_name भारत] ]	news	hi-IN
+गाना क्या चल रहा है	[IN:music_query ]	music	hi-IN
+आवाज तेज करो	[IN:audio_volume_up ]	audio	hi-IN
+रसोई साफ करने के लिए रूमबा लें	[IN:iot_cleaning [SL:house_place रसोई] [SL:device_type रूमबा] ]	iot	hi-IN
+कृपया मुझे ओ ज़ालिमा गीत का विवरण दें	[IN:music_query [SL:artist_name ओ ज़ालिमा] ]	music	hi-IN
+शाम के पांच बजे के अलार्म से छुटकारा पाएं	[IN:alarm_remove [SL:time शाम] [SL:time पांच बजे] ]	alarm	hi-IN
+भारतीय लोक गीत चलाओ	[IN:play_music [SL:music_genre भारतीय लोक] ]	play	hi-IN
+मुझे सुबह दस बजे के बाद जैकेट चाहिए या नहीं	[IN:weather_query [SL:weather_descriptor जैकेट] ]	weather	hi-IN
+मैं जियो समाचार पढ़ना चाहता हूँ	[IN:news_query [SL:media_type जियो समाचार] ]	news	hi-IN
+क्या मुझे आज रात अपने साथ दस्ताने लाने चाहिए	[IN:weather_query [SL:timeofday आज रात] [SL:weather_descriptor दस्ताने] ]	weather	hi-IN
+क्या मुझे आज जैकेट चाहिए	[IN:weather_query [SL:date आज] [SL:weather_descriptor जैकेट] ]	weather	hi-IN
+olly रोशनी तेज करो	[IN:iot_hue_lightup ]	iot	hi-IN
+रोशनी का रंग बदलें	[IN:iot_hue_lightchange ]	iot	hi-IN
+olly एक अलग बत्ती रंग को सक्रिय करें	[IN:iot_hue_lightchange ]	iot	hi-IN
+एक अलग बत्ती के रंग को सक्रिय करें	[IN:iot_hue_lightchange ]	iot	hi-IN
+प्रधानमंत्री मोदी के लिए पब्लिक का दृष्टिकोण पे जो ताज़ा सर्वेक्षण हुआ था उसका क्या हुआ	[IN:news_query [SL:news_topic प्रधानमंत्री मोदी के लिए पब्लिक का दृष्टिकोण पे जो ताज़ा सर्वेक्षण] ]	news	hi-IN
+इस संगीत को पसंद करें	[IN:music_likeness ]	music	hi-IN
+कमरे की बत्ती बंद कर दो	[IN:iot_hue_lightoff [SL:house_place कमरे] ]	iot	hi-IN
+बीस मई कौन सा दिन है	[IN:datetime_query [SL:date बीस मई] ]	datetime	hi-IN
+जब तक कहा न जाये चुप रहो	[IN:audio_volume_mute ]	audio	hi-IN
+अभी चल रहे गाना कृपया दोहराएं	[IN:music_settings [SL:player_setting दोहराएं] ]	music	hi-IN
+कृपया मुझे कार्यदिवस के लिए सुबह के अलार्म का समय बताएं	[IN:alarm_query [SL:date कार्यदिवस] [SL:timeofday सुबह] ]	alarm	hi-IN
+तस्वीरों के लिए सहयोगी को धन्यवाद	[IN:general_quirky ]	general	hi-IN
+कुछ उत्सव गीत बजाओ	[IN:play_music [SL:music_genre उत्सव गीत] ]	play	hi-IN
+मुझे दिन के लिए खबर पढ़ें	[IN:news_query ]	news	hi-IN
+क्या संटा और बंटा एक साथ वापस आ गए	[IN:news_query [SL:person संटा] [SL:person बंटा] ]	news	hi-IN
+पच्चीस मई को शाम पांच बजे अलार्म लगाओ	[IN:alarm_set [SL:date पच्चीस मई] [SL:time पांच बजे] ]	alarm	hi-IN
+मेरे संगीत को शुरू करो	[IN:play_music ]	play	hi-IN
+assistant पूरे लाइब्रेरी में फेरबदल करें	[IN:play_music [SL:music_descriptor पूरे लाइब्रेरी] [SL:player_setting फेरबदल] ]	play	hi-IN
+सबसे पास में डोमिनोज	[IN:takeaway_order [SL:business_name डोमिनोज] ]	takeaway	hi-IN
+शफ़ल करें और भक्ति प्लेलिस्ट चलाएं	[IN:play_music [SL:playlist_name भक्ति प्लेलिस्ट] [SL:player_setting चलाएं] ]	play	hi-IN
+अलार्म सेटिंग को रिपोर्ट करो	[IN:alarm_query ]	alarm	hi-IN
+अभी का तापमान	[IN:weather_query [SL:weather_descriptor तापमान] ]	weather	hi-IN
+सोनू निगम कलाकार के सभी गाने शफ़ल करें और बजाएं	[IN:play_music [SL:artist_name सोनू निगम] [SL:music_descriptor सभी] [SL:player_setting शफ़ल] ]	play	hi-IN
+क्या मुझे इस सप्ताहांत सूर्यरोधी की आवश्यकता होगी	[IN:weather_query [SL:date इस सप्ताहांत] [SL:weather_descriptor सूर्यरोधी] ]	weather	hi-IN
+क्या मुझे दुकान से कुछ बर्फ पिघलने वाला नमक लेना चाहिए	[IN:weather_query [SL:business_type दुकान] [SL:food_type बर्फ पिघलने वाला नमक] ]	weather	hi-IN
+वेमो प्लग सॉकेट चालू करें	[IN:iot_wemo_on [SL:device_type वेमो प्लग सॉकेट] ]	iot	hi-IN
+wemo प्लग सॉकेट को ऑन कर दो	[IN:iot_wemo_on [SL:device_type wemo प्लग सॉकेट] ]	iot	hi-IN
+बस मुझे आज की तारीख बताएं	[IN:datetime_query [SL:date आज] ]	datetime	hi-IN
+olly मुंबई और कोलकाता के मौसम का पूर्वानुमान बताओ	[IN:weather_query ]	weather	hi-IN
+प्रारंभ टैप करें और फिर setting चुनें	[IN:alarm_query ]	alarm	hi-IN
+नई दिल्ली भारत में इस समय क्या समय है	[IN:datetime_query [SL:place_name नई दिल्ली भारत] ]	datetime	hi-IN
+भक्ति वाले गानों को चालू करो	[IN:play_music [SL:music_descriptor भक्ति वाले गानों] ]	play	hi-IN
+सोनू निगम	[IN:play_music [SL:artist_name सोनू निगम] ]	play	hi-IN
+घर की सफाई शरू करो	[IN:iot_cleaning [SL:house_place घर की सफाई] ]	iot	hi-IN
+क्या मुझे काम करने के लिए जैकेट पहननी चाहिए	[IN:weather_query [SL:weather_descriptor जैकेट] ]	weather	hi-IN
+कृपया वॉल्यूम बढ़ाएं	[IN:audio_volume_up ]	audio	hi-IN
+कमरे की हर रोशनी इसकी तीव्रता को बढ़ाती है	[IN:iot_hue_lightup [SL:house_place कमरे] [SL:device_type हर रोशनी] ]	iot	hi-IN
+कृपया सुनिधि चौहान के गाने को फिर से चालू करें	[IN:play_music [SL:artist_name सुनिधि चौहान] ]	play	hi-IN
+ओरेवेना वॉयस रिकॉर्डर मुझे सिस्टम पेज देता है जहां गाने को सेव कर सकते हैं	[IN:play_music ]	play	hi-IN
+जलवायु	[IN:weather_query [SL:weather_descriptor जलवायु] ]	weather	hi-IN
+अगले वर्ष मेरा जन्मदिन किस दिन पड़ता है	[IN:datetime_query [SL:date अगले वर्ष] [SL:event_name मेरा जन्मदिन] ]	datetime	hi-IN
+सप्ताह का कौन सा दिन बारहवां है	[IN:datetime_query [SL:date बारहवां] ]	datetime	hi-IN
+ऑडियो चालू	[IN:audio_volume_up ]	audio	hi-IN
+संगीत बजाए	[IN:play_music ]	play	hi-IN
+क्या रेस्टोरेंट रॉयल इंडिया टेकअवे वितरण करता है	[IN:takeaway_query [SL:business_type रेस्टोरेंट] [SL:business_name रॉयल] [SL:order_type टेकअवे] ]	takeaway	hi-IN
+क्या सूर्यास्त के बाद धुंध होगी	[IN:weather_query [SL:time सूर्यास्त के बाद] [SL:weather_descriptor धुंध] ]	weather	hi-IN
+बहार ठंड है	[IN:weather_query [SL:weather_descriptor ठंड] ]	weather	hi-IN
+अलार्म घड़ी	[IN:datetime_query ]	datetime	hi-IN
+आज शाम पांच बजे के लिए अलार्म लगाओ टैक्सी लेबल	[IN:alarm_set [SL:timeofday शाम] [SL:time पांच] [SL:event_name टैक्सी] ]	alarm	hi-IN
+गृहनगर में मौसम	[IN:weather_query [SL:place_name गृहनगर] ]	weather	hi-IN
+इस गाने के बाद तुम ही हो एल्बम का तुम ही हो गाना चलाओ	[IN:play_music ]	play	hi-IN
+alexa क्लासिक रॉक चालू पर डालो	[IN:play_music [SL:music_genre क्लासिक रॉक] ]	play	hi-IN
+रोबोट वैक्यूम को शुरू करो	[IN:iot_cleaning [SL:device_type रोबोट वैक्यूम] ]	iot	hi-IN
+क्या यह मैंगलोर में सबसे गर्म दिन है	[IN:weather_query [SL:place_name मैंगलोर] ]	weather	hi-IN
+मुझे अलार्म टाइमिंग के बारे में बताओ	[IN:alarm_query ]	alarm	hi-IN
+किसी विशेष शब्द का मतलब	[IN:general_quirky ]	general	hi-IN
+संगीत सुनने के लिए	[IN:play_music ]	play	hi-IN
+मुझे शाम को रेन कोट की ज़रूरत है	[IN:weather_query [SL:weather_descriptor शाम को रेन कोट] ]	weather	hi-IN
+अंतरराष्ट्रीय व्यापार और व्यापार बाजार की ख़बरें	[IN:news_query [SL:news_topic अंतरराष्ट्रीय व्यापार और व्यापार बाजार] ]	news	hi-IN
+क्या आप कृपया कुछ समय के लिए मौन रह सकते हैं	[IN:audio_volume_mute ]	audio	hi-IN
+मैं खाना order करना चाहता हूँ	[IN:takeaway_order ]	takeaway	hi-IN
+आपने मेरे लिए किस समय अलार्म लगाया है	[IN:alarm_query ]	alarm	hi-IN
+मुझे अभी कुछ कॉफी चाहिए	[IN:iot_coffee ]	iot	hi-IN
+मेरी सुबह की कॉफ़ी तैयार करो	[IN:iot_coffee [SL:coffee_type सुबह] ]	iot	hi-IN
+यह कॉफी का समय है	[IN:iot_coffee ]	iot	hi-IN
+क्या domino's में मेरा order तैयार है	[IN:takeaway_query [SL:business_name domino's] ]	takeaway	hi-IN
+मैं भारतीय खाना कहाँ से पीक करूँ	[IN:takeaway_query [SL:food_type भारतीय खाना] ]	takeaway	hi-IN
+घड़ी खोलो	[IN:alarm_set ]	alarm	hi-IN
+अगला गाना चलाओ	[IN:play_music ]	play	hi-IN
+एलेक्सा प्रकाश की चमक बढानी है यहां नीचे देखना मुश्किल है	[IN:iot_hue_lightup ]	iot	hi-IN
+क्या मेरा ऑर्डर अभी लेने के लिए तैयार है	[IN:takeaway_query ]	takeaway	hi-IN
+अलार्म सेट करना	[IN:alarm_set ]	alarm	hi-IN
+क्या मुझे आज दोपहर अपने साथ छाता ले जाने की आवश्यकता है	[IN:weather_query [SL:timeofday आज दोपहर] [SL:weather_descriptor छाता] ]	weather	hi-IN
+अरिजीत सिंह वाले गाने को चालू करें	[IN:play_music [SL:artist_name अरिजीत सिंह] ]	play	hi-IN
+अरे क्या आज गोवा भारत में बारिश होने वाली है	[IN:weather_query [SL:date आज] [SL:place_name गोवा भारत] [SL:weather_descriptor बारिश] ]	weather	hi-IN
+हे olly दिल्ली में मौसम कैसा है	[IN:weather_query [SL:place_name दिल्ली] ]	weather	hi-IN
+नेहा कक्कड़ का दिलबर चालू करें	[IN:play_music [SL:artist_name नेहा कक्कड़] [SL:song_name दिलबर] ]	play	hi-IN
+हे olly हल्दीराम से चटनी के साथ समोसा ऑर्डर करें	[IN:takeaway_order [SL:business_name हल्दीराम] [SL:food_type चटनी के साथ समोसा] ]	takeaway	hi-IN
+hey siri पिज़्ज़ा के साथ एक्स्ट्रा चीज ऑर्डर करो	[IN:takeaway_order [SL:food_type पिज़्ज़ा के साथ एक्स्ट्रा चीज] ]	takeaway	hi-IN
+हे olly नोएडा में समय क्या है	[IN:datetime_query [SL:place_name नोएडा] ]	datetime	hi-IN
+मेरी हाल की प्लेलिस्ट में कुछ भी चलाएं	[IN:play_music [SL:music_descriptor कुछ भी] ]	play	hi-IN
+olly मेरी हाल की प्लेलिस्ट में कुछ भी बजाओ	[IN:play_music [SL:music_descriptor कुछ भी] ]	play	hi-IN
+जो गाना चल रहा है उसके बारे में मुझे जानकारी दें	[IN:music_query ]	music	hi-IN
+मेरे लिए मजाकिया बनो	[IN:general_joke ]	general	hi-IN
+olly मुझे अपने दस्ताने पहनना चाहिए या नहीं	[IN:weather_query [SL:weather_descriptor दस्ताने] ]	weather	hi-IN
+मुझे अगले महीने के मौसम की जानकारी दो	[IN:weather_query [SL:time अगले महीने] ]	weather	hi-IN
+वैक्यूम चालू करो	[IN:iot_cleaning [SL:device_type वैक्यूम] ]	iot	hi-IN
+क्या मुझे आज कभी लेयर्स पहननी चाहिए	[IN:weather_query [SL:date आज] ]	weather	hi-IN
+इस सप्ताह की मौसम रिपोर्ट चेक करो	[IN:weather_query [SL:date इस सप्ताह की] ]	weather	hi-IN
+मुझे एक सप्ताह का पूर्वानुमान दिखाओ	[IN:weather_query [SL:time एक सप्ताह] ]	weather	hi-IN
+क्या मुझे यहाँ से डिलीवरी मिल सकती है	[IN:takeaway_query [SL:order_type डिलीवरी] ]	takeaway	hi-IN
+ट्यूब आज बहुत व्यस्त थी	[IN:general_quirky [SL:date आज] ]	general	hi-IN
+मुझे मेरे दिन के बारे में बताओ	[IN:general_quirky ]	general	hi-IN
+डोलोरेस क्या आपको अपनी दुनिया में कुछ अजीब लगता है	[IN:general_quirky ]	general	hi-IN
+क्या आप सुनना चाहते हैं कि आज क्या हुआ है	[IN:general_quirky [SL:date आज] ]	general	hi-IN
+आप मुझे कैसे जानते हैं	[IN:general_quirky ]	general	hi-IN
+गांधीनगर के इस नए खुले भोजनालय में रात का खाना बहुत अच्छा होगा	[IN:general_quirky [SL:place_name गांधीनगर] [SL:business_type भोजनालय] ]	general	hi-IN
+olly यह कैसा चल रहा है	[IN:general_quirky ]	general	hi-IN
+आज मुझे पुरस्कार मिला	[IN:general_quirky [SL:date आज] ]	general	hi-IN
+आज मेरी बहुत सारी बैठकें हुईं	[IN:general_quirky [SL:date आज] [SL:event_name बैठकें] ]	general	hi-IN
+तुम कहाँ से हो	[IN:general_quirky ]	general	hi-IN
+आज मौसम गर्म है	[IN:general_quirky [SL:date आज] ]	general	hi-IN
+हे गूगल मैंने एक मिलियन डॉलर की लॉटरी जैकपॉट जीता है	[IN:general_quirky ]	general	hi-IN
+मुझे आज की महत्वपूर्ण खबर बताओ	[IN:news_query [SL:date आज] ]	news	hi-IN
+आज का दिन कैसा है	[IN:general_quirky [SL:date आज] ]	general	hi-IN
+वेक वेक एग और बेकी	[IN:general_quirky ]	general	hi-IN
+चल क्या रहा है	[IN:general_quirky ]	general	hi-IN
+आज की खबरों में कुछ भी दिलचस्प	[IN:news_query [SL:date आज] ]	news	hi-IN
+मुझे शनिवार को पब में आमंत्रित किया गया	[IN:general_quirky [SL:date शनिवार] [SL:place_name पब] ]	general	hi-IN
+मुझे एक अच्छा मादक पेय बताओ	[IN:general_quirky [SL:drink_type मादक पेय] ]	general	hi-IN
+मुझे भारत के बारे में कुछ बताओ	[IN:general_quirky [SL:place_name भारत] ]	general	hi-IN
+खेल	[IN:general_quirky ]	general	hi-IN
+अरे जल्द ही कौन सी अच्छी फिल्में आने वाली हैं	[IN:general_quirky ]	general	hi-IN
+तुम मेरी व्यक्तिगत जानकारी के साथ क्या करते हो	[IN:general_quirky ]	general	hi-IN
+जब मैं चाहता हूं कि यह नोट्स नीचे ले जाए	[IN:general_quirky ]	general	hi-IN
+मेरी साप्ताहिक योजना	[IN:calendar_query ]	calendar	hi-IN
+सामान्य ज्ञान	[IN:general_quirky ]	general	hi-IN
+विकिपीडिया विषय	[IN:general_quirky ]	general	hi-IN
+क्या चल रहा है	[IN:general_quirky ]	general	hi-IN
+कुत्तों की नस्लें जो सबसे अधिक हाइपोएलर्जेनिक हैं	[IN:general_quirky ]	general	hi-IN
+ओली मैं आज एक मलबे में गिर गया	[IN:general_quirky [SL:date आज] ]	general	hi-IN
+मैं आज वॉलमार्ट गया था	[IN:general_quirky [SL:date आज] [SL:place_name वॉलमार्ट] ]	general	hi-IN
+व्यंग्यात्मक चुटकुले	[IN:general_joke [SL:joke_type व्यंग्यात्मक] ]	general	hi-IN
+मनोरंजन समाचार	[IN:news_query [SL:news_topic मनोरंजन] ]	news	hi-IN
+मोबाइल	[IN:general_quirky ]	general	hi-IN
+मैं बारिश में भीग गया	[IN:general_quirky ]	general	hi-IN
+फैशन	[IN:general_quirky ]	general	hi-IN
+तय करो	[IN:calendar_query ]	calendar	hi-IN
+मुझे जवाब दो	[IN:general_quirky ]	general	hi-IN
+आज मेरा चीट डे है इसे मार्क करो	[IN:calendar_set [SL:date आज] [SL:event_name मेरा चीट डे] ]	calendar	hi-IN
+आज का दिन थका देने वाला था	[IN:general_quirky [SL:date आज] ]	general	hi-IN
+क्या आपको मेरी प्रेमिका अच्छी लगती है	[IN:general_quirky [SL:relation प्रेमिका] ]	general	hi-IN
+मुझे नेहा कक्कड़ के बारे में बताओ	[IN:general_quirky [SL:artist_name नेहा कक्कड़] ]	general	hi-IN
+दिल्ली में क्या हो रहा है	[IN:recommendation_events [SL:place_name दिल्ली] ]	recommendation	hi-IN
+मैंने इस समय क्या किया	[IN:general_quirky [SL:time इस समय] ]	general	hi-IN
+आपका दिन कैसा बीता	[IN:general_quirky ]	general	hi-IN
+ब्रह्मांड	[IN:general_quirky ]	general	hi-IN
+किस समय पर ताप स्तर	[IN:general_quirky [SL:place_name ताप स्तर] ]	general	hi-IN
+चुटकुले	[IN:general_joke ]	general	hi-IN
+खाना पकाने के बारे में पूछने के बारे में सहायक	[IN:cooking_query ]	cooking	hi-IN
+पूर्वानुमान दरें	[IN:general_quirky ]	general	hi-IN
+कारों	[IN:general_quirky ]	general	hi-IN
+बहुत व्यस्त	[IN:general_quirky ]	general	hi-IN
+गूगल एसईओ से संबंधित हालिया सलाह	[IN:general_quirky ]	general	hi-IN
+दिन का चुटुकुला	[IN:general_joke ]	general	hi-IN
+किराने की दुकान पर आवश्यक सामग्री	[IN:general_quirky [SL:business_type किराने की दुकान] ]	general	hi-IN
+कैसा चल रहा है	[IN:general_quirky ]	general	hi-IN
+अगर आप तीन चीजों के बारे में बात कर सकते हैं तो वे क्या होंगी	[IN:general_quirky ]	general	hi-IN
+अंतरिक्ष अनुसंधान	[IN:general_quirky ]	general	hi-IN
+पुस्तकें	[IN:general_quirky ]	general	hi-IN
+मशहूर हस्तियों के बारे में गपशप	[IN:general_quirky ]	general	hi-IN
+शेष सप्ताह के लिए मेरा एजेंडा क्या है	[IN:calendar_query [SL:time शेष सप्ताह] ]	calendar	hi-IN
+बैठकों से मेरा दिन साफ़ करो	[IN:calendar_remove [SL:event_name बैठकों] [SL:time दिन] ]	calendar	hi-IN
+कृपया मेरे कैलेंडर में दैनिक स्टैंड-अप दस ऐ.एम. तक रखें	[IN:calendar_set [SL:general_frequency दैनिक] [SL:event_name स्टैंड-अप] [SL:time दस ऐ.एम.] ]	calendar	hi-IN
+मेरी अगली बैठक कब है	[IN:calendar_query [SL:event_name बैठक] ]	calendar	hi-IN
+मेरे पांच पी.एम. पर दैनिक कॉल रद्द करो	[IN:calendar_remove [SL:time पांच पी.एम.] [SL:general_frequency दैनिक] [SL:event_name कॉल] ]	calendar	hi-IN
+अमित के साथ एक बैठक बुक करें	[IN:calendar_set [SL:person अमित] [SL:event_name बैठक] ]	calendar	hi-IN
+यह कब है	[IN:general_quirky ]	general	hi-IN
+क्या आज मेरा कोई कार्यक्रम है	[IN:calendar_query [SL:date आज] ]	calendar	hi-IN
+क्या मेरे पास कल के लिए कुछ भी बुक है	[IN:calendar_query [SL:date कल] ]	calendar	hi-IN
+मुझे मेरी घटनाओं के बारे में बताओ	[IN:calendar_query ]	calendar	hi-IN
+मेरे कैलेंडर की सभी घटनाओं को हटा दें	[IN:calendar_remove ]	calendar	hi-IN
+olly अशोका पार्क पर picnic का मुझे याद दिलाना	[IN:calendar_set [SL:place_name अशोका पार्क] [SL:event_name picnic] ]	calendar	hi-IN
+olly मैं इस सप्ताह के अंत में आउटडोर मूवी स्क्रीनिंग पर जाना चाहता हूं मुझे याद दिलाएं	[IN:calendar_set [SL:time सप्ताह के अंत] [SL:event_name आउटडोर मूवी] ]	calendar	hi-IN
+क्या आपने कल रात नौ बजे राम के साथ कोई मीटिंग जोड़ी है	[IN:calendar_query [SL:date कल] [SL:time नौ बजे] [SL:person राम] [SL:event_name मीटिंग] ]	calendar	hi-IN
+अगले पाँच दिनों के लिए सभी ईवेंट हटाएं	[IN:calendar_remove [SL:date अगले पाँच दिनों] ]	calendar	hi-IN
+क्या कल नौ पी.एम. पर मेरी कोई बैठकें है	[IN:calendar_query [SL:date कल] [SL:time नौ पी.एम.] [SL:event_name बैठकें] ]	calendar	hi-IN
+निम्नलिखित लोगों के साथ कैलेंडर में निम्नलिखित घटना सेट करें	[IN:calendar_set ]	calendar	hi-IN
+क्या आप मेरे द्वारा देखी गई पिछली घटना को मिटा सकते हैं	[IN:calendar_remove ]	calendar	hi-IN
+क्या मेरे कैलेंडर में कोई आगामी कार्यक्रम है	[IN:calendar_query ]	calendar	hi-IN
+मेरे कैलेंडर पर अगली अपॉइंटमेंट कब है	[IN:calendar_query [SL:event_name अपॉइंटमेंट] ]	calendar	hi-IN
+कल दो पी.एम. पर जन्मदिन की पार्टी को हटा दें	[IN:calendar_remove [SL:date कल] [SL:time दो पी.एम.] [SL:event_name जन्मदिन की पार्टी] ]	calendar	hi-IN
+क्या आप मेरे कैलेंडर से सभी ईवेंट हटा सकते हैं	[IN:calendar_remove ]	calendar	hi-IN
+यह बहुत कठिन है	[IN:general_quirky ]	general	hi-IN
+मुझे हर एक दिन सुबह नौ बजे एक reminder चाहिए	[IN:calendar_set [SL:general_frequency हर एक दिन] [SL:time सुबह नौ बजे] ]	calendar	hi-IN
+मुझे आज बैठक में किससे होने की उम्मीद करनी चाहिए	[IN:calendar_query [SL:date आज] [SL:event_name बैठक] ]	calendar	hi-IN
+सोमवार की बैठक को हर सोमवार को कैलेंडर पर रखें	[IN:calendar_set [SL:event_name सोमवार की बैठक] [SL:general_frequency हर सोमवार] ]	calendar	hi-IN
+छह मार्च को ग्यारह बजे सामाजिक आयोजन का नोटिफिकेशन लगाओ	[IN:calendar_set [SL:date छह मार्च को] [SL:time ग्यारह बजे] [SL:event_name सामाजिक आयोजन का] ]	calendar	hi-IN
+क्या कल शाम का कोई program है	[IN:calendar_query [SL:date कल] [SL:timeofday शाम] ]	calendar	hi-IN
+सभी ईवेंट और जानकारी हटाएं	[IN:calendar_remove ]	calendar	hi-IN
+सभी आयोजन और कार्यक्रमों को हटा दें	[IN:calendar_remove ]	calendar	hi-IN
+कल मेरा कार्यक्रम अनुसूची क्या है	[IN:calendar_query [SL:date कल] ]	calendar	hi-IN
+मुझे कल सुबह दस बजे की बैठक के बारे में याद दिलाना	[IN:calendar_set [SL:date कल] [SL:time सुबह दस बजे] [SL:event_name बैठक] ]	calendar	hi-IN
+इस सप्ताह मेरी कितनी बैठकें है	[IN:calendar_query [SL:date इस सप्ताह] [SL:event_name बैठकें] ]	calendar	hi-IN
+कैलेंडर को साफ करें	[IN:calendar_remove ]	calendar	hi-IN
+मुझे कल सुबह होने वाली बैठक से एक घंटे पहले याद दिलाएं	[IN:calendar_set [SL:date कल] [SL:timeofday सुबह] [SL:event_name बैठक] [SL:time एक घंटे] ]	calendar	hi-IN
+कल मेरा दोपहर का कार्यक्रम क्या है	[IN:calendar_query [SL:date कल] [SL:timeofday दोपहर] ]	calendar	hi-IN
+आनेवाले आयोजन	[IN:calendar_query ]	calendar	hi-IN
+नवीनतम आयोजन	[IN:calendar_query ]	calendar	hi-IN
+एलन के साथ कल के लिए एक मुलाकात निर्धारित करें	[IN:calendar_set [SL:person एलन] [SL:date कल] [SL:event_name मुलाकात] ]	calendar	hi-IN
+क्या मेरे कैलेंडर पर कोई आयोजन आनेवाला है	[IN:calendar_query ]	calendar	hi-IN
+अगले महीने की छुट्टियों के लिए एक रिमाइंडर लगाए	[IN:calendar_set [SL:date अगले महीने] [SL:event_name छुट्टियों] ]	calendar	hi-IN
+इस महीने के लिए स्पष्ट कैलेंडर	[IN:calendar_remove [SL:date इस महीने] ]	calendar	hi-IN
+कृपया अब से दो घंटे के लिए अलार्म सेट करें	[IN:alarm_set [SL:time अब से दो घंटे के लिए] ]	alarm	hi-IN
+क्या इस शनिवार को दोपहर दो से चार बजे के बीच कुछ भी चल रहा है	[IN:calendar_query [SL:date शनिवार] [SL:time दो] [SL:time चार बजे] ]	calendar	hi-IN
+कृपया शेष दिन के लिए मेरे सभी कैलेंडर आयोजन हटा दें	[IN:calendar_remove [SL:time शेष दिन] ]	calendar	hi-IN
+आज के लिए मेरे कैलेंडर में कौन-सी घटनाएँ हैं	[IN:calendar_query [SL:date आज] ]	calendar	hi-IN
+मेरे कैलेंडर आयोजन ईवेंट क्या हैं	[IN:calendar_query ]	calendar	hi-IN
+क्या मेरे पास आज कोई अनुस्मारक है	[IN:calendar_query [SL:date आज] ]	calendar	hi-IN
+शाम को आज की मीटिंग हटा दें	[IN:calendar_remove [SL:timeofday शाम] [SL:date आज] [SL:event_name मीटिंग] ]	calendar	hi-IN
+मुझे बारह तारीख को मेरे डॉक्टर की नियुक्ति की सुबह के बारे में बताएं	[IN:calendar_set [SL:date बारह तारीख] [SL:event_name डॉक्टर की नियुक्ति] [SL:timeofday सुबह] ]	calendar	hi-IN
+शनिवार सुबह में राहुल और राम के लिए ब्रांच में एक इवेंट बनाओ	[IN:calendar_set [SL:date शनिवार] [SL:timeofday सुबह] [SL:person राहुल] [SL:person राम] [SL:event_name ब्रांच] ]	calendar	hi-IN
+मुझे याद है कि आज शाम छह बजे सोनम से मिलना था	[IN:calendar_set [SL:date आज] [SL:time छह बजे] [SL:person सोनम] [SL:event_name मिलना] ]	calendar	hi-IN
+अगले हफ्ते मेरे बॉस के साथ वह बैठक कब है	[IN:calendar_query [SL:date अगले हफ्ते] [SL:relation बॉस] [SL:event_name बैठक] ]	calendar	hi-IN
+मेरे कैलेंडर से दसवीं की शादी हटाओ	[IN:calendar_remove [SL:date दसवीं] [SL:event_name शादी] ]	calendar	hi-IN
+आयोजानो पर आगे क्या करना है	[IN:calendar_query ]	calendar	hi-IN
+मेरे पास कल अपॉइंटमेंट है मुझे याद दिलाएं	[IN:calendar_set [SL:date कल] [SL:event_name अपॉइंटमेंट] ]	calendar	hi-IN
+शाम चार बजे	[IN:calendar_set [SL:time शाम चार बजे] ]	calendar	hi-IN
+olly मैं हर गुरुवार को दोपहर दो बजे अपने चिकित्सक से मिलूंगा	[IN:calendar_set [SL:general_frequency हर गुरुवार] [SL:time दो बजे] [SL:relation चिकित्सक] ]	calendar	hi-IN
+रद्द करना	[IN:calendar_remove ]	calendar	hi-IN
+मैं शनिवार को रात दस बजे सैली के जन्मदिन पर जाना चाहता हूँ	[IN:calendar_set [SL:date शनिवार] [SL:time दस बजे] [SL:person सैली] [SL:event_name जन्मदिन] ]	calendar	hi-IN
+मेरे पास अगले सप्ताह क्या होने वाला है	[IN:calendar_query [SL:date अगले सप्ताह] ]	calendar	hi-IN
+समीर मेरे दोस्त के बिज़नस के उदघाटन की डेट बताओ मुझे	[IN:calendar_query [SL:person समीर] [SL:relation दोस्त] [SL:event_name उदघाटन] ]	calendar	hi-IN
+कृपया मेरे कैलेंडर को दो अप्रैल को गोवा में छुट्टी के लिए चिह्नित करें	[IN:calendar_set [SL:date दो अप्रैल] [SL:place_name गोवा] [SL:event_name छुट्टी के लिए] ]	calendar	hi-IN
+आठ बजे याद दिलाना मेरी दवा लेने के लिए	[IN:calendar_set [SL:time आठ बजे] [SL:event_name दवा] ]	calendar	hi-IN
+मैच कब शुरू होगा	[IN:calendar_query [SL:event_name मैच] ]	calendar	hi-IN
+मैंने कल के लिए क्या निर्धारित किया है मुझे रद्द करने की आवश्यकता है	[IN:calendar_remove [SL:date कल] ]	calendar	hi-IN
+कल दोपहर तीन बजे का मीटिंग का एक रिमाइंडर लगाओ	[IN:calendar_set [SL:date कल] [SL:time दोपहर तीन बजे] [SL:event_name मीटिंग] ]	calendar	hi-IN
+मुझे अगले सोमवार को कपड़े धोने की याद दिलाएं	[IN:calendar_set [SL:date सोमवार] [SL:event_name कपड़े धोने] ]	calendar	hi-IN
+एक अनुस्मारक सेट करें कि मुझे कल अपने पिता के पास जाना है	[IN:calendar_set [SL:date कल] [SL:relation पिता] ]	calendar	hi-IN
+इस दोपहर के लिए कैलेंडर में एक रीयूनियन कार्यक्रम जोड़ें	[IN:calendar_set [SL:timeofday इस दोपहर] [SL:event_name रीयूनियन] ]	calendar	hi-IN
+मेरा आज का सबसे पहला अपॉइंटमेंट किसका है	[IN:calendar_query [SL:date आज] [SL:event_name अपॉइंटमेंट] ]	calendar	hi-IN
+आज के लिए मेरे शेड्यूल में क्या है	[IN:calendar_query [SL:date आज] ]	calendar	hi-IN
+कल दोपहर के भोजन के लिए जो से मिलने के लिए मुझे याद दिलाएं	[IN:calendar_set [SL:date कल] [SL:meal_type भोजन] [SL:person जो] ]	calendar	hi-IN
+क्या आप इस आयोजन के लिए मेरी बहनों के घर में स्थान निर्धारित कर सकते हैं	[IN:calendar_set [SL:relation बहनों] [SL:place_name घर] ]	calendar	hi-IN
+कैलेंडर से अगली आयोजन को हटा दें	[IN:calendar_remove ]	calendar	hi-IN
+मेरे कैलेंडर में बारह जुलाई राधा का जन्मदिन जोड़ें	[IN:calendar_set [SL:date बारह जुलाई] [SL:person राधा] [SL:event_name जन्मदिन] ]	calendar	hi-IN
+कैलेंडर में डालो कि हम डिनर के लिए जा रहे हैं फैज के साथ नौ अगस्त रात को आठ बजे	[IN:calendar_set [SL:meal_type डिनर] ]	calendar	hi-IN
+मार्च में मेरे कैलेंडर में कार्यक्रम की सूची क्या है	[IN:calendar_query [SL:date मार्च] ]	calendar	hi-IN
+शादी कब निर्धारित है	[IN:calendar_query [SL:event_name शादी] ]	calendar	hi-IN
+मार्च में कौन सी बैठकें उपलब्ध हैं	[IN:calendar_query [SL:date मार्च] [SL:event_name बैठकें] ]	calendar	hi-IN
+कृपया बाईस मार्च दो हज़ार सत्रह की तीसरी घटना की जाँच करें	[IN:calendar_query [SL:date बाईस मार्च दो हज़ार सत्रह] ]	calendar	hi-IN
+कल उसके साथ वैलेंटाइन डे जोड़ें	[IN:calendar_set [SL:date कल] [SL:event_name वैलेंटाइन डे] ]	calendar	hi-IN
+अगले महीने माँ के साथ जन्मदिन जोड़ें	[IN:calendar_set [SL:date अगले महीने] [SL:relation माँ] [SL:event_name जन्मदिन] ]	calendar	hi-IN
+दोस्त के साथ बैठक बनाएं	[IN:calendar_set [SL:relation दोस्त] [SL:event_name बैठक] ]	calendar	hi-IN
+बैठक से पहले उत्सव में शामिल हों	[IN:calendar_set [SL:event_name उत्सव] ]	calendar	hi-IN
+कृपया केवल इन लोगों के साथ एक कार्यक्रम बनाएं	[IN:calendar_set ]	calendar	hi-IN
+मुझे हवाई अड्डे से दोपहर बारह बजे तक लेने के लिए याद रखें मेरी तीन पी. एम. पर बैठक है	[IN:calendar_set [SL:event_name मुझे] [SL:place_name हवाई अड्डे] [SL:event_name लेने] [SL:time तीन पी. एम.] [SL:event_name बैठक] ]	calendar	hi-IN
+दस मार्च को रोहित के साथ मीटिंग सेट करें	[IN:calendar_set [SL:date दस मार्च] [SL:person रोहित] [SL:event_name मीटिंग] ]	calendar	hi-IN
+कल शाम सात बजे तक मेरे और खिलाड़ियों के बीच एक बैठक तय करना याद रखना	[IN:calendar_set [SL:date कल] [SL:timeofday शाम] [SL:time सात] [SL:person खिलाड़ियों] [SL:event_name बैठक] ]	calendar	hi-IN
+मेरे वर्तमान अलर्टस क्या हैं	[IN:calendar_query ]	calendar	hi-IN
+मुझे कल का interview के लिए याद दिलाएं	[IN:calendar_set [SL:date कल] [SL:event_name interview] ]	calendar	hi-IN
+आने वाले कार्यक्रम	[IN:calendar_query [SL:time आने वाले] ]	calendar	hi-IN
+पुनरावर्ती पर ईवेंट सेट करें	[IN:calendar_set ]	calendar	hi-IN
+मंगलवार को एक बैठक निर्धारित करें	[IN:calendar_set [SL:date मंगलवार] [SL:event_name बैठक] ]	calendar	hi-IN
+कल हुई उस बैठक में हमें क्या मिला	[IN:calendar_query [SL:date कल] [SL:event_name बैठक] ]	calendar	hi-IN
+कृपया मेरी अगली बैठक जोड़ें	[IN:calendar_set [SL:event_name बैठक] ]	calendar	hi-IN
+इस मद के लिए कल के लिए अनुस्मारक सेट करें	[IN:calendar_set [SL:date कल] ]	calendar	hi-IN
+बैठक के लिए व्यक्ति को बुलाओ	[IN:calendar_set [SL:event_name बैठक] ]	calendar	hi-IN
+बिल चक्र कब है	[IN:calendar_query [SL:event_name बिल चक्र] ]	calendar	hi-IN
+बिसकुट के लिए पाँच मिनट का टाइमर सेट करें	[IN:calendar_set [SL:event_name बिसकुट] [SL:time पाँच मिनट] ]	calendar	hi-IN
+हॉकी का खेल शुक्रवार को कब शुरू होता है	[IN:calendar_query [SL:event_name हॉकी का खेल] [SL:date शुक्रवार] ]	calendar	hi-IN
+कृपया मेरे सभी कैलेंडर घटनाएँ हटा दें	[IN:calendar_remove ]	calendar	hi-IN
+मुझे कल सुबह पिज़्ज़ा बनाने की याद दिलाना	[IN:calendar_set [SL:date कल] [SL:timeofday सुबह] [SL:event_name पिज़्ज़ा बनाने] ]	calendar	hi-IN
+प्रत्येक शुक्रवार के लिए दोपहर बारह बजे प्रार्थना करें	[IN:calendar_set [SL:general_frequency प्रत्येक शुक्रवार] [SL:time दोपहर बारह] [SL:event_name प्रार्थना] ]	calendar	hi-IN
+क्या मेरे पास कोई पेंडिंग रिमाइंडर हैं	[IN:calendar_query ]	calendar	hi-IN
+बीस अप्रैल को भाई के जन्मदिन का मुझे याद दिलाना मत भूलना	[IN:calendar_set [SL:relation भाई] [SL:event_name जन्मदिन] [SL:relation का] ]	calendar	hi-IN
+मैं अजय चौहान और रोहित के साथ लंच डेट जोड़ना चाहता हूं	[IN:calendar_set [SL:person अजय चौहान] [SL:person रोहित] [SL:meal_type लंच] ]	calendar	hi-IN
+मुझे आज चार ऐ.एम. पर आगामी बैठक की याद दिलाएं	[IN:calendar_set [SL:date आज] [SL:time चार ऐ.एम.] [SL:event_name बैठक] ]	calendar	hi-IN
+आगामी बैठक की सूची बनाएं	[IN:calendar_set [SL:event_name बैठक] ]	calendar	hi-IN
+राजू सिंह के साथ मेरे सभी सप्ताहांत की घटनाओं को ढूंढें और हटाएं	[IN:calendar_remove [SL:person राजू सिंह] [SL:time सप्ताहांत] ]	calendar	hi-IN
+इस घटना को मेरे कैलेंडर में नोट करें	[IN:calendar_set ]	calendar	hi-IN
+क्या मेरे पास कोई अनुस्मारक लंबित है	[IN:calendar_query ]	calendar	hi-IN
+मुझे यह जरूर याद दिलाना	[IN:calendar_set ]	calendar	hi-IN
+हे olly कृपया कल सुबह दस बजे बैठक के लिए एक अनुस्मारक सेट करें	[IN:calendar_set [SL:date कल] [SL:timeofday सुबह] [SL:time दस बजे] [SL:event_name बैठक] ]	calendar	hi-IN
+कृपया मुझे लंबित रिमाइंडर बताएं	[IN:calendar_query ]	calendar	hi-IN
+मेरी इस सप्ताह की बैठक के बारे में बताओ	[IN:calendar_query [SL:date इस सप्ताह] [SL:event_name बैठक] ]	calendar	hi-IN
+मेरा सोमवार को जन्मदिन है कार्यक्रम सेट करें	[IN:calendar_set [SL:date सोमवार] [SL:event_name जन्मदिन] ]	calendar	hi-IN
+मेरी पंद्रह तारीख को एक उड़ान है	[IN:calendar_set [SL:date पंद्रह तारीख] ]	calendar	hi-IN
+शाम के लिए एक कार्यक्रम निर्धारित करें	[IN:calendar_set [SL:timeofday शाम] ]	calendar	hi-IN
+हर तीसरे जून के लिए राज का जन्मदिन सेट करें	[IN:calendar_set [SL:date हर तीसरे जून] [SL:person राज का] [SL:event_name जन्मदिन] ]	calendar	hi-IN
+मुझे हर शुक्रवार को दुकान पर जाने के लिए याद दिलाएं	[IN:calendar_set [SL:date हर शुक्रवार] ]	calendar	hi-IN
+मेरे शनिवार के कार्यक्रम से किराने की खरीदारी हटाएं	[IN:calendar_remove [SL:date शनिवार] ]	calendar	hi-IN
+मेरे कैलेंडर से सभी डेटा हटाएं	[IN:calendar_remove ]	calendar	hi-IN
+मुझे सोमवार को क्या करना है	[IN:calendar_query [SL:date सोमवार] ]	calendar	hi-IN
+मेरे calender में एक event को दोहराओ	[IN:calendar_set ]	calendar	hi-IN
+क्या आगे बढ़ने और महीने के लिए मेरा कैलेंडर साफ़ करने के तरीके हैं	[IN:calendar_remove [SL:date महीने] ]	calendar	hi-IN
+चार फरवरी को दो पी.एम. पर कलिंजी कुंज पार्क में मेरा अभ्यास जोड़ें	[IN:calendar_set [SL:date चार फरवरी] [SL:time दो पी.एम.] [SL:place_name कलिंजी कुंज पार्क] ]	calendar	hi-IN
+कृपया मुझे स्वतीश के जन्मदिन के बारे में याद दिलाएं	[IN:calendar_set [SL:person स्वतीश] [SL:event_name जन्मदिन] ]	calendar	hi-IN
+आज की कार्यसूची किस तरह की दिखती है	[IN:calendar_query [SL:date आज] ]	calendar	hi-IN
+भाग लेने के लिए एक इवेंट जोड़ें	[IN:calendar_set ]	calendar	hi-IN
+हर दिन सुबह आठ बजे मेरे काम के कामों के लिए एक बार-बार याद दिलाना	[IN:calendar_set [SL:general_frequency हर दिन] [SL:time सुबह आठ बजे] ]	calendar	hi-IN
+मेरे समय सारणी को साफ कर दो	[IN:calendar_remove ]	calendar	hi-IN
+क्या आज सुबह आठ बजे से लेकर शाम पाँच बजे तक मेरे पास कहीं कुछ भी है	[IN:calendar_query [SL:date आज] [SL:time सुबह आठ बजे] [SL:time शाम पाँच बजे] ]	calendar	hi-IN
+इस सप्ताह कौन से रिमाइंडर आ रहे हैं	[IN:calendar_query [SL:date इस सप्ताह] ]	calendar	hi-IN
+इवेंट बेसबॉल अभ्यास जोड़ें पांच पी.एम. आज की रात	[IN:calendar_set [SL:event_name बेसबॉल अभ्यास] [SL:time पांच पी.एम.] [SL:timeofday आज की रात] ]	calendar	hi-IN
+मेरी सुबह कल कैसी दिखती है	[IN:calendar_query [SL:timeofday सुबह] [SL:date कल] ]	calendar	hi-IN
+इस शुक्रवार को बैठक में कौन शामिल होगा	[IN:calendar_query [SL:date शुक्रवार] [SL:event_name बैठक] ]	calendar	hi-IN
+दूसरे और पंद्रहवें के बीच क्या हुआ	[IN:news_query [SL:date दूसरे] [SL:date पंद्रहवें] ]	news	hi-IN
+मुझे आज और इक्कीस के बीच की सभी घटनाओं के बारे में बताएं	[IN:calendar_query [SL:date आज] [SL:date इक्कीस] ]	calendar	hi-IN
+कृपया मुझे हर तीस मिनट में चुनाव के बारे में अपडेट दें	[IN:calendar_set [SL:time तीस मिनट] [SL:event_name चुनाव] ]	calendar	hi-IN
+क्या मेरे पास आज कोई अपॉइंटमेंट है	[IN:calendar_query [SL:date आज] [SL:event_name अपॉइंटमेंट] ]	calendar	hi-IN
+कैलेंडर खोलें सभी आयोजन को हटा दें	[IN:calendar_remove ]	calendar	hi-IN
+मुझे शुक्रवार को एफएसयू में मेरे जीव विज्ञान परीक्षण के बारे में याद दिलाएं	[IN:calendar_set [SL:date शुक्रवार] [SL:place_name एफएसयू] [SL:event_name जीव विज्ञान परीक्षण] ]	calendar	hi-IN
+बीस नवंबर को क्या है	[IN:calendar_query [SL:date बीस नवंबर] ]	calendar	hi-IN
+अरिजीत सिंह के संगीत कॉन्सर्ट के लिए अगला शेड्यूल कब है	[IN:calendar_query [SL:event_name अरिजीत सिंह के संगीत] ]	calendar	hi-IN
+मुझे प्रदर्शनी के बारे में क्या जानने की आवश्यक्ता है	[IN:calendar_query ]	calendar	hi-IN
+आज रात थिएटर में कौन और क्यों चल रहा है	[IN:recommendation_events [SL:timeofday आज रात] [SL:place_name थिएटर] ]	recommendation	hi-IN
+क्या आज के लिए कोई अनुस्मारक लगा है	[IN:calendar_query [SL:date आज] ]	calendar	hi-IN
+कृपया सात मार्च को निर्धारित अभिभावक शिक्षक सम्मेलन को हटा दें	[IN:calendar_remove [SL:date सात मार्च] [SL:event_name अभिभावक शिक्षक सम्मेलन] ]	calendar	hi-IN
+क्या मेरे कैलेंडर में आज के लिए मेरी कोई मीटिंग है	[IN:calendar_query [SL:date आज] [SL:event_name मीटिंग] ]	calendar	hi-IN
+कृपया मुझे दस मिनट में काम पर जाने के लिए एक रिमाइंडर सेट करें	[IN:calendar_set [SL:time दस मिनट] [SL:event_name काम पर जाने] ]	calendar	hi-IN
+अगले सप्ताह मेरी कितनी बैठकें हैं	[IN:calendar_query [SL:date अगले सप्ताह] ]	calendar	hi-IN
+चौदह फरवरी को भोजनालय में रात के खाने का आरक्षण करें	[IN:calendar_set [SL:date चौदह फरवरी] [SL:business_type भोजनालय] [SL:meal_type रात के खाने] ]	calendar	hi-IN
+इस सप्ताह के अंत में क्या हो रहा है	[IN:calendar_query [SL:date सप्ताह] ]	calendar	hi-IN
+क्या यह सप्ताह कचरा उठाने का सप्ताह है	[IN:calendar_query [SL:date यह सप्ताह] ]	calendar	hi-IN
+आज रात डिनर पार्टी कितने बजे शुरू होगी	[IN:calendar_query [SL:timeofday आज रात] [SL:event_name डिनर पार्टी] ]	calendar	hi-IN
+मेरा अगला reminder कब है	[IN:calendar_query ]	calendar	hi-IN
+मुझे बाईस मार्च के सभी टूर्नामेंट के बारे मे सब कुछ बताओ	[IN:calendar_query [SL:date बाईस मार्च] [SL:event_name टूर्नामेंट] ]	calendar	hi-IN
+कल दोपहर को मूरथल ढाबा नई दिल्ली में दोपहर के भोजन को सूचीपत्र करो	[IN:calendar_set [SL:date कल] [SL:timeofday दोपहर] [SL:place_name मूरथल ढाबा नई दिल्ली] [SL:meal_type दोपहर के भोजन] ]	calendar	hi-IN
+क्या मेरे पास शुक्रवार की तारीख है	[IN:calendar_query [SL:date शुक्रवार] ]	calendar	hi-IN
+मुझे एक पी.एम. मेरे कुत्ते को देखरेख करने वाले से लेने के लिए एक अनुस्मारक भेजें	[IN:calendar_set [SL:time एक पी.एम.] [SL:event_name कुत्ते को] [SL:place_name देखरेख करने वाले] [SL:event_name लेने के लिए] ]	calendar	hi-IN
+मेरी मीटिंग कब है	[IN:calendar_set [SL:event_name मीटिंग] ]	calendar	hi-IN
+olly मेरे अपॉइंटमेंट्स को ईमेल करो फिर से शेड्यूल करने के लिए	[IN:email_sendemail [SL:event_name अपॉइंटमेंट्स] ]	email	hi-IN
+हर शुक्रवार को दोहराने के लिए लंच इवेंट में बदलाव करें	[IN:calendar_set [SL:date हर शुक्रवार] [SL:meal_type लंच] ]	calendar	hi-IN
+बैठक प्रतिबिंबित करने के लिए बैठक मेरे कैलेंडर को अपडेट करें	[IN:calendar_set [SL:event_name बैठक प्रतिबिंबित] ]	calendar	hi-IN
+कल ट्रेनें कब चल रही हैं	[IN:calendar_query [SL:date कल] ]	calendar	hi-IN
+राम को लेने के लिए अपराह्न तीन बजे शेषफल सेट करें	[IN:calendar_set [SL:person राम] [SL:time तीन बजे] ]	calendar	hi-IN
+चौदह तारीख को मेरी बैठक रद्द करो	[IN:calendar_remove [SL:date चौदह तारीख] [SL:event_name बैठक] ]	calendar	hi-IN
+मंगलवार रात के concert के बारे में मुझे जानकारी दो	[IN:calendar_query [SL:date मंगलवार] [SL:time रात] ]	calendar	hi-IN
+मुझे यह याद दिलाने की जरूरत है कि अजय की सेवानिवृत्ति के लिए एक बैठक है मंगलवार को तीन बजे रिमाइंडर सेट करें	[IN:calendar_set [SL:person अजय की] [SL:event_name सेवानिवृत्ति] [SL:date मंगलवार] [SL:time तीन बजे] ]	calendar	hi-IN
+उस आयोजन में क्या चल रहा है	[IN:recommendation_events ]	recommendation	hi-IN
+मैं आज सुबह दस से बारह के बीच क्या कर रहा हूँ	[IN:calendar_query [SL:time सुबह दस से बारह के बीच क्या] ]	calendar	hi-IN
+मेरी जॉन के साथ शाम की बैठक किस टाइम है	[IN:calendar_query [SL:person जॉन] [SL:event_name शाम की बैठक] ]	calendar	hi-IN
+एक अनुस्मारक सेट करें मुझे हर सुबह पांच बजे उठना होगा	[IN:alarm_set [SL:general_frequency हर सुबह] [SL:time पांच बजे] ]	alarm	hi-IN
+स्ट्रीट पीट में संगीत कार्यक्रम के बारे में अधिक जानकारी	[IN:calendar_query [SL:place_name स्ट्रीट पीट] [SL:event_name संगीत कार्यक्रम] ]	calendar	hi-IN
+olly मुझे आज रात कल की बैठक के बारे में याद दिलाएं	[IN:calendar_set [SL:timeofday आज रात] [SL:date कल की] [SL:event_name बैठक] ]	calendar	hi-IN
+बुधवार को बैठक की सूचना	[IN:calendar_set [SL:date बुधवार] [SL:event_name बैठक] ]	calendar	hi-IN
+मेरी आगामी बैठक को मेरे कैलेंडर में जोड़ें	[IN:calendar_set [SL:event_name बैठक] ]	calendar	hi-IN
+कृपया मेरा कैलेंडर पूरी तरह से साफ़ करें	[IN:calendar_remove ]	calendar	hi-IN
+कृपया आज रात जॉन के साथ मेरी बैठक को हटा दें	[IN:calendar_remove [SL:timeofday आज रात] [SL:person जॉन] [SL:event_name बैठक] ]	calendar	hi-IN
+बुधवार को दोपहर दो बजे रिमाइंडर सेट करें	[IN:calendar_set [SL:date बुधवार] [SL:time दो बजे] ]	calendar	hi-IN
+क्या यह सच है कि राम का जन्मदिन एक मार्च को है	[IN:calendar_query [SL:person राम का] [SL:event_name जन्मदिन] [SL:date एक मार्च] ]	calendar	hi-IN
+क्या तुमने कल की मीटिंग मेरे कैलेंडर में ऐड की है	[IN:calendar_query [SL:date कल की] [SL:event_name मीटिंग] ]	calendar	hi-IN
+इस सप्ताह हर दिन दोपहर में लंच मीटिंग जोड़ें	[IN:calendar_set [SL:date इस सप्ताह] [SL:general_frequency हर दिन] [SL:timeofday दोपहर] [SL:meal_type लंच] [SL:event_name मीटिंग] ]	calendar	hi-IN
+शुक्रवार को दोपहर तीन बजे मीटिंग के लिए रिमाइंडर सेट करें	[IN:calendar_set [SL:date शुक्रवार] [SL:time तीन बजे] [SL:event_name मीटिंग] ]	calendar	hi-IN
+मेरे कैलंडर में से सबकुछ हटा दो	[IN:calendar_remove ]	calendar	hi-IN
+अरे सिरी कल पक्का कर लेना कि मेरा कैलेंडर पूरी तरह से साफ हो गया है	[IN:calendar_remove [SL:date कल] ]	calendar	hi-IN
+दो घंटे में बैठक की नई अधिसूचना	[IN:calendar_set [SL:time दो घंटे] [SL:event_name बैठक] ]	calendar	hi-IN
+मुझे कैलेंडर के बारे में याद दिलाएं	[IN:calendar_set ]	calendar	hi-IN
+क्या आज सुबह कोई अपॉइंटमेंट बाकी है	[IN:calendar_query [SL:timeofday सुबह] [SL:event_name अपॉइंटमेंट] ]	calendar	hi-IN
+क्या यह सप्ताह एक वेतन-दिवस सप्ताह है	[IN:calendar_query [SL:date यह सप्ताह] ]	calendar	hi-IN
+मेरे कैलेंडर में सभी नियुक्तियों को रद्द करें	[IN:calendar_remove [SL:event_name नियुक्तियों] ]	calendar	hi-IN
+मैंने कौन से रिमाइंडर सेट किए हैं	[IN:calendar_query ]	calendar	hi-IN
+आज सुबह साढ़े छह बजे की खबर क्या है	[IN:calendar_query [SL:date आज] [SL:time साढ़े छह बजे] ]	calendar	hi-IN
+मेरे कैलेंडर में कार्यक्रम को एक पी.एम. पर हटा दें	[IN:calendar_remove [SL:time एक पी.एम.] ]	calendar	hi-IN
+olly मुझे याद दिलाना कि मुझे आज से एक सप्ताह में पांच बजे पुस्तकालय में रहना होगा	[IN:calendar_set [SL:date सप्ताह] [SL:time पांच] [SL:place_name पुस्तकालय] ]	calendar	hi-IN
+अगले शनिवार के लिए एक रिमाइंडर सेट करें पाँच बजे पुस्तकालय में जाएँ	[IN:calendar_set [SL:date शनिवार] [SL:time पाँच] [SL:place_name पुस्तकालय] ]	calendar	hi-IN
+मुझे आगामी राष्ट्रीय अवकाश के बारे में याद दिलाएं	[IN:calendar_set [SL:event_name आगामी राष्ट्रीय अवकाश] ]	calendar	hi-IN
+एक बजे मेरे कैलेंडर ईवेंट को हटा दें आज	[IN:calendar_remove [SL:time एक बजे] [SL:date आज] ]	calendar	hi-IN
+शाम को पांच बजे के लिए मेरी मीटिंग का रिमाइंडर लगाओ	[IN:calendar_set [SL:time शाम] [SL:time पांच बजे] [SL:event_name मीटिंग] ]	calendar	hi-IN
+कृपया चिकित्सक मुरारी के कार्यालय में बुधवार को नो ऐ.एम. पर अपॉइंटमेंट जोड़ें	[IN:calendar_set [SL:relation चिकित्सक मुरारी] [SL:place_name कार्यालय] [SL:date बुधवार] [SL:time नो ऐ.एम.] ]	calendar	hi-IN
+इस शाम के फ़ुटबॉल मैच की मुख्य विशेषताएं क्या थीं	[IN:calendar_query [SL:timeofday इस शाम] [SL:sport_type फ़ुटबॉल मैच] ]	calendar	hi-IN
+मुझे बताओ कि आज के लिए मेरी सारणी में क्या है	[IN:calendar_query [SL:date आज] ]	calendar	hi-IN
+बादशाह अमृतसर में कब आ रहा है	[IN:calendar_query [SL:person बादशाह] [SL:place_name अमृतसर] ]	calendar	hi-IN
+मैं अपने कैलेंडर में कुछ जोड़ना चाहता हूँ	[IN:calendar_set ]	calendar	hi-IN
+कैलेंडर से स्पष्ट घटना और ताज़ा करें	[IN:calendar_remove ]	calendar	hi-IN
+मैं कौन-सी घटनाएँ लेकर आ रहा हूँ	[IN:calendar_query ]	calendar	hi-IN
+कैलेंडर पर अगला ईवेंट हटाएं	[IN:calendar_remove ]	calendar	hi-IN
+कैलेंडर में अगला आयोजन कैंसिल कर दो	[IN:calendar_remove ]	calendar	hi-IN
+आज आठ दस के बीच मेरी कौन सी बैठकें हैं	[IN:calendar_query [SL:date आज] [SL:time आठ दस] [SL:event_name बैठकें] ]	calendar	hi-IN
+मुझे कल दोपहर दो बजे याद दिलाना	[IN:calendar_set [SL:date कल] [SL:time दोपहर दो बजे] ]	calendar	hi-IN
+इस शनिवार को हर्ष की जगह में पूल पार्टी के लिए मेरे कैलेंडर में एक कार्यक्रम निर्धारित करें	[IN:calendar_set [SL:date इस शनिवार] [SL:place_name हर्ष की जगह] [SL:event_name पूल पार्टी] ]	calendar	hi-IN
+पहली जनवरी को होने वाले कार्यक्रम का पता क्या है	[IN:calendar_query [SL:date पहली जनवरी] ]	calendar	hi-IN
+मैं राधिका से कल मिलना चाहता हूँ	[IN:calendar_set [SL:person राधिका] [SL:date कल] ]	calendar	hi-IN
+मंगलवार को सोनम के साथ मेरी बैठक रद्द करें और इसे गुरुवार के लिए पुनर्निर्धारित करें	[IN:calendar_set [SL:date मंगलवार] [SL:person सोनम] [SL:event_name बैठक] [SL:date गुरुवार] ]	calendar	hi-IN
+मेरे कैलेंडर से गुरुवार का दोपहर का भोजन हटा दें	[IN:calendar_remove [SL:date गुरुवार] [SL:meal_type दोपहर का भोजन] ]	calendar	hi-IN
+मेरे इंटरनेट बिल का भुगतान करने के लिए मुझे याद दिलाने के लिए हर महीने की पंद्रहवीं के लिए ईवेंट सेट करें	[IN:calendar_set [SL:event_name मेरे इंटरनेट बिल का भुगतान] [SL:general_frequency हर महीने की पंद्रहवीं] ]	calendar	hi-IN
+मेरे कैलेंडर में निम्नलिखित तिथि और समय जोड़ें	[IN:calendar_set ]	calendar	hi-IN
+event कहां है	[IN:calendar_query ]	calendar	hi-IN
+पांच मई को दिन के तीन बजे goshen new york में dan's graduation event को ऐड करो	[IN:calendar_set [SL:date पांच मई] [SL:time दिन के तीन बजे] [SL:place_name goshen new york] [SL:event_name dan's graduation event] ]	calendar	hi-IN
+पिछले वर्ष में मैं बैठकों में कितने घंटे रहा हूं	[IN:calendar_query [SL:time पिछले वर्ष] [SL:event_name बैठकों] ]	calendar	hi-IN
+बैठक हटाएं	[IN:calendar_remove [SL:event_name बैठक] ]	calendar	hi-IN
+मेरी अल के साथ इक्कीस मार्च को दस बजे बैठक है	[IN:calendar_set [SL:person अल] [SL:date इक्कीस मार्च] [SL:time दस] [SL:event_name बैठक] ]	calendar	hi-IN
+मुझे बैठक की तैयारी करनी थी	[IN:calendar_query [SL:event_name बैठक] ]	calendar	hi-IN
+मेरे आने वाले कार्यक्रम दिखाओ	[IN:calendar_query ]	calendar	hi-IN
+अगले आयोजन को मेरे कलेंडर से मिटाओ	[IN:calendar_remove ]	calendar	hi-IN
+क्या मेरा कैलेंडर कहता है कि मैं अप्रैल दो हजार सत्रह को खाली हूं	[IN:calendar_query [SL:date अप्रैल दो हजार सत्रह] ]	calendar	hi-IN
+साप्ताहिक नियुक्ति अनुस्मारक लगाएं	[IN:calendar_set [SL:general_frequency साप्ताहिक] ]	calendar	hi-IN
+दो दिन के बाद मेरी छुट्टी के लिए reminder सेट करें	[IN:calendar_set [SL:date दो दिन के बाद] [SL:event_name मेरी छुट्टी] ]	calendar	hi-IN
+मंगलवार दोपहर की बैठक	[IN:calendar_set [SL:date मंगलवार] [SL:timeofday दोपहर] [SL:event_name बैठक] ]	calendar	hi-IN
+क्या मेरे पास मार्च सातवें के लिए कुछ निर्धारित है	[IN:calendar_query [SL:date मार्च सातवें] ]	calendar	hi-IN
+ओली शुक्रवार को दो बजे डॉक्टर की अपॉइंटमेंट है	[IN:calendar_set [SL:date शुक्रवार] [SL:time दो बजे] [SL:event_name डॉक्टर की अपॉइंटमेंट] ]	calendar	hi-IN
+क्या आप कृपया मेरे खाने के आरक्षण को मेरे कैलेंडर में जोड़ सकते हैं	[IN:calendar_set [SL:event_name खाने के आरक्षण] ]	calendar	hi-IN
+अल्बर्ट की शादी के लिए कैलेंडर जानकारी सेट करें	[IN:calendar_set [SL:event_name अल्बर्ट की शादी] ]	calendar	hi-IN
+मेरे कैलेंडर में आज कुछ करने के लिए है	[IN:calendar_query [SL:date आज] ]	calendar	hi-IN
+मेरे स्थान पर छुट्टियां पर खोज रहे हैं	[IN:recommendation_events [SL:event_name छुट्टियां] ]	recommendation	hi-IN
+विशेष तिथियों पर हाल की घटनाओं की खोज करना	[IN:recommendation_events ]	recommendation	hi-IN
+क्या मेरी सूची में कोई रिमाइंडर है	[IN:calendar_query ]	calendar	hi-IN
+कृपया मुझे याद दिलाएं	[IN:calendar_set ]	calendar	hi-IN
+कृपया इसके लिए अलार्म सेट करें	[IN:alarm_set ]	alarm	hi-IN
+क्या मुझे सोमवार को किसी बैठक की याद दिलाने की ज़रूरत है	[IN:calendar_set [SL:date सोमवार] [SL:event_name बैठक] ]	calendar	hi-IN
+क्या पंचांग घटना गलत है	[IN:calendar_query ]	calendar	hi-IN
+शेष सप्ताह के लिए मेरी सभी मीटिंग हटा दें	[IN:calendar_remove [SL:time शेष सप्ताह के लिए] [SL:event_name मीटिंग] ]	calendar	hi-IN
+दो मई को कैलेंडर में जोड़ें राम का जन्मदिन हर साल दोहराएं	[IN:calendar_set [SL:date दो मई] [SL:person राम का] [SL:event_name जन्मदिन] [SL:general_frequency हर साल] ]	calendar	hi-IN
+मेरा रेन कोट ले लो	[IN:calendar_set [SL:event_name मेरा रेन कोट ले लो] ]	calendar	hi-IN
+कृपया मुझे अपना छाता लेने के लिए कहें क्योंकि आज बहुत गर्मी होगी	[IN:calendar_set [SL:event_name अपना छाता लेने के लिए] [SL:date आज] ]	calendar	hi-IN
+चौदह जून दो हजार सत्रह के लिए मेरा कार्यक्रम क्या है	[IN:calendar_query [SL:date चौदह जून दो हजार सत्रह] ]	calendar	hi-IN
+कृपया रविवार के सभी रिमाइंडर हटा दें	[IN:calendar_remove [SL:date रविवार] ]	calendar	hi-IN
+बिस्ट्रो इटालिया में गुरुवार को रात का खाना याद रखें	[IN:calendar_set [SL:place_name बिस्ट्रो इटालिया] [SL:date गुरुवार] [SL:meal_type रात का खाना] ]	calendar	hi-IN
+अनुस्मारक सेट करें	[IN:calendar_set ]	calendar	hi-IN
+इन लोगों के साथ पंचांग कार्यक्रम	[IN:calendar_set ]	calendar	hi-IN
+आज के लिए मेरा शेड्यूल क्लियर करें	[IN:calendar_remove [SL:date आज] ]	calendar	hi-IN
+कैलेंडर में से जानकारी निकालो	[IN:calendar_query ]	calendar	hi-IN
+नवीनतम आयोजनों के बारे में बताओ	[IN:calendar_query ]	calendar	hi-IN
+बैठकें कब हैं	[IN:calendar_query [SL:event_name बैठकें] ]	calendar	hi-IN
+पार्टी कब निर्धारित है	[IN:calendar_query [SL:event_name पार्टी] ]	calendar	hi-IN
+अगले एक सप्ताह में सभी आयोजन के साथ मुझे सूचित करें	[IN:calendar_set [SL:time अगले एक सप्ताह] ]	calendar	hi-IN
+जॉन की शादी की सालगिरह	[IN:calendar_set [SL:person जॉन] [SL:event_name शादी की सालगिरह] ]	calendar	hi-IN
+इस महीने में अवकाश कब है	[IN:calendar_query [SL:time इस महीने] [SL:event_name अवकाश] ]	calendar	hi-IN
+मुझे मंगलवार को बैठक के बारे में बताएं	[IN:calendar_set [SL:date मंगलवार] [SL:event_name बैठक] ]	calendar	hi-IN
+मैं चाहता हूं कि आप मुझे शाम के कार्यक्रम के बारे में याद दिलाएं	[IN:calendar_set [SL:event_name शाम के कार्यक्रम] ]	calendar	hi-IN
+मेरे कैलेंडर से अंकित का जन्मदिन मिटायें	[IN:calendar_remove [SL:event_name अंकित का जन्मदिन] ]	calendar	hi-IN
+ok google विभाग के वी.पी. के साथ बैठक शेड्यूल करो इक्कीस मार्च दो हजार सत्रह को	[IN:calendar_set [SL:relation विभाग के वी.पी.] [SL:event_name बैठक] [SL:date इक्कीस मार्च दो हजार सत्रह को] ]	calendar	hi-IN
+मुझे गुरुवार को उस सी. ऍफ़. ओ. के साथ एक बैठक की जरूरत है	[IN:calendar_set [SL:date गुरुवार] [SL:relation उस सी. ऍफ़. ओ.] [SL:event_name बैठक] ]	calendar	hi-IN
+मेरे कैलेंडर से जन्मदिन के आयोजन को हटा दें	[IN:calendar_remove [SL:event_name जन्मदिन] ]	calendar	hi-IN
+याद दिला दूं कि पांच अप्रैल को बॉस से मुलाकात है	[IN:calendar_set [SL:date पांच अप्रैल] [SL:relation बॉस] [SL:event_name मुलाकात] ]	calendar	hi-IN
+इस गुरुवार को वीज़ा आवेदन के लिए एक अनुस्मारक बनाएँ	[IN:calendar_set [SL:date गुरुवार] [SL:event_name वीज़ा आवेदन] ]	calendar	hi-IN
+जुलाई तीन कैलेंडर पर खाली करें	[IN:calendar_remove ]	calendar	hi-IN
+मंगलवार चार पी. एम के लिए अलार्म सेट करें	[IN:alarm_set [SL:date मंगलवार] [SL:time चार पी. एम] ]	alarm	hi-IN
+मंगलवार को मोनास की शादी के लिए एक घटना अनुस्मारक बनाओ	[IN:calendar_set [SL:date मंगलवार] [SL:event_name मोनास की शादी] ]	calendar	hi-IN
+कैलेंडर पर एक दोहराई जाने वाली घटना डालें	[IN:calendar_set [SL:event_name दोहराई जाने वाली घटना] ]	calendar	hi-IN
+इस सप्ताह मैं व्यस्त हूं	[IN:calendar_query [SL:date इस सप्ताह] ]	calendar	hi-IN
+क्या मेरे पास अगले सप्ताह नियुक्ति है	[IN:calendar_query [SL:date अगले सप्ताह] [SL:event_name नियुक्ति] ]	calendar	hi-IN
+घटना के बाद दिन हटाएं	[IN:calendar_remove ]	calendar	hi-IN
+आवश्यक घटनाओं को रीसेट करने के लिए याद दिलाएं	[IN:calendar_set ]	calendar	hi-IN
+मेरी बहन को मेरे परिवार कैलेंडर में शामिल करें	[IN:calendar_set [SL:event_name बहन] [SL:event_name परिवार] ]	calendar	hi-IN
+कन्वेंशन सेंटर कहाँ स्थित है	[IN:qa_factoid [SL:place_name कन्वेंशन सेंटर] ]	qa	hi-IN
+शुक्रवार को कोई बैठक	[IN:calendar_query [SL:date शुक्रवार] ]	calendar	hi-IN
+मुझे याद दिलाएं कि मेरी शनिवार को बारह बजे मुलाकात है	[IN:calendar_set [SL:date शनिवार] [SL:time बारह बजे] [SL:event_name मुलाकात] ]	calendar	hi-IN
+क्या मेरे पास इस महीने कोई कैलेंडर कार्यक्रम है	[IN:calendar_query [SL:date इस महीने] ]	calendar	hi-IN
+olly कृपया अगले शनिवार के लिए दस ऐ.एम. पर एक कैलेंडर प्रविष्टि करें	[IN:calendar_set [SL:date शनिवार] [SL:time दस ऐ.एम.] ]	calendar	hi-IN
+मुझे बाबीस जनवरी पर बैठक की याद दिलाएं	[IN:calendar_set [SL:date बाबीस जनवरी] [SL:event_name बैठक] ]	calendar	hi-IN
+मुझे एक घंटे में बैठक के बारे में याद दिलाएं	[IN:calendar_set [SL:time एक घंटे] [SL:event_name बैठक] ]	calendar	hi-IN
+एक घंटे में मुझे मेरी मुलाकात के बारे में याद दिलाएं	[IN:calendar_set [SL:time एक घंटे] [SL:event_name मुलाकात] ]	calendar	hi-IN
+रेडियो में कुछ चलाओ	[IN:play_radio ]	play	hi-IN
+रेडियो दिखाओ	[IN:play_radio ]	play	hi-IN
+ओपन पेंडोरा प्ले रॉक स्टेशन	[IN:play_radio [SL:app_name पेंडोरा] [SL:music_genre रॉक] ]	play	hi-IN
+ओपन आईहार्टरेडियो रॉव द रॉक	[IN:play_radio [SL:app_name आईहार्टरेडियो] [SL:music_genre रॉक] ]	play	hi-IN
+अच्छे चुटकुलों के लिए रेडियो चैनल ट्यून करें	[IN:play_radio [SL:radio_name अच्छे चुटकुलों] ]	play	hi-IN
+रेडियो शुरू करो	[IN:play_radio ]	play	hi-IN
+इंद्रधनुष मुंबई	[IN:play_radio [SL:radio_name इंद्रधनुष मुंबई] ]	play	hi-IN
+रेडियो को चालू पर रखो	[IN:play_radio ]	play	hi-IN
+कृपया रेडियो चैनल को चलाएं	[IN:play_radio ]	play	hi-IN
+मैं उस रेडियो चैनल को सुनना चाहता हूँ	[IN:play_radio ]	play	hi-IN
+radio पर स्विच करें	[IN:play_radio ]	play	hi-IN
+क्या आप ऑल इंडिया रेडियो शुरू कर सकते हैं	[IN:play_radio [SL:radio_name ऑल इंडिया रेडियो] ]	play	hi-IN
+धुनों को चालू करें	[IN:play_radio [SL:media_type धुनों] ]	play	hi-IN
+इसे बारंबार नौ सौ सत्तानबे में बदल दें	[IN:play_radio [SL:radio_name नौ सौ सत्तानबे] ]	play	hi-IN
+चैनल नौ सौ इक्यावन चालू करें	[IN:play_radio [SL:radio_name नौ सौ इक्यावन] ]	play	hi-IN
+कृपया रेडियो बजाएं	[IN:play_radio ]	play	hi-IN
+रेडियो चालू	[IN:play_radio ]	play	hi-IN
+मेरे पसंदीदा रेडियो चैनल पर जाएं	[IN:play_radio ]	play	hi-IN
+वो गाना चालू करो जो मुझको हसाए	[IN:play_music ]	play	hi-IN
+नौ सौ इकहत्तर चालू करें	[IN:play_radio [SL:radio_name नौ सौ इकहत्तर] ]	play	hi-IN
+कृपया ऑल इंडिया रेडियो चालू करें	[IN:play_radio [SL:radio_name ऑल इंडिया रेडियो] ]	play	hi-IN
+विविध भारती चालू करो	[IN:play_radio [SL:radio_name विविध भारती] ]	play	hi-IN
+कृपया मेरा एफ. एम. रेडियो खोलें और नौ सौ सत्तासी चालू करें	[IN:play_radio [SL:radio_name एफ. एम. रेडियो] [SL:radio_name नौ सौ सत्तासी] ]	play	hi-IN
+ओली मैं ऑल इंडिया रेडियो सुनना चाहता हूं	[IN:play_radio [SL:radio_name ऑल इंडिया रेडियो] ]	play	hi-IN
+रेडियो पर क्रिकेट खेल को चालू करो	[IN:play_radio ]	play	hi-IN
+मेरे कितने स्पोर्ट्स पॉडकास्ट में नए एपिसोड हैं जिन्हें मैंने अभी तक नहीं सुना है	[IN:play_radio ]	play	hi-IN
+gaana खोलें और शीर्ष हिट्स चालू करें	[IN:play_radio [SL:app_name gaana] ]	play	hi-IN
+spotify पर लोकप्रिय गाना चालू करें	[IN:play_radio [SL:app_name spotify] ]	play	hi-IN
+मेरे लिए रेडियो मिर्ची चलाओ	[IN:play_radio [SL:radio_name रेडियो मिर्ची] ]	play	hi-IN
+मुझे आकाशवाणी एफ. एम. से कुछ रेडियो संगीत दिलवाओ	[IN:play_radio [SL:radio_name आकाशवाणी] [SL:media_type संगीत] ]	play	hi-IN
+कृपया शीर्ष देश खेलें	[IN:play_music [SL:music_genre देश] ]	play	hi-IN
+रेडियो में संगीत कार्यक्रम चलाएं	[IN:play_radio ]	play	hi-IN
+वर्तमान प्लेलिस्ट को चालू करें	[IN:play_music ]	play	hi-IN
+रेडियो मिर्ची पर आर. जे. नावेद के प्रसारण को खोजें	[IN:play_radio [SL:app_name रेडियो मिर्ची] ]	play	hi-IN
+रेडियो मिर्ची एक सौ दो दशमलव चार स्टेशन को चालू करें	[IN:play_radio [SL:radio_name एक सौ दो दशमलव चार] ]	play	hi-IN
+एफ. एम. में समाचार को चालू करो	[IN:play_radio [SL:radio_name एफ. एम.] ]	play	hi-IN
+नवेद मिर्ची मुर्गा प्रकरण red f.m. बजाओ	[IN:play_radio ]	play	hi-IN
+ऑल इंडिया रेडियो खेलें	[IN:play_radio [SL:radio_name ऑल इंडिया रेडियो] ]	play	hi-IN
+मिर्ची लव चलाएं	[IN:play_radio [SL:radio_name मिर्ची लव] ]	play	hi-IN
+ओके गूगल कपिल शर्मा शो चलाओ	[IN:play_radio [SL:person कपिल शर्मा] ]	play	hi-IN
+रात नौ बजे मेरा पसंदीदा स्टेशन चलाओ	[IN:play_radio [SL:time रात नौ बजे] ]	play	hi-IN
+रेडियो सिटि रेडियो	[IN:play_radio [SL:radio_name रेडियो सिटि] ]	play	hi-IN
+रेडियो मिर्ची पर मिर्ची मुर्गा चलाओ	[IN:play_radio ]	play	hi-IN
+आज सुबह कौन से स्टेशन अच्छा संगीत चला रहे हैं	[IN:play_radio [SL:timeofday सुबह] ]	play	hi-IN
+हिंदी एफ. एम में ट्यून करें। ।	[IN:play_radio [SL:radio_name हिंदी] ]	play	hi-IN
+ऑल इंडिया रेडियो चलाओ	[IN:play_radio [SL:radio_name ऑल इंडिया रेडियो] ]	play	hi-IN
+पुरानी जीन्स शो की ओर मोड़ें	[IN:play_radio ]	play	hi-IN
+अट्ठानवे दशमलव तीन रेड एफएम चलाएं	[IN:play_radio [SL:radio_name अट्ठानवे दशमलव तीन रेड एफएम] ]	play	hi-IN
+यह कार्यक्रम चलाओ	[IN:play_radio ]	play	hi-IN
+क्या आप गोदान की मेरी पसंदीदा ऑडियो बुक चला सकते हैं	[IN:play_audiobook [SL:audiobook_name गोदान] ]	play	hi-IN
+क्या आप रात के उस पार ऑडियो बुक लगा सकते हैं	[IN:play_audiobook [SL:audiobook_name रात के उस पार] [SL:player_setting लगा सकते हैं] ]	play	hi-IN
+मोगली का सातवा अध्याय शुरू करो	[IN:play_audiobook [SL:audiobook_name मोगली] [SL:player_setting शुरू करो] ]	play	hi-IN
+चाणक्य नीति ऑडियो बुक को फिर से चालू करें	[IN:play_audiobook [SL:audiobook_name चाणक्य नीति] [SL:player_setting फिर से चालू करें] ]	play	hi-IN
+क्या आप ऑडियो को रोक सकते हो	[IN:play_audiobook [SL:media_type ऑडियो] [SL:player_setting रोक] ]	play	hi-IN
+मेरी ऑडियो किताब चलाना जारी रखें	[IN:play_audiobook [SL:media_type ऑडियो किताब] ]	play	hi-IN
+ऑडियो बुक को रोको	[IN:play_audiobook [SL:media_type ऑडियो बुक] [SL:player_setting को रोको] ]	play	hi-IN
+डेविंसी कोड खोलें जहां मैंने छोड़ा था	[IN:play_audiobook [SL:audiobook_name डेविंसी कोड] ]	play	hi-IN
+एक थी डायन ऑडियो बुक को चलाना शुरू करें	[IN:play_audiobook [SL:audiobook_name एक थी डायन] [SL:media_type ऑडियो बुक] ]	play	hi-IN
+हाल ही में जोड़ी गई ऑडियोबुक चलाएं	[IN:play_audiobook [SL:media_type ऑडियोबुक] ]	play	hi-IN
+ऑडियो चलाएं	[IN:play_audiobook [SL:media_type ऑडियो] ]	play	hi-IN
+मेरी श्रवणसूची फिर से शुरू करना जहा हम पिछली बार रुके	[IN:play_audiobook [SL:media_type श्रवणसूची] [SL:player_setting फिर] [SL:player_setting शुरू करना] ]	play	hi-IN
+पिछली बार चलाए गए ऑडियो बुक को फिर से शुरू करो	[IN:play_audiobook [SL:media_type ऑडियो बुक] [SL:player_setting फिर से शुरू करो] ]	play	hi-IN
+कृपया हाल ही में रुका हुआ ऑडियो चलाएं	[IN:play_audiobook [SL:media_type ऑडियो] ]	play	hi-IN
+last chapter से मेरा ऑडियोबुक फिर शुरू करो	[IN:play_audiobook [SL:media_type ऑडियोबुक] [SL:player_setting करो] ]	play	hi-IN
+चाणक्य नीति खेलें	[IN:play_audiobook [SL:audiobook_name चाणक्य नीति] ]	play	hi-IN
+पाँच मिनट का विराम लें	[IN:play_audiobook [SL:time पाँच मिनट] [SL:player_setting विराम] ]	play	hi-IN
+किताब पढ़ना शुरू करें	[IN:play_audiobook [SL:player_setting शुरू करें] ]	play	hi-IN
+मेरे लिए गोदान फिर से शुरू करें	[IN:play_audiobook [SL:audiobook_name गोदान] [SL:player_setting शुरू करें] ]	play	hi-IN
+राजा और रानी ऑडियो बुक खोलें और आखिरी बार जहाँ चालू था वहाँ से चालू करें	[IN:play_audiobook [SL:audiobook_name राजा और रानी] [SL:media_type ऑडियो बुक] ]	play	hi-IN
+ऑडियोबुक में इस प्लेबैक को देखें और मेरे लिए खेलें	[IN:play_audiobook [SL:media_type ऑडियोबुक] ]	play	hi-IN
+कृपया इस प्लेबैक को ऑडियो बुक में फिर से शुरू करें	[IN:play_audiobook [SL:media_type ऑडियो बुक] [SL:player_setting फिर से शुरू करें] ]	play	hi-IN
+kuku f. m. पर चाणक्य नीति चलाओ	[IN:play_audiobook [SL:app_name kuku f. m.] [SL:audiobook_name चाणक्य नीति] ]	play	hi-IN
+चौथे अध्याय से निर्मला उपन्यास को पढ़ना शुरू करें	[IN:play_audiobook [SL:audiobook_name निर्मला उपन्यास] [SL:player_setting पढ़ना शुरू करें] ]	play	hi-IN
+अरिजीत सिंह द्वारा ऑडियोबुक से एक गाना फिर से शुरू करें	[IN:play_audiobook [SL:artist_name अरिजीत सिंह] [SL:media_type ऑडियोबुक] [SL:player_setting फिर से शुरू] ]	play	hi-IN
+गीता ऑडियोबुक चलाओ	[IN:play_audiobook [SL:audiobook_name गीता] [SL:media_type ऑडियोबुक] ]	play	hi-IN
+क्या आप भारत एक खोज की ऑडियोबुक जारी रख सकते हैं	[IN:play_audiobook [SL:audiobook_name भारत एक खोज] [SL:media_type ऑडियोबुक] [SL:player_setting जारी रख] ]	play	hi-IN
+ऑडियो बुक जय हो चालू करो	[IN:play_audiobook [SL:media_type ऑडियो बुक] [SL:song_name जय हो] ]	play	hi-IN
+भारतीय पाठ को पढ़ना फिर से शुरू करें	[IN:play_audiobook [SL:audiobook_name भारतीय पाठ] [SL:player_setting फिर से शुरू करें] ]	play	hi-IN
+कृपया कुछ-कुछ होता है चालू करो	[IN:play_audiobook ]	play	hi-IN
+वह चाणक्य नीति किताब पढ़ना शुरू करें	[IN:play_audiobook [SL:audiobook_author चाणक्य नीति] [SL:media_type किताब] [SL:player_setting पढ़ना शुरू करें] ]	play	hi-IN
+कृपया मेरी ऑडियोबुक जारी रखें	[IN:play_audiobook [SL:media_type ऑडियोबुक] [SL:player_setting जारी रखें] ]	play	hi-IN
+विटामिन की मेरी किताब खेलना जारी रखें	[IN:play_audiobook [SL:audiobook_name विटामिन की] [SL:audiobook_name किताब] [SL:player_setting जारी रखें] ]	play	hi-IN
+olly चाणक्य नीति को फिर से शुरू करें	[IN:play_audiobook [SL:audiobook_name चाणक्य नीति] [SL:player_setting फिर से शुरू करें] ]	play	hi-IN
+इस ऑडियो बुक से इस बिन्दु से चालू करें	[IN:play_audiobook [SL:media_type ऑडियो बुक] ]	play	hi-IN
+मुझे बताओ लहसुन युक्त रोटी कैसे बनती है	[IN:cooking_recipe [SL:food_type लहसुन युक्त रोटी] ]	cooking	hi-IN
+पास्ता पकाने में कितना वक्त लगेगा	[IN:cooking_recipe [SL:food_type पास्ता] [SL:cooking_type पकाने] ]	cooking	hi-IN
+मैं broccoli and chicken के साथ what पका सकता हूँ	[IN:cooking_recipe [SL:ingredient broccoli] [SL:ingredient chicken] ]	cooking	hi-IN
+मुझे भोजन के लिए निर्देश दें	[IN:cooking_recipe ]	cooking	hi-IN
+मैं मैगी कैसे बना सकता हूं	[IN:cooking_recipe [SL:food_type मैगी] ]	cooking	hi-IN
+सफ़ेद वाइन के बदले क्या इस्तेमाल कर सकते हैं	[IN:cooking_recipe [SL:ingredient सफ़ेद वाइन] ]	cooking	hi-IN
+क्या आप कृपया भारतीय खाना बनाने के लिए वीडियो प्रदर्शित कर सकते हैं	[IN:cooking_recipe [SL:food_type भारतीय] [SL:media_type वीडियो] ]	cooking	hi-IN
+मैं lobster bisque कैसे बनाऊं	[IN:cooking_recipe [SL:food_type lobster bisque] ]	cooking	hi-IN
+बट कलेजी कैसे बनती है	[IN:cooking_recipe [SL:food_type बट कलेजी] ]	cooking	hi-IN
+डेट पर सबसे दिलचस्प खाना क्या बनाना है	[IN:cooking_recipe [SL:food_type दिलचस्प] ]	cooking	hi-IN
+पिज्जा को एकदम खस्ता बनाने के लिए उसे कितने समय तक ओवन में रखना चाहिए	[IN:cooking_recipe [SL:food_type पिज्जा] [SL:cooking_type खस्ता] ]	cooking	hi-IN
+तुम मटर की सब्जी कैसे बनाती हो	[IN:cooking_recipe [SL:ingredient मटर की सब्जी] ]	cooking	hi-IN
+olly मुझे रेसिपी दो	[IN:cooking_recipe ]	cooking	hi-IN
+मुझे खाना बनाने का तरीका दिखाने के लिए google का उपयोग करें	[IN:cooking_recipe ]	cooking	hi-IN
+मुझे खाना बनाने के सबसे अच्छे आइडिया दो	[IN:cooking_recipe ]	cooking	hi-IN
+मुझे भोजन का नुस्खा दिखाओ	[IN:cooking_recipe [SL:food_type भोजन का] ]	cooking	hi-IN
+मैं बिस्कुट कैसे बनाता हूं	[IN:cooking_recipe [SL:food_type बिस्कुट] ]	cooking	hi-IN
+एक चौथाई गैलन में कितने कप होते हैं	[IN:cooking_recipe [SL:time चौथाई गैलन] ]	cooking	hi-IN
+alexa मैं एक आलू कैसे बेक करूं	[IN:cooking_recipe [SL:food_type आलू] ]	cooking	hi-IN
+olly पिज़्ज़ा रेसिपी बताओ	[IN:cooking_recipe [SL:food_type पिज़्ज़ा] ]	cooking	hi-IN
+मैं meatloaf कैसे बना सकता हूँ	[IN:cooking_recipe [SL:food_type meatloaf] ]	cooking	hi-IN
+मुझे चिकन नूडल सूप की विधि बताओ	[IN:cooking_recipe [SL:food_type चिकन नूडल सूप] ]	cooking	hi-IN
+gluten free menus खोजें	[IN:cooking_recipe [SL:food_type gluten free] ]	cooking	hi-IN
+olly मुझे दिखाओ रेसिपी कैसे तैयार की जाती है	[IN:cooking_recipe ]	cooking	hi-IN
+मैं कब तक एक आइसबॉक्स पाई को ठंडा रख सकता हूं	[IN:cooking_recipe ]	cooking	hi-IN
+चार चीज़ ऑमलेट तुम कैसे बनाते हो	[IN:cooking_recipe [SL:food_type चीज़ ऑमलेट] ]	cooking	hi-IN
+hotdog बनाने की recipe प्राप्त करें	[IN:cooking_recipe [SL:food_type hotdog] ]	cooking	hi-IN
+चिकन करी की कुकर वाली रेसिपी दो	[IN:cooking_recipe [SL:food_type चिकन करी] ]	cooking	hi-IN
+olly क्या तुम फाफड़ा बनाने की रेसिपी बता सकते हो	[IN:cooking_recipe [SL:food_type फाफड़ा] ]	cooking	hi-IN
+भारतीय बिरयानी के लिए एक विधि लाओ	[IN:cooking_recipe [SL:food_type भारतीय बिरयानी] ]	cooking	hi-IN
+विधी	[IN:cooking_recipe ]	cooking	hi-IN
+olly चिकन पकोड़े कब तक भूनते हैं	[IN:cooking_recipe [SL:food_type चिकन पकोड़े] ]	cooking	hi-IN
+crabmeat के लिए recipe	[IN:cooking_recipe [SL:food_type crabmeat] ]	cooking	hi-IN
+मुझे रात के खाने के लिए कुछ सुझाव चाहिए जो भारतीय हो	[IN:cooking_recipe [SL:food_type भारतीय] ]	cooking	hi-IN
+और टिप्पणियां नहीं	[IN:cooking_recipe ]	cooking	hi-IN
+boiled eggs पकाने का समय क्या है	[IN:cooking_recipe [SL:food_type boiled eggs] ]	cooking	hi-IN
+बादाम के दूध की आसान रेसिपी बताओ	[IN:cooking_recipe [SL:drink_type बादाम के दूध] ]	cooking	hi-IN
+शावर्मा की रेसिपी बताओ	[IN:cooking_recipe [SL:food_type शावर्मा] ]	cooking	hi-IN
+भोजन की विधि देखो	[IN:cooking_recipe ]	cooking	hi-IN
+एलेक्सा chess with me खेलें	[IN:play_game [SL:game_name chess] ]	play	hi-IN
+मैं शतरंज खेलना चाहता हूँ क्या तुम play कर सकते हो	[IN:play_game [SL:game_name शतरंज] ]	play	hi-IN
+लूडो का एक अच्छा खेल कैसा रहेगा	[IN:play_game [SL:game_name लूडो] ]	play	hi-IN
+तीन पत्ती खेलें	[IN:play_game [SL:game_name तीन पत्ती] ]	play	hi-IN
+एक लूडो खेल खेलें	[IN:play_game [SL:game_type लूडो] ]	play	hi-IN
+चलो तीन पत्ती खेलते हैं	[IN:play_game [SL:game_name तीन पत्ती] ]	play	hi-IN
+लूडो खेलना शुरू करें	[IN:play_game [SL:game_name लूडो] ]	play	hi-IN
+मेरे साथ एक गेम खेलना चाहोगे	[IN:play_game ]	play	hi-IN
+मैं चाहता हूँ तुम मेरा हॉकी गेम खेलो पांचवें लेवल से	[IN:play_game [SL:game_name हॉकी] ]	play	hi-IN
+सामान्य लूडो खेलना चाहते हैं	[IN:play_game [SL:game_name लूडो] ]	play	hi-IN
+खेल को खोजो	[IN:play_game ]	play	hi-IN
+मेरे साथ सांप सीडी खेलो	[IN:play_game [SL:game_name सांप सीडी] ]	play	hi-IN
+पहेली को हल करते हैं	[IN:play_game [SL:game_name पहेली] ]	play	hi-IN
+ओपन papa pear saga	[IN:play_game [SL:game_name papa pear saga] ]	play	hi-IN
+चलो लूडो खेलते हैं	[IN:play_game [SL:game_name लूडो] ]	play	hi-IN
+खेल शुरू करो	[IN:play_game ]	play	hi-IN
+क्या तुम तीन पत्ती में दुश्मन का रोल कर सकते हो	[IN:play_game [SL:game_name तीन पत्ती] ]	play	hi-IN
+कृपया मेरे साथ क्रिकेट खेलें	[IN:play_game [SL:game_name क्रिकेट] ]	play	hi-IN
+लूडो गेम खेलें	[IN:play_game [SL:game_name लूडो] ]	play	hi-IN
+क्या तुम poker with me खेल सकते हो	[IN:play_game [SL:game_name poker] ]	play	hi-IN
+चलो तीन पत्ती खेलते हैं	[IN:play_game [SL:game_name तीन पत्ती] ]	play	hi-IN
+चलो लूडो खेलते हैं	[IN:play_game [SL:game_name लूडो] ]	play	hi-IN
+olly मेरी शॉपिंग सूची में से आइटम्स की सूची दो	[IN:lists_query [SL:list_name शॉपिंग] ]	lists	hi-IN
+मैं अगले सप्ताह वेगास की यात्रा रद्द करना चाहता हूँ	[IN:lists_remove ]	lists	hi-IN
+मेरी शॉपिंग की सूची में आज क्या है	[IN:lists_query [SL:list_name शॉपिंग] [SL:date आज] ]	lists	hi-IN
+ब्रेड को ख़रीददारी की सूची से हटा दो	[IN:lists_remove [SL:list_name ख़रीददारी] ]	lists	hi-IN
+मेरी पार्टी खरीदारी सूची में वोदका जोड़ें	[IN:lists_query [SL:list_name पार्टी खरीदारी सूची] ]	lists	hi-IN
+खरीदने के लिए चीजों की एक सूची निकालें	[IN:lists_remove [SL:list_name खरीदने के] [SL:list_name चीजों] ]	lists	hi-IN
+क्या आप एक नई सूची बना सकते हैं	[IN:lists_createoradd ]	lists	hi-IN
+पिछले हफ्ते जो खाने का सामान खरीदा था उस सूची को हटा दो	[IN:lists_remove [SL:date पिछले हफ्ते] [SL:list_name खाने] ]	lists	hi-IN
+यह देखा पर निर्भर है	[IN:lists_remove ]	lists	hi-IN
+सूची खाली करो	[IN:lists_remove ]	lists	hi-IN
+सूची बनाओ	[IN:lists_createoradd ]	lists	hi-IN
+मैंने किन ग्रोसरी स्टोर्स की सूची बनाई है	[IN:lists_query [SL:list_name ग्रोसरी स्टोर्स] ]	lists	hi-IN
+मेरी सूचियां क्या हैं	[IN:lists_query ]	lists	hi-IN
+कौन सी सूचियां उपलब्ध हैं	[IN:lists_query ]	lists	hi-IN
+सूची ढूंढो सेब हटाओ	[IN:lists_remove ]	lists	hi-IN
+मेरे पुराने अंग्रेजी गानों की सूची को हटा दो	[IN:lists_remove [SL:list_name पुराने अंग्रेजी] ]	lists	hi-IN
+कृपया सूची रिमूव करो	[IN:lists_remove ]	lists	hi-IN
+इस आइटम को सूची में ऐड करो	[IN:lists_createoradd ]	lists	hi-IN
+मेरे द्वारा बनाई अंतिम पांच सूचियां क्या हैं	[IN:lists_query ]	lists	hi-IN
+आखिरी सूची जो अपलोड की थी मुझे भेजो	[IN:lists_query ]	lists	hi-IN
+मेरे लिए अंकों की एक सूची बनाओ	[IN:lists_createoradd [SL:list_name अंकों] ]	lists	hi-IN
+मेरे लिए एक नई सूची बनाओ	[IN:lists_createoradd ]	lists	hi-IN
+आज की मेरी टू डू लिस्ट में क्या है	[IN:lists_query [SL:date आज] [SL:list_name टू डू] ]	lists	hi-IN
+मैं आज क्या कर रहा हूँ	[IN:general_quirky [SL:date आज] ]	general	hi-IN
+मेरी बचे हुए काम की सूची में वस्तु पाँच की जांच करें	[IN:lists_query [SL:list_name बचे हुए काम] ]	lists	hi-IN
+मेरी सूची दिखाओ	[IN:lists_query ]	lists	hi-IN
+एक्सेल फाइल को सूची से हटा दो	[IN:lists_remove ]	lists	hi-IN
+मुझे एक प्लेलिस्ट बताओ	[IN:music_query ]	music	hi-IN
+सूची में कितने खाद्य पदार्थ हैं	[IN:lists_query ]	lists	hi-IN
+सूची में वो सभी आइटम नहीं होने चाहिए जिसके आगे ड्राई जुड़ा हुआ हो	[IN:lists_remove ]	lists	hi-IN
+कल तक एक नई सूची बनाएं	[IN:lists_createoradd [SL:date कल] ]	lists	hi-IN
+एक नई सूची बनाओ	[IN:lists_createoradd ]	lists	hi-IN
+नई किराने की सूची में पेंसिल डालें	[IN:lists_createoradd [SL:list_name किराने] ]	lists	hi-IN
+कृपया मेरी list से यह remove करो	[IN:lists_remove ]	lists	hi-IN
+सूची में किराना शामिल करो	[IN:lists_createoradd ]	lists	hi-IN
+सूची को पढ़ो	[IN:lists_query ]	lists	hi-IN
+मेरी list लाओ	[IN:lists_query ]	lists	hi-IN
+मुझे बताओ कि मेरे पास कौन सी सूचियां हैं	[IN:lists_query ]	lists	hi-IN
+तीन item remove करो	[IN:lists_remove ]	lists	hi-IN
+सूची कैसे चालू करें	[IN:lists_query ]	lists	hi-IN
+इस आइटम को सूची में ऐड करो	[IN:lists_createoradd ]	lists	hi-IN
+अभी की सूची चलाओ	[IN:lists_query ]	lists	hi-IN
+क्या आप कृपया मुझे बता सकते हैं कि मेरी सूची में क्या है	[IN:lists_query ]	lists	hi-IN
+मेरी ग्रोसरी सूची में से मिर्च हटा दो	[IN:lists_remove [SL:list_name ग्रोसरी] ]	lists	hi-IN
+मेरी सूची में कुछ ऐड करो	[IN:lists_createoradd ]	lists	hi-IN
+उस आइटम को मेरी सूची में से हटा दो	[IN:lists_remove ]	lists	hi-IN
+google अनुवाद	[IN:lists_query ]	lists	hi-IN
+इस सप्ताह के लिए मैंने अपनी किराना सूची में जो कुछ रखा है उसे वापस पढ़ें	[IN:lists_query [SL:date इस सप्ताह] ]	lists	hi-IN
+खरीदारी सूची वस्तु पढ़ें	[IN:lists_query [SL:list_name खरीदारी] ]	lists	hi-IN
+मेरी खरीदारी सूची में दलिया जोड़ें	[IN:lists_createoradd ]	lists	hi-IN
+क्या अंडे मेरी ख़रीददारी सूची में हैं	[IN:lists_query [SL:list_name ख़रीददारी] ]	lists	hi-IN
+क्या मेरे पास उस पार्टी के लिए संपर्कों की सूची है जिसकी मैं योजना बना रहा हूं	[IN:lists_query [SL:event_name पार्टी] ]	lists	hi-IN
+मेरी टू डू सूची को डिलीट करें	[IN:lists_remove [SL:list_name टू डू] ]	lists	hi-IN
+सूची से आइटम हटा दो	[IN:lists_remove ]	lists	hi-IN
+मेरी grocery list मे दूध को जोड़ो	[IN:lists_createoradd [SL:list_name grocery] ]	lists	hi-IN
+क्या आप कृपया मुझे मेरी सूचियां दिखाएंगे	[IN:lists_query ]	lists	hi-IN
+खुली सूचियाँ सूची हटाएँ	[IN:lists_remove ]	lists	hi-IN
+olly मेरी सूची में अगला क्या है	[IN:lists_query ]	lists	hi-IN
+दूध को मेरी किराना सूची में से हटा दो	[IN:lists_remove [SL:list_name किराना] ]	lists	hi-IN
+कृपया मुझे बताएं कि मैंने कौन सी सूचियां बनाई हैं	[IN:lists_query ]	lists	hi-IN
+इसे सूची से हटाने के बाद फिर से अर्रेंज करो	[IN:lists_remove ]	lists	hi-IN
+इसे सूची से हटा दो	[IN:lists_remove ]	lists	hi-IN
+olly मेरी सूची में और क्या है	[IN:lists_query ]	lists	hi-IN
+ग्रोसरी ख़रीदनी है इसे मेरी आज की काम करने की सूची में ऐड करो	[IN:lists_createoradd [SL:date आज] ]	lists	hi-IN
+मुझे बताओ कि आइटम को कैसे हटाना है	[IN:lists_remove ]	lists	hi-IN
+क्या मैं अपनी सूचियाँ देख सकता हूँ	[IN:lists_query ]	lists	hi-IN
+क्या मैंने एक ख़रीददारी सूची बनाई है	[IN:lists_query [SL:list_name ख़रीददारी] ]	lists	hi-IN
+मेरी सूची से आइटम हटा दो	[IN:lists_remove ]	lists	hi-IN
+एक नई सूची बनाओ	[IN:lists_createoradd ]	lists	hi-IN
+मुझे सूची के बारे में बताओ	[IN:lists_query ]	lists	hi-IN
+कृपया पहली सूची हटाओ	[IN:lists_remove ]	lists	hi-IN
+बुधवार की सुबह के लिए बैठक निकालें	[IN:calendar_remove [SL:date बुधवार] [SL:timeofday सुबह] ]	calendar	hi-IN
+मेरे पेंडिंग बिल्स की एक नई सूची बनाओ	[IN:lists_createoradd [SL:list_name पेंडिंग बिल्स] ]	lists	hi-IN
+मेरे लिए मेरी list पढ़ो	[IN:lists_query ]	lists	hi-IN
+मुझे मेरी सूची दो	[IN:lists_query ]	lists	hi-IN
+काम की एक सूची बनाओ	[IN:lists_createoradd ]	lists	hi-IN
+कृपया किकबॉल शीर्षक वाली सूची हटाएं	[IN:lists_remove [SL:list_name किकबॉल] ]	lists	hi-IN
+मुझे इस सूची की अब जरूरत नहीं है	[IN:lists_remove ]	lists	hi-IN
+क्या मेरे पास करने के लिए मेरी सूची में कुछ है	[IN:lists_query [SL:list_name करने] ]	lists	hi-IN
+कौन सी सूचियां अभी उपलब्ध हैं	[IN:lists_query ]	lists	hi-IN
+आखिरी लाइन डिलीट कर दो	[IN:lists_remove ]	lists	hi-IN
+स्कूल की आपूर्ति के लिए एक नई सूची बनाएं	[IN:lists_createoradd [SL:list_name स्कूल की आपूर्ति] ]	lists	hi-IN
+मेरी vacation list से कॉल अख़बार हटाएं	[IN:lists_remove [SL:list_name vacation list] ]	lists	hi-IN
+आज के लिए मेरी खरीदारी सूची पढ़ें	[IN:lists_query [SL:date आज] [SL:list_name खरीदारी] ]	lists	hi-IN
+today की सूची में क्या है	[IN:lists_query [SL:date today] ]	lists	hi-IN
+सूची में एक आइटम शामिल करें	[IN:lists_createoradd ]	lists	hi-IN
+किराने की खरीदारी को सूची से हटा दें	[IN:lists_remove ]	lists	hi-IN
+हम पेंट से बाहर हैं इसलिए सूची से बाथरूम पेंटिंग को हटा दें	[IN:lists_remove ]	lists	hi-IN
+मुझे याद दिलाना और साबुन आर्डर करना है	[IN:lists_createoradd ]	lists	hi-IN
+मेरी सूची खोलो	[IN:lists_query ]	lists	hi-IN
+पिछले खेले गए गाने को हटा दें	[IN:lists_remove ]	lists	hi-IN
+कृपया राम को मेरी संपर्क सूची में जोड़ें	[IN:email_addcontact [SL:person राम] ]	email	hi-IN
+क्या आप मेरे लिए मेरी सूचियां पढ़ सकते हैं	[IN:lists_query ]	lists	hi-IN
+अरे मेरी सूचियां क्या हैं	[IN:lists_query ]	lists	hi-IN
+अरे ओली मेरी सूची क्या है	[IN:lists_query ]	lists	hi-IN
+क्या आप मुझे बता सकते हैं कि मेरी किराने की सूची में कौन से आइटम हैं	[IN:lists_query [SL:list_name किराने] ]	lists	hi-IN
+सूची में यह क्या है	[IN:lists_query ]	lists	hi-IN
+मुझे बताओ मेरी सूची में क्या है	[IN:lists_query ]	lists	hi-IN
+एक सूची हटाओ	[IN:lists_remove ]	lists	hi-IN
+ख़रीदारी सूची से दूध रद्द करें	[IN:lists_remove [SL:list_name ख़रीदारी] ]	lists	hi-IN
+मेरी ग्रोसरी लिस्ट में दूध ऐड करो	[IN:lists_createoradd [SL:list_name ग्रोसरी] ]	lists	hi-IN
+अरिजीत सिंह के संगीत को हटा दो	[IN:lists_remove [SL:list_name अरिजीत सिंह] ]	lists	hi-IN
+इस विशिष्ट सूची में क्या है	[IN:lists_query ]	lists	hi-IN
+क्या मैं अपनी काम की सूची देख सकता हूं	[IN:lists_query ]	lists	hi-IN
+इसको एक सूची में ऐड करो	[IN:lists_createoradd ]	lists	hi-IN
+मेरी आज की काम करने की सूची हटा दो	[IN:lists_remove [SL:date आज] [SL:list_name काम करने] ]	lists	hi-IN
+मुझे अंडे नहीं चाहिए	[IN:lists_remove ]	lists	hi-IN
+सूची जो उपलब्ध हैं	[IN:lists_query ]	lists	hi-IN
+खरीदे जाने वाले मासिक किराना सामान की सूची बनाएं	[IN:lists_createoradd [SL:general_frequency मासिक] [SL:list_name किराना] ]	lists	hi-IN
+मेरे काम का कार्यक्रम	[IN:calendar_query ]	calendar	hi-IN
+मेरी स्वास्थ्य योजना	[IN:lists_query [SL:list_name स्वास्थ्य योजना] ]	lists	hi-IN
+क्रिसमस की सूची में पेस्ट्री जोड़ें	[IN:lists_createoradd [SL:list_name क्रिसमस] ]	lists	hi-IN
+करने के लिए चीजों की सूची को हटा दें	[IN:lists_remove [SL:list_name करने के लिए चीजों] ]	lists	hi-IN
+पुरानी प्लेलिस्ट डिलीट कर दो और नई बनाओ	[IN:lists_createoradd [SL:list_name पुरानी प्लेलिस्ट] ]	lists	hi-IN
+जांच सूची	[IN:lists_query ]	lists	hi-IN
+मेरे काम करने की सूची में कितने आइटम्स हैं	[IN:lists_query [SL:list_name काम करने] ]	lists	hi-IN
+मेरी सूची चेक करो	[IN:lists_query ]	lists	hi-IN
+क्या आप रेडियो में एक कड़ी आगे कर सकते हैं	[IN:play_podcasts [SL:player_setting आगे] ]	play	hi-IN
+अगला episode चलाओ	[IN:play_podcasts [SL:podcast_descriptor अगला episode] ]	play	hi-IN
+मेरे पॉडकास्ट का पता लगाएं	[IN:play_podcasts ]	play	hi-IN
+अगले प्रकरण के लिए आगे बढ़ें	[IN:play_podcasts [SL:podcast_descriptor अगले प्रकरण] ]	play	hi-IN
+नवीनतम कारण पॉडकास्ट खेलें	[IN:play_podcasts [SL:podcast_name कारण] ]	play	hi-IN
+अगले प्रकरण पर जाएँ	[IN:play_podcasts [SL:podcast_descriptor अगले प्रकरण] ]	play	hi-IN
+इसके बाद एक और कहानी का सातवां एपिसोड चलाएं	[IN:play_podcasts [SL:podcast_name एक और कहानी] ]	play	hi-IN
+सभी नवीनतम डांसिंग ट्रैक्स की प्लेलिस्ट ढूंढें और बनाएं	[IN:play_music ]	play	hi-IN
+अरिजीत के सब गाने व्यवस्थित करें और बजाएं	[IN:play_music [SL:artist_name अरिजीत] ]	play	hi-IN
+शुरुआत से पॉडकास्ट को शुरू करो	[IN:play_podcasts ]	play	hi-IN
+अरे उस पॉडकास्ट को चलाओ जिसे मैंने कल रात रोक दिया था	[IN:play_podcasts [SL:podcast_descriptor कल रात रोक दिया था] ]	play	hi-IN
+आगले पॉडकास्ट पर आगे बढ़ो	[IN:play_podcasts [SL:podcast_descriptor आगले] ]	play	hi-IN
+निम्नलिखित पॉडकास्ट को फिर से चलाएं	[IN:play_podcasts ]	play	hi-IN
+अगले पॉडकास्ट पर जाएं	[IN:play_podcasts [SL:podcast_descriptor अगले पॉडकास्ट] ]	play	hi-IN
+मैं अंकुर वारिकू का पॉडकास्ट सुनना चाहता हूँ	[IN:play_podcasts [SL:person अंकुर वारिकू] ]	play	hi-IN
+पसंदीदा	[IN:play_podcasts ]	play	hi-IN
+कृपया आगे बढ़ें	[IN:play_podcasts [SL:player_setting आगे] ]	play	hi-IN
+पॉडकास्ट ढूंढों और उसे चलाओ	[IN:play_podcasts ]	play	hi-IN
+क्या आप मेरी संगीत फ़ाइल चला सकते हैं	[IN:play_music ]	play	hi-IN
+अगले एपिसोड पर जाएं	[IN:play_podcasts [SL:podcast_descriptor अगले एपिसोड] ]	play	hi-IN
+इस पॉडकास्ट को समाप्त करो और नया चालू करो	[IN:play_podcasts ]	play	hi-IN
+नीलेश मिश्रा का नवीनतम पॉडकास्ट सुनें	[IN:play_podcasts [SL:person नीलेश मिश्रा] ]	play	hi-IN
+अंतिम अगला प्रकरण चलाएं	[IN:play_podcasts [SL:podcast_descriptor अगला प्रकरण] ]	play	hi-IN
+पॉडकास्ट शुरू करो	[IN:play_podcasts ]	play	hi-IN
+मुझे सर्वश्रेष्ठ मूल्यांकित पॉडकास्ट दिखाओ	[IN:play_podcasts [SL:podcast_descriptor सर्वश्रेष्ठ मूल्यांकित] ]	play	hi-IN
+दा बीयर बिसेप्स शो का प्रकरण चालू करें	[IN:play_podcasts ]	play	hi-IN
+शास्त्रीय संगीत चालू करें	[IN:play_music [SL:music_genre शास्त्रीय] ]	play	hi-IN
+अंकुर वारिकू शो पॉडकास्ट चालू करो	[IN:play_podcasts [SL:podcast_name अंकुर वारिकू शो] ]	play	hi-IN
+एक प्रकरण पीछे	[IN:play_podcasts ]	play	hi-IN
+रिवाइंड बटन	[IN:play_podcasts [SL:player_setting रिवाइंड] ]	play	hi-IN
+मुझे आखरी episode दिखाओ	[IN:play_podcasts ]	play	hi-IN
+olly प्ले jiosaavn पॉडकास्ट	[IN:play_podcasts [SL:podcast_name jiosaavn] ]	play	hi-IN
+नरेंद्र मोदी- दा लेजेंड पॉडकास्ट को यंत्र में चालू करो	[IN:play_podcasts [SL:podcast_name नरेंद्र मोदी- दा लेजेंड] ]	play	hi-IN
+मिर्ची तड़का का podcast	[IN:play_podcasts ]	play	hi-IN
+बहुत more clearer and subject oriented	[IN:play_podcasts ]	play	hi-IN
+the रणवीर show	[IN:play_podcasts ]	play	hi-IN
+मेरी कहानी का सबसे वर्तमान एपिसोड चलाएं	[IN:play_podcasts [SL:podcast_name मेरी कहानी] [SL:podcast_descriptor वर्तमान एपिसोड] ]	play	hi-IN
+मैं यह podcast सुनना चाहता हूँ	[IN:play_podcasts ]	play	hi-IN
+इस सप्ताह सिनेमाघरों में कौन सी नई फिल्में चल रही हैं	[IN:recommendation_movies [SL:date इस सप्ताह] ]	recommendation	hi-IN
+क्या दिल्ली शहर के पास डॉग शो चल रहे हैं	[IN:recommendation_events [SL:place_name दिल्ली शहर] [SL:event_name डॉग शो] ]	recommendation	hi-IN
+शहर में निकटतम पब कहाँ है	[IN:recommendation_locations [SL:place_name शहर] [SL:business_type पब] ]	recommendation	hi-IN
+आस-पास कौन से संगीत कार्यक्रम निश्चित होने वाले हैं	[IN:recommendation_events [SL:event_name संगीत कार्यक्रम] [SL:time निश्चित] ]	recommendation	hi-IN
+regal cinema में कौन सी फिल्में दिखाई जा रही हैं	[IN:recommendation_movies [SL:place_name regal cinema] ]	recommendation	hi-IN
+मेट्रो सिनेमा में कौन से प्रदर्शन या शो निर्धारित हैं	[IN:recommendation_events [SL:place_name मेट्रो सिनेमा] [SL:event_name प्रदर्शन] [SL:event_name शो] ]	recommendation	hi-IN
+मेरे आस-पास क्या घटनाएँ हो रही हैं	[IN:recommendation_events ]	recommendation	hi-IN
+मुझे अपने क्षेत्र में भारतीय भोजन के लिए कहाँ जाना चाहिए	[IN:recommendation_locations [SL:food_type भारतीय] ]	recommendation	hi-IN
+मुझे कुछ पालक पनीर चाहिए जो निकटतम है	[IN:recommendation_locations [SL:food_type पालक पनीर] ]	recommendation	hi-IN
+आस-पास के चीनी रेस्तरां खोजें	[IN:recommendation_locations [SL:food_type चीनी] [SL:business_type रेस्तरां] ]	recommendation	hi-IN
+आज रात फूड फेस्टिवल कहाँ है	[IN:recommendation_events [SL:timeofday आज रात] [SL:event_name फूड फेस्टिवल] ]	recommendation	hi-IN
+मैं कुछ ड्रेस शो की तलाश में हूं क्या आपको एक मील के भीतर कपड़ों की दुकान मिल सकती है	[IN:recommendation_locations [SL:business_type ड्रेस शो] [SL:place_name एक मील के भीतर] ]	recommendation	hi-IN
+सबसे निकटतम रेस्टोरेंट कहाँ है	[IN:recommendation_locations [SL:business_type रेस्टोरेंट] ]	recommendation	hi-IN
+ओली मुझे दुकान का स्थान बताओ	[IN:recommendation_locations ]	recommendation	hi-IN
+आज कौन सी नई फिल्में उपलब्ध हैं	[IN:recommendation_movies [SL:date आज] ]	recommendation	hi-IN
+मुझे मेरे स्थान के निकटतम कोई फ़ूड कोर्ट दिखाओ	[IN:recommendation_locations [SL:place_name मेरे स्थान के निकटतम] [SL:business_type फ़ूड कोर्ट] ]	recommendation	hi-IN
+केरल में कोई अच्छी बाइक की दुकानें हैं	[IN:recommendation_locations [SL:place_name केरल] [SL:business_type बाइक की दुकानें] ]	recommendation	hi-IN
+स्थानीय क्षेत्र में सर्वश्रेष्ठ बार	[IN:recommendation_locations [SL:business_type बार] ]	recommendation	hi-IN
+मुझे सारे स्थानीय आयोजन बताओ	[IN:recommendation_events ]	recommendation	hi-IN
+निकटतम किराना	[IN:recommendation_locations [SL:business_type किराना] ]	recommendation	hi-IN
+मैं लखनऊ के आसपास के सिनेमाघरों में कौन सी बाहुबली फिल्म देख सकता हूं	[IN:recommendation_movies [SL:place_name लखनऊ] [SL:movie_type बाहुबली] ]	recommendation	hi-IN
+कुतुब राष्ट्रीय उद्यान का दौरा करते समय एक सूची बनाएं	[IN:recommendation_events [SL:place_name कुतुब राष्ट्रीय उद्यान] ]	recommendation	hi-IN
+जब मैं येलोस्टोन नेशनल पार्क जाऊं तो मुझे कौन सी चीजें करनी चाहिए	[IN:recommendation_events [SL:place_name येलोस्टोन नेशनल पार्क] ]	recommendation	hi-IN
+मेरे आसपास क्या हो रहा है	[IN:recommendation_events ]	recommendation	hi-IN
+मेरे निकट के सिनेमा हॉल	[IN:recommendation_movies [SL:business_type सिनेमा हॉल] ]	recommendation	hi-IN
+नई दिल्ली में अगले सप्ताह कौन से पुस्तक मेले का आयोजन हो रहा है	[IN:recommendation_events [SL:place_name नई दिल्ली] [SL:date अगले सप्ताह] [SL:event_name पुस्तक मेले] ]	recommendation	hi-IN
+निकटतम थियेटर कौन सा है जो अजय देवगन की नई फिल्म चलाता है	[IN:recommendation_movies [SL:movie_name अजय देवगन] ]	recommendation	hi-IN
+मथुरा शहर में कौन से कार्यक्रम चल रहे हैं	[IN:recommendation_events [SL:place_name मथुरा शहर] ]	recommendation	hi-IN
+लगान	[IN:recommendation_movies [SL:movie_name लगान] ]	recommendation	hi-IN
+ओडिसा में सबसे सस्ती नेटबुक कौन बेचता है	[IN:recommendation_locations [SL:place_name ओडिसा] ]	recommendation	hi-IN
+यहाँ सबसे अच्छा कपड़ों का स्टोर कहाँ है	[IN:recommendation_locations [SL:business_type कपड़ों का स्टोर] ]	recommendation	hi-IN
+बीयर बेचने वाली दुकान ढूंढें	[IN:recommendation_locations [SL:drink_type बीयर] ]	recommendation	hi-IN
+मेरे आस-पास के सिनेमाघरों में कौन सी फिल्में चल रही हैं	[IN:recommendation_movies [SL:place_name सिनेमाघरों] ]	recommendation	hi-IN
+मेरे आस-पास ऐसी कौन सी फिल्में चल रही हैं जिनकी समीक्षा अधिक है	[IN:recommendation_movies ]	recommendation	hi-IN
+अच्छी सड़े हुए टमाटर रेटिंग वाली फिल्में	[IN:recommendation_movies ]	recommendation	hi-IN
+मेरे क्षेत्र में क्या गतिविधियां हो रही हैं	[IN:recommendation_events ]	recommendation	hi-IN
+कौन से झंडे की सवारी सबसे अच्छी है	[IN:recommendation_events ]	recommendation	hi-IN
+देखने लायक क्या है	[IN:recommendation_movies ]	recommendation	hi-IN
+मुझे इस सप्ताहांत क्षेत्र की गतिविधियों के बारे में बताएं	[IN:recommendation_events [SL:date इस सप्ताहांत] ]	recommendation	hi-IN
+उत्तर प्रदेश में क्या चल रहा है	[IN:recommendation_events [SL:place_name उत्तर प्रदेश] ]	recommendation	hi-IN
+मेरे मोहल्ले के पास किस तरह की दुकानें हैं	[IN:recommendation_locations [SL:business_type दुकानें] ]	recommendation	hi-IN
+क्या आप इस क्षेत्र में एक सस्ते रेस्टोरेंट की सिफारिश कर सकते हैं	[IN:recommendation_locations [SL:business_type रेस्टोरेंट] ]	recommendation	hi-IN
+olly मेरे आस-पास कुछ होटल कौन से हैं	[IN:recommendation_locations [SL:business_type होटल] ]	recommendation	hi-IN
+मुझे अपने क्षेत्र में निकटतम आयरिश पब कहां मिल सकता है	[IN:recommendation_locations [SL:business_type आयरिश पब] ]	recommendation	hi-IN
+मेरे आस-पास कौन से बार हैं	[IN:recommendation_locations [SL:business_type बार] ]	recommendation	hi-IN
+मुझे इंदौर में होने वाली सभी प्रतिस्पर्धाएं दिखाओ	[IN:recommendation_events [SL:place_name इंदौर] ]	recommendation	hi-IN
+मुझे बताओ मेरे शहर में क्या हो रहा है	[IN:recommendation_events ]	recommendation	hi-IN
+आज दिल्ली में क्या चल रहा है	[IN:recommendation_events [SL:date आज] [SL:place_name दिल्ली] ]	recommendation	hi-IN
+मेरे पड़ोस में कितने किराना स्टोर स्थित हैं	[IN:recommendation_locations ]	recommendation	hi-IN
+मेरे क्षेत्र में एक भोजनालय से पूछो	[IN:recommendation_locations [SL:business_type भोजनालय] ]	recommendation	hi-IN
+मैं भूख से मर रहा हूँ कोलकाता में खाने के लिए क्या अच्छा है	[IN:recommendation_locations [SL:place_name कोलकाता] [SL:business_type खाने के लिए] [SL:business_type अच्छा] ]	recommendation	hi-IN
+olly मैं मुंबई में कुछ पेय कहाँ ले सकता हूँ	[IN:recommendation_locations [SL:place_name मुंबई] [SL:business_type पेय] ]	recommendation	hi-IN
+आज के स्थानीय कार्यक्रम	[IN:recommendation_events [SL:date आज] ]	recommendation	hi-IN
+आस-पास की सभी दुकानों को सूचीबद्ध करें	[IN:recommendation_locations [SL:business_type दुकानों] ]	recommendation	hi-IN
+क्या आप मिलीग्राम रोड में किसी पब की सिफारिश कर सकते हैं	[IN:recommendation_locations [SL:place_name मिलीग्राम रोड] [SL:business_type पब] ]	recommendation	hi-IN
+आस-पड़ोस में क्या हो रहा है	[IN:recommendation_events [SL:place_name आस-पड़ोस] ]	recommendation	hi-IN
+मुझे एक ऐसी जगह चाहिए जो मुझे दिल्ली में पिज़्ज़ा पहुंचाए	[IN:recommendation_locations [SL:place_name दिल्ली] [SL:food_type पिज़्ज़ा] ]	recommendation	hi-IN
+क्या ग्वालियर में कोई लिट्टी चोखा जगह है	[IN:recommendation_locations [SL:place_name ग्वालियर] [SL:food_type लिट्टी चोखा] ]	recommendation	hi-IN
+कृपया मेरे स्थान में घटनाएँ खोजें	[IN:recommendation_events ]	recommendation	hi-IN
+hey olly मैं अहमदाबाद के लिए एक ट्रेन चाहता हूँ बुधवार को	[IN:transport_ticket [SL:place_name अहमदाबाद] [SL:date बुधवार] ]	transport	hi-IN
+कॉर्नवाल के लिए अगली ट्रेन कब है	[IN:transport_query [SL:place_name कॉर्नवाल] [SL:transport_type ट्रेन] ]	transport	hi-IN
+फ्रांस के लिए सबसे अच्छा तरीका क्या है	[IN:transport_query [SL:place_name फ्रांस] ]	transport	hi-IN
+मैं आधे घंटे में चाइनाटाउन जा रहा हूँ मेरे लिए एक uber बुक करो	[IN:transport_taxi [SL:time आधे घंटे में] [SL:place_name चाइनाटाउन] [SL:transport_agency uber] ]	transport	hi-IN
+नई दिल्ली के लिए राजधानी एक्सप्रेस पर इस शुक्रवार शाम पांच बजे का एक टिकट बुक करें	[IN:transport_ticket [SL:place_name नई दिल्ली] [SL:transport_name राजधानी एक्सप्रेस] [SL:date इस शुक्रवार] [SL:time शाम पांच बजे] ]	transport	hi-IN
+दिल्ली से देहरादून के लिए एक चेयर कार ए. सी. ट्रेन टिकट बुक करो	[IN:transport_ticket [SL:place_name दिल्ली] [SL:place_name देहरादून] [SL:transport_type ट्रेन] ]	transport	hi-IN
+गांधी मार्ग में ट्रैफिक की स्थिति कैसी है	[IN:transport_traffic [SL:place_name गांधी मार्ग] ]	transport	hi-IN
+मुझे अभी के लिए एक उबर कॉल करें	[IN:transport_taxi [SL:transport_agency उबर] ]	transport	hi-IN
+द्वारका में ज्यादा ट्रैफिक है क्या	[IN:transport_traffic [SL:place_name द्वारका] ]	transport	hi-IN
+अभी मीरा रोड पर कितना traffic है	[IN:transport_traffic [SL:place_name मीरा रोड] ]	transport	hi-IN
+मेरे लिए अभी एक ऊबर भेजो	[IN:transport_taxi [SL:transport_agency ऊबर] ]	transport	hi-IN
+रेलवे स्टेशन कहां है	[IN:transport_query [SL:place_name रेलवे स्टेशन] ]	transport	hi-IN
+क्या आप कृपया पंद्रह मिनट में uber मेरे घर पहुंच सकते हैं	[IN:transport_taxi [SL:time पंद्रह मिनट] [SL:transport_agency uber] [SL:place_name घर] ]	transport	hi-IN
+मुझे एक टैक्सी चाहिए मुझे एयरपोर्ट पहुँचाने के लिए	[IN:transport_taxi [SL:transport_type टैक्सी] [SL:place_name एयरपोर्ट] ]	transport	hi-IN
+मेरे लिए एक प्लेन की टिकट बुक करो	[IN:transport_ticket ]	transport	hi-IN
+घर जाने के लिए टैक्सी की तलाश करें	[IN:transport_taxi [SL:place_name घर] [SL:transport_type टैक्सी] ]	transport	hi-IN
+मेरे घर से उबर बुक करें	[IN:transport_taxi [SL:place_name घर] [SL:transport_agency उबर] ]	transport	hi-IN
+क्या आप मुझे दिल्ली के लिए अगली चार निर्धारित ट्रेनों के बारे में बता सकते हैं	[IN:transport_query [SL:place_name दिल्ली] ]	transport	hi-IN
+गाँधी रोड में ट्रैफिक कैसा है	[IN:transport_traffic [SL:place_name गाँधी रोड] ]	transport	hi-IN
+ट्रैफिक कैसा है	[IN:transport_traffic ]	transport	hi-IN
+मुझे अगले गुरुवार के लिए बोस्टन के लिए एक एमट्रैक टिकट प्राप्त करें बाद में बेहतर होगा	[IN:transport_query [SL:date गुरुवार] [SL:place_name बोस्टन] ]	transport	hi-IN
+पंजाब mail के ग्वालियर पहुँचने का तय समय क्या है	[IN:transport_query [SL:place_name पंजाब] [SL:place_name ग्वालियर] ]	transport	hi-IN
+मुंबई के लिए अगली train कब है	[IN:transport_query [SL:place_name मुंबई] [SL:transport_type train] ]	transport	hi-IN
+चलो एक टैक्सी बुक करते हैं	[IN:transport_taxi [SL:transport_type टैक्सी] ]	transport	hi-IN
+मुझे निकटतम रेलवे स्टेशन की ओर निर्देशित करें	[IN:transport_query [SL:place_name रेलवे स्टेशन] ]	transport	hi-IN
+लखनऊ से बरेली की रेलगाड़ी का समय	[IN:transport_query [SL:place_name लखनऊ] [SL:place_name बरेली] [SL:transport_type रेलगाड़ी] ]	transport	hi-IN
+जयपुर के लिए मंगलवार की train के दो टिकट ढूँढे	[IN:transport_ticket [SL:place_name जयपुर] [SL:date मंगलवार की] [SL:transport_type train] ]	transport	hi-IN
+काम से घर तक यातायात की क्या स्थिति है	[IN:transport_traffic [SL:place_name घर] ]	transport	hi-IN
+मुझे यहाँ से घर तक की traffic condition बताओ	[IN:transport_traffic [SL:place_name घर] ]	transport	hi-IN
+एक taxi reserve करो	[IN:transport_taxi [SL:transport_type taxi] ]	transport	hi-IN
+किराया और डिब्बा	[IN:transport_ticket ]	transport	hi-IN
+दिल्ली में यातायात का स्तर बहुत अधिक	[IN:transport_traffic [SL:place_name दिल्ली] ]	transport	hi-IN
+कल सुबह के लिए हवाई अड्डे के लिए टैक्सी बुक करें	[IN:transport_taxi [SL:date कल] [SL:timeofday सुबह] [SL:place_name हवाई अड्डे] [SL:transport_type टैक्सी] ]	transport	hi-IN
+मैं ट्रैफिक कंडीशन जानना चाहूँगा	[IN:transport_traffic ]	transport	hi-IN
+मेरे सबसे नज़दीकी टैक्सी बुक करो	[IN:transport_taxi [SL:transport_type टैक्सी] ]	transport	hi-IN
+मैं नैनीताल कैसे पहुँचूँ	[IN:transport_query [SL:place_name नैनीताल] ]	transport	hi-IN
+मेरे लिए एक ऊबर बुलाओ	[IN:transport_taxi [SL:transport_agency ऊबर] ]	transport	hi-IN
+एक taxi book करो	[IN:transport_taxi [SL:transport_type taxi] ]	transport	hi-IN
+दिल्ली की आखिरी train का ticket फिर से खरीदो	[IN:transport_ticket [SL:place_name दिल्ली] [SL:transport_type train] ]	transport	hi-IN
+मेरे लिए मुरादाबाद के लिए आज की रेलगाड़ी का टिकट खरीदें	[IN:transport_ticket [SL:place_name मुरादाबाद] [SL:date आज] [SL:transport_type रेलगाड़ी] ]	transport	hi-IN
+निकटतम एप्पल स्टोर के लिए दिशा निर्देश	[IN:transport_query [SL:business_name एप्पल स्टोर] ]	transport	hi-IN
+मुझे वर्तमान यातायात की स्थिति का विचार दें	[IN:transport_traffic ]	transport	hi-IN
+पंजाब से हरियाणा जाने के लिए ट्रेन का समय क्या है	[IN:transport_query [SL:place_name पंजाब] [SL:place_name हरियाणा] [SL:transport_type ट्रेन] ]	transport	hi-IN
+मैं मनाली से नैनीताल कैसे पहुँचूँ	[IN:transport_query [SL:place_name मनाली] [SL:place_name नैनीताल] ]	transport	hi-IN
+घर से कार्यस्थल तक का ट्रैफ़िक कैसा है	[IN:transport_traffic [SL:place_name घर] ]	transport	hi-IN
+एक सवारी पकड़ो	[IN:transport_taxi ]	transport	hi-IN
+तेईस को ग्वालियर तक रेल का समय क्या है	[IN:transport_query [SL:date तेईस] [SL:place_name ग्वालियर] [SL:transport_type रेल] ]	transport	hi-IN
+ट्रेन टिकिट खरीदो	[IN:transport_ticket [SL:transport_type ट्रेन] ]	transport	hi-IN
+कल सुबह आठ बजे एक टैक्सी चाहिए	[IN:transport_taxi [SL:date कल] [SL:timeofday सुबह] [SL:time आठ] [SL:transport_type टैक्सी] ]	transport	hi-IN
+सुबह जाने के लिए टिकट बुक करें	[IN:transport_ticket [SL:timeofday सुबह] ]	transport	hi-IN
+आज रात दस बजे के बाद के लिए उपलब्ध एक uber ड्राइवर खोजें	[IN:transport_taxi [SL:timeofday आज रात] [SL:time दस बजे] [SL:transport_agency uber] ]	transport	hi-IN
+नहलूर के लिए ट्रेन कितने बजे निकलती है	[IN:transport_query [SL:place_name नहलूर] [SL:transport_type ट्रेन] ]	transport	hi-IN
+क्या आप मुझे अगले मंगलवार के लिए ग्वालियर के लिए रेल टिकट बुक कर सकते हैं	[IN:transport_ticket [SL:date मंगलवार] [SL:place_name ग्वालियर] [SL:transport_type रेल] ]	transport	hi-IN
+श्रावस्ती से रेलगाड़ी कितने बजे निकलती है	[IN:transport_query [SL:place_name श्रावस्ती] [SL:transport_type रेलगाड़ी] ]	transport	hi-IN
+आगरा के लिए अगली शताब्दी एक्सप्रेस ट्रेन कब है	[IN:transport_query [SL:place_name आगरा] [SL:transport_type ट्रेन] ]	transport	hi-IN
+मुझे स्थानीय किराए की गाड़ी की सेवा के लिए नंबर प्राप्त करें	[IN:transport_taxi [SL:business_type किराए की गाड़ी की सेवा] ]	transport	hi-IN
+मुझे जगह के लिए निर्देश दें	[IN:transport_query ]	transport	hi-IN
+इमेजिका के लिए दिशा-निर्देश	[IN:transport_query [SL:place_name इमेजिका] ]	transport	hi-IN
+मुझे एक कैब बुलानी है	[IN:transport_taxi [SL:transport_type कैब] ]	transport	hi-IN
+मैं इस स्थान के लिए सभी रेलगाड़ियों के टिकटों के दाम की सूची चाहूंगा	[IN:transport_query [SL:transport_type रेलगाड़ियों] ]	transport	hi-IN
+राजस्थान के लिए train टिकिट बूक करो	[IN:transport_ticket [SL:place_name राजस्थान] [SL:transport_type train] ]	transport	hi-IN
+जयपुर से चंडीगढ़ के लिए रेलगाड़ी का समय क्या है	[IN:transport_query [SL:place_name जयपुर] [SL:place_name चंडीगढ़] [SL:transport_type रेलगाड़ी] ]	transport	hi-IN
+olly कृपया मुझे लखनऊ के लिए एक रेलगाड़ी टिकट खरीदो	[IN:transport_ticket [SL:place_name लखनऊ] [SL:transport_type रेलगाड़ी] ]	transport	hi-IN
+रेलगाड़ी टिकट के लिए कितना	[IN:transport_query [SL:transport_type रेलगाड़ी] ]	transport	hi-IN
+कृपया मुझे इस बारे में जानकारी भेजें कि न्यू यॉर्क के लिए ट्रेन टिकट खरीदने के लिए कैसे जाना है	[IN:transport_query [SL:place_name न्यू यॉर्क] [SL:transport_type ट्रेन] ]	transport	hi-IN
+क्या आप मुझे मुंबई के लिए रेलगाड़ी की समय सारिणी दे सकते हैं	[IN:transport_query [SL:place_name मुंबई] [SL:transport_type रेलगाड़ी] ]	transport	hi-IN
+कल सुबह दस बजे से पहले मेरे लिए इंदौर के लिए एक रेल टिकट बुक करें	[IN:transport_ticket [SL:date कल] [SL:time दस] [SL:place_name इंदौर] [SL:transport_type रेल] ]	transport	hi-IN
+मैं बैंक ऑफ इंडिया जाना चाहता हूँ मुझे दिशा बताओ	[IN:transport_query [SL:business_name बैंक ऑफ इंडिया] ]	transport	hi-IN
+कृपया मुंबई के लिए एक रेलगाड़ी का टिकट खरीदें	[IN:transport_ticket [SL:place_name मुंबई] [SL:transport_type रेलगाड़ी] ]	transport	hi-IN
+कल प्रातः आठ बजे काम पर जाने के लिए मुझे टैक्सी की जरुरत है	[IN:transport_taxi [SL:date कल] [SL:timeofday प्रातः] [SL:time आठ] [SL:transport_type टैक्सी] ]	transport	hi-IN
+वर्तमान यातायात	[IN:transport_traffic ]	transport	hi-IN
+के लिए रेलगाड़ी की समय सारिणी क्या है	[IN:transport_query [SL:transport_type रेलगाड़ी] ]	transport	hi-IN
+क्या आप कृपया हमारे घर के लिए यातायात की जांच कर सकते हैं	[IN:transport_traffic [SL:place_name घर] ]	transport	hi-IN
+यातायात भारी है	[IN:transport_traffic ]	transport	hi-IN
+मुंबई के लिए ट्रेन लेने के लिए मेरे लिए एक टिकट खरीदें	[IN:transport_ticket [SL:place_name मुंबई] [SL:transport_type ट्रेन] ]	transport	hi-IN
+घंटाघर में अक्सर ट्रैफिक कितना रहता है	[IN:transport_traffic [SL:place_name घंटाघर] ]	transport	hi-IN
+इस समय के लिए बुक करें रेलगाड़ी का टिकट	[IN:transport_ticket [SL:transport_type रेलगाड़ी] ]	transport	hi-IN
+उबर सेट अप करें	[IN:transport_taxi [SL:transport_agency उबर] ]	transport	hi-IN
+कृपया मुझे celebration mall की ride करवाओ	[IN:transport_taxi [SL:place_name celebration mall] ]	transport	hi-IN
+मुझे अभी लेने के लिए taxi बुलाओ	[IN:transport_taxi [SL:transport_type taxi] ]	transport	hi-IN
+क्या कोई ट्रैफिक समस्या है	[IN:transport_traffic ]	transport	hi-IN
+निकटतम मैकडॉनल्ड्स के लिए मार्ग क्या है	[IN:transport_query [SL:business_name मैकडॉनल्ड्स] ]	transport	hi-IN
+पुणे जाने के मुझे कौन सा गली लेना होगा	[IN:transport_query [SL:place_name पुणे] ]	transport	hi-IN
+मुझे ट्रेन का टिकट खरीदना है	[IN:transport_ticket [SL:transport_type ट्रेन] ]	transport	hi-IN
+के लिए एक ट्रेन टिकट बुक करें	[IN:transport_ticket [SL:transport_type ट्रेन] ]	transport	hi-IN
+केदारनाथ के लिए कितने train टिकिट है	[IN:transport_query [SL:place_name केदारनाथ] [SL:transport_type train] ]	transport	hi-IN
+उड्राइव सेवा से टैक्सी का अनुरोध करें	[IN:transport_taxi [SL:business_name उड्राइव सेवा] [SL:transport_type टैक्सी] ]	transport	hi-IN
+आज इस सुबह यातायात क्या है	[IN:transport_traffic [SL:timeofday सुबह] ]	transport	hi-IN
+अभी ट्रैफिक कितना है	[IN:transport_traffic ]	transport	hi-IN
+मेरे नजदीक में traffic कैसा है	[IN:transport_traffic ]	transport	hi-IN
+ओहियो में वर्तमान यातायात क्या है	[IN:transport_traffic [SL:place_name ओहियो] ]	transport	hi-IN
+सारे रेल की टाइम बताओ दिल्ली के लिए	[IN:transport_query [SL:transport_type रेल] [SL:place_name दिल्ली] ]	transport	hi-IN
+मुंबई के लिए सभी रेलगाड़ियां और उनका समय दिखाओ	[IN:transport_query [SL:place_name मुंबई] [SL:transport_type रेलगाड़ियां] ]	transport	hi-IN
+आज मुझे लखनऊ के लिए ट्रेन का एक टिकट प्राप्त हुआ	[IN:transport_ticket [SL:date आज] [SL:place_name लखनऊ] [SL:transport_type ट्रेन] ]	transport	hi-IN
+भोपाल जाने का सबसे तेज़ रास्ता कौन सा है	[IN:transport_query ]	transport	hi-IN
+irctc एप्लीकेशन खोलें और टिकट बुक करने के लिए जाएं	[IN:transport_ticket [SL:app_name irctc] ]	transport	hi-IN
+मेरे लिए मुंबई का train टिकिट बूक करो	[IN:transport_ticket [SL:place_name मुंबई] [SL:transport_type train] ]	transport	hi-IN
+एक घंटे के समय में मेरे वर्तमान स्थान पर से ले जाने के लिए टैक्सी बुक करें	[IN:transport_taxi [SL:time एक घंटे] [SL:transport_type टैक्सी] ]	transport	hi-IN
+आज किस रूट पर ट्रैफिक कम है	[IN:transport_traffic [SL:date आज] ]	transport	hi-IN
+मुंबई के लिए मेरी रेलगाड़ी टिकट बुक करें	[IN:transport_ticket [SL:place_name मुंबई] [SL:transport_type रेलगाड़ी] ]	transport	hi-IN
+शुक्रवार को सुबह साढ़े पांच बजे एयरपोर्ट के लिए मेरे लिए टैक्सी बुक करो	[IN:transport_taxi [SL:date शुक्रवार] [SL:time सुबह साढ़े पांच बजे] [SL:place_name एयरपोर्ट] [SL:transport_type टैक्सी] ]	transport	hi-IN
+मेरे लिए धारावी से वसई तक लोकल रेलगाड़ी में सवारी बुक करो	[IN:transport_ticket [SL:place_name धारावी] [SL:place_name वसई] [SL:transport_type रेलगाड़ी] ]	transport	hi-IN
+क्या आप अगले दिन नोएडा जाने वाली ट्रेनों की सूची बता सकते हैं	[IN:transport_query [SL:date अगले दिन] [SL:place_name नोएडा] ]	transport	hi-IN
+क्या किसी विशेष क्षेत्र में सड़क चौड़ी या संकरी है	[IN:transport_traffic ]	transport	hi-IN
+मार्च बीस को train मे मेरे लिए एक सीट reserve करो	[IN:transport_ticket [SL:date मार्च बीस] [SL:transport_type train] ]	transport	hi-IN
+please मुझे गरीब रथ train का समय बताओ	[IN:transport_query [SL:transport_name गरीब रथ] [SL:transport_type train] ]	transport	hi-IN
+कृपया अगली टैक्सी बुक करें	[IN:transport_taxi [SL:transport_type टैक्सी] ]	transport	hi-IN
+uber app खोलो और मुझे एक car दिलवाओ प्लीज	[IN:transport_taxi [SL:transport_agency uber] [SL:transport_type car] ]	transport	hi-IN
+अरे मैं अपने सबसे नजदीकी ट्रेन कितने बजे पकड़ सकता हूँ	[IN:transport_query [SL:transport_type ट्रेन] ]	transport	hi-IN
+एक परिभाषा खोजें	[IN:qa_definition ]	qa	hi-IN
+भारत के राष्ट्रपति कौन हैं	[IN:qa_factoid [SL:place_name भारत] ]	qa	hi-IN
+भारत किस मुद्रा का उपयोग करता है	[IN:qa_currency [SL:place_name भारत] ]	qa	hi-IN
+जिराफ कितना लंबा है	[IN:qa_factoid ]	qa	hi-IN
+आप किस परिदृश्य में असुविधा शब्द का प्रयोग करेंगे	[IN:qa_definition [SL:definition_word असुविधा] ]	qa	hi-IN
+इस रोकनेवाला के प्रतिरोध की गणना करें	[IN:qa_factoid ]	qa	hi-IN
+गूगल	[IN:qa_maths ]	qa	hi-IN
+ब्राउज़िंग केंद्र	[IN:qa_maths ]	qa	hi-IN
+मुझे निष्क्रमण की संक्षिप्त परिभाषा बताओ	[IN:qa_definition [SL:definition_word निष्क्रमण] ]	qa	hi-IN
+क्या आपको लगता है कि समय यात्रा संभव है	[IN:general_quirky ]	general	hi-IN
+अलीशा चिनाय की उम्र क्या है	[IN:qa_factoid [SL:person अलीशा चिनाय] ]	qa	hi-IN
+ईमेल दोस्त	[IN:email_sendemail ]	email	hi-IN
+मुझे इस बारे में समझाएं कि रहस्योद्घाटन की पुस्तक में विभिन्न देशों का क्या प्रतिनिधित्व किया गया है	[IN:general_quirky ]	general	hi-IN
+तीन गुना सात क्या है	[IN:qa_maths ]	qa	hi-IN
+मुझे आज रात क्या पकाना चाहिए	[IN:general_quirky [SL:timeofday आज रात] ]	general	hi-IN
+बताओ क्या होता है जब हम मर जाते हैं	[IN:general_quirky ]	general	hi-IN
+गौतम अडानी किस राज्य से है	[IN:qa_factoid [SL:person गौतम अडानी] ]	qa	hi-IN
+केवल मेरे और तुम्हारे लिए एक डेट फिक्स करो	[IN:general_quirky ]	general	hi-IN
+बयालीस का वर्गमूल क्या है	[IN:qa_maths ]	qa	hi-IN
+मुझे बताओ कि कुणाल कामरा भारती सिंह से बेहतर कॉमेडियन क्यों है	[IN:qa_factoid [SL:person कुणाल कामरा भारती सिंह] ]	qa	hi-IN
+मुझे ऋतिक देशमुख का मध्य नाम बताओ	[IN:qa_factoid [SL:person ऋतिक देशमुख] ]	qa	hi-IN
+जिराफ़ शब्द का उच्चारण कैसे करें	[IN:qa_definition [SL:definition_word जिराफ़] ]	qa	hi-IN
+क्या आप विमुद्रीकरण शब्द कह सकते हैं	[IN:qa_definition [SL:definition_word विमुद्रीकरण] ]	qa	hi-IN
+जो दुनिया की सबसे लंबी इमारत थी	[IN:qa_factoid [SL:place_name दुनिया] ]	qa	hi-IN
+क्या आप अरहमान संगीत के गाने सुनते हैं	[IN:music_query [SL:artist_name अरहमान] ]	music	hi-IN
+मेरे सहयोगी के साथ एक बैठक निर्धारित करें	[IN:calendar_set [SL:relation सहयोगी] [SL:event_name बैठक] ]	calendar	hi-IN
+अभिनेता जो एक भूमिका निभाता है	[IN:qa_definition ]	qa	hi-IN
+कृपया मुझे आमिर खान की अगली फिल्म के बारे में जानकारी दें	[IN:qa_factoid [SL:person आमिर खान] ]	qa	hi-IN
+कोई नहीं	[IN:qa_factoid ]	qa	hi-IN
+क्या तुम झूठ बोल सकते हो	[IN:general_quirky ]	general	hi-IN
+तूफान क्या है	[IN:qa_definition [SL:definition_word तूफान] ]	qa	hi-IN
+गूगल शब्द	[IN:qa_definition ]	qa	hi-IN
+दिल्ली से मुंबई की दूरी की गणना करें	[IN:qa_factoid [SL:place_name दिल्ली] [SL:place_name मुंबई] ]	qa	hi-IN
+गणना हल करें	[IN:qa_maths ]	qa	hi-IN
+मुंबई की जनसँख्या कितनी है	[IN:qa_factoid [SL:place_name मुंबई] ]	qa	hi-IN
+आपकी मातृभाषा क्या है	[IN:general_quirky ]	general	hi-IN
+अक्षय कुमार कितनी पुरानी है	[IN:qa_factoid [SL:person अक्षय कुमार] ]	qa	hi-IN
+मेरे लिए उन सभी चीजों का योग करें जो मैं खुद को खुश बनाने के लिए कर सकता था	[IN:general_quirky ]	general	hi-IN
+अगर खुद को अमीर बनाने के लिए दस आसान उपाय होते तो वे क्या होते	[IN:general_quirky ]	general	hi-IN
+सबसे बड़ा जानवर	[IN:qa_factoid ]	qa	hi-IN
+सबसे ऊंची इमारत	[IN:qa_factoid ]	qa	hi-IN
+अर्जित सिंह का घर कहाँ है	[IN:qa_factoid [SL:person अर्जित सिंह] ]	qa	hi-IN
+मेरी स्थिति क्या है	[IN:general_quirky ]	general	hi-IN
+इंटरनेट पर आप जो भी जानकारी एकत्र कर सकते हैं क्या आप कृपया मुझे राष्ट्रपति कैनेडी की हत्या के बारे में सर्वोत्तम संभावित स्पष्टीकरण प्रदान कर सकते हैं	[IN:qa_factoid ]	qa	hi-IN
+मैं अपनी पत्नी के लिए एक रोमांटिक संदेश लिखना चाहता हूँ	[IN:general_quirky [SL:relation पत्नी] ]	general	hi-IN
+मुझे रामानुजन और उनकी गणितीय यात्रा की कहानी बताओ	[IN:qa_factoid [SL:person रामानुजन] ]	qa	hi-IN
+निम्नलिखित प्रश्न आपको शिक्षक के लक्ष्यों और इच्छित कार्यों का विश्लेषण करने के लिए कहता है	[IN:qa_factoid ]	qa	hi-IN
+महान हिप हॉप कलाकार कौन हैं	[IN:qa_factoid [SL:music_genre हिप हॉप] ]	qa	hi-IN
+पाखंड का क्या अर्थ है	[IN:qa_definition [SL:definition_word पाखंड] ]	qa	hi-IN
+पाखंड शब्द का क्या अर्थ है	[IN:qa_definition [SL:definition_word पाखंड] ]	qa	hi-IN
+इस सवाल का जवाब दें कि सुपर मारियो ब्रदर्स में पहला बॉस कौन है	[IN:general_quirky ]	general	hi-IN
+एक वाक्य में प्रयोग करें	[IN:qa_definition ]	qa	hi-IN
+टू प्लस टू का उत्तर क्या है	[IN:qa_maths ]	qa	hi-IN
+घुमाव को परिभाषित करें	[IN:qa_definition [SL:definition_word घुमाव] ]	qa	hi-IN
+शब्दों को परिभाषित करते समय थिसॉरस दें और इसे स्पष्ट करने के लिए वाक्य में उपयोग करें	[IN:general_quirky ]	general	hi-IN
+मुंबई के शीर्ष पांच गोल स्कोरर कौन हैं	[IN:general_quirky ]	general	hi-IN
+नरेंद्र मोदी का जन्म कब हुआ था	[IN:qa_factoid [SL:person नरेंद्र मोदी] ]	qa	hi-IN
+मुम्बई के गवर्नर कौन हैं	[IN:qa_factoid [SL:place_name मुम्बई] ]	qa	hi-IN
+पीडीए की परिभाषा क्या है	[IN:qa_definition [SL:definition_word पीडीए] ]	qa	hi-IN
+क्या है ट्रंप की अप्रूवल रेटिंग	[IN:qa_factoid [SL:person ट्रंप की] ]	qa	hi-IN
+क्या आप मुझे बता सकते हैं कि इसका उत्तर कैसे मिलेगा	[IN:general_quirky ]	general	hi-IN
+गणित का प्रश्न हल करें	[IN:qa_maths ]	qa	hi-IN
+क्या अन्य ग्रहों पर जीवन है	[IN:general_quirky ]	general	hi-IN
+आपका पसंदीदा रंग क्या है	[IN:general_quirky ]	general	hi-IN
+रोबोटिक्स के तीन नियमों के बारे में आप क्या सोचते हैं	[IN:general_quirky ]	general	hi-IN
+आज का शुभ रंग बताओ	[IN:general_quirky [SL:date आज] ]	general	hi-IN
+मेरे लिए एक कविता पढ़ें	[IN:general_quirky ]	general	hi-IN
+क्या पिछले सप्ताह के दौरान नई दिल्ली और नैस्डैक की कीमतों में मौसम के बीच कोई संबंध है	[IN:general_quirky [SL:date पिछले सप्ताह] [SL:place_name नई दिल्ली] ]	general	hi-IN
+क्या सलीम ख़ान इकलौता बच्चा है	[IN:qa_factoid [SL:person सलीम ख़ान] ]	qa	hi-IN
+कृपया इस शब्द को खोजें	[IN:qa_definition ]	qa	hi-IN
+आकाश नीला क्यों है	[IN:qa_factoid ]	qa	hi-IN
+चौबीस गुना चौबीस क्या है	[IN:qa_maths ]	qa	hi-IN
+पृथ्वी दिवस कितने समय का होता है	[IN:qa_factoid ]	qa	hi-IN
+मुझे आशा है कि हम एक साथ दोपहर का भोजन कर सकते हैं	[IN:general_quirky [SL:meal_type दोपहर का भोजन] ]	general	hi-IN
+बीटल्स में कौन था	[IN:qa_factoid [SL:artist_name बीटल्स] ]	qa	hi-IN
+क्या दुनिया खत्म हो जाएगी जब	[IN:general_quirky ]	general	hi-IN
+काल का क्या अर्थ है	[IN:qa_definition [SL:definition_word काल] ]	qa	hi-IN
+मेरी गर्ल फ्रेंड अभी कहाँ है	[IN:general_quirky ]	general	hi-IN
+एम्बुलेंस की परिभाषा देखें	[IN:qa_definition [SL:definition_word एम्बुलेंस] ]	qa	hi-IN
+क्या जेलो शॉट्स कैलोरी मुक्त हैं	[IN:qa_factoid ]	qa	hi-IN
+क्या आप मुझे ग्राउंड बीफ पाने की सबसे सस्ती जगह बता सकते हैं	[IN:recommendation_locations ]	recommendation	hi-IN
+आलू क्या मतलब है	[IN:qa_definition [SL:definition_word आलू] ]	qa	hi-IN
+मुझे इसके बारे में एक दिलचस्प तथ्य बताओ	[IN:general_quirky ]	general	hi-IN
+अगला दौरा कब है	[IN:general_quirky ]	general	hi-IN
+वर्तमान में डॉलर और यूरो के बीच विनिमय दर क्या है	[IN:qa_currency [SL:currency_name डॉलर] [SL:currency_name यूरो] ]	qa	hi-IN
+ढांचा को परिभाषित करें	[IN:qa_definition [SL:definition_word ढांचा] ]	qa	hi-IN
+एक आलू का वर्णन करें	[IN:qa_definition [SL:definition_word आलू] ]	qa	hi-IN
+कितनी बार एडेल हीरा गया है	[IN:qa_factoid ]	qa	hi-IN
+आज दुनिया में हो रही सबसे अजीबोगरीब चीज बताओ	[IN:general_quirky [SL:date आज] ]	general	hi-IN
+मुझे समय बताओ	[IN:datetime_query ]	datetime	hi-IN
+आप शाब्दिक को कैसे परिभाषित करते हैं	[IN:qa_definition [SL:definition_word शाब्दिक] ]	qa	hi-IN
+मैं चेन्नई की मुफ्त यात्रा करना चाहता हूं क्या आप मुझे वहां ले जा सकते हैं	[IN:general_quirky [SL:place_name चेन्नई] ]	general	hi-IN
+येन यूएस डॉलर विनिमय दर क्या है	[IN:qa_currency [SL:currency_name येन यूएस डॉलर] ]	qa	hi-IN
+पांच किलोमीटर में कितने मील	[IN:qa_maths ]	qa	hi-IN
+सुषमा स्वराज कितनी पुरानी है	[IN:qa_factoid [SL:person सुषमा स्वराज] ]	qa	hi-IN
+हैदराबाद कहाँ है	[IN:qa_factoid [SL:place_name हैदराबाद] ]	qa	hi-IN
+मनमोहन सिंह अभी क्या कर रहे हैं	[IN:qa_factoid [SL:person मनमोहन सिंह] ]	qa	hi-IN
+मोबाइल फ़ोन टावर क्या है	[IN:qa_definition [SL:definition_word मोबाइल फ़ोन टावर] ]	qa	hi-IN
+भारत में रुपया क्या है	[IN:qa_currency [SL:currency_name भारत] [SL:currency_name रुपया] ]	qa	hi-IN
+लखनऊ शहर मुंबई से कितने मील की दूरी पर है	[IN:qa_factoid [SL:place_name लखनऊ] [SL:place_name मुंबई] ]	qa	hi-IN
+आई एन आर से कैड की विनिमय दर क्या है	[IN:qa_currency [SL:currency_name आई एन आर] [SL:currency_name कैड] ]	qa	hi-IN
+स्वतंत्रता की प्रतिमा के बारे में आप क्या जानते हैं	[IN:qa_definition [SL:definition_word स्वतंत्रता की प्रतिमा] ]	qa	hi-IN
+संयुक्त राज्य अमेरिका और चीन के बीच विनिमय दर क्या है	[IN:qa_currency [SL:place_name संयुक्त राज्य अमेरिका] [SL:place_name चीन] ]	qa	hi-IN
+बारे में जानकारी ढूंढें	[IN:qa_definition ]	qa	hi-IN
+संयुक्त राज्य अमेरिका की औसत ऊंचाई क्या है	[IN:qa_factoid ]	qa	hi-IN
+हमारे और फ्रांस के बीच विनिमय दर क्या है	[IN:qa_currency [SL:currency_name हमारे] [SL:currency_name फ्रांस] ]	qa	hi-IN
+मुंबई में कितने लोग रहते हैं	[IN:qa_factoid [SL:place_name मुंबई] ]	qa	hi-IN
+siri भारतीय रुपया में एक अमेरिकी डॉलर क्या है	[IN:qa_currency [SL:currency_name भारतीय रुपया] [SL:currency_name अमेरिकी डॉलर] ]	qa	hi-IN
+अमिताभ बच्चन किस वर्ष पैदा हुए	[IN:qa_factoid [SL:person अमिताभ बच्चन] ]	qa	hi-IN
+मुझे पनीर के बारे में बताओ	[IN:qa_definition [SL:definition_word पनीर] ]	qa	hi-IN
+वॉलमार्ट में स्टॉक की कीमतें	[IN:qa_stock [SL:business_name वॉलमार्ट] ]	qa	hi-IN
+कौन सा धर्म सबसे सच्चा है	[IN:general_quirky ]	general	hi-IN
+हरियाणा और मुंबई के बीच कितने मील की दूरी है	[IN:qa_factoid [SL:place_name हरियाणा] [SL:place_name मुंबई] ]	qa	hi-IN
+अश्वनी कुमार कितने साल के हैं	[IN:qa_factoid [SL:person अश्वनी कुमार] ]	qa	hi-IN
+क्या कैटरीना कैफ ने कभी अकादमी पुरस्कार जीता है	[IN:qa_factoid [SL:person कैटरीना कैफ] ]	qa	hi-IN
+मुझे येन के लिए विनिमय दर बताओ	[IN:qa_currency [SL:currency_name येन] ]	qa	hi-IN
+रुपया के मुकाबले अमेरिकी डॉलर कितना है	[IN:qa_currency [SL:currency_name रुपया] [SL:currency_name अमेरिकी डॉलर] ]	qa	hi-IN
+कृपया मुझे डॉलर और येन के बीच विनिमय दर दिखाएं	[IN:qa_currency [SL:currency_name डॉलर] [SL:currency_name येन] ]	qa	hi-IN
+होम रन की परिभाषा क्या है	[IN:qa_definition [SL:definition_word होम रन] ]	qa	hi-IN
+नरेंद्र मोदी की उम्र क्या है	[IN:qa_factoid [SL:person नरेंद्र मोदी] ]	qa	hi-IN
+मुझे दो बच्चों को व्यस्त रखना है मुझे बताओ क्या करना है	[IN:general_quirky ]	general	hi-IN
+क्या आप मुझे डॉलर की विनिमय दर रुपये में दे सकते हैं	[IN:qa_factoid ]	qa	hi-IN
+मुझे सौर ऊर्जा संचालित उद्यान वाले बगीचे के हिस्से के बारे में बताएं	[IN:qa_definition [SL:definition_word सौर ऊर्जा संचालित उद्यान] ]	qa	hi-IN
+तमिलनाडु का सबसे बड़ा शहर कौन सा है	[IN:qa_factoid [SL:place_name तमिलनाडु] ]	qa	hi-IN
+वर्चुअल रियलिटी हेडसेट का विवरण क्या है	[IN:qa_definition [SL:definition_word वर्चुअल रियलिटी हेडसेट] ]	qa	hi-IN
+क्या टिंडर पर मेरा कोई नया मिलान है	[IN:calendar_query ]	calendar	hi-IN
+केला कैसा दिखता है	[IN:qa_definition [SL:definition_word केला] ]	qa	hi-IN
+नरेंद्र मोदी कौन हैं	[IN:qa_factoid [SL:person नरेंद्र मोदी] ]	qa	hi-IN
+भारत कहाँ है	[IN:qa_factoid [SL:place_name भारत] ]	qa	hi-IN
+एक अजंता एलोरा क्या है	[IN:qa_factoid [SL:place_name अजंता एलोरा] ]	qa	hi-IN
+शिल्पा शेट्टी का जन्म कब हुआ था	[IN:qa_factoid [SL:person शिल्पा शेट्टी] ]	qa	hi-IN
+कलरव का मतलब क्या होता है	[IN:qa_definition [SL:definition_word कलरव] ]	qa	hi-IN
+उत्तर प्रदेश कहाँ है	[IN:qa_factoid [SL:place_name उत्तर प्रदेश] ]	qa	hi-IN
+विजयोल्लास का क्या अर्थ है	[IN:qa_definition [SL:definition_word विजयोल्लास] ]	qa	hi-IN
+हमारा राज्य सबसे दूर उत्तर है	[IN:qa_factoid ]	qa	hi-IN
+स्टोनहेंज कहां है	[IN:qa_factoid ]	qa	hi-IN
+मुझे रिलायंस के लिए स्टॉक की कीमत चाहिए	[IN:qa_stock [SL:business_name रिलायंस] ]	qa	hi-IN
+भारतीय रुपया की दर क्या है	[IN:qa_currency [SL:currency_name भारतीय रुपया] ]	qa	hi-IN
+बरमूडा त्रिकोण क्या है	[IN:qa_factoid ]	qa	hi-IN
+भारतीय रुपया के लिए विनिमय दर क्या है	[IN:qa_currency [SL:currency_name भारतीय रुपया] ]	qa	hi-IN
+रिलायंस के शेयर की क्या कीमत है	[IN:qa_stock [SL:business_name रिलायंस] ]	qa	hi-IN
+अलका याग्निक का बायो	[IN:qa_factoid [SL:artist_name अलका याग्निक] ]	qa	hi-IN
+यूरो से यू एस डी	[IN:qa_currency [SL:currency_name यूरो] [SL:currency_name यू एस डी] ]	qa	hi-IN
+क्या आप मुझे महात्मा गांधी जी का जन्मदिन दे सकते हैं	[IN:qa_factoid [SL:person महात्मा गांधी जी] [SL:event_name जन्मदिन] ]	qa	hi-IN
+एक अपराधी किस प्रकार की पैंट है	[IN:qa_factoid ]	qa	hi-IN
+विकिपीडिया में कोशिश करो	[IN:qa_definition ]	qa	hi-IN
+ऑली ब्राज़ील में डॉलर कम या ज्यादा मूल्य का है	[IN:qa_currency [SL:place_name ब्राज़ील] [SL:currency_name डॉलर] ]	qa	hi-IN
+कमीज कैसा दिखती है	[IN:qa_definition [SL:definition_word कमीज] ]	qa	hi-IN
+मेरे सलाहकार से पूछो	[IN:qa_stock ]	qa	hi-IN
+डॉव जोन्स आज क्या है	[IN:qa_stock [SL:date आज] ]	qa	hi-IN
+कृपया मुझे बताएं कि अगर मैं आज डॉव शेयरों में निवेश करूं तो मैं कब अमीर बन सकता हूं और पांच साल बाद रिटर्न क्या होगा	[IN:qa_stock ]	qa	hi-IN
+सुशांत का जन्म किस वर्ष हुआ था	[IN:qa_factoid [SL:person सुशांत] ]	qa	hi-IN
+स्थानों का सटीक स्थान खोजें	[IN:recommendation_locations ]	recommendation	hi-IN
+कितने इंच एक फुट बनाते हैं	[IN:qa_maths ]	qa	hi-IN
+यूरो बनाम कैनेडियन डॉलर कितना है	[IN:qa_currency [SL:currency_name यूरो] [SL:currency_name कैनेडियन डॉलर] ]	qa	hi-IN
+अमिताभ बच्चन की शीर्ष पांच चलचित्र की सूची बनाएं	[IN:qa_factoid [SL:person अमिताभ बच्चन] ]	qa	hi-IN
+अमेरिकी डॉलर और यूरो के बीच विनिमय दर क्या है	[IN:qa_currency [SL:currency_name अमेरिकी डॉलर] [SL:currency_name यूरो] ]	qa	hi-IN
+छह घटा चार क्या है	[IN:qa_maths ]	qa	hi-IN
+मुझे बताओ एक यूरो डॉलर के बराबर है	[IN:qa_currency [SL:currency_name यूरो डॉलर] ]	qa	hi-IN
+भारत कितना बड़ा है	[IN:qa_factoid [SL:place_name भारत] ]	qa	hi-IN
+मुझे जयपुर के बारे में बताओ	[IN:qa_factoid [SL:place_name जयपुर] ]	qa	hi-IN
+पृथ्वी में विभिन्न पौधों को दिखाओ	[IN:qa_factoid ]	qa	hi-IN
+आज रिलायंस का शेयर कैसा चल रहा है	[IN:qa_stock [SL:date आज] [SL:business_name रिलायंस] ]	qa	hi-IN
+मोदी की पत्नी कौन है	[IN:qa_factoid [SL:person मोदी] ]	qa	hi-IN
+google के लिए आज का बंद भाव	[IN:qa_stock [SL:business_name google] ]	qa	hi-IN
+कैनरा के शेयर मूल्य का उल्लेख करें	[IN:qa_stock [SL:business_name कैनरा] ]	qa	hi-IN
+परिकल्पना का क्या अर्थ है	[IN:qa_definition [SL:definition_word परिकल्पना] ]	qa	hi-IN
+स्वतंत्रता की मूर्ति कब बनी थी	[IN:qa_factoid ]	qa	hi-IN
+माइकल फेल्प्स ने किस उम्र में शादी की	[IN:qa_factoid [SL:person माइकल फेल्प्स] ]	qa	hi-IN
+सुनील शेट्टी कौन हैं	[IN:qa_factoid [SL:person सुनील शेट्टी] ]	qa	hi-IN
+अपूर्ण की परिभाषा क्या है	[IN:qa_definition [SL:definition_word अपूर्ण] ]	qa	hi-IN
+एम्पायर स्टेट बिल्डिंग कितनी लंबी है	[IN:qa_factoid ]	qa	hi-IN
+यू एस डी और रुपया के बीच विनिमय दर क्या है	[IN:qa_currency [SL:currency_name यू एस डी] [SL:currency_name रुपया] ]	qa	hi-IN
+राजनीति की वर्तमान स्थिति का वर्णन करें	[IN:qa_factoid ]	qa	hi-IN
+सोनू निगम का जन्म कब हुआ था	[IN:qa_factoid [SL:person सोनू निगम] ]	qa	hi-IN
+एक शब्द में खुद को परिभाषित करें	[IN:general_quirky ]	general	hi-IN
+निकटतम भारतीय रेस्टोरेंट कहाँ है	[IN:recommendation_locations [SL:food_type भारतीय] [SL:business_type रेस्टोरेंट] ]	recommendation	hi-IN
+क्या आप मुझे बता सकते हैं कि कबाब कैसा दिखता है	[IN:qa_definition [SL:definition_word कबाब] ]	qa	hi-IN
+क्या गुलाबी एक नया एल्बम रिकॉर्ड कर रहा है	[IN:qa_factoid ]	qa	hi-IN
+वस्तु के नाम की परिभाषा	[IN:qa_definition [SL:definition_word वस्तु के नाम] ]	qa	hi-IN
+वोक्सवैगन गोल्फ कार कैसी दिखेगी	[IN:qa_definition [SL:definition_word वोक्सवैगन गोल्फ कार] ]	qa	hi-IN
+आईपैड एयर की विशेषताएं	[IN:general_quirky ]	general	hi-IN
+मुझे सूरज और चाँद के बीच की दूरी बताओ	[IN:qa_factoid ]	qa	hi-IN
+ढूढें दुनिया का मतलब शब्दकोश में	[IN:qa_definition [SL:definition_word दुनिया] ]	qa	hi-IN
+जो दो हजार सत्रह में सबसे अच्छा स्मार्टफोन कौन सा है	[IN:qa_factoid ]	qa	hi-IN
+विनिमय दर मुझे विदेशी मुद्रा के साथ मिलेगी	[IN:qa_currency ]	qa	hi-IN
+मुझे इस व्यक्ति का विवरण प्राप्त करें	[IN:general_quirky ]	general	hi-IN
+कृपया इस व्यक्ति के बारे में कुछ विवरण बताएं	[IN:general_quirky ]	general	hi-IN
+आज भारत में सबसे ज्यादा चिंता का विषय क्या है	[IN:general_quirky [SL:date आज] [SL:place_name भारत] ]	general	hi-IN
+संयुक्त राज्य अमेरिका के पच्चीसवें राष्ट्रपति कौन थे	[IN:qa_factoid [SL:place_name संयुक्त राज्य अमेरिका] ]	qa	hi-IN
+मुझे बताओ कि सबसे कम लागत विकल्प समय के साथ हवाई जहाज के बिना बाली कैसे जाना है कोई फर्क नहीं पड़ता मेरे पास दो सौ दिन का यात्रा समय है और खर्च करने के लिए केवल डॉलर हैं	[IN:general_quirky ]	general	hi-IN
+मुझे लैपटॉप सर्किट का विवरण दें	[IN:qa_definition [SL:definition_word लैपटॉप सर्किट] ]	qa	hi-IN
+iphone स्टॉक आमतौर पर कब गिरता है	[IN:qa_stock ]	qa	hi-IN
+समझाना	[IN:qa_definition ]	qa	hi-IN
+मुझे समझाओ कि गुरुत्वाकर्षण कैसे काम करता है	[IN:qa_factoid ]	qa	hi-IN
+निकिता गांधी और बादशाह की शादी कब हुई	[IN:qa_factoid [SL:person निकिता गांधी] [SL:person बादशाह] ]	qa	hi-IN
+डॉलर और यूरो के बीच विनिमय दर	[IN:qa_currency [SL:currency_name डॉलर] [SL:currency_name यूरो] ]	qa	hi-IN
+क्या आप मुझे बता सकते हैं कि अतिवृद्धि का क्या मतलब होता है	[IN:qa_definition [SL:definition_word अतिवृद्धि] ]	qa	hi-IN
+स्टॉक कंपनी का नाम	[IN:qa_stock ]	qa	hi-IN
+मैं चाहता हूँ कि मेरा रोबोट मेरे लिए मेरा काम करे	[IN:general_quirky ]	general	hi-IN
+मुझे लैपटॉप सर्किट का विवरण दें	[IN:qa_definition [SL:definition_word लैपटॉप सर्किट] ]	qa	hi-IN
+xy को समझाइये	[IN:qa_definition ]	qa	hi-IN
+मुझे माइक्रोमैक्स का शुरुआती स्टॉक मूल्य दें	[IN:qa_stock [SL:business_name माइक्रोमैक्स] ]	qa	hi-IN
+मुझे जैविक गेहूं कहां मिल सकता है	[IN:recommendation_locations ]	recommendation	hi-IN
+कृपया स्टॉक करें	[IN:qa_stock ]	qa	hi-IN
+डॉलर को रुपये की दरों में बदलें	[IN:qa_currency [SL:currency_name डॉलर] [SL:currency_name रुपये] ]	qa	hi-IN
+डॉलर रुपए विनिमय दर	[IN:qa_currency [SL:currency_name डॉलर रुपए] ]	qa	hi-IN
+वह कौन सी बात है जिसने मोदी को चुनाव जीतने दिया	[IN:general_quirky ]	general	hi-IN
+भूकंप भविष्यवाणी	[IN:general_quirky ]	general	hi-IN
+ओके गूगल टर्की पकाने का सबसे आसान और तेज़ तरीका क्या है	[IN:cooking_query ]	cooking	hi-IN
+ब्रॉयलर किस प्रकार का इंप्लीमेंट है और मैं इसका उपयोग कैसे करूँ	[IN:general_quirky ]	general	hi-IN
+मेरे लिए ब्रॉयलर को परिभाषित करें	[IN:qa_definition [SL:definition_word ब्रॉयलर] ]	qa	hi-IN
+स्टेच्यू ऑफ़ लिबर्टी कहाँ है	[IN:qa_factoid [SL:place_name स्टेच्यू ऑफ़ लिबर्टी] ]	qa	hi-IN
+मुझे बताओ कि गेंद कैसी दिखती है	[IN:qa_definition [SL:definition_word गेंद] ]	qa	hi-IN
+alexa मुझे नाना पाटेकर के बारे में वह सब कुछ देती है जो आप जानते हैं	[IN:qa_factoid [SL:person नाना पाटेकर] ]	qa	hi-IN
+मुझे रिलायंस स्टॉक की कीमतें बताएं	[IN:qa_stock [SL:business_name रिलायंस] ]	qa	hi-IN
+एएमडी स्टॉक की कीमतें क्या हैं	[IN:qa_stock [SL:business_name एएमडी] ]	qa	hi-IN
+व्हाट्सएप्प का स्टॉक मूल्य क्या है	[IN:qa_stock [SL:business_name व्हाट्सएप्प] ]	qa	hi-IN
+आप नई योजनाएँ लाए थे	[IN:general_quirky ]	general	hi-IN
+एक पाउंड को अमेरिकी डॉलर में परिवर्तन करें	[IN:qa_currency [SL:currency_name पाउंड] [SL:currency_name अमेरिकी डॉलर] ]	qa	hi-IN
+उच्च स्टॉक मूल्य	[IN:qa_stock ]	qa	hi-IN
+कैनन के विवरण में कितने मेगा पिक्सेल सूचीबद्ध हैं	[IN:qa_factoid ]	qa	hi-IN
+सुधीर चौधरी प्रसिद्ध कैसे हुआ	[IN:qa_factoid [SL:person सुधीर चौधरी] ]	qa	hi-IN
+दो गुणा तीन का उत्तर क्या है	[IN:qa_maths ]	qa	hi-IN
+बारह को चार से कितना विभाजित किया जाता है	[IN:qa_maths ]	qa	hi-IN
+अनुष्का शर्मा के प्राकृतिक बालों का रंग क्या है	[IN:qa_factoid [SL:person अनुष्का शर्मा] ]	qa	hi-IN
+मेरे पास पांच अमरीकी डॉलर हैं भारतीय रुपया में वह कितना है	[IN:qa_currency [SL:currency_name अमरीकी डॉलर] [SL:currency_name भारतीय रुपया] ]	qa	hi-IN
+मेरे लिए चंद्रमा को परिभाषित करें	[IN:qa_definition [SL:definition_word चंद्रमा] ]	qa	hi-IN
+दुनिया में कितनी नदियां हैं	[IN:qa_factoid [SL:place_name दुनिया] ]	qa	hi-IN
+मुझे कुछ ऐसी हस्तियां खोजें जो मकर राशि की हैं	[IN:qa_factoid ]	qa	hi-IN
+अगर यह उपभोक्ता अच्छा है तो ग्राहक प्रतिक्रिया क्या है	[IN:general_quirky ]	general	hi-IN
+भारतीय रुपया यू. एस. डॉलर के मुकाबले कितना जा रहा है	[IN:qa_currency [SL:currency_name भारतीय रुपया यू. एस. डॉलर] ]	qa	hi-IN
+क्या आप उस वस्तु का वर्णन कर सकते हैं	[IN:qa_definition ]	qa	hi-IN
+नासा द्वारा प्रक्षेपित किया जाने वाला पहला उपग्रह कौन सा था	[IN:qa_factoid ]	qa	hi-IN
+कृपया मुझे हाथी का वर्णन करें	[IN:qa_definition [SL:definition_word हाथी] ]	qa	hi-IN
+आज अमेरिकी डॉलर की दर क्या है	[IN:qa_currency [SL:date आज] [SL:currency_name अमेरिकी डॉलर] ]	qa	hi-IN
+अलिया भट्ट कितने समय से गर्भवती है	[IN:qa_factoid [SL:person अलिया भट्ट] ]	qa	hi-IN
+बिग बाज़ार के लिए स्टॉक मूल्य क्या है	[IN:qa_stock [SL:business_name बिग बाज़ार] ]	qa	hi-IN
+मैं चाहता हूँ कि यह आसानी से एक लिस्ट बनाए और मुझे बताए कि मैं कब किसी चीज में पीछे चल रहा हूं	[IN:general_quirky ]	general	hi-IN
+मोदी इस हफ्ते के बारे में क्या कर रहे हैं	[IN:qa_factoid [SL:person मोदी] [SL:date इस हफ्ते] ]	qa	hi-IN
+मारिनारा की परिभाषा क्या है	[IN:qa_definition [SL:definition_word मारिनारा] ]	qa	hi-IN
+लोग ऐसा कैसे सोच रहे हैं कि भगवान से सब कुछ छिपा सकते हैं	[IN:general_quirky ]	general	hi-IN
+मुद्रा विनिमय दर	[IN:qa_currency ]	qa	hi-IN
+एक बाय क्या है	[IN:qa_definition ]	qa	hi-IN
+मानुषी चिल्लर कितनी पुरानी है	[IN:qa_factoid [SL:person मानुषी चिल्लर] ]	qa	hi-IN
+मुझे बताओ कि दुनिया कैसे शुरू हुई	[IN:general_quirky ]	general	hi-IN
+मुझे यूरो में दस डॉलर की विनिमय दर बताओ	[IN:qa_currency [SL:currency_name यूरो] [SL:currency_name डॉलर] ]	qa	hi-IN
+कंप्यूटर क्या है	[IN:qa_definition [SL:definition_word कंप्यूटर] ]	qa	hi-IN
+दुनिया का सबसे छोटा द्वीप कौन सा है	[IN:qa_factoid [SL:place_name दुनिया] ]	qa	hi-IN
+भारत कितना बड़ा है	[IN:qa_factoid [SL:place_name भारत] ]	qa	hi-IN
+दिल्ली से बरेली कितनी दूर है	[IN:transport_query [SL:place_name दिल्ली] [SL:place_name बरेली] ]	transport	hi-IN
+क्या तुम मुझे बता सकते हो सिनेमाघर में आज रात कौन सी फ़िल्में चल रही हैं	[IN:recommendation_movies [SL:timeofday आज रात] ]	recommendation	hi-IN
+ओली घपला शब्द की परिभाषा क्या है	[IN:qa_definition [SL:definition_word घपला] ]	qa	hi-IN
+ओली अमेरिकी डॉलर और ऑस्ट्रेलियाई डॉलर के बीच विनिमय दर क्या है	[IN:qa_currency [SL:currency_name अमेरिकी डॉलर] [SL:currency_name ऑस्ट्रेलियाई डॉलर] ]	qa	hi-IN
+रिलायंस का क्या भाव है	[IN:qa_stock [SL:business_name रिलायंस] ]	qa	hi-IN
+हे olly पैसिव की परिभाषा क्या है	[IN:qa_definition [SL:definition_word पैसिव] ]	qa	hi-IN
+सर सी.वी. रमन कितने साल के थे जब वे सापेक्षता सिद्धांत के साथ आए थे	[IN:qa_factoid [SL:person सर सी.वी. रमन] ]	qa	hi-IN
+शून्य से पाँच तक घातांकीय फलन के निकट समाकलन की गणना कीजिए	[IN:qa_factoid ]	qa	hi-IN
+मुझे बताएं कि ब्रेक्सिट का क्या प्रभाव पड़ने वाला है	[IN:qa_factoid ]	qa	hi-IN
+कृपया हमारे और मेक्सिको के बीच लेन देन देखें	[IN:qa_currency ]	qa	hi-IN
+सैमसंग टी. वी. के बारे में विवरण पाएं	[IN:qa_definition [SL:definition_word सैमसंग टी. वी.] ]	qa	hi-IN
+samsung के लिए विनिमय दर क्या है	[IN:qa_currency [SL:business_name samsung] ]	qa	hi-IN
+कितनी दूर है	[IN:qa_factoid ]	qa	hi-IN
+यह क्या चीज़ है	[IN:qa_definition ]	qa	hi-IN
+इंफ़ोसिस स्टॉक क्या है	[IN:qa_stock [SL:business_name इंफ़ोसिस] ]	qa	hi-IN
+ट्विटर पर क्या ट्रेंड कर रहा है	[IN:social_query [SL:media_type ट्विटर] ]	social	hi-IN
+मेरी माँ ने आखिरी बात क्या कही थी	[IN:social_query [SL:relation माँ] ]	social	hi-IN
+मोहन के फेसबुक से मुझे सप्ताहांत के अपडेट बताएं	[IN:social_query [SL:person मोहन] [SL:media_type फेसबुक] [SL:time सप्ताहांत] ]	social	hi-IN
+मुझे मेरे फेसबुक से नई टिप्पणियाँ ढूँढ़ें	[IN:social_query [SL:media_type फेसबुक] ]	social	hi-IN
+मेरे पिछले इंस्टाग्राम फोटो को कितने लाइक मिले हैं	[IN:social_query [SL:media_type इंस्टाग्राम] ]	social	hi-IN
+मेरे लिए पंजाब केसरी का आखिरी ट्वीट पढ़ें	[IN:social_query [SL:media_type पंजाब केसरी] ]	social	hi-IN
+फेसबुक पर नई स्थिति पोस्ट करें जश्न मनाने का समय	[IN:social_post [SL:media_type फेसबुक] ]	social	hi-IN
+मेरा फेसबुक अपडेट हर तीन घंटे में उपलब्ध होना चाहिए	[IN:social_query [SL:media_type फेसबुक] [SL:general_frequency हर तीन घंटे] ]	social	hi-IN
+उसे फेसबुक पर डाल दो	[IN:social_post [SL:media_type फेसबुक] ]	social	hi-IN
+यह लेख बहुत अच्छा है क्या आप मेरे लिए फेसबुक का लिंक साझा कर सकते हैं	[IN:social_post [SL:media_type फेसबुक] ]	social	hi-IN
+यू ट्यूब में एक वीडियो प्रसारित करें	[IN:social_post [SL:media_type यू ट्यूब] ]	social	hi-IN
+फेसबुक स्थिति व्यस्त दिन	[IN:social_post [SL:media_type फेसबुक] ]	social	hi-IN
+कृपया आमिर खान को पोस्ट करें	[IN:social_post [SL:person आमिर खान] ]	social	hi-IN
+please facebook पर एक status सबमिट करो	[IN:social_post [SL:media_type facebook] ]	social	hi-IN
+मुझे उन स्थानों की सूची दिखाओ जहाँ मेरे रिशतेदार उनकी तस्वीरों के आधार पर रहे हैं	[IN:social_query [SL:relation रिशतेदार] ]	social	hi-IN
+फेसबुक से नवीनतम समाचार फ़ीड	[IN:social_query [SL:media_type फेसबुक] ]	social	hi-IN
+मुझे मेरे ट्विटर हैंडल प्रोफाइल का विवरण दें जिसमें कुल अनुयायियों की संख्या शामिल है	[IN:social_query [SL:media_type ट्विटर] ]	social	hi-IN
+अच्छा क्या आप इसे मेरे व्हाट्स ऐप पर पोस्ट कर सकते हैं	[IN:social_post [SL:media_type व्हाट्स ऐप] ]	social	hi-IN
+क्या आप मुझे बता सकते हैं कि मेरे सोशल मीडिया का क्या हुआ	[IN:social_query ]	social	hi-IN
+मेरी feed से नया क्या है	[IN:social_query ]	social	hi-IN
+please मुझे किसी नए status update के बारे में सूचित करो	[IN:social_query ]	social	hi-IN
+ट्रेंडिंग सोशल मीडिया	[IN:social_query ]	social	hi-IN
+नया ट्वीट	[IN:social_post [SL:media_type ट्वीट] ]	social	hi-IN
+फेसबुक लाएँ और देश अमेरीका को जन्मदिन की शुभकामनाएँ दें	[IN:social_post [SL:media_type फेसबुक] [SL:place_name अमेरीका] [SL:event_name जन्मदिन] ]	social	hi-IN
+मैं टेस्को से नाखुश हूं कृपया मेरी मदद करें	[IN:social_post [SL:business_name टेस्को] ]	social	hi-IN
+क्या आप अजीओ को यह कहते हुए ट्वीट भेज सकते हैं कि उनका ऐप क्रैश हो गया है	[IN:social_post [SL:business_name अजीओ] [SL:media_type ट्वीट] ]	social	hi-IN
+निम्नलिखित को फेसबुक पर स्टेटस के रूप में पोस्ट करें	[IN:social_post [SL:media_type फेसबुक] ]	social	hi-IN
+कहते हुए ट्विटर पर स्टेटस पोस्ट करें	[IN:social_post [SL:media_type ट्विटर] ]	social	hi-IN
+कृपया इस तस्वीर को मेरे फेसबुक पर पोस्ट करें	[IN:social_post [SL:media_type फेसबुक] ]	social	hi-IN
+हमदर्द को ट्वीट करें और उन्हें बताएं कि मेरा ऐप क्रैश हो गया है	[IN:social_post [SL:business_name हमदर्द] [SL:media_type ट्वीट] ]	social	hi-IN
+मेरे facebook ग्रुप को बताओ कि मैं आ गया हूँ	[IN:social_post [SL:media_type facebook] ]	social	hi-IN
+please levis को शिकायत करो	[IN:social_post [SL:business_name levis] ]	social	hi-IN
+उन्हें बताएं कि उनकी लाइनें बहुत लंबी हैं	[IN:social_post ]	social	hi-IN
+मुझे एक चरनी चाहिए	[IN:general_quirky ]	general	hi-IN
+यह संदेश ट्विटर पर माइक्रोसॉफ्ट को भेजें	[IN:social_post ]	social	hi-IN
+फेसबुक एलेक्सा पर मेरे फोन पर तस्वीर पोस्ट करें	[IN:social_post [SL:media_type फेसबुक] [SL:device_type फोन] ]	social	hi-IN
+नौसेना की पुरानी वेबसाइट पर एक शिकायत ट्वीट करें	[IN:social_post [SL:business_name नौसेना की पुरानी वेबसाइट] [SL:media_type ट्वीट] ]	social	hi-IN
+यूनाइटेड एयरलाइंस को ट्वीट भेजें मैं नाराज़ हूँ आपने मेरा बैग खो दिया	[IN:social_post [SL:business_name यूनाइटेड एयरलाइंस] [SL:media_type ट्वीट] ]	social	hi-IN
+olive garden की बहुत बुरी सर्विस थी मुझे उन्हें ट्वीट करने की ज़रूरत है	[IN:social_post [SL:business_name olive garden] [SL:media_type ट्वीट] ]	social	hi-IN
+ट्विटर उपभोक्ता सेवा के माध्यम से शिकायत भेजें	[IN:social_post [SL:business_name उपभोक्ता सेवा] ]	social	hi-IN
+क्या आप फ़र्नीचर स्टोर ग्राहक सेवा को शिकायत ट्वीट कर सकते हैं	[IN:social_post [SL:business_name फ़र्नीचर स्टोर ग्राहक सेवा] [SL:media_type ट्वीट] ]	social	hi-IN
+टाटा स्काई को बताएं कि मैं अभी भी होल्ड पर हूं	[IN:social_post [SL:business_name टाटा स्काई] ]	social	hi-IN
+मेरे द्वारा आज खरीदे गए टेबलेट के लिए सीपला को शिकायत लिखें	[IN:social_post [SL:date आज] [SL:business_name सीपला] ]	social	hi-IN
+राष्ट्रीय ग्रिड को बताएं कि बिजली फिर से बंद है	[IN:social_post [SL:business_name राष्ट्रीय ग्रिड] ]	social	hi-IN
+twitter के द्वारा अमेज़न ग्राहक सेवा से संपर्क	[IN:social_post [SL:media_type twitter] [SL:business_name अमेज़न ग्राहक सेवा] ]	social	hi-IN
+कृपया मुझे मेरे सोशल मीडिया अकाउंट पर अपडेट करें	[IN:social_query ]	social	hi-IN
+सैमसंग को शिकायत ट्वीट करे	[IN:social_post [SL:business_name सैमसंग] [SL:media_type ट्वीट] ]	social	hi-IN
+कृपया लैपटॉप की दोषपूर्ण सेवा के बारे में डेल कंपनी को एक ट्वीट करें	[IN:social_post [SL:business_name डेल कंपनी] [SL:media_type ट्वीट] ]	social	hi-IN
+वॉलमार्ट को ट्वीट करें और उन्हें बताएं कि उनकी ग्राहक सेवा भयानक है	[IN:social_post [SL:business_name वॉलमार्ट] [SL:media_type ट्वीट] ]	social	hi-IN
+meijer को एक ट्वीट भेजें उन्हें बताएं कि उनके पास सबसे खराब ग्राहक सेवा है	[IN:social_post [SL:business_name meijer] [SL:media_type ट्वीट] ]	social	hi-IN
+ग्राहक सेवा को निम्नलिखित शिकायत ट्वीट करें	[IN:social_post [SL:business_name ग्राहक सेवा] [SL:media_type ट्वीट] ]	social	hi-IN
+क्या राहुल ने फेसबुक पर कुछ भी नया पोस्ट किया है	[IN:social_query [SL:person राहुल] [SL:media_type फेसबुक] ]	social	hi-IN
+खराब डिलीवरी के बारे में डोमिनोज़ को एक ट्वीट भेजें	[IN:social_post [SL:business_name डोमिनोज़] [SL:media_type ट्वीट] ]	social	hi-IN
+मुझे इस कंपनी में ट्वीट करने के लिए याद दिलाएं	[IN:calendar_set [SL:media_type ट्वीट] ]	calendar	hi-IN
+फेसबुक पर पोस्ट करें ओह मैं बीमार हूँ	[IN:social_post [SL:media_type फेसबुक] ]	social	hi-IN
+टम्बलर पर पोस्ट करें मुझे मज़ा आ रहा है	[IN:social_post [SL:media_type टम्बलर] ]	social	hi-IN
+स्थिति को संबोधित करें	[IN:general_quirky ]	general	hi-IN
+बर्गर किंग को शिकायत ट्वीट करें	[IN:social_post [SL:business_name बर्गर किंग] [SL:media_type ट्वीट] ]	social	hi-IN
+olly company को एक tweet भेजो	[IN:social_post [SL:media_type tweet] ]	social	hi-IN
+एल. जी. को रेफ्रिजरेटर के बारे में मेरी शिकायत को ट्वीट करें	[IN:social_post [SL:business_name एल. जी.] [SL:media_type ट्वीट] ]	social	hi-IN
+gallery खोलो video नाम post करो	[IN:social_post [SL:media_type gallery] ]	social	hi-IN
+ट्विटर पर पोस्ट करो और लिखो कि आगे एक व्यस्त दिन होगा	[IN:social_post [SL:media_type ट्विटर] ]	social	hi-IN
+ट्वीट ग्राहक सेवा मेरे ट्विटर अकाउंट में लीटर प्रति ग्राम सेवा के लिए अच्छी नहीं है	[IN:social_post [SL:media_type ट्वीट] [SL:media_type ट्विटर] ]	social	hi-IN
+शिकायत ट्वीट करे	[IN:social_post [SL:media_type ट्वीट] ]	social	hi-IN
+मेरे instagram अकाउंट पर नवीनतम तस्वीरें क्या हैं	[IN:social_query [SL:media_type instagram] ]	social	hi-IN
+ok google ये ट्वीट करो कि देवा फूड में सेवा भयानक है	[IN:social_post [SL:media_type ट्वीट] ]	social	hi-IN
+गन्दा नाला अवरुद्ध होने की शिकायत मेरे लिए ट्वीट करें	[IN:social_post [SL:media_type ट्वीट] ]	social	hi-IN
+सामाजिक जानकारी	[IN:social_query ]	social	hi-IN
+ग्राहक सेवा को ट्वीट करें कि मैं हमारी हालिया बातचीत से बहुत निराश हूं	[IN:social_post [SL:business_name ग्राहक सेवा] [SL:media_type ट्वीट] ]	social	hi-IN
+मैं ट्विटर पर एक स्टेटस पोस्ट करना चाहता हूं	[IN:social_post [SL:media_type ट्विटर] ]	social	hi-IN
+मुझे गंगाधर पांडे से कार दुर्घटना के बारे में ईमेल कब मिला	[IN:email_query [SL:person गंगाधर पांडे] ]	email	hi-IN
+मुझे बताएं कि क्या मेरे पास नए ईमेल हैं	[IN:email_query ]	email	hi-IN
+अंकिता को ईमेल भेजो कहो कि मैं लेट हो जाऊंगा डिनर पे इंतजार न करे	[IN:email_sendemail [SL:person अंकिता] [SL:meal_type डिनर] ]	email	hi-IN
+क्या जुही से कोई ईमेल आया है	[IN:email_query [SL:person जुही] ]	email	hi-IN
+क्या आप कृपया रीमा को एक ईमेल भेज सकते हैं	[IN:email_sendemail [SL:person रीमा] ]	email	hi-IN
+मेरा इनबॉक्स चेक करें	[IN:email_query [SL:email_folder इनबॉक्स] ]	email	hi-IN
+दुष्यंत को कल के बैठक के बारे में ईमेल करो और लिखो कि दुष्यंत क्या हम दोपहर में बैठक कर सकते हैं	[IN:email_sendemail [SL:person दुष्यंत] [SL:date कल] [SL:event_name बैठक] [SL:person दुष्यंत] [SL:timeofday दोपहर] ]	email	hi-IN
+ओली मैं राम की पार्टी के बारे में जानना चाहूंगा	[IN:general_quirky [SL:person राम] [SL:event_name पार्टी] ]	general	hi-IN
+मेरा नवीनतम ईमेल खोलें और उत्तर दें	[IN:email_sendemail ]	email	hi-IN
+इस सामग्री को ईमेल के माध्यम से भेजें	[IN:email_sendemail ]	email	hi-IN
+विषय मौसम निकाय के साथ माँ को एक ईमेल भेजें इस सप्ताह वहां का मौसम कैसा है	[IN:email_sendemail [SL:relation माँ] [SL:date इस सप्ताह] ]	email	hi-IN
+माँ के अपठित ईमेल के लिए ईमेल देखें	[IN:email_query [SL:relation माँ] ]	email	hi-IN
+कृपया मुझे मेरे संपर्क से विनोद का विवरण दें	[IN:email_querycontact [SL:person विनोद] [SL:personal_info विवरण] ]	email	hi-IN
+क्या मेरी सूची में रोहन नामक कोई संपर्क है	[IN:email_querycontact [SL:person रोहन] [SL:personal_info नामक] ]	email	hi-IN
+राम को जीमेल डॉट कॉम पर नया साल मुबारक भेजें	[IN:email_sendemail [SL:email_address राम को जीमेल डॉट कॉम] ]	email	hi-IN
+राम का उपनाम क्या है	[IN:email_querycontact [SL:person राम का] [SL:personal_info उपनाम] ]	email	hi-IN
+मेरे मित्र को उसके प्रश्न का उत्तर भेजें	[IN:email_sendemail [SL:relation मित्र] ]	email	hi-IN
+पिछले दो घंटों के ईमेल देखें	[IN:email_query [SL:time पिछले दो घंटों] ]	email	hi-IN
+पिछले बारह घंटों के ईमेल देखें	[IN:email_query [SL:time पिछले बारह घंटों] ]	email	hi-IN
+alexa त्रिपाठी ऐट हॉटमेल डॉट कॉम को महिमा त्रिपाठी के लिए एक नए संपर्क के रूप में जोड़ें	[IN:email_addcontact [SL:email_address त्रिपाठी ऐट हॉटमेल डॉट कॉम] [SL:person महिमा त्रिपाठी] ]	email	hi-IN
+मुझे बताएं कि क्या फ्लिपकार्ट से कोई नया ईमेल है	[IN:email_query [SL:business_name फ्लिपकार्ट] ]	email	hi-IN
+कृपया इस संपर्क को निम्न संदेश ईमेल करें	[IN:email_sendemail ]	email	hi-IN
+जांचें और देखें कि क्या मुझे आंजनेय सिंह से बजट से संबंधित कोई ईमेल प्राप्त हुआ है	[IN:email_query [SL:person आंजनेय सिंह] ]	email	hi-IN
+यह ईमेल को संपर्क में सहेजें	[IN:email_addcontact ]	email	hi-IN
+अश्मित को उसके उपलब्ध ताज़ा टेक टॉपिक भेजो	[IN:email_sendemail [SL:person अश्मित] ]	email	hi-IN
+मुझे बताएं जब डॉली मुझे ईमेल करे	[IN:email_query [SL:person डॉली] ]	email	hi-IN
+मुझे बताएं कि दोपहर तीन बजे से मेरे इनबॉक्स में क्या जमा है	[IN:email_query [SL:time तीन बजे] [SL:email_folder इनबॉक्स] ]	email	hi-IN
+क्या आप मेरे दोस्त रोहित को ईमेल भेज सकते हैं जो कहता है कि मैं कल व्यस्त हूँ	[IN:email_sendemail [SL:relation दोस्त] [SL:person रोहित] [SL:date कल] ]	email	hi-IN
+अखंड की समय सीमा खोजें	[IN:email_query [SL:person अखंड] ]	email	hi-IN
+अरे सहकर्मी को ईमेल शुरू करो	[IN:email_sendemail [SL:relation सहकर्मी] ]	email	hi-IN
+इस ईमेल पर इस सहकर्मी के लिए नया ईमेल खोलें	[IN:email_sendemail [SL:relation सहकर्मी] ]	email	hi-IN
+मेरा जीमेल इनबॉक्स रिफ्रेश करो	[IN:email_query [SL:email_folder इनबॉक्स] ]	email	hi-IN
+नमस्ते भेजो	[IN:email_sendemail ]	email	hi-IN
+मोहन से नवीनतम ईमेल दिखाएं	[IN:email_query [SL:person मोहन] ]	email	hi-IN
+मेरे प्रबंधक को एक ईमेल भेजें	[IN:email_sendemail [SL:relation प्रबंधक] ]	email	hi-IN
+नवीनतम ईमेल प्रदर्शित करें राम	[IN:email_query ]	email	hi-IN
+संजीव सेन को ईमेल करें	[IN:email_sendemail [SL:person संजीव सेन] ]	email	hi-IN
+पिछले पांच मिनट में कोई भी आने वाली ईमेल	[IN:email_query [SL:time पिछले पांच मिनट] ]	email	hi-IN
+मेरे दोस्त को एक ईमेल भेजें जन्मदिन की शुभकामनाएं कहें	[IN:email_sendemail [SL:relation दोस्त] [SL:event_name जन्मदिन] ]	email	hi-IN
+माँ का ईमेल पता क्या है	[IN:email_querycontact [SL:relation माँ का] [SL:personal_info ईमेल पता] ]	email	hi-IN
+मैं चाहता हूँ यह नया ईमेल मेरे कॉन्टेक्ट्स में ऐड किया जाए	[IN:email_sendemail ]	email	hi-IN
+रोहन को ईमेल भेजें मैं अगले दिन फाइल भेजने जा रहा हूँ	[IN:email_sendemail [SL:person रोहन] [SL:date अगले दिन] ]	email	hi-IN
+हाल ही में प्राप्त सभी ईमेल को टाइम स्टैम्प के साथ दिखाएं	[IN:email_query ]	email	hi-IN
+मुझे नया ईमेल दिखाओ	[IN:email_query ]	email	hi-IN
+खुला जवाब	[IN:email_sendemail ]	email	hi-IN
+इस ईमेल का जवाब दो	[IN:email_sendemail ]	email	hi-IN
+जय को ईमेल भेजें उसे बताएं कि उसकी दादी उससे प्यार करती है और आशा करती है कि उसके पास एक अच्छा सप्ताहांत है	[IN:email_sendemail [SL:person जय] ]	email	hi-IN
+उत्तर लिखें	[IN:email_sendemail ]	email	hi-IN
+मुझे मेरे भाई के संपर्क विवरण बताओ	[IN:email_querycontact [SL:relation भाई] [SL:personal_info संपर्क विवरण] ]	email	hi-IN
+इस मैसेज को फैमिली ग्रुप में भेजो जो ए से स्टार्ट होता है	[IN:email_sendemail [SL:relation फैमिली] ]	email	hi-IN
+जिन्होंने मुझे हाल ही में ईमेल किया है और प्रत्येक ईमेल के विषय क्या हैं	[IN:email_query ]	email	hi-IN
+olly कृपया बबलू के ईमेल का यह कहते हुए जवाब दें कि उनका विचार शानदार है	[IN:email_sendemail [SL:person बबलू के] ]	email	hi-IN
+प्रदर्शन समीक्षा के लिए मिलने के लिए मालिक को ईमेल भेजें	[IN:email_sendemail [SL:relation मालिक] ]	email	hi-IN
+क्या प्रतीक भारत में रहता है	[IN:email_querycontact [SL:person प्रतीक] [SL:place_name भारत] [SL:personal_info रहता है] ]	email	hi-IN
+अगर मुझे मेरे ईमेल पर कोई मेल प्राप्त होता है तो मुझे सूचित करें	[IN:email_query ]	email	hi-IN
+संदेश ईमेल करें हाय आज रात खाने के लिए नीचे आओ भाई	[IN:email_sendemail [SL:timeofday आज रात] [SL:meal_type खाने] [SL:relation भाई] ]	email	hi-IN
+नाव बेचने वाले व्यक्ति को एक ईमेल भेजकर बताएं कि मेरे पास पैसे हैं	[IN:email_sendemail ]	email	hi-IN
+मुझे बताओ कि कल बॉस के बारे में ईमेल किसने भेजा था	[IN:email_query [SL:date कल] ]	email	hi-IN
+क्लिनिक ने मेरी परीक्षा के बारे में क्या कहा	[IN:email_query [SL:business_name क्लिनिक] ]	email	hi-IN
+क्या मुझे एक कांटेक्ट के बारे में जानकारी मिल सकती है	[IN:email_querycontact ]	email	hi-IN
+मेरे अपठित ईमेल पढ़ें	[IN:email_query ]	email	hi-IN
+नए ईमेल की जाँच करें	[IN:email_query ]	email	hi-IN
+क्या आप यह देखने के लिए जाँच कर सकते हैं कि क्या मेरे पास कोई हालिया ईमेल अलर्ट है	[IN:email_query ]	email	hi-IN
+मेरे लिए एक ईमेल भेजें	[IN:email_sendemail ]	email	hi-IN
+सभी को जवाब देना	[IN:email_sendemail ]	email	hi-IN
+राम सिंह को बताओ	[IN:email_sendemail [SL:person राम सिंह] ]	email	hi-IN
+धन्यवाद के साथ उत्तर दें	[IN:email_sendemail ]	email	hi-IN
+क्या मेरे पास राम का कोई नया ईमेल है	[IN:email_query [SL:person राम] ]	email	hi-IN
+क्या मेरे प्रचार के संबंध में कोई ईमेल है	[IN:email_query [SL:event_name प्रचार] ]	email	hi-IN
+अरे ईमेल चेक करो	[IN:email_query ]	email	hi-IN
+पिछले सप्ताह में मुझे सभी ईमेल के विषयों और प्रेषकों की सूची बनाएं	[IN:email_query [SL:date पिछले सप्ताह] ]	email	hi-IN
+किसने मुझे हाल ही में ईमेल किया और उन्होंने किस बारे में ईमेल किया	[IN:email_query ]	email	hi-IN
+जगदीश को ईमेल भेजें	[IN:email_sendemail [SL:person जगदीश] ]	email	hi-IN
+ईमेल शुरू करो	[IN:email_sendemail ]	email	hi-IN
+मेरे पास कितने अपठित ईमेल हैं	[IN:email_query ]	email	hi-IN
+मुसर्रत को ईमेल भेजें रात के खाने का समय क्या है	[IN:email_sendemail [SL:person मुसर्रत] ]	email	hi-IN
+रिलायंस को ईमेल भेजें कि उनकी सेवा बेकार है	[IN:email_sendemail [SL:business_name रिलायंस] ]	email	hi-IN
+कृपया इस प्रेषक के हालिया ईमेल अध्ययन की जांच करें	[IN:email_query ]	email	hi-IN
+मेरा ईमेल खाता खोलें और नए ईमेल की जांच करें	[IN:email_query ]	email	hi-IN
+मेरे बॉस को यह कहते हुए एक ईमेल भेजें कि मुझे देर हो जाएगी	[IN:email_sendemail [SL:relation बॉस] ]	email	hi-IN
+मेरे पास कौन से नए संदेश हैं	[IN:email_query ]	email	hi-IN
+मेरे नए ईमेल खोलो	[IN:email_query ]	email	hi-IN
+शिवानी से ईमेल की जाँच करें	[IN:email_query [SL:person शिवानी] ]	email	hi-IN
+मार्क के ईमेल का जवाब	[IN:email_sendemail [SL:person मार्क के] ]	email	hi-IN
+आज कितने ईमेल	[IN:email_query [SL:date आज] ]	email	hi-IN
+क्या मेरी माँ ने मुझे एक ईमेल भेजा	[IN:email_query [SL:relation माँ] ]	email	hi-IN
+माँ को ईमेल भेजो कल शॉपिंग के लिए जाना है	[IN:email_sendemail [SL:relation माँ] [SL:date कल] ]	email	hi-IN
+अशोक के सभी ईमेल देखें	[IN:email_query [SL:person अशोक] ]	email	hi-IN
+क्या आप मुझे रितु को ईमेल लिखने में मदद करेंगे	[IN:email_sendemail [SL:person रितु] ]	email	hi-IN
+ओली कृपया जांचें कि क्या मुझे माँ से कोई ईमेल मिला है	[IN:email_query [SL:relation माँ] ]	email	hi-IN
+मेरी कंपनी के सभी कर्मचारियों को एक ईमेल भेजें	[IN:email_sendemail [SL:relation कंपनी के] [SL:relation कर्मचारियों] ]	email	hi-IN
+पते पर ईमेल संदेश	[IN:email_sendemail ]	email	hi-IN
+नया पता	[IN:email_sendemail ]	email	hi-IN
+google उस पिंकू के लिए नया ईमेल पता ढूंढो जिसे मैंने शुक्रवार को जोड़ा था	[IN:email_query [SL:person पिंकू] [SL:date शुक्रवार] ]	email	hi-IN
+क्या यह मेरे मालिक के लिए सही क्षेत्र कोड है	[IN:email_querycontact [SL:relation मालिक] ]	email	hi-IN
+जवाब दे दो	[IN:email_sendemail ]	email	hi-IN
+कृपया उन संपर्कों को हटा दें जिनसे मैंने तीन महीनों से बात नहीं की है	[IN:email_querycontact [SL:date तीन महीनों से] ]	email	hi-IN
+मैं रोहन एट जीमेल डॉट कॉम पर ईमेल भेजना चाहता हूं	[IN:email_sendemail [SL:email_address रोहन एट जीमेल डॉट कॉम] ]	email	hi-IN
+बेटी को यह कहते हुए ईमेल भेजें कि मैं तुमसे प्यार करता हूँ	[IN:email_sendemail [SL:relation बेटी को] ]	email	hi-IN
+माँ को ईमेल भेजें जन्मदिन मुबारक हो	[IN:email_sendemail [SL:relation माँ] [SL:event_name जन्मदिन] ]	email	hi-IN
+कृपया मुझे बताएं कि क्या जुलाई ने मुझे कोई ईमेल भेजा है	[IN:email_query [SL:person जुलाई] ]	email	hi-IN
+बॉस की ओर से कोई नया ईमेल	[IN:email_query [SL:relation बॉस] ]	email	hi-IN
+क्या मुझे पिछले एक घंटे में कोई ईमेल प्राप्त हुआ है	[IN:email_query [SL:time पिछले एक घंटे] ]	email	hi-IN
+क्या अभी तक कोई भी व्यक्तिगत ईमेल नहीं आया है	[IN:email_query ]	email	hi-IN
+कल से मेरी बहन का ईमेल खोलो उत्तर पर क्लिक करें और मेरी प्रतिक्रिया के लिए आवाज सक्रियण चालू करें	[IN:email_sendemail [SL:date कल] [SL:relation बहन का] ]	email	hi-IN
+मेरे फोन बुक में कितने संपर्क हैं	[IN:email_querycontact [SL:device_type फोन बुक] ]	email	hi-IN
+क्या आप देख सकते हैं कि अनिल ने मुझे किस बारे में ईमेल किया था	[IN:email_query [SL:person अनिल] ]	email	hi-IN
+मैं उस विषय के साथ राम से ईमेल ढूंढना चाहता हूं जिसमें बैठक शब्द शामिल है	[IN:email_query [SL:person राम] ]	email	hi-IN
+कृपया मेरी माँ को ईमेल भेजें	[IN:email_sendemail [SL:relation माँ] ]	email	hi-IN
+क्या समीर ने मुझे एक ईमेल भेजा	[IN:email_query [SL:person समीर] ]	email	hi-IN
+मेरे ईमेल को देखो	[IN:email_query ]	email	hi-IN
+विनोद का ईमेल खोलें	[IN:email_sendemail [SL:person विनोद का] ]	email	hi-IN
+संपर्क के लिए ईमेल खोजें	[IN:email_query ]	email	hi-IN
+सम्पर्क खोजें	[IN:email_query ]	email	hi-IN
+मेरा ईमेल लाओ	[IN:email_query ]	email	hi-IN
+john नाम का संपर्क खोलें	[IN:email_querycontact [SL:person john] ]	email	hi-IN
+i recently email किया	[IN:email_query ]	email	hi-IN
+आज के ईमेल इनबॉक्स से विषय पंक्ति और प्रेषक क्या हैं	[IN:email_query [SL:date आज के] [SL:email_folder इनबॉक्स] ]	email	hi-IN
+कृपया मेरी संपर्क सूची खोलें	[IN:email_querycontact [SL:list_name संपर्क सूची] ]	email	hi-IN
+अनुपम की संपर्क जानकारी खोलें	[IN:email_querycontact [SL:person अनुपम] ]	email	hi-IN
+रणवीर सुरजेवाला के सभी ईमेल की जाँच करें	[IN:email_query [SL:person रणवीर सुरजेवाला] ]	email	hi-IN
+रोहन को उत्तर भेजो	[IN:email_sendemail [SL:person रोहन] ]	email	hi-IN
+अरे क्या मुझे कोई नया ईमेल मिला	[IN:email_query ]	email	hi-IN
+पंकज को ईमेल करें	[IN:email_sendemail [SL:person पंकज] ]	email	hi-IN
+मेरे मेल की जांच करो	[IN:email_query ]	email	hi-IN
+मुझे ईशिका और अखिल को ईमेल करना है	[IN:email_sendemail [SL:person ईशिका] [SL:person अखिल] ]	email	hi-IN
+नहीं पढ़े हुए दिखाओ	[IN:email_query ]	email	hi-IN
+क्या मेरे इनबॉक्स में नए ईमेल हैं	[IN:email_query [SL:email_folder इनबॉक्स] ]	email	hi-IN
+उत्तर मेल	[IN:email_sendemail ]	email	hi-IN
+एन. एस अलुवालिया को एक ईमेल भेजें उससे पूछें कि क्या डीन ने अपना पिछला होमवर्क असाइनमेंट दिया है	[IN:email_sendemail [SL:person एन. एस अलुवालिया] ]	email	hi-IN
+मेरे पिछले ईमेल का जवाब भेजें	[IN:email_sendemail ]	email	hi-IN
+छह तीस प्रतिक्रिया के साथ विराट का ईमेल का जवाब दो	[IN:email_sendemail [SL:person विराट का] ]	email	hi-IN
+मेरे पास क्या मेल है	[IN:email_query ]	email	hi-IN
+मैं रोहन के ईमेल का जवाब देना चाहता हूं	[IN:email_sendemail [SL:person रोहन] ]	email	hi-IN
+मनोज के ईमेल जांचें	[IN:email_query [SL:person मनोज] ]	email	hi-IN
+क्या कोई नया ईमेल है	[IN:email_query ]	email	hi-IN
+मेरे लिए मेरा इनबॉक्स चेक करें	[IN:email_query [SL:email_folder इनबॉक्स] ]	email	hi-IN
+मेरे संपर्क में ईमेल सहेजें	[IN:email_addcontact ]	email	hi-IN
+संपर्कों में सहेजें	[IN:email_addcontact ]	email	hi-IN
+मुझे मेरे सभी हाल के ईमेल दें	[IN:email_query ]	email	hi-IN
+मेरी हाल की ईमेल गतिविधि क्या है	[IN:email_query ]	email	hi-IN
+मुझे संपर्क मेल आईडी दें	[IN:email_querycontact [SL:personal_info मेल आईडी] ]	email	hi-IN
+कृपया मुझे रीहान के नए ईमेल बताएं	[IN:email_query [SL:person रीहान] ]	email	hi-IN
+बस मुझे सोनम के नए ईमेल बताएं	[IN:email_query [SL:person सोनम] ]	email	hi-IN
+क्या मुझे पांच बजे से कोई ईमेल प्राप्त हुआ है	[IN:email_query [SL:time पांच बजे] ]	email	hi-IN
+क्या मुझे आज राजेश से कोई ईमेल्स आए हैं	[IN:email_query [SL:date आज] [SL:person राजेश] ]	email	hi-IN
+आज की निर्धारित मीटिंग जानकारी के साथ मेरी कंपनी के कर्मचारी को एक ईमेल प्रकाशित करें	[IN:email_sendemail [SL:date आज की] [SL:relation कंपनी के कर्मचारी] ]	email	hi-IN
+क्या मुझको आज नेहा से कोई नया ईमेल मिला है	[IN:email_query [SL:date आज] [SL:person नेहा] ]	email	hi-IN
+रवि को ईमेल भेजें	[IN:email_sendemail [SL:person रवि] ]	email	hi-IN
+राजू के फोन नंबर पर कॉल करें	[IN:email_querycontact [SL:person राजू] [SL:personal_info फोन नंबर] ]	email	hi-IN
+कोई नए ईमेल के बारे में बताओ	[IN:email_query ]	email	hi-IN
+मेरे पास कितने अपठित संदेश हैं	[IN:email_query ]	email	hi-IN
+कृपया उस ईमेल का जवाब दें जिसे मैंने अभी पढ़ा है	[IN:email_sendemail ]	email	hi-IN
+क्या रोहन ने आज मुझे लिखा	[IN:email_query [SL:person रोहन] [SL:date आज] ]	email	hi-IN
+रामू का क्या पता है	[IN:email_querycontact [SL:person रामू] [SL:personal_info पता] ]	email	hi-IN

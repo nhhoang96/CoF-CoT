@@ -1,0 +1,2033 @@
+โปรด ปิด ไฟ	[IN:iot_hue_lightoff ]	iot	th-TH
+หรี่ ไฟ ห้องโถง ให้ที	[IN:iot_hue_lightdim [SL:house_place ห้องโถง] ]	iot	th-TH
+ปรับ ให้ ห้อง มืดลง	[IN:iot_hue_lightdim [SL:house_place ห้อง] ]	iot	th-TH
+ทำความสะอาด คอนโด	[IN:iot_cleaning [SL:house_place คอนโด] ]	iot	th-TH
+การทำความสะอาดเป็นเรื่องที่ดี ฝุ่นมันไม่ดีเลย แสดงพลังวิเศษด้วยการทำความสะอาด พรม ของฉันให้ที	[IN:iot_cleaning [SL:house_place พรม] ]	iot	th-TH
+บอกสถานะในหน่วยความจำที่มีอยู่ ของฉัน	[IN:general_quirky ]	general	th-TH
+แสดงรายการตัวเลือกการ บริการส่ง อาหาร จีน ที่มีคะแนนสูงสุด	[IN:takeaway_query [SL:order_type บริการส่ง] [SL:food_type จีน] ]	takeaway	th-TH
+ค้นหา ร้านอาหารไทย แบบซื้อกลับบ้าน ใกล้ใกล้ ฉัน ทองหล่อ	[IN:takeaway_query [SL:food_type ร้านอาหารไทย] [SL:order_type แบบซื้อกลับบ้าน] [SL:place_name ทองหล่อ] ]	takeaway	th-TH
+อยากฟัง ใจสั่งมา ของ โลโซ	[IN:play_music [SL:song_name ใจสั่งมา] [SL:artist_name โลโซ] ]	play	th-TH
+เล่นเพลง แพ้ความอ่อนแอ ของ ซิลลี่ ฟูลส์	[IN:play_music [SL:song_name แพ้ความอ่อนแอ] [SL:artist_name ซิลลี่ ฟูลส์] ]	play	th-TH
+วงที่กำลังเล่นอยู่ตอนนี้คือวงอะไร	[IN:music_query ]	music	th-TH
+เกิดอะไรขึ้นกับคำสั่งซื้ออาหารเย็นของฉัน	[IN:takeaway_query ]	takeaway	th-TH
+พยากรณ์อากาศ อาทิตย์ นี้	[IN:weather_query [SL:time อาทิตย์] ]	weather	th-TH
+เปิด รักเอย	[IN:play_music [SL:song_name รักเอย] ]	play	th-TH
+เปิด โอมจงเงย	[IN:play_music [SL:song_name โอมจงเงย] ]	play	th-TH
+เล่นเพลงของ บอดี้สแลม	[IN:play_music [SL:artist_name บอดี้สแลม] ]	play	th-TH
+เล่นวน เพลง นี้	[IN:music_settings [SL:player_setting เล่นวน] ]	music	th-TH
+ตั้งค่าเสียง ที่ต่ำลง	[IN:audio_volume_down [SL:change_amount ที่ต่ำลง] ]	audio	th-TH
+วันนี้ เป็นวันอะไร	[IN:datetime_query [SL:date วันนี้] ]	datetime	th-TH
+นั่น คือ เพลง อะไร	[IN:music_query ]	music	th-TH
+ฉันอยากฟังเพลง แจ๊ส	[IN:play_music [SL:music_genre แจ๊ส] ]	play	th-TH
+olly อยากฟัง แจ๊ส	[IN:play_music [SL:music_genre แจ๊ส] ]	play	th-TH
+ว่าไง	[IN:general_greet ]	general	th-TH
+ตั้ง นาฬิกาปลุก พรุ่งนี้ เวลา หกโมงเช้า	[IN:alarm_set [SL:date พรุ่งนี้] [SL:time หกโมงเช้า] ]	alarm	th-TH
+เพิ่ม ระดับเสียง	[IN:audio_volume_up ]	audio	th-TH
+ข้างนอก ฝนตก มั๊ย	[IN:weather_query [SL:weather_descriptor ฝนตก] ]	weather	th-TH
+ที่ กรุงเทพ ตอนนี้ กี่โมง	[IN:datetime_query [SL:place_name กรุงเทพ] ]	datetime	th-TH
+ที่ ปักกิ่ง เป็นเวลากี่โมง	[IN:datetime_query [SL:place_name ปักกิ่ง] ]	datetime	th-TH
+ตั้ง นาฬิกาปลุก ตอน หกโมง เช้า	[IN:alarm_set [SL:time หกโมง] [SL:timeofday เช้า] ]	alarm	th-TH
+ฉัน ตั้ง นาฬิกาปลุก เพื่อ ตื่น ตอน เช้า หรือไม่	[IN:alarm_query [SL:alarm_type ตื่น] [SL:timeofday เช้า] ]	alarm	th-TH
+มีอะไรเกิดขึ้นใน อเมริกา บ้าง	[IN:news_query [SL:place_name อเมริกา] ]	news	th-TH
+olly ขอเพลง เมทัล ตอนนี้	[IN:play_music [SL:music_genre เมทัล] ]	play	th-TH
+ตอนนี้ที่ โตเกียว เป็นเวลาเท่าไหร่	[IN:datetime_query [SL:place_name โตเกียว] ]	datetime	th-TH
+บอกฉันเรื่องข่าวพาดหัว ของหนังสือพิมพ์ วันนี้ ว่ามีอะไรบ้าง	[IN:news_query [SL:media_type ของหนังสือพิมพ์] [SL:date วันนี้] ]	news	th-TH
+เล่นเพลงของ บอดี้เเสลม	[IN:play_music [SL:artist_name บอดี้เเสลม] ]	play	th-TH
+ปีนี้ วันแห่งความทรงจำคือวันอะไร	[IN:datetime_query [SL:date ปีนี้] ]	datetime	th-TH
+ในนี้มืดจัง	[IN:iot_hue_lighton ]	iot	th-TH
+พรุ่งนี้ ฝน จะ ตก หรือไม่	[IN:weather_query [SL:date พรุ่งนี้] [SL:weather_descriptor ฝน] [SL:weather_descriptor ตก] ]	weather	th-TH
+นุ่มขึ้น	[IN:audio_volume_down ]	audio	th-TH
+พรุ่งนี้ อุณหภูมิ เท่าไหร่	[IN:weather_query [SL:date พรุ่งนี้] [SL:weather_descriptor อุณหภูมิ] ]	weather	th-TH
+พยากรณ์ อากาศ พรุ่งนี้ เป็นอย่างไร	[IN:weather_query [SL:date พรุ่งนี้] ]	weather	th-TH
+ยี่สิบสอง มีนาคม คือวันอะไรของสัปดาห์	[IN:datetime_query [SL:date ยี่สิบสอง มีนาคม] ]	datetime	th-TH
+วันนี้ วันจันทร์ ใช่หรือไม่	[IN:datetime_query ]	datetime	th-TH
+ดอยอินทนนท์ อากาศจะเป็นยังไง	[IN:weather_query [SL:place_name ดอยอินทนนท์] ]	weather	th-TH
+ตอนนี้ ที่ อยุธยา มีแดด หรือไม่	[IN:weather_query [SL:place_name อยุธยา] [SL:weather_descriptor มีแดด] ]	weather	th-TH
+แจ้งฉันทันทีที่มีข่าวเพิ่มเติมเกี่ยวกับ เบร็กซิท	[IN:news_query [SL:news_topic เบร็กซิท] ]	news	th-TH
+ปิด ปลั๊กไฟอัจฉริยะ	[IN:iot_wemo_off [SL:device_type ปลั๊กไฟอัจฉริยะ] ]	iot	th-TH
+เปิด เพลง โปรด ของชั้น	[IN:play_music ]	play	th-TH
+ผมอยากฟัง เพลง ป็อป	[IN:play_music [SL:music_genre ป็อป] ]	play	th-TH
+เปลี่ยน ไฟ ห้อง ของฉัน เพื่อให้ฉันสามารถ นอนหลับสนิท	[IN:iot_hue_lightchange [SL:color_type นอนหลับสนิท] ]	iot	th-TH
+สภาพอากาศใน วันศุกร์ เป็นอย่างไร	[IN:weather_query [SL:date วันศุกร์] ]	weather	th-TH
+วันนี้ เป็นวันอะไร	[IN:datetime_query [SL:date วันนี้] ]	datetime	th-TH
+วันนี้ ฉันควรใส่ เสื้อแจ็กเก็ต ไหม	[IN:weather_query [SL:date วันนี้] [SL:weather_descriptor เสื้อแจ็กเก็ต] ]	weather	th-TH
+ปิดใช้งานเล่นสลับ	[IN:music_settings [SL:player_setting ปิดใช้งานเล่นสลับ] ]	music	th-TH
+วันนี้ วันที่เท่าไหร่	[IN:datetime_query ]	datetime	th-TH
+มีอะไรที่คุณทำไม่ได้บ้าง	[IN:general_quirky ]	general	th-TH
+บอกชั่วโมงฉันมา	[IN:datetime_query ]	datetime	th-TH
+ข้างนอก ร้อน ไหม	[IN:weather_query [SL:weather_descriptor ร้อน] ]	weather	th-TH
+ฉัน มี การเตือน ที่ตั้งไว้ ไหม	[IN:alarm_query ]	alarm	th-TH
+โดย สูตรที่เหมาะสม	[IN:weather_query ]	weather	th-TH
+กรุณาปิดเสียงใน ชั่วโมงถัดไป	[IN:audio_volume_mute [SL:time ชั่วโมงถัดไป] ]	audio	th-TH
+เล่น เพลง ที่ฉันชอบ	[IN:play_music ]	play	th-TH
+อันที่อันตรายมากของมัน	[IN:weather_query ]	weather	th-TH
+ช่วยเล่าข่าว ต่างประเทศ ให้ฉันฟังหน่อย	[IN:news_query [SL:place_name ต่างประเทศ] ]	news	th-TH
+ตั้ง เตือนปลุก สำหรับ สิบโมงเช้า	[IN:alarm_set [SL:time สิบโมงเช้า] ]	alarm	th-TH
+ตั้ง นาฬิกาปลุก ตอน บ่ายสาม	[IN:alarm_set [SL:time บ่ายสาม] ]	alarm	th-TH
+ตั้ง การเตือน ตอน บ่ายโมง	[IN:alarm_set [SL:time บ่ายโมง] ]	alarm	th-TH
+เปิด เพลง เดี๋ยวนี้	[IN:play_music ]	play	th-TH
+อีเมลเนื้อเพลงของเพลงนี้ให้ฉัน	[IN:music_query ]	music	th-TH
+ลบ ตั้งปลุก ตอน แปดโมงเช้า	[IN:alarm_remove [SL:time แปดโมงเช้า] ]	alarm	th-TH
+พรุ่งนี้ ฝนจะตก มั๊ย	[IN:weather_query [SL:date พรุ่งนี้] [SL:weather_descriptor ฝนจะตก] ]	weather	th-TH
+ฉันอยากได้ยิน we will rock you จาก queen	[IN:play_music [SL:song_name we will rock you] [SL:artist_name queen] ]	play	th-TH
+เริ่ม การแจ้งเตือน	[IN:alarm_set ]	alarm	th-TH
+ฉันต้องการตื่นตอน หกโมงเช้า พรุ่งนี้	[IN:alarm_set [SL:time หกโมงเช้า] [SL:date พรุ่งนี้] ]	alarm	th-TH
+olly เล่น เพลง จาก เพลย์ลิสต์ ของฉัน	[IN:play_music ]	play	th-TH
+วันลอยกระทง คือวันอะไร	[IN:datetime_query [SL:event_name วันลอยกระทง] ]	datetime	th-TH
+ฉันอยากฟัง กอดได้ไหม	[IN:play_music [SL:song_name กอดได้ไหม] ]	play	th-TH
+เธอช่วยหา เรื่องตลก เกี่ยวกับสัตว์ ให้ฉันหน่อย	[IN:general_joke [SL:joke_type เกี่ยวกับสัตว์] ]	general	th-TH
+สถานะสภาพอากาศใน ตอนนี้ คืออะไร	[IN:weather_query ]	weather	th-TH
+ที่ เชียงใหม่ กี่โมงแล้ว	[IN:datetime_query [SL:place_name เชียงใหม่] ]	datetime	th-TH
+ตั้ง เขต เวลา	[IN:datetime_convert ]	datetime	th-TH
+เปิด ปลั๊ก ทีวี เวลา ฉัน กลับถึง บ้าน	[IN:iot_wemo_on [SL:device_type ทีวี] ]	iot	th-TH
+ตามข่าว เรื่องปัญหาที่ดินผิดกฎหมายของปารีณา ใน อนาคต	[IN:news_query [SL:news_topic เรื่องปัญหาที่ดินผิดกฎหมายของปารีณา] [SL:time อนาคต] ]	news	th-TH
+ลด ระดับเสียง ลง	[IN:audio_volume_down ]	audio	th-TH
+ฉันไม่ได้ยินอะไรเลย ช่วยเพิ่ม ระดับเสียง	[IN:audio_volume_up ]	audio	th-TH
+ช่วย เพิ่มความสว่าง ของ ไฟ ขึ้น อีกได้มั้ย	[IN:iot_hue_lightup ]	iot	th-TH
+ฉันอยากฟัง สิงโต นำโชค ตอนนี้	[IN:play_music [SL:artist_name สิงโต นำโชค] ]	play	th-TH
+ใครกำลังทำคะแนนนำในการแข่ง ฟอร์มูล่าวัน ตอนนี้	[IN:news_query [SL:news_topic ฟอร์มูล่าวัน] ]	news	th-TH
+เตรียม กาแฟ	[IN:iot_coffee ]	iot	th-TH
+อ่านข่าวพาดหัวล่าสุดจาก ไทยรัฐ ให้ฉันฟังหน่อย	[IN:news_query [SL:media_type ไทยรัฐ] ]	news	th-TH
+ขอข่าวทันเหตุการณ์จาก ไทยรัฐ ให้ฉันได้มั้ย	[IN:news_query [SL:media_type ไทยรัฐ] ]	news	th-TH
+คุณช่วยเบาเสียงลงหน่อยได้ไหม	[IN:audio_volume_down ]	audio	th-TH
+เล่น เพลง จาก ประเภท อาร์แอนด์บี และ โซล	[IN:play_music [SL:artist_name อาร์แอนด์บี] [SL:music_genre โซล] ]	play	th-TH
+ปิด ปลั๊กไฟ wemo	[IN:iot_wemo_off [SL:device_type ปลั๊กไฟ wemo] ]	iot	th-TH
+สภาพอากาศ อาทิตย์นี้ ดูเป็นอย่างไร	[IN:weather_query [SL:date อาทิตย์นี้] ]	weather	th-TH
+สัปดาห์นี้ สภาพอากาศควรจะเป็นอย่างไร	[IN:weather_query [SL:date สัปดาห์นี้] ]	weather	th-TH
+บอกฉันว่ามี แผ่นดินไหว เกิดขึ้นที่ไหนในโลกหรือไม่	[IN:news_query [SL:news_topic แผ่นดินไหว] ]	news	th-TH
+เล่น สบาย สบาย โดย ธงไชย แมคอินไตย์	[IN:play_music [SL:song_name สบาย สบาย] [SL:artist_name ธงไชย แมคอินไตย์] ]	play	th-TH
+hey olly ปิดเสียง ลำโพง	[IN:audio_volume_mute ]	audio	th-TH
+ลดระดับเสียงทั้งหมดของ ลำโพง	[IN:audio_volume_down ]	audio	th-TH
+ชงกาแฟเดี๋ยวนี้	[IN:iot_coffee ]	iot	th-TH
+ok google เล่น เพลง บ้าง	[IN:play_music ]	play	th-TH
+ข่าวซุบซิบล่าสุดจาก ฮอลลีวูด มีอะไรบ้าง	[IN:news_query [SL:news_topic ฮอลลีวูด] ]	news	th-TH
+เพิ่มความสว่าง ของ ไฟ	[IN:iot_hue_lightup ]	iot	th-TH
+ตั้งปลุก ตอน แปดโมงเช้า	[IN:alarm_set [SL:time แปดโมงเช้า] ]	alarm	th-TH
+ปิดการแจ้งเตือนเวลา หกโมงเช้า ใน วันพุธ	[IN:alarm_remove [SL:time หกโมงเช้า] [SL:date วันพุธ] ]	alarm	th-TH
+ปิด การปลุก ตอนเช้า หลังจากวันศุกร์	[IN:alarm_remove [SL:timeofday ตอนเช้า] [SL:date หลังจากวันศุกร์] ]	alarm	th-TH
+ขอพยากรณ์อากาศ สัปดาห์หน้า	[IN:weather_query [SL:date สัปดาห์หน้า] ]	weather	th-TH
+เล่น ดนตรี จาก ศิลปิน โปรด ของฉัน	[IN:play_music ]	play	th-TH
+ช่วยหรี่ไฟลงอีก นิดหน่อย	[IN:iot_hue_lightdim [SL:change_amount นิดหน่อย] ]	iot	th-TH
+โทรศัพท์	[IN:alarm_remove ]	alarm	th-TH
+ถ้าเป็นเวลา สองทุ่ม ที่ ฝั่งตะวันออก จะเป็นเวลากี่โมงที่ ไทเป	[IN:datetime_convert [SL:time สองทุ่ม] [SL:place_name ฝั่งตะวันออก] [SL:place_name ไทเป] ]	datetime	th-TH
+เอ็มเค ซื้อกลับบ้าน	[IN:takeaway_query [SL:order_type ซื้อกลับบ้าน] ]	takeaway	th-TH
+บอกฉันทีว่าที่ เชียงใหม่ กี่โมงแล้ว	[IN:datetime_query [SL:place_name เชียงใหม่] ]	datetime	th-TH
+ข่าวทันเหตุการณ์ จาก ไทยรัฐ	[IN:news_query [SL:media_type ไทยรัฐ] ]	news	th-TH
+ไปที่ เว็บไซต์ ของ เดลินิวส์	[IN:social_post [SL:media_type เดลินิวส์] ]	social	th-TH
+ดึงข่าวพาดหัวขึ้นมาให้หน่อย	[IN:news_query ]	news	th-TH
+ไทยรัฐ พาดหัวข่าว อะไรบ้าง	[IN:news_query [SL:media_type ไทยรัฐ] ]	news	th-TH
+ดูว่า เอมเค จะให้ฉัน ซื้อกลับบ้าน ไหม	[IN:takeaway_query [SL:business_name เอมเค] [SL:order_type ซื้อกลับบ้าน] ]	takeaway	th-TH
+ขอวันที่ของ วันนี้ ให้ฉันได้มั้ย	[IN:datetime_query [SL:date วันนี้] ]	datetime	th-TH
+นาฬิกาปลุก ไปโรงเรียน ของฉัน ตั้งไว้แล้วหรือยัง	[IN:alarm_query ]	alarm	th-TH
+ข้างนอก ร้อน ขนาดไหน	[IN:weather_query [SL:weather_descriptor ร้อน] ]	weather	th-TH
+ตอน บ่ายโมง วันนี้ ให้เริ่มเดินเครื่อง หุ่นยนต์ดูดฝุ่น	[IN:iot_cleaning [SL:time บ่ายโมง] [SL:date วันนี้] [SL:device_type หุ่นยนต์ดูดฝุ่น] ]	iot	th-TH
+ผู้ช่วยที่ดี	[IN:news_query ]	news	th-TH
+ส่งข่าวทันเหตุการณ์ประจำ วัน นี้ ให้ฉันที	[IN:news_query ]	news	th-TH
+เล่น หมอกหรือควัน โดย ธงไชย แมคอินไตย์ ตอนนี้	[IN:play_music [SL:song_name หมอกหรือควัน] [SL:artist_name ธงไชย แมคอินไตย์] ]	play	th-TH
+วันนี้ วันที่เท่าไหร่	[IN:datetime_query [SL:date วันนี้] ]	datetime	th-TH
+เนื้อเพลง อยู่ที่เรียนรู้ โดย กมลา สุโกศล คืออะไร	[IN:music_query [SL:song_name อยู่ที่เรียนรู้] [SL:artist_name กมลา สุโกศล] ]	music	th-TH
+ไม่ต้องเล่น ลูกทุ่ง ใดใด ให้ฉัน	[IN:music_dislikeness [SL:music_genre ลูกทุ่ง] ]	music	th-TH
+ถ้าเป็น สี่ทุ่ม ใน เชียงใหม่ ตอนนี้ที่ สิงคโปร์ จะกี่โมง	[IN:datetime_convert [SL:time สี่ทุ่ม] [SL:place_name เชียงใหม่] [SL:place_name สิงคโปร์] ]	datetime	th-TH
+ฉันอยากได้ยิน ยันเช้า โดย ฟักกลิ้งฮีโร่ ตอนนี้	[IN:play_music [SL:song_name ยันเช้า] [SL:artist_name ฟักกลิ้งฮีโร่] ]	play	th-TH
+วันนี้ สภาพอากาศเป็นอย่างไร	[IN:weather_query [SL:date วันนี้] ]	weather	th-TH
+ฝน จะตกไหม	[IN:weather_query [SL:weather_descriptor ฝน] ]	weather	th-TH
+เวลาปัจจุบันที่ ปีนัง คือ	[IN:datetime_query [SL:place_name ปีนัง] ]	datetime	th-TH
+อาหารสุขภาพ	[IN:cooking_recipe [SL:food_type อาหารสุขภาพ] ]	cooking	th-TH
+มื้ออาหาร ร้านอาหาร ดี	[IN:takeaway_order [SL:business_type ร้านอาหาร] ]	takeaway	th-TH
+เปลี่ยนเวลา กรุงเทพ เป็นเวลา ลอนดอน	[IN:datetime_convert [SL:place_name กรุงเทพ] [SL:place_name ลอนดอน] ]	datetime	th-TH
+olly ทำให้ ห้องนั่งเล่น เป็น สีฟ้า	[IN:iot_hue_lightchange [SL:house_place ห้องนั่งเล่น] [SL:color_type สีฟ้า] ]	iot	th-TH
+ทำให้ ห้องนั่งเล่น เป็น สีฟ้า	[IN:iot_hue_lightchange [SL:house_place ห้องนั่งเล่น] [SL:color_type สีฟ้า] ]	iot	th-TH
+กรุณาเล่น ทะเลสีดำ	[IN:play_music [SL:song_name ทะเลสีดำ] ]	play	th-TH
+สภาพอากาศล่าสุด วันอังคาร เป็นอย่างไรบ้าง	[IN:weather_query [SL:date วันอังคาร] ]	weather	th-TH
+อัพเดทสภาพอากาศ วันจันทร์ ตอนเที่ยง เป็นอย่างไรบ้าง	[IN:weather_query [SL:date วันจันทร์] [SL:timeofday ตอนเที่ยง] ]	weather	th-TH
+วันที่ สิบห้า มีนาคม จะเป็นวันอะไร	[IN:datetime_query [SL:date สิบห้า มีนาคม] ]	datetime	th-TH
+ฉันอยากรู้วันที่ของ จันทร์ที่แล้วของเดือนนี้	[IN:datetime_query [SL:date จันทร์ที่แล้วของเดือนนี้] ]	datetime	th-TH
+อินเดีย อเมริกา เที่ยง วัน	[IN:datetime_convert [SL:place_name อเมริกา] [SL:time เที่ยง] ]	datetime	th-TH
+บอกฉันทีว่าตอนนี้กี่โมง	[IN:datetime_query ]	datetime	th-TH
+หา เรื่องตลก ก๊อกก๊อก ที่ ดีที่สุด บนอินเทอร์เน็ต ให้ฉัน	[IN:general_joke [SL:joke_type ก๊อกก๊อก] ]	general	th-TH
+วันจันทร์นี้ อากาศจะเป็นยังไง	[IN:weather_query [SL:date วันจันทร์นี้] ]	weather	th-TH
+สเต๊ก	[IN:cooking_recipe [SL:food_type สเต๊ก] ]	cooking	th-TH
+มีอะไรเกิดขึ้น ทั่ว โลก บ้าง วันนี้	[IN:news_query [SL:date วันนี้] ]	news	th-TH
+วันที่ ห้า ธันวาคม คือวันอะไร	[IN:datetime_query [SL:date ห้า ธันวาคม] ]	datetime	th-TH
+เฮ้	[IN:general_greet ]	general	th-TH
+อยากรู้ข่าวเกี่ยวกับ รางวัลสุพรรณหงษ์	[IN:news_query [SL:news_topic รางวัลสุพรรณหงษ์] ]	news	th-TH
+ตอนนี้ที่ เชียงใหม่ กี่โมง	[IN:datetime_query [SL:place_name เชียงใหม่] ]	datetime	th-TH
+วันนี้ อากาศเป็นยังไง	[IN:weather_query [SL:date วันนี้] ]	weather	th-TH
+วันนี้ ร้อน ไม่ใช่หรือ	[IN:weather_query [SL:date วันนี้] [SL:weather_descriptor ร้อน] ]	weather	th-TH
+วันนี้ ร้อน มาก ไม่เหมาะเลย	[IN:weather_query [SL:date วันนี้] [SL:weather_descriptor ร้อน] ]	weather	th-TH
+หนึ่งแสนสองร้อยสิบเจ็ด	[IN:datetime_query ]	datetime	th-TH
+สภาพอากาศ สัปดาห์นี้ จะเป็นอย่างไร	[IN:weather_query [SL:date สัปดาห์นี้] ]	weather	th-TH
+เปลี่ยน การตั้งค่า เป็น ไฟ กลางคืน	[IN:iot_hue_lightchange ]	iot	th-TH
+เพิ่ม ระดับเสียง เล็กน้อย	[IN:audio_volume_up ]	audio	th-TH
+ฉันขอคำสั่งซื้อที่ บริการส่ง จาก เอมเค ได้ไหม	[IN:takeaway_query [SL:order_type บริการส่ง] [SL:business_name เอมเค] ]	takeaway	th-TH
+อาหาร ซื้อ กลับบ้าน	[IN:takeaway_order [SL:order_type กลับบ้าน] ]	takeaway	th-TH
+ค้นหาและจัดคิวทุกเพลงของ ดา แอนโดรฟิน และเล่นโดย ไม่สับเปลี่ยน	[IN:play_music [SL:artist_name ดา แอนโดรฟิน] [SL:player_setting ไม่สับเปลี่ยน] ]	play	th-TH
+สุ่ม ยังโอม	[IN:play_music [SL:player_setting สุ่ม] [SL:artist_name ยังโอม] ]	play	th-TH
+สัปดาห์นี้ มี หิมะตก รึเปล่า	[IN:weather_query [SL:date สัปดาห์นี้] [SL:weather_descriptor หิมะตก] ]	weather	th-TH
+เปิด เพลง	[IN:play_music ]	play	th-TH
+ค้นหา เรื่องตลก ใหม่ ๆ	[IN:general_joke [SL:joke_type ใหม่] ]	general	th-TH
+ฉันอยากฟัง ซอฟต์ร็อก	[IN:play_music [SL:music_genre ซอฟต์ร็อก] ]	play	th-TH
+ฉันอยากฟังเพลง จังหวะเร็ว	[IN:play_music [SL:music_descriptor จังหวะเร็ว] ]	play	th-TH
+เล่น บิลบอร์ด สิบอันดับแรก	[IN:play_music ]	play	th-TH
+ขอดูพยากรณ์อากาศที่นี่ตอน สิบโมง	[IN:weather_query [SL:time สิบโมง] ]	weather	th-TH
+ขอพยากรณ์อากาศของ สัปดาห์นี้ หน่อย	[IN:weather_query [SL:date สัปดาห์นี้] ]	weather	th-TH
+เล่น เพลง ป๊อป บ้าง	[IN:play_music [SL:music_genre ป๊อป] ]	play	th-TH
+เล่น เพลง จาก เพลย์ลิสต์	[IN:play_music ]	play	th-TH
+ขอ เอสเพรสโซ หน่อย	[IN:iot_coffee [SL:coffee_type เอสเพรสโซ] ]	iot	th-TH
+olly เปิด เครื่องดูดฝุ่น	[IN:iot_cleaning [SL:device_type เครื่องดูดฝุ่น] ]	iot	th-TH
+คุณ เปิด roomba ได้ไหม	[IN:iot_cleaning [SL:device_type roomba] ]	iot	th-TH
+เตือน ฉัน ถ้ามีข่าว การเมือง ออกมาใหม่	[IN:news_query [SL:news_topic การเมือง] ]	news	th-TH
+เรตติ้ง	[IN:music_likeness ]	music	th-TH
+กลางวัน หรือ กลางคืน	[IN:alarm_query ]	alarm	th-TH
+อะไรคือบทความล่าสุดจาก ข่าวไทยรัฐ	[IN:news_query [SL:media_type ข่าวไทยรัฐ] ]	news	th-TH
+หาข่าวที่เกี่ยวกับบริษัท soclean ใน หกชั่วโมงที่ผ่านมา ให้ฉันที	[IN:news_query [SL:media_type soclean] [SL:time หกชั่วโมงที่ผ่านมา] ]	news	th-TH
+เก้า ร้อย เก้าสิบ เอฟเอ็ม ตอนนี้กำลังเล่น เพลง อะไรอยู่	[IN:music_query ]	music	th-TH
+เพิ่มระดับเสียงของเพลงไป ที่เก้าสิบ	[IN:audio_volume_up [SL:change_amount ที่เก้าสิบ] ]	audio	th-TH
+ใช่หรือไม่ที่ อุณหภูมิ ของวันพรุ่งนี้ จะ ร้อน	[IN:weather_query [SL:weather_descriptor อุณหภูมิ] [SL:date ของวันพรุ่งนี้] [SL:weather_descriptor ร้อน] ]	weather	th-TH
+พยากรณ์อากาศของ อาทิตย์นี้ เป็นยังไง	[IN:weather_query [SL:date อาทิตย์นี้] ]	weather	th-TH
+ใครคือศิลปินเจ้าของ เพลง ที่กำลังอยู่ตอนนี้	[IN:music_query ]	music	th-TH
+ฉัน ไม่ชอบเพลงนั้น ปิด มัน ซะ	[IN:music_dislikeness ]	music	th-TH
+เริ่ม เครื่องดูดฝุ่น ให้ทำงานตอน สิบโมง ถึง สิบเอ็ดโมง ทุกวัน	[IN:iot_cleaning [SL:device_type เครื่องดูดฝุ่น] [SL:time สิบโมง] [SL:time สิบเอ็ดโมง] [SL:general_frequency ทุกวัน] ]	iot	th-TH
+อุณหภูมิ สูงสุดของ อาทิตย์ที่จะถึง คือเท่าไหร่	[IN:weather_query [SL:weather_descriptor อุณหภูมิ] [SL:date อาทิตย์ที่จะถึง] ]	weather	th-TH
+ดู นาฬิกาปลุก วันนี้ ตอน สิบโมงเช้า	[IN:alarm_query [SL:date วันนี้] [SL:time สิบโมงเช้า] ]	alarm	th-TH
+เล่น สิงโต นำโชค	[IN:play_music [SL:artist_name สิงโต นำโชค] ]	play	th-TH
+michael jackson	[IN:play_music [SL:artist_name michael jackson] ]	play	th-TH
+เป็นไปได้ไหมที่คุณจะกดไลค์ให้ ดนตรีของฉัน	[IN:music_query ]	music	th-TH
+ข่าวล่าสุดจาก ซีเรีย	[IN:news_query [SL:place_name ซีเรีย] ]	news	th-TH
+อยากได้ แสงไฟ เพิ่ม อีกหน่อย	[IN:iot_hue_lightup ]	iot	th-TH
+บอกเวลาของตอนนี้	[IN:datetime_query ]	datetime	th-TH
+นักร้องโปรดของฉันคือ คริสติน่า	[IN:music_likeness [SL:artist_name คริสติน่า] ]	music	th-TH
+เกิดอะไรขึ้นใน กรุงเทพฯ	[IN:news_query [SL:place_name กรุงเทพฯ] ]	news	th-TH
+เปิด เพลง ที่ฟังบ่อย ที่สุด	[IN:play_music ]	play	th-TH
+ไปที่ youtube และเล่นคอลเล็กชัน เพลงงานแต่งงานที่ดีที่สุด ให้ฉัน	[IN:play_music [SL:media_type youtube] [SL:playlist_name เพลงงานแต่งงานที่ดีที่สุด] ]	play	th-TH
+ขอข่าวล่าสุดด้าน เทคโนโลยี	[IN:news_query [SL:news_topic เทคโนโลยี] ]	news	th-TH
+เพิ่ม เพลงนั้นลงในลิสต์เพลง โปรด สิบอันดับแรกของฉัน	[IN:music_likeness ]	music	th-TH
+เพลง นั้น เจ๋งมาก คุณเล่นซ้ำได้ไหม	[IN:music_likeness ]	music	th-TH
+ขอ แสงไฟ สลัว ใน ห้องครัว	[IN:iot_hue_lightdim [SL:house_place ห้องครัว] ]	iot	th-TH
+บันทึก เพลงนั้น	[IN:music_likeness ]	music	th-TH
+อัปเดตผล การเลือกตั้ง ให้ฉันที	[IN:news_query [SL:news_topic การเลือกตั้ง] ]	news	th-TH
+นักวิเคราะห์ได้วิจารณ์อะไรเกี่ยวกับ นโยบายตรวจคนเข้าเมือง ชุดใหม่บ้าง	[IN:news_query [SL:news_topic นโยบายตรวจคนเข้าเมือง] ]	news	th-TH
+สถานะคำสั่งซื้อจาก ร้านอาหาร	[IN:takeaway_query [SL:business_type ร้านอาหาร] ]	takeaway	th-TH
+เตือน ฉัน ตอน ห้า โมง	[IN:alarm_set [SL:time ห้า] ]	alarm	th-TH
+เปิด หุ่นยนต์ทำความสะอาด ของฉัน	[IN:iot_cleaning [SL:device_type หุ่นยนต์ทำความสะอาด] ]	iot	th-TH
+เล่นเพลง	[IN:play_music ]	play	th-TH
+กลุ่ม เวลาวันที่ปัจจุบันคืออะไร	[IN:datetime_query ]	datetime	th-TH
+เริ่ม การทำความสะอาด บ้าน	[IN:iot_cleaning [SL:house_place บ้าน] ]	iot	th-TH
+ปิด ไฟ	[IN:iot_hue_lightoff ]	iot	th-TH
+มุก ขำขัน	[IN:general_joke [SL:joke_type ขำขัน] ]	general	th-TH
+เพลง อะไรที่กำลังเล่นอยู่ตอนนี้	[IN:music_query ]	music	th-TH
+เก็บรักษาข้อมูลที่ จัดหามาโดย aman เกี่ยวกับ เพลง นี้	[IN:music_likeness [SL:artist_name aman] ]	music	th-TH
+hey alexa เปิด แสงไฟดิสโก้ ใน อพาร์ทเมนท์ ของฉัน และเริ่มปาร์ตี้	[IN:iot_hue_lighton [SL:device_type แสงไฟดิสโก้] [SL:house_place อพาร์ทเมนท์] ]	iot	th-TH
+ช่วยปิดให้ที	[IN:audio_volume_mute ]	audio	th-TH
+กรุณา เล่น แร็ป	[IN:play_music [SL:music_genre แร็ป] ]	play	th-TH
+อากาศ อาทิตย์นี้ จะเป็นยังไง	[IN:weather_query [SL:date อาทิตย์นี้] ]	weather	th-TH
+เป็นวันที่อากาศ แจ่มใส อะไรอย่างนี้	[IN:weather_query [SL:weather_descriptor แจ่มใส] ]	weather	th-TH
+ประชุม จัดวัน พรุ่งนี้ ใช่ไหม	[IN:calendar_query [SL:event_name ประชุม] [SL:date พรุ่งนี้] ]	calendar	th-TH
+วันนี้ มีเมฆ มากไหม	[IN:weather_query [SL:date วันนี้] [SL:weather_descriptor มีเมฆ] ]	weather	th-TH
+แตะ ปุ่ม ปิดเสียง	[IN:audio_volume_mute ]	audio	th-TH
+เล่น บูโดกัน ที่ เอากลับมาร้องใหม่ครั้งล่าสุด ให้ฉัน	[IN:play_music [SL:artist_name บูโดกัน] [SL:song_name เอากลับมาร้องใหม่ครั้งล่าสุด] ]	play	th-TH
+มาฟัง ลูกทุ่ง และ ลูกกรุง อะไรสักอย่าง ที่ ไม่ ได้มาจากอมเริกา	[IN:play_music [SL:music_genre ลูกทุ่ง] [SL:music_genre ลูกกรุง] ]	play	th-TH
+เช็คชื่อ เพลง ที่กำลังเล่นอยู่	[IN:music_query ]	music	th-TH
+เอ็มเค บริการส่ง	[IN:takeaway_query [SL:order_type บริการส่ง] ]	takeaway	th-TH
+เล่น เพลย์ลิสต์ ที่ใช้ครั้งที่แล้ว ของฉัน	[IN:play_music ]	play	th-TH
+บอกเวลาที่ กรุงเทพ ให้ฉันรู้	[IN:datetime_query [SL:place_name กรุงเทพ] ]	datetime	th-TH
+เล่น ป๊อป	[IN:play_music [SL:music_genre ป๊อป] ]	play	th-TH
+ตั้ง	[IN:iot_hue_lightchange ]	iot	th-TH
+เปลี่ยน ไฟ เป็น สีฟ้า	[IN:iot_hue_lightchange [SL:color_type สีฟ้า] ]	iot	th-TH
+เปลี่ยน ไฟ ห้องนั่งเล่น เป็น สีแดง	[IN:iot_hue_lightchange [SL:house_place ห้องนั่งเล่น] [SL:color_type สีแดง] ]	iot	th-TH
+ริมแม่น้ำโขง อากาศเป็นยังไงบ้าง olly	[IN:weather_query [SL:place_name ริมแม่น้ำโขง] ]	weather	th-TH
+สิริ อากาศข้างนอกเป็นอย่างไรบ้าง	[IN:weather_query ]	weather	th-TH
+วันเกิดของฉัน ตรงกับวันอะไร	[IN:datetime_query [SL:date วันเกิดของฉัน] ]	datetime	th-TH
+อะไรคือชื่อของ เพลง อันนั้น ที่กำลังเล่น	[IN:music_query ]	music	th-TH
+ช่วยบอกเวลาให้ฉันหน่อยได้มั้ย	[IN:datetime_query ]	datetime	th-TH
+สภาพอากาศใน วันจันทร์	[IN:weather_query [SL:date วันจันทร์] ]	weather	th-TH
+สภาพอากาศ วันอังคาร	[IN:weather_query [SL:date วันอังคาร] ]	weather	th-TH
+เล่นซ้ำ เพลง	[IN:music_settings [SL:player_setting เล่นซ้ำ] ]	music	th-TH
+ช่วยบอกสภาพอากาศในขณะนี้ให้ฉันทีได้มั้ย	[IN:weather_query ]	weather	th-TH
+ช่วย ปิด ไฟ ใน ห้องนอน ของฉัน ได้มั้ย	[IN:iot_hue_lightoff [SL:house_place ห้องนอน] ]	iot	th-TH
+นี่ แบ่งปัน เรื่องตลก ให้ฉันหัวเราะได้หน่อยสิ	[IN:general_joke ]	general	th-TH
+เหลืออีกกี่สัปดาห์จะถึง christmas	[IN:datetime_query [SL:event_name christmas] ]	datetime	th-TH
+มีข่าวอะไรจาก ไทยรัฐ บ้าง มั้ย	[IN:news_query ]	news	th-TH
+อากาศที่ บ้านไร่	[IN:weather_query [SL:place_name บ้านไร่] ]	weather	th-TH
+กรุณาเปลี่ยน เก้าโมงเช้า c. s. t. เป็นเวลา e. s. t.	[IN:datetime_convert [SL:time เก้าโมงเช้า] [SL:place_name c. s. t.] [SL:place_name e. s. t.] ]	datetime	th-TH
+ปิด ไฟ ตู้เสื้อผ้า	[IN:iot_hue_lightoff ]	iot	th-TH
+เล่นเพลง นนท์ ธนนท์	[IN:play_music [SL:artist_name นนท์ ธนนท์] ]	play	th-TH
+กรุณาเล่น เพลง ป๊อป เรตติ้งสูงสุด ของฉัน	[IN:play_music [SL:music_genre ป๊อป] [SL:music_descriptor เรตติ้งสูงสุด] ]	play	th-TH
+ตั้งค่าให้ไฟบ้านทุกดวงเป็น สีฟ้า	[IN:iot_hue_lightchange [SL:color_type สีฟ้า] ]	iot	th-TH
+ฉันเป็น ฮิปฮอป ตลอดไป	[IN:music_likeness [SL:music_genre ฮิปฮอป] ]	music	th-TH
+olly ลดไฟ ไปที่ระดับเจ็ด	[IN:iot_hue_lightdim [SL:change_amount ไปที่ระดับเจ็ด] ]	iot	th-TH
+ปิดไฟลง ถึงเลขเจ็ด	[IN:iot_hue_lightdim [SL:change_amount ถึงเลขเจ็ด] ]	iot	th-TH
+ลด ความสว่าง ไฟ	[IN:iot_hue_lightdim ]	iot	th-TH
+วันที่เจ็ด อากาศจะเป็นยังไง	[IN:weather_query [SL:date วันที่เจ็ด] ]	weather	th-TH
+กรุณาปิดเสียง ลำโพง	[IN:audio_volume_mute ]	audio	th-TH
+เพลง ที่เปิดอยู่ตอนนี้ชื่ออะไร	[IN:music_query ]	music	th-TH
+เพิ่ม ระดับเสียง	[IN:audio_volume_up ]	audio	th-TH
+เพลง นี้ คือเพลงอะไร	[IN:music_query ]	music	th-TH
+อยากฟัง โอมจงเงย	[IN:play_music [SL:song_name โอมจงเงย] ]	play	th-TH
+สลับสับเปลี่ยน อัลบั้มเพลงปัจจุบัน	[IN:music_settings [SL:player_setting สลับสับเปลี่ยน] ]	music	th-TH
+ไทยรัฐ มีข่าวอัปเดตอะไรบ้าง	[IN:news_query [SL:media_type ไทยรัฐ] ]	news	th-TH
+ข่าวด่วน มีเรื่องอะไรบ้าง	[IN:news_query [SL:media_type ข่าวด่วน] ]	news	th-TH
+ข่าว เดลินิวส์	[IN:news_query [SL:media_type เดลินิวส์] ]	news	th-TH
+บอกหน่อยกี่โมงแล้ว	[IN:datetime_query ]	datetime	th-TH
+ช่วยบอกเวลาใน อินเดีย ให้ฉันที	[IN:datetime_query [SL:place_name อินเดีย] ]	datetime	th-TH
+การ แจ้งเตือน อะไร ที่กำลังจะมาถึง	[IN:alarm_query ]	alarm	th-TH
+olly ปิด ไฟ	[IN:iot_hue_lightoff ]	iot	th-TH
+มีทางที่จะรู้ข่าวด่วนล่าสุดเกี่ยวกับ ประยุทธ์ บ้างมั้ย	[IN:news_query [SL:news_topic ประยุทธ์] ]	news	th-TH
+เปิด ไฟ	[IN:iot_hue_lighton ]	iot	th-TH
+ซื้อกลับบ้าน	[IN:takeaway_order [SL:order_type ซื้อกลับบ้าน] ]	takeaway	th-TH
+ทำ ไฟทั้งหมดสลัว	[IN:iot_hue_lightdim ]	iot	th-TH
+เอาข่าวให้ฉัน	[IN:news_query ]	news	th-TH
+หรี่ ไฟ ลง	[IN:iot_hue_lightdim ]	iot	th-TH
+สัปดาห์นี้ อากาศเป็นอย่างไรบ้าง	[IN:weather_query [SL:date สัปดาห์นี้] ]	weather	th-TH
+บอกสภาพอากาศของ สัปดาห์นี้	[IN:weather_query [SL:date สัปดาห์นี้] ]	weather	th-TH
+hey olly ฉันจะ เปิด หุ่นยนต์ดูดฝุ่น ได้ยังไง	[IN:iot_cleaning [SL:device_type หุ่นยนต์ดูดฝุ่น] ]	iot	th-TH
+ช่วยเปิด หุ่นยนต์ดูดฝุ่น ให้ฉันหน่อย	[IN:iot_cleaning [SL:device_type หุ่นยนต์ดูดฝุ่น] ]	iot	th-TH
+เพลง ร็อคสมัยใหม่ บางเพลง	[IN:play_music [SL:music_genre ร็อคสมัยใหม่] ]	play	th-TH
+สถานะคำสั่งซื้อล่าสุดของฉันคืออะไร	[IN:takeaway_query ]	takeaway	th-TH
+ข้างนอกดูเป็นยังไงบ้าง	[IN:weather_query ]	weather	th-TH
+วันวาเลนไทน์ คือวันอะไรของสัปดาห์	[IN:datetime_query [SL:event_name วันวาเลนไทน์] ]	datetime	th-TH
+บอกฉันถึงสภาพอากาศในย่าน ราชเทวี กรุงเทพ	[IN:weather_query [SL:place_name ราชเทวี กรุงเทพ] ]	weather	th-TH
+อยากฟังเพลงจัง เปิด เพลย์ลิสต์ ออกกำลัง หน่อย	[IN:play_music [SL:playlist_name ออกกำลัง] ]	play	th-TH
+ตั้ง นาฬิกาปลุก พรุ่งนี้ เช้า ตอน แปดโมง	[IN:alarm_set [SL:date พรุ่งนี้] [SL:timeofday เช้า] [SL:time แปดโมง] ]	alarm	th-TH
+ช่วย หรี่ ไฟ ห้องนอน ให้ที	[IN:iot_hue_lightdim [SL:house_place ห้องนอน] ]	iot	th-TH
+บอกชื่อศิลปินกับฉัน	[IN:music_query ]	music	th-TH
+ชื่อ เพลง คืออะไร	[IN:music_query ]	music	th-TH
+ข่าว รอบโลก วันนี้ มีอะไรเกิดขึ้นบ้าง	[IN:news_query [SL:place_name รอบโลก] [SL:date วันนี้] ]	news	th-TH
+ข่าว ต่างประเทศ ล่าสุด มีอะไรบ้าง	[IN:news_query [SL:place_name ต่างประเทศ] ]	news	th-TH
+ฉันอยากดื่มกาแฟเดี๋ยวนี้	[IN:iot_coffee ]	iot	th-TH
+ช่วยปิดไฟ โคมไฟหัวเตียง ของฉันที	[IN:iot_hue_lightoff [SL:device_type โคมไฟหัวเตียง] ]	iot	th-TH
+เปิด เครื่องดูดฝุ่น ให้ฉันที	[IN:iot_cleaning [SL:device_type เครื่องดูดฝุ่น] ]	iot	th-TH
+เปิด เครื่องดูดฝุ่น เดี๋ยวนี้	[IN:iot_cleaning [SL:device_type เครื่องดูดฝุ่น] ]	iot	th-TH
+ปิดเสียงตอบกลับ ทั้งหมด ตอนนี้	[IN:audio_volume_mute ]	audio	th-TH
+ช่วยหยุดพูดที	[IN:audio_volume_mute ]	audio	th-TH
+มีอัปเดตข่าวจาก สำนักข่าว บ้าง มั้ย	[IN:news_query [SL:media_type สำนักข่าว] ]	news	th-TH
+มีอะไรใหม่เกี่ยวกับความ ว่างเปล่า	[IN:news_query [SL:news_topic ว่างเปล่า] ]	news	th-TH
+เปิด adele	[IN:play_music [SL:artist_name adele] ]	play	th-TH
+พยากรณ์อากาศที่ บ้านครูต้อย เป็นยังไง	[IN:weather_query [SL:place_name บ้านครูต้อย] ]	weather	th-TH
+อาทิตย์หน้า หิมะ จะตกมั๊ย	[IN:weather_query [SL:date อาทิตย์หน้า] [SL:weather_descriptor หิมะ] ]	weather	th-TH
+สภาเขตช่วยเหลือเรื่องคนไร้บ้าน กรุงเทพ ทำอะไรบ้าง	[IN:news_query [SL:news_topic สภาเขตช่วยเหลือเรื่องคนไร้บ้าน] [SL:place_name กรุงเทพ] ]	news	th-TH
+ขอข่าวจาก ไทยรัฐ	[IN:news_query [SL:media_type ไทยรัฐ] ]	news	th-TH
+ฉันตั้ง กี่การแจ้งเตือน ใน ตอนเช้า ช่วง หกโมงและเก้าโมงเช้า	[IN:alarm_query [SL:timeofday ตอนเช้า] [SL:time หกโมงและเก้าโมงเช้า] ]	alarm	th-TH
+เปิด เพลย์ลิสต์	[IN:play_music ]	play	th-TH
+คอนเฟิร์มคำสั่งซื้อ	[IN:takeaway_order ]	takeaway	th-TH
+ชงกาแฟให้หน่อย	[IN:iot_coffee ]	iot	th-TH
+อยากฟัง ร็อก	[IN:play_music [SL:music_genre ร็อก] ]	play	th-TH
+ok google เล่น เพลง ร็อค	[IN:play_music [SL:music_genre ร็อค] ]	play	th-TH
+ตัดกระแสไฟ	[IN:iot_hue_lightoff ]	iot	th-TH
+ตั้ง นาฬิกาปลุก ไว้ตอน ห้าโมงครึ่ง	[IN:alarm_set [SL:time ห้าโมงครึ่ง] ]	alarm	th-TH
+บริการส่ง จาก ร้านอาหาร นี้ มั้ยคะ	[IN:takeaway_query [SL:order_type บริการส่ง] [SL:business_type ร้านอาหาร] ]	takeaway	th-TH
+ร้านอาหาร โปรด ของฉัน มี บริการส่งอาหาร ไหม	[IN:takeaway_query [SL:business_type ร้านอาหาร] [SL:order_type บริการส่งอาหาร] ]	takeaway	th-TH
+ซื้อกลับบ้าน ได้มั้ย	[IN:takeaway_query [SL:order_type ซื้อกลับบ้าน] ]	takeaway	th-TH
+เปิด เครื่องชงกาแฟ	[IN:iot_coffee [SL:device_type เครื่องชงกาแฟ] ]	iot	th-TH
+ข่าว การเมือง มีอะไรบ้าง	[IN:news_query [SL:news_topic การเมือง] ]	news	th-TH
+แสดงเวลาให้ฉันดู	[IN:datetime_query ]	datetime	th-TH
+เล่น เพลง แจ๊ส	[IN:play_music [SL:music_genre แจ๊ส] ]	play	th-TH
+วันเสาร์ หน้าคือวันที่เท่าไหร่	[IN:datetime_query [SL:date วันเสาร์] ]	datetime	th-TH
+ทีมแยงกี้ชนะการแข่งขัน เมื่อคืน หรือเปล่า	[IN:news_query [SL:date เมื่อคืน] ]	news	th-TH
+ปิด เสียง ลำโพง	[IN:audio_volume_mute ]	audio	th-TH
+เพิ่มแสงสว่าง ของ ไฟ ใน ห้องนั่งเล่น	[IN:iot_hue_lightup [SL:house_place ห้องนั่งเล่น] ]	iot	th-TH
+ชงกาแฟ	[IN:iot_coffee ]	iot	th-TH
+เปลี่ยนสีแสงไฟ จาก สีฟ้า เป็น สีขาว	[IN:iot_hue_lightchange ]	iot	th-TH
+ปรับ ไฟ ใน บ้าน เป็น สีแดง	[IN:iot_hue_lightchange [SL:house_place บ้าน] [SL:color_type สีแดง] ]	iot	th-TH
+วันที่สิบหก เมษายน เป็นวันอะไร	[IN:datetime_query [SL:date วันที่สิบหก เมษายน] ]	datetime	th-TH
+ช่วยเดินเครื่อง เครื่องดูดฝุ่น เป็นเวลา หนึ่งชั่วโมง	[IN:iot_cleaning [SL:device_type เครื่องดูดฝุ่น] [SL:time หนึ่งชั่วโมง] ]	iot	th-TH
+บอกฉันที ว่า วันนี้ คือวันที่เท่าไหร่	[IN:datetime_query [SL:date วันนี้] ]	datetime	th-TH
+ตั้งค่า ไฟ ห้องนั่งเล่น เป็น สีแดง	[IN:iot_hue_lightchange [SL:house_place ห้องนั่งเล่น] [SL:color_type สีแดง] ]	iot	th-TH
+การส่งของร้านอาหาร เป็นยังไง	[IN:takeaway_query ]	takeaway	th-TH
+ฟัง เพลง นี้	[IN:music_query ]	music	th-TH
+domino's ซื้อกลับบ้าน	[IN:takeaway_query [SL:business_name domino's] [SL:order_type ซื้อกลับบ้าน] ]	takeaway	th-TH
+เปลี่ยน สี ไฟ เป็น สีฟ้า	[IN:iot_hue_lightchange [SL:color_type สีฟ้า] ]	iot	th-TH
+บอกฉันเกี่ยวกับการแจ้งเตือนของฉัน	[IN:alarm_query ]	alarm	th-TH
+ช่วยลบ นาฬิกาปลุก ใดใด ที่ ฉัน ตั้งไว้	[IN:alarm_remove ]	alarm	th-TH
+ช่วยดึงข่าวเรื่อง หมา นั่ง ที่ออกใน ข่าวเช้า ให้หน่อย	[IN:news_query [SL:news_topic หมา] [SL:media_type ข่าวเช้า] ]	news	th-TH
+ที่นี่ อากาศเป็นไงบ้าง	[IN:weather_query ]	weather	th-TH
+สั่ง ปอเปี๊ยะทอด ใส่ถุง	[IN:takeaway_order [SL:food_type ปอเปี๊ยะทอด] ]	takeaway	th-TH
+มีข่าวเกี่ยวกับ กรุงเทพฯ บน ยูทูป ไหม	[IN:news_query [SL:media_type กรุงเทพฯ] [SL:media_type ยูทูป] ]	news	th-TH
+เพลงต่อไป เล่น สบายๆ	[IN:play_music [SL:song_name สบายๆ] ]	play	th-TH
+เล่น เพลย์ลิสต์ คันทรี่ ของฉัน	[IN:play_music [SL:music_genre คันทรี่] ]	play	th-TH
+เล่น เพลย์ลิสต์ วิ่ง	[IN:play_music [SL:playlist_name วิ่ง] ]	play	th-TH
+วันนี้ วันที่เท่าไหร่	[IN:datetime_query [SL:date วันนี้] ]	datetime	th-TH
+alexa ปิด พัดลม ใน ห้องนอนใหญ่	[IN:iot_wemo_off [SL:device_type พัดลม] [SL:house_place ห้องนอนใหญ่] ]	iot	th-TH
+alexa กรุณาบันทึก เพลง ที่เล่นอยู่ตอนนี้ ไปที่ เพลงโปรด	[IN:music_likeness ]	music	th-TH
+ฉันรัก ฮิปฮอป	[IN:music_likeness [SL:music_genre ฮิปฮอป] ]	music	th-TH
+ช่วยเปิด เพลง ของ สิงโต เดอะสตาร์ ที่ ชั้น ชอบ ให้หน่อย	[IN:play_music [SL:artist_name สิงโต เดอะสตาร์] ]	play	th-TH
+ช่วย เริ่ม ชง กาแฟ	[IN:iot_coffee ]	iot	th-TH
+หรี่ ไฟ	[IN:iot_hue_lightdim ]	iot	th-TH
+โหมดกลางคืน	[IN:iot_hue_lightdim ]	iot	th-TH
+ข่าว เทคโนโลยี ที่กำลังมาแรง	[IN:news_query [SL:news_topic เทคโนโลยี] ]	news	th-TH
+พาดหัวข่าวล่าสุด ด้าน เทคโนโลยี	[IN:news_query [SL:news_topic เทคโนโลยี] ]	news	th-TH
+เล่น เพลง ถัดไป	[IN:play_music ]	play	th-TH
+เพลงนี้ถูกแต่งขึ้นมาในปีอะไร	[IN:music_query ]	music	th-TH
+ค้นหา อาหาร ของฉัน	[IN:takeaway_query ]	takeaway	th-TH
+olly รวบรวม พยากรณ์ฝน ใน เขาใหญ่	[IN:weather_query [SL:weather_descriptor พยากรณ์ฝน] [SL:place_name เขาใหญ่] ]	weather	th-TH
+olly ขอ หัวข้อ ข่าว ที่กำลังเป็นกระแส	[IN:news_query [SL:news_topic ที่กำลังเป็นกระแส] ]	news	th-TH
+นาฬิกาปลุก ถัดไป	[IN:alarm_query ]	alarm	th-TH
+ตอนนี้ฉันอยากกินอาหาร จีน มาก ช่วยสั่งอาหารกลับบ้านให้ฉันที	[IN:takeaway_order [SL:food_type จีน] ]	takeaway	th-TH
+วันนี้ มีอะไรใหม่เกิดขึ้นบ้างในด้าน การเมือง แต่ช่วยคัดกรองข่าวที่เกี่ยวกับ ทักษิณ ออกไปก่อน	[IN:news_query [SL:date วันนี้] [SL:news_topic การเมือง] [SL:person ทักษิณ] ]	news	th-TH
+ฉันต้องการ พิซซ่า สองถาด เดี๋ยวนี้	[IN:takeaway_order [SL:food_type พิซซ่า] [SL:food_type เดี๋ยวนี้] ]	takeaway	th-TH
+เปิด เพลง	[IN:play_music ]	play	th-TH
+ปิด ไฟ	[IN:iot_hue_lightoff ]	iot	th-TH
+แดดออก ไหม อุณหภูมิ เป็นอย่างไร	[IN:weather_query [SL:weather_descriptor แดดออก] [SL:weather_descriptor อุณหภูมิ] ]	weather	th-TH
+เล่น ดนตรี อะไรสักอย่าง ให้ฉัน	[IN:play_music ]	play	th-TH
+ฉัน ซื้อกลับบ้าน ใกล้ ได้ที่ไหนบ้างค่ะ	[IN:takeaway_order [SL:order_type ซื้อกลับบ้าน] ]	takeaway	th-TH
+กรุณาลด เสียง ของคุณลงกว่านี้	[IN:audio_volume_down ]	audio	th-TH
+นาฬิกาปลุกของฉันตั้งไว้ตอนกี่โมง	[IN:alarm_query ]	alarm	th-TH
+พรุ่งนี้ เช้า ผม มี แจ้งเตือน อะไร บ้าง	[IN:alarm_query [SL:date พรุ่งนี้] [SL:timeofday เช้า] ]	alarm	th-TH
+ลบ การเตือน ตอนเช้า	[IN:alarm_remove ]	alarm	th-TH
+เล่น เพลย์ลิสต์เพลง คลาสสิกเชมเบอร์	[IN:play_music [SL:music_genre คลาสสิกเชมเบอร์] ]	play	th-TH
+ทำให้เพลงนั้นเล่นเป็นเพลง ถัดไป	[IN:play_music ]	play	th-TH
+ชื่อของนักร้องนำของวงนี้คืออะไร	[IN:music_query ]	music	th-TH
+ปิดไฟ	[IN:iot_wemo_off ]	iot	th-TH
+siri เล่น เพลย์ลิสต์ ป๊อป ของฉัน	[IN:play_music [SL:music_genre ป๊อป] ]	play	th-TH
+บอกฉันทีว่ามีข่าวอะไรเกี่ยวกับ หัวข้อ นั้น บ้าง มั้ย	[IN:news_query ]	news	th-TH
+ฉันชอบ แจ๊ส คุณควรรู้ไว้	[IN:music_likeness [SL:music_genre แจ๊ส] ]	music	th-TH
+กรุณาตรวจ เพลย์ลิสต์ ของฉัน	[IN:music_likeness ]	music	th-TH
+เธอช่วยตั้งปลุกตอน ตีหนึ่งครึ่ง หน่อยได้ไหม	[IN:alarm_set [SL:time ตีหนึ่งครึ่ง] ]	alarm	th-TH
+ยกเลิก นาฬิกาปลุก สำหรับ พรุ่งนี้	[IN:alarm_remove [SL:date พรุ่งนี้] ]	alarm	th-TH
+เขตเวลากลาง ตอนนี้กี่โมง	[IN:datetime_query [SL:time_zone เขตเวลากลาง] ]	datetime	th-TH
+ลบการแจ้งเตือนที่ตั้งไว้สำหรับ พรุ่งนี้	[IN:alarm_remove [SL:date พรุ่งนี้] ]	alarm	th-TH
+olly ลด ไฟ ลง ให้ที	[IN:iot_hue_lightdim ]	iot	th-TH
+พรุ่งนี้ บางกระเจ้า ฝนตก มั๊ย	[IN:weather_query [SL:date พรุ่งนี้] [SL:place_name บางกระเจ้า] [SL:weather_descriptor ฝนตก] ]	weather	th-TH
+กี่โมงแล้วที่ เชียงใหม่	[IN:datetime_query [SL:place_name เชียงใหม่] ]	datetime	th-TH
+เวลาระหว่าง เขตเวลาตะวันออก และ เขตเวลาแปซิฟิก ต่างกันกี่ชั่วโมง	[IN:datetime_convert [SL:time_zone เขตเวลาตะวันออก] [SL:time_zone เขตเวลาแปซิฟิก] ]	datetime	th-TH
+ร้านอาหาร จีน บริการส่ง ใกล้ ๆ	[IN:takeaway_query [SL:business_type ร้านอาหาร] [SL:food_type จีน] [SL:order_type บริการส่ง] ]	takeaway	th-TH
+สภาพอากาศใน กรุงเทพ เป็นอย่างไร	[IN:weather_query [SL:place_name กรุงเทพ] ]	weather	th-TH
+ok google สภาพอากาศเป็นอย่างไร	[IN:weather_query ]	weather	th-TH
+ลด แสง	[IN:iot_hue_lightdim ]	iot	th-TH
+กรุณาเปิด ปลั๊ก wemo ของฉัน	[IN:iot_wemo_on [SL:device_type ปลั๊ก wemo] ]	iot	th-TH
+อาทิตย์หน้า สภาพอากาศจะเป็นอย่างไร	[IN:weather_query [SL:date อาทิตย์หน้า] ]	weather	th-TH
+เล่นซ้ำ เพลง ได้อย่างไร	[IN:music_query ]	music	th-TH
+เพลง นี้ มัน คืออะไร	[IN:music_query ]	music	th-TH
+เพิ่มแสง ไฟ ให้ที	[IN:iot_hue_lightup ]	iot	th-TH
+เล่น เพลย์ลิสต์โรแมนติก	[IN:play_music [SL:playlist_name เพลย์ลิสต์โรแมนติก] ]	play	th-TH
+วันที่ ยี่สิบสอง เป็นวันอะไร ใน เดือนนี้	[IN:datetime_query [SL:date ยี่สิบสอง] [SL:date เดือนนี้] ]	datetime	th-TH
+ไปนอน	[IN:audio_volume_mute ]	audio	th-TH
+ฉันต้องการให้ ปลุก ตอน เจ็ดโมงเช้า พรุ่งนี้	[IN:alarm_set [SL:alarm_type ปลุก] [SL:time เจ็ดโมงเช้า] [SL:date พรุ่งนี้] ]	alarm	th-TH
+ช่วย เปิด ไฟ ข้างนอก ทุกดวง	[IN:iot_hue_lighton ]	iot	th-TH
+กรุณาเพิ่มระดับ เสียง	[IN:audio_volume_up ]	audio	th-TH
+ขอข่าวล่าสุดเรื่อง การปิดสถานที่ราชการ	[IN:news_query [SL:news_topic การปิดสถานที่ราชการ] ]	news	th-TH
+เล่นดนตรีโดย นูโว	[IN:play_music [SL:artist_name นูโว] ]	play	th-TH
+เวลากลางคืน	[IN:general_quirky ]	general	th-TH
+อาหาร ซื้อ กลับบ้าน	[IN:takeaway_order [SL:order_type กลับบ้าน] ]	takeaway	th-TH
+เล่นเพลง โรเเมนติกบางเพลง	[IN:play_music ]	play	th-TH
+อากาศ จะ ดี ไหม ที่ ชายหาด ใน วันศุกร์	[IN:weather_query [SL:weather_descriptor ดี] [SL:place_name ชายหาด] [SL:date วันศุกร์] ]	weather	th-TH
+เปิดเพลงจาก อัลบั้ม ที่สี่ของ นนท์	[IN:play_music [SL:artist_name นนท์] ]	play	th-TH
+ชงกาแฟให้หน่อย	[IN:iot_coffee ]	iot	th-TH
+สัปดาห์นี้ วันไหน ฝนตก	[IN:weather_query [SL:date สัปดาห์นี้] [SL:weather_descriptor ฝนตก] ]	weather	th-TH
+อากาศเป็นยังไงบ้าง อาทิตย์นี้	[IN:weather_query [SL:date อาทิตย์นี้] ]	weather	th-TH
+ตั้ง นาฬิกา ปลุก ตอน บ่ายโมง	[IN:alarm_set [SL:time บ่ายโมง] ]	alarm	th-TH
+มีข่าวล่าสุดอะไรบ้างเกี่ยวกับการ เลือกตั้งสหรัฐ	[IN:news_query [SL:news_topic เลือกตั้งสหรัฐ] ]	news	th-TH
+ทำกาแฟให้หน่อย	[IN:iot_coffee ]	iot	th-TH
+วันนี้ เป็นวัน แดดจ้า หรือไม่	[IN:weather_query [SL:date วันนี้] [SL:weather_descriptor แดดจ้า] ]	weather	th-TH
+อากาศที่ สมุทรปราการ เป็นอย่างไรบ้าง ตอนนี้	[IN:weather_query [SL:place_name สมุทรปราการ] ]	weather	th-TH
+อยากฟัง เพลย์ลิสต์ ของชั้น เปิดให้หน่อย	[IN:play_music ]	play	th-TH
+olly เล่นเพลง อกหัก ของ บอดี้เเสลม	[IN:play_music [SL:song_name อกหัก] [SL:artist_name บอดี้เเสลม] ]	play	th-TH
+มัน ร้อน แค่ไหน ใน พัทยา	[IN:weather_query [SL:weather_descriptor ร้อน] [SL:place_name พัทยา] ]	weather	th-TH
+เวลาปัจจุบันใน กรุงเทพ เท่ากับกี่โมง	[IN:datetime_query [SL:place_name กรุงเทพ] ]	datetime	th-TH
+สันกำแพง เชียงใหม่ กี่โมงแล้ว	[IN:datetime_query [SL:place_name สันกำแพง เชียงใหม่] ]	datetime	th-TH
+อากาศ วันอาทิตย์ จะ หนาว ไปสำหรับชุดเดรสรึเปล่า	[IN:weather_query [SL:date วันอาทิตย์] [SL:weather_descriptor หนาว] ]	weather	th-TH
+ขอฟัง วี วิโอเลต บ้าง	[IN:play_music [SL:artist_name วี วิโอเลต] ]	play	th-TH
+นี่สว่างมากเกินไป	[IN:iot_hue_lightdim ]	iot	th-TH
+สั่ง พิซซ่ากับฮอทวิงส์ สองชุดใหญ่ จาก โดมิโน่	[IN:takeaway_order [SL:food_type พิซซ่ากับฮอทวิงส์] [SL:business_name โดมิโน่] ]	takeaway	th-TH
+วันและเวลา ของ วันนี้ คืออะไร	[IN:datetime_query [SL:date วันนี้] ]	datetime	th-TH
+เล่น เพลย์ลิสต์ อันปัจจุบัน จาก เพลงแรก	[IN:play_music ]	play	th-TH
+เล่น เพลง คันทรี่ ที่ชอบที่สุด ของชั้น	[IN:play_music [SL:music_genre คันทรี่] ]	play	th-TH
+ตอนนี้ที่ ซิมบับเว กี่โมง	[IN:datetime_query [SL:place_name ซิมบับเว] ]	datetime	th-TH
+olly ตอนนี้ ที่ กรุงเทพ เป็นเวลากี่โมง	[IN:datetime_query [SL:place_name กรุงเทพ] ]	datetime	th-TH
+ช่วยเล่นเพลง อกหัก ของ บอดี้สแลม ให้หน่อย	[IN:play_music [SL:artist_name บอดี้สแลม] ]	play	th-TH
+แจ้งเวลาฉัน	[IN:datetime_query ]	datetime	th-TH
+ข่าวล่าสุดของ ช่องเก้า มีอะไรบ้าง	[IN:news_query [SL:news_topic ช่องเก้า] ]	news	th-TH
+เล่น ซ่อนกลิ่น ต่อจากเพลงนี้	[IN:play_music [SL:song_name ซ่อนกลิ่น] ]	play	th-TH
+ฉันอยากฟังเพลง แจ๊ส อะไรก็ได้	[IN:play_music [SL:music_genre แจ๊ส] ]	play	th-TH
+แสดง อากาศที่ เลย อาทิตย์หน้า	[IN:weather_query [SL:place_name เลย] ]	weather	th-TH
+ปิด ปลั๊กไฟอัจฉริยะ	[IN:iot_wemo_off [SL:device_type ปลั๊กไฟอัจฉริยะ] ]	iot	th-TH
+เปิด ปลั๊ก wemo	[IN:iot_wemo_on [SL:device_type ปลั๊ก wemo] ]	iot	th-TH
+ลด เสียงลำโพง	[IN:audio_volume_down ]	audio	th-TH
+เปิด roomba	[IN:iot_cleaning [SL:device_type roomba] ]	iot	th-TH
+สั่ง อาหาร จีน ให้ฉันที	[IN:takeaway_order [SL:food_type จีน] ]	takeaway	th-TH
+ใครเป็นผู้ผลิตเพลงที่กำลังเล่นอยู่ทางวิทยุ	[IN:music_query ]	music	th-TH
+คะแนน เกมของบุรีรัมย์ยูไนเต็ด ที่กำลังแข่งอยู่	[IN:news_query [SL:news_topic เกมของบุรีรัมย์ยูไนเต็ด] ]	news	th-TH
+พาดหัวข่าวของ เดลินิวส์ คืออะไร	[IN:news_query [SL:media_type เดลินิวส์] ]	news	th-TH
+สภาพอากาศดูเป็นอย่างไร สำหรับ วันที่เหลือของสัปดาห์	[IN:weather_query [SL:date วันที่เหลือของสัปดาห์] ]	weather	th-TH
+เร็วๆนี้จะมี อากาศแปรปรวน ไหม	[IN:weather_query [SL:weather_descriptor อากาศแปรปรวน] ]	weather	th-TH
+อากาศ ตอนนี้ เป็นอย่างไร	[IN:weather_query ]	weather	th-TH
+ช่วย เพิ่ม ไฟ ให้หน่อย	[IN:iot_hue_lightup ]	iot	th-TH
+สัปดาห์หน้า จะมี หิมะตก บ้างไหม	[IN:weather_query [SL:date สัปดาห์หน้า] [SL:weather_descriptor หิมะตก] ]	weather	th-TH
+ช่วย ลบ การปลุก ใน วันพุธ ตอนเย็น หน่อย	[IN:alarm_remove [SL:date วันพุธ] [SL:timeofday ตอนเย็น] ]	alarm	th-TH
+รัฐเมน ได้รับ หิมะ มาแล้วแค่ไหน ณ วันนี้	[IN:weather_query [SL:place_name รัฐเมน] [SL:weather_descriptor หิมะ] [SL:date วันนี้] ]	weather	th-TH
+เก็บรักษา ประเภท เพลง นี้ ให้ฉัน	[IN:music_likeness ]	music	th-TH
+ฉันอยากจะจำได้ว่าฉันชอบเพลงนี้	[IN:music_likeness ]	music	th-TH
+ต่อจากเพลง นี้ เล่นเพลง สิ่งสำคัญ	[IN:play_music [SL:song_name สิ่งสำคัญ] ]	play	th-TH
+เตือนฉันในอีก สามชั่วโมง	[IN:alarm_set [SL:time สามชั่วโมง] ]	alarm	th-TH
+เพลงอินดี้	[IN:play_music [SL:music_genre เพลงอินดี้] ]	play	th-TH
+อากาศ ตอนนี้ เป็นยังไงบ้าง	[IN:weather_query ]	weather	th-TH
+บอกฉันว่าเกิดอะไรขึ้นกับ การเมืองยุโรป	[IN:news_query [SL:news_topic การเมืองยุโรป] ]	news	th-TH
+ฉันอยากรู้ว่าตอนนี้ใครกำลังทำแต้มนำใน ไทยลีก	[IN:news_query [SL:news_topic ไทยลีก] ]	news	th-TH
+alexa วันนี้มีข่าวอะไรใหม่รอบๆตัวฉันไหม	[IN:news_query ]	news	th-TH
+ถึงเวลาฟังเพลงของ สิงโต นำโชค แล้ว	[IN:play_music [SL:artist_name สิงโต นำโชค] ]	play	th-TH
+เปิด เล่นซ้ำ	[IN:music_settings [SL:player_setting เล่นซ้ำ] ]	music	th-TH
+เปิด การทำความสะอาด	[IN:iot_cleaning ]	iot	th-TH
+สัปดาห์หน้า ไปกิน พิซซ่า วันไหนดี	[IN:datetime_query [SL:date สัปดาห์หน้า] [SL:food_type พิซซ่า] ]	datetime	th-TH
+วันนี้ จะเจอกับอากาศแบบไหน	[IN:weather_query [SL:date วันนี้] ]	weather	th-TH
+ที่ new york เป็นเวลากี่โมง	[IN:datetime_query [SL:place_name new york] ]	datetime	th-TH
+ช่วย ตั้ง การปลุก ตอน แปดโมงเช้า	[IN:alarm_set [SL:time แปดโมงเช้า] ]	alarm	th-TH
+เพิ่ม ธงไชย แมคอินไตย์ มาช่า วัฒนพานิช และ นิโคล เทริโอ เยอะเยอะ ไปยังเพลย์ลิสต์	[IN:play_music [SL:artist_name ธงไชย แมคอินไตย์ มาช่า วัฒนพานิช] [SL:artist_name นิโคล เทริโอ] ]	play	th-TH
+เล่น เพลงแดนซ์ ให้ฉันฟังได้ไหม	[IN:play_music [SL:music_genre เพลงแดนซ์] ]	play	th-TH
+เปิด เพลง จาก เพลย์ลิสต์	[IN:play_music ]	play	th-TH
+ตอนนี้ ฉัน ตั้ง แจ้งเตือน อะไรไว้	[IN:alarm_query ]	alarm	th-TH
+อุณหภูมิ วันนี้ ที่ เลย อีสาน คือเท่าไหร่	[IN:weather_query [SL:weather_descriptor อุณหภูมิ] [SL:date วันนี้] [SL:place_name เลย อีสาน] ]	weather	th-TH
+เปิด spotify	[IN:play_music [SL:app_name spotify] ]	play	th-TH
+สวัสดี olly เล่าเรื่องตลกให้ฟังหน่อย	[IN:general_joke ]	general	th-TH
+คืนนี้ ฉันอยากสั่ง อาหาร จีน อะไรสักอย่าง อะไรมาส่งให้ฉันได้บ้าง	[IN:takeaway_order [SL:timeofday คืนนี้] [SL:food_type จีน] ]	takeaway	th-TH
+hey siri ปรับ การตั้งค่า ไฟ	[IN:iot_hue_lightchange ]	iot	th-TH
+ฉันเคยได้ยินท่อนนี้มาก่อน เพลงอะไรที่ขโมยท่อนนี้ไป มันฟังดูเหมือนกันเป๊ะ	[IN:music_query ]	music	th-TH
+ปิดนาฬิกาปลุกที่ตั้งไว้ตอน ตีสี่	[IN:alarm_remove [SL:time ตีสี่] ]	alarm	th-TH
+พรุ่งนี้ อุณหภูมิจะ มากกว่าเก้าสิบ องศา รึเปล่า	[IN:weather_query [SL:date พรุ่งนี้] [SL:weather_descriptor มากกว่าเก้าสิบ] ]	weather	th-TH
+เล่น เพลง โปรด ของ ปีที่แล้ว ของฉัน	[IN:play_music [SL:date ปีที่แล้ว] ]	play	th-TH
+ไม่ต้องตอบ	[IN:audio_volume_mute ]	audio	th-TH
+คุณสามารถปิด โคมไฟโต๊ะทำงาน ของฉันได้	[IN:iot_hue_lightoff [SL:device_type โคมไฟโต๊ะทำงาน] ]	iot	th-TH
+ปิด โคมไฟโต๊ะทำงานเบอร์หนึ่ง	[IN:iot_hue_lightoff [SL:device_type โคมไฟโต๊ะทำงานเบอร์หนึ่ง] ]	iot	th-TH
+เปิด ไฟ	[IN:iot_hue_lightup ]	iot	th-TH
+วันนี้ จะต้องเอา ร่ม ไปทำงานด้วยรึเปล่า	[IN:weather_query [SL:date วันนี้] [SL:weather_descriptor ร่ม] ]	weather	th-TH
+วันนี้ ใส่ กางเกงขาสั้น ออกไปซื้อของได้มั้ย	[IN:weather_query [SL:date วันนี้] [SL:weather_descriptor กางเกงขาสั้น] ]	weather	th-TH
+เล่น เพลง โดย ควีน	[IN:play_music [SL:artist_name ควีน] ]	play	th-TH
+เล่น อัลบั้ม ใหม่ที่สุด ของ ดา แอนโดรฟิน	[IN:play_music [SL:artist_name ดา แอนโดรฟิน] ]	play	th-TH
+ตั้ง นาฬิกาปลุก พรุ่งนี้ ตอน สิบ โมง เช้า	[IN:alarm_set [SL:date พรุ่งนี้] [SL:time สิบ] [SL:timeofday เช้า] ]	alarm	th-TH
+ปลุกฉัน ตอน สิบ โมง	[IN:alarm_set [SL:time สิบ] ]	alarm	th-TH
+เล่น ใจสั่งมา โดย โลโซ	[IN:play_music [SL:song_name ใจสั่งมา] [SL:artist_name โลโซ] ]	play	th-TH
+แสดงการจัด ส่ง ใกล้ฉัน	[IN:takeaway_order [SL:order_type ส่ง] ]	takeaway	th-TH
+เปิด	[IN:takeaway_order ]	takeaway	th-TH
+เปิด เพลง ให้ฟังหน่อย	[IN:play_music ]	play	th-TH
+ฉันอยากได้ยิน ดนตรี ที่ดีเยี่ยม	[IN:play_music ]	play	th-TH
+เพิ่มความสว่าง ไฟของโคมไฟ	[IN:iot_hue_lightup [SL:device_type ไฟของโคมไฟ] ]	iot	th-TH
+กรุณา ปรับ ระดับ เสียง ให้ ดังที่สุด	[IN:audio_volume_up [SL:change_amount ดังที่สุด] ]	audio	th-TH
+ปิดเสียง	[IN:audio_volume_mute ]	audio	th-TH
+หยุด เสียง	[IN:audio_volume_mute ]	audio	th-TH
+ฝน จะ ตก หรือไม่ อาทิตย์นี้	[IN:weather_query [SL:weather_descriptor ฝน] [SL:weather_descriptor ตก] [SL:date อาทิตย์นี้] ]	weather	th-TH
+หรี่ ไฟ ตกแต่ง ทุกดวง	[IN:iot_hue_lightdim [SL:house_place ตกแต่ง] ]	iot	th-TH
+วันนี้ ฉัน จะ ใส่ กางเกงขาสั้น ได้ไหม	[IN:weather_query [SL:date วันนี้] [SL:weather_descriptor กางเกงขาสั้น] ]	weather	th-TH
+วันนี้ ฉันควรแต่งตัว หลายชั้น ไหม	[IN:weather_query [SL:date วันนี้] [SL:weather_descriptor หลายชั้น] ]	weather	th-TH
+เปิดไฟแบบ สุ่ม สี	[IN:iot_hue_lightchange [SL:color_type สุ่ม] ]	iot	th-TH
+ข่าว ไทยรัฐ ล่าสุด	[IN:news_query [SL:media_type ไทยรัฐ] ]	news	th-TH
+ปิดเสียงการ ตั้งค่า	[IN:audio_volume_mute ]	audio	th-TH
+อาทิตย์นี้ ควรจะมี หิมะตก ไหม	[IN:weather_query [SL:date อาทิตย์นี้] ]	weather	th-TH
+เปลี่ยน สี ไฟ	[IN:iot_hue_lightchange ]	iot	th-TH
+วันที่ยี่สิบสอง เมษายน ตรงกับวันอะไร	[IN:datetime_query [SL:date วันที่ยี่สิบสอง เมษายน] ]	datetime	th-TH
+เมื่อไหร่ ฝนตก	[IN:weather_query [SL:weather_descriptor ฝนตก] ]	weather	th-TH
+พยากรณ์อากาศที่ให้มามันผิดเมือง อยากรู้ อุณหภูมิ ของโลเคชั่นตอนนี้	[IN:weather_query ]	weather	th-TH
+สั่งดับเบิ้ล เบคอนชีสเบอร์เกอร์ กับ เบคอน และไวท์ ชีสอเมริกัน	[IN:takeaway_order [SL:food_type เบคอนชีสเบอร์เกอร์] [SL:food_type เบคอน] [SL:food_type ชีสอเมริกัน] ]	takeaway	th-TH
+เล่นจาก โลโซ	[IN:play_music [SL:playlist_name โลโซ] ]	play	th-TH
+อัปเดต ข่าว ยีราฟ เอพริล	[IN:news_query [SL:news_topic ยีราฟ] [SL:date เอพริล] ]	news	th-TH
+อาทิตย์นี้ อากาศบริเวณใกล้ฉันเป็นอย่างไร	[IN:weather_query [SL:date อาทิตย์นี้] ]	weather	th-TH
+ปรับ ไฟ ในนี้ ขึ้น หนอย	[IN:iot_hue_lightup ]	iot	th-TH
+กรุณาเพิ่ม เสียง ลำโพง	[IN:audio_volume_up ]	audio	th-TH
+เวลาใน กรุงเทพ ต่างไปมั้ย	[IN:datetime_query [SL:place_name กรุงเทพ] ]	datetime	th-TH
+บอกฉันทีว่ามีแพ็กเกจจัดเลี้ยงอะไรอยู่บ้าง	[IN:takeaway_query ]	takeaway	th-TH
+ท้องฟ้าจะมืดครึ้มไหม	[IN:weather_query ]	weather	th-TH
+คำสั่งซื้อ pizza hut	[IN:takeaway_query [SL:business_name pizza hut] ]	takeaway	th-TH
+เปิด ปลั๊กอัจฉริยะ อันใหม่	[IN:iot_wemo_on [SL:device_type ปลั๊กอัจฉริยะ] ]	iot	th-TH
+หรี่ ไฟ ไปที่ ระดับ สอง	[IN:iot_hue_lightdim ]	iot	th-TH
+พยากรณ์อากาศ ของอาทิตย์นี้ คืออะไร	[IN:weather_query [SL:date ของอาทิตย์นี้] ]	weather	th-TH
+กรุณา ปิด ไฟ ห้องนอน	[IN:iot_hue_lightoff [SL:house_place ห้องนอน] ]	iot	th-TH
+เอ็มเค	[IN:takeaway_query [SL:business_name เอ็มเค] ]	takeaway	th-TH
+อะไรคือชื่อของวงดนตรีนี้	[IN:music_query ]	music	th-TH
+งานแถลงข่าวครั้งถัดไป ของทรัมป์ คือเมื่อไหร่	[IN:news_query [SL:news_topic งานแถลงข่าวครั้งถัดไป] ]	news	th-TH
+ราคาหุ้น ปัจจุบันของ google คือเท่าไร	[IN:qa_stock [SL:news_topic ราคาหุ้น] [SL:business_name google] ]	qa	th-TH
+การแข่งขันกอล์ฟของฉัน จะถูก ฝนตก ไล่ หรือเปล่า	[IN:weather_query [SL:weather_descriptor ฝนตก] ]	weather	th-TH
+สภาพอากาศที่ พัทยา เป็นอย่างไร	[IN:weather_query [SL:place_name พัทยา] ]	weather	th-TH
+ตั้งนาฬิกาปลุก สำหรับ ตีห้า	[IN:alarm_set [SL:time ตีห้า] ]	alarm	th-TH
+ช่วย ตั้ง การเตือน ตอน สี่ทุ่ม หน่อย	[IN:alarm_set [SL:time สี่ทุ่ม] ]	alarm	th-TH
+พรุ่งนี้ อากาศเป็นอย่างไร	[IN:weather_query [SL:date พรุ่งนี้] ]	weather	th-TH
+พรุ่งนี้ อากาศ ดี มั๊ย	[IN:weather_query [SL:date พรุ่งนี้] [SL:weather_descriptor ดี] ]	weather	th-TH
+วันนี้ พยากรณ์อากาศที่นี่เป็นยังไงบ้าง	[IN:weather_query [SL:date วันนี้] ]	weather	th-TH
+ลิสต์ การตั้งปลุกต่างต่างของฉัน	[IN:alarm_query ]	alarm	th-TH
+เปิด การแจ้งเตือน สำหรับข่าวทั้งหมดจาก ตลาดหุ้น	[IN:qa_stock [SL:news_topic ตลาดหุ้น] ]	qa	th-TH
+เตือนฉันถ้ามีข่าวใหม่เกี่ยวกับ ตลาดหุ้น	[IN:qa_stock [SL:news_topic ตลาดหุ้น] ]	qa	th-TH
+เปิด เพลง	[IN:play_music ]	play	th-TH
+บอกฉันว่าข่าวล่าสุดมีอะไรบ้าง	[IN:news_query ]	news	th-TH
+ฉันต้องการ เรื่องตลก เนิร์ด	[IN:general_joke [SL:joke_type เนิร์ด] ]	general	th-TH
+วันนี้ ใส่ กางเกงขาสั้น ได้มั๊ย	[IN:weather_query [SL:date วันนี้] [SL:weather_descriptor กางเกงขาสั้น] ]	weather	th-TH
+ช่วยเล่าเรื่องตลก ดีๆ สักเรื่องได้ไหม	[IN:general_joke [SL:joke_type ดีๆ] ]	general	th-TH
+เล่นซ้ำ เพลงที่แล้ว อีกครั้ง	[IN:music_settings [SL:player_setting เล่นซ้ำ] [SL:music_descriptor เพลงที่แล้ว] ]	music	th-TH
+วันที่ ยี่สิบเจ็ด มิถุนายน ของปีนี้คือวันอะไรของสัปดาห์	[IN:datetime_query [SL:date ยี่สิบเจ็ด มิถุนายน] ]	datetime	th-TH
+ควรจะ อยู่ในร่ม ใช่มั๊ย	[IN:weather_query [SL:weather_descriptor อยู่ในร่ม] ]	weather	th-TH
+วันนี้ วันที่เท่าไหร่	[IN:datetime_query [SL:date วันนี้] ]	datetime	th-TH
+ปิด ไฟ ห้องนอน	[IN:iot_hue_lightoff [SL:house_place ห้องนอน] ]	iot	th-TH
+แปลงเขตเวลา	[IN:datetime_convert ]	datetime	th-TH
+เมืองอื่น กี่โมงแล้ว	[IN:datetime_query [SL:place_name เมืองอื่น] ]	datetime	th-TH
+พระอาทิตย์จะตกเมื่อไหร่	[IN:qa_factoid ]	qa	th-TH
+พยากรณ์ สิบวัน	[IN:weather_query [SL:time สิบวัน] ]	weather	th-TH
+ช่วย เปลี่ยน ไฟ เป็น สีเขียว ได้มั้ย	[IN:iot_hue_lightchange [SL:color_type สีเขียว] ]	iot	th-TH
+แสดง ข่าว เดลินิวส์ ให้ฉันดู	[IN:news_query [SL:media_type เดลินิวส์] ]	news	th-TH
+มีข่าว อะไรบ้าง มั้ย	[IN:news_query ]	news	th-TH
+เล่น อกหัก โดย บอดี้สแลม	[IN:play_music [SL:song_name อกหัก] [SL:artist_name บอดี้สแลม] ]	play	th-TH
+ตั้งค่า นาฬิกาปลุก ห้านาทีจากนี้	[IN:alarm_set [SL:time ห้านาทีจากนี้] ]	alarm	th-TH
+กรุณาตั้ง นาฬิกาปลุก ของฉัน	[IN:alarm_set ]	alarm	th-TH
+ข้าวต้ม เอ็มเค	[IN:takeaway_order [SL:food_type ข้าวต้ม] ]	takeaway	th-TH
+อุณหภูมิ ตอนนี้ เป็นเท่าไหร่	[IN:weather_query [SL:weather_descriptor อุณหภูมิ] ]	weather	th-TH
+จูนไป เพลงบางเพลง	[IN:play_music ]	play	th-TH
+คุณรู้เกี่ยวกับเนื้อเพลงนี้มั้ย	[IN:music_query ]	music	th-TH
+ใครร้องเพลง นี้	[IN:music_query ]	music	th-TH
+ขอ เรื่องตลก เท่ๆ หน่อย	[IN:general_joke [SL:joke_type เท่ๆ] ]	general	th-TH
+เล่าเรื่องตลกให้ฟังหน่อย	[IN:general_joke ]	general	th-TH
+ปิด ไฟ	[IN:iot_hue_lightoff ]	iot	th-TH
+ขออัปเดตข่าว เฮอริเคน ให้ฉัน	[IN:news_query [SL:news_topic เฮอริเคน] ]	news	th-TH
+ส่งอัพเดท ตลาดหุ้น วันนี้ ให้ฉัน	[IN:qa_stock [SL:news_topic ตลาดหุ้น] [SL:date วันนี้] ]	qa	th-TH
+เลขที่ ถูกลอตเตอรี่ เมื่อคืน คืออะไร	[IN:news_query [SL:news_topic ถูกลอตเตอรี่] [SL:date เมื่อคืน] ]	news	th-TH
+ย้าย แจ้งเตือนเข้านอน ของสมชาย ออก	[IN:alarm_remove [SL:person ของสมชาย] ]	alarm	th-TH
+ช่วยพูดเบาลงหน่อยได้มั้ย	[IN:audio_volume_down ]	audio	th-TH
+เขตเวลาตะวันออก ตอนนี้ กี่โมง	[IN:datetime_query [SL:time_zone เขตเวลาตะวันออก] ]	datetime	th-TH
+ช่วยบอกฉันถึงข่าวล่าสุดเรื่อง แนวทางผลการเลือกตั้ง ใน จังหวัด ของเรา	[IN:news_query [SL:news_topic แนวทางผลการเลือกตั้ง] [SL:place_name จังหวัด] ]	news	th-TH
+ฉันชอบ อาร์แอนด์บี	[IN:music_likeness [SL:music_genre อาร์แอนด์บี] ]	music	th-TH
+แสดง ไฟ สีแดง	[IN:iot_hue_lightchange [SL:color_type สีแดง] ]	iot	th-TH
+วันที่ ยี่สิบสามเมษายน เป็นวันเสาร์หรือเปล่า	[IN:datetime_query [SL:date ยี่สิบสามเมษายน] ]	datetime	th-TH
+วันนี้ สัปดาห์อะไร	[IN:datetime_query [SL:date วันนี้] ]	datetime	th-TH
+อากาศที่ บ้านเกิด เป็นอย่างไรบ้าง	[IN:weather_query [SL:place_name บ้านเกิด] ]	weather	th-TH
+เล่น เพลง จาก เพลย์ลิสต์ นี้	[IN:play_music ]	play	th-TH
+เตือนฉันเมื่อมีข่าวท้องถิ่นของฉัน	[IN:news_query ]	news	th-TH
+เปลี่ยนความทึบของสี	[IN:iot_hue_lightchange ]	iot	th-TH
+เปลี่ยนสีไฟจาก อ่อน เป็น เข้ม	[IN:iot_hue_lightchange [SL:color_type อ่อน] [SL:color_type เข้ม] ]	iot	th-TH
+เปิด wemo	[IN:iot_wemo_on [SL:device_type wemo] ]	iot	th-TH
+ตั้งปลุกตอน หกโมงเช้า	[IN:alarm_set [SL:time หกโมงเช้า] ]	alarm	th-TH
+ตรงนี้ มืด จัง	[IN:iot_hue_lighton ]	iot	th-TH
+olly ยกเลิก นาฬิกาปลุก	[IN:alarm_remove ]	alarm	th-TH
+siri ยกเลิก แจ้งเตือน โยคะ	[IN:alarm_remove ]	alarm	th-TH
+olly เพิ่ม ระดับเสียง	[IN:audio_volume_up ]	audio	th-TH
+กูเกิล เล่นสลับ เพลย์ลิสต์	[IN:music_settings [SL:player_setting เล่นสลับ] ]	music	th-TH
+เล่น นิยามรัก	[IN:play_music [SL:song_name นิยามรัก] ]	play	th-TH
+วันถัดไป อากาศจะเป็นอย่างไร	[IN:weather_query [SL:date วันถัดไป] ]	weather	th-TH
+ข่าว ยิงตำรวจ	[IN:news_query [SL:news_topic ยิงตำรวจ] ]	news	th-TH
+คุณช่วยบอกฉันว่าการคาดการณ์สภาพอากาศสำหรับ อาทิตย์นี้ คืออะไรได้ไหม	[IN:weather_query [SL:date อาทิตย์นี้] ]	weather	th-TH
+เปิด เครื่องชงกาแฟ ให้หน่อย	[IN:iot_coffee [SL:device_type เครื่องชงกาแฟ] ]	iot	th-TH
+ที่นี่ สว่าง เกินไป คุณช่วย ปิด ไฟ ได้ไหม	[IN:iot_hue_lightoff ]	iot	th-TH
+อาทิตย์นี้ อากาศจะเป็นยังไงบ้าง	[IN:weather_query [SL:date อาทิตย์นี้] ]	weather	th-TH
+โปรดเพิ่ม เพลง นี้ ใน เพลย์ลิสต์ โปรด ของฉัน	[IN:music_likeness ]	music	th-TH
+เล่น เพลงนี้อีกครั้ง	[IN:play_music ]	play	th-TH
+วันพฤหัสบดี จะมี ลมแรง ไหม	[IN:weather_query [SL:date วันพฤหัสบดี] [SL:weather_descriptor ลมแรง] ]	weather	th-TH
+เล่าเรื่องตลกให้ฟังหน่อย	[IN:general_joke ]	general	th-TH
+olly ขอข่าวเกี่ยวกับ ประยุทธ์ จันทร์โอชา	[IN:news_query [SL:person ประยุทธ์ จันทร์โอชา] ]	news	th-TH
+olly มีข่าวปัจจุบันเกี่ยวกับ การเลือกตั้งนายก บ้างไหม	[IN:news_query [SL:news_topic การเลือกตั้งนายก] ]	news	th-TH
+วันนี้ ในบริเวณพื้นที่ ของฉัน สภาพอากาศมี แนวโน้ม เป็นอย่างไรบ้าง	[IN:weather_query [SL:date วันนี้] ]	weather	th-TH
+ปิด ไฟ ห้องรับแขก	[IN:iot_hue_lightoff [SL:house_place ห้องรับแขก] ]	iot	th-TH
+รับข่าวสารล่าสุด	[IN:news_query ]	news	th-TH
+ภราดร ศรีชาพันธุ์ ทำแต้มไปเท่าไหร่ เมื่อวาน	[IN:news_query [SL:person ภราดร ศรีชาพันธุ์] [SL:date เมื่อวาน] ]	news	th-TH
+เล่น เพลย์ลิสต์สำหรับเข้ายิม ของฉัน	[IN:play_music [SL:playlist_name เพลย์ลิสต์สำหรับเข้ายิม] ]	play	th-TH
+ปิด ไฟ ห้องอาบน้ำ	[IN:iot_hue_lightoff [SL:house_place ห้องอาบน้ำ] ]	iot	th-TH
+ออลลี่ วันนี้ ฉันต้องใส่ ถุงมือ ไหม	[IN:weather_query [SL:date วันนี้] [SL:weather_descriptor ถุงมือ] ]	weather	th-TH
+ร่ม จำเป็นสำหรับการออกไปข้างนอกหรือไม่	[IN:weather_query [SL:weather_descriptor ร่ม] ]	weather	th-TH
+เริ่มเล่นเพลงที่เพิ่มใน เพลย์ลิสต์ ไม่นานมานี้	[IN:play_music ]	play	th-TH
+แสดง ข่าว เดลินิวส์ ปัจจุบัน	[IN:news_query [SL:media_type เดลินิวส์] ]	news	th-TH
+เปิด ข่าวไทยรัฐ สด	[IN:news_query [SL:media_type ข่าวไทยรัฐ] ]	news	th-TH
+บรรยากาศข้างนอก มัน เป็นยังไง	[IN:weather_query ]	weather	th-TH
+วันนี้ ดอยอินทนนท์ อากาศดูเป็นยังไง	[IN:weather_query [SL:date วันนี้] [SL:place_name ดอยอินทนนท์] ]	weather	th-TH
+ขอดู เวลา นาฬิกาปลุก ที่เธอตั้งไว้หน่อย	[IN:alarm_query ]	alarm	th-TH
+คุณหาข่าวท้องถิ่นเกี่ยวกับ ผู้ใหญ่บ้านหนองงูเห่า ให้ฉันได้บ้างไหม	[IN:news_query [SL:news_topic ผู้ใหญ่บ้านหนองงูเห่า] ]	news	th-TH
+เล่นจากเพลย์ลิสต์ ของฉัน	[IN:play_music ]	play	th-TH
+เปลี่ยนเป็นเขตเวลา ตะวันออก	[IN:datetime_convert [SL:time_zone ตะวันออก] ]	datetime	th-TH
+เมื่อไหร่ ยี่สิบสี่ จะมาถึงใน สัปดาห์หน้า	[IN:datetime_query [SL:date ยี่สิบสี่] [SL:date สัปดาห์หน้า] ]	datetime	th-TH
+อะไร ใหม่ บน itunes	[IN:music_query ]	music	th-TH
+โปรด แสดง สภาพอากาศในวันที่ ยี่สิบเจ็ดมีนาคมสองพันสิบเจ็ด	[IN:weather_query [SL:date ยี่สิบเจ็ดมีนาคมสองพันสิบเจ็ด] ]	weather	th-TH
+ข่าวใน ไอร์แลนด์ มีอะไรบ้าง	[IN:news_query [SL:place_name ไอร์แลนด์] ]	news	th-TH
+กำลังเล่น เพลง อะไร	[IN:music_query ]	music	th-TH
+เพิ่มเสียงขึ้น	[IN:audio_volume_up ]	audio	th-TH
+ให้ roomba ทำความสะอาด ห้องครัว	[IN:iot_cleaning [SL:device_type roomba] [SL:house_place ห้องครัว] ]	iot	th-TH
+โปรดให้รายละเอียดเพลง แททูคัลเลอร์ แก่ฉัน	[IN:music_query [SL:artist_name แททูคัลเลอร์] ]	music	th-TH
+ลบ นาฬิกาปลุก ตอน ห้าโมงเย็น	[IN:alarm_remove [SL:time ห้าโมงเย็น] ]	alarm	th-TH
+เล่นเพลง indian folk	[IN:play_music [SL:music_genre indian folk] ]	play	th-TH
+หลังจากสิบโมงเช้า ฉันต้องใส่ เสื้อเเจ๊คเก็ต ไหม	[IN:weather_query [SL:time หลังจากสิบโมงเช้า] [SL:weather_descriptor เสื้อเเจ๊คเก็ต] ]	weather	th-TH
+อยากอ่าน ข่าวไทยรัฐ	[IN:news_query [SL:media_type ข่าวไทยรัฐ] ]	news	th-TH
+คืนนี้ ต้องเอา หมวก ไปด้วยมั๊ย	[IN:weather_query [SL:timeofday คืนนี้] [SL:weather_descriptor หมวก] ]	weather	th-TH
+ฉันต้องการ แจ็กเกต หรือไม่ วันนี้	[IN:weather_query [SL:weather_descriptor แจ็กเกต] [SL:date วันนี้] ]	weather	th-TH
+olly ทำ ไฟ ให้สว่างขึ้น	[IN:iot_hue_lightup ]	iot	th-TH
+เปลี่ยน สี ของ ไฟ	[IN:iot_hue_lightchange ]	iot	th-TH
+ออลลี่ เปลี่ยน เป็น ไฟ สี อื่น	[IN:iot_hue_lightchange ]	iot	th-TH
+เปิดใช้งาน ไฟ สี อื่น	[IN:iot_hue_lightchange ]	iot	th-TH
+โพลล่าสุดแสดงมุมมองขอสาธารณชนที่มีต่อประธานาธิบดีทรัมป์ เป็นอย่างไร	[IN:news_query [SL:news_topic โพลล่าสุดแสดงมุมมองขอสาธารณชนที่มีต่อประธานาธิบดีทรัมป์] ]	news	th-TH
+ชอบ เพลง นี้	[IN:music_likeness ]	music	th-TH
+ปิด ไฟ ใน ห้อง	[IN:iot_hue_lightoff [SL:house_place ห้อง] ]	iot	th-TH
+ยี่สิบสองพฤษภาคม คือวันอะไร	[IN:datetime_query [SL:date ยี่สิบสองพฤษภาคม] ]	datetime	th-TH
+ตั้งค่า เป็นปิดเสียง จนกว่าจะบอกให้เปลี่ยน	[IN:audio_volume_mute ]	audio	th-TH
+กรุณา เล่นซ้ำ เพลง ปัจจุบัน ที่กำลังเล่นอยู่	[IN:music_settings [SL:player_setting เล่นซ้ำ] ]	music	th-TH
+ฉันตั้ง นาฬิกาปลุก ตอนเช้า วันธรรมดา ไว้ที่กี่โมง	[IN:alarm_query [SL:timeofday ตอนเช้า] [SL:date วันธรรมดา] ]	alarm	th-TH
+ขอบคุณ ally สำหรับ รูปถ่าย	[IN:general_quirky ]	general	th-TH
+เล่น แร็ปแบบดั้งเดิม อะไรสักอย่าง	[IN:play_music [SL:music_genre แร็ปแบบดั้งเดิม] ]	play	th-TH
+อ่านข่าวของวันนี้ให้ฉันฟัง	[IN:news_query ]	news	th-TH
+ณเดช กับ ญาญ่า กลับมาคบกันใหม่หรือเปล่า	[IN:news_query [SL:person ณเดช] [SL:person ญาญ่า] ]	news	th-TH
+ตั้ง นาฬิกาปลุก วันที่ ยี่สิบห้าพฤษภาคม ตอน ห้าโมงเย็น	[IN:alarm_set [SL:date ยี่สิบห้าพฤษภาคม] [SL:time ห้าโมงเย็น] ]	alarm	th-TH
+กรุณาเปิด ดนตรี ของฉัน	[IN:play_music ]	play	th-TH
+ผู้ช่วย สุ่ม ทั้งหมด	[IN:play_music [SL:player_setting สุ่ม] [SL:music_descriptor ทั้งหมด] ]	play	th-TH
+เอ็มเค ใกล้ที่สุด	[IN:takeaway_order ]	takeaway	th-TH
+สับ และ เล่น เพลย์ลิสต์เพลงบลู	[IN:play_music [SL:player_setting สับ] [SL:playlist_name เพลย์ลิสต์เพลงบลู] ]	play	th-TH
+รายงานการตั้งค่าการปลุก	[IN:alarm_query ]	alarm	th-TH
+อุณหภูมิ ตอนนี้	[IN:weather_query [SL:weather_descriptor อุณหภูมิ] ]	weather	th-TH
+สับ และ เล่น เพลง ทั้งหมด โดย ศิลปิน โลโซ	[IN:play_music [SL:player_setting สับ] [SL:music_descriptor ทั้งหมด] [SL:artist_name โลโซ] ]	play	th-TH
+เสาร์อาทิตย์นี้ จะต้องใช้ ครีมกันแดด มั๊ย	[IN:weather_query [SL:date เสาร์อาทิตย์นี้] [SL:weather_descriptor ครีมกันแดด] ]	weather	th-TH
+ฉันควรซื้อ เกลือละลายน้ำแข็ง จาก ร้านค้า หรือไม่	[IN:weather_query [SL:food_type เกลือละลายน้ำแข็ง] [SL:business_type ร้านค้า] ]	weather	th-TH
+เปิด เต้ารับปลั๊ก wemo	[IN:iot_wemo_on [SL:device_type เต้ารับปลั๊ก wemo] ]	iot	th-TH
+สลับ ปลั๊ก wemo บน	[IN:iot_wemo_on [SL:device_type ปลั๊ก wemo] ]	iot	th-TH
+แค่บอกให้ฉันรู้วันที่ปัจจุบันของ วันนี้	[IN:datetime_query [SL:date วันนี้] ]	datetime	th-TH
+สภาพอากาศที่อัปเดตของ บางพูน อันไหนก็ได้ อัปเดต พยากรณ์ จาก ปทุมธานี หรือ weathercom ทั้งคู่ ค่อนข้างแย่สำหรับไซต์ ของฉัน	[IN:weather_query ]	weather	th-TH
+กดปุ่มสตาร์ทแล้วเลือก ตั้งค่า	[IN:alarm_query ]	alarm	th-TH
+ที่ กรุงเทพ ไทย กี่โมงแล้ว	[IN:datetime_query [SL:place_name กรุงเทพ ไทย] ]	datetime	th-TH
+เล่น เพลงปาร์ตี้	[IN:play_music [SL:music_descriptor เพลงปาร์ตี้] ]	play	th-TH
+ธงไชย แมคอินไตย์	[IN:play_music [SL:artist_name ธงไชย แมคอินไตย์] ]	play	th-TH
+เริ่ม ทำความสะอาดบ้าน	[IN:iot_cleaning [SL:house_place ทำความสะอาดบ้าน] ]	iot	th-TH
+ฉันควรสวม เสื้อคลุม ไปทำงาน หรือไม่	[IN:weather_query [SL:weather_descriptor เสื้อคลุม] ]	weather	th-TH
+คุณช่วยพูดดังกว่านี้ได้ไหม	[IN:audio_volume_up ]	audio	th-TH
+ไฟทุกดวง ของ ห้อง เพิ่มความเข้มแสงขึ้น	[IN:iot_hue_lightup [SL:device_type ไฟทุกดวง] [SL:house_place ห้อง] ]	iot	th-TH
+กรุณาเล่นเพลง วี วิโอเลต ให้ฉันอีกครั้	[IN:play_music [SL:artist_name วี วิโอเลต] ]	play	th-TH
+เครื่องอัดเสียง orevena แจ้งฉันหากหน้าระบบเป็นที่ที่ฉันจะบันทึกเพลง	[IN:play_music ]	play	th-TH
+ภูมิอากาศ	[IN:weather_query [SL:weather_descriptor ภูมิอากาศ] ]	weather	th-TH
+วันเกิดของฉัน คือวันอะไรใน ปีหน้า	[IN:datetime_query [SL:event_name วันเกิดของฉัน] [SL:date ปีหน้า] ]	datetime	th-TH
+วันอะไรของสัปดาห์ตรงกับวันที่ สิบสอง	[IN:datetime_query [SL:date สิบสอง] ]	datetime	th-TH
+เปิด เสียง	[IN:audio_volume_up ]	audio	th-TH
+เล่น ศิลปิน	[IN:play_music ]	play	th-TH
+ร้านอาหาร เอ็มเค ซื้อกลับบ้าน	[IN:takeaway_query [SL:business_type ร้านอาหาร] [SL:order_type ซื้อกลับบ้าน] ]	takeaway	th-TH
+จะมี หมอก หลังพระอาทิตย์ตก หรือไม่	[IN:weather_query [SL:weather_descriptor หมอก] [SL:time หลังพระอาทิตย์ตก] ]	weather	th-TH
+ข้างนอกอากาศ หนาว	[IN:weather_query [SL:weather_descriptor หนาว] ]	weather	th-TH
+นาฬิกา ปลุก	[IN:datetime_query ]	datetime	th-TH
+ตั้ง แจ้งเตือน ตอน ห้า โมง เย็นนี้ ระบุว่า แท็กซี่	[IN:alarm_set [SL:time ห้า] [SL:event_name แท็กซี่] ]	alarm	th-TH
+อากาศที่ บ้านเกิด	[IN:weather_query [SL:place_name บ้านเกิด] ]	weather	th-TH
+เล่น เพลงที่สี่ ของ อัลบั้ม เดียวกัน หลัง เพลง นี้	[IN:play_music ]	play	th-TH
+alexa เปิด คลาสสิกร็อก	[IN:play_music [SL:music_genre คลาสสิกร็อก] ]	play	th-TH
+เปิดใช้งาน หุ่นยนต์ดูดฝุ่น	[IN:iot_cleaning [SL:device_type หุ่นยนต์ดูดฝุ่น] ]	iot	th-TH
+นี่เป็นวันที่ร้อนที่สุดใน สมุทรปราการ ใช่หรือเปล่า	[IN:weather_query [SL:place_name สมุทรปราการ] ]	weather	th-TH
+บอกฉันเกี่ยวกับเวลาของนาฬิกาปลุก	[IN:alarm_query ]	alarm	th-TH
+ความหมายของคำนี้	[IN:general_quirky ]	general	th-TH
+ฟัง เพลง	[IN:play_music ]	play	th-TH
+ฉันต้องการ เสื้อกันฝน	[IN:weather_query [SL:weather_descriptor เสื้อกันฝน] ]	weather	th-TH
+ตลาดสำหรับธุรกิจการค้าระหว่างประเทศ	[IN:news_query [SL:news_topic ตลาดสำหรับธุรกิจการค้าระหว่างประเทศ] ]	news	th-TH
+ช่วยปิดเสียงสักพักได้มั้ย	[IN:audio_volume_mute ]	audio	th-TH
+ฉันต้องการสั่ง อาหาร	[IN:takeaway_order ]	takeaway	th-TH
+ตั้งการ แจ้งเตือน ให้ฉันตอนไหน	[IN:alarm_query ]	alarm	th-TH
+อยากกิน กาแฟ เดี๋ยวนี้	[IN:iot_coffee ]	iot	th-TH
+ช่วยเตรียมกาแฟสำหรับ มื้อเช้า ให้ฉันที	[IN:iot_coffee [SL:coffee_type มื้อเช้า] ]	iot	th-TH
+ถึงเวลากาแฟแล้ว	[IN:iot_coffee ]	iot	th-TH
+ของมายเวียดนาม	[IN:takeaway_query [SL:business_name ของมายเวียดนาม] ]	takeaway	th-TH
+จีน	[IN:takeaway_query [SL:food_type จีน] ]	takeaway	th-TH
+เปิด นาฬิกา	[IN:alarm_set ]	alarm	th-TH
+เพลง ที่ เลือกไว้	[IN:play_music ]	play	th-TH
+alexa เพิ่ม ความสว่าง ของ ไฟ ให้ที มองอะไรไม่ค่อย เห็น เลย ข้างล่าง นี้	[IN:iot_hue_lightup ]	iot	th-TH
+ออเดอร์ของฉันพร้อมรับหรือยัง	[IN:takeaway_query ]	takeaway	th-TH
+นาฬิกาปลุก	[IN:alarm_set ]	alarm	th-TH
+ตอนบ่าย นี้ฉันต้องพก ร่ม ไปด้วยไหม	[IN:weather_query [SL:timeofday ตอนบ่าย] [SL:weather_descriptor ร่ม] ]	weather	th-TH
+เล่น เพลง ของ สิงโต นำโชค	[IN:play_music [SL:artist_name สิงโต นำโชค] ]	play	th-TH
+วันนี้ ฝนจะตก แถว บางรัก มั๊ย	[IN:weather_query [SL:date วันนี้] [SL:weather_descriptor ฝนจะตก] [SL:place_name บางรัก] ]	weather	th-TH
+hey olly สภาพอากาศที่ บางนา กรุงเทพ เป็นอย่างไร	[IN:weather_query [SL:place_name บางนา กรุงเทพ] ]	weather	th-TH
+เล่น ธงไชย แมคอินไตย์ หมอกหรือควัน	[IN:play_music [SL:artist_name ธงไชย แมคอินไตย์] [SL:song_name หมอกหรือควัน] ]	play	th-TH
+เฮ้ olly สั่ง ปีกไก่เฟรนช์ฟรายส์ จาก ร้านอาหารจีน	[IN:takeaway_order [SL:food_type ปีกไก่เฟรนช์ฟรายส์] [SL:business_name ร้านอาหารจีน] ]	takeaway	th-TH
+เฮ้ olly สั่ง พิซซ่าเพิ่มชีส	[IN:takeaway_order [SL:food_type พิซซ่าเพิ่มชีส] ]	takeaway	th-TH
+ที่ เชียงคาน เลย กี่โมงแล้ว	[IN:datetime_query [SL:place_name เชียงคาน เลย] ]	datetime	th-TH
+เล่น เพลงไหนก็ได้ จาก เพลย์ลิสต์ล่าสุดของฉัน	[IN:play_music [SL:music_descriptor เพลงไหนก็ได้] ]	play	th-TH
+olly เล่นเพลง อะไรก็ได้ จาก เพลย์ลิสต์ ล่าสุด	[IN:play_music [SL:music_descriptor อะไรก็ได้] ]	play	th-TH
+ให้ข้อมูลฉันเกี่ยวกับ เพลง ที่กำลังเล่นอยู่	[IN:music_query ]	music	th-TH
+ช่วยทำตัวตลกให้ฉันที	[IN:general_joke ]	general	th-TH
+olly ฉันควรใส่ ถุงมือ ไหม	[IN:weather_query [SL:weather_descriptor ถุงมือ] ]	weather	th-TH
+เดือนหน้า อากาศจะเป็นยังไง	[IN:weather_query [SL:time เดือนหน้า] ]	weather	th-TH
+เปิด เครื่องดูดฝุ่น	[IN:iot_cleaning [SL:device_type เครื่องดูดฝุ่น] ]	iot	th-TH
+ฉันควรใส่ เสื้อผ้าหลายชั้น ไหม วันนี้	[IN:weather_query [SL:date วันนี้] ]	weather	th-TH
+ขอรายงานพยากรณ์อากาศของ อาทิตย์นี้	[IN:weather_query [SL:date อาทิตย์นี้] ]	weather	th-TH
+อากาศ หนึ่งอาทิตย์ จากนี้ จะเป็นยังไงบ้าง	[IN:weather_query [SL:time หนึ่งอาทิตย์] ]	weather	th-TH
+ฉันสามารถได้รับ การส่งอาหาร จากที่นี่ ได้ไหม	[IN:takeaway_query [SL:order_type การส่งอาหาร] ]	takeaway	th-TH
+วันนี้ ยุ่งมาก	[IN:general_quirky [SL:date วันนี้] ]	general	th-TH
+วันของฉันเป็นอย่างไรบ้าง	[IN:general_quirky ]	general	th-TH
+คุณสังเกตเห็นสิ่งแปลกแปลกเกี่ยวกับโลกของคุณหรือไม่	[IN:general_quirky ]	general	th-TH
+เธออยากได้ยินไหมว่า วันนี้ เกิดอะไรขึเน	[IN:general_quirky [SL:date วันนี้] ]	general	th-TH
+เธอรู้จักฉันได้อย่างไร	[IN:general_quirky ]	general	th-TH
+มันต้องเยี่ยมแน่เลยที่จะทานมื้อค่ำที่ ร้านอาหาร กลางกรุง ที่เพิ่งเปิดใหม่นี้	[IN:general_quirky [SL:business_type ร้านอาหาร] [SL:place_name กลางกรุง] ]	general	th-TH
+olly เป็นไงบ้าง	[IN:general_quirky ]	general	th-TH
+วันนี้ ฉันได้รับรางวัล olly	[IN:general_quirky [SL:date วันนี้] ]	general	th-TH
+วันนี้ ฉันมี ประชุม เยอะมากเลย	[IN:general_quirky [SL:date วันนี้] [SL:event_name ประชุม] ]	general	th-TH
+คุณมาจากที่ไหน	[IN:general_quirky ]	general	th-TH
+วันนี้ แดดจ้า	[IN:general_quirky [SL:date วันนี้] ]	general	th-TH
+สวัสดี google ฉันถูกหวยรางวัลสิบสองล้านบาท	[IN:general_quirky ]	general	th-TH
+เล่าข่าวที่สำคัญ วันนี้ ให้ฉันฟังที	[IN:news_query [SL:date วันนี้] ]	news	th-TH
+วันนี้ เป็นไงบ้าง	[IN:general_quirky [SL:date วันนี้] ]	general	th-TH
+ตื่น ตื่น อาหารเช้ามาเสิร์ฟแล้วจ้า	[IN:general_quirky ]	general	th-TH
+เกิดอะไรขึ้นบ้าง	[IN:general_quirky ]	general	th-TH
+มีข่าว อะไร ที่น่าสนใจบ้าง วันนี้	[IN:news_query [SL:date วันนี้] ]	news	th-TH
+ฉันได้รับเชิญให้ไป ผับ วันเสาร์	[IN:general_quirky [SL:place_name ผับ] [SL:date วันเสาร์] ]	general	th-TH
+พูดถึง เบียร์ ดีดี ให้ฟังบ้างสิ	[IN:general_quirky [SL:drink_type เบียร์] ]	general	th-TH
+เล่าเรื่องอะไรที่เกี่ยวกับ อเมริกา ให้ฟังหน่อย	[IN:general_quirky [SL:place_name อเมริกา] ]	general	th-TH
+กีฬา	[IN:general_quirky ]	general	th-TH
+นี่ มี ภาพยนตร์ ดีดี ที่กำลังจะเข้าฉายบ้างไหม	[IN:general_quirky ]	general	th-TH
+คุณเอาข้อมูลส่วนตัวของฉันไปทำอะไร	[IN:general_quirky ]	general	th-TH
+เมื่อฉันต้องการให้จดลงไป	[IN:general_quirky ]	general	th-TH
+แพลนรายสัปดาห์ของฉัน	[IN:calendar_query ]	calendar	th-TH
+trivia	[IN:general_quirky ]	general	th-TH
+หัวข้อ วิกิพีเดีย	[IN:general_quirky ]	general	th-TH
+เป็นไงบ้าง	[IN:general_quirky ]	general	th-TH
+สายพันธุ์สุนัขที่มีอาการแพ้ง่ายที่สุด	[IN:general_quirky ]	general	th-TH
+olly วันนี้ ฉันโดนรถชนมา	[IN:general_quirky [SL:date วันนี้] ]	general	th-TH
+วันนี้ ฉันไป บิ๊กซี มา	[IN:general_quirky [SL:date วันนี้] [SL:place_name บิ๊กซี] ]	general	th-TH
+มุก เสียดสี	[IN:general_joke [SL:joke_type เสียดสี] ]	general	th-TH
+ข่าว บันเทิง	[IN:news_query [SL:news_topic บันเทิง] ]	news	th-TH
+โทรศัพท์มือถือ	[IN:general_quirky ]	general	th-TH
+ฉันเปียกฝน	[IN:general_quirky ]	general	th-TH
+แฟชั่น	[IN:general_quirky ]	general	th-TH
+กำหนดการ	[IN:calendar_query ]	calendar	th-TH
+หา คำตอบ ให้ ฉัน	[IN:general_quirky ]	general	th-TH
+วันชีทเดย์ของฉัน วันนี้	[IN:calendar_set [SL:event_name วันชีทเดย์ของฉัน] [SL:date วันนี้] ]	calendar	th-TH
+วันนี้ เป็นวันที่เหนื่อย	[IN:general_quirky [SL:date วันนี้] ]	general	th-TH
+เธอชอบ แฟน ของฉันไหม	[IN:general_quirky [SL:relation แฟน] ]	general	th-TH
+บอกฉันเกี่ยวกับ วี วิโอเลต	[IN:general_quirky [SL:artist_name วี วิโอเลต] ]	general	th-TH
+มีอะไรเกิดขึ้นบ้างใน เชียงใหม่	[IN:recommendation_events [SL:place_name เชียงใหม่] ]	recommendation	th-TH
+เวลานี้ ฉันทำอะไร	[IN:general_quirky [SL:time เวลานี้] ]	general	th-TH
+วันนี้เป็นอย่างไรบ้าง	[IN:general_quirky ]	general	th-TH
+จักรวาล	[IN:general_quirky ]	general	th-TH
+ความร้อนเปลี่ยนระดับตอนไหนใน คอนโด	[IN:general_quirky [SL:place_name คอนโด] ]	general	th-TH
+เรื่องตลก	[IN:general_joke ]	general	th-TH
+ทำอาหาร	[IN:cooking_query ]	cooking	th-TH
+การคาดการณ์ อัตราแลกเปลี่ยน	[IN:general_quirky ]	general	th-TH
+รถยนต์	[IN:general_quirky ]	general	th-TH
+วุ่ยวายมาก	[IN:general_quirky ]	general	th-TH
+คำแนะนำ ไม่นานมานี้ เกี่ยวกับ สิงโต นําโชค	[IN:general_quirky ]	general	th-TH
+เรื่องตลกประจำวัน	[IN:general_joke ]	general	th-TH
+พวกเครื่องปรุงเป็นที่ต้องการใน ร้านขายของชำ	[IN:general_quirky [SL:business_type ร้านขายของชำ] ]	general	th-TH
+เป็นไงบ้าง	[IN:general_quirky ]	general	th-TH
+ถ้าเธอพูดถึงสิ่งของได้สามอย่าง เธอจะพูดถึงอะไร	[IN:general_quirky ]	general	th-TH
+การวิจัยทางอวกาศ	[IN:general_quirky ]	general	th-TH
+หนังสือ	[IN:general_quirky ]	general	th-TH
+ซุบซิบเรื่องเซเลปดารา	[IN:general_quirky ]	general	th-TH
+ออลลี่ ตารางงาน ที่เหลือของสัปดาห์นี้	[IN:calendar_query [SL:time ที่เหลือของสัปดาห์นี้] ]	calendar	th-TH
+ล้าง วัน ของฉััน ออกจาก การประชุม	[IN:calendar_remove [SL:time วัน] [SL:event_name การประชุม] ]	calendar	th-TH
+เพิ่มในปฏิทิน รายวัน ของฉัน ยืนขึ้น สิบโมง	[IN:calendar_set [SL:general_frequency รายวัน] [SL:event_name ยืนขึ้น] [SL:time สิบโมง] ]	calendar	th-TH
+ประชุม ถัดไป ของฉัน คือเมื่อไหร่	[IN:calendar_query [SL:event_name ประชุม] ]	calendar	th-TH
+ยกเลิก การโทร ประจำวัน ทุก ห้าโมงเย็น ของฉัน	[IN:calendar_remove [SL:event_name การโทร] [SL:general_frequency ประจำวัน] [SL:time ห้าโมงเย็น] ]	calendar	th-TH
+ประชุม กับ ปรีชา	[IN:calendar_set [SL:event_name ประชุม] [SL:person ปรีชา] ]	calendar	th-TH
+มัน เมื่อไหร่	[IN:general_quirky ]	general	th-TH
+วันนี้ ฉันมีงานกิจกรรมหรือเปล่า	[IN:calendar_query [SL:date วันนี้] ]	calendar	th-TH
+ฉัน มี นัด อะไรไหม วัน พรุ่งนี้	[IN:calendar_query [SL:date พรุ่งนี้] ]	calendar	th-TH
+บอก ฉัน เกี่ยวกับ กิจกรรม ของฉัน	[IN:calendar_query ]	calendar	th-TH
+ลบ งาน ทั้งหมด ของฉัน	[IN:calendar_remove ]	calendar	th-TH
+แจ้งเตือน ปิกนิก สวนลุม	[IN:calendar_set [SL:event_name ปิกนิก] [SL:place_name สวนลุม] ]	calendar	th-TH
+แจ้งเตือน ดู หนังกลางแปลง สุดสัปดาห์	[IN:calendar_set [SL:event_name หนังกลางแปลง] [SL:time สุดสัปดาห์] ]	calendar	th-TH
+ประชุม กับ นาตาลี พรุ่งนี้ เก้าโมงเช้า	[IN:calendar_query [SL:event_name ประชุม] [SL:person นาตาลี] [SL:date พรุ่งนี้] [SL:time เก้าโมงเช้า] ]	calendar	th-TH
+อีกห้าวัน	[IN:calendar_remove [SL:date อีกห้าวัน] ]	calendar	th-TH
+การประชุม พรุ่งนี้ สามทุ่ม	[IN:calendar_query [SL:event_name การประชุม] [SL:date พรุ่งนี้] [SL:time สามทุ่ม] ]	calendar	th-TH
+ปฏิทิน งาน	[IN:calendar_set ]	calendar	th-TH
+งานของ ฉัน	[IN:calendar_remove ]	calendar	th-TH
+ฉันมีกิจกรรมอะไรที่กำลังจะเกิดขึ้นในปฏิทินของฉันหรือเปล่า	[IN:calendar_query ]	calendar	th-TH
+นัด ถัดไป บน ปฏิทิน ของฉัน คือเมื่อไหร่	[IN:calendar_query [SL:event_name นัด] ]	calendar	th-TH
+ลบ ปาร์ตี้วันเกิด พรุ่งนี้ ตอน บ่ายสองโมง	[IN:calendar_remove [SL:event_name ปาร์ตี้วันเกิด] [SL:date พรุ่งนี้] [SL:time บ่ายสองโมง] ]	calendar	th-TH
+เธอช่วยลบ นัด ทั้งหมด จาก ปฏิทิน ของฉัน ได้ไหม	[IN:calendar_remove ]	calendar	th-TH
+อันนี้ยากจัง	[IN:general_quirky ]	general	th-TH
+เก้าโมงเช้า ทุกวัน	[IN:calendar_set [SL:time เก้าโมงเช้า] [SL:general_frequency ทุกวัน] ]	calendar	th-TH
+ประชุม ของ ฉัน วันนี้	[IN:calendar_query [SL:event_name ประชุม] [SL:date วันนี้] ]	calendar	th-TH
+ใส่ การประชุมในวันจันทร์ ลงในปฏิทิน ทุกวันจันทร์	[IN:calendar_set [SL:event_name การประชุมในวันจันทร์] [SL:general_frequency ทุกวันจันทร์] ]	calendar	th-TH
+ตั้งการแจ้งเตือนในวันที่ หกมีนาคม ว่ามี ชุมนุมเอลจีบีทีคิว ตอน สิบเอ็ดโมงเช้า	[IN:calendar_set [SL:date หกมีนาคม] [SL:event_name ชุมนุมเอลจีบีทีคิว] [SL:time สิบเอ็ดโมงเช้า] ]	calendar	th-TH
+รายการ อะไร บ้าง พรุ่งนี้ ตอนเย็น	[IN:calendar_query [SL:date พรุ่งนี้] [SL:timeofday ตอนเย็น] ]	calendar	th-TH
+ทุก งาน	[IN:calendar_remove ]	calendar	th-TH
+ลบ งานกิจกรรม และ ตารางงาน ทั้งหมด	[IN:calendar_remove ]	calendar	th-TH
+เหตุการณ์ ใน ตารางเวลา ของฉัน พรุ่งนี้ คืออะไร	[IN:calendar_query [SL:date พรุ่งนี้] ]	calendar	th-TH
+เตือนฉันเกี่ยวกับ การประชุม วันพรุ่งนี้ ตอน สิบโมงเช้า	[IN:calendar_set [SL:event_name การประชุม] [SL:date วันพรุ่งนี้] [SL:time สิบโมงเช้า] ]	calendar	th-TH
+ประชุม ของ ฉัน อาทิตย์นี้	[IN:calendar_query [SL:event_name ประชุม] [SL:date อาทิตย์นี้] ]	calendar	th-TH
+ล้างปฏิทิน ให้หมด	[IN:calendar_remove ]	calendar	th-TH
+ช่วย เตือน ฉัน หนึ่งชั่วโมง ก่อน ฉัน ประชุม พรุ่งนี้ ตอนเช้า	[IN:calendar_set [SL:time หนึ่งชั่วโมง] [SL:event_name ประชุม] [SL:date พรุ่งนี้] [SL:timeofday ตอนเช้า] ]	calendar	th-TH
+ตารางงาน ช่วงบ่าย วันพรุ่งนี้ ของฉัน คืออะไร	[IN:calendar_query [SL:timeofday ช่วงบ่าย] [SL:date วันพรุ่งนี้] ]	calendar	th-TH
+เหตุการณ์	[IN:calendar_query ]	calendar	th-TH
+เหตุการณ์	[IN:calendar_query ]	calendar	th-TH
+ตั้งค่า การนัดพบ กับ พล วันพรุ่งนี้	[IN:calendar_set [SL:event_name การนัดพบ] [SL:person พล] [SL:date วันพรุ่งนี้] ]	calendar	th-TH
+มีงานกิจกรรมอะไรที่กำลังจะมาถึงในปฏิทินของฉันหรือไม่	[IN:calendar_query ]	calendar	th-TH
+ตั้ง การแจ้งเตือน วันหยุด เดือนหน้า	[IN:calendar_set [SL:event_name วันหยุด] [SL:date เดือนหน้า] ]	calendar	th-TH
+ล้าง ปฏิทิน เดือนนี้	[IN:calendar_remove [SL:date เดือนนี้] ]	calendar	th-TH
+ช่วย ตั้ง ปลุก สองชั่วโมงจากนี้	[IN:alarm_set [SL:time สองชั่วโมงจากนี้] ]	alarm	th-TH
+ฉันมีอะไรที่ต้องทำระหว่าง บ่าย สอง ถึง บ่ายสี่โมง วันเสาร์ ไหม	[IN:calendar_query [SL:time สอง] [SL:time บ่ายสี่โมง] [SL:date วันเสาร์] ]	calendar	th-TH
+ลบกิจกรรมทั้งหมด ที่เหลือในวันนี้ ออกจากปฏิทิน	[IN:calendar_remove [SL:time ที่เหลือในวันนี้] ]	calendar	th-TH
+วันนี้ ฉันมี กิจกรรม อะไรบ้างใน ปฏิทิน ของฉัน	[IN:calendar_query [SL:date วันนี้] ]	calendar	th-TH
+ใน ปฏิทิน ของฉัน มี งาน อะไร บ้าง	[IN:calendar_query ]	calendar	th-TH
+ฉันมี แจ้งเตือน อะไร บ้าง วันนี้	[IN:calendar_query [SL:date วันนี้] ]	calendar	th-TH
+ประชุม วันนี้ ตอนเย็น	[IN:calendar_remove [SL:event_name ประชุม] [SL:date วันนี้] [SL:timeofday ตอนเย็น] ]	calendar	th-TH
+นัดหมอ วันที่สิบสอง ตอนเช้า	[IN:calendar_set [SL:event_name นัดหมอ] [SL:timeofday ตอนเช้า] ]	calendar	th-TH
+กินข้าวมื้อสายกับปรีชาเย็นดีและ ภาคิน ตอนเช้า วันเสาร์	[IN:calendar_set [SL:person ภาคิน] [SL:timeofday ตอนเช้า] [SL:date วันเสาร์] ]	calendar	th-TH
+เตือนฉันให้ ไปหา เรเวก้า วันนี้ ตอน หกโมงเย็น	[IN:calendar_set [SL:event_name ไปหา] [SL:person เรเวก้า] [SL:date วันนี้] [SL:time หกโมงเย็น] ]	calendar	th-TH
+ฉัน จะมี การ ประชุม กับ หัวหน้า ของฉัน ใน สัปดาห์หน้า เมื่อไหร่นะ	[IN:calendar_query [SL:event_name ประชุม] [SL:relation หัวหน้า] [SL:date สัปดาห์หน้า] ]	calendar	th-TH
+ลบ งานแต่ง วันที่สิบ ของฉัน	[IN:calendar_remove [SL:event_name งานแต่ง] [SL:date วันที่สิบ] ]	calendar	th-TH
+อะไรเป็น งาน ถัดไป	[IN:calendar_query ]	calendar	th-TH
+การนัดหมาย พรุ่งนี้	[IN:calendar_set [SL:event_name การนัดหมาย] [SL:date พรุ่งนี้] ]	calendar	th-TH
+สี่โมงเย็น	[IN:calendar_set [SL:time สี่โมงเย็น] ]	calendar	th-TH
+olly ฉันต้องไปพบ หมอฟัน ทุกวันพฤหัส ตอน บ่ายสองโมง	[IN:calendar_set [SL:relation หมอฟัน] [SL:general_frequency ทุกวันพฤหัส] [SL:time บ่ายสองโมง] ]	calendar	th-TH
+ยกเลิก	[IN:calendar_remove ]	calendar	th-TH
+ฉันอยากไปงาน วันเกิด ของ เอย ใน วันเสาร์ ตอน สี่ทุ่ม	[IN:calendar_set [SL:event_name วันเกิด] [SL:person เอย] [SL:date วันเสาร์] [SL:time สี่ทุ่ม] ]	calendar	th-TH
+สัปดาห์หน้า ฉัน มีอะไรต้องทำบ้าง	[IN:calendar_query [SL:date สัปดาห์หน้า] ]	calendar	th-TH
+พิธีเปิด ร้าน แซม เพื่อน ฉัน	[IN:calendar_query [SL:event_name พิธีเปิด] [SL:person แซม] [SL:relation เพื่อน] ]	calendar	th-TH
+โปรดทำเครื่องหมายปฏิทิน ของฉัน สำหรับ วันหยุด ประเทศไทย ใน วันที่สองเมษายน	[IN:calendar_set [SL:event_name วันหยุด] [SL:place_name ประเทศไทย] [SL:date วันที่สองเมษายน] ]	calendar	th-TH
+เตือน ทาน ยา สองทุ่ม	[IN:calendar_set [SL:event_name ยา] [SL:time สองทุ่ม] ]	calendar	th-TH
+การเเข่งขัน	[IN:calendar_query [SL:event_name การเเข่งขัน] ]	calendar	th-TH
+พรุ่งนี้ ของ ฉัน	[IN:calendar_remove [SL:date พรุ่งนี้] ]	calendar	th-TH
+งานประชุม พรุ่งนี้ บ่ายสามโมง	[IN:calendar_set [SL:event_name งานประชุม] [SL:date พรุ่งนี้] [SL:time บ่ายสามโมง] ]	calendar	th-TH
+เตือน ไปรับผ้า วันจันทร์ หน้า	[IN:calendar_set [SL:date วันจันทร์] ]	calendar	th-TH
+พ่อ พรุ่งนี้	[IN:calendar_set [SL:relation พ่อ] [SL:date พรุ่งนี้] ]	calendar	th-TH
+งานเลี้ยงรุ่น บ่ายนี้	[IN:calendar_set [SL:timeofday บ่ายนี้] ]	calendar	th-TH
+ขอ นัดหมาย อันแรก ของ ฉัน วันนี้	[IN:calendar_query [SL:event_name นัดหมาย] [SL:date วันนี้] ]	calendar	th-TH
+ตาราง ของฉัน วันนี้	[IN:calendar_query [SL:date วันนี้] ]	calendar	th-TH
+ข้าวเที่ยง กับ จ่อย พรุ่งนี้	[IN:calendar_set [SL:meal_type ข้าวเที่ยง] [SL:person จ่อย] [SL:date พรุ่งนี้] ]	calendar	th-TH
+งาน นี้ ที่ บ้าน น้องสาว ของฉัน	[IN:calendar_set [SL:place_name บ้าน] [SL:relation น้องสาว] ]	calendar	th-TH
+ลบ กิจกรรม ถัดไปออกจากปฏิทิน	[IN:calendar_remove ]	calendar	th-TH
+วันเกิด ปรีดา สิบสองกรกฎาคม	[IN:calendar_set [SL:event_name วันเกิด] [SL:person ปรีดา] [SL:date สิบสองกรกฎาคม] ]	calendar	th-TH
+เพิ่มลงปฏิทินว่าเรามีนัดทาน อาหารเย็น กับแฟรงก์วันที่เก้า สิงหาคม ตอนสองทุ่ม	[IN:calendar_set [SL:meal_type อาหารเย็น] ]	calendar	th-TH
+ปฏิทิน งานสัมนา ของฉัน เดือนมีนาคม	[IN:calendar_query [SL:date เดือนมีนาคม] ]	calendar	th-TH
+งานแต่งงาน จะจัดขึ้นเมื่อไหร่	[IN:calendar_query [SL:event_name งานแต่งงาน] ]	calendar	th-TH
+มีนาคม ประชุม อะไร บ้าง	[IN:calendar_query [SL:date มีนาคม] [SL:event_name ประชุม] ]	calendar	th-TH
+ช่วยเช็กงานอีเวนต์งานที่สาม ใน วันที่ยี่สิบสอง มีนาคม สองพันสิบเจ็ด	[IN:calendar_query [SL:date วันที่ยี่สิบสอง มีนาคม สองพันสิบเจ็ด] ]	calendar	th-TH
+เพิ่มกิจกรรม วันวาเลนไทน์ กับ เธอ วัน พรุ่งนี้	[IN:calendar_set [SL:event_name วันวาเลนไทน์] [SL:date พรุ่งนี้] ]	calendar	th-TH
+เพิ่มงาน วันเกิด กับ แม่ เดือนหน้า	[IN:calendar_set [SL:event_name วันเกิด] [SL:relation แม่] [SL:date เดือนหน้า] ]	calendar	th-TH
+สร้าง การนัดพบ กับ เพื่อน	[IN:calendar_set [SL:event_name การนัดพบ] [SL:relation เพื่อน] ]	calendar	th-TH
+งานเลี้ยง	[IN:calendar_set [SL:event_name งานเลี้ยง] ]	calendar	th-TH
+เหตุการณ์ เหล่านี้	[IN:calendar_set ]	calendar	th-TH
+จำไว้ว่า รับฉัน ตอน เที่ยงวัน จาก สนามบิน ฉันมี ประชุม ตอน บ่ายสาม	[IN:calendar_set [SL:event_name รับฉัน] [SL:time เที่ยงวัน] [SL:place_name สนามบิน] [SL:event_name ประชุม] [SL:time บ่ายสาม] ]	calendar	th-TH
+การประชุม กับแจ็ควันที่สิบมีนาคม	[IN:calendar_set [SL:event_name การประชุม] ]	calendar	th-TH
+การประชุม ผู้เล่น พรุ่งนี้ หนึ่งทุ่ม	[IN:calendar_set [SL:event_name การประชุม] [SL:person ผู้เล่น] [SL:date พรุ่งนี้] [SL:time หนึ่งทุ่ม] ]	calendar	th-TH
+การเเจ้งเตือน ปัจจุบัน ของฉัน	[IN:calendar_query ]	calendar	th-TH
+เตือน ฉันให้ไป สัมภาษณ์ วัน พรุ่งนี้	[IN:calendar_set [SL:event_name สัมภาษณ์] [SL:date พรุ่งนี้] ]	calendar	th-TH
+นัด ที่กำลังมาถึง	[IN:calendar_query [SL:time ที่กำลังมาถึง] ]	calendar	th-TH
+ตั้ง เหตุการณ์ ซ้ำ	[IN:calendar_set ]	calendar	th-TH
+การประชุม วันอังคาร	[IN:calendar_set [SL:event_name การประชุม] [SL:date วันอังคาร] ]	calendar	th-TH
+การประชุม เมื่อวาน	[IN:calendar_query [SL:event_name การประชุม] [SL:date เมื่อวาน] ]	calendar	th-TH
+การประชุม ของฉัน	[IN:calendar_set [SL:event_name การประชุม] ]	calendar	th-TH
+เตือนความจำ พรุ่งนี้	[IN:calendar_set [SL:date พรุ่งนี้] ]	calendar	th-TH
+เรียก คน มา ประชุม	[IN:calendar_set [SL:event_name ประชุม] ]	calendar	th-TH
+รอบบิล	[IN:calendar_query [SL:event_name รอบบิล] ]	calendar	th-TH
+ตั้ง เวลา สำหรับ ห้านาที สำหรับ คุกกี้	[IN:calendar_set [SL:time ห้านาที] [SL:event_name คุกกี้] ]	calendar	th-TH
+แมตช์ฟุตบอล วันศุกร์	[IN:calendar_query [SL:event_name แมตช์ฟุตบอล] [SL:date วันศุกร์] ]	calendar	th-TH
+เหตุการณ์ ทั้งหมด ของฉัน	[IN:calendar_remove ]	calendar	th-TH
+เตือน ทำพิซซ่า พรุ่งนี้ เช้า	[IN:calendar_set [SL:event_name ทำพิซซ่า] [SL:date พรุ่งนี้] [SL:timeofday เช้า] ]	calendar	th-TH
+การสวดภาวนา ทุกวันศุกร์ ตอน เที่ยง	[IN:calendar_set [SL:event_name การสวดภาวนา] [SL:general_frequency ทุกวันศุกร์] [SL:time เที่ยง] ]	calendar	th-TH
+ฉันมีการ แจ้งเตือน อะไร รอดำเนินการ บ้าง	[IN:calendar_query ]	calendar	th-TH
+อย่าลืมเตือนฉัน เรื่อง วันเกิด น้องชาย ของฉัน วันที่ ยี่สิบเมษายน	[IN:calendar_set [SL:event_name วันเกิด] [SL:relation น้องชาย] [SL:date ยี่สิบเมษายน] ]	calendar	th-TH
+ฉันต้องการเพิ่มการกิน มื้อเที่ยง กับ ไมค์ จิม และ บ็อบ	[IN:calendar_set [SL:meal_type มื้อเที่ยง] [SL:person ไมค์ จิม] [SL:person บ็อบ] ]	calendar	th-TH
+การประชุม วันนี้ ตีสี่	[IN:calendar_set [SL:event_name การประชุม] [SL:date วันนี้] [SL:time ตีสี่] ]	calendar	th-TH
+การประชุม	[IN:calendar_set [SL:event_name การประชุม] ]	calendar	th-TH
+ค้นหาและลบ นัด สุดสัปดาห์ ทั้งหมด กับ ประยุทธ์ จันทร์โอชา	[IN:calendar_remove [SL:time สุดสัปดาห์] [SL:person ประยุทธ์ จันทร์โอชา] ]	calendar	th-TH
+โน้ตงานกิจกรรมนี้ในปฏิทินของฉัน	[IN:calendar_set ]	calendar	th-TH
+มีอะไรที่ช่วยเตือน	[IN:calendar_query ]	calendar	th-TH
+ช่วย เตือน ฉัน เรื่อง นี้ ทีนะ	[IN:calendar_set ]	calendar	th-TH
+hey olly กรุณาตั้งแจ้งเตือนสำหรับ การประชุม สิบโมงเช้า พรุ่งนี้	[IN:calendar_set [SL:event_name การประชุม] [SL:time สิบโมงเช้า] [SL:date พรุ่งนี้] ]	calendar	th-TH
+ช่วยบอกฉันถึงการแจ้งเตือนที่กำลังอยู่ระหว่างรอดำเนินการ	[IN:calendar_query ]	calendar	th-TH
+บอก ฉัน ประชุม อาทิตย์นี้	[IN:calendar_query [SL:event_name ประชุม] [SL:date อาทิตย์นี้] ]	calendar	th-TH
+วันจันทร์ จัด งาน วันเกิด	[IN:calendar_set [SL:date วันจันทร์] [SL:event_name วันเกิด] ]	calendar	th-TH
+วันที่สิบห้า	[IN:calendar_set [SL:date วันที่สิบห้า] ]	calendar	th-TH
+สร้าง นัด ตอนเย็น	[IN:calendar_set [SL:timeofday ตอนเย็น] ]	calendar	th-TH
+วันเกิด ของบ็อบ ทุกวันที่สามมิถุนายน	[IN:calendar_set [SL:event_name วันเกิด] [SL:person ของบ็อบ] ]	calendar	th-TH
+ทุกวันศุกร์	[IN:calendar_set [SL:date ทุกวันศุกร์] ]	calendar	th-TH
+ของชำ วันเสาร์	[IN:calendar_remove [SL:date วันเสาร์] ]	calendar	th-TH
+ลบข้อมูล ทั้งหมด จากปฏิทิน ของฉัน	[IN:calendar_remove ]	calendar	th-TH
+วันจันทร์	[IN:calendar_query [SL:date วันจันทร์] ]	calendar	th-TH
+ปฏิทิน งาน ของฉัน	[IN:calendar_set ]	calendar	th-TH
+เดือน	[IN:calendar_remove [SL:date เดือน] ]	calendar	th-TH
+สวนลุมพินี วันที่สี่กุมภาพันธ์ บ่ายสอง	[IN:calendar_set [SL:place_name สวนลุมพินี] [SL:time บ่ายสอง] ]	calendar	th-TH
+วันเกิด ปรีชา	[IN:calendar_set [SL:event_name วันเกิด] [SL:person ปรีชา] ]	calendar	th-TH
+ตาราง ของ วันนี้	[IN:calendar_query [SL:date วันนี้] ]	calendar	th-TH
+เพิ่มโน้ตไปว่า จะเข้าร่วม	[IN:calendar_set ]	calendar	th-TH
+แปดโมง ทุกวัน	[IN:calendar_set [SL:time แปดโมง] [SL:general_frequency ทุกวัน] ]	calendar	th-TH
+ลบตาราง ของฉัน	[IN:calendar_remove ]	calendar	th-TH
+วันนี้ แปดโมง ถึง ห้าโมงเย็น	[IN:calendar_query [SL:date วันนี้] [SL:time แปดโมง] [SL:time ห้าโมงเย็น] ]	calendar	th-TH
+แจ้งเตือน สัปดาห์นี้	[IN:calendar_query [SL:date สัปดาห์นี้] ]	calendar	th-TH
+ซ้อมเบสบอล ห้าโมงเย็น คืนนี้	[IN:calendar_set [SL:time ห้าโมงเย็น] [SL:timeofday คืนนี้] ]	calendar	th-TH
+ตอนเช้า ของฉัน วัน พรุ่งนี้ เป็นอย่างไรบ้าง	[IN:calendar_query [SL:timeofday ตอนเช้า] [SL:date พรุ่งนี้] ]	calendar	th-TH
+การประชุม วันศุกร์นี้	[IN:calendar_query [SL:event_name การประชุม] [SL:date วันศุกร์นี้] ]	calendar	th-TH
+เกิดอะไรขึ้นระหว่าง วันที่สอง และ วันที่สิบห้า	[IN:news_query [SL:date วันที่สอง] [SL:date วันที่สิบห้า] ]	news	th-TH
+บอก ฉันหน่อย เกี่ยวกับ งานกิจกรรม ช่วง วันนี้ ถึง วันที่ ยี่สิบเอ็ด	[IN:calendar_query [SL:date วันนี้] [SL:date ยี่สิบเอ็ด] ]	calendar	th-TH
+การเลือกตั้ง สามสิบนาที	[IN:calendar_set [SL:event_name การเลือกตั้ง] [SL:time สามสิบนาที] ]	calendar	th-TH
+ฉัน มี นัดหมาย อะไร บ้าง วันนี้	[IN:calendar_query [SL:event_name นัดหมาย] [SL:date วันนี้] ]	calendar	th-TH
+เปิดปฏิทิน ลบ กิจกรรม ทั้งหมด	[IN:calendar_remove ]	calendar	th-TH
+เตือน การสอบชีววิทยาที่ มหาลัยเเม่ฟ้าหลวง ของฉัน วันศุกร์	[IN:calendar_set [SL:place_name มหาลัยเเม่ฟ้าหลวง] [SL:date วันศุกร์] ]	calendar	th-TH
+วันที่ยี่สิบ พฤศจิกายน มีอะไร	[IN:calendar_query [SL:date วันที่ยี่สิบ พฤศจิกายน] ]	calendar	th-TH
+คอนเสิร์ตวีวีโอเล็ต	[IN:calendar_query [SL:event_name คอนเสิร์ตวีวีโอเล็ต] ]	calendar	th-TH
+ฉันควรรู้อะไรบ้างเกี่ยวกับโชว์นี้	[IN:calendar_query ]	calendar	th-TH
+ที่ โรงละคร คืนนี้ จะมีใครและทำไม	[IN:recommendation_events [SL:place_name โรงละคร] [SL:timeofday คืนนี้] ]	recommendation	th-TH
+วันนี้ มี การแจ้งเตือน ใดใด หรือไม่	[IN:calendar_query [SL:date วันนี้] ]	calendar	th-TH
+ประชุมผู้ปกครอง วันที่เจ็ดมีนาคม	[IN:calendar_remove [SL:event_name ประชุมผู้ปกครอง] [SL:date วันที่เจ็ดมีนาคม] ]	calendar	th-TH
+วันนี้ ใน ปฏิทิน ของ ฉัน ฉัน มี ประชุม ไหม	[IN:calendar_query [SL:date วันนี้] [SL:event_name ประชุม] ]	calendar	th-TH
+แจ้งเตือนฉันให้ ไปทำงาน ในอีก สิบนาที	[IN:calendar_set [SL:event_name ไปทำงาน] [SL:time สิบนาที] ]	calendar	th-TH
+ประชุม ของ ฉัน สัปดาห์หน้า	[IN:calendar_query [SL:date สัปดาห์หน้า] ]	calendar	th-TH
+จอง มื้อเย็น ที่ ร้านอาหาร วันที่สิบสี่ กุมภาพันธ์	[IN:calendar_set [SL:meal_type มื้อเย็น] [SL:business_type ร้านอาหาร] [SL:date วันที่สิบสี่ กุมภาพันธ์] ]	calendar	th-TH
+สุดสัปดาห์นี้	[IN:calendar_query [SL:date สุดสัปดาห์นี้] ]	calendar	th-TH
+สัปดาห์ นี้รถขยะจะมาใช่ไหม	[IN:calendar_query [SL:date สัปดาห์] ]	calendar	th-TH
+ปาร์ตี้มื้อค่ำ คืนนี้	[IN:calendar_query [SL:timeofday คืนนี้] ]	calendar	th-TH
+การแจ้งเตือนอันต่อไปของฉันคือเมื่อไหร่	[IN:calendar_query ]	calendar	th-TH
+บอกรายละเอียดเกี่ยวกับ การแข่งขัน วันที่ยี่สิบสองมีนาคม	[IN:calendar_query [SL:event_name การแข่งขัน] [SL:date วันที่ยี่สิบสองมีนาคม] ]	calendar	th-TH
+ข้าวกลางวัน ที่เคเอฟซีสาขาบางนากรุงเทพฯ พรุ่งนี้ เที่ยง	[IN:calendar_set [SL:meal_type ข้าวกลางวัน] [SL:date พรุ่งนี้] [SL:timeofday เที่ยง] ]	calendar	th-TH
+ฉันมีนัด วันศุกร์ หรือเปล่า	[IN:calendar_query [SL:date วันศุกร์] ]	calendar	th-TH
+เตือนฉันให้ไป รับหมาของฉัน ที่ ร้านตัดขน ตอน บ่ายโมง	[IN:calendar_set [SL:event_name รับหมาของฉัน] [SL:place_name ร้านตัดขน] [SL:time บ่ายโมง] ]	calendar	th-TH
+ประชุม ของฉัน	[IN:calendar_set [SL:event_name ประชุม] ]	calendar	th-TH
+olly อีเมล การนัดหมาย ของฉัน เพื่อ กำหนดเวลาใหม่	[IN:email_sendemail [SL:event_name การนัดหมาย] ]	email	th-TH
+มื้อเที่ยง ทุกวันศุกร์	[IN:calendar_set [SL:meal_type มื้อเที่ยง] [SL:date ทุกวันศุกร์] ]	calendar	th-TH
+ประชุมย้อนหลัง	[IN:calendar_set [SL:event_name ประชุมย้อนหลัง] ]	calendar	th-TH
+วันพรุ่งนี้	[IN:calendar_query [SL:date วันพรุ่งนี้] ]	calendar	th-TH
+รับ โน๊ต บ่ายสามโมง	[IN:calendar_set [SL:person โน๊ต] [SL:time บ่ายสามโมง] ]	calendar	th-TH
+ประชุม ของฉัน วันที่ สิบสี่	[IN:calendar_remove [SL:event_name ประชุม] [SL:date สิบสี่] ]	calendar	th-TH
+คืน วันอังคาร	[IN:calendar_query [SL:date วันอังคาร] ]	calendar	th-TH
+ฉันต้องการให้แจ้งเตือน เรื่อง งาน เกษียณ ของ เต้ย ตอน วันอังคาร บ่ายสามโมง	[IN:calendar_set [SL:event_name เกษียณ] [SL:person เต้ย] [SL:date วันอังคาร] [SL:time บ่ายสามโมง] ]	calendar	th-TH
+เกิดอะไรขึ้นที่ กิจกรรม นั้น	[IN:recommendation_events ]	recommendation	th-TH
+ตอนเช้าระหว่างสิบถึงสิบสอง นาฬิกา ฉันมี อะไร ต้องทำ	[IN:calendar_query [SL:time ตอนเช้าระหว่างสิบถึงสิบสอง] [SL:time อะไร] ]	calendar	th-TH
+ประชุมตอนเย็น กับ ปรีชา	[IN:calendar_query [SL:event_name ประชุมตอนเย็น] [SL:person ปรีชา] ]	calendar	th-TH
+ตั้งแจ้งเตือนให้ฉันตื่นตอน ตีห้า ทุกเช้า	[IN:alarm_set [SL:time ตีห้า] [SL:general_frequency ทุกเช้า] ]	alarm	th-TH
+คอนเสิร์ต ถนนข้าวสาร	[IN:calendar_query [SL:event_name คอนเสิร์ต] [SL:place_name ถนนข้าวสาร] ]	calendar	th-TH
+olly คืนนี้ เตือน ฉัน เกี่ยวกับ การ ประชุม ของพรุ่งนี้	[IN:calendar_set [SL:timeofday คืนนี้] [SL:event_name ประชุม] [SL:date ของพรุ่งนี้] ]	calendar	th-TH
+การประชุม วันพุธ	[IN:calendar_set [SL:event_name การประชุม] [SL:date วันพุธ] ]	calendar	th-TH
+การประชุม ของฉัน	[IN:calendar_set [SL:event_name การประชุม] ]	calendar	th-TH
+ของฉัน	[IN:calendar_remove ]	calendar	th-TH
+ประชุมกับ ปรีชา คืนนี้	[IN:calendar_remove [SL:person ปรีชา] [SL:timeofday คืนนี้] ]	calendar	th-TH
+เพิ่มการแจ้งเตือน ใน วันพุธ ตอน บ่ายสอง	[IN:calendar_set [SL:date วันพุธ] [SL:time บ่ายสอง] ]	calendar	th-TH
+วันเกิด ของ หทัยรัตน์ คือวันที่ หนึ่ง มีนาคม หรือไม่	[IN:calendar_query [SL:event_name วันเกิด] [SL:person หทัยรัตน์] [SL:date หนึ่ง มีนาคม] ]	calendar	th-TH
+ปฏิทิน การประชุม วันพรุ่งนี้ ของฉัน	[IN:calendar_query [SL:event_name การประชุม] ]	calendar	th-TH
+ประชุม อาหารกลางวัน ตอน เที่ยง ทุกวัน สัปดาห์นี้	[IN:calendar_set [SL:event_name ประชุม] [SL:meal_type อาหารกลางวัน] [SL:timeofday เที่ยง] [SL:general_frequency ทุกวัน] ]	calendar	th-TH
+ประชุม วันศุกร์ บ่ายสามโมง	[IN:calendar_set [SL:event_name ประชุม] [SL:date วันศุกร์] [SL:time บ่ายสามโมง] ]	calendar	th-TH
+ทุกอย่าง	[IN:calendar_remove ]	calendar	th-TH
+hey siri ลบกิจกรรม พรุ่งนี้ ในปฏิทิน ของฉัน ทั้งหมด	[IN:calendar_remove [SL:date พรุ่งนี้] ]	calendar	th-TH
+แจ้งเตือนอันใหม่ก่อน ประชุม เริ่ม สองชั่วโมง	[IN:calendar_set [SL:event_name ประชุม] [SL:time สองชั่วโมง] ]	calendar	th-TH
+เตือน ฉันเรื่องปฏิทิน	[IN:calendar_set ]	calendar	th-TH
+มี นัด ใดใดที่ยังรอดำเนินการอยู่หรือไม่ ตอนเช้า นี้	[IN:calendar_query [SL:event_name นัด] [SL:timeofday ตอนเช้า] ]	calendar	th-TH
+อาทิตย์นี้ เงินออก ใช่ไหม	[IN:calendar_query [SL:date อาทิตย์นี้] ]	calendar	th-TH
+นัด ทั้งหมด ของฉัน	[IN:calendar_remove ]	calendar	th-TH
+ตั้งเตือนความจำ	[IN:calendar_query ]	calendar	th-TH
+เช้านี้ มีข่าวอะไรบ้างตอน หกโมงสี่สิบห้า	[IN:calendar_query [SL:date เช้านี้] [SL:time หกโมงสี่สิบห้า] ]	calendar	th-TH
+งาน ของฉัน บ่ายโมง	[IN:calendar_remove [SL:time บ่ายโมง] ]	calendar	th-TH
+อยู่ ห้องสมุด หนึ่งสัปดาห์นับจากวันนี้ตอน ห้า โมง	[IN:calendar_set [SL:place_name ห้องสมุด] [SL:time ห้า] ]	calendar	th-TH
+ตั้งเตือน ใน วันเสาร์ หน้า ให้ไป ห้องสมุด ตอน ห้า โมง	[IN:calendar_set [SL:date วันเสาร์] [SL:place_name ห้องสมุด] [SL:time ห้า] ]	calendar	th-TH
+เตือนฉันเกี่ยวกับ วันหยุดประจำชาติที่กำลังจะมาถึง	[IN:calendar_set [SL:event_name วันหยุดประจำชาติที่กำลังจะมาถึง] ]	calendar	th-TH
+เอา ปฏิทิน งาน ของฉัน ตอน บ่ายโมง วันนี้ ออก	[IN:calendar_remove [SL:time บ่ายโมง] [SL:date วันนี้] ]	calendar	th-TH
+การประชุม ห้าโมงเย็น	[IN:calendar_set [SL:event_name การประชุม] [SL:time ห้าโมงเย็น] ]	calendar	th-TH
+ออฟฟิศ หมอกิ่งแก้ว วันพุธ เก้าโมงเช้า	[IN:calendar_set [SL:place_name ออฟฟิศ] [SL:relation หมอกิ่งแก้ว] [SL:date วันพุธ] [SL:time เก้าโมงเช้า] ]	calendar	th-TH
+การแข่งขันฟุตบอล เย็นนี้	[IN:calendar_query [SL:sport_type การแข่งขันฟุตบอล] [SL:timeofday เย็นนี้] ]	calendar	th-TH
+บอกฉันว่าอะไรอยู่ใน ตาราง ของฉัน สำหรับ วันนี้	[IN:calendar_query [SL:date วันนี้] ]	calendar	th-TH
+พี่ตูน จะมา กรุงเทพ เมื่อไหร่	[IN:calendar_query [SL:person พี่ตูน] [SL:place_name กรุงเทพ] ]	calendar	th-TH
+ฉันอยากเพิ่มอะไรลงไปในปฏิทิน ของฉัน	[IN:calendar_set ]	calendar	th-TH
+เหตุการณ์	[IN:calendar_remove ]	calendar	th-TH
+ฉัน มี นัด อะไร ที่กำลังจะมาถึง	[IN:calendar_query ]	calendar	th-TH
+ลบ อีเวนต์ ถัดไป จากปฏิทิน	[IN:calendar_remove ]	calendar	th-TH
+ช่วย ยกเลิก กิจกรรม ถัดไปในปฏิทิน	[IN:calendar_remove ]	calendar	th-TH
+ประชุม ตอน แปดโมงสิบนาที วันนี้ เป็นประชุมอะไร	[IN:calendar_query [SL:event_name ประชุม] [SL:time แปดโมงสิบนาที] [SL:date วันนี้] ]	calendar	th-TH
+พรุ่งนี้ บ่ายสอง	[IN:calendar_set [SL:date พรุ่งนี้] [SL:time บ่ายสอง] ]	calendar	th-TH
+ปาร์ตี้สระว่ายน้ำ ที่ บ้านปรีชา วันเสาร์นี้	[IN:calendar_set [SL:event_name ปาร์ตี้สระว่ายน้ำ] [SL:place_name บ้านปรีชา] [SL:date วันเสาร์นี้] ]	calendar	th-TH
+วันที่หนึ่งมกราคม	[IN:calendar_query [SL:date วันที่หนึ่งมกราคม] ]	calendar	th-TH
+ปรีดา พรุ่งนี้	[IN:calendar_set [SL:person ปรีดา] [SL:date พรุ่งนี้] ]	calendar	th-TH
+การ ประชุม ของฉัน กับ ปรีดา จาก วันอังคาร เป็นวันพฤหัส	[IN:calendar_set [SL:event_name ประชุม] [SL:person ปรีดา] [SL:date วันอังคาร] ]	calendar	th-TH
+ลบ ทานอาหารเที่ยง ของวันพฤหัสบดี จาก ปฏิทิน ของฉัน	[IN:calendar_remove [SL:meal_type ทานอาหารเที่ยง] [SL:date ของวันพฤหัสบดี] ]	calendar	th-TH
+ตั้งกิจกรรม ทุกวันที่สิบห้า เพื่อเตือนฉันให้ จ่ายบิลอินเตอร์เน็ต	[IN:calendar_set [SL:general_frequency ทุกวันที่สิบห้า] [SL:event_name จ่ายบิลอินเตอร์เน็ต] ]	calendar	th-TH
+ของฉัน	[IN:calendar_set ]	calendar	th-TH
+นัด อันนี้มีตอนไหน	[IN:calendar_query ]	calendar	th-TH
+เพิ่มกิจกรรม วันรับปริญญาของอุ๋ย วันที่ห้า พฤษภาคม เวลา บ่ายสาม ที่ มอเกษตร	[IN:calendar_set [SL:event_name วันรับปริญญาของอุ๋ย] [SL:date วันที่ห้า พฤษภาคม] [SL:time บ่ายสาม] [SL:place_name มอเกษตร] ]	calendar	th-TH
+ใน ปีที่แล้ว ฉันได้ร่วมใน การประชุม เป็นเวลากี่ชั่วโมง	[IN:calendar_query [SL:time ปีที่แล้ว] [SL:event_name การประชุม] ]	calendar	th-TH
+การประชุม	[IN:calendar_remove [SL:event_name การประชุม] ]	calendar	th-TH
+ประชุมกับ แอล วันที่ยี่ สิบ เอ็ดมีนาคม สิบ โมง	[IN:calendar_set [SL:person แอล] [SL:time สิบ] [SL:time สิบ] ]	calendar	th-TH
+การประชุม	[IN:calendar_query [SL:event_name การประชุม] ]	calendar	th-TH
+แสดง กิจกรรม ที่กำลังมาถึง ของฉัน	[IN:calendar_query ]	calendar	th-TH
+เหตุการณ์	[IN:calendar_remove ]	calendar	th-TH
+ปฏิทิน วันที่หนึ่งเมษายนค.ศ.สองพันสิบเจ็ด ของฉัน	[IN:calendar_query ]	calendar	th-TH
+ตั้ง การแจ้งเตือน การนัดหมาย ประจำสัปดาห์	[IN:calendar_set [SL:general_frequency ประจำสัปดาห์] ]	calendar	th-TH
+วันหยุดของฉัน อีกสองวัน	[IN:calendar_set [SL:event_name วันหยุดของฉัน] ]	calendar	th-TH
+การประชุม บ่าย วันอังคาร	[IN:calendar_set [SL:event_name การประชุม] [SL:timeofday บ่าย] [SL:date วันอังคาร] ]	calendar	th-TH
+วันที่เจ็ดมีนาคม	[IN:calendar_query [SL:date วันที่เจ็ดมีนาคม] ]	calendar	th-TH
+การนัดพบหมอ วันศุกร์ บ่ายสอง	[IN:calendar_set [SL:event_name การนัดพบหมอ] [SL:date วันศุกร์] [SL:time บ่ายสอง] ]	calendar	th-TH
+การจองอาหารเย็น ของฉัน	[IN:calendar_set [SL:event_name การจองอาหารเย็น] ]	calendar	th-TH
+งานเเต่งของปรีชา	[IN:calendar_set [SL:event_name งานเเต่งของปรีชา] ]	calendar	th-TH
+วันนี้	[IN:calendar_query [SL:date วันนี้] ]	calendar	th-TH
+กำลังค้นหา วันหยุด ในพื้นที่ของฉัน	[IN:recommendation_events [SL:event_name วันหยุด] ]	recommendation	th-TH
+ค้นหาเหตุการณ์ล่าสุดที่เกิดขึ้นในวันที่แบบเจาะจง	[IN:recommendation_events ]	recommendation	th-TH
+การตั้งเตือน อื่นๆ ของฉัน	[IN:calendar_query ]	calendar	th-TH
+แจ้ง เตือน ฉัน	[IN:calendar_set ]	calendar	th-TH
+ช่วย ตั้ง นาฬิกาปลุก สำหรับ	[IN:alarm_set ]	alarm	th-TH
+ประชุม วันจันทร์	[IN:calendar_set [SL:event_name ประชุม] [SL:date วันจันทร์] ]	calendar	th-TH
+กิจกรรม ใน ปฏิทิน อันนี้ ถูกต้องไหม	[IN:calendar_query ]	calendar	th-TH
+การประชุม วันว่างอาทิตย์นี้	[IN:calendar_remove [SL:event_name การประชุม] ]	calendar	th-TH
+เพิ่ม วันเกิด ของ ปรีดา สองพฤษภาคม ทุกปี	[IN:calendar_set [SL:event_name วันเกิด] [SL:person ปรีดา] [SL:date สองพฤษภาคม] [SL:general_frequency ทุกปี] ]	calendar	th-TH
+ฉันอยากให้คุณเตือนฉัน ให้ หยิบเสื้อโค้ชของฉัน เพราะฝนอาจจะตก	[IN:calendar_set [SL:event_name หยิบเสื้อโค้ชของฉัน] ]	calendar	th-TH
+เตือนฉันให้ เอาร่มของฉันไป ด้วย เพราะ วันนี้ ร้อนมาก	[IN:calendar_set [SL:event_name เอาร่มของฉันไป] [SL:date วันนี้] ]	calendar	th-TH
+วันที่สิบสี่มิถุนายนค.ศ.สองพันสิบเจ็ด	[IN:calendar_query [SL:date วันที่สิบสี่มิถุนายนค.ศ.สองพันสิบเจ็ด] ]	calendar	th-TH
+ลบการแจ้งเตือนใน วันอาทิตย์ ทั้งหมด	[IN:calendar_remove [SL:date วันอาทิตย์] ]	calendar	th-TH
+แจ้งเตือน นัดกิน ข้าวเย็น วันพฤหัสบดี ที่ นิตยาไก่ย่าง	[IN:calendar_set [SL:meal_type ข้าวเย็น] [SL:date วันพฤหัสบดี] [SL:place_name นิตยาไก่ย่าง] ]	calendar	th-TH
+เตือน	[IN:calendar_set ]	calendar	th-TH
+ปฏิทิน กิจกรรม กับคน เหล่านี้	[IN:calendar_set ]	calendar	th-TH
+ลบ ตาราง ของฉัน วันนี้	[IN:calendar_remove [SL:date วันนี้] ]	calendar	th-TH
+รายละเอียด	[IN:calendar_query ]	calendar	th-TH
+บอก ฉันเกี่ยวกับ งาน ล่าสุด	[IN:calendar_query ]	calendar	th-TH
+การ ประชุม จัดเมื่อไหร่	[IN:calendar_query [SL:event_name ประชุม] ]	calendar	th-TH
+ปาร์ตี้	[IN:calendar_query [SL:event_name ปาร์ตี้] ]	calendar	th-TH
+เหตุการณ์ ใน อีกหนึ่งสัปดาห์	[IN:calendar_set [SL:time อีกหนึ่งสัปดาห์] ]	calendar	th-TH
+ครบรอบงานเเต่งงาน ปรีชา	[IN:calendar_set [SL:event_name ครบรอบงานเเต่งงาน] [SL:person ปรีชา] ]	calendar	th-TH
+วันหยุุด ใน เดือนปัจจุบัน คือเมื่อไหร่	[IN:calendar_query [SL:event_name วันหยุุด] [SL:time เดือนปัจจุบัน] ]	calendar	th-TH
+บอกฉันเกี่ยวกับ การ ประชุม ใน วันอังคาร ที	[IN:calendar_set [SL:event_name ประชุม] [SL:date วันอังคาร] ]	calendar	th-TH
+รายการตอนเย็น	[IN:calendar_set [SL:event_name รายการตอนเย็น] ]	calendar	th-TH
+วันเกิดปรีชา	[IN:calendar_remove [SL:event_name วันเกิดปรีชา] ]	calendar	th-TH
+ประชุม กับ รองประธานฝ่าย วันที่ยี่สิบเอ็ดมีนาคมสองพันสิบเจ็ด	[IN:calendar_set [SL:event_name ประชุม] [SL:relation รองประธานฝ่าย] ]	calendar	th-TH
+ประชุม ผู้บริหารด้านการเงิน วันพฤหัสบดี	[IN:calendar_set [SL:event_name ประชุม] [SL:relation ผู้บริหารด้านการเงิน] [SL:date วันพฤหัสบดี] ]	calendar	th-TH
+ลบ งาน วันเกิด ของฉัน	[IN:calendar_remove [SL:event_name วันเกิด] ]	calendar	th-TH
+ประชุม กับ หัวหน้า วันที่ห้าเมษายน	[IN:calendar_set [SL:event_name ประชุม] [SL:relation หัวหน้า] [SL:date วันที่ห้าเมษายน] ]	calendar	th-TH
+ตั้งเตือน สมัครวีซ่า วันพฤหัส	[IN:calendar_set [SL:event_name สมัครวีซ่า] [SL:date วันพฤหัส] ]	calendar	th-TH
+เวลาว่าง สามกรกฎาคม	[IN:calendar_remove [SL:date สามกรกฎาคม] ]	calendar	th-TH
+ตั้ง การแจ้งเตือน สำหรับ วันอังคาร ตอน สี่โมงเย็น	[IN:alarm_set [SL:date วันอังคาร] [SL:time สี่โมงเย็น] ]	alarm	th-TH
+แจ้งเตือนฉันเรื่อง งานแต่งของปรีชา วันอังคาร	[IN:calendar_set [SL:event_name งานแต่งของปรีชา] [SL:date วันอังคาร] ]	calendar	th-TH
+งานมหกรรมไม้ดอก	[IN:calendar_set [SL:event_name งานมหกรรมไม้ดอก] ]	calendar	th-TH
+สุดสัปดาห์นี้	[IN:calendar_query [SL:date สุดสัปดาห์นี้] ]	calendar	th-TH
+นัดหมาย ฉัน สัปดาห์หน้า	[IN:calendar_query [SL:event_name นัดหมาย] [SL:date สัปดาห์หน้า] ]	calendar	th-TH
+ลบ วัน หลังจาก งาน	[IN:calendar_remove ]	calendar	th-TH
+แจ้งเตือน งานที่จำเป็น	[IN:calendar_set ]	calendar	th-TH
+เพิ่ม การมาเยี่ยมของน้องสาว ของฉัน ลงใน ปฏิทิน ครอบครัว ของฉัน	[IN:calendar_set [SL:event_name การมาเยี่ยมของน้องสาว] [SL:event_name ครอบครัว] ]	calendar	th-TH
+ศูนย์ประชุม อยู่ที่ไหน	[IN:qa_factoid [SL:place_name ศูนย์ประชุม] ]	qa	th-TH
+มี ประชุม อะไร ใน วันศุกร์ ไหม	[IN:calendar_query [SL:date วันศุกร์] ]	calendar	th-TH
+เตือน ฉัน เรื่อง การ นัดหมาย ตอน เที่ยง วันเสาร์	[IN:calendar_set [SL:event_name นัดหมาย] [SL:time เที่ยง] [SL:date วันเสาร์] ]	calendar	th-TH
+ออลลี่ ฉัน มี ตารางอะไร ไหม ใน เดือนนี้	[IN:calendar_query [SL:date เดือนนี้] ]	calendar	th-TH
+ออลลี่ ลง รายการ ในปฏิทิน วันเสาร์ หน้า ตอน สิบโมงเช้า	[IN:calendar_set [SL:date วันเสาร์] [SL:time สิบโมงเช้า] ]	calendar	th-TH
+การประชุม วันที่ยี่สิบเอ็ดมกราคม	[IN:calendar_set [SL:event_name การประชุม] ]	calendar	th-TH
+เตือน การประชุม หนึ่งชั่วโมง	[IN:calendar_set [SL:event_name การประชุม] [SL:time หนึ่งชั่วโมง] ]	calendar	th-TH
+เตือน ประชุม ใน หนึ่งชั่วโมง	[IN:calendar_set [SL:event_name ประชุม] [SL:time หนึ่งชั่วโมง] ]	calendar	th-TH
+เล่น วิทยุ อะไรก็ได้	[IN:play_radio ]	play	th-TH
+โชว์ วิทยุ	[IN:play_radio ]	play	th-TH
+เปิดเพลง จู๊ค โดย สถานี ร็อค	[IN:play_radio [SL:app_name จู๊ค] [SL:music_genre ร็อค] ]	play	th-TH
+เปิด iheartradio ร็อค	[IN:play_radio [SL:app_name iheartradio] [SL:music_genre ร็อค] ]	play	th-TH
+จูนหาคลื่นวิทยุที่มี พุธทอล์กพุธโทร	[IN:play_radio [SL:radio_name พุธทอล์กพุธโทร] ]	play	th-TH
+เริ่ม วิทยุ	[IN:play_radio ]	play	th-TH
+กรีนเวฟร้อยหกจุดห้า	[IN:play_radio [SL:radio_name กรีนเวฟร้อยหกจุดห้า] ]	play	th-TH
+เปิด วิทยุ ไว้	[IN:play_radio ]	play	th-TH
+ช่วยเปลี่ยน ช่อง วิทยุ	[IN:play_radio ]	play	th-TH
+ฉันหวังว่าจะได้ฟังสถานีวิทยุแห่งนั้น	[IN:play_radio ]	play	th-TH
+เปิด วิทยุ	[IN:play_radio ]	play	th-TH
+คุณช่วยเริ่มช่องวิทยุ เอฟเอ็มร้อยหกจุดห้า ได้ไหม	[IN:play_radio [SL:radio_name เอฟเอ็มร้อยหกจุดห้า] ]	play	th-TH
+เพลง	[IN:play_radio [SL:media_type เพลง] ]	play	th-TH
+เปิด คลื่นเก้าร้อยเก้าสิบเจ็ด	[IN:play_radio [SL:radio_name คลื่นเก้าร้อยเก้าสิบเจ็ด] ]	play	th-TH
+เปิด ช่อง ร้อยหกจุดห้า	[IN:play_radio [SL:radio_name ร้อยหกจุดห้า] ]	play	th-TH
+เปิด วิทยุ ให้หน่อย	[IN:play_radio ]	play	th-TH
+เปิด วิทยุ	[IN:play_radio ]	play	th-TH
+ไปที่ ช่อง วิทยุ ที่ฉันชื่นชอบ	[IN:play_radio ]	play	th-TH
+เปิด เพลง ที่ฟังแล้วยิ้มได้ให้หน่อยสิ	[IN:play_music ]	play	th-TH
+เล่นคลื่น เก้าสิบเจ็ดจุดห้า	[IN:play_radio [SL:radio_name เก้าสิบเจ็ดจุดห้า] ]	play	th-TH
+เปิด กรีนเวฟ หน่อย	[IN:play_radio [SL:radio_name กรีนเวฟ] ]	play	th-TH
+เล่น กรีนเวฟ ร้อยหกจุดห้า	[IN:play_radio [SL:radio_name กรีนเวฟ ร้อยหกจุดห้า] ]	play	th-TH
+กรุณาเปิด วิทยุ เอฟ. เอ็ม. ร้อยหกจุดห้า ของฉัน	[IN:play_radio [SL:radio_name วิทยุ เอฟ. เอ็ม. ร้อยหกจุดห้า] ]	play	th-TH
+olly ฉันอยากได้ยิน สถานีที่เล่นเพลงอาร์แอนด์บี	[IN:play_radio [SL:radio_name สถานีที่เล่นเพลงอาร์แอนด์บี] ]	play	th-TH
+เปิด วิทยุ เพลงร็อคยุคเก้าศูนย์	[IN:play_radio ]	play	th-TH
+พอดแคสต์กีฬากีฬาของฉันมีกี่ตอนที่ฉันยังไม่ได้ฟัง	[IN:play_radio ]	play	th-TH
+pandora ท็อปฮิต	[IN:play_radio [SL:app_name pandora] ]	play	th-TH
+กรุณา เล่น เพลง ฮิต บน pandora	[IN:play_radio [SL:app_name pandora] ]	play	th-TH
+เล่น สถานีวิทยุ กรีนเวฟออนไลน์ ให้ฉัน	[IN:play_radio [SL:radio_name กรีนเวฟออนไลน์] ]	play	th-TH
+เอา ดนตรี อะไรสักอย่าง มาให้ฉัน จาก กรีนเวฟ ร้อยหกจุดห้า	[IN:play_radio [SL:media_type ดนตรี] [SL:radio_name กรีนเวฟ ร้อยหกจุดห้า] ]	play	th-TH
+เล่น ลูกทุ่ง สูงสุด	[IN:play_music [SL:music_genre ลูกทุ่ง] ]	play	th-TH
+เล่น โปรแกรมเพลง ใน วิทยุ	[IN:play_radio ]	play	th-TH
+เล่น เพลย์ลิสต์ ปัจจุบัน	[IN:play_music ]	play	th-TH
+ค้นหา การออกอากาศของ พุฒิชัย เกษตรสิน ใน sirius	[IN:play_radio [SL:app_name sirius] ]	play	th-TH
+เล่น สถานี the buzz ร้อยสองจุดสี่	[IN:play_radio [SL:radio_name ร้อยสองจุดสี่] ]	play	th-TH
+เล่นข่าวใน เอฟ. เอ็ม.	[IN:play_radio [SL:radio_name เอฟ. เอ็ม.] ]	play	th-TH
+เล่น ตอน จาก สราวุธ เฮ้งสวัสดิ์ ของ ความสุขโดยสังเกต	[IN:play_radio ]	play	th-TH
+เล่น ร้อยหกจุดห้า เอฟ. เอ็ม.	[IN:play_radio [SL:radio_name ร้อยหกจุดห้า เอฟ. เอ็ม.] ]	play	th-TH
+เล่น สถานีวิทยุข่าว	[IN:play_radio [SL:radio_name สถานีวิทยุข่าว] ]	play	th-TH
+ok google คุณช่วยเริ่ม นนท์ ธนนท์ ได้ไหม	[IN:play_radio [SL:person นนท์ ธนนท์] ]	play	th-TH
+เล่น สถานี โปรด ของฉัน ตอน สามทุ่ม	[IN:play_radio [SL:time สามทุ่ม] ]	play	th-TH
+สถานีวิทยุกรีนเวฟ	[IN:play_radio [SL:radio_name สถานีวิทยุกรีนเวฟ] ]	play	th-TH
+โปรแกรมใน เครื่อง ที่จำเป็นนี้	[IN:play_radio ]	play	th-TH
+สถานี อะไร เล่นเพลงดีดี เช้า นี้	[IN:play_radio [SL:timeofday เช้า] ]	play	th-TH
+ปรับเป็น เก้าสิบเก้าจุดห้า เอฟ. เอ็ม.	[IN:play_radio [SL:radio_name เก้าสิบเก้าจุดห้า เอฟ. เอ็ม.] ]	play	th-TH
+เริ่ม สถานีเพลงลูกทุ่ง	[IN:play_radio [SL:radio_name สถานีเพลงลูกทุ่ง] ]	play	th-TH
+เปิด โชว์ บิลลี่	[IN:play_radio ]	play	th-TH
+เล่น กรีนเวฟ ร้อยหกจุดห้า	[IN:play_radio [SL:radio_name กรีนเวฟ ร้อยหกจุดห้า] ]	play	th-TH
+เล่น โปรแกรม นี้	[IN:play_radio ]	play	th-TH
+คุณช่วยเล่น หนังสือเสียง โปรด ของฉัน ของ แฮร์รี่ พอตเตอร์ ได้ไหม	[IN:play_audiobook [SL:audiobook_name แฮร์รี่ พอตเตอร์] ]	play	th-TH
+คุณช่วย เปิด หนังสือเสียง กำลังความคิด ได้ไหม	[IN:play_audiobook [SL:player_setting เปิด] [SL:audiobook_name กำลังความคิด] ]	play	th-TH
+เริ่ม บทที่ เจ็ด ของ กำลังความคิด	[IN:play_audiobook [SL:player_setting เริ่ม] [SL:audiobook_name กำลังความคิด] ]	play	th-TH
+เริ่มเล่น หนังสือเสียง วาทะเล่าประวัติศาสตร์ ต่อ	[IN:play_audiobook [SL:player_setting เริ่มเล่น] [SL:audiobook_name วาทะเล่าประวัติศาสตร์] [SL:player_setting ต่อ] ]	play	th-TH
+คุณช่วย หยุด เสียง ได้ไหม	[IN:play_audiobook [SL:player_setting หยุด] [SL:media_type เสียง] ]	play	th-TH
+เล่น หนังสือเสียง ของฉัน ต่อไป	[IN:play_audiobook [SL:media_type หนังสือเสียง] ]	play	th-TH
+หยุด หนังสือเสียง	[IN:play_audiobook [SL:player_setting หยุด] [SL:media_type หนังสือเสียง] ]	play	th-TH
+เปิด davinci code ตรงที่ค้างไว้จากคราวที่แล้ว	[IN:play_audiobook [SL:audiobook_name davinci code] ]	play	th-TH
+เริ่มเล่น หนังสือเสียง กำลังความคิด	[IN:play_audiobook [SL:media_type หนังสือเสียง] [SL:audiobook_name กำลังความคิด] ]	play	th-TH
+เปิด audiobook เล่ม ล่าสุด	[IN:play_audiobook [SL:media_type audiobook] ]	play	th-TH
+เล่น เพลง	[IN:play_audiobook [SL:media_type เพลง] ]	play	th-TH
+เริ่มต้นใหม่ หนังสือเสียง ของฉัน จากที่หยุด	[IN:play_audiobook [SL:player_setting เริ่มต้นใหม่] [SL:media_type หนังสือเสียง] ]	play	th-TH
+เล่นต่อ หนังสือเสียง ที่เล่นล่าสุด	[IN:play_audiobook [SL:player_setting เล่นต่อ] [SL:media_type หนังสือเสียง] ]	play	th-TH
+โปรดเล่น เสียง บอดี้สแลม ล่าสุด	[IN:play_audiobook [SL:media_type เสียง] ]	play	th-TH
+อ่าน หนังสือเสียง บท นี้ใหม่ตั้งแต่ต้น	[IN:play_audiobook [SL:player_setting อ่าน] [SL:media_type หนังสือเสียง] ]	play	th-TH
+แฮรี่ พอตเตอร์	[IN:play_audiobook [SL:audiobook_name แฮรี่ พอตเตอร์] ]	play	th-TH
+หยุด อ่านจนถึง แปดโมง	[IN:play_audiobook [SL:player_setting หยุด] [SL:time แปดโมง] ]	play	th-TH
+เริ่มอ่าน หนังสือ	[IN:play_audiobook [SL:player_setting เริ่มอ่าน] ]	play	th-TH
+เล่น สี่แผ่นดิน ต่อหน่อย	[IN:play_audiobook [SL:player_setting เล่น] [SL:audiobook_name สี่แผ่นดิน] ]	play	th-TH
+เปิด หนังสือเสียง แฮร์รี่ พอตเตอร์ จากจุดที่เล่นล่าสุด	[IN:play_audiobook [SL:media_type หนังสือเสียง] [SL:audiobook_name แฮร์รี่ พอตเตอร์] ]	play	th-TH
+หา หนังสือเสียง อัน นี้ แล้วเล่นให้ฟังหน่อย	[IN:play_audiobook [SL:media_type หนังสือเสียง] ]	play	th-TH
+เล่น หนังสือเสียง อัน นี้ ต่อ	[IN:play_audiobook [SL:player_setting เล่น] [SL:media_type หนังสือเสียง] ]	play	th-TH
+ฟัง กำลังความคิด	[IN:play_audiobook [SL:audiobook_name กำลังความคิด] ]	play	th-TH
+เริ่มอ่าน พ่อรวยสอนลูก บทที่ สี่	[IN:play_audiobook [SL:player_setting เริ่มอ่าน] [SL:audiobook_name พ่อรวยสอนลูก] ]	play	th-TH
+เล่น เพลง ต่อ จาก หนังสือเสียง ของ นิ้วกลม	[IN:play_audiobook [SL:player_setting เล่น] [SL:media_type หนังสือเสียง] [SL:artist_name นิ้วกลม] ]	play	th-TH
+เล่น หนังสือเสียง โพคาฮอนทัส	[IN:play_audiobook [SL:media_type หนังสือเสียง] [SL:audiobook_name โพคาฮอนทัส] ]	play	th-TH
+เล่น หนังสือเสียง เรื่อง กำลังความคิด ต่อ	[IN:play_audiobook [SL:player_setting เล่น] [SL:media_type หนังสือเสียง] [SL:audiobook_name กำลังความคิด] ]	play	th-TH
+เปิด หนังสือเสียง เล่น แฮร์รี่ พอตเตอร์	[IN:play_audiobook [SL:media_type หนังสือเสียง] [SL:song_name แฮร์รี่ พอตเตอร์] ]	play	th-TH
+อ่าน บทเรียนฝรั่งเศส ต่อไป	[IN:play_audiobook [SL:player_setting อ่าน] [SL:audiobook_name บทเรียนฝรั่งเศส] ]	play	th-TH
+เล่นเรื่องย่อของ กำลังความคิด	[IN:play_audiobook ]	play	th-TH
+เริ่มต้นอ่าน หนังสือ อันนั้น ของ นิ้วกลม	[IN:play_audiobook [SL:player_setting เริ่มต้นอ่าน] [SL:media_type หนังสือ] [SL:audiobook_author นิ้วกลม] ]	play	th-TH
+เล่น หนังสือเสียง ต่อให้หน่อย	[IN:play_audiobook [SL:player_setting เล่น] [SL:media_type หนังสือเสียง] ]	play	th-TH
+เล่นต่อ แฮรี่พอตเตอร์	[IN:play_audiobook [SL:player_setting เล่นต่อ] [SL:audiobook_name แฮรี่พอตเตอร์] ]	play	th-TH
+olly เล่น บ้านทรายทอง ต่อ	[IN:play_audiobook [SL:player_setting เล่น] [SL:audiobook_name บ้านทรายทอง] ]	play	th-TH
+อ่าน หนังสือเสียง ต่อจากจุด นี้	[IN:play_audiobook [SL:media_type หนังสือเสียง] ]	play	th-TH
+ทำขนมปังกระเทียม	[IN:cooking_recipe [SL:food_type ทำขนมปังกระเทียม] ]	cooking	th-TH
+ใช้ เวลา เท่าไร ทำอาหาร พาสต้า	[IN:cooking_recipe [SL:cooking_type ทำอาหาร] [SL:food_type พาสต้า] ]	cooking	th-TH
+บรอกโคลีกับ ไก่ ทำ อะไร กินดี	[IN:cooking_recipe [SL:ingredient ไก่] ]	cooking	th-TH
+แนะนำฉันในการทำอาหาร	[IN:cooking_recipe ]	cooking	th-TH
+ฉันจะทำ ลาบอีสาน ยังไง	[IN:cooking_recipe [SL:food_type ลาบอีสาน] ]	cooking	th-TH
+ไวน์ขาว	[IN:cooking_recipe [SL:ingredient ไวน์ขาว] ]	cooking	th-TH
+เปิด วีดีโอ ทำอาหาร อิตาเลียน	[IN:cooking_recipe [SL:media_type วีดีโอ] [SL:food_type อิตาเลียน] ]	cooking	th-TH
+olly ฉันจะทำ บิสกิตกุ้ง ได้อย่างไร	[IN:cooking_recipe [SL:food_type บิสกิตกุ้ง] ]	cooking	th-TH
+ปาวบาจี ทำอย่างไร	[IN:cooking_recipe [SL:food_type ปาวบาจี] ]	cooking	th-TH
+อาหารเพื่อสุขภาพ	[IN:cooking_recipe [SL:food_type อาหารเพื่อสุขภาพ] ]	cooking	th-TH
+พิซซ่า อบ กรอบ	[IN:cooking_recipe [SL:food_type พิซซ่า] [SL:cooking_type กรอบ] ]	cooking	th-TH
+ถั่วตาดำ	[IN:cooking_recipe [SL:ingredient ถั่วตาดำ] ]	cooking	th-TH
+สูตรอาหาร	[IN:cooking_recipe ]	cooking	th-TH
+ใช้ google แสดงวิธีการทำอาหารให้ฉันดู	[IN:cooking_recipe ]	cooking	th-TH
+ขอไอเดียที่ดีที่สุดในการทำอาหารให้ฉัน	[IN:cooking_recipe ]	cooking	th-TH
+แสดง สูตร คุ้กกี้	[IN:cooking_recipe [SL:food_type คุ้กกี้] ]	cooking	th-TH
+คุกกี้ทำยังไง	[IN:cooking_recipe ]	cooking	th-TH
+ควอร์ต	[IN:cooking_recipe [SL:time ควอร์ต] ]	cooking	th-TH
+ฉันจะอบ มันฝรั่ง ยังไงดี	[IN:cooking_recipe [SL:food_type มันฝรั่ง] ]	cooking	th-TH
+ค้นหา สูตร พิซซ่า	[IN:cooking_recipe [SL:food_type พิซซ่า] ]	cooking	th-TH
+ฉันจะทำ มีทโลฟ ได้อย่างไร	[IN:cooking_recipe [SL:food_type มีทโลฟ] ]	cooking	th-TH
+หา สูตร ก๋วยเตี๋ยวไก่	[IN:cooking_recipe [SL:food_type ก๋วยเตี๋ยวไก่] ]	cooking	th-TH
+ค้นหา เมนู ปราศจากกลูเตน	[IN:cooking_recipe [SL:food_type ปราศจากกลูเตน] ]	cooking	th-TH
+แสดง สูตรอาหาร ทำอาหาร อย่างไร	[IN:cooking_recipe ]	cooking	th-TH
+ฉันต้องแช่เย็นพายแช่แข็งนานแค่ไหน	[IN:cooking_recipe ]	cooking	th-TH
+ไข่เจียวชีส	[IN:cooking_recipe [SL:food_type ไข่เจียวชีส] ]	cooking	th-TH
+แสดง สูตร สำหรับทำ ฮอทดอก	[IN:cooking_recipe [SL:food_type ฮอทดอก] ]	cooking	th-TH
+สูตรอาหาร หม้อต้ม ไก่ย่าง	[IN:cooking_recipe [SL:food_type ไก่ย่าง] ]	cooking	th-TH
+คุณช่วย แสดง สูตร สำหรับทำ สปาเก็ตตี้ ให้หน่อยได้ไหม	[IN:cooking_recipe [SL:food_type สปาเก็ตตี้] ]	cooking	th-TH
+แสดง สูตรอาหาร สำหรับ ลูกชิ้นไก่งวง	[IN:cooking_recipe [SL:food_type ลูกชิ้นไก่งวง] ]	cooking	th-TH
+สูตร	[IN:cooking_recipe ]	cooking	th-TH
+อกไก่ย่างน้ำผึ้ง	[IN:cooking_recipe [SL:food_type อกไก่ย่างน้ำผึ้ง] ]	cooking	th-TH
+สูตรอาหาร สำหรับ เนื้อปู	[IN:cooking_recipe [SL:food_type เนื้อปู] ]	cooking	th-TH
+ฉันต้องการไอเดียสำหรับอาหารค่ำที่เป็น แม็กซิกัน	[IN:cooking_recipe [SL:food_type แม็กซิกัน] ]	cooking	th-TH
+ไม่มีความคิดเห็นเพิ่มเติม	[IN:cooking_recipe ]	cooking	th-TH
+ไข่ต้ม	[IN:cooking_recipe [SL:food_type ไข่ต้ม] ]	cooking	th-TH
+หา สูตร ง่ายง่าย สำหรับ นมอัลมอนด์	[IN:cooking_recipe [SL:drink_type นมอัลมอนด์] ]	cooking	th-TH
+หา สูตรอาหาร ไก่ย่าง	[IN:cooking_recipe [SL:food_type ไก่ย่าง] ]	cooking	th-TH
+สูตรอาหาร มื้อ เช้า	[IN:cooking_recipe ]	cooking	th-TH
+alexa เล่น หมากรุก กัน	[IN:play_game [SL:game_name หมากรุก] ]	play	th-TH
+รู้สึกอยากเล่น หมากรุก จัง เล่นด้วยกันได้มั๊ย	[IN:play_game [SL:game_name หมากรุก] ]	play	th-TH
+เล่นเกม หมากรุก กันไหม	[IN:play_game [SL:game_name หมากรุก] ]	play	th-TH
+เล่น แฮปปี้คนเลี้ยงหมู	[IN:play_game [SL:game_name แฮปปี้คนเลี้ยงหมู] ]	play	th-TH
+เล่น เกม แข่งรถ	[IN:play_game [SL:game_type แข่งรถ] ]	play	th-TH
+เล่นเกม พินบอล กัน	[IN:play_game [SL:game_name พินบอล] ]	play	th-TH
+เริ่มเล่น spider	[IN:play_game [SL:game_name spider] ]	play	th-TH
+อยากเล่น เกม กับฉันไหม	[IN:play_game ]	play	th-TH
+ฉันอยากจะเล่นเกม ฟุตบอล ของฉัน จากระดับ ห้า	[IN:play_game [SL:game_name ฟุตบอล] ]	play	th-TH
+อยากเล่น หมากรุก	[IN:play_game [SL:game_name หมากรุก] ]	play	th-TH
+หา เกม	[IN:play_game ]	play	th-TH
+เล่นเกม ใบค้ำ กัน	[IN:play_game [SL:game_name ใบค้ำ] ]	play	th-TH
+แก้ ปริศนา กัน	[IN:play_game [SL:game_name ปริศนา] ]	play	th-TH
+เปิดเกม ปิงปอง	[IN:play_game [SL:game_name ปิงปอง] ]	play	th-TH
+มาเล่น หมากฮอส กันเถอะ	[IN:play_game [SL:game_name หมากฮอส] ]	play	th-TH
+เล่น เกมส์	[IN:play_game ]	play	th-TH
+คุณช่วยเล่นบทศัตรูในเกม แคลชออฟแคลนส์ ได้ไหม	[IN:play_game [SL:game_name แคลชออฟแคลนส์] ]	play	th-TH
+เล่น หมากรุก กับฉัน ได้โปรด	[IN:play_game [SL:game_name หมากรุก] ]	play	th-TH
+คุณช่วยเล่น เดาชื่อเพลง ได้ไหม	[IN:play_game [SL:game_name เดาชื่อเพลง] ]	play	th-TH
+เล่น โป๊กเกอร์ ด้วยกันได้มั๊ย	[IN:play_game [SL:game_name โป๊กเกอร์] ]	play	th-TH
+เล่น เกมเศรษฐี กันเถอะ	[IN:play_game [SL:game_name เกมเศรษฐี] ]	play	th-TH
+เล่น อาร์โอวี กัน	[IN:play_game [SL:game_name อาร์โอวี] ]	play	th-TH
+ลิสต์ไอเทมใน รายการ ซื้อของ ของฉัน olly	[IN:lists_query [SL:list_name ซื้อของ] ]	lists	th-TH
+ฉันอยากจะยกเลิกการเดินทางไป เชียงใหม่ อาทิตย์ หน้า	[IN:lists_remove ]	lists	th-TH
+อะไรอยู่ในรายการ ซื้อของ ของฉัน วันนี้	[IN:lists_query [SL:list_name ซื้อของ] [SL:date วันนี้] ]	lists	th-TH
+กาทิ้ง ขนมปัง จาก รายการ ซื้อของ	[IN:lists_remove [SL:list_name ซื้อของ] ]	lists	th-TH
+เพิ่มวอดก้าไปยังรายการ ซื้อของงานสังสรรค์ ของฉัน	[IN:lists_query [SL:list_name ซื้อของงานสังสรรค์] ]	lists	th-TH
+ลบ รายการ ของที่จะซื้อ	[IN:lists_remove [SL:list_name ของที่จะซื้อ] ]	lists	th-TH
+คุณช่วยสร้าง รายการ อันใหม่ได้ไหม	[IN:lists_createoradd ]	lists	th-TH
+ลบ รายการ อาหาร รายการที่ซื้อ อาทิตย์ก่อน	[IN:lists_remove [SL:list_name อาหาร] [SL:date อาทิตย์ก่อน] ]	lists	th-TH
+มันขึ้นอยู่กับสิ่งที่เห็น	[IN:lists_remove ]	lists	th-TH
+ล้าง รายการ	[IN:lists_remove ]	lists	th-TH
+ทำ รายการ	[IN:lists_createoradd ]	lists	th-TH
+ฉันทำรายการไว้กับ ร้านขายของชำ ร้านไหน	[IN:lists_query [SL:list_name ร้านขายของชำ] ]	lists	th-TH
+อะไรคือ รายการ ของฉัน	[IN:lists_query ]	lists	th-TH
+รายการ อะไรที่มีอยู่	[IN:lists_query ]	lists	th-TH
+หา รายการ และลบ แอปเปิ้ล	[IN:lists_remove ]	lists	th-TH
+ลบรายการเพลง สุนทราภรณ์ ของฉัน	[IN:lists_remove [SL:list_name สุนทราภรณ์] ]	lists	th-TH
+กรุณาลบ รายการ	[IN:lists_remove ]	lists	th-TH
+เพิ่มไอเทม นี้ ไปยัง รายการ	[IN:lists_createoradd ]	lists	th-TH
+ห้ารายการสุดท้ายที่ฉันทำคืออะไรบ้าง	[IN:lists_query ]	lists	th-TH
+ส่งรายการสุดท้ายที่อัปโหลดมาให้ฉัน	[IN:lists_query ]	lists	th-TH
+ทำ รายการ ของ ตัวเลข สำหรับฉัน	[IN:lists_createoradd [SL:list_name ตัวเลข] ]	lists	th-TH
+กรุณาสร้าง รายการ อันใหม่สำหรับฉัน	[IN:lists_createoradd ]	lists	th-TH
+อะไรอยู่ในรายการ สิ่งที่ต้องทำ สำหรับ วันนี้ ของฉัน	[IN:lists_query [SL:list_name สิ่งที่ต้องทำ] [SL:date วันนี้] ]	lists	th-TH
+วันนี้ ฉัน ทำอะไร	[IN:general_quirky [SL:date วันนี้] ]	general	th-TH
+ตรวจไอเทม ที่ห้า ใน รายการ สิ่งที่จะทำ ของฉัน	[IN:lists_query [SL:list_name สิ่งที่จะทำ] ]	lists	th-TH
+กรุณา แสดง รายการ ของฉัน	[IN:lists_query ]	lists	th-TH
+ลบ ไฟล์เอ็กเซล ออกจาก รายการ	[IN:lists_remove ]	lists	th-TH
+บอก เพลย์ลิสต์ กับฉัน	[IN:music_query ]	music	th-TH
+มีรายการ อาหาร กี่อันใน รายการ	[IN:lists_query ]	lists	th-TH
+รายการไม่ควรมีไอเทมอาหารทุกอย่างที่มีคำนำว่าแห้ง	[IN:lists_remove ]	lists	th-TH
+พรุ่งนี้ รายการ	[IN:lists_createoradd [SL:date พรุ่งนี้] ]	lists	th-TH
+สร้าง รายการ อันใหม่	[IN:lists_createoradd ]	lists	th-TH
+ใส่ ดินสอ ไปใน รายการ ของชำ อันใหม่	[IN:lists_createoradd [SL:list_name ของชำ] ]	lists	th-TH
+กรุณาลบไอเทม นี้ ออกจาก รายการ	[IN:lists_remove ]	lists	th-TH
+เพิ่ม ของชำ ไปยัง รายการ	[IN:lists_createoradd ]	lists	th-TH
+อ่านรายการ	[IN:lists_query ]	lists	th-TH
+เอา รายการ ของฉัน ขึ้นมา	[IN:lists_query ]	lists	th-TH
+บอกฉันว่าฉันมีรายการอะไรบ้าง	[IN:lists_query ]	lists	th-TH
+ลบรายการ ที่สาม	[IN:lists_remove ]	lists	th-TH
+รายการมีอะไรอยู่	[IN:lists_query ]	lists	th-TH
+ช่วยเพิ่ม สิ่ง นี้ ไปใน รายการ	[IN:lists_createoradd ]	lists	th-TH
+แสดง รายการ ที่มีอยู่	[IN:lists_query ]	lists	th-TH
+กรุณาบอกฉันว่าอะไรอยู่ในรายการของฉันได้ไหม	[IN:lists_query ]	lists	th-TH
+ลบ พริกไทย ออกจาก รายการ ของชำ ของฉัน	[IN:lists_remove [SL:list_name ของชำ] ]	lists	th-TH
+เพิ่มบางอย่างไปยัง รายการ ของฉัน	[IN:lists_createoradd ]	lists	th-TH
+ลบ สิ่ง นั้น ออกจาก รายการ ของฉัน	[IN:lists_remove ]	lists	th-TH
+google translate	[IN:lists_query ]	lists	th-TH
+อ่านกลับมาว่าฉันใส่อะไรไปใน รายการสิ่งที่จะทำ อาทิตย์นี้ ของฉัน	[IN:lists_query [SL:date อาทิตย์นี้] ]	lists	th-TH
+อ่านไอเทมรายการ ซื้อของ	[IN:lists_query [SL:list_name ซื้อของ] ]	lists	th-TH
+เพิ่ม ซีเรียล ไปยัง รายการซื้อของ ของฉัน	[IN:lists_createoradd ]	lists	th-TH
+ไข่ อยู่ใน รายการ ซื้อของ ของฉัน หรือไม่	[IN:lists_query [SL:list_name ซื้อของ] ]	lists	th-TH
+ฉัน มี รายการ ของ รายชื่อติดต่อ สำหรับ งานสังสรรค์ ที่ฉันกำลังวางแผนหรือไม่	[IN:lists_query [SL:event_name งานสังสรรค์] ]	lists	th-TH
+ลบ รายการ สิ่งที่จะทำ ของฉัน	[IN:lists_remove [SL:list_name สิ่งที่จะทำ] ]	lists	th-TH
+ลบไอเทมนี้จาก รายการ	[IN:lists_remove ]	lists	th-TH
+กรุณาเพิ่ม นม ไปยัง รายการ ของชำ	[IN:lists_createoradd [SL:list_name ของชำ] ]	lists	th-TH
+กรุณาช่วย แสดง รายการ ของฉัน กับฉันได้ไหม	[IN:lists_query ]	lists	th-TH
+เปิด รายการ ลบ รายการ	[IN:lists_remove ]	lists	th-TH
+olly อะไรต่อไปใน รายการ ของฉัน	[IN:lists_query ]	lists	th-TH
+เอา นม ออกจาก รายการ ของชำ ของฉัน	[IN:lists_remove [SL:list_name ของชำ] ]	lists	th-TH
+กรุณา บอก ฉันว่าฉันได้ทำ รายการ อะไรไปแล้วบ้าง	[IN:lists_query ]	lists	th-TH
+่จัด นั่น ใหม่ออกไปจาก รายการ	[IN:lists_remove ]	lists	th-TH
+โละมันออกจากรายการ	[IN:lists_remove ]	lists	th-TH
+olly ฉัน มีอะไรอย่างอื่นใน รายการ อีก	[IN:lists_query ]	lists	th-TH
+เพิ่มซื้อของชำไปยังสิ่งที่ต้องทำสำหรับ วันนี้ ของฉัน	[IN:lists_createoradd [SL:date วันนี้] ]	lists	th-TH
+กรุณาบอกฉันว่าฉันสามารถลบรายการได้อย่างไร	[IN:lists_remove ]	lists	th-TH
+ฉันสามารถตรวจสอบ รายการ ของฉัน หรือไม่	[IN:lists_query ]	lists	th-TH
+ฉันได้ทำ รายการ ซื้อของ ไหม	[IN:lists_query [SL:list_name ซื้อของ] ]	lists	th-TH
+ลบไอเทมจาก รายการ ของฉัน	[IN:lists_remove ]	lists	th-TH
+สร้าง รายการ อันใหม่ของ	[IN:lists_createoradd ]	lists	th-TH
+บอกฉันเกี่ยวกับรายการ	[IN:lists_query ]	lists	th-TH
+กรุณาลบ รายการ แรก	[IN:lists_remove ]	lists	th-TH
+ประชุม เช้า วันพุธ	[IN:calendar_remove [SL:timeofday เช้า] [SL:date วันพุธ] ]	calendar	th-TH
+สร้าง รายการ อันใหม่สำหรับ บิลค้างจ่าย ของฉัน	[IN:lists_createoradd [SL:list_name บิลค้างจ่าย] ]	lists	th-TH
+อ่านรายการของฉันให้ฉันฟัง	[IN:lists_query ]	lists	th-TH
+ขอ รายการ ของฉัน ให้ฉันที	[IN:lists_query ]	lists	th-TH
+ทำ รายการ สำหรับ ทำงาน	[IN:lists_createoradd ]	lists	th-TH
+กรุณาลบรายการชื่อเรื่อง เตะบอล	[IN:lists_remove [SL:list_name เตะบอล] ]	lists	th-TH
+ฉันไม่ต้องการรายนี้อีกต่อไป	[IN:lists_remove ]	lists	th-TH
+ฉัน มี อะไร ใน รายการ สิ่งที่จะทำ ของฉัน บ้าง	[IN:lists_query [SL:list_name สิ่งที่จะทำ] ]	lists	th-TH
+รายการ อะไรที่มีอยู่ตอนนี้	[IN:lists_query ]	lists	th-TH
+ลบบรรทัดสุดท้าย	[IN:lists_remove ]	lists	th-TH
+สร้าง รายการ อันใหม่สำหรับ อุปกรณ์โรงเรียน	[IN:lists_createoradd [SL:list_name อุปกรณ์โรงเรียน] ]	lists	th-TH
+ลบโทรหาหนังสือพิมพ์จาก รายการท่องเที่ยว ของฉัน	[IN:lists_remove [SL:list_name รายการท่องเที่ยว] ]	lists	th-TH
+อ่านออกเสียงรายการ ซื้อของ สำหรับ วันนี้ ของฉัน	[IN:lists_query [SL:list_name ซื้อของ] [SL:date วันนี้] ]	lists	th-TH
+มีอะไรอยู่ในรายการสำหรับ วันนี้ บ้าง	[IN:lists_query [SL:date วันนี้] ]	lists	th-TH
+รวมรายการไปยัง รายการ	[IN:lists_createoradd ]	lists	th-TH
+เอา ซื้อ ของชำ ออกจาก รายการ	[IN:lists_remove ]	lists	th-TH
+เราไม่มีสีแล้ว ดังนั้นเอาทาสีห้องน้ำออกจากรายการ	[IN:lists_remove ]	lists	th-TH
+เตือนฉันให้สั่งซื้อสบู่เพิ่ม	[IN:lists_createoradd ]	lists	th-TH
+เปิด รายการ ของฉัน	[IN:lists_query ]	lists	th-TH
+ลบเพลงสุดท้ายที่เล่นไป	[IN:lists_remove ]	lists	th-TH
+กรุณาเพิ่ม ทอม ไปยัง สมุดที่อยู่ ของฉัน	[IN:email_addcontact [SL:person ทอม] ]	email	th-TH
+ช่วยอ่านรายการของฉันให้ฉันฟังได้ไหม	[IN:lists_query ]	lists	th-TH
+รายการ ของฉัน มีอะไรบ้าง	[IN:lists_query ]	lists	th-TH
+เฮ้ olly อะไรอยู่ใน รายการ ของฉัน	[IN:lists_query ]	lists	th-TH
+ช่วยบอกฉันว่ารายการอะไรอยู่ในรายการ ของชำ ของฉันได้ไหม	[IN:lists_query [SL:list_name ของชำ] ]	lists	th-TH
+นั่น คืออะไรใน รายการ	[IN:lists_query ]	lists	th-TH
+บอกฉันว่าอะไรอยู่ในรายการของฉัน	[IN:lists_query ]	lists	th-TH
+ลบ รายการ	[IN:lists_remove ]	lists	th-TH
+ยกเลิก นม จาก รายการ ซื้อของ	[IN:lists_remove [SL:list_name ซื้อของ] ]	lists	th-TH
+เพิ่ม นม ไปยัง รายการ ของชำ ของฉัน	[IN:lists_createoradd [SL:list_name ของชำ] ]	lists	th-TH
+ลบรายการ เพลงบอดี้สแลม	[IN:lists_remove [SL:list_name เพลงบอดี้สแลม] ]	lists	th-TH
+อะไรอยู่ใน รายการ เฉพาะ นี้	[IN:lists_query ]	lists	th-TH
+ขอดู รายการ งาน ของฉัน ได้ไหม	[IN:lists_query ]	lists	th-TH
+นี้ รายการ	[IN:lists_createoradd ]	lists	th-TH
+ช่วยลบ รายการ สิ่งที่ต้องทำ ของฉัน ออกจาก วันนี้	[IN:lists_remove [SL:list_name สิ่งที่ต้องทำ] [SL:date วันนี้] ]	lists	th-TH
+ฉันไม่ต้องการไข่	[IN:lists_remove ]	lists	th-TH
+แสดงรายการที่มีอยู่	[IN:lists_query ]	lists	th-TH
+สร้าง รายการ ของ ของชำ ที่จะซื้อ ประจำเดือน	[IN:lists_createoradd [SL:list_name ของชำ] [SL:general_frequency ประจำเดือน] ]	lists	th-TH
+กำหนดการการทำงานของฉัน	[IN:calendar_query ]	calendar	th-TH
+แผนสุขภาพ ของฉัน	[IN:lists_query [SL:list_name แผนสุขภาพ] ]	lists	th-TH
+เพิ่ม ขนมปัง ไปยัง รายการ ปีใหม่	[IN:lists_createoradd [SL:list_name ปีใหม่] ]	lists	th-TH
+ลบ รายการ สิ่งที่จะทำ	[IN:lists_remove [SL:list_name สิ่งที่จะทำ] ]	lists	th-TH
+ลบ เพลย์ลิสต์เก่า และสร้างใหม่	[IN:lists_createoradd [SL:list_name เพลย์ลิสต์เก่า] ]	lists	th-TH
+ตรวจสอบ รายการ	[IN:lists_query ]	lists	th-TH
+มีกี่ไอเทมใน รายการ สิ่งที่จะทำ ของฉัน	[IN:lists_query [SL:list_name สิ่งที่จะทำ] ]	lists	th-TH
+ตรวจ รายการ ของฉัน	[IN:lists_query ]	lists	th-TH
+ข้าม ไป ตอน ถัดไปของ พอดเเคสต์	[IN:play_podcasts [SL:player_setting ข้าม] ]	play	th-TH
+เล่น ตอนถัดไป	[IN:play_podcasts [SL:podcast_descriptor ตอนถัดไป] ]	play	th-TH
+หา พอดคาสต์ ของชั้น	[IN:play_podcasts ]	play	th-TH
+ไป ตอนต่อไป	[IN:play_podcasts [SL:podcast_descriptor ตอนต่อไป] ]	play	th-TH
+เล่นพอดคาสต์ตอนล่าสุดของ นิ้วกลม	[IN:play_podcasts [SL:podcast_name นิ้วกลม] ]	play	th-TH
+ย้ายไป ตอนต่อไป	[IN:play_podcasts [SL:podcast_descriptor ตอนต่อไป] ]	play	th-TH
+เล่นตอนที่เจ็ดของ the morning after	[IN:play_podcasts [SL:podcast_name the morning after] ]	play	th-TH
+ค้นหาและสร้าง เพลย์ลิสต์ ของ รายการ การเต้นล่าสุดทั้งหมด	[IN:play_music ]	play	th-TH
+จัดการเล่น เพลง ของ บุดด้าเบสต์ ทุก เพลง	[IN:play_music [SL:artist_name บุดด้าเบสต์] ]	play	th-TH
+เล่น พอดแคสต์ จากเริ่มต้น	[IN:play_podcasts ]	play	th-TH
+เห้ย เล่น พอดคาสต์ นั้น ที่ ฉัน หยุดเมื่อคืน	[IN:play_podcasts [SL:podcast_descriptor หยุดเมื่อคืน] ]	play	th-TH
+ข้ามไป ตอนต่อไป	[IN:play_podcasts [SL:podcast_descriptor ตอนต่อไป] ]	play	th-TH
+เล่น พอดเเคสต์ ต่อไปนี้ ใหม่	[IN:play_podcasts ]	play	th-TH
+ข้ามไป ตอนต่อไป	[IN:play_podcasts [SL:podcast_descriptor ตอนต่อไป] ]	play	th-TH
+อยากฟัง พอดเเคสต์ ของ พี่เเจ็ค	[IN:play_podcasts [SL:person พี่เเจ็ค] ]	play	th-TH
+พอดคาสต์ โปรด	[IN:play_podcasts ]	play	th-TH
+ช่วย ไป ข้างหน้า ให้ที	[IN:play_podcasts [SL:player_setting ข้างหน้า] ]	play	th-TH
+ค้นหาและเล่น พอดแคสต์	[IN:play_podcasts ]	play	th-TH
+เล่น เพลง ของฉัน	[IN:play_music ]	play	th-TH
+ข้ามไป ตอนต่อไป	[IN:play_podcasts [SL:podcast_descriptor ตอนต่อไป] ]	play	th-TH
+หยุด พอดเเคสต์ นี้ เล่น อันใหม่	[IN:play_podcasts ]	play	th-TH
+ฟัง พอดแคสต์ ล่าสุด ของนิ้วกลม	[IN:play_podcasts [SL:person ของนิ้วกลม] ]	play	th-TH
+เล่น ตอนถัดไป	[IN:play_podcasts [SL:podcast_descriptor ตอนถัดไป] ]	play	th-TH
+เปิด พอดเเคสต์ คำนี้ดี	[IN:play_podcasts [SL:podcast_name คำนี้ดี] ]	play	th-TH
+แสดง พอดแคสต์ ที่ได้รับ อันดับสูงสุด ให้ฉันดู	[IN:play_podcasts [SL:podcast_descriptor อันดับสูงสุด] ]	play	th-TH
+เล่น ตอนที่คุณรู้ในคิว	[IN:play_podcasts ]	play	th-TH
+เพลง คลาสสิค	[IN:play_music [SL:music_genre คลาสสิค] ]	play	th-TH
+พี่อ้อยพี่ฉอด พอดแคสต์	[IN:play_podcasts ]	play	th-TH
+กลับไป หนึ่ง ตอน	[IN:play_podcasts ]	play	th-TH
+ปุ่ม กรอ	[IN:play_podcasts [SL:player_setting กรอ] ]	play	th-TH
+แสดง ตอน สุดท้าย ให้ฉัน	[IN:play_podcasts ]	play	th-TH
+olly เล่นพอดแคสต์ หลอนตามสั่ง	[IN:play_podcasts [SL:podcast_name หลอนตามสั่ง] ]	play	th-TH
+เล่น พอดแคสต์ ของ ประยุทธ์ ที่ฉันเก็บ ไว้ใน อุปกรณ์	[IN:play_podcasts [SL:podcast_name ประยุทธ์] ]	play	th-TH
+พอดคาสต์ ความสุขโดยสังเกต	[IN:play_podcasts ]	play	th-TH
+ชัดเจน มากกว่า และเรียงตามหัวข้อเรื่อง	[IN:play_podcasts ]	play	th-TH
+สั้นและง่าย	[IN:play_podcasts ]	play	th-TH
+เล่น ตอนล่าสุด ของ ความสุขโดยสังเกต	[IN:play_podcasts [SL:podcast_descriptor ตอนล่าสุด] [SL:podcast_name ความสุขโดยสังเกต] ]	play	th-TH
+ฉันอยากได้ยิน พอดแคสต์ นี้	[IN:play_podcasts ]	play	th-TH
+มี หนัง ใหม่ อะไร เข้าโรง อาทิตย์นี้ บ้าง	[IN:recommendation_movies [SL:date อาทิตย์นี้] ]	recommendation	th-TH
+มี งานแสดงสุนัข ที่กำลังจัด ใกล้ กรุงเทพ บ้างไหม	[IN:recommendation_events [SL:event_name งานแสดงสุนัข] [SL:place_name กรุงเทพ] ]	recommendation	th-TH
+ผับ ที่ ใกล้ที่สุด ใน เมือง อยู่ตรงไหน	[IN:recommendation_locations [SL:business_type ผับ] [SL:place_name เมือง] ]	recommendation	th-TH
+แถวนี้ มี คอนเสิร์ต ที่ ใกล้ถึงกำหนด จัดงานไหม	[IN:recommendation_events [SL:event_name คอนเสิร์ต] [SL:time ใกล้ถึงกำหนด] ]	recommendation	th-TH
+มีหนังเรื่องอะไรกำลังฉายอยู่ที่ โรงหนัง เมเจอร์ ซีนีเพล็กซ์ บ้าง	[IN:recommendation_movies [SL:place_name โรงหนัง เมเจอร์ ซีนีเพล็กซ์] ]	recommendation	th-TH
+มี นิทรรศการ หรือ งานแสดง อะไรบ้างที่ โรงหนังใจกลางเมือง	[IN:recommendation_events [SL:event_name นิทรรศการ] [SL:event_name งานแสดง] [SL:place_name โรงหนังใจกลางเมือง] ]	recommendation	th-TH
+มีงานอีเว้นต์อะไรจัดขึ้น ใกล้ ฉัน	[IN:recommendation_events ]	recommendation	th-TH
+ฉัน ควรจะไปทาน อาหาร เม็กซิกัน ที่ไหน ใน พื้นที่ ของฉัน	[IN:recommendation_locations [SL:food_type เม็กซิกัน] ]	recommendation	th-TH
+ฉันต้องการ ซูชิ ที่ใกล้ที่สุด	[IN:recommendation_locations [SL:food_type ซูชิ] ]	recommendation	th-TH
+หา ร้านอาหาร จีน แถวนี้	[IN:recommendation_locations [SL:business_type ร้านอาหาร] [SL:food_type จีน] ]	recommendation	th-TH
+งานเทศกาลอาหาร คืนนี้ อยู่ที่ไหน	[IN:recommendation_events [SL:event_name งานเทศกาลอาหาร] [SL:timeofday คืนนี้] ]	recommendation	th-TH
+ฉันกำลังหา งานแสดงเสื้อผ้า สักอย่าง คุณสามารถหาร้านเสื้อผ้า ภายในหนึ่งกิโลเมตร ได้ไหม	[IN:recommendation_locations [SL:business_type งานแสดงเสื้อผ้า] [SL:place_name ภายในหนึ่งกิโลเมตร] ]	recommendation	th-TH
+ร้านอาหาร ที่ ใกล้ที่สุด อยู่ตรงไหน	[IN:recommendation_locations [SL:business_type ร้านอาหาร] ]	recommendation	th-TH
+olly ปักหมุดตำแหน่งของร้านค้า	[IN:recommendation_locations ]	recommendation	th-TH
+หนัง ใหม่ เรื่องอะไร ดูได้แล้ว วันนี้	[IN:recommendation_movies [SL:date วันนี้] ]	recommendation	th-TH
+แสดง ศูนย์อาหาร บาง อย่าง ที่อยู่ ใกล้กับที่ฉันอยู่ที่สุด	[IN:recommendation_locations [SL:business_type ศูนย์อาหาร] [SL:place_name ใกล้กับที่ฉันอยู่ที่สุด] ]	recommendation	th-TH
+มี ร้านขายจักรยาน ดีๆ ที่ อ่อนนุช บ้างไหม	[IN:recommendation_locations [SL:business_type ร้านขายจักรยาน] [SL:place_name อ่อนนุช] ]	recommendation	th-TH
+บาร์ ที่ดีที่สุด ใน ย่านนี้	[IN:recommendation_locations [SL:business_type บาร์] ]	recommendation	th-TH
+บอกฉันถึงงานอีเว้นท์ในท้องถิ่นทั้งหมด	[IN:recommendation_events ]	recommendation	th-TH
+ร้านขายของชำ ใกล้ ๆ	[IN:recommendation_locations [SL:business_type ร้านขายของชำ] ]	recommendation	th-TH
+หนัง ตลก อะไรที่ฉันสามารถดูได้ในโรงหนังแถว กรุงเทพ	[IN:recommendation_movies [SL:movie_type ตลก] [SL:place_name กรุงเทพ] ]	recommendation	th-TH
+สร้าง ลิสต์สิ่งที่ต้องทำเมื่อไปเที่ยว อุทยานแห่งชาติดอยอินทนนท์	[IN:recommendation_events [SL:place_name อุทยานแห่งชาติดอยอินทนนท์] ]	recommendation	th-TH
+ฉันควรจะทำอะไรเมื่อไปเยี่ยมชม อุทยานแห่งชาติเขาใหญ่	[IN:recommendation_events [SL:place_name อุทยานแห่งชาติเขาใหญ่] ]	recommendation	th-TH
+มีอะไรเกิดขึ้นแถวนี้บ้าง	[IN:recommendation_events ]	recommendation	th-TH
+โรงหนัง ใกล้ ฉัน	[IN:recommendation_movies [SL:business_type โรงหนัง] ]	recommendation	th-TH
+งานหนังสือ งานไหนจะจัดที่ นนทบุรี สัปดาห์หน้า	[IN:recommendation_events [SL:event_name งานหนังสือ] [SL:place_name นนทบุรี] [SL:date สัปดาห์หน้า] ]	recommendation	th-TH
+โรงหนังที่ใกล้ที่สุดที่ฉายหนังใหม่ของ วิน ดีเซล คือที่ไหน	[IN:recommendation_movies [SL:movie_name วิน ดีเซล] ]	recommendation	th-TH
+มีกิจกรรมอะไรจัดขึ้นที่ ปทุมธานี	[IN:recommendation_events [SL:place_name ปทุมธานี] ]	recommendation	th-TH
+วิ่งสู้ฟัด	[IN:recommendation_movies [SL:movie_name วิ่งสู้ฟัด] ]	recommendation	th-TH
+ใครขายเน็ตบุ๊กถูกที่สุดใน เชียงใหม่ใต้	[IN:recommendation_locations [SL:place_name เชียงใหม่ใต้] ]	recommendation	th-TH
+ร้านเสื้อผ้า ที่ดีที่สุดในย่านนี้คือที่ไหน	[IN:recommendation_locations [SL:business_type ร้านเสื้อผ้า] ]	recommendation	th-TH
+หา ร้านค้าที่ขาย เบียร์	[IN:recommendation_locations [SL:drink_type เบียร์] ]	recommendation	th-TH
+หนัง อะไรกำลังเล่นอยู่ใน โรงหนัง ใกล้ ฉัน	[IN:recommendation_movies [SL:place_name โรงหนัง] ]	recommendation	th-TH
+หนัง เรื่องอะไรฉายอยู่ ใกล้ ฉันและมีคะแนนรีวิวสูง	[IN:recommendation_movies ]	recommendation	th-TH
+ภาพยนตร์ ที่ได้รับ โทเมโทเรตติ้ง ที่ ดีดี	[IN:recommendation_movies ]	recommendation	th-TH
+กิจกรรมอะไรบ้างที่กำลังจัดในแถวนี้	[IN:recommendation_events ]	recommendation	th-TH
+เครื่องเล่นไหนดีที่สุด	[IN:recommendation_events ]	recommendation	th-TH
+มีอะไรน่าดูบ้าง	[IN:recommendation_movies ]	recommendation	th-TH
+บอกฉันเกี่ยวกับกิจกรรมในพื้นที่ของฉันช่วง สุดสัปดาห์นี้ หน่อย	[IN:recommendation_events [SL:date สุดสัปดาห์นี้] ]	recommendation	th-TH
+มีอะไร แถว สุขุมวิท ไหม	[IN:recommendation_events [SL:place_name สุขุมวิท] ]	recommendation	th-TH
+ร้าน แนวไหนที่อยู่ ใกล้ พื้นที่ ของฉัน	[IN:recommendation_locations [SL:business_type ร้าน] ]	recommendation	th-TH
+เธอช่วยแนะนำ ร้านอาหาร ราคาถูก ย่านนี้ให้หน่อยได้ไหม	[IN:recommendation_locations [SL:business_type ร้านอาหาร] ]	recommendation	th-TH
+olly ร้านอาหาร ใกล้ๆ ฉันมีร้านอะไรบ้าง	[IN:recommendation_locations [SL:business_type ร้านอาหาร] ]	recommendation	th-TH
+ฉันจะหา ไอริชผับ ที่ ใกล้ที่สุด ในย่าน ของฉัน ได้ที่ไหน	[IN:recommendation_locations [SL:business_type ไอริชผับ] ]	recommendation	th-TH
+olly มี บาร์ อะไรอยู่ใกล้ๆ ฉันบ้าง	[IN:recommendation_locations [SL:business_type บาร์] ]	recommendation	th-TH
+ขอดู กิจกรรม ทั้งหมดที่เกิดขึ้นใน แม่ฮ่องสอน	[IN:recommendation_events [SL:place_name แม่ฮ่องสอน] ]	recommendation	th-TH
+บอกหน่อยว่ามีอะไรบ้างใน เมือง ของฉัน	[IN:recommendation_events ]	recommendation	th-TH
+มีอะไรไหมใน อยุธยา วันนี้	[IN:recommendation_events [SL:place_name อยุธยา] [SL:date วันนี้] ]	recommendation	th-TH
+มี ร้าน ขายของชำ กี่ร้าน ตั้งอยู่ในละแวกบ้าน ของฉัน	[IN:recommendation_locations ]	recommendation	th-TH
+หา ร้านอาหาร ใน พื้นที่ ของฉัน	[IN:recommendation_locations [SL:business_type ร้านอาหาร] ]	recommendation	th-TH
+ฉันหิวมากมีอะไร น่ากิน ที่ สันกำแพง	[IN:recommendation_locations [SL:business_type น่ากิน] [SL:place_name สันกำแพง] ]	recommendation	th-TH
+olly ฉันจะหาซื้อ เครื่องดื่ม แถว สามย่าน ได้ที่ไหน	[IN:recommendation_locations [SL:business_type เครื่องดื่ม] [SL:place_name สามย่าน] ]	recommendation	th-TH
+งานอีเวนต์ วันนี้	[IN:recommendation_events [SL:date วันนี้] ]	recommendation	th-TH
+แสดงรายการ ร้านค้า แถวนี้ ทั้งหมด	[IN:recommendation_locations [SL:business_type ร้านค้า] ]	recommendation	th-TH
+คุณสามารถแนะนำ ผับ ใน ถนนข้าวสาร ได้บ้างไหม	[IN:recommendation_locations [SL:business_type ผับ] [SL:place_name ถนนข้าวสาร] ]	recommendation	th-TH
+เกิดอะไรขึ้นบ้างใน ละแวกบ้าน	[IN:recommendation_events [SL:place_name ละแวกบ้าน] ]	recommendation	th-TH
+ฉันต้องการ พิซซ่า มาส่ง ที่ ปากเกร็ด	[IN:recommendation_locations [SL:food_type พิซซ่า] [SL:place_name ปากเกร็ด] ]	recommendation	th-TH
+มีร้าน จีน ในบริเวณ นิมมานเหมินทร์ บ้างไหม	[IN:recommendation_locations [SL:food_type จีน] [SL:place_name นิมมานเหมินทร์] ]	recommendation	th-TH
+กรุณาค้นหา กิจกรรม ในพื้นที่ ของฉัน	[IN:recommendation_events ]	recommendation	th-TH
+อยากตั๋วรถไฟไป เชียงใหม่วันพุธ	[IN:transport_ticket ]	transport	th-TH
+รถไฟ ไป เชียงใหม่ เที่ยว ถัดไป คือตอนกี่โมง	[IN:transport_query [SL:transport_type รถไฟ] [SL:place_name เชียงใหม่] ]	transport	th-TH
+วิธีเดินทางไป ฝรั่งเศส ที่ดีที่สุดคืออะไร	[IN:transport_query [SL:place_name ฝรั่งเศส] ]	transport	th-TH
+ฉันจะไป เยาวราช ใน ครึ่งชั่วโมง จอง อูเบอร์ ให้ฉัน	[IN:transport_taxi [SL:place_name เยาวราช] [SL:time ครึ่งชั่วโมง] [SL:transport_agency อูเบอร์] ]	transport	th-TH
+olly จองตั๋วของ traveloka ไป ปารีส ห้าโมงเย็น วันศุกร์นี้	[IN:transport_ticket [SL:transport_name traveloka] [SL:place_name ปารีส] [SL:time ห้าโมงเย็น] [SL:date วันศุกร์นี้] ]	transport	th-TH
+จอง ตั๋ว รถไฟ ตั๋วนอน จาก เชียงใหม่ ไป กรุงเทพ	[IN:transport_ticket [SL:transport_type รถไฟ] [SL:place_name เชียงใหม่] [SL:place_name กรุงเทพ] ]	transport	th-TH
+สถานการณ์การจราจรที่ ถนนกาญจนาภิเษก เป็นยังไงบ้าง	[IN:transport_traffic [SL:place_name ถนนกาญจนาภิเษก] ]	transport	th-TH
+เรียก อูเบอร์ ตอนนี้	[IN:transport_taxi [SL:transport_agency อูเบอร์] ]	transport	th-TH
+มี การจราจรติดขัด บน ถนนกาญจนาภิเษก ไหม	[IN:transport_traffic [SL:place_name ถนนกาญจนาภิเษก] ]	transport	th-TH
+การจราจรบน ถนนกาญจนาภิเษก เป็นยังไง	[IN:transport_traffic [SL:place_name ถนนกาญจนาภิเษก] ]	transport	th-TH
+ส่ง อูเบอร์ มาให้แันตอนนี้	[IN:transport_taxi [SL:transport_agency อูเบอร์] ]	transport	th-TH
+สถานีรถไฟ อยู่ที่ไหน	[IN:transport_query [SL:place_name สถานีรถไฟ] ]	transport	th-TH
+คุณช่วยกรุณาเตรียม อูเบอร์ ให้มาที่ บ้าน ของฉัน ใน สิบห้านาที ได้ไหม	[IN:transport_taxi [SL:transport_agency อูเบอร์] [SL:place_name บ้าน] [SL:time สิบห้านาที] ]	transport	th-TH
+เรียก แท็กซี่ มารับที่ สนามบิน	[IN:transport_taxi [SL:transport_type แท็กซี่] [SL:place_name สนามบิน] ]	transport	th-TH
+จอง ตั๋ว เครื่องบิน	[IN:transport_ticket ]	transport	th-TH
+หา แท็กซี่ กลับ บ้าน	[IN:transport_taxi [SL:transport_type แท็กซี่] [SL:place_name บ้าน] ]	transport	th-TH
+จอง แกร็บ จาก บ้าน ของฉัน	[IN:transport_taxi [SL:transport_agency แกร็บ] [SL:place_name บ้าน] ]	transport	th-TH
+ขอตารางรถไฟไป เชียงใหม่ ขบวนที่ สี่	[IN:transport_query [SL:place_name เชียงใหม่] ]	transport	th-TH
+การจราจรบน ถนนกาญจนาภิเษก เป็นอย่างไรบ้าง	[IN:transport_traffic [SL:place_name ถนนกาญจนาภิเษก] ]	transport	th-TH
+สภาพการจราจรเป็นยังไงบ้าง	[IN:transport_traffic ]	transport	th-TH
+หาตั๋วรถไฟ ไป เชียงใหม่ ใน วันพฤหัส หน้า ยิ่งดึกยิ่งดี	[IN:transport_query [SL:place_name เชียงใหม่] [SL:date วันพฤหัส] ]	transport	th-TH
+ขนส่ง เชียงใหม่ จะไปถึง กรุงเทพ ตามเวลากี่โมง	[IN:transport_query [SL:place_name เชียงใหม่] [SL:place_name กรุงเทพ] ]	transport	th-TH
+รถไฟ ไป หลักสี่ ขบวนถัดไปออกตอนกี่โมง	[IN:transport_query [SL:transport_type รถไฟ] [SL:place_name หลักสี่] ]	transport	th-TH
+เรียก แท็กซี่ ให้หน่อย	[IN:transport_taxi [SL:transport_type แท็กซี่] ]	transport	th-TH
+นำทางฉันไป สถานีรถไฟ ที่ใกล้ที่สุด	[IN:transport_query [SL:place_name สถานีรถไฟ] ]	transport	th-TH
+เวลา รถไฟ จาก กรุงเทพ ไป เชียงใหม่	[IN:transport_query [SL:transport_type รถไฟ] [SL:place_name กรุงเทพ] [SL:place_name เชียงใหม่] ]	transport	th-TH
+หา ตั๋วสองใบ ของ รถไฟ ใน วันอังคาร ไป กรุงเทพ	[IN:transport_ticket [SL:transport_type รถไฟ] [SL:date วันอังคาร] [SL:place_name กรุงเทพ] ]	transport	th-TH
+สภาพการจราจรจาก ที่ทำงาน ถึง บ้าน เป็นอย่างไรบ้าง	[IN:transport_traffic [SL:place_name บ้าน] ]	transport	th-TH
+บอก หน่อยที่นี่จนถึง บ้าน รถติดมั้ย	[IN:transport_traffic [SL:place_name บ้าน] ]	transport	th-TH
+จอง แท็กซี่	[IN:transport_taxi [SL:transport_type แท็กซี่] ]	transport	th-TH
+เที่ยวเดินรถ และราคา ค่าโดยสาร	[IN:transport_ticket ]	transport	th-TH
+ใน เชียงใหม่ รถติดมากมั้ย	[IN:transport_traffic [SL:place_name เชียงใหม่] ]	transport	th-TH
+จอง แท็กซี่ไปสนามบินพรุ่งนี้เช้า	[IN:transport_taxi ]	transport	th-TH
+อยากรู้สภาพการจราจร	[IN:transport_traffic ]	transport	th-TH
+จอง แท็กซี่ ที่ ใกล้ที่สุด ให้ฉันหน่อย	[IN:transport_taxi [SL:transport_type แท็กซี่] ]	transport	th-TH
+ฉันจะไป จันทบุรี ได้อย่างไร	[IN:transport_query [SL:place_name จันทบุรี] ]	transport	th-TH
+เรียก อูเบอร์ ให้ฉันหร่อย	[IN:transport_taxi [SL:transport_agency อูเบอร์] ]	transport	th-TH
+จอง แท็กซี่	[IN:transport_taxi [SL:transport_type แท็กซี่] ]	transport	th-TH
+ซื้อตั๋ว รถไฟ เที่ยวสุดท้ายกลับ เชียงใหม่ อีกครั้ง	[IN:transport_ticket [SL:transport_type รถไฟ] [SL:place_name เชียงใหม่] ]	transport	th-TH
+ซื้อ ตั๋ว รถไฟ วันนี้ ไป กรุงเทพ ให้ฉันที	[IN:transport_ticket [SL:transport_type รถไฟ] [SL:date วันนี้] [SL:place_name กรุงเทพ] ]	transport	th-TH
+เส้นทางไป บิ๊กซี ที่ใกล้ที่สุด	[IN:transport_query [SL:business_name บิ๊กซี] ]	transport	th-TH
+ขอทราบสภาพการจราจรตอนนี้เป็นยังไงบ้าง	[IN:transport_traffic ]	transport	th-TH
+เวลาเดิน รถไฟ ขบวน กรุงเทพ เชียงใหม่ คืออะไร	[IN:transport_query [SL:transport_type รถไฟ] [SL:place_name กรุงเทพ เชียงใหม่] ]	transport	th-TH
+จาก กรุงเทพ ไป เชียงใหม่ ยังไง	[IN:transport_query [SL:place_name กรุงเทพ] [SL:place_name เชียงใหม่] ]	transport	th-TH
+การจราจรจาก บ้าน ไป ที่ทำงาน เป็นยังไงบ้าง	[IN:transport_traffic [SL:place_name บ้าน] ]	transport	th-TH
+หารถ	[IN:transport_taxi ]	transport	th-TH
+รถไฟ ไป เชียงใหม่ รอบที่ ยี่สิบสาม ออกกี้โมง	[IN:transport_query [SL:transport_type รถไฟ] [SL:place_name เชียงใหม่] [SL:date ยี่สิบสาม] ]	transport	th-TH
+ซื้อ ตั๋วรถไฟ	[IN:transport_ticket ]	transport	th-TH
+ต้องการ แท็กซี่พรุ่งนี้แปดโมงเช้า	[IN:transport_taxi ]	transport	th-TH
+จองตั๋วออกเดินทาง ตอนเช้า	[IN:transport_ticket [SL:timeofday ตอนเช้า] ]	transport	th-TH
+หาคนขับ แกร็บ ที่ว่าง คืนนี้ หลัง สี่ทุ่ม	[IN:transport_taxi [SL:transport_agency แกร็บ] [SL:timeofday คืนนี้] [SL:time สี่ทุ่ม] ]	transport	th-TH
+รถไฟ ไป เชียงใหม่ ออกกี่โมง	[IN:transport_query [SL:transport_type รถไฟ] [SL:place_name เชียงใหม่] ]	transport	th-TH
+ช่วยจอง ตั๋ว รถไฟ ไป กรุงเทพ วันอังคาร หน้า ให้ฉันหน่อยได้มั้ย	[IN:transport_ticket [SL:transport_type รถไฟ] [SL:place_name กรุงเทพ] [SL:date วันอังคาร] ]	transport	th-TH
+รถไฟ ออกเดินทางจาก กรุงเทพ ตอนกี่โมง	[IN:transport_query [SL:transport_type รถไฟ] [SL:place_name กรุงเทพ] ]	transport	th-TH
+รถไฟ อุตราวิถี ขบวนถัดไปที่ไป เชียงใหม่ คือเมื่อไหร่	[IN:transport_query [SL:transport_type รถไฟ] [SL:place_name เชียงใหม่] ]	transport	th-TH
+หาเบอร์สำหรับ บริการรถแท็กซี่ ในท้องถิ่น ให้ฉันหน่อย	[IN:transport_taxi [SL:business_type บริการรถแท็กซี่] ]	transport	th-TH
+ขอเส้นทางไป ที่ทำงาน	[IN:transport_query ]	transport	th-TH
+ขอเส้นทางไป สวนสยาม	[IN:transport_query [SL:place_name สวนสยาม] ]	transport	th-TH
+ฉันต้องการไปที่นั่น เรียก แท็กซี่	[IN:transport_taxi [SL:transport_type แท็กซี่] ]	transport	th-TH
+ฉันต้องการรายการราคา ตั๋ว รถไฟ ทั้งหมด สำหรับ ตำแหน่ง นี้	[IN:transport_query [SL:transport_type รถไฟ] ]	transport	th-TH
+ฉันต้องการไป กรุงเทพ จอง ตั๋ว รถไฟ ให้ที	[IN:transport_ticket [SL:place_name กรุงเทพ] [SL:transport_type รถไฟ] ]	transport	th-TH
+เวลาเดิน รถไฟ จาก กรุงเทพ ไป เชียงใหม่ มีอะไรบ้าง	[IN:transport_query [SL:transport_type รถไฟ] [SL:place_name กรุงเทพ] [SL:place_name เชียงใหม่] ]	transport	th-TH
+ซื้อตั๋ว รถไฟ ไป เชียงใหม่ ให้หน่อย	[IN:transport_ticket [SL:transport_type รถไฟ] [SL:place_name เชียงใหม่] ]	transport	th-TH
+ตํ๋ รถไฟ ราคาเท่าไหร่	[IN:transport_query [SL:transport_type รถไฟ] ]	transport	th-TH
+กรุณาส่งข้อมูลเกี่ยวกับการจัดซื้อตั๋ว รถไฟ ไป กรุงเทพ ได้อย่างไรมาให้ฉัน	[IN:transport_query [SL:transport_type รถไฟ] [SL:place_name กรุงเทพ] ]	transport	th-TH
+ขอตาราง รถไฟ ที่ไป เชียงใหม่ หน่อย	[IN:transport_query [SL:transport_type รถไฟ] [SL:place_name เชียงใหม่] ]	transport	th-TH
+จอง ตั๋ว รถไฟ ไป เชียงใหม่ พรุ่งนี้ เช้า ก่อน สิบโมง ให้ฉันหน่อย	[IN:transport_ticket [SL:transport_type รถไฟ] [SL:place_name เชียงใหม่] [SL:date พรุ่งนี้] [SL:time สิบโมง] ]	transport	th-TH
+ฉันอยากจะไป ธนาคารกรุงเทพ ขอเส้นทางให้ฉัน	[IN:transport_query [SL:business_name ธนาคารกรุงเทพ] ]	transport	th-TH
+ช่วย สั่งจอง ตั๋ว รถไฟ หนึ่งใบ ไป เชียงใหม่	[IN:transport_ticket [SL:transport_type รถไฟ] [SL:place_name เชียงใหม่] ]	transport	th-TH
+ต้องการ แท็กซี่ ไป ที่ทำงาน พรุ่งนี้ ตอน แปดโมง เช้า	[IN:transport_taxi [SL:transport_type แท็กซี่] [SL:date พรุ่งนี้] [SL:time แปดโมง] [SL:timeofday เช้า] ]	transport	th-TH
+การจราจรปัจจุบัน	[IN:transport_traffic ]	transport	th-TH
+เวลา รถไฟ สำหรับ	[IN:transport_query [SL:transport_type รถไฟ] ]	transport	th-TH
+เช็คการจราจรไปที่ บ้านของเรา ตอนนี้	[IN:transport_traffic ]	transport	th-TH
+รถติดหนักมั้ย	[IN:transport_traffic ]	transport	th-TH
+ซื้อตั๋ว รถไฟ ไป เชียงใหม่	[IN:transport_ticket [SL:transport_type รถไฟ] [SL:place_name เชียงใหม่] ]	transport	th-TH
+อำเภอเมือง เชียงใหม่ มักจะมีการจราจรมากแค่ไหน	[IN:transport_traffic [SL:place_name อำเภอเมือง เชียงใหม่] ]	transport	th-TH
+จอง ตั๋ว รถไฟ สำหรับ เวลา นี้	[IN:transport_ticket [SL:transport_type รถไฟ] ]	transport	th-TH
+เรียก แกร็บ	[IN:transport_taxi [SL:transport_agency แกร็บ] ]	transport	th-TH
+หารถไป บิ๊กซี	[IN:transport_taxi [SL:place_name บิ๊กซี] ]	transport	th-TH
+เรียนก แท็กซี่ มารับฉันตอนนี้	[IN:transport_taxi [SL:transport_type แท็กซี่] ]	transport	th-TH
+มี ปัญหา การจราจร อะไรบ้างหรือไม่	[IN:transport_traffic ]	transport	th-TH
+เส้นทางไป แมคโดนัลด์ ที่ ใกล้ที่สุด	[IN:transport_query [SL:business_name แมคโดนัลด์] ]	transport	th-TH
+เข้าไป ในเมือง ต้องใช้ถนนอะไร	[IN:transport_query [SL:place_name ในเมือง] ]	transport	th-TH
+ฉันอยากซื้อตั๋ว รถไฟ	[IN:transport_ticket [SL:transport_type รถไฟ] ]	transport	th-TH
+จอง ตั๋ว รถไฟ ไป	[IN:transport_ticket [SL:transport_type รถไฟ] ]	transport	th-TH
+ตั๋ว รถไฟ ไป กรุงเทพ ราคาเท่าไหร่	[IN:transport_query [SL:transport_type รถไฟ] [SL:place_name กรุงเทพ] ]	transport	th-TH
+ขอ แท็กซี่ จาก แกร็บแท็กซี่	[IN:transport_taxi [SL:transport_type แท็กซี่] [SL:business_name แกร็บแท็กซี่] ]	transport	th-TH
+เช้านี้ จราจรเป็นยังไงบ้าง	[IN:transport_traffic ]	transport	th-TH
+สภาพการจราจรเป็นยังไงบ้างตอนนี้	[IN:transport_traffic ]	transport	th-TH
+การจราจร ใกล้ ฉันเป็นยังไงบ้าง	[IN:transport_traffic ]	transport	th-TH
+การจราจรปัจจุบันใน เชียงใหม่ เป็นยังไง	[IN:transport_traffic [SL:place_name เชียงใหม่] ]	transport	th-TH
+ลิสต์ เวลา รถไฟ ไป กรุงเทพ	[IN:transport_query [SL:transport_type รถไฟ] [SL:place_name กรุงเทพ] ]	transport	th-TH
+แสดง รถไฟ ทุกขบวน และเวลาเดินทางไป กรุงเทพ	[IN:transport_query [SL:transport_type รถไฟ] [SL:place_name กรุงเทพ] ]	transport	th-TH
+หา ตั๋ว รถไฟ ไป กรุงเทพ วันนี้ ให้ฉันหน่อย	[IN:transport_ticket [SL:transport_type รถไฟ] [SL:place_name กรุงเทพ] [SL:date วันนี้] ]	transport	th-TH
+ทางที่เร็วที่สุดไปยัง สถานีรถไฟหัวลำโพง คืออะไร	[IN:transport_query ]	transport	th-TH
+เปิด แอป irctc และไปจองตั๋ว	[IN:transport_ticket [SL:app_name irctc] ]	transport	th-TH
+จอง ตั๋ว รถไฟ ไป กรุงเทพ ให้ฉันที	[IN:transport_ticket [SL:transport_type รถไฟ] [SL:place_name กรุงเทพ] ]	transport	th-TH
+จองรถ แท็กซี่ ไปรับที่ตำแหน่งปัจจุบันของฉันในเวลา หนึ่งชั่วโมง	[IN:transport_taxi [SL:transport_type แท็กซี่] [SL:time หนึ่งชั่วโมง] ]	transport	th-TH
+วันนี้ เส้นทางไหนรถน้อย	[IN:transport_traffic [SL:date วันนี้] ]	transport	th-TH
+จอง ตั๋ว รถไฟ ไป กรุงเทพ	[IN:transport_ticket [SL:transport_type รถไฟ] [SL:place_name กรุงเทพ] ]	transport	th-TH
+เรียก แท็กซี่ มารับที่ สนามบินวันศุกร์ตีห้าครึ่ง	[IN:transport_taxi [SL:transport_type แท็กซี่] ]	transport	th-TH
+หาที่นั่งบน รถไฟ จาก กรุงเทพ ไป เชียงใหม่ ให้ฉันหน่อย	[IN:transport_ticket [SL:transport_type รถไฟ] [SL:place_name กรุงเทพ] [SL:place_name เชียงใหม่] ]	transport	th-TH
+ช่วยลงรายการรถไฟที่ไป เชียงใหม่ วันรุ่งขึ้น ได้มั้ย	[IN:transport_query [SL:place_name เชียงใหม่] [SL:date วันรุ่งขึ้น] ]	transport	th-TH
+ถนนในบางพื้นที่จะกว้างหรือแคบหรือไม่	[IN:transport_traffic ]	transport	th-TH
+จองที่นั่งให้ฉันบน รถไฟ ยี่สิบ มีนาคม	[IN:transport_ticket [SL:transport_type รถไฟ] [SL:date ยี่สิบ มีนาคม] ]	transport	th-TH
+ขอดูตาราง รถไฟ ของ รถไฟอุตราวิถี	[IN:transport_query [SL:transport_type รถไฟ] [SL:transport_name รถไฟอุตราวิถี] ]	transport	th-TH
+จอง แท็กซี่ คันถัดไป	[IN:transport_taxi [SL:transport_type แท็กซี่] ]	transport	th-TH
+เปิด แอปอูเบอร์ แล้ว เรียก รถ ให้หน่อย	[IN:transport_taxi [SL:transport_type รถ] ]	transport	th-TH
+เฮ้ ฉันจะขึ้น รถไฟ ขบวน ที่ใกล้ที่สุด ได้ตอนกี่โมง	[IN:transport_query [SL:transport_type รถไฟ] ]	transport	th-TH
+หาคำจำกัดความ	[IN:qa_definition ]	qa	th-TH
+ใครคือประธานาธิบดีของ มาเลเซีย	[IN:qa_factoid [SL:place_name มาเลเซีย] ]	qa	th-TH
+โครเอเชีย ใช้สกุลเงินอะไร	[IN:qa_currency [SL:place_name โครเอเชีย] ]	qa	th-TH
+ยีราฟสูงแค่ไหน	[IN:qa_factoid ]	qa	th-TH
+คุณจะใช้คำว่า ไม่สะดวก ในสถานการณ์แบบไหน	[IN:qa_definition [SL:definition_word ไม่สะดวก] ]	qa	th-TH
+คำนวณความต้านทานของตัวต้านทานนี้	[IN:qa_factoid ]	qa	th-TH
+กูเกิ้ล	[IN:qa_maths ]	qa	th-TH
+ศูนย์การท่องเว็บ	[IN:qa_maths ]	qa	th-TH
+ช่วยบอกคำจำกัดความสั้นสั้นของคำว่า การอพยพ ให้ฉันหน่อย	[IN:qa_definition [SL:definition_word การอพยพ] ]	qa	th-TH
+เธอคิดว่าการเดินทางข้ามเวลาเป็นไปได้ไหม	[IN:general_quirky ]	general	th-TH
+บี น้ำทิพย์ อายุเท่าไหร่	[IN:qa_factoid [SL:person บี น้ำทิพย์] ]	qa	th-TH
+ส่งจดหมายอิเล็กทรอนิกส์ ถึง เพื่อน	[IN:email_sendemail ]	email	th-TH
+อธิบายให้ฟังหน่อยว่าแต่ละประเทศแตกต่างกันอย่างไรบ้างในหนังสือเรื่อง book of revelation	[IN:general_quirky ]	general	th-TH
+สามคูณเจ็ดได้เท่าไหร่	[IN:qa_maths ]	qa	th-TH
+ฉันทำอะไรทานดี คืนนี้	[IN:general_quirky [SL:timeofday คืนนี้] ]	general	th-TH
+บอกหน่อยว่าจะเกิดอะไรขึ้นเมื่อเราตาย	[IN:general_quirky ]	general	th-TH
+พจน์ อานนท์ มาจากจังหวัดอะไร	[IN:qa_factoid [SL:person พจน์ อานนท์] ]	qa	th-TH
+จัดวันสำหรับแค่คุณกับผม	[IN:general_quirky ]	general	th-TH
+รากที่สองของสี่สิบสองคืออะไร	[IN:qa_maths ]	qa	th-TH
+บอกฉันทีว่าทำไม เท่ง เถิดเทิง ถึงเป็นตลกที่ดีกว่า หม่ำ จ๊กม๊ก	[IN:qa_factoid [SL:person เท่ง เถิดเทิง] [SL:person หม่ำ จ๊กม๊ก] ]	qa	th-TH
+บอกชื่อกลางของ เคน ธีรเดช มีกับฉันที	[IN:qa_factoid [SL:person เคน ธีรเดช] ]	qa	th-TH
+คำว่า ยีราฟ สะกดยังไง	[IN:qa_definition [SL:definition_word ยีราฟ] ]	qa	th-TH
+คุณพูดคำว่า อสูร ได้มั้ย	[IN:qa_definition [SL:definition_word อสูร] ]	qa	th-TH
+อะไรคืออาคารที่ยาวที่สุดใน โลก	[IN:qa_factoid [SL:place_name โลก] ]	qa	th-TH
+คุณได้ยินเพลงของ ทรีแมนดาวน์ ไหม	[IN:music_query [SL:artist_name ทรีแมนดาวน์] ]	music	th-TH
+การประชุม กับ เพื่อนร่วมงาน ของฉัน	[IN:calendar_set [SL:event_name การประชุม] [SL:relation เพื่อนร่วมงาน] ]	calendar	th-TH
+ดาราที่แสดงดี	[IN:qa_definition ]	qa	th-TH
+ช่วยเอาข้อมูลเกี่ยวกับหนังเรื่องต่อไปของ พจน์ อานนท์ ให้ฉันที	[IN:qa_factoid [SL:person พจน์ อานนท์] ]	qa	th-TH
+ไม่มี	[IN:qa_factoid ]	qa	th-TH
+คุณโกหกได้หรือเปล่า	[IN:general_quirky ]	general	th-TH
+เฮอริเคน คืออะไร	[IN:qa_definition [SL:definition_word เฮอริเคน] ]	qa	th-TH
+google หาคำ	[IN:qa_definition ]	qa	th-TH
+คำนวณระยะทางระหว่าง เชียงใหม่ กับ กรุงเทพ	[IN:qa_factoid [SL:place_name เชียงใหม่] [SL:place_name กรุงเทพ] ]	qa	th-TH
+แก้การคำนวณ	[IN:qa_maths ]	qa	th-TH
+กรุงเทพ มีประชากรเท่าไหร่	[IN:qa_factoid [SL:place_name กรุงเทพ] ]	qa	th-TH
+ภาษาแม่ของเธอคือภาษาอะไร	[IN:general_quirky ]	general	th-TH
+คริส หอวัง อายุเท่าไหร่	[IN:qa_factoid [SL:person คริส หอวัง] ]	qa	th-TH
+โอมจงเงยขึ้นมา เงยขึ้นมา เงยขึ้นมา เออเออเอิง เงยขึ้นมามองตาฉันสักหน่อย โอมจงเงย	[IN:general_quirky ]	general	th-TH
+ถ้ามันมีสิบขั้นตอนที่จะทำให้ฉันรวยได้ มันคืออะไรบ้าง	[IN:general_quirky ]	general	th-TH
+สัตว์ที่มีขนาดใหญ่ที่สุด	[IN:qa_factoid ]	qa	th-TH
+ตึกที่สูงที่สุด	[IN:qa_factoid ]	qa	th-TH
+บ้านเกิด ของตูน บอดี้สแลม คือที่ไหน	[IN:qa_factoid [SL:person ของตูน บอดี้สแลม] ]	qa	th-TH
+ตำแหน่ง ของฉัน คืออะไร	[IN:general_quirky ]	general	th-TH
+ด้วยข้อมูลทั้งหมดที่คุณสามารถรวบรวมได้จากอินเทอร์เน็ต ช่วยหาคำอธิบายที่ดีที่สุดกับฉันว่า ใครเป็นคนฆ่าประธานาธิบดีเคนเนดี้	[IN:qa_factoid ]	qa	th-TH
+ผมอยากเขียน ข้อความ โรแมนติก ถึง ภรรยา ของผม	[IN:general_quirky [SL:relation ภรรยา] ]	general	th-TH
+เล่า เรื่อง รามเกียรติ์ ตอนหนุมานหักฉัตร ให้ฉันฟังหน่อย	[IN:qa_factoid [SL:person รามเกียรติ์] ]	qa	th-TH
+คำถามต่อไปนี้ ต้องการให้คุณวิเคราะห์เป้าหมายของครู และจุดมุ่งหมายของการกระทำ	[IN:qa_factoid ]	qa	th-TH
+ใครคือนักร้อง ฮิปฮอป ที่ยิ่งใหญ่ที่สุด	[IN:qa_factoid [SL:music_genre ฮิปฮอป] ]	qa	th-TH
+ลักลั่นย้อนแย้ง หมายถึงอะไร	[IN:qa_definition [SL:definition_word ลักลั่นย้อนแย้ง] ]	qa	th-TH
+ขอคำจำกัดความของ ลักลั่นย้อนแย้ง	[IN:qa_definition [SL:definition_word ลักลั่นย้อนแย้ง] ]	qa	th-TH
+ตอบคำถามนี้ ใครคือบอสคนแรกในเกมส์ ซูเปอร์มาริโอบราเธอส์	[IN:general_quirky ]	general	th-TH
+ใช้ในประโยค	[IN:qa_definition ]	qa	th-TH
+คำตอบของสองบวกสองคืออะไร	[IN:qa_maths ]	qa	th-TH
+แปล หักเลี้ยว	[IN:qa_definition [SL:definition_word หักเลี้ยว] ]	qa	th-TH
+เวลาให้คำจำกัดความ ต้องให้อรรถาภิธานและใช้คำในประโยคเพื่อทำให้ชัดเจนยิ่งขึ้น	[IN:general_quirky ]	general	th-TH
+ใครคือนักกีฬาฮอกกี้ห้าอันดับแรกที่มีคะแนนสูงที่สุดตลอดกาล	[IN:general_quirky ]	general	th-TH
+พระยามโนปกรณ์นิติธาดา เกิดเมื่อไหร่	[IN:qa_factoid [SL:person พระยามโนปกรณ์นิติธาดา] ]	qa	th-TH
+ใครคือผู้ว่า กรุงเทพ	[IN:qa_factoid [SL:place_name กรุงเทพ] ]	qa	th-TH
+คำจำกัดความของ ลักลั่นย้อนแย้ง คืออะไร	[IN:qa_definition [SL:definition_word ลักลั่นย้อนแย้ง] ]	qa	th-TH
+อัตราการยอมรับ ของประยุทธ์	[IN:qa_factoid [SL:person ของประยุทธ์] ]	qa	th-TH
+ช่วยบอกฉันได้มั้ย ว่าจะหาคำตอบได้อย่างไร	[IN:general_quirky ]	general	th-TH
+ทำโจทย์เลข	[IN:qa_maths ]	qa	th-TH
+มีสิ่งมีชีวิตบนดาวดวงอื่นหรือเปล่า	[IN:general_quirky ]	general	th-TH
+เธอชอบสีอะไร	[IN:general_quirky ]	general	th-TH
+คุณคิดยังไงเกี่ยวกับกฎสามข้อของหุ่นยนต์	[IN:general_quirky ]	general	th-TH
+บอก สี นำโชค ของ วันนี้	[IN:general_quirky [SL:date วันนี้] ]	general	th-TH
+อ่าน นิทานเวตาล ให้ฉัน	[IN:general_quirky ]	general	th-TH
+มีความสัมพันธ์ระหว่างสภาพอากาศใน นครพนม กับ แนสแด็ก ในช่วง อาทิตย์ที่แล้ว หรือไม่	[IN:general_quirky [SL:place_name นครพนม] [SL:date อาทิตย์ที่แล้ว] ]	general	th-TH
+ตูน บอดี้สแลม เป็นลูกคนเดียวหรือเปล่า	[IN:qa_factoid [SL:person ตูน บอดี้สแลม] ]	qa	th-TH
+ช่วยค้นหา คำ นี้ ที	[IN:qa_definition ]	qa	th-TH
+ทำไมท้องฟ้าถึงเป็นสีฟ้า	[IN:qa_factoid ]	qa	th-TH
+ยี่สิบสี่คูณยี่สิบสี่เท่ากับเท่าไหร่	[IN:qa_maths ]	qa	th-TH
+วันโลกยาวนานแค่ไหน	[IN:qa_factoid ]	qa	th-TH
+ฉันหวังว่าเราจะทาน อาหารกลางวัน ด้วยกันได้	[IN:general_quirky [SL:meal_type อาหารกลางวัน] ]	general	th-TH
+สมาชิกวง บอดี้สแลม มีใครบ้าง	[IN:qa_factoid [SL:artist_name บอดี้สแลม] ]	qa	th-TH
+โลกจะมีวันสิ้นสุดไหม เมื่อไหร่	[IN:general_quirky ]	general	th-TH
+เครียด แปลว่าอะไร	[IN:qa_definition [SL:definition_word เครียด] ]	qa	th-TH
+ตอนนี้แฟนผมอยู่ที่ไหน	[IN:general_quirky ]	general	th-TH
+ค้นหาคำจำกัดความของ รถพยาบาล	[IN:qa_definition [SL:definition_word รถพยาบาล] ]	qa	th-TH
+เยลลี่ช็อตปราศจากแคลอรี่หรือเปล่า	[IN:qa_factoid ]	qa	th-TH
+ช่วยหาที่ที่ถูกที่สุดที่ขายเนื้อบดหน่อย	[IN:recommendation_locations ]	recommendation	th-TH
+มันฝรั่ง หมายถึงอะไร	[IN:qa_definition [SL:definition_word มันฝรั่ง] ]	qa	th-TH
+บอกเรื่องจริงที่น่าสนใจเกี่ยวกับอันนี้ให้ฉันฟังหน่อย	[IN:general_quirky ]	general	th-TH
+ไปเที่ยวอีกทีเมื่อไหร่	[IN:general_quirky ]	general	th-TH
+อัตราแลกเปลี่ยนระหว่างเงิน ดอลลาร์ และ บาท เป็นเท่าไหร่ในปัจจุบัน	[IN:qa_currency [SL:currency_name ดอลลาร์] [SL:currency_name บาท] ]	qa	th-TH
+นิยาม เค้าโครง	[IN:qa_definition [SL:definition_word เค้าโครง] ]	qa	th-TH
+อธิบาย มันฝรั่ง	[IN:qa_definition [SL:definition_word มันฝรั่ง] ]	qa	th-TH
+อะเดลถูกจัดอันดับเป็นระดับเพชรมาแล้วกี่ครั้ง	[IN:qa_factoid ]	qa	th-TH
+บอกฉันว่าสิ่งที่แปลกประหลาดที่สุดที่เกิดขึ้นในโลก วันนี้ คืออะไร	[IN:general_quirky [SL:date วันนี้] ]	general	th-TH
+ตอนนี้กี่โมงแล้ว	[IN:datetime_query ]	datetime	th-TH
+ต้นฉบับ แปลว่าอะไร	[IN:qa_definition [SL:definition_word ต้นฉบับ] ]	qa	th-TH
+ฉันอยากไปเที่ยว สวิสเซอร์แลนด์ แบบอิสระพาฉันไปที่นั่นได้ไหม	[IN:general_quirky [SL:place_name สวิสเซอร์แลนด์] ]	general	th-TH
+อัตราแลกเปลี่ยนระหว่างเงิน เยน กับ ดอลลาร์สหรัฐ คืออะไร	[IN:qa_currency [SL:currency_name เยน] [SL:currency_name ดอลลาร์สหรัฐ] ]	qa	th-TH
+มี่กี่ไมล์ในห้ากิโลเมตร	[IN:qa_maths ]	qa	th-TH
+รฐา โพธิ์งาม อายุเท่าไหร่	[IN:qa_factoid [SL:person รฐา โพธิ์งาม] ]	qa	th-TH
+แม่อาย เชียงใหม่ อยู่ที่ไหน	[IN:qa_factoid [SL:place_name แม่อาย เชียงใหม่] ]	qa	th-TH
+ทักษิณ ทำอะไรอยู่ตอนนี้	[IN:qa_factoid [SL:person ทักษิณ] ]	qa	th-TH
+อะไรคือ เสาสัญญาณ	[IN:qa_definition [SL:definition_word เสาสัญญาณ] ]	qa	th-TH
+ปอนด์ เป็นกี่ ฟรัง	[IN:qa_currency [SL:currency_name ปอนด์] [SL:currency_name ฟรัง] ]	qa	th-TH
+กรุงเทพ ห่างจาก เชียงใหม่ กี่กิโลเมตร	[IN:qa_factoid [SL:place_name กรุงเทพ] [SL:place_name เชียงใหม่] ]	qa	th-TH
+อัตราและเปลี่ยนจาก ดอลลาร์ เป็น ดอลลาร์แคนาดา เท่าไร	[IN:qa_currency [SL:currency_name ดอลลาร์] [SL:currency_name ดอลลาร์แคนาดา] ]	qa	th-TH
+รู้อะไรบ้างเกี่ยวกับ เทพีเสรีภาพ	[IN:qa_definition [SL:definition_word เทพีเสรีภาพ] ]	qa	th-TH
+อัตราแลกเปลียนเงินของ อเมริกา กับเงินของ จีน คืออะไร	[IN:qa_currency [SL:place_name อเมริกา] [SL:place_name จีน] ]	qa	th-TH
+ขอ ข้อมูล เกี่ยวกับ	[IN:qa_definition ]	qa	th-TH
+ระดับความสูงเฉลี่ยของประเทศสหรัฐอเมริกาคืออะไร	[IN:qa_factoid ]	qa	th-TH
+อัตราแลกเปลี่ยนระหว่าง ไทย กับ อินเดีย คืออะไร	[IN:qa_currency [SL:currency_name ไทย] [SL:currency_name อินเดีย] ]	qa	th-TH
+มีคนอาศัยอยู่ใน บางนา กี่คน	[IN:qa_factoid [SL:place_name บางนา] ]	qa	th-TH
+สิริ หนึ่ง ไทย บาท เป็น จีน หยวน	[IN:qa_currency [SL:currency_name ไทย บาท] [SL:currency_name จีน หยวน] ]	qa	th-TH
+กรรชัย กำเนิดพลอย เกิดปีอะไร	[IN:qa_factoid [SL:person กรรชัย กำเนิดพลอย] ]	qa	th-TH
+บอกฉันเกี่ยวกับ เห็ดหูหนู	[IN:qa_definition [SL:definition_word เห็ดหูหนู] ]	qa	th-TH
+ราคาหุ้นที่ แมคโคร	[IN:qa_stock [SL:business_name แมคโคร] ]	qa	th-TH
+ศาสนาใดเป็นความจริงที่สุด	[IN:general_quirky ]	general	th-TH
+ชลบุรี และ นครนายก ห่างกันเท่าไร	[IN:qa_factoid [SL:place_name ชลบุรี] [SL:place_name นครนายก] ]	qa	th-TH
+ทักษิณ อายุเท่าไหร่	[IN:qa_factoid [SL:person ทักษิณ] ]	qa	th-TH
+เคน ธีรเดช เคยได้รับรางวัลออสการ์หรือเปล่า	[IN:qa_factoid [SL:person เคน ธีรเดช] ]	qa	th-TH
+บอกอัตราแลกเปลี่ยนเงิน เยน ให้ฉันรู้	[IN:qa_currency [SL:currency_name เยน] ]	qa	th-TH
+ดอลลาร์สหรัฐ ต่อ บาท คือเท่าไหร่	[IN:qa_currency [SL:currency_name ดอลลาร์สหรัฐ] [SL:currency_name บาท] ]	qa	th-TH
+ช่วยแสดงอัตราการแลกเปลี่ยนระหว่างเงิน ดอลลาร์ และเงิน เยน ให้ฉันดูหน่อย	[IN:qa_currency [SL:currency_name ดอลลาร์] [SL:currency_name เยน] ]	qa	th-TH
+ความหมายของ โฮมรัน คืออะไร	[IN:qa_definition [SL:definition_word โฮมรัน] ]	qa	th-TH
+ทักษิณ ชินวัตร อายุเท่าไหร่	[IN:qa_factoid [SL:person ทักษิณ ชินวัตร] ]	qa	th-TH
+ฉันต้องหาอะไรให้เด็กเล็กสองคนทำ บอกฉันทีว่าจะต้องทำยังไง	[IN:general_quirky ]	general	th-TH
+ขออัตราแลกเปลี่ยนเงินดอลลาร์เป็นรูปีให้ฉันหน่อยได้มั้ย	[IN:qa_factoid ]	qa	th-TH
+พูดถึง ไฟสวนพลังงานแสงอาทิตย์	[IN:qa_definition [SL:definition_word ไฟสวนพลังงานแสงอาทิตย์] ]	qa	th-TH
+เมืองที่ใหญ่ที่สุดใน แม่ฮ่องสอน คือที่ไหน	[IN:qa_factoid [SL:place_name แม่ฮ่องสอน] ]	qa	th-TH
+คำอธิบายของ เครื่องวีอาร์ คืออะไร	[IN:qa_definition [SL:definition_word เครื่องวีอาร์] ]	qa	th-TH
+ฉันมีการจับคู่ใหม่ใน tinder มั้ย	[IN:calendar_query ]	calendar	th-TH
+กล้วย มีลักษณะอย่างไร	[IN:qa_definition [SL:definition_word กล้วย] ]	qa	th-TH
+ใครคือ ประยุทธ์ จันทร์โอชา	[IN:qa_factoid [SL:person ประยุทธ์ จันทร์โอชา] ]	qa	th-TH
+ลาว อยู่ที่ไหน	[IN:qa_factoid [SL:place_name ลาว] ]	qa	th-TH
+อะไรคือ ขุนยวม	[IN:qa_factoid [SL:place_name ขุนยวม] ]	qa	th-TH
+ภูภูมิ พงศ์ภาณุ เกิดเมื่อไหร่	[IN:qa_factoid [SL:person ภูภูมิ พงศ์ภาณุ] ]	qa	th-TH
+ทวีต หมายถึงอะไร	[IN:qa_definition [SL:definition_word ทวีต] ]	qa	th-TH
+เลย ตั้งอยู่ที่ไหน	[IN:qa_factoid [SL:place_name เลย] ]	qa	th-TH
+ชัยชนะ แปลว่าอะไร	[IN:qa_definition [SL:definition_word ชัยชนะ] ]	qa	th-TH
+จังหวัดไหนอยู่เหนือสุด	[IN:qa_factoid ]	qa	th-TH
+สโตนเฮนจ์ อยู่ที่ไหน	[IN:qa_factoid ]	qa	th-TH
+ฉันต้องการราคาหุ้นของ ลาซาด้า	[IN:qa_stock [SL:business_name ลาซาด้า] ]	qa	th-TH
+อัตราเงิน บาท เป็นเท่าไหร่	[IN:qa_currency [SL:currency_name บาท] ]	qa	th-TH
+สามเหลี่ยมเบอร์มิวดาคืออะไร	[IN:qa_factoid ]	qa	th-TH
+อัตราแลกเปลี่ยนของ เปโซฟิลิปปินส์ คืออะไร	[IN:qa_currency [SL:currency_name เปโซฟิลิปปินส์] ]	qa	th-TH
+ราคาหุ้นปัจจุบันของ facebook คืออะไร	[IN:qa_stock [SL:business_name facebook] ]	qa	th-TH
+แสดงประวัติของ แคทลียา อิงลิช	[IN:qa_factoid [SL:artist_name แคทลียา อิงลิช] ]	qa	th-TH
+เงิน บาท คิดเป็นกี่ หยวน	[IN:qa_currency [SL:currency_name บาท] [SL:currency_name หยวน] ]	qa	th-TH
+ขอ วันเกิด ของ มหาตมะคานธี ให้ฉันที	[IN:qa_factoid [SL:event_name วันเกิด] [SL:person มหาตมะคานธี] ]	qa	th-TH
+กางเกงแบบไหนคือกางเกงสามส่วน	[IN:qa_factoid ]	qa	th-TH
+ลองดูในวิกิพีเดีย	[IN:qa_definition ]	qa	th-TH
+ออลลี่ ดอลลาร์ มีค่ามากกว่าหรือน้อยกว่าใน บราซิล	[IN:qa_currency [SL:currency_name ดอลลาร์] [SL:place_name บราซิล] ]	qa	th-TH
+เสื้อเชิ้ต มีลักษณะอย่างไร	[IN:qa_definition [SL:definition_word เสื้อเชิ้ต] ]	qa	th-TH
+ถามที่ปรึกษาของฉัน	[IN:qa_stock ]	qa	th-TH
+ดัชนีอุตสาหกรรมดาวโจนส์ อยู่ที่เท่าไหร่ วันนี้	[IN:qa_stock [SL:date วันนี้] ]	qa	th-TH
+ช่วยบอกฉันทีว่าฉันจะร่ำรวยได้เมื่อไหร่ หากว่าฉันลงทุนซื้อหุ้นดัชนีอุตสาหกรรมดาวโจนส์วันนี้ และผลตอบแทนหลังจากห้าปีจะคิดเป็นเงินเท่าไหร่	[IN:qa_stock ]	qa	th-TH
+ตูน บอดี้สแลม เกิดปีอะไร	[IN:qa_factoid [SL:person ตูน บอดี้สแลม] ]	qa	th-TH
+หาโลเคชั่นของสถานที่ต่างต่าง	[IN:recommendation_locations ]	recommendation	th-TH
+หนึ่งฟุตมีกี่นิ้ว	[IN:qa_maths ]	qa	th-TH
+เงิน ยูโร เทียบกับ ดอลลาร์แคนาดา เป็นเท่าไหร่	[IN:qa_currency [SL:currency_name ยูโร] [SL:currency_name ดอลลาร์แคนาดา] ]	qa	th-TH
+หนัง ห้าอันดับแรก ของ คริส หอวัง	[IN:qa_factoid [SL:person คริส หอวัง] ]	qa	th-TH
+อัตราแลกเปลี่ยนระหว่าง ดอลลาร์สหรัฐ กับ ยูโร คือเท่าไหร่	[IN:qa_currency [SL:currency_name ดอลลาร์สหรัฐ] [SL:currency_name ยูโร] ]	qa	th-TH
+หกลบสี่ได้เท่าไหร่	[IN:qa_maths ]	qa	th-TH
+บอกฉันทีว่าหนึ่ง ยูโร เท่ากับกี่ ดอลลาร์	[IN:qa_currency [SL:currency_name ยูโร] [SL:currency_name ดอลลาร์] ]	qa	th-TH
+ลาว ใหญ่ขนาดไหน	[IN:qa_factoid [SL:place_name ลาว] ]	qa	th-TH
+บอกเกี่ยวกับ เชียงใหม่	[IN:qa_factoid [SL:place_name เชียงใหม่] ]	qa	th-TH
+แสดงพืชนานาชนิดในโลก	[IN:qa_factoid ]	qa	th-TH
+วันนี้ หุ้นของ โค้ก เป็นอย่างไรบ้าง	[IN:qa_stock [SL:date วันนี้] [SL:business_name โค้ก] ]	qa	th-TH
+ใครคือภรรยาของ ประยุทธ์	[IN:qa_factoid [SL:person ประยุทธ์] ]	qa	th-TH
+ราคาปิดของหุ้นของ เดลต้า วันนี้	[IN:qa_stock [SL:business_name เดลต้า] ]	qa	th-TH
+ราคาหุ้นของ เดลต้า	[IN:qa_stock [SL:business_name เดลต้า] ]	qa	th-TH
+สมมติฐาน แปลว่าอะไร	[IN:qa_definition [SL:definition_word สมมติฐาน] ]	qa	th-TH
+เทพีเสรีภาพถูกสร้างขึ้นเมื่อไหร่	[IN:qa_factoid ]	qa	th-TH
+อำพล ลำพูน แต่งงานตอนอายุเท่าไหร่	[IN:qa_factoid [SL:person อำพล ลำพูน] ]	qa	th-TH
+ตูน บอดี้สแลม คือใคร	[IN:qa_factoid [SL:person ตูน บอดี้สแลม] ]	qa	th-TH
+อะไรคือคำจำกัดความของ เพิ่งเริ่มต้น	[IN:qa_definition [SL:definition_word เพิ่งเริ่มต้น] ]	qa	th-TH
+ตึกเอ็มไพร์สเตทสูงเท่าไหร่	[IN:qa_factoid ]	qa	th-TH
+อัตราแลกเปลี่ยนระหว่างเงิน ดอลลาร์สหรัฐ และเงิน รูปีอินเดีย คืออะไร	[IN:qa_currency [SL:currency_name ดอลลาร์สหรัฐ] [SL:currency_name รูปีอินเดีย] ]	qa	th-TH
+อธิบายสถานการณ์ทางการเมืองในปัจจุบัน	[IN:qa_factoid ]	qa	th-TH
+คริส หอวัง เกิดเมื่อไหร่	[IN:qa_factoid [SL:person คริส หอวัง] ]	qa	th-TH
+นิยามตนเองในหนึ่งคำ	[IN:general_quirky ]	general	th-TH
+ร้านอาหาร อิตาเลียน ใกล้ที่สุด อยู่ที่ไหน	[IN:recommendation_locations [SL:business_type ร้านอาหาร] [SL:food_type อิตาเลียน] ]	recommendation	th-TH
+ไส้กรอกอีสาน มีลักษณะอย่างไร	[IN:qa_definition [SL:definition_word ไส้กรอกอีสาน] ]	qa	th-TH
+พิงก์อัดอัลบั้มใหม่อยู่หรือเปล่า	[IN:qa_factoid ]	qa	th-TH
+คำจำกัดความของ ชื่อสิ่งของ	[IN:qa_definition [SL:definition_word ชื่อสิ่งของ] ]	qa	th-TH
+รถกอล์ฟ volkswagen จะมีลักษณะอย่างไร	[IN:qa_definition [SL:definition_word รถกอล์ฟ volkswagen] ]	qa	th-TH
+คุณสมบัติของ ipad air	[IN:general_quirky ]	general	th-TH
+บอกฉันถึงระยะห่างระหว่างดวงอาทิตย์กับพระจันทร์	[IN:qa_factoid ]	qa	th-TH
+หาความหมายของคำว่า โลก ในพจนานุกรม	[IN:qa_definition [SL:definition_word โลก] ]	qa	th-TH
+อะไรคือสมาร์ทโฟนที่ดีที่สุดในปีสองพันสิบเจ็ด	[IN:qa_factoid ]	qa	th-TH
+อัตราแลกเปลี่ยนที่ฉันจะได้รับด้วยสกุลเงินต่างประเทศ	[IN:qa_currency ]	qa	th-TH
+หาข้อมูลเกี่ยวกับคนนี้ให้ฉันหน่อย	[IN:general_quirky ]	general	th-TH
+โปรดบอกข้อมูลเล็กน้อยของคนนี้	[IN:general_quirky ]	general	th-TH
+ปัญหา ที่น่ากังวล ที่สุด ใน เวียดนาม วันนี้ คือ อะไร และ ทำ อะไร ได้ เพื่อ จัดการ กับ มัน อย่าง มีประสิทธิภาพ	[IN:general_quirky [SL:place_name เวียดนาม] [SL:date วันนี้] ]	general	th-TH
+ใครคือประธานาธิบดีคนที่ยี่สิบห้าของ สหรัฐอเมริกา	[IN:qa_factoid [SL:place_name สหรัฐอเมริกา] ]	qa	th-TH
+บอกฉันหน่อยว่าฉันจะไปบาหลีด้วยตั๋วเครื่องบินที่ถูกที่สุดได้อย่างไร โดยที่ไม่เกี่ยงว่าจะใช้เวลานานแค่ไหน เพราะฉันมีวันว่างเยอะมากและเงินแค่นิดเดียว	[IN:general_quirky ]	general	th-TH
+ขอคำจำกัดความของ วงจรคอมพิวเตอร์	[IN:qa_definition [SL:definition_word วงจรคอมพิวเตอร์] ]	qa	th-TH
+ราคาหุ้นของ ดีแทค มักจะ ร่วงลงเมื่อไหร่	[IN:qa_stock ]	qa	th-TH
+อธิบาย	[IN:qa_definition ]	qa	th-TH
+อธิบายว่าแรงโน้มถ่วงโลกทำงานอย่างไร	[IN:qa_factoid ]	qa	th-TH
+ตูน อาทิวราห์ และ ก้อย รัชนก แต่งงานกันเมื่อไหร่	[IN:qa_factoid [SL:person ตูน อาทิวราห์] [SL:person ก้อย รัชนก] ]	qa	th-TH
+อัตราแลกเปลี่ยนระหว่าง ดอลลาร์ กับ ยูโร	[IN:qa_currency [SL:currency_name ดอลลาร์] [SL:currency_name ยูโร] ]	qa	th-TH
+ช่วยบอกฉันได้มั้ยว่า ไฮเปอร์โทรฟี แปลว่าอะไร	[IN:qa_definition [SL:definition_word ไฮเปอร์โทรฟี] ]	qa	th-TH
+ชื่อของบริษัทค้าหุ้น	[IN:qa_stock ]	qa	th-TH
+น่าจะดีถ้าหุ่นยนต์ของฉันทำงานแทนฉันได้	[IN:general_quirky ]	general	th-TH
+ขอคำอธิบายสำหรับ วงจรคอมพิวเตอร์	[IN:qa_definition [SL:definition_word วงจรคอมพิวเตอร์] ]	qa	th-TH
+นิยาม เอ็กซ์วาย	[IN:qa_definition ]	qa	th-TH
+บอกราคาหุ้นเปิดตลาดของ apple	[IN:qa_stock [SL:business_name apple] ]	qa	th-TH
+ฉันจะหา ข้าวกล้อง ได้ที่ไหน	[IN:recommendation_locations ]	recommendation	th-TH
+ขอหุ้นหน่อย	[IN:qa_stock ]	qa	th-TH
+แลก ดอลลาร์ เป็น รูปี อัตรา	[IN:qa_currency [SL:currency_name ดอลลาร์] [SL:currency_name รูปี] ]	qa	th-TH
+อัตราแลกระหว่างเงิน ดอลลาร์ และเงิน รูปี	[IN:qa_currency [SL:currency_name ดอลลาร์] [SL:currency_name รูปี] ]	qa	th-TH
+อะไรเป็นปัจจัยที่ทำให้ประยุทธ์ชนะเลือกตั้ง	[IN:general_quirky ]	general	th-TH
+การคาดการณ์การเกิดแผ่นดินไหว	[IN:general_quirky ]	general	th-TH
+โอเค google อะไรคือวิธีที่ง่ายและเร็วที่สุดสำหรับทำไก่งวง	[IN:cooking_query ]	cooking	th-TH
+เครื่องย่างเป็นอุปกรณ์ประเภทไหนและใช้งานอย่างไร	[IN:general_quirky ]	general	th-TH
+นิยามคำว่า ไก่เนื้อ ให้ฉัน	[IN:qa_definition [SL:definition_word ไก่เนื้อ] ]	qa	th-TH
+เทพีเสรีภาพ อยู่ที่ไหน	[IN:qa_factoid [SL:place_name เทพีเสรีภาพ] ]	qa	th-TH
+อธิบายลักษณะของ ลูกบอล ให้ฉันที	[IN:qa_definition [SL:definition_word ลูกบอล] ]	qa	th-TH
+อเล็กซ่า บอกฉันทุกอย่างที่คุณรู้เกี่ยวกับ วิลลี่ แมคอินทอช	[IN:qa_factoid [SL:person วิลลี่ แมคอินทอช] ]	qa	th-TH
+บอกราคาหุ้นของ ทรู หน่อย	[IN:qa_stock [SL:business_name ทรู] ]	qa	th-TH
+ราคาหุ้น เดลต้า คือเท่าไหร่	[IN:qa_stock [SL:business_name เดลต้า] ]	qa	th-TH
+มูลค่าหุ้นของ ทรู คืออะไร	[IN:qa_stock [SL:business_name ทรู] ]	qa	th-TH
+เธอมีแผนใหม่	[IN:general_quirky ]	general	th-TH
+แปลงหนึ่ง ปอนด์ เป็น ดอลลาร์สหรัฐ	[IN:qa_currency [SL:currency_name ปอนด์] [SL:currency_name ดอลลาร์สหรัฐ] ]	qa	th-TH
+ราคาหุ้นสูง	[IN:qa_stock ]	qa	th-TH
+คำอธิบายของกล้องแคนนอนระบุว่ามีกี่เมกะพิกเซล	[IN:qa_factoid ]	qa	th-TH
+คริส หอวัง มีชื่อเสียงขึ้นมาได้อย่างไร	[IN:qa_factoid [SL:person คริส หอวัง] ]	qa	th-TH
+อะไรคือคำตอบของสองคูณสาม	[IN:qa_maths ]	qa	th-TH
+สิบสองหารด้วยสี่ได้เท่าไหร่	[IN:qa_maths ]	qa	th-TH
+สีผมธรรมชาติของ คริส หอวัง คือสีอะไร	[IN:qa_factoid [SL:person คริส หอวัง] ]	qa	th-TH
+ถ้าฉันมีเงินห้า ดอลลาร์สหรัฐ ฉันจะมีเงินเท่าไหร่เมื่อคิดเป็น ดอลลาร์ออสเตรเลีย	[IN:qa_currency [SL:currency_name ดอลลาร์สหรัฐ] [SL:currency_name ดอลลาร์ออสเตรเลีย] ]	qa	th-TH
+หาความหมาย พระจันทร์ ให้ฉัน	[IN:qa_definition [SL:definition_word พระจันทร์] ]	qa	th-TH
+มีแม่น้ำกี่สายใน โลก	[IN:qa_factoid [SL:place_name โลก] ]	qa	th-TH
+หาคนดังที่เกิดในราศีมังกรให้ฉันที	[IN:qa_factoid ]	qa	th-TH
+ถ้ามีสินค้าที่กินได้ คำตอบรับของลูกค้าจะเป็นอย่างไร	[IN:general_quirky ]	general	th-TH
+ค่าเงิน รูปีอินเดีย เทียบกับเงิน ดอลลาร์สหรัฐ คือเท่าไหร่	[IN:qa_currency [SL:currency_name รูปีอินเดีย] [SL:currency_name ดอลลาร์สหรัฐ] ]	qa	th-TH
+ช่วยอธิบายถึงสิ่งนั้นให้ทีได้มั้ย	[IN:qa_definition ]	qa	th-TH
+ดาวเทียมแรกที่เปิดตัวโดยนาซ่าคือดวงไหน	[IN:qa_factoid ]	qa	th-TH
+อธิบาย ช้าง ให้ฉันที	[IN:qa_definition [SL:definition_word ช้าง] ]	qa	th-TH
+อัตราแลกเปลี่ยนเงิน ดอลลาร์สหรัฐ วันนี้	[IN:qa_currency [SL:currency_name ดอลลาร์สหรัฐ] [SL:date วันนี้] ]	qa	th-TH
+ชมพู่ อารยา มีครรภ์มานานแค่ไหนแล้ว	[IN:qa_factoid [SL:person ชมพู่ อารยา] ]	qa	th-TH
+ราคาหุ้นของ ซีพี คือเท่าไหร่	[IN:qa_stock [SL:business_name ซีพี] ]	qa	th-TH
+ฉันอยากให้บันทึกรายการสินค้าคงคลังและแจ้งฉันเมื่อมีของที่กำลังจะหมด	[IN:general_quirky ]	general	th-TH
+ประยุทธ์ ก่อเรื่องอะไรบ้างใน อาทิตย์นี้	[IN:qa_factoid [SL:person ประยุทธ์] [SL:date อาทิตย์นี้] ]	qa	th-TH
+คำจำกัดความของ มารินารา คืออะไร	[IN:qa_definition [SL:definition_word มารินารา] ]	qa	th-TH
+ทำไมถึงมีคนกล้าที่จะคิดว่าพวกเขาสามารถซ่อนทุกสิ่งทุกอย่างจากพระเจ้าได้	[IN:general_quirky ]	general	th-TH
+อัตราแลกเปลี่ยนเงินต่างประเทศ	[IN:qa_currency ]	qa	th-TH
+อะไรต่อไป	[IN:qa_definition ]	qa	th-TH
+ประวิตร วงษ์สุวรรณ อายุเท่าไหร่	[IN:qa_factoid [SL:person ประวิตร วงษ์สุวรรณ] ]	qa	th-TH
+บอกฉันหน่อยว่าโลกเริ่มขึ้นได้อย่างไร	[IN:general_quirky ]	general	th-TH
+บอกฉันว่าอัตราแลกเปลี่ยนสิบ กีบ เป็นกี่ หยวน	[IN:qa_currency [SL:currency_name กีบ] [SL:currency_name หยวน] ]	qa	th-TH
+อะไรคือ คอมพิวเตอร์	[IN:qa_definition [SL:definition_word คอมพิวเตอร์] ]	qa	th-TH
+เกาะที่เล็กที่สุดใน โลก คือเกาะอะไร	[IN:qa_factoid [SL:place_name โลก] ]	qa	th-TH
+ญี่ปุ่น ใหญ่แค่ไหน	[IN:qa_factoid [SL:place_name ญี่ปุ่น] ]	qa	th-TH
+กรุงเทพ ห่างจาก ญี่ปุ่น แค่ไหน	[IN:transport_query [SL:place_name กรุงเทพ] [SL:place_name ญี่ปุ่น] ]	transport	th-TH
+ช่วยบอกหน่อยได้ไหมว่ามีหนังอะไรบ้างที่ฉายในโรง คืนนี้	[IN:recommendation_movies [SL:timeofday คืนนี้] ]	recommendation	th-TH
+olly คำจำกัดความของ ลักลั่นย้อนแย้ง คืออะไร	[IN:qa_definition [SL:definition_word ลักลั่นย้อนแย้ง] ]	qa	th-TH
+olly อัตราแลกเปลี่ยนระหว่างเงิน ดอลลาร์สหรัฐ และเงิน ดอลลาร์ออสเตรเลีย คืออะไร	[IN:qa_currency [SL:currency_name ดอลลาร์สหรัฐ] [SL:currency_name ดอลลาร์ออสเตรเลีย] ]	qa	th-TH
+apple ซื้อขายที่เท่าไหร่	[IN:qa_stock [SL:business_name apple] ]	qa	th-TH
+เฮ้ ออลลี่ เฉย แปลว่าอะไร	[IN:qa_definition [SL:definition_word เฉย] ]	qa	th-TH
+อัลเบิร์ต ไอน์สไตน์ อายุเท่าไหร่ ตอนที่เขาคิดทฤษฎีสัมพัทธภาพขึ้นมาได้	[IN:qa_factoid [SL:person อัลเบิร์ต ไอน์สไตน์] ]	qa	th-TH
+คำนวณอินทิกรัลที่ใกล้เคียงของฟังก์ชันเลขชี้กำลังจากศูนย์ถึงห้า	[IN:qa_factoid ]	qa	th-TH
+บอกฉันทีว่า brexit จะส่งผลกระทบอย่างไรกับพลเมือง อี. ยู. ในระยะยาวและระยะกลาง	[IN:qa_factoid ]	qa	th-TH
+ช่วยหาอัตราแลกเปลี่ยนระหว่างอเมริกากับเม็กซิโกให้ที	[IN:qa_currency ]	qa	th-TH
+olly ขอคำอธิบายคุณสมบัติของ ที.วี. ซัมซุง	[IN:qa_definition [SL:definition_word ที.วี. ซัมซุง] ]	qa	th-TH
+อัตราแลกเปลียนของ ดอลลาร์สหรัฐ	[IN:qa_currency [SL:business_name ดอลลาร์สหรัฐ] ]	qa	th-TH
+สิ่งนี้อยู่ห่างไปมากน้อยแค่ไหน	[IN:qa_factoid ]	qa	th-TH
+สิ่ง นี้ คืออะไร	[IN:qa_definition ]	qa	th-TH
+หุ้น เอชพี อยู่ที่ไหน	[IN:qa_stock [SL:business_name เอชพี] ]	qa	th-TH
+อะไรอยู่ใน ความนิยม บน ทวิตเตอร์	[IN:social_query [SL:media_type ทวิตเตอร์] ]	social	th-TH
+แม่ ฉันพูดอะไรเมื่อกี๊	[IN:social_query [SL:relation แม่] ]	social	th-TH
+อัพเดทให้ฉันเกี่ยวกับ เฟสบุ๊ค ของนารี เสาร์อาทิตย์ นี้	[IN:social_query [SL:media_type เฟสบุ๊ค] [SL:person ของนารี] [SL:time เสาร์อาทิตย์] ]	social	th-TH
+หาความเห็นใหม่ใหม่จาก facebook ของฉัน ให้ฉันที	[IN:social_query [SL:media_type facebook] ]	social	th-TH
+รูปล่าสุดบน instagram ของฉันได้กี่ไลก์	[IN:social_query [SL:media_type instagram] ]	social	th-TH
+อ่านทวีต ที่แล้ว ของ บางกอกโพสต์ ให้ฉันฟัง	[IN:social_query [SL:media_type บางกอกโพสต์] ]	social	th-TH
+โพสต์สเตตัสใหม่บน facebook ว่า ถึงเวลาฉลองแล้ว	[IN:social_post [SL:media_type facebook] ]	social	th-TH
+facebook ของฉันอัพเดตใน ทุกสามชั่วโมง ควรจะมีแล้ว	[IN:social_query [SL:media_type facebook] [SL:general_frequency ทุกสามชั่วโมง] ]	social	th-TH
+ใส่ นั่น ลงบน facebook	[IN:social_post [SL:media_type facebook] ]	social	th-TH
+บทความนี้เจ๋งมาก คุณช่วยแชร์ลิงก์ไปที่ facebook ให้ฉันได้ไหม	[IN:social_post [SL:media_type facebook] ]	social	th-TH
+ถ่ายทอดวิดีโอบน ยูทูบ	[IN:social_post [SL:media_type ยูทูบ] ]	social	th-TH
+สเตตัส facebook วันนี้ยุ่งมาก	[IN:social_post [SL:media_type facebook] ]	social	th-TH
+ช่วยโพสต์ถึง จอห์น	[IN:social_post [SL:person จอห์น] ]	social	th-TH
+เฟสบุ๊ค	[IN:social_post [SL:media_type เฟสบุ๊ค] ]	social	th-TH
+แสดง ลิตส์ของ สถานที่ ที่ ญาติๆ ของฉัน ไปมา โดยดูจากรูปถ่ายของพวกเขา	[IN:social_query [SL:relation ญาติๆ] ]	social	th-TH
+ฟีดใหม่ล่าสุดจาก facebook	[IN:social_query [SL:media_type facebook] ]	social	th-TH
+ให้รายละเอียดเกี่ยวกับโปรไฟล์จัดการ ทวิตเตอร์ ของฉันรวมถึงจำนวนผู้ติดตามทั้งหมด	[IN:social_query [SL:media_type ทวิตเตอร์] ]	social	th-TH
+เยี่ยม เธอช่วยโพสต์อันนี้ไปที่ facebook ของฉันได้ไหม	[IN:social_post [SL:media_type facebook] ]	social	th-TH
+ช่วยบอกฉันได้มั้ย ว่าเกิดอะไรขึ้นกับโซเชียลมีเดียของฉัน	[IN:social_query ]	social	th-TH
+มีอะไรล่าสุดบนฟีด ของฉัน	[IN:social_query ]	social	th-TH
+ช่วยแจ้งฉันถึงการอัปเดตสถานะใหม่อะไรก็ตาม	[IN:social_query ]	social	th-TH
+social media ที่กำลังมาแรง	[IN:social_query ]	social	th-TH
+ทวีต ใหม่	[IN:social_post [SL:media_type ทวีต] ]	social	th-TH
+เปิด facebook แล้วสุขสันต์ วันเกิด ให้ ประเทศไทย	[IN:social_post [SL:media_type facebook] [SL:event_name วันเกิด] [SL:place_name ประเทศไทย] ]	social	th-TH
+ฉันไม่มีความสุขกับ โลตัส ช่วยฉันที	[IN:social_post [SL:business_name โลตัส] ]	social	th-TH
+เธอช่วย ทวีต ถึง แกร็บ หน่อยว่า แอปมันล่ม	[IN:social_post [SL:media_type ทวีต] [SL:business_name แกร็บ] ]	social	th-TH
+โพสต์สิ่งต่อไปนี้เป็นสเตตัสใน เฟสบุ๊ค	[IN:social_post [SL:media_type เฟสบุ๊ค] ]	social	th-TH
+ช่วยโพสต์สเตตัสบน twitter บอกว่า	[IN:social_post [SL:media_type twitter] ]	social	th-TH
+โปรดโพสรูปภาพไปที่ facebook ของฉัน	[IN:social_post [SL:media_type facebook] ]	social	th-TH
+ทวีต เคแบงค์ และ บอกพวกเขาให้ทราบว่า แอพ ของฉัน ขัดข้อง	[IN:social_post [SL:media_type ทวีต] [SL:business_name เคแบงค์] ]	social	th-TH
+บอกใน facebook กลุ่มของฉันว่าฉันมาถึงแล้ว	[IN:social_post [SL:media_type facebook] ]	social	th-TH
+ช่วยร้องเรียน บิ๊กซี ให้หน่อย	[IN:social_post [SL:business_name บิ๊กซี] ]	social	th-TH
+บอกพวกเขาว่า แถวของพวกเขามันยาวเกินไป	[IN:social_post ]	social	th-TH
+ฉันต้องการ ไม้แขวนเสื้อ	[IN:general_quirky ]	general	th-TH
+ส่ง ข้อความ นี้ ไป ที่ไมโครซอฟ	[IN:social_post [SL:business_name ที่ไมโครซอฟ] ]	social	th-TH
+โพสต์รูป บน โทรศัพท์ ของฉัน ไปที่ facebook หน่อย alexa	[IN:social_post [SL:device_type โทรศัพท์] [SL:media_type facebook] ]	social	th-TH
+ทวีต ข้อร้องเรียน ถึง เว็บซาร่า	[IN:social_post [SL:media_type ทวีต] [SL:business_name เว็บซาร่า] ]	social	th-TH
+ส่ง ทวีต ไปที่ การบินไทย ว่าฉันโกรธมากที่คุณทำกระเป๋าฉันหาย	[IN:social_post [SL:media_type ทวีต] [SL:business_name การบินไทย] ]	social	th-TH
+ฉันได้รับการบริการที่แย่ ที่ นิตยาไก่ย่าง ฉันต้องการ ทวีต ของพวกเขา	[IN:social_post [SL:business_name นิตยาไก่ย่าง] [SL:media_type ทวีต] ]	social	th-TH
+ส่งข้อร้องเรียนไปยัง ฝ่ายบริการลูกค้า บนทวิตเตอร์	[IN:social_post [SL:business_name ฝ่ายบริการลูกค้า] ]	social	th-TH
+เธอช่วย ทวีต ข้อร้องเรียน ไปที่ ฝ่ายลูกค้าสัมพันธ์ของโฮมโปร หน่อยได้ไหม	[IN:social_post [SL:media_type ทวีต] [SL:business_name ฝ่ายลูกค้าสัมพันธ์ของโฮมโปร] ]	social	th-TH
+บอก เอไอเอส ว่า ฉันยังถูกระงับอยู่	[IN:social_post [SL:business_name เอไอเอส] ]	social	th-TH
+เขียนร้องเรียนไปที่ ไอทีซิตี้ เรื่องแท็ปเล็ตที่ฉันซื้อมา วันนี้	[IN:social_post [SL:business_name ไอทีซิตี้] [SL:date วันนี้] ]	social	th-TH
+แจ้ง การไฟฟ้า ว่า ไฟดับอีกแล้ว	[IN:social_post [SL:business_name การไฟฟ้า] ]	social	th-TH
+ติดต่อ ฝ่ายบริการลูกค้าของอเมซอน ผ่าน twitter	[IN:social_post [SL:business_name ฝ่ายบริการลูกค้าของอเมซอน] [SL:media_type twitter] ]	social	th-TH
+โปรดอัพเดตให้ฉันรู้เกี่ยวกับโซเชียลมีเดีย ของฉัน	[IN:social_query ]	social	th-TH
+ทวีต ร้องเรียน ถึง ซัมซุง	[IN:social_post [SL:media_type ทวีต] [SL:business_name ซัมซุง] ]	social	th-TH
+ช่วย ทวีต ถึง บริษัทเดล เรื่องความผิดพลาดของแล็ปท็อป	[IN:social_post [SL:media_type ทวีต] [SL:business_name บริษัทเดล] ]	social	th-TH
+ทวีต เดอะมอลล์ และ บอกพวกเขาว่าการบริการลูกค้าของพวกเขาแย่มาก	[IN:social_post [SL:media_type ทวีต] [SL:business_name เดอะมอลล์] ]	social	th-TH
+olly ส่ง ทวีต ถึง บิ๊กซี บอกพวกเขาว่า พวกเขามีฝ่ายบริการลูกค้าที่ห่วยแตกที่สุด	[IN:social_post [SL:media_type ทวีต] [SL:business_name บิ๊กซี] ]	social	th-TH
+บิ๊กซี ทวีต ต่อไปนี้	[IN:social_post [SL:business_name บิ๊กซี] [SL:media_type ทวีต] ]	social	th-TH
+สมชาย ได้โพสต์อะไรใหม่ บน facebook ไหม	[IN:social_query [SL:person สมชาย] [SL:media_type facebook] ]	social	th-TH
+ส่ง ทวีต ถึง โดมิโน่พิซซ่า เรื่องบริการส่งที่แย่	[IN:social_post [SL:media_type ทวีต] [SL:business_name โดมิโน่พิซซ่า] ]	social	th-TH
+เตือน ให้ ทวีต บริษัทนี้	[IN:calendar_set [SL:media_type ทวีต] ]	calendar	th-TH
+โพสต์บน facebook ว่า แง้ ฉันป่วยแล้ว	[IN:social_post [SL:media_type facebook] ]	social	th-TH
+โพสต์ใน tumblr ฉันกำลังสนุก	[IN:social_post [SL:media_type tumblr] ]	social	th-TH
+แก้สถานการณ์	[IN:general_quirky ]	general	th-TH
+ทวีต ข้อร้องเรียนถึง burger king	[IN:social_post [SL:media_type ทวีต] [SL:business_name burger king] ]	social	th-TH
+olly ส่ง ทวีต ไปที่บริษัท	[IN:social_post [SL:media_type ทวีต] ]	social	th-TH
+ทวีต ร้องเรียนถึง ซัมซุง เกี่ยวกับตู้เย็นของฉัน	[IN:social_post [SL:media_type ทวีต] [SL:business_name ซัมซุง] ]	social	th-TH
+เปิด อัลบั้ม โพสต์ วิดีโอ	[IN:social_post [SL:media_type อัลบั้ม] ]	social	th-TH
+โพสต์ twitter ว่ามีวันที่ยุ่งรออยู่	[IN:social_post [SL:media_type twitter] ]	social	th-TH
+ทวีต ไปที่ แผนกบริการลูกค้าว่าทำงานไม่ดี บน twitter	[IN:social_post [SL:media_type ทวีต] [SL:media_type twitter] ]	social	th-TH
+ทวีต คำร้องเรียน	[IN:social_post [SL:media_type ทวีต] ]	social	th-TH
+รูปสุดท้ายของฉันบน ไอจี คือรูปอะไร	[IN:social_query [SL:media_type ไอจี] ]	social	th-TH
+ok google ทวีต ว่าการบริการที่ moe's diner แย่มาก	[IN:social_post [SL:media_type ทวีต] ]	social	th-TH
+ทวีต คำร้องเรียนให้ฉันเกี่ยวกับท่อระบายน้ำ	[IN:social_post [SL:media_type ทวีต] ]	social	th-TH
+ข้อมูลทางสังคม	[IN:social_query ]	social	th-TH
+ทวีต ถึงฝ่าย บริการลูกค้า ว่าฉันผิดหวังกับการตอบกลับล่าสุดของพวกเขา	[IN:social_post [SL:media_type ทวีต] [SL:business_name บริการลูกค้า] ]	social	th-TH
+ฉันอยากโพสต์สเตตัสบน twitter	[IN:social_post [SL:media_type twitter] ]	social	th-TH
+ฉันได้รับอีเมลจาก ศศิ สินทวี เรื่องอุบัติเหตุทางรถยนต์เมื่อไหร่	[IN:email_query [SL:person ศศิ สินทวี] ]	email	th-TH
+แจ้งให้ฉันทราบ หากว่า ฉัน มี อีเมล ใหม่	[IN:email_query ]	email	th-TH
+ส่ง อีเมล ถึง เอมี่เลีย แจ้งว่า ฉันจะไปสาย กรุณาอย่า รอคอย กับ มื้อค่ำ	[IN:email_sendemail [SL:person เอมี่เลีย] [SL:meal_type มื้อค่ำ] ]	email	th-TH
+มี อีเมล จาก สมหญิง บ้าง มั้ย	[IN:email_query [SL:person สมหญิง] ]	email	th-TH
+คุณช่วยกรุณาส่ง อีเมล ถึง เซลล่า ได้ไหม	[IN:email_sendemail [SL:person เซลล่า] ]	email	th-TH
+ตรวจ กล่องขาเข้า ของฉัน	[IN:email_query [SL:email_folder กล่องขาเข้า] ]	email	th-TH
+อีเมล ประยุทธ เกี่ยวกับ ประชุม พรุ่งนี้ ประวิตร เรา มีประชุม ตอนบ่าย ได้ไหม	[IN:email_sendemail [SL:person ประยุทธ] [SL:event_name ประชุม] [SL:date พรุ่งนี้] [SL:person ประวิตร] [SL:timeofday ตอนบ่าย] ]	email	th-TH
+olly ฉันอยากรู้เกี่ยวกับ งานปาร์ตี้ ของเบลล่า	[IN:general_quirky [SL:event_name งานปาร์ตี้] [SL:person ของเบลล่า] ]	general	th-TH
+เปิด อีเมล ล่าสุด ของฉัน และ ตอบกลับ	[IN:email_sendemail ]	email	th-TH
+ส่งเนื้อหา นี้ ผ่านทาง จดหมายอิเล็กทรอนิกส์	[IN:email_sendemail ]	email	th-TH
+ส่ง อีเมล ถึง แม่ หัวข้อเรื่อง อากาศ เนื้อเรื่อง ที่นั่นอากาศเป็นอย่างไร อาทิตย์นี้	[IN:email_sendemail [SL:relation แม่] [SL:date อาทิตย์นี้] ]	email	th-TH
+ตรวจ อีเมล หา อีเมล ที่ยังไม่ได้อ่านจาก แม่	[IN:email_query [SL:relation แม่] ]	email	th-TH
+กรุณาเอา รายละเอียด ของ เอเลน จาก ชื่อผู้ติดต่อ ของฉัน ให้ฉัน	[IN:email_querycontact [SL:personal_info รายละเอียด] [SL:person เอเลน] ]	email	th-TH
+มีชื่อติดต่อ ชื่อ เอเลน ใน รายการ ของฉัน หรือไม่	[IN:email_querycontact [SL:personal_info ชื่อ] [SL:person เอเลน] ]	email	th-TH
+ส่งสวัสดีปีใหม่ถึง john at gmail dot com	[IN:email_sendemail [SL:email_address john at gmail dot com] ]	email	th-TH
+นามสกุล ของจอห์น คืออะไร	[IN:email_querycontact [SL:personal_info นามสกุล] [SL:person ของจอห์น] ]	email	th-TH
+ส่ง คำตอบ ถึง เพื่อน ของฉันสำหรับคำถามของเขา	[IN:email_sendemail [SL:relation เพื่อน] ]	email	th-TH
+ตรวจอีเมลของ สองชั่วโมงที่ผ่านมา	[IN:email_query [SL:time สองชั่วโมงที่ผ่านมา] ]	email	th-TH
+ตรวจอีเมลของ สิบสองชั่วโมงที่ผ่านมา	[IN:email_query [SL:time สิบสองชั่วโมงที่ผ่านมา] ]	email	th-TH
+alexa เพิ่ม erosser at hotmail dot com เป็นผู้ติดต่อใหม่สำหรับ อีมิลี่ โรสเซอร์	[IN:email_addcontact [SL:email_address erosser at hotmail dot com] [SL:person อีมิลี่ โรสเซอร์] ]	email	th-TH
+แจ้งฉันถ้ามีอีเมลใหม่ใดใดจาก โชปี้	[IN:email_query [SL:business_name โชปี้] ]	email	th-TH
+กรุณา อีเมล ข้อความ ต่อไปนี้ ถึง รายชื่อผู้ติดต่อ นี้	[IN:email_sendemail ]	email	th-TH
+ตรวจดูหากฉันได้รับอีเมลใดใดจาก เอ็ดดี้ ริชาร์ด ที่เกี่ยวกับงบประมาณ	[IN:email_query [SL:person เอ็ดดี้ ริชาร์ด] ]	email	th-TH
+เก็บอีเมล นี้ ใน ผู้ติดต่อ	[IN:email_addcontact ]	email	th-TH
+ส่ง มนูญ หัวข้อเทคล่าสุดที่มีอยู่ของเขา	[IN:email_sendemail [SL:person มนูญ] ]	email	th-TH
+แจ้งให้ฉันทราบเมื่อ เคซี่ย์ อีเมลฉัน	[IN:email_query [SL:person เคซี่ย์] ]	email	th-TH
+แจ้งให้ฉันรู้มีอะไรสะสมอยู่ใน กล่องขาเข้า ของฉันตั้งแต่ บ่ายสามโมง	[IN:email_query [SL:email_folder กล่องขาเข้า] [SL:time บ่ายสามโมง] ]	email	th-TH
+คุณช่วยส่ง อีเมล ถึง โรหิต เพื่อน ของฉัน โดยบอกว่าฉันยุ่ง พรุ่งนี้ ได้ไหม	[IN:email_sendemail [SL:person โรหิต] [SL:relation เพื่อน] [SL:date พรุ่งนี้] ]	email	th-TH
+หา ปาล์มมี่ ซ่อนกลิ่น	[IN:email_query [SL:person ปาล์มมี่] ]	email	th-TH
+เฮ้ เริ่ม อีเมล ถึง เพื่อนร่วมงาน	[IN:email_sendemail [SL:relation เพื่อนร่วมงาน] ]	email	th-TH
+เปิด อีเมล ใหม่ ถึง เพื่อนร่วมงาน คน นี้ ที่ อีเมล นี้	[IN:email_sendemail [SL:relation เพื่อนร่วมงาน] ]	email	th-TH
+กรุณารีเฟรช อินบ๊อกซ์ gmail ของฉัน	[IN:email_query [SL:email_folder อินบ๊อกซ์] ]	email	th-TH
+ส่ง สวัสดี ถึง	[IN:email_sendemail ]	email	th-TH
+แสดง อีเมล ล่าสุด จาก มาร์ค	[IN:email_query [SL:person มาร์ค] ]	email	th-TH
+ส่ง อีเมล ถึง ผู้จัดการ ของฉัน	[IN:email_sendemail [SL:relation ผู้จัดการ] ]	email	th-TH
+แสดง อีเมล ล่าสุด olly	[IN:email_query ]	email	th-TH
+อีเมล จอร์ช บราวน์	[IN:email_sendemail [SL:person จอร์ช บราวน์] ]	email	th-TH
+อีเมลขาเข้า ใดใด ใน ห้านาทีที่ผ่านมา	[IN:email_query [SL:time ห้านาทีที่ผ่านมา] ]	email	th-TH
+ส่ง อีเมล ถึง เพื่อน ของฉัน บอก อวยพร วันเกิด	[IN:email_sendemail [SL:relation เพื่อน] [SL:event_name วันเกิด] ]	email	th-TH
+ที่อยู่อีเมล ของแม่ คืออะไร	[IN:email_querycontact [SL:personal_info ที่อยู่อีเมล] [SL:relation ของแม่] ]	email	th-TH
+ฉันอยากจะให้ อีเมล ใหม่ นี้ ถูกเพิ่มเข้าไปในชื่อติดต่อ ของฉัน	[IN:email_sendemail ]	email	th-TH
+ส่ง อีเมล ถึง เอเลน ฉันจะส่งไฟล์ใน วันถัดไป	[IN:email_sendemail [SL:person เอเลน] [SL:date วันถัดไป] ]	email	th-TH
+แสดงอีเมลทั้งหมดที่เพิ่งได้รับ พร้อมประทับเวลา	[IN:email_query ]	email	th-TH
+แสดง อีเมล ใหม่ กับฉัน	[IN:email_query ]	email	th-TH
+เปิด ตอบกลับ	[IN:email_sendemail ]	email	th-TH
+ตอบกลับอีเมลนี้	[IN:email_sendemail ]	email	th-TH
+ส่งอีเมลถึง จีเบบี้ บอกเธอว่าย่ารักเธอ และหวังว่าเธอจะมีสุดสัปดาห์ที่เยี่ยมยอด	[IN:email_sendemail [SL:person จีเบบี้] ]	email	th-TH
+เขียนคำตอบ	[IN:email_sendemail ]	email	th-TH
+บอก รายละเอียดผู้ติดต่อ ของ พี่ชาย ของฉันกับฉัน	[IN:email_querycontact [SL:personal_info รายละเอียดผู้ติดต่อ] [SL:relation พี่ชาย] ]	email	th-TH
+ส่งข้อความนี้ถึงกลุ่ม ครอบครัว เริ่มต้นด้วย เอ	[IN:email_sendemail [SL:relation ครอบครัว] ]	email	th-TH
+ใครเพิ่งจะอีเมลฉัน และหัวข้อเรื่องของแต่ละฉบับคืออะไร	[IN:email_query ]	email	th-TH
+olly กรุณาตอบกลับอีเมล ของเกรก บอกว่า ไอเดียของเขาช่างเป็นเลิศ	[IN:email_sendemail [SL:person ของเกรก] ]	email	th-TH
+ส่ง อีเมล ถึง หัวหน้างาน เพื่อพบสำหรับรีวิวผลการทำงาน	[IN:email_sendemail [SL:relation หัวหน้างาน] ]	email	th-TH
+บ๊อบ อาศัยอยู่ ใน ไทย หรือไม่	[IN:email_querycontact [SL:person บ๊อบ] [SL:personal_info อาศัยอยู่] [SL:place_name ไทย] ]	email	th-TH
+แจ้งฉันหาฉันได้รับอีเมล ใดใด ในบัญชีอีเมล ของฉัน	[IN:email_query ]	email	th-TH
+อีเมล ข้อความ สวัสดี ลงมาทาน มื้อค่ำ คืนนี้ ถึง พี่ชาย	[IN:email_sendemail [SL:meal_type มื้อค่ำ] [SL:timeofday คืนนี้] [SL:relation พี่ชาย] ]	email	th-TH
+ส่ง อีเมล ถึง ผู้ชาย ที่ขายเรือ บอกเขาว่าฉันมีเงิน	[IN:email_sendemail ]	email	th-TH
+บอกฉันว่า เมื่อวาน ใครส่งอีเมลเกี่ยวกับหัวหน้างาน	[IN:email_query [SL:date เมื่อวาน] ]	email	th-TH
+คลีนิก บอกว่าอะไรเกี่ยวกับผลตรวจของฉัน	[IN:email_query [SL:business_name คลีนิก] ]	email	th-TH
+ฉันสามารถหาข้อมูลเกี่ยวกับ ผู้ติดต่อ ได้ไหม	[IN:email_querycontact ]	email	th-TH
+อ่าน อีเมล ที่ยังไม่ได้อ่าน ของฉัน	[IN:email_query ]	email	th-TH
+ตรวจ อีเมล ใหม่	[IN:email_query ]	email	th-TH
+คุณช่วยตรวจดูว่าฉันมีการ แจ้งเตือน อีเมล ที่เพิ่งส่งมา ใดใด หรือไม่ได้ไหม	[IN:email_query ]	email	th-TH
+ส่ง อีเมล ให้ฉัน	[IN:email_sendemail ]	email	th-TH
+ตอบกลับ ทั้งหมด	[IN:email_sendemail ]	email	th-TH
+บอก เสกสรรค์ ศุขพิมาย	[IN:email_sendemail [SL:person เสกสรรค์ ศุขพิมาย] ]	email	th-TH
+ตอบด้วย ขอบคุณ	[IN:email_sendemail ]	email	th-TH
+ฉัน มี อีเมล ใหม่ ใดใด จาก จอห์น สมิธ หรือไม่	[IN:email_query [SL:person จอห์น สมิธ] ]	email	th-TH
+มีอีเมล อะไรบ้าง ที่เกี่ยวข้องกับ การเลื่อนตำแหน่ง ของฉัน	[IN:email_query [SL:event_name การเลื่อนตำแหน่ง] ]	email	th-TH
+เฮ้ ตรวจ อีเมล	[IN:email_query ]	email	th-TH
+แสดงรายการหัวข้อเรื่อง และผู้ส่ง ของอีเมลทั้งหมดใน สัปดาห์ที่แล้ว กับฉัน	[IN:email_query [SL:date สัปดาห์ที่แล้ว] ]	email	th-TH
+เมื่อไม่นานมานี้ ใครอีเมลฉัน และพวกเขาอีเมลเกี่ยวกับอะไร	[IN:email_query ]	email	th-TH
+ส่ง อีเมล ถึง จอห์น	[IN:email_sendemail [SL:person จอห์น] ]	email	th-TH
+เริ่ม อีเมล	[IN:email_sendemail ]	email	th-TH
+ผม มี อีเมล ที่ยังไม่ได้อ่านกี่ฉบับ	[IN:email_query ]	email	th-TH
+ส่งอีเมลถึง โรเบิร์ตว่ามื้อค่ำกี่โมง	[IN:email_sendemail [SL:person โรเบิร์ตว่ามื้อค่ำกี่โมง] ]	email	th-TH
+ส่ง อีเมล ถึง ทรู ว่าการบริการของพวกเขาแย่มาก	[IN:email_sendemail [SL:business_name ทรู] ]	email	th-TH
+กรุณาตรวจหา อีเมล ศึกษา ล่าสุด จากผู้ส่ง นี้	[IN:email_query ]	email	th-TH
+เปิดบัญชี อีเมล ของฉัน และตรวจดู อีเมล ใหม่	[IN:email_query ]	email	th-TH
+ส่ง อีเมล ถึง หัวหน้า ของฉัน บอกว่าฉันจะไปสาย	[IN:email_sendemail [SL:relation หัวหน้า] ]	email	th-TH
+ฉัน มี ข้อความ ใหม่ อะไร	[IN:email_query ]	email	th-TH
+เปิด อีเมล ใหม่ ของฉัน	[IN:email_query ]	email	th-TH
+ตรวจ อีเมล จาก ซินดี้	[IN:email_query [SL:person ซินดี้] ]	email	th-TH
+ตอบ กลับ อีเมล ของ มาร์ค	[IN:email_sendemail [SL:person ของ มาร์ค] ]	email	th-TH
+อีเมล กี่ฉบับ วันนี้	[IN:email_query [SL:date วันนี้] ]	email	th-TH
+แม่ ของฉัน ได้ส่ง อีเมล มาหาฉันหรือไม่	[IN:email_query [SL:relation แม่] ]	email	th-TH
+ส่ง อีเมล ถึง แม่ อยากไปซื้อของ พรุ่งนี้	[IN:email_sendemail [SL:relation แม่] [SL:date พรุ่งนี้] ]	email	th-TH
+ตรวจ อีเมล ทั้งหมด จาก ต้อม	[IN:email_query [SL:person ต้อม] ]	email	th-TH
+คุณช่วยฉันเขียนอีเมลถึง เชลซี ได้ไหม	[IN:email_sendemail [SL:person เชลซี] ]	email	th-TH
+olly กรุณาตรวจว่าฉันมี อีเมล ใดใด จาก แม่ หรือไม่	[IN:email_query [SL:relation แม่] ]	email	th-TH
+ส่ง อีเมล ถึง พนักงานบริษัท ของฉัน ทั้งหมด	[IN:email_sendemail [SL:relation พนักงานบริษัท] ]	email	th-TH
+อีเมลข้อความ ถึงที่อยู่	[IN:email_sendemail ]	email	th-TH
+ที่อยู่ใหม่	[IN:email_sendemail ]	email	th-TH
+google หาที่อยู่อีเมลใหม่สำหรับ บิล ที่ฉันเพิ่มไปเมื่อ วันศุกร์	[IN:email_query [SL:person บิล] [SL:date วันศุกร์] ]	email	th-TH
+นี่คือรหัสพื้นที่ที่ถูกต้องของ หัวหน้า ของฉันหรือไม่	[IN:email_querycontact [SL:relation หัวหน้า] ]	email	th-TH
+ตอบ	[IN:email_sendemail ]	email	th-TH
+กรุณาลบผู้ติดต่อที่ฉันไม่ได้คุยด้วยมานาน สามเดือน	[IN:email_querycontact [SL:date สามเดือน] ]	email	th-TH
+ฉันต้องการส่ง อีเมล ถึง jack at gmail dot com	[IN:email_sendemail [SL:email_address jack at gmail dot com] ]	email	th-TH
+ส่ง อีเมล ถึง ลูกสาว บอกว่า ฉัน รักคุณ	[IN:email_sendemail [SL:relation ลูกสาว] ]	email	th-TH
+ส่งอีเมลถึง แม่ บอกว่า สุขสันต์ วันเกิด	[IN:email_sendemail [SL:relation แม่] [SL:event_name วันเกิด] ]	email	th-TH
+กรุณา บอก ฉันหาก จูลี่ ได้ส่ง อีเมล ใดใด มาหาฉัน	[IN:email_query [SL:person จูลี่] ]	email	th-TH
+อีเมล ใหม่ ใดใด จาก หัวหน้า	[IN:email_query [SL:relation หัวหน้า] ]	email	th-TH
+ฉันได้รับ อีเมล บ้าง ไหมใน หนึ่งชั่วโมงที่ผ่านมา	[IN:email_query [SL:time หนึ่งชั่วโมงที่ผ่านมา] ]	email	th-TH
+มี อีเมล ส่วนตัว ใดใด เข้ามาบ้างหรือยัง	[IN:email_query ]	email	th-TH
+เปิด อีเมล ของพี่สาว ของฉัน จาก เมื่อวานนี้ คลิ๊กตอบและเปิดการใช้งานด้วยเสียงสำหรับการตอบกลับ ของฉัน	[IN:email_sendemail [SL:relation ของพี่สาว] [SL:date เมื่อวานนี้] ]	email	th-TH
+ฉัน มี ผู้ติดต่อ กี่รายใน สมุดโทรศัพท์ ของฉัน	[IN:email_querycontact [SL:device_type สมุดโทรศัพท์] ]	email	th-TH
+คุณสามารถดูว่า ธนาธร อีเมลฉันเกี่ยวกับเรื่องอะไรหรือเปล่า	[IN:email_query [SL:person ธนาธร] ]	email	th-TH
+ฉันต้องการหา อีเมล จาก สมชาย ที่หัวข้อเรื่องมีคำว่า การประชุม	[IN:email_query [SL:person สมชาย] ]	email	th-TH
+กรุณาส่ง อีเมล ถึง แม่ ของฉัน	[IN:email_sendemail [SL:relation แม่] ]	email	th-TH
+เมย์ ได้ส่ง อีเมล หาฉันหรือไม่	[IN:email_query [SL:person เมย์] ]	email	th-TH
+ดู อีเมล ของฉัน	[IN:email_query ]	email	th-TH
+เปิดอีเมล ของเทอรรี่	[IN:email_sendemail [SL:person ของเทอรรี่] ]	email	th-TH
+ค้น อีเมล หา รายชื่อผู้ติดต่อ	[IN:email_query ]	email	th-TH
+หา ติดต่อ	[IN:email_query ]	email	th-TH
+เอา อีเมล ของฉัน ขึ้นมา	[IN:email_query ]	email	th-TH
+เปิดรายชื่อผู้ติดต่อที่ชื่อว่า สมชาย	[IN:email_querycontact [SL:person สมชาย] ]	email	th-TH
+ฉัน เพิ่งจะ ส่ง อีเมล ถึงใคร	[IN:email_query ]	email	th-TH
+ิอะไรคือ หัวข้ออีเมลและผู้ส่ง จาก กล่องขาเข้า ของอีเมล ของวันนี้	[IN:email_query [SL:email_folder กล่องขาเข้า] [SL:date ของวันนี้] ]	email	th-TH
+กรุณาเปิด รายชื่อผู้ติดต่อ ของฉัน	[IN:email_querycontact [SL:list_name รายชื่อผู้ติดต่อ] ]	email	th-TH
+เปิด ข้อมูล ติดต่อ ของกิตติยา	[IN:email_querycontact [SL:person ของกิตติยา] ]	email	th-TH
+ตรวจหา อีเมล ทั้งหมด จาก วสันต์ จริยพัฒน์	[IN:email_query [SL:person วสันต์ จริยพัฒน์] ]	email	th-TH
+ส่ง คำตอบ ถึง สมชาย	[IN:email_sendemail [SL:person สมชาย] ]	email	th-TH
+เฮ้ ฉันได้รับ อีเมล ใหม่ บ้าง ไหม	[IN:email_query ]	email	th-TH
+อีเมล ทอม	[IN:email_sendemail [SL:person ทอม] ]	email	th-TH
+ตรวจ เมล ของฉัน	[IN:email_query ]	email	th-TH
+ฉันต้องการส่ง อีเมล ถึง สมหญิง และ ระบุว่า	[IN:email_sendemail [SL:person สมหญิง] [SL:person ระบุว่า] ]	email	th-TH
+แสดง ที่ยังไม่ได้อ่าน	[IN:email_query ]	email	th-TH
+มี อีเมล ใหม่ ใน กล่องข้อความ ของฉัน ไหม	[IN:email_query [SL:email_folder กล่องข้อความ] ]	email	th-TH
+ตอบ เมล	[IN:email_sendemail ]	email	th-TH
+ส่งอีเมลหา คุณกิตติพร ถามเธอว่าดีนได้ส่งการบ้านอันสุดท้ายของเขาหรือยัง	[IN:email_sendemail [SL:person คุณกิตติพร] ]	email	th-TH
+ส่งคำตอบถึง อีเมล ล่าสุดของฉัน	[IN:email_sendemail ]	email	th-TH
+ตอบ กลับ อีเมลของ สมชาย ว่า หกโมงครึ่ง	[IN:email_sendemail [SL:person สมชาย] ]	email	th-TH
+ฉัน มี เมล์ อะไรบ้าง	[IN:email_query ]	email	th-TH
+ฉันต้องการตอบ อีเมล ของแจน	[IN:email_sendemail [SL:person ของแจน] ]	email	th-TH
+ตรวจดูอีเมลจาก เจน โด	[IN:email_query [SL:person เจน โด] ]	email	th-TH
+มี จดหมายอิเล็กทรอนิกส์ ใหม่ บ้าง ไหม	[IN:email_query ]	email	th-TH
+ตรวจ จดหมายเข้า เพื่อ ฉัน	[IN:email_query [SL:email_folder จดหมายเข้า] ]	email	th-TH
+เก็บอีเมลไปที่รายชื่อติดต่อของฉัน	[IN:email_addcontact ]	email	th-TH
+เก็บไปที่ รายชื่อคนติดต่อ	[IN:email_addcontact ]	email	th-TH
+เอา อีเมล ล่าสุด ของฉัน ทั้งหมด มาให้ฉัน	[IN:email_query ]	email	th-TH
+รายการ อีเมล ล่าสุด ของฉัน คืออะไร	[IN:email_query ]	email	th-TH
+เอา ชื่ออีเมล ติดต่อ มาให้ฉัน	[IN:email_querycontact [SL:personal_info ชื่ออีเมล] ]	email	th-TH
+กรุณาแจ้งเมื่อมี อีเมล ใหม่ จาก ไมเคิล	[IN:email_query [SL:person ไมเคิล] ]	email	th-TH
+แค่แจ้งให้ฉันรู้ถึง อีเมล ใหม่ จาก ซาร่า	[IN:email_query [SL:person ซาร่า] ]	email	th-TH
+ตั้งแต่ ห้าโมงเย็น ฉันได้รับอีเมลอะไรไหม	[IN:email_query [SL:time ห้าโมงเย็น] ]	email	th-TH
+ฉันได้รับ อีเมล จาก แซม บ้าง ไหม วันนี้	[IN:email_query [SL:person แซม] [SL:date วันนี้] ]	email	th-TH
+ตีพิมพ์อีเมลถึง พนักงานบริษัท ของฉัน พร้อมข้อมูลกำหนดการการประชุม ของวันนี้	[IN:email_sendemail [SL:relation พนักงานบริษัท] [SL:date ของวันนี้] ]	email	th-TH
+วันนี้ ฉัน ได้รับ อีเมล ใหม่ จาก สมหญิง บ้าง มั้ย	[IN:email_query [SL:date วันนี้] [SL:person สมหญิง] ]	email	th-TH
+ส่ง จดหมายอิเล็กทรอนิกส์ ไปยัง ญาญ่า	[IN:email_sendemail [SL:person ญาญ่า] ]	email	th-TH
+โทรหา เบอร์โทรศัพท์ ของ ราจู	[IN:email_querycontact [SL:personal_info เบอร์โทรศัพท์] [SL:person ราจู] ]	email	th-TH
+รายงาน อีเมล ใหม่ ใดใด	[IN:email_query ]	email	th-TH
+ฉัน มี ข้อความ ที่ยังไม่ได้อ่านกี่ข้อความ	[IN:email_query ]	email	th-TH
+กรุณา ตอบ กลับ อีเมล ที่ ฉัน เพิ่งอ่าน	[IN:email_sendemail ]	email	th-TH
+วันนี้ เบิร์ท เขียนมาหาฉันไหม	[IN:email_query [SL:date วันนี้] [SL:person เบิร์ท] ]	email	th-TH
+ที่อยู่ ของ อเล็กซ์ คืออะไร	[IN:email_querycontact [SL:personal_info ที่อยู่] [SL:person อเล็กซ์] ]	email	th-TH

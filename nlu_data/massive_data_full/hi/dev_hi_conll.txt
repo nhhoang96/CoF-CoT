@@ -1,0 +1,17104 @@
+लाइट्स	O
+को	O
+बंद	O
+कर	O
+दो	O
+
+हॉल	O
+में	O
+रोशनी	O
+कम	O
+करें	O
+
+एक	O
+कमरे	B-house_place
+को	O
+गहरा	O
+बनाओ	O
+
+समतल	O
+साफ	O
+करें	O
+
+सफाई	O
+अच्छी	O
+है	O
+धूल	O
+इतनी	O
+खराब	O
+है	O
+अब	O
+अपना	O
+जादू	O
+करो	O
+मेरे	O
+कालीन	B-house_place
+को	O
+साफ	O
+करो	O
+
+मुझे	O
+मेरी	O
+उपलब्ध	O
+स्मृति	O
+पर	O
+स्थिति	O
+दें	O
+
+साउथ	O
+इंडियन	O
+भोजन	O
+के	O
+लिए	O
+सबसे	O
+अधिक	O
+मूल्यांकित	O
+वितरण	B-order_type
+विकल्पों	O
+की	O
+सूची	O
+बनाएं	O
+
+कलिका	O
+भोजनालय	O
+में	O
+मेरे	O
+भारतीय	B-food_type
+टेकअवे	B-order_type
+का	O
+पता	O
+लगाओ	O
+
+अरिजीत	O
+सिंह	O
+का	O
+तुम	B-song_name
+ही	I-song_name
+हो	I-song_name
+चलाओ	O
+
+नीति	O
+मोहन	O
+द्वारा	O
+इश्क	B-song_name
+वाला	I-song_name
+लव	I-song_name
+चलाओ	O
+
+अभी	O
+कौन	O
+सा	O
+बैंड	O
+बज	O
+रहा	O
+है	O
+
+मेरे	O
+रत	O
+के	O
+खाने	O
+कि	O
+खरीदारी	O
+के	O
+साथ	O
+क्या	O
+है	O
+
+सप्ताह	O
+का	O
+पूर्वानुमान	O
+क्या	O
+है	O
+
+इश्क	O
+सूफियाना	O
+चलाएं	O
+
+तुम	O
+ही	O
+हो	O
+को	O
+शुरू	O
+पर	O
+रखो	O
+
+कुछ	O
+सोनू	B-artist_name
+निगम	I-artist_name
+खेलें	O
+
+इस	O
+ट्रैक	O
+को	O
+लूप	B-player_setting
+करें	O
+
+आवाज़	O
+को	O
+कम	B-change_amount
+करो	I-change_amount
+
+आज	O
+कौन	O
+सा	O
+दिन	O
+है	O
+
+वह	O
+कौन	O
+सा	O
+गाना	O
+है	O
+
+मुझे	O
+शास्त्रीय	B-music_genre
+संगीत	I-music_genre
+सुनना	O
+पसंद	O
+है	O
+
+olly	O
+मुझे	O
+शास्त्रीय	B-music_genre
+सुनना	O
+पसंद	O
+है	O
+
+अरे	O
+अरे	O
+
+कल	O
+सुबह	B-time
+छह	I-time
+बजे	I-time
+अलार्म	O
+लगाओ	O
+
+वॉल्यूम	O
+बढ़ाएं	O
+
+क्या	O
+बाहर	O
+बारिश	B-weather_descriptor
+हो	I-weather_descriptor
+रही	I-weather_descriptor
+है	O
+
+पणजी	O
+में	O
+समय	O
+क्या	O
+हुआ	O
+है	O
+
+मुंबई	O
+में	O
+कितने	O
+बजे	O
+हैं	O
+
+सुबह	O
+छह	B-time
+बजे	O
+का	O
+अलार्म	O
+लगाओ	O
+
+क्या	O
+मैंने	O
+सुबह	B-timeofday
+उठने	B-alarm_type
+के	O
+लिए	O
+अलार्म	O
+लगाया	O
+है	O
+
+भारत	O
+में	O
+क्या	O
+हो	O
+रहा	O
+है	O
+
+ओली	O
+डेथ	O
+मेटल	B-music_genre
+अब	O
+
+नई	O
+दिल्ली	O
+में	O
+अभी	O
+समय	O
+क्या	O
+है	O
+
+आज	O
+के	O
+अखबार	B-media_type
+की	I-media_type
+सुर्खियां	O
+बताओ	O
+
+कुमार	O
+सानू	O
+को	O
+चलो	O
+करें	O
+
+इस	O
+साल	O
+स्मृति	O
+दिवस	O
+कौन	O
+से	O
+दिन	O
+है	O
+
+यहाँ	O
+बहुत	O
+अंधेरा	O
+है	O
+
+क्या	O
+कल	B-date
+बारिश	B-weather_descriptor
+होने	O
+वाली	O
+है	O
+
+आवाज़	O
+कम	O
+करो	O
+
+कल	O
+वहाँ	O
+का	O
+तापमान	B-weather_descriptor
+क्या	O
+होगा	O
+
+कल	O
+के	O
+मौसम	O
+की	O
+भविष्यवाणी	O
+क्या	O
+है	O
+
+सप्ताह	O
+का	O
+कौन	O
+सा	O
+दिन	O
+बाईस	B-date
+मार्च	I-date
+है	O
+
+क्या	O
+आज	B-date
+सोमवार	I-date
+है	O
+
+नैनीताल	O
+में	O
+मौसम	O
+कैसा	O
+है	O
+
+क्या	O
+अभी	O
+गोनबाद	B-place_name
+में	O
+धूप	B-weather_descriptor
+खिली	O
+हुई	O
+है	O
+
+जैसे	O
+ही	O
+डोकलम	B-news_topic
+विवाद	I-news_topic
+पर	O
+और	O
+खबरें	O
+हों	O
+वैसे	O
+ही	O
+मुझे	O
+बताएं	O
+
+स्मार्ट	O
+प्लग	O
+बंद	O
+करें	O
+
+मेरा	O
+पसंदीदा	O
+गाना	O
+चलाओ	O
+
+मैं	O
+पॉप	B-music_genre
+संगीत	O
+सुनना	O
+पसंद	O
+करूंगा	O
+
+मेरे	O
+कमरे	O
+की	O
+बत्तियाँ	O
+बदलो	O
+ताकि	O
+मुझे	O
+अच्छी	B-color_type
+नींद	I-color_type
+आ	O
+सके	O
+
+शुक्रवार	O
+को	O
+मौसम	O
+कैसा	O
+रहेगा	O
+
+आज	O
+कौन	O
+सा	O
+दिन	O
+है	O
+
+क्या	O
+मुझे	O
+आज	B-date
+जैकेट	B-weather_descriptor
+पहननी	O
+चाहिए	O
+
+फेरबदल	O
+अक्षम	O
+करें	O
+
+दिनांक	O
+क्या	O
+है	O
+
+आप	O
+कौन	O
+सी	O
+चीजें	O
+नहीं	O
+कर	O
+सकते	O
+
+मुझे	O
+समय	O
+बताओ	O
+
+क्या	O
+बाहर	O
+गर्म	B-weather_descriptor
+है	O
+
+क्या	O
+मेरे	O
+पास	O
+अलार्म	O
+सेट	O
+है	O
+
+सिल्क	O
+रूट	O
+द्वारा	O
+
+कृपया	O
+अगले	B-time
+घंटे	I-time
+के	O
+लिए	O
+म्यूट	O
+करें	O
+
+मेरे	O
+पसंदीदा	O
+गाने	O
+को	O
+चालू	O
+करो	O
+
+यह	O
+बहुत	O
+ही	O
+खतरनाक	O
+है	O
+
+कृपया	O
+मुझे	O
+कुछ	O
+अंतरराष्ट्रीय	B-place_name
+समाचार	O
+बताएं	O
+
+सुबह	O
+दस	O
+बजे	O
+के	O
+लिए	O
+वेक	O
+अप	O
+कॉल	O
+सेट	O
+करें	O
+
+दोपहर	O
+तीन	O
+बजे	O
+के	O
+लिए	O
+अलार्म	O
+लगाओ	O
+
+दोपहर	O
+एक	O
+बजे	O
+का	O
+अलार्म	O
+लगाओ	O
+
+सनम	O
+रे	O
+गाना	O
+बजाओ	O
+
+मुझे	O
+इस	O
+गाने	O
+के	O
+बोल	O
+ईमेल	O
+करें	O
+
+मेरे	O
+सुबह	O
+आठ	B-time
+बजे	I-time
+के	O
+अलार्म	O
+से	O
+छुटकारा	O
+पाओ	O
+
+क्या	O
+raining	B-weather_descriptor
+tomorrow	B-date
+होगी	O
+
+कृपया	O
+मैं	O
+अरिजीत	B-artist_name
+सिंह	I-artist_name
+का	O
+सनम	B-song_name
+रे	I-song_name
+सुनना	O
+चाहता	O
+हूँ	O
+
+अलार्म	O
+शुरू	O
+करो	O
+
+मैं	O
+कृपया	O
+कल	B-date
+सुबह	O
+छह	B-time
+बजे	I-time
+उठना	O
+चाहता	O
+हूँ	O
+
+मेरी	O
+प्लेलिस्ट	O
+से	O
+ओली	O
+प्ले	O
+गाने	O
+
+सप्ताह	O
+का	O
+कौन	O
+सा	O
+दिन	O
+धन्यवाद	B-event_name
+देना	I-event_name
+है	O
+
+कृपया	O
+मुझे	O
+सनम	B-song_name
+रे	I-song_name
+सुनने	O
+दें	O
+
+क्या	O
+आप	O
+मेरे	O
+लिए	O
+जानवरों	B-joke_type
+का	O
+मज़ाक	O
+ढूंढ	O
+सकते	O
+हैं	O
+
+वर्तमान	O
+मौसम	O
+की	O
+स्थिति	O
+क्या	O
+है	O
+
+रामपुर	O
+में	O
+अभी	O
+कितने	O
+बजे	O
+हैं	O
+
+समय	O
+क्षेत्र	O
+सेट	O
+करें	O
+
+टी.	O
+वी.	O
+सॉकेट	O
+ऑन	O
+कर	O
+देना	O
+जब	O
+मैं	O
+घर	O
+पहुँचू	O
+
+भविष्य	O
+में	O
+पेगासिस	B-news_topic
+वाइरस	I-news_topic
+के	O
+बारे	O
+में	O
+समाचारों	O
+का	O
+पालन	O
+करें	O
+
+कृपया	O
+वॉल्यूम	O
+कम	O
+करें	O
+
+कृपया	O
+वॉल्यूम	O
+बंद	O
+कर	O
+दें	O
+
+क्या	O
+आप	O
+कृपया	O
+रोशनी	O
+तेज	O
+कर	O
+सकते	O
+हैं	O
+
+मैं	O
+लव	B-artist_name
+डोस	I-artist_name
+अभी	O
+सुनना	O
+चाहता	O
+हूँ	O
+
+कौन	O
+अभी	O
+फॉर्मूला	B-news_topic
+वन	I-news_topic
+रेस	O
+में	O
+आगे	O
+चल	O
+रहा	O
+है	O
+
+कॉफी	O
+तैयार	O
+करें	O
+
+दैनिक	O
+जागरण	O
+की	O
+सुर्खियां	O
+पढ़ें	O
+
+क्या	O
+मैं	O
+आज	B-media_type
+तक	I-media_type
+से	O
+ब्रेकिंग	O
+न्यूज	O
+जान	O
+सकता	O
+हूँ	O
+
+क्या	O
+आप	O
+कृपया	O
+स्वर	O
+कम	O
+कर	O
+सकते	O
+हैं	O
+
+अरिजीत	O
+सिंह	O
+और	O
+सोनू	B-artist_name
+निगम	I-artist_name
+के	O
+गीत	O
+चलाओ	O
+
+क्या	O
+आप	O
+वेमो	B-device_type
+प्लग	I-device_type
+सॉकेट	I-device_type
+बंद	O
+कर	O
+सकते	O
+हैं	O
+
+इस	O
+सप्ताह	O
+मौसम	O
+कैसा	O
+दिख	O
+रहा	O
+है	O
+
+इस	O
+सप्ताह	O
+मौसम	O
+कैसा	O
+रहेगा	O
+
+भारत	O
+में	O
+भूकंप	B-news_topic
+आता	O
+है	O
+तो	O
+बताओ	O
+
+अरिजीत	O
+सिंह	O
+का	O
+सनम	B-song_name
+रे	I-song_name
+चालू	O
+करें	O
+
+अरे	O
+olly	O
+स्पीकर	O
+को	O
+म्यूट	O
+कर	O
+दो	O
+
+कृपया	O
+स्पीकर	O
+पर	O
+सभी	O
+वॉल्यूम	O
+कम	O
+करें	O
+
+अभी	O
+कॉफ़ी	O
+बनाओ	O
+
+ओके	O
+गूगल	O
+कुछ	O
+संगीत	O
+चलाओ	O
+
+बॉलीवुड	O
+की	O
+नवीनतम	O
+गपशप	O
+क्या	O
+चल	O
+रही	O
+है	O
+
+रोशनी	O
+चमकाना	O
+
+आठ	O
+बजे	O
+का	O
+अलार्म	O
+सेट	O
+करो	O
+
+बुधवार	O
+के	O
+लिए	O
+सुबह	B-time
+छह	I-time
+बजे	I-time
+का	O
+अलार्म	O
+बंद	O
+करें	O
+
+शुक्रवार	O
+के	O
+बाद	O
+किसी	O
+भी	O
+सुबह	B-timeofday
+के	O
+अलार्म	O
+को	O
+बंद	O
+कर	O
+दें	O
+
+कृपया	O
+मेरे	O
+लिए	O
+अगले	B-date
+सप्ताह	I-date
+का	O
+मौसम	O
+देखें	O
+
+मेरे	O
+पसंदीदा	O
+कलाकार	O
+का	O
+संगीत	O
+चलाओ	O
+
+कृपया	O
+रोशनी	O
+थोड़ी	B-change_amount
+सी	I-change_amount
+कम	O
+करें	O
+
+फ़ोन	O
+
+अगर	O
+पूर्वी	B-place_name
+तट	I-place_name
+पर	O
+रात	B-time
+के	I-time
+आठ	I-time
+बज	I-time
+रहे	O
+हैं	O
+तो	O
+जामनगर	B-place_name
+में	O
+कितने	O
+बजे	O
+हैं	O
+
+क्या	O
+पीएफ	B-business_name
+परिवर्तन	I-business_name
+टेक-आउट	B-order_type
+आदेश	O
+स्वीकार	O
+करते	O
+हैं	O
+
+क्या	O
+आप	O
+मुझे	O
+बता	O
+सकते	O
+हैं	O
+कि	O
+दिल्ली	B-place_name
+में	O
+कितने	O
+बजे	O
+हैं	O
+
+ज़ी	O
+न्यूज़	O
+में	O
+वर्तमान	O
+समाचार	O
+क्या	O
+है	O
+
+मुझे	O
+first	B-media_type
+post	I-media_type
+की	O
+website	O
+पर	O
+ले	O
+जाओ	O
+
+कृपया	O
+सुर्खियां	O
+बटोरें	O
+
+टाइम्स	O
+ऑफ	O
+इंडिया	O
+की	O
+सुर्खियां	O
+क्या	O
+हैं	O
+
+पता	O
+करें	O
+कि	O
+क्या	O
+olive	B-business_name
+garden	I-business_name
+मुझे	O
+takeaway	B-order_type
+करने	O
+देगा	O
+
+क्या	O
+मुझे	O
+आज	B-date
+की	I-date
+तारीख	O
+मिल	O
+सकती	O
+है	O
+
+क्या	O
+मेरे	O
+स्कूल	O
+का	O
+अलार्म	O
+सेट	O
+है	O
+
+बाहर	O
+कितनी	O
+गर्मी	B-weather_descriptor
+है	O
+
+आज	O
+दोपहर	B-time
+एक	I-time
+बजे	I-time
+रोबोट	B-device_type
+वैक्यूम	I-device_type
+क्लीनर	I-device_type
+स्टार्ट	O
+कर	O
+दो	O
+
+अच्छे	O
+सहायक	O
+
+मुझे	O
+दिन	O
+के	O
+लिए	O
+वर्तमान	O
+समाचार	O
+भेजें	O
+
+अरिजीत	O
+सिंह	O
+का	O
+तुम	B-song_name
+ही	I-song_name
+हो	I-song_name
+अभी	O
+चालू	O
+करो	O
+
+आज	O
+की	O
+तारीख़	O
+
+जुबिन	O
+नौटियाल	O
+द्वारा	O
+गीत	O
+के	O
+बोल	O
+क्या	O
+हैं	O
+मैं	B-song_name
+हमेशा	I-song_name
+तुमसे	I-song_name
+प्यार	I-song_name
+करूंगा	I-song_name
+
+कभी	O
+भी	O
+कोई	O
+शिर्ले	B-music_genre
+सेठीया	I-music_genre
+को	O
+play	O
+मत	O
+करना	O
+
+अगर	O
+दार्जलिंग	B-place_name
+में	O
+रात	B-time
+के	I-time
+दस	I-time
+बज	I-time
+रहे	O
+हैं	O
+तो	O
+बरेली	B-place_name
+में	O
+क्या	O
+समय	O
+है	O
+
+मुझे	O
+नेहा	B-artist_name
+कक्कड़	I-artist_name
+का	O
+मिले	B-song_name
+हो	I-song_name
+तुम	I-song_name
+सुनने	O
+की	O
+जरूरत	O
+है	O
+
+आज	O
+मौसम	O
+की	O
+स्थिति	O
+क्या	O
+है	O
+
+क्या	O
+वर्षा	B-weather_descriptor
+होगी	O
+
+मुंबई	O
+में	O
+वर्तमान	O
+समय	O
+क्या	O
+है	O
+
+क्या	O
+आप	O
+मुझे	O
+रात	O
+के	O
+खाने	O
+के	O
+लिए	O
+healthy	B-food_type
+foods	I-food_type
+सुझा	O
+सकते	O
+हैं	O
+
+किसी	O
+अच्छे	O
+रेस्टोरेंट	B-business_type
+से	O
+खाना	O
+ऑर्डर	O
+करें	O
+
+शिमला	O
+समय	O
+को	O
+जयपुर	B-place_name
+में	O
+बदलें	O
+
+olly	O
+बैठक	B-house_place
+कक्ष	I-house_place
+को	O
+नीला	B-color_type
+बनाओ	O
+
+बैठक	O
+कक्ष	O
+को	O
+नीला	B-color_type
+बनाएं	O
+
+कृपया	O
+तुम	B-song_name
+ही	I-song_name
+हो	I-song_name
+गाना	O
+चलाओ	O
+
+मंगलवार	O
+के	O
+लिए	O
+मौसम	O
+का	O
+क्या	O
+अपडेट	O
+है	O
+
+सोमवार	O
+दोपहर	B-timeofday
+के	O
+लिए	O
+मौसम	O
+की	O
+क्या	O
+जानकारी	O
+है	O
+
+पन्द्रह	O
+मार्च	O
+को	O
+कौन	O
+सा	O
+दिन	O
+होगा	O
+
+मुझे	O
+इस	B-date
+महीने	I-date
+का	I-date
+आखिरी	I-date
+सोमवार	I-date
+की	O
+तारीख	O
+चाहिए	O
+
+भारत	O
+में	O
+समय	O
+क्या	O
+है	O
+जब	O
+भारतीय	B-place_name
+गणतंत्र	I-place_name
+में	O
+समय	O
+रात्रि	B-time
+बारह	I-time
+बजे	I-time
+है	O
+
+मुझे	O
+बताओ	O
+क्या	O
+समय	O
+हो	O
+गया	O
+है	O
+
+मुझे	O
+इंटरनेट	O
+पर	O
+सबसे	O
+अच्छा	O
+नॉक	B-joke_type
+नॉक	I-joke_type
+चुटकुला	O
+ढूंढो	O
+
+इस	O
+सप्ताह	O
+सोमवार	O
+को	O
+मौसम	O
+कैसा	O
+रहेगा	O
+
+पकौड़ी	O
+बनाने	O
+की	O
+तुम्हारी	O
+विधि	O
+सर्वोत्तम	O
+थी	O
+
+दुनिया	O
+में	O
+आज	B-date
+क्या	O
+हो	O
+रहा	O
+है	O
+
+पांच	O
+दिसंबर	O
+को	O
+कौन	O
+सा	O
+दिन	O
+है	O
+
+अरे	O
+
+मुझे	O
+अकादमी	B-news_topic
+पुरस्कारों	I-news_topic
+के	O
+बारे	O
+में	O
+समाचार	O
+चाहिए	O
+
+मुझे	O
+नई	B-place_name
+दिल्ली	I-place_name
+में	O
+वर्तमान	O
+समय	O
+बताओ	O
+
+आज	O
+मौसम	O
+क्या	O
+है	O
+
+आज	O
+गर्मी	B-weather_descriptor
+है	O
+ना	O
+
+आज	O
+बहुत	O
+गर्मी	B-weather_descriptor
+है	O
+ना	O
+
+सौ	O
+हजार	O
+दो	O
+सौ	O
+सत्रह	O
+
+इस	O
+सप्ताह	O
+मौसम	O
+कैसा	O
+रहेगा	O
+
+रात्रि	O
+बत्ती	O
+सेटिंग	O
+पर	O
+बदलो	O
+
+बस	O
+आवाज़	O
+थोड़ा	O
+बढ़ाएं	O
+
+क्या	O
+मुझे	O
+पिज्जा	B-business_name
+हट	I-business_name
+से	O
+ऑर्डर	O
+डिलीवर	B-order_type
+हो	O
+सकता	O
+है	O
+
+कुछ	O
+टेकअवे	B-order_type
+खाना	O
+ऑर्डर	O
+करें	O
+
+सुनिधि	O
+चौहान	O
+के	O
+सभी	O
+गीतों	O
+को	O
+ढूंढें	O
+और	O
+कतारबद्ध	O
+करें	O
+और	O
+बिना	B-player_setting
+फेरबदल	I-player_setting
+के	I-player_setting
+सभी	O
+बजाएं	O
+
+अरिजीत	O
+सिंह	O
+के	O
+सभी	O
+गानों	O
+की	O
+प्लेलिस्ट	O
+बनाएं	O
+और	O
+फेरबदल	B-player_setting
+के	O
+साथ	O
+बजाएं	O
+
+क्या	O
+इस	B-date
+सप्ताह	I-date
+बर्फ़बारी	B-weather_descriptor
+होगी	O
+
+इसपर	O
+संगीत	O
+
+नए	O
+चुटकुलों	O
+की	O
+खोज	O
+करें	O
+
+मैं	O
+भक्ति	B-music_genre
+सुनना	O
+चाहता	O
+हूँ	O
+
+मैं	O
+अप	B-music_descriptor
+बीट	I-music_descriptor
+संगीत	O
+सुनना	O
+चाहता	O
+हूँ	O
+
+सोनू	O
+निगम	O
+का	O
+पापा	O
+मेरे	O
+पापा	O
+चलाओ	O
+
+क्या	O
+मेरे	O
+पास	O
+मेरे	O
+क्षेत्र	O
+के	O
+लिए	O
+दस	B-time
+दिन	I-time
+का	O
+पूर्वानुमान	O
+हो	O
+सकता	O
+है	O
+
+कृपया	O
+ये	B-date
+सप्ताह	I-date
+के	O
+मौसम	O
+का	O
+पूर्वानुमान	O
+दें	O
+
+मेरे	O
+लिए	O
+कुछ	O
+pop	B-music_genre
+बजाओ	O
+
+प्लेलिस्ट	O
+से	O
+गाने	O
+को	O
+चालू	O
+करो	O
+
+क्या	O
+मुझे	O
+कॉफी	B-coffee_type
+मिल	O
+सकती	O
+है	O
+
+olly	O
+वैक्यूम	B-device_type
+क्लीनर	I-device_type
+शुरू	O
+करें	O
+
+क्या	O
+आप	O
+रूम्बा	B-device_type
+शुरू	O
+कर	O
+सकते	O
+हैं	O
+
+राजनीति	O
+पर	O
+किसी	O
+भी	O
+नए	O
+विषय	O
+पर	O
+मुझे	O
+चेतावनी	O
+भेजें	O
+
+रेटिंग	O
+
+सुबह	O
+या	O
+शाम	O
+
+जियो	O
+समाचार	O
+से	O
+नवीनतम	O
+लेख	O
+क्या	O
+हैं	O
+
+पिछले	O
+छह	O
+घंटों	O
+में	O
+जियो	B-media_type
+न्यूज़	I-media_type
+से	O
+कोई	O
+भी	O
+खबर	O
+मेरे	O
+लिए	O
+ढूंढो	O
+
+अरिजीत	O
+सिंह	O
+का	O
+संगीत	O
+फेरबदल	O
+करो	O
+
+संगीत	O
+की	O
+मात्रा	O
+को	O
+नब्बे	B-change_amount
+तक	I-change_amount
+बढ़ाएँ	O
+
+कल	O
+का	O
+तापमान	B-weather_descriptor
+गर्म	I-weather_descriptor
+रहने	O
+वाला	O
+है	O
+हाँ	O
+या	O
+ना	O
+
+इस	O
+सप्ताह	O
+का	O
+मौसम	O
+पूर्वानुमान	O
+क्या	O
+है	O
+
+अभी	O
+बज	O
+रहे	O
+गाने	O
+का	O
+कलाकार	O
+कौन	O
+है	O
+
+मैं	O
+वह	O
+गाना	O
+पसंद	O
+नहीं	O
+है	O
+इसे	O
+बंद	O
+कर	O
+दो	O
+
+रोजाना	O
+सुबह	O
+दस	B-time
+से	O
+ग्यारह	B-time
+बजे	I-time
+तक	O
+मेरा	O
+वैक्यूम	B-device_type
+क्लीनर	I-device_type
+चालू	O
+करें	O
+
+आने	O
+वाले	O
+सप्ताह	O
+में	O
+उच्च	O
+तापमान	B-weather_descriptor
+क्या	O
+रहने	O
+वाला	O
+है	O
+
+चेकआउट	O
+आज	B-date
+सुबह	O
+दस	B-time
+बजे	I-time
+का	O
+अलार्म	O
+सेट	O
+करें	O
+
+सोनू	O
+निगम	O
+चलाएं	O
+
+अरिजीत	O
+सिंह	O
+प्ले	O
+करो	O
+
+क्या	O
+आपके	O
+लिए	O
+मेरे	O
+संगीत	O
+की	O
+पसंद	O
+प्रदान	O
+करना	O
+संभव	O
+है	O
+
+भारत	O
+से	O
+ताजा	O
+ख़बर	O
+क्या	O
+है	O
+
+मुझे	O
+कुछ	O
+और	O
+रोशनी	O
+चाहिए	O
+
+मुझे	O
+वर्तमान	O
+समय	O
+बताओ	O
+
+अरिजीत	O
+सिंह	O
+मेरा	O
+पसंदीदा	O
+संगीतकार	O
+हैं	O
+
+लखनऊ	O
+में	O
+क्या	O
+हो	O
+रहा	O
+है	O
+
+मेरे	O
+अधिकांश	O
+सुने	O
+जाने	O
+वाले	O
+गाने	O
+चलाओ	O
+
+youtube	O
+पर	O
+जाइए	O
+और	O
+मेरे	O
+लिए	O
+शादी	B-playlist_name
+के	I-playlist_name
+बेहतरीन	I-playlist_name
+गानों	I-playlist_name
+का	O
+संग्रह	O
+चलाइए	O
+
+मेरे	O
+लिए	O
+नवीनतम	O
+तकनीकी	B-news_topic
+समाचार	O
+लाओ	O
+
+उस	O
+गाने	O
+को	O
+मेरी	O
+top	O
+दस	O
+पसंदीदा	O
+सूची	O
+में	O
+सुरक्षित	O
+कर	O
+लो	O
+
+हैट	O
+गाना	O
+कमाल	O
+का	O
+था	O
+क्या	O
+आप	O
+इसे	O
+दोहरा	O
+सकते	O
+हैं	O
+
+मुझे	O
+रसोई	B-house_place
+में	O
+कम	O
+रोशनी	O
+दो	O
+
+वह	O
+गीत	O
+और	O
+मेरी	O
+राय	O
+को	O
+सुरक्षित	O
+करें	O
+
+मुझे	O
+चुनाव	B-news_topic
+नतीजों	O
+के	O
+साथ	O
+अपडेट	O
+करें	O
+
+नई	O
+आव्रजन	B-news_topic
+नीतियों	I-news_topic
+के	O
+बारे	O
+में	O
+विश्लेषक	O
+क्या	O
+कहते	O
+हैं	O
+
+रेस्टोरेंट	O
+ऑर्डर	O
+की	O
+स्थिति	O
+
+मुझे	O
+पाँच	B-time
+घंटे	O
+में	O
+सचेत	O
+करें	O
+
+मेरा	O
+रोबोट	B-device_type
+वैक्यूम	I-device_type
+क्लीनर	I-device_type
+शुरू	O
+करो	O
+
+संगीत	O
+बजाना	O
+
+वर्तमान	O
+दिनांक	O
+समय	O
+समूह	O
+क्या	O
+है	O
+
+घर	O
+की	O
+सफाई	O
+शुरू	O
+करें	O
+
+बत्ती	O
+बुझा	O
+दो	O
+
+मज़ेदार	O
+चुटकुला	O
+
+अभी	O
+कौन	O
+सा	O
+गाना	O
+चल	O
+रहा	O
+है	O
+
+मुझे	O
+यह	O
+अरिजीत	B-artist_name
+सिंह	I-artist_name
+का	O
+तू	O
+जाने	O
+ना	O
+संगीत	O
+पसंद	O
+है	O
+
+अरे	O
+alexa	O
+मेरे	O
+अपार्टमेंट	B-house_place
+में	O
+डिस्को	B-device_type
+लाइट	I-device_type
+चालू	O
+करो	O
+और	O
+पार्टी	O
+शुरू	O
+करो	O
+
+ध्वनि	O
+को	O
+म्यूट	O
+करें	O
+
+कृपया	O
+भक्ति	B-music_genre
+चालू	O
+करें	O
+
+इस	O
+सप्ताह	O
+क्या	O
+होगा	O
+मौसम	O
+की	O
+स्थिति	O
+
+क्या	O
+धूप	B-weather_descriptor
+वाला	I-weather_descriptor
+दिन	O
+है	O
+
+कल	O
+के	O
+लिए	O
+निर्धारित	O
+बैठक	B-event_name
+है	O
+
+आज	O
+बादल	B-weather_descriptor
+भरा	O
+मौसम	O
+है	O
+
+म्यूट	O
+बटन	O
+स्पर्श	O
+करें	O
+
+मेरे	O
+लिए	O
+अरिजीत	B-artist_name
+सिंह	I-artist_name
+का	O
+हाल	B-song_name
+ही	I-song_name
+का	I-song_name
+एल्बम	I-song_name
+चालू	O
+करो	O
+
+चलो	O
+कही	O
+और	O
+का	O
+राग	B-music_genre
+और	O
+hip	B-music_genre
+hop	I-music_genre
+सुनते	O
+है	O
+us	O
+का	O
+नहीं	O
+
+वर्तमान	O
+चल	O
+रहे	O
+संगीत	O
+शीर्षक	O
+की	O
+जाँच	O
+करें	O
+
+क्या	O
+pizza	B-business_name
+hut	I-business_name
+deliver	B-order_type
+करता	I-order_type
+है	I-order_type
+
+मेरी	O
+पिछली	O
+बार	O
+इस्तेमाल	O
+की	O
+गई	O
+प्लेलिस्ट	O
+चलाओ	O
+
+मुझे	O
+नई	B-place_name
+दिल्ली	I-place_name
+में	O
+समय	O
+दो	O
+
+भक्ति	O
+चालू	O
+करो	O
+
+कृपया	O
+मूड	O
+सेट	O
+करो	O
+
+बत्तियाँ	O
+नीली	B-color_type
+करें	O
+
+बैठक	O
+कक्ष	O
+की	O
+बत्तियों	O
+को	O
+लाल	B-color_type
+करें	O
+
+मुझे	O
+दिल्ली	B-place_name
+का	O
+मौसम	O
+बताओ	O
+olly	O
+
+सीरी	O
+बाहर	O
+का	O
+मौसम	O
+कैसा	O
+है	O
+
+मेरी	O
+जन्म	O
+तिथि	O
+को	O
+कौन	O
+सा	O
+दिन	O
+था	O
+
+जो	O
+गाना	O
+चल	O
+रहा	O
+है	O
+उसका	O
+शीर्षक	O
+क्या	O
+है	O
+
+क्या	O
+आप	O
+मुझे	O
+बता	O
+सकते	O
+हैं	O
+कि	O
+यह	O
+कौन	O
+सा	O
+समय	O
+है	O
+
+सोमवार	O
+का	O
+मौसम	O
+
+मंगलवार	O
+को	O
+मौसम	O
+
+गाना	O
+दोहराएं	O
+
+क्या	O
+आप	O
+कृपया	O
+मुझे	O
+वर्तमान	O
+मौसम	O
+की	O
+स्थिति	O
+बता	O
+सकते	O
+हैं	O
+
+क्या	O
+आप	O
+कृपया	O
+मेरे	O
+शयनकक्ष	B-house_place
+की	O
+बत्ती	O
+बंद	O
+करो	O
+
+अरे	O
+मुझे	O
+खुश	O
+करने	O
+के	O
+लिए	O
+कुछ	O
+चुटकुला	O
+सुनाओ	O
+
+होली	O
+के	O
+लिए	O
+कितने	O
+सप्ताह	O
+शेष	O
+हैं	O
+
+क्या	O
+आपके	O
+पास	O
+समाचार	O
+प्रदान	O
+करने	O
+वाली	O
+कोई	O
+खबर	O
+है	O
+
+मुंबई	O
+में	O
+मौसम	O
+
+कृपया	O
+सुबह	B-time
+नौ	I-time
+बजे	I-time
+सी.	B-place_name
+एस.	I-place_name
+टी.	I-place_name
+को	O
+आई.	B-place_name
+एस.	I-place_name
+टी.	I-place_name
+में	O
+बदलें	O
+
+कोठरी	O
+की	O
+बत्ती	O
+बंद	O
+करो	O
+
+सोनू	O
+निगम	O
+का	O
+संगीत	O
+
+कृपया	O
+मेरे	O
+शीर्ष	B-music_descriptor
+मूल्यांकित	I-music_descriptor
+भक्ति	B-music_genre
+गाने	O
+चलाएं	O
+
+मेरे	O
+घर	O
+की	O
+सभी	O
+बत्तियो	O
+के	O
+लिए	O
+नीला	B-color_type
+रंग	O
+सेट	O
+करें	O
+
+मैं	O
+हमेशा	O
+के	O
+लिए	O
+हिप	B-music_genre
+हॉप	I-music_genre
+हूँ	O
+
+ऑली	O
+बत्तियों	O
+को	B-change_amount
+सात	I-change_amount
+कर	O
+दें	O
+
+रोशनी	O
+नीचे	O
+सात	O
+करें	O
+
+बत्ती	O
+की	O
+शक्ति	O
+को	O
+कम	O
+करें	O
+
+सातवें	O
+दिन	O
+मौसम	O
+कैसा	O
+रहेगा	O
+
+कृपया	O
+स्पीकर	O
+को	O
+म्यूट	O
+करो	O
+
+अभी	O
+चल	O
+रहे	O
+संगीत	O
+का	O
+नाम	O
+क्या	O
+है	O
+
+वॉल्यूम	O
+बढ़ाओ	O
+
+यह	O
+कौन	O
+सा	O
+गाना	O
+है	O
+
+मैं	O
+कुछ-कुछ	B-song_name
+होता	I-song_name
+है	I-song_name
+सुनना	O
+चाहता	O
+हूँ	O
+
+गानों	O
+के	O
+मौजूदा	O
+एल्बम	O
+को	O
+फेरबदल	B-player_setting
+करें	O
+
+इंडियन	O
+एक्सप्रेस	O
+से	O
+क्या	O
+समाचार	O
+अपडेट	O
+हैं	O
+
+समाचार	O
+एक्सप्रेस	O
+में	O
+नया	O
+क्या	O
+है	O
+
+समाचार	O
+एक्सप्रेस	O
+पर	O
+क्या	O
+चल	O
+रहा	O
+है	O
+
+मुझे	O
+बताओ	O
+क्या	O
+समय	O
+हो	O
+गया	O
+है	O
+
+मुझे	O
+दिल्ली	B-place_name
+में	O
+समय	O
+बताएं	O
+
+कौन	O
+से	O
+अलार्म	O
+आने	O
+वाले	O
+हैं	O
+
+olly	O
+बत्तियाँ	O
+बंद	O
+करो	O
+
+क्या	O
+मोदी	B-news_topic
+पर	O
+नवीनतम	O
+ब्रेकिंग	O
+न्यूज	O
+प्राप्त	O
+करने	O
+का	O
+कोई	O
+तरीका	O
+है	O
+
+बत्तियाँ	O
+चालू	O
+करो	O
+
+ऑर्डर	O
+टेक-आउट	B-order_type
+
+क्या	O
+आप	O
+सभी	O
+रोशनी	O
+कम	O
+कर	O
+देंगे	O
+
+मुझे	O
+समाचार	O
+दो	O
+
+रोशनी	O
+कम	O
+करें	O
+
+इस	O
+सप्ताह	O
+का	O
+मौसम	O
+क्या	O
+है	O
+
+मुझे	O
+इस	B-date
+सप्ताह	I-date
+के	O
+लिए	O
+मौसम	O
+बताओ	O
+
+अरे	O
+ओली	O
+मैं	O
+रोबोट	B-device_type
+वैक्यूम	I-device_type
+क्लीनर	I-device_type
+कैसे	O
+शुरू	O
+करूं	O
+
+कृपया	O
+रोबोट	B-device_type
+वैक्यूम	I-device_type
+क्लीनर	I-device_type
+चालू	O
+करने	O
+में	O
+मेरी	O
+मदद	O
+करें	O
+
+मैं	O
+कुछ	O
+आधुनिक	B-music_genre
+रॉक	I-music_genre
+सुनना	O
+चाहता	O
+हूँ	O
+
+मेरे	O
+नवीनतम	O
+आदेश	O
+पर	O
+क्या	O
+स्थिति	O
+है	O
+
+बाहर	O
+कैसा	O
+है	O
+
+सप्ताह	O
+के	O
+किस	O
+दिन	O
+गणतंत्र	B-event_name
+दिवस	I-event_name
+का	I-event_name
+है	O
+
+मुझे	O
+दिल्ली	B-place_name
+में	O
+मौसम	O
+बताओ	O
+
+मुझे	O
+कुछ	O
+संगीत	O
+चाहिए	O
+मेरी	O
+कसरत	B-playlist_name
+प्लेलिस्ट	I-playlist_name
+को	O
+चलाने	O
+के	O
+बारे	O
+में	O
+कैसे	O
+
+कल	O
+सुबह	B-timeofday
+आठ	B-time
+बजे	O
+का	O
+अलार्म	O
+लगाओ	O
+
+बेडरूम	O
+की	O
+लाइट्स	O
+को	O
+डिम	O
+कर	O
+दो	O
+
+मुझे	O
+कलाकार	O
+का	O
+नाम	O
+बताओ	O
+
+गाने	O
+का	O
+नाम	O
+क्या	O
+है	O
+
+आज	O
+विश्व	B-place_name
+समाचार	O
+में	O
+क्या	O
+हो	O
+रहा	O
+है	O
+
+ताजा	O
+अंतरराष्ट्रीय	B-place_name
+समाचार	O
+क्या	O
+है	O
+
+मुझे	O
+अभी	O
+कॉफी	O
+चाहिए	O
+
+कृपया	O
+मेरे	O
+बिस्तर	B-device_type
+के	I-device_type
+किनारे	I-device_type
+का	I-device_type
+लैम्प	I-device_type
+को	O
+बंद	O
+कर	O
+दें	O
+
+कृपया	O
+वैक्यूम	B-device_type
+शुरू	O
+करें	O
+
+अब	O
+वैक्यूम	B-device_type
+क्लीनर	I-device_type
+शुरू	O
+करें	O
+
+सभी	O
+प्रतिक्रियाओं	O
+को	O
+अभी	O
+म्यूट	O
+करें	O
+
+कृपया	O
+बोलना	O
+बंद	O
+करो	O
+
+क्या	O
+हमें	O
+नए	B-media_type
+प्रदाता	I-media_type
+से	O
+कोई	O
+अपडेट	O
+मिला	O
+
+रिक्त	O
+के	O
+बारे	O
+में	O
+नया	O
+क्या	O
+है	O
+
+नेहा	O
+कक्कड़	O
+चलाओ	O
+
+हैदराबाद	O
+के	O
+लिए	O
+मौसम	O
+का	O
+पूर्वानुमान	O
+क्या	O
+है	O
+
+क्या	O
+अगले	B-date
+सप्ताह	I-date
+बर्फ़	B-weather_descriptor
+पड़ेगी	O
+
+बेघर	O
+होने	O
+के	O
+बारे	O
+में	O
+लखनऊ	B-place_name
+नगर	B-news_topic
+परिषद	I-news_topic
+क्या	O
+कर	O
+रही	O
+है	O
+
+न्यूज़	O
+नेशन	O
+से	O
+समाचार	O
+प्राप्त	O
+करें	O
+
+मैंने	O
+सुबह	B-timeofday
+छह	B-time
+बजे	I-time
+से	I-time
+नौ	I-time
+बजे	I-time
+के	O
+बीच	O
+कितने	O
+अलार्म	O
+लगाए	O
+हैं	O
+
+प्लेलिस्ट	O
+खोलें	O
+
+आदेश	O
+की	O
+पुष्टि	O
+करें	O
+
+मेरे	O
+लिए	O
+एक	O
+कप	O
+कॉफ़ी	O
+बनाओ	O
+
+मैं	O
+रॉक	B-music_genre
+सुनना	O
+चाहता	O
+हूँ	O
+
+ok	O
+google	O
+शास्त्रीय	B-music_genre
+संगीत	O
+चलाओ	O
+
+करंट	O
+बंद	O
+करें	O
+
+five	O
+thirty	O
+के	O
+लिए	O
+alarm	O
+लगाओ	O
+
+क्या	O
+मुझे	O
+इस	O
+रेस्टोरेंट	B-business_type
+से	O
+डिलीवरी	B-order_type
+मिल	O
+सकती	O
+है	O
+
+क्या	O
+मेरा	O
+पसंदीदा	O
+रेस्टोरेंट	B-business_type
+डिलीवरी	B-order_type
+करता	O
+है	O
+
+क्या	O
+उनके	O
+यहाँ	O
+टेकअवे	B-order_type
+है	O
+
+कॉफी	O
+मशीन	O
+शुरू	O
+करो	O
+
+राजनीति	O
+में	O
+क्या	O
+सामाचार	O
+हैं	O
+
+मुझे	O
+समय	O
+दिखाओ	O
+
+जैज़	O
+अरिजीत	O
+सिंह	O
+के	O
+संगीत	O
+चलाएं	O
+
+अगले	O
+शनिवार	B-date
+की	O
+तारीख	O
+क्या	O
+है	O
+
+क्या	O
+पिछली	B-date
+रात	I-date
+को	O
+यांकीस	O
+जीते	O
+
+स्पीकरों	O
+की	O
+आवाज़	O
+म्यूट	O
+कर	O
+दो	O
+
+लिविंग	O
+रूम	O
+में	O
+रोशनी	O
+रोशन	O
+करें	O
+
+कुछ	O
+कॉफी	O
+बनाओ	O
+
+बत्ती	O
+का	O
+रंग	O
+बदलें	O
+नीला	B-color_type
+से	O
+सफ़ेद	B-color_type
+
+घर	O
+की	O
+बत्तियाँ	O
+लाल	B-color_type
+कर	O
+दो	O
+
+सोलह	O
+अप्रैल	O
+को	O
+कौन	O
+सा	O
+दिन	O
+पड़ता	O
+है	O
+
+कृपया	O
+एक	B-time
+घंटा	I-time
+के	O
+लिए	O
+वैक्यूम	B-device_type
+करें	O
+
+मुझे	O
+आज	B-date
+की	O
+तारीख़	O
+बताओ	O
+
+बैठक	O
+कक्ष	O
+की	O
+बत्तियों	O
+को	O
+लाल	B-color_type
+पर	O
+संग्रह	O
+करें	O
+
+रेस्टोरेंट	O
+का	O
+वितरण	B-order_type
+कैसा	O
+चल	O
+रहा	O
+है	O
+
+यह	O
+गाना	O
+को	O
+सुनने	O
+के	O
+लिए	O
+
+क्या	O
+डोमिनोज	B-business_name
+से	O
+साथ	B-order_type
+ले	I-order_type
+जाने	I-order_type
+ली	O
+सुविधा	O
+है	O
+
+रोशनी	O
+को	O
+नीले	B-color_type
+रंग	O
+में	O
+बदलें	O
+
+मेरे	O
+अलार्म्स	O
+बताओ	O
+
+कृपया	O
+मेरे	O
+द्वारा	O
+सेट	O
+किए	O
+गए	O
+किसी	O
+भी	O
+अलार्म	O
+को	O
+हटा	O
+दें	O
+
+कृपया	O
+सुबह	B-media_type
+की	I-media_type
+खबर	I-media_type
+में	O
+बंगाल	O
+बाघ	B-news_topic
+पर	O
+लेख	O
+को	O
+ऊपर	O
+खींचे	O
+
+यहाँ	O
+का	O
+मौसम	O
+कैसा	O
+है	O
+
+जाने	O
+के	O
+लिए	O
+सामान्य	O
+अंडा	B-food_type
+रोल	I-food_type
+का	O
+आदेश	O
+दें	O
+
+क्या	O
+हिंदुस्तान	B-media_type
+टाइम्स	I-media_type
+का	O
+यूट्यूब	B-media_type
+पर	O
+कोई	O
+नया	O
+वीडियो	O
+है	O
+
+अगला	O
+तुझे	B-song_name
+भूल	I-song_name
+जाना	I-song_name
+चलाओ	O
+
+मेरे	O
+देश	B-music_genre
+की	O
+प्लेलिस्ट	O
+चलाओ	O
+
+मेरी	O
+दूसरी	B-playlist_name
+प्लेलिस्ट	I-playlist_name
+चलाओ	O
+
+आज	O
+की	O
+तारीख	O
+क्या	O
+है	O
+
+alexa	O
+ने	O
+शयन	B-house_place
+कक्ष	I-house_place
+में	O
+पंखा	B-device_type
+बंद	O
+करो	O
+
+alexa	O
+please	O
+चल	O
+रहे	O
+गाने	O
+को	O
+पसंदीदा	O
+में	O
+save	O
+कर	O
+लो	O
+
+मुझे	O
+हिप	B-music_genre
+हॉप	I-music_genre
+पसंद	O
+है	O
+
+कृपया	O
+अरिजीत	B-artist_name
+सिंह	I-artist_name
+का	O
+मेरा	O
+पसंदीदा	O
+गाना	O
+चालू	O
+करो	O
+
+कृपया	O
+कॉफी	O
+शुरू	O
+करें	O
+
+कम	O
+लाइट	O
+
+रात	O
+का	O
+समय	O
+मोड	O
+
+ट्रेंडिंग	O
+तकनीक	B-news_topic
+समाचार	O
+
+हाल	O
+की	O
+तकनीकी	B-news_topic
+सुर्खियाँ	O
+
+अगला	O
+गाना	O
+चालू	O
+करो	O
+
+कौनसे	O
+साल	O
+में	O
+गाना	O
+बना	O
+
+मेरे	O
+खाने	O
+का	O
+पता	O
+लगाओ	O
+
+olly	O
+श्रीनगर	B-place_name
+में	O
+हिमपात	B-weather_descriptor
+की	I-weather_descriptor
+भविष्यवाणी	I-weather_descriptor
+
+olly	O
+ट्रेंडिंग	B-news_topic
+गरम	O
+समाचार	O
+विषय	O
+दिखाओ	O
+
+अगला	O
+अलार्म	O
+
+मैं	O
+वास्तव	O
+ने	O
+साउथ	B-food_type
+इंडियन	I-food_type
+भोजन	O
+के	O
+लिए	O
+तरस	O
+रहा	O
+हूँ	O
+कृपया	O
+मेरे	O
+लिए	O
+ऑर्डर	O
+take	O
+out	O
+करो	O
+
+आज	O
+राजनीति	B-news_topic
+में	O
+नया	O
+क्या	O
+है	O
+क्या	O
+आप	O
+मोदी	B-person
+की	O
+खबरों	O
+को	O
+फ़िल्टर	O
+कर	O
+सकते	O
+हैं	O
+
+मुझे	O
+दो	O
+पिज्जा	B-food_type
+चाहिए	O
+
+गाना	O
+चालू	O
+करें	O
+
+बत्तियाँ	O
+बंद	O
+करो	O
+
+क्या	O
+धूप	B-weather_descriptor
+है	O
+तापमान	B-weather_descriptor
+क्या	O
+है	O
+
+मुझे	O
+कुछ	O
+संगीत	O
+बजाओ	O
+
+मेरे	O
+आसपास	O
+में	O
+किन	O
+स्थानों	O
+से	O
+मैं	O
+साथ	B-order_type
+ले	I-order_type
+जाने	I-order_type
+के	I-order_type
+लिए	I-order_type
+खरीदारी	O
+कर	O
+सकता	O
+हूँ	O
+
+कृपया	O
+अपना	O
+वॉल्यूम	O
+कम	O
+करें	O
+
+मेरा	O
+जागने	O
+का	O
+अलार्म	O
+कितने	O
+बजे	O
+के	O
+लिए	O
+सेट	O
+है	O
+
+क्या	O
+मेरे	O
+कल	B-date
+सुबह	B-timeofday
+के	O
+लिए	O
+कोई	O
+अलार्म्स	O
+हैं	O
+
+मेरा	O
+जल्दी	O
+का	O
+अलार्म	O
+हटा	O
+दो	O
+
+शास्त्रीय	O
+कक्ष	O
+संगीत	O
+प्लेलिस्ट	O
+चलाएं	O
+
+उस	O
+गाने	O
+को	O
+आगे	O
+चलाओ	O
+
+इस	O
+बैंड	O
+के	O
+प्रमुख	O
+गायक	O
+का	O
+नाम	O
+क्या	O
+है	O
+
+बिजली	O
+बंद	O
+
+siri	O
+मेरी	O
+pop	B-music_genre
+playlist	O
+चलाओ	O
+
+मुझे	O
+बताएं	O
+कि	O
+क्या	O
+उस	O
+विषय	O
+पर	O
+कोई	O
+नई	O
+खबर	O
+है	O
+
+मुझे	O
+जैज़	B-music_genre
+पसंद	O
+है	O
+आपको	O
+पता	O
+होना	O
+चाहिए	O
+
+कृपया	O
+my	O
+playlist	O
+देखें	O
+
+क्या	O
+तुम	O
+एक	B-time
+सौ	I-time
+तीस	I-time
+का	O
+अलार्म	O
+लगा	O
+सकती	O
+हो	O
+
+कल	O
+के	O
+लिए	O
+अलार्म	O
+कैंसिल	O
+करो	O
+
+वर्तमान	O
+केंद्रीय	B-time_zone
+समय	O
+क्या	O
+है	O
+
+कल	O
+के	O
+लिए	O
+सेट	O
+अलार्म	O
+हटा	O
+दें	O
+
+olly	O
+कृपया	O
+रोशनी	O
+कम	O
+करें	O
+
+क्या	O
+कल	B-date
+नई	B-place_name
+दिल्ली	I-place_name
+में	O
+बारिश	B-weather_descriptor
+होगी	O
+
+मुंबई	O
+में	O
+कितने	O
+बजे	O
+हैं	O
+
+पूर्वी	O
+और	O
+प्रशांत	B-time_zone
+के	O
+बीच	O
+समय	O
+का	O
+अंतर	O
+क्या	O
+है	O
+
+क्या	O
+आस-पास	O
+के	O
+भारतीय	B-food_type
+भोजनालय	B-business_type
+वितरण	B-order_type
+करते	O
+हैं	O
+
+चेन्नई	O
+में	O
+मौसम	O
+कैसा	O
+है	O
+
+ok	O
+google	O
+मौसम	O
+कैसा	O
+है	O
+
+प्रकाश	O
+कम	O
+करें	O
+
+कृपया	O
+मेरा	O
+वेमो	B-device_type
+प्लग	I-device_type
+सॉकेट	I-device_type
+चालू	O
+करें	O
+
+अगले	O
+सप्ताह	O
+मौसम	O
+कैसा	O
+रहेगा	O
+
+गाना	O
+कैसे	O
+रिपीट	O
+करें	O
+
+यह	O
+कौनसा	O
+संगीत	O
+है	O
+
+कृपया	O
+रोशनी	O
+बढ़ाएं	O
+
+भक्ति	O
+प्लेलिस्ट	O
+चालू	O
+करें	O
+
+इस	O
+माह	O
+में	O
+सप्ताह	O
+का	O
+कौन	O
+सा	O
+दिन	O
+बाइसवां	B-date
+पड़ता	O
+है	O
+
+सोने	O
+जाओ	O
+
+मुझे	O
+कल	B-date
+प्रातः	B-time
+सात	I-time
+बजे	I-time
+उठने	B-alarm_type
+का	O
+अलार्म	O
+चाहिए	O
+
+कृपया	O
+सभी	O
+बाहरी	O
+बत्तियाँ	O
+चालू	O
+करो	O
+
+कृपया	O
+वॉल्यूम	O
+बढ़ाएं	O
+
+सरकारी	O
+तालाबंदी	O
+पर	O
+ताजा	O
+खबर	O
+प्राप्त	O
+करें	O
+
+हनी	O
+सिंह	O
+के	O
+गाने	O
+चलाओ	O
+
+रात	O
+का	O
+समय	O
+
+मुझे	O
+खाने	O
+की	O
+डिलीवरी	B-order_type
+मिल	O
+गई	O
+
+कुछ	O
+भक्ति	B-music_genre
+वाला	O
+चालू	O
+करें	O
+
+क्या	O
+यह	O
+शुक्रवार	B-date
+को	O
+समुद्र	B-place_name
+तट	I-place_name
+पर	O
+अच्छा	B-weather_descriptor
+रहेगा	O
+
+अरिजीत	O
+सिंह	O
+का	O
+तुम	O
+ही	O
+हो	O
+एल्बम	O
+चलाएं	O
+
+कृपया	O
+मेरे	O
+लिए	O
+एक	O
+कॉफी	O
+बनाओ	O
+
+इस	O
+सप्ताह	O
+में	O
+किस	O
+दिन	O
+बारिश	B-weather_descriptor
+होगी	O
+
+इस	O
+सप्ताह	O
+में	O
+मौसम	O
+कैसा	O
+है	O
+
+दोपहर	O
+एक	B-time
+बजे	I-time
+का	O
+alarm	O
+set	O
+करो	O
+
+भारतीय	O
+चुनाव	O
+के	O
+बारे	O
+में	O
+ताजा	O
+खबर	O
+क्या	O
+है	O
+
+कृपया	O
+मेरे	O
+लिए	O
+एक	O
+कॉफी	O
+बनाओ	O
+
+आज	O
+चमकीला	B-weather_descriptor
+दिन	O
+है	O
+
+सिडनी	O
+में	O
+अभी	O
+मौसम	O
+कैसा	O
+है	O
+
+मैं	O
+अपनी	O
+प्लेलिस्ट	O
+सुनना	O
+चाहता	O
+हूँ	O
+क्या	O
+आप	O
+इसे	O
+अभी	O
+चलाएंगे	O
+
+ज़रूरी	O
+नहीं	O
+ar	B-artist_name
+rahman	I-artist_name
+चलाओ	O
+
+ओडिसा	O
+में	O
+कितनी	O
+गर्मी	B-weather_descriptor
+है	O
+
+दिल्ली	O
+में	O
+वर्तमान	O
+समय	O
+क्या	O
+है	O
+
+हैदराबाद	O
+में	O
+वर्तमान	O
+समय	O
+क्या	O
+है	O
+
+क्या	O
+रविवार	B-date
+को	O
+एक	O
+पोशाक	O
+के	O
+लिए	O
+यह	O
+बहुत	O
+ठंडा	B-weather_descriptor
+होगा	O
+
+सुनिधि	O
+चौहान	O
+का	O
+कुछ	O
+सुनाओ	O
+
+यह	O
+बहुत	O
+उज्ज्वल	O
+है	O
+
+dominoes	O
+से	O
+दो	O
+बड़े	O
+pizzas	B-food_type
+and	I-food_type
+pieces	I-food_type
+of	I-food_type
+hot	I-food_type
+wings	I-food_type
+ऑर्डर	O
+करें	O
+
+आज	O
+की	O
+तारीख	O
+और	O
+समय	O
+क्या	O
+है	O
+
+ऊपर	O
+से	O
+मेरा	O
+वर्तमान	O
+प्लेलिस्ट	O
+चलाओ	O
+
+मेरा	O
+पसंदीदा	O
+देशी	B-music_genre
+गाना	O
+बजाओ	O
+
+भारत	O
+में	O
+इस	O
+समय	O
+क्या	O
+समय	O
+है	O
+
+olly	O
+भारत	B-place_name
+में	O
+इस	O
+समय	O
+क्या	O
+समय	O
+है	O
+
+प्लीज	O
+प्ले	O
+अरिजीत	B-artist_name
+सिंह	I-artist_name
+सनम	O
+रे	O
+
+मुझे	O
+समय	O
+बताओ	O
+
+दा	O
+प्रिंट	O
+पर	O
+ताजा	O
+खबर	O
+क्या	O
+है	O
+
+इसके	O
+बाद	O
+मेरे	O
+लिए	O
+दिलवाले	B-song_name
+चालू	O
+करो	O
+
+मैं	O
+कुछ	O
+जैज़	B-music_genre
+सुनना	O
+चाहता	O
+हूँ	O
+
+मुझे	O
+मुंबई	B-place_name
+का	O
+एक	B-date
+सप्ताह	I-date
+का	O
+मौसम	O
+दिखाओ	O
+
+smart	O
+plug	O
+socket	O
+को	O
+बंद	O
+करें	O
+
+वेमो	O
+प्लग	O
+सॉकेट	O
+चालू	O
+करें	O
+
+स्पीकर	O
+वॉल्यूम	O
+को	O
+कम	O
+करें	O
+
+रूम्बा	O
+को	O
+चालू	O
+करो	O
+
+मेरे	O
+लिए	O
+साउथ	B-food_type
+इंडियन	I-food_type
+खाना	O
+खरीदो	O
+
+जो	O
+गाना	O
+रेडियो	O
+पर	O
+है	O
+उसका	O
+निर्माता	O
+कौन	O
+है	O
+
+अभी	O
+चल	O
+रहे	O
+इंडियन	B-news_topic
+प्रीमियर	I-news_topic
+लीग	I-news_topic
+खेल	O
+के	O
+लिए	O
+स्कोर	O
+क्या	O
+हैं	O
+
+अमर	O
+उजाला	O
+की	O
+हेडलाइन	O
+क्या	O
+है	O
+
+सप्ताह	O
+के	O
+बाकी	O
+दिनों	O
+में	O
+मौसम	O
+कैसा	O
+दिखता	O
+है	O
+
+क्या	O
+जल्द	O
+ही	O
+कोई	O
+फ्लिप	B-weather_descriptor
+फ्लॉप	I-weather_descriptor
+मौसम	I-weather_descriptor
+होने	O
+वाला	O
+है	O
+
+जैसा	O
+मौसम	O
+अब	O
+है	O
+
+कृपया	O
+प्रकाश	O
+बढ़ाएं	O
+
+क्या	O
+अगले	B-date
+सप्ताह	I-date
+कोई	O
+हिमपात	B-weather_descriptor
+होगा	O
+
+कृपया	O
+बुधवार	B-date
+शाम	B-timeofday
+का	O
+अलार्म	O
+हटा	O
+दें	O
+
+श्रीनगर	O
+में	O
+आज	B-date
+कितनी	O
+बर्फ	B-weather_descriptor
+गिरी	O
+
+मेरे	O
+लिए	O
+इस	O
+गाने	O
+की	O
+शैली	O
+को	O
+सेव	O
+करें	O
+
+मुझे	O
+यह	O
+गाना	O
+सुनना	O
+अच्छा	O
+लगता	O
+है	O
+
+इस	O
+गाने	O
+के	O
+बाद	O
+सनम	B-song_name
+रे	I-song_name
+प्ले	O
+करें	O
+
+मुझे	O
+तीन	B-time
+घंटे	I-time
+में	O
+सचेत	O
+करें	O
+
+साथिया	O
+
+अभी	O
+मौसम	O
+क्या	O
+है	O
+
+मुझे	O
+बताओ	O
+कि	O
+भारतीय	B-news_topic
+राजनीति	I-news_topic
+में	O
+क्या	O
+हो	O
+रहा	O
+है	O
+
+मैं	O
+जानना	O
+चाहता	O
+हूं	O
+कि	O
+इस	O
+समय	O
+इंग्लिश	B-news_topic
+प्रीमियर	I-news_topic
+लीग	I-news_topic
+में	O
+कौन	O
+शीर्ष	O
+पर	O
+है	O
+
+एलेक्सा	O
+मेरे	O
+क्षेत्र	O
+में	O
+क्या	O
+खबर	O
+है	O
+
+मुझे	O
+कुछ	O
+अरिजीत	B-artist_name
+सिंह	I-artist_name
+सुनने	O
+का	O
+समय	O
+
+दोहराना	O
+चालू	O
+करें	O
+
+सफाई	O
+चालू	O
+करें	O
+
+पिज़्ज़ा	O
+के	O
+लिए	O
+बाहर	O
+जाने	O
+के	O
+लिए	O
+अगले	B-date
+सप्ताह	I-date
+सबसे	O
+अच्छा	O
+दिन	O
+कौन	O
+सा	O
+है	O
+
+मैं	O
+आज	B-date
+किस	O
+तरह	O
+के	O
+मौसम	O
+की	O
+उम्मीद	O
+कर	O
+सकता	O
+हूं	O
+
+इंदौर	O
+में	O
+समय	O
+क्या	O
+है	O
+
+कृपया	O
+सुबह	O
+आठ	B-time
+बजे	I-time
+का	O
+अलार्म	O
+लगा	O
+दें	O
+
+बहुत	O
+सारे	O
+अरिजीत	B-artist_name
+सिंह	I-artist_name
+सोनू	I-artist_name
+निगम	I-artist_name
+और	O
+अरमान	O
+मालिक	O
+को	O
+प्लेलिस्ट	O
+में	O
+जोड़ें	O
+
+क्या	O
+आप	O
+मेरे	O
+लिए	O
+कुछ	O
+नृत्य	B-music_genre
+संगीत	I-music_genre
+चला	O
+सकते	O
+हैं	O
+
+playlist	O
+से	O
+गाने	O
+चलाए	O
+
+मैंने	O
+अभी	O
+कौन	O
+से	O
+अलार्म	O
+लगा	O
+रखे	O
+हैं	O
+
+मुंबई	O
+भारत	O
+में	O
+आज	B-date
+का	O
+तापमान	B-weather_descriptor
+क्या	O
+होगा	O
+
+gaana	O
+लोड	O
+करो	O
+
+अरे	O
+ओली	O
+मुझे	O
+एक	O
+चुटकुला	O
+सुनाओ	O
+
+मैं	O
+chinese	B-food_type
+food	O
+tonight	B-timeofday
+ऑर्डर	O
+करना	O
+चाहता	O
+हूँ	O
+जो	O
+मुझे	O
+डिलीवर	O
+कर	O
+रहा	O
+है	O
+
+hey	O
+siri	O
+अभी	O
+की	O
+लाइट	O
+सेटिंग	O
+को	O
+चेंज	O
+कर	O
+दो	O
+
+अरिजीत	O
+सिंह	O
+के	O
+नए	O
+गाने	O
+बजाएं	O
+
+चार	O
+सौ	O
+बजे	O
+का	O
+अलार्म	O
+सेट	O
+हटा	O
+दें	O
+
+क्या	O
+कल	B-date
+तापमान	O
+नब्बे	B-weather_descriptor
+डिग्री	I-weather_descriptor
+से	O
+अधिक	O
+होगा	O
+
+मेरे	O
+पिछले	B-date
+साल	I-date
+के	O
+पसंदीदा	O
+गाने	O
+चलाओ	O
+
+कृपया	O
+जवाब	O
+मत	O
+दो	O
+
+क्या	O
+आप	O
+मेरा	O
+desk	B-device_type
+lamp	I-device_type
+बंद	O
+कर	O
+सकते	O
+हैं	O
+
+डेस्क	O
+का	O
+लैंप	O
+वन	O
+बंद	O
+कर	O
+दो	O
+
+बतियाँ	O
+चालू	O
+
+क्या	O
+मुझे	O
+आज	B-date
+काम	O
+करने	O
+के	O
+लिए	O
+छाता	B-weather_descriptor
+लाने	O
+की	O
+आवश्यकता	O
+होगी	O
+
+क्या	O
+आज	B-date
+मैं	O
+shopping	O
+करते	O
+वक़्त	O
+निकर	B-weather_descriptor
+पहन	O
+सकता	O
+हूँ	O
+
+अरिजीत	O
+सिंह	O
+के	O
+संगीत	O
+को	O
+चालू	O
+करें	O
+
+अय्यूब	O
+भाई	O
+द्वारा	O
+नवीनतम	O
+एल्बम	O
+चलाओ	O
+
+कल	O
+सुबह	B-timeofday
+दस	B-time
+बजे	O
+का	O
+अलार्म	O
+लगाओ	O
+
+दस	O
+बजे	O
+मुझे	O
+उठाओ	O
+
+a.	O
+c.	O
+d.	O
+c.	O
+द्वारा	O
+dynamite	B-song_name
+बजाओ	O
+
+मुझे	O
+वितरण	B-order_type
+दिखाओ	O
+
+इंटरनेट	O
+खोलो	O
+
+मुझे	O
+कुछ	O
+संगीत	O
+सुनने	O
+दे	O
+
+मैं	O
+एक	O
+अच्छा	O
+संगीत	O
+सुनना	O
+चाहता	O
+हूँ	O
+
+लैम्प	O
+की	O
+रोशनी	O
+बढ़ाओ	O
+
+कृपया	O
+वॉल्यूम	O
+को	O
+सबसे	B-change_amount
+तेज़	I-change_amount
+सेटिंग	O
+में	O
+बदलें	O
+
+आवाज	O
+बंद	O
+करो	O
+
+ऑडियो	O
+बंद	O
+करो	O
+
+क्या	O
+इस	O
+बार	O
+पूरा	O
+सप्ताह	B-date
+बारिश	B-weather_descriptor
+होगी	O
+
+सभी	O
+आंतरिक	B-house_place
+रोशनी	O
+मंद	O
+करें	O
+
+क्या	O
+मैं	O
+आज	B-date
+शॉर्ट्स	B-weather_descriptor
+से	O
+दूर	O
+हो	O
+पाऊंगा	O
+
+क्या	O
+मुझे	O
+आज	B-date
+परतों	B-weather_descriptor
+में	O
+कपड़े	O
+पहनने	O
+चाहिए	O
+
+मेरी	O
+रोशनी	O
+को	O
+कुछ	O
+यादृच्छिक	B-color_type
+रंग	O
+में	O
+बदल	O
+दें	O
+
+मुझे	O
+दैनिक	B-media_type
+जागरण	I-media_type
+का	O
+सबसे	O
+ताजा	O
+ख़बर	O
+दो	O
+
+सेटिंग्स	O
+को	O
+म्यूट	O
+करें	O
+
+क्या	O
+इस	B-date
+सप्ताह	I-date
+हिमपात	O
+होने	O
+की	O
+सम्भावना	O
+है	O
+
+बत्तियों	O
+का	O
+रंग	O
+बदलें	O
+
+बाईस	O
+अप्रैल	O
+का	O
+दिन	O
+
+हम	O
+कितनी	O
+जल्दी	O
+बारिश	B-weather_descriptor
+की	O
+उम्मीद	O
+कर	O
+सकते	O
+हैं	O
+
+आपने	O
+मुझे	O
+जो	O
+मौसम	O
+की	O
+भविष्यवाणियां	O
+दी	O
+हैं	O
+वे	O
+गलत	O
+शहर	O
+के	O
+लिए	O
+हैं	O
+मैं	O
+वहां	O
+के	O
+तापमान	O
+को	O
+जानना	O
+चाहता	O
+हूं	O
+जहां	O
+मैं	O
+हूं	O
+
+एक	O
+सफेद	O
+अमेरिकी	B-food_type
+पनीर	I-food_type
+मशरूम	I-food_type
+के	O
+साथ	O
+एक	O
+डबल	O
+मशरूम	B-food_type
+चीज	I-food_type
+बर्गर	I-food_type
+ऑर्डर	O
+करें	O
+
+सनम	O
+का	O
+चालू	O
+करें	O
+
+बगिरा	O
+बाघ	B-news_topic
+पर	O
+जानकारी	O
+दें	O
+
+मेरे	O
+आसपास	O
+इस	B-date
+सप्ताह	I-date
+मौसम	O
+कैसा	O
+रहने	O
+वाला	O
+है	O
+
+कृपया	O
+यहां	O
+बत्तियां	O
+चालू	O
+करें	O
+
+स्पीकर	O
+की	O
+आवाज़	O
+बढ़ाओ	O
+
+मुंबई	O
+में	O
+समय	O
+अलग	O
+है	O
+
+मुझे	O
+बताएं	O
+कि	O
+कौन	O
+से	O
+कैटरिंग	O
+पैकेज	O
+उपलब्ध	O
+हैं	O
+
+क्या	O
+आसमान	O
+में	O
+बादल	O
+छाए	O
+रहेंगे	O
+
+यह	O
+देखने	O
+के	O
+लिए	O
+जांचें	O
+कि	O
+क्या	O
+पिज्जा	B-business_name
+हट	I-business_name
+के	O
+रास्ते	O
+में	O
+मेरा	O
+ऑर्डर	O
+है	O
+
+नया	O
+स्मार्ट	B-device_type
+सॉकेट	I-device_type
+शुरू	O
+करें	O
+
+रोशनी	O
+को	O
+दो	O
+स्तर	O
+तक	O
+कम	O
+करें	O
+
+इस	O
+सप्ताह	O
+का	O
+मौसम	O
+पूर्वानुमान	O
+क्या	O
+है	O
+
+कृपया	O
+शयनकक्ष	B-house_place
+की	O
+लाइट	O
+को	O
+बंद	O
+करे	O
+
+टैको	O
+बेल	O
+कब	O
+आने	O
+वाली	O
+है	O
+
+इस	O
+संगीत	O
+समूह	O
+का	O
+नाम	O
+क्या	O
+है	O
+
+मोदी	O
+की	O
+अगली	O
+प्रेस	O
+कॉन्फ्रेंस	O
+कब	O
+है	O
+
+गूगल	O
+के	O
+लिए	O
+वर्तमान	O
+शेयर	B-news_topic
+भाव	I-news_topic
+क्या	O
+हैं	O
+
+क्या	O
+मेरा	O
+गोल्फ	O
+खेल	O
+बारिश	B-weather_descriptor
+से	O
+धूल	O
+जाने	O
+वाला	O
+है	O
+
+भोपाल	O
+में	O
+मौसम	O
+कैसा	O
+है	O
+
+सुबह	O
+पांच	O
+बजे	O
+का	O
+अलार्म	O
+लगाओ	O
+
+रात	O
+के	O
+दस	B-time
+बजे	I-time
+के	O
+लिए	O
+अलार्म	O
+सेट	O
+करो	O
+
+कल	O
+का	O
+मौसम	O
+कैसा	O
+है	O
+
+क्या	O
+कल	B-date
+अच्छा	B-weather_descriptor
+रहेगा	O
+
+आज	O
+मेरे	O
+क्षेत्र	O
+में	O
+क्या	O
+पूर्वानुमान	O
+है	O
+
+मेरा	O
+अलग	O
+अलार्म	O
+सूचीबद्ध	O
+करें	O
+
+शेयर	O
+बाजार	O
+की	O
+सभी	O
+खबरों	O
+के	O
+लिए	O
+अधिसूचना	O
+चालू	O
+करें	O
+
+शेयर	O
+बाजार	O
+की	O
+ताजा	O
+खबरों	O
+के	O
+बारे	O
+में	O
+मुझे	O
+सूचित	O
+करें	O
+
+मेरा	O
+संगीत	O
+खोलो	O
+
+ताजा	O
+खबर	O
+क्या	O
+है	O
+बताओ	O
+
+मुझे	O
+एक	O
+बेवकूफ	B-joke_type
+चुटकुला	O
+चाहिए	O
+
+क्या	O
+मुझे	O
+आज	B-date
+निक्कर	B-weather_descriptor
+पहनना	O
+चाहिए	O
+
+क्या	O
+तुम	O
+मुझे	O
+एक	O
+अच्छा	B-joke_type
+चुटकुला	O
+सकती	O
+हो	O
+
+अंतिम	O
+गाने	O
+को	O
+फिर	O
+से	O
+दोहराओ	B-player_setting
+
+इस	O
+वर्ष	O
+सप्ताह	O
+का	O
+कौन	O
+सा	O
+दिन	O
+सत्ताईस	B-date
+जून	I-date
+है	O
+
+क्या	O
+मुझे	O
+गर्म	B-weather_descriptor
+होने	O
+की	O
+आवश्यकता	O
+होगी	O
+
+आज	O
+क्या	O
+है	O
+
+बेडरूम	O
+की	O
+लाइट्स	O
+को	O
+बंद	O
+कर	O
+दो	O
+
+समय	O
+क्षेत्र	O
+परिवर्तित	O
+करें	O
+
+अन्य	O
+शहर	O
+में	O
+टाइम	O
+क्या	O
+हो	O
+रहा	O
+है	O
+
+सूर्यास्त	O
+कब	O
+है	O
+
+दस	O
+दिन	O
+का	O
+पूर्वानुमान	O
+बताओ	O
+
+क्या	O
+रोशनी	O
+को	O
+हरे	B-color_type
+रंग	O
+में	O
+बदला	O
+जा	O
+सकता	O
+है	O
+
+मुझे	O
+इंडिया	B-media_type
+टी.	I-media_type
+वी.	I-media_type
+समाचार	O
+दिखाओ	O
+
+क्या	O
+कोई	O
+खबर	O
+है	O
+
+कृष्णा	O
+के	O
+गाने	B-song_name
+चलाओ	O
+
+अब	O
+से	O
+पांच	O
+मिनट	O
+के	O
+लिए	O
+अलार्म	O
+सेट	O
+करें	O
+
+कृपया	O
+मेरा	O
+अलार्म	O
+सेट	O
+करो	O
+
+मुझे	O
+मशरूम	B-food_type
+पिज़्ज़ा	I-food_type
+ऑर्डर	O
+करने	O
+के	O
+लिए	O
+डोमिनोज	B-business_name
+को	O
+कॉल	O
+करें	O
+
+वर्तमान	O
+तापमान	B-weather_descriptor
+क्या	O
+है	O
+
+कुछ	O
+संगीत	O
+को	O
+शुरू	O
+करो	O
+
+क्या	O
+आप	O
+इस	O
+गीत	O
+के	O
+बारे	O
+में	O
+जानते	O
+हैं	O
+
+यह	O
+किसने	O
+गाया	O
+है	O
+
+कुछ	O
+मजेदार	B-joke_type
+चुटकुले	O
+खोलें	O
+
+मुझे	O
+एक	O
+चुटकुला	O
+सुनाओ	O
+
+लाइट	O
+बंद	O
+करें	O
+
+मुझे	O
+तूफान	B-news_topic
+समाचार	O
+पर	O
+जानकारी	O
+दें	O
+
+मुझे	O
+आज	B-date
+के	O
+लिए	O
+शेयर	B-news_topic
+बाजार	I-news_topic
+की	O
+अपडेट	O
+भेजें	O
+
+आखिरी	O
+रात	O
+जीतने	B-news_topic
+वाले	I-news_topic
+क्रिकेट	I-news_topic
+मैच	I-news_topic
+नंबर	O
+क्या	O
+थे	O
+
+फिनली	O
+के	O
+सोने	O
+के	O
+समय	O
+का	O
+अलार्म	O
+हटा	O
+दें	O
+
+कृपया	O
+मुझसे	O
+शांति	O
+से	O
+बात	O
+करें	O
+
+पूर्वी	O
+समय	O
+क्षेत्र	O
+के	O
+लिए	O
+समय	O
+क्या	O
+है	O
+
+कृपया	O
+मुझे	O
+हमारे	O
+राज्य	B-place_name
+में	O
+चुनावी	B-news_topic
+परिदृश्य	I-news_topic
+के	O
+बारे	O
+में	O
+नवीनतम	O
+समाचार	O
+बताएं	O
+
+मुझे	O
+यह	O
+गाना	O
+सुनना	O
+अच्छा	O
+लगता	O
+है	O
+
+हमें	O
+लाल	B-color_type
+प्रदर्शन	O
+करो	O
+
+अप्रैल	O
+की	O
+तेईस	O
+तारीख	O
+का	O
+शनिवार	O
+है	O
+
+आज	O
+का	O
+सप्ताह	O
+क्या	O
+है	O
+
+गृह	O
+नगर	O
+का	O
+मौसम	O
+क्या	O
+है	O
+
+इस	O
+प्लेलिस्ट	O
+से	O
+संगीत	O
+को	O
+दौड़ाओ	O
+
+जब	O
+मेरे	O
+स्थानीय	O
+समाचार	O
+से	O
+कोई	O
+नई	O
+खबर	O
+हो	O
+तो	O
+मुझे	O
+बताएं	O
+
+रंग	O
+की	O
+अस्पष्टता	O
+बदलें	O
+
+रंग	O
+को	O
+प्रकाश	B-color_type
+से	O
+अंधेरे	B-color_type
+में	O
+बदलें	O
+
+wemo	O
+को	O
+ऑन	O
+करो	O
+
+सुबह	O
+छह	B-time
+बजे	I-time
+का	O
+अलार्म	O
+लगाओ	O
+
+यहाँ	O
+तो	O
+अंधेरा	O
+है	O
+
+olly	O
+अलार्म	O
+रद्द	O
+करना	O
+
+सिरी	O
+कैंसिल	O
+योग	O
+अलार्म	O
+
+olly	O
+वॉल्यूम	O
+बढ़ाएं	O
+
+इस	O
+गाने	O
+को	O
+रिपीट	B-player_setting
+पर	O
+रखो	O
+
+आगे	O
+तुम	B-song_name
+मिले	I-song_name
+खेलें	O
+
+day	O
+after	O
+मौसम	O
+क्या	O
+होगा	O
+
+आर्यन	O
+खान	O
+ड्रग्स	O
+केस	O
+
+क्या	O
+आप	O
+कृपया	O
+मुझे	O
+बता	O
+सकते	O
+हैं	O
+कि	O
+इस	B-date
+सप्ताह	I-date
+के	O
+लिए	O
+मौसम	O
+की	O
+भविष्यवाणी	O
+क्या	O
+है	O
+
+क्या	O
+तुम	O
+कॉफ़ी	B-device_type
+मेकर	I-device_type
+को	O
+चला	O
+सकते	O
+हो	O
+
+यह	O
+यहाँ	O
+बहुत	O
+चमकीला	O
+है	O
+क्या	O
+आप	O
+बत्ती	O
+बंद	O
+कर	O
+सकते	O
+हैं	O
+
+इस	O
+सप्ताह	O
+मौसम	O
+कैसा	O
+रहेगा	O
+
+कृपया	O
+इस	O
+गाने	O
+को	O
+मेरी	O
+पसंदीदा	O
+प्लेलिस्ट	O
+में	O
+जोड़ें	O
+
+please	O
+ये	O
+गाना	O
+दोबारा	O
+बजाओ	O
+
+क्या	O
+गुरुवार	B-date
+को	O
+भी	O
+हवा	B-weather_descriptor
+चलेगी	O
+
+एक	O
+चटकुला	O
+सुनाओ	O
+
+ओली	O
+मुझे	O
+नरेंद्र	B-person
+मोदी	I-person
+पर	O
+कोई	O
+समाचार	O
+दो	O
+
+olly	O
+क्या	O
+राष्ट्रपति	B-news_topic
+चुनाव	I-news_topic
+के	O
+बारे	O
+में	O
+कोई	O
+ताजा	O
+खबर	O
+है	O
+
+आज	O
+मेरे	O
+क्षेत्र	O
+में	O
+मौसम	O
+कैसा	O
+रहने	O
+की	O
+संभावना	O
+है	O
+
+ड्राइंग	O
+हॉल	O
+में	O
+लाइट	O
+को	O
+बंद	O
+कर	O
+दो	O
+
+मुझे	O
+नवीनतम	O
+समाचार	O
+प्राप्त	O
+करें	O
+
+चेतेश्वर	O
+पुजारा	O
+ने	O
+कल	B-date
+कितने	O
+रन	O
+बनाए	O
+थे	O
+
+मेरा	O
+जिम	B-playlist_name
+प्लेलिस्ट	I-playlist_name
+चलाओ	O
+
+बाथरूम	O
+की	O
+लाइट्स	O
+को	O
+बंद	O
+कर	O
+दो	O
+
+क्या	O
+मुझे	O
+आज	B-date
+क्या	O
+मुझे	O
+आज	B-date
+दस्ताने	O
+पहनने	O
+की	O
+ज़रूरत	O
+हैपहनने	O
+की	O
+ज़रूरत	O
+है	O
+
+क्या	O
+मेरी	O
+सैर	O
+के	O
+लिए	O
+छाता	B-weather_descriptor
+ज़रूरी	O
+है	O
+
+हाल	O
+ही	O
+में	O
+जोड़ी	O
+गई	O
+प्लेलिस्ट	O
+खेलना	O
+शुरू	O
+करें	O
+
+इंडिया	O
+न्यूज़	O
+से	O
+वर्तमान	O
+समाचार	O
+दिखाओ	O
+
+आज	O
+तक	O
+समाचार	O
+दिखाओ	O
+
+बाहर	O
+कैसा	O
+है	O
+
+भोपाल	O
+में	O
+आज	B-date
+मौसम	O
+कैसा	O
+है	O
+
+मुझे	O
+आपके	O
+द्वारा	O
+सेट	O
+किया	O
+गया	O
+अलार्म	O
+समय	O
+प्रदान	O
+करें	O
+
+क्या	O
+आप	O
+मुझे	O
+लखनऊ	B-news_topic
+पुलिस	I-news_topic
+पर	O
+स्थानीय	O
+समाचार	O
+दे	O
+सकते	O
+हैं	O
+
+मेरी	O
+प्लेलिस्ट	O
+से	O
+चलाएं	O
+
+पूर्वी	O
+समय	O
+क्षेत्र	O
+में	O
+स्विच	O
+करें	O
+
+अगले	O
+हफ्ते	O
+में	O
+चौबीस	B-date
+कब	O
+आता	O
+है	O
+
+itunes	O
+में	O
+नया	O
+क्या	O
+है	O
+
+कृपया	O
+मुझे	O
+सत्ताईस	B-date
+मार्च	I-date
+दो	I-date
+हजार	I-date
+सत्रह	I-date
+का	O
+मौसम	O
+दिखाएँ	O
+
+भारत	O
+में	O
+खबर	O
+कैसी	O
+है	O
+
+गाना	O
+क्या	O
+चल	O
+रहा	O
+है	O
+
+आवाज	O
+तेज	O
+करो	O
+
+रसोई	O
+साफ	O
+करने	O
+के	O
+लिए	O
+रूमबा	B-device_type
+लें	O
+
+कृपया	O
+मुझे	O
+ओ	B-artist_name
+ज़ालिमा	I-artist_name
+गीत	O
+का	O
+विवरण	O
+दें	O
+
+शाम	O
+के	O
+पांच	B-time
+बजे	I-time
+के	O
+अलार्म	O
+से	O
+छुटकारा	O
+पाएं	O
+
+भारतीय	O
+लोक	O
+गीत	O
+चलाओ	O
+
+मुझे	O
+सुबह	O
+दस	O
+बजे	O
+के	O
+बाद	O
+जैकेट	B-weather_descriptor
+चाहिए	O
+या	O
+नहीं	O
+
+मैं	O
+जियो	B-media_type
+समाचार	I-media_type
+पढ़ना	O
+चाहता	O
+हूँ	O
+
+क्या	O
+मुझे	O
+आज	B-timeofday
+रात	I-timeofday
+अपने	O
+साथ	O
+दस्ताने	B-weather_descriptor
+लाने	O
+चाहिए	O
+
+क्या	O
+मुझे	O
+आज	B-date
+जैकेट	B-weather_descriptor
+चाहिए	O
+
+olly	O
+रोशनी	O
+तेज	O
+करो	O
+
+रोशनी	O
+का	O
+रंग	O
+बदलें	O
+
+olly	O
+एक	O
+अलग	O
+बत्ती	O
+रंग	O
+को	O
+सक्रिय	O
+करें	O
+
+एक	O
+अलग	O
+बत्ती	O
+के	O
+रंग	O
+को	O
+सक्रिय	O
+करें	O
+
+प्रधानमंत्री	O
+मोदी	O
+के	O
+लिए	O
+पब्लिक	O
+का	O
+दृष्टिकोण	O
+पे	O
+जो	O
+ताज़ा	O
+सर्वेक्षण	O
+हुआ	O
+था	O
+उसका	O
+क्या	O
+हुआ	O
+
+इस	O
+संगीत	O
+को	O
+पसंद	O
+करें	O
+
+कमरे	O
+की	O
+बत्ती	O
+बंद	O
+कर	O
+दो	O
+
+बीस	O
+मई	O
+कौन	O
+सा	O
+दिन	O
+है	O
+
+जब	O
+तक	O
+कहा	O
+न	O
+जाये	O
+चुप	O
+रहो	O
+
+अभी	O
+चल	O
+रहे	O
+गाना	O
+कृपया	O
+दोहराएं	B-player_setting
+
+कृपया	O
+मुझे	O
+कार्यदिवस	B-date
+के	O
+लिए	O
+सुबह	B-timeofday
+के	O
+अलार्म	O
+का	O
+समय	O
+बताएं	O
+
+तस्वीरों	O
+के	O
+लिए	O
+सहयोगी	O
+को	O
+धन्यवाद	O
+
+कुछ	O
+उत्सव	B-music_genre
+गीत	I-music_genre
+बजाओ	O
+
+मुझे	O
+दिन	O
+के	O
+लिए	O
+खबर	O
+पढ़ें	O
+
+क्या	O
+संटा	B-person
+और	O
+बंटा	B-person
+एक	O
+साथ	O
+वापस	O
+आ	O
+गए	O
+
+पच्चीस	O
+मई	O
+को	O
+शाम	O
+पांच	B-time
+बजे	I-time
+अलार्म	O
+लगाओ	O
+
+मेरे	O
+संगीत	O
+को	O
+शुरू	O
+करो	O
+
+assistant	O
+पूरे	B-music_descriptor
+लाइब्रेरी	I-music_descriptor
+में	O
+फेरबदल	B-player_setting
+करें	O
+
+सबसे	O
+पास	O
+में	O
+डोमिनोज	B-business_name
+
+शफ़ल	O
+करें	O
+और	O
+भक्ति	B-playlist_name
+प्लेलिस्ट	I-playlist_name
+चलाएं	B-player_setting
+
+अलार्म	O
+सेटिंग	O
+को	O
+रिपोर्ट	O
+करो	O
+
+अभी	O
+का	O
+तापमान	B-weather_descriptor
+
+सोनू	O
+निगम	O
+कलाकार	O
+के	O
+सभी	B-music_descriptor
+गाने	O
+शफ़ल	B-player_setting
+करें	O
+और	O
+बजाएं	O
+
+क्या	O
+मुझे	O
+इस	B-date
+सप्ताहांत	I-date
+सूर्यरोधी	B-weather_descriptor
+की	O
+आवश्यकता	O
+होगी	O
+
+क्या	O
+मुझे	O
+दुकान	B-business_type
+से	O
+कुछ	O
+बर्फ	B-food_type
+पिघलने	I-food_type
+वाला	I-food_type
+नमक	I-food_type
+लेना	O
+चाहिए	O
+
+वेमो	O
+प्लग	O
+सॉकेट	O
+चालू	O
+करें	O
+
+wemo	O
+प्लग	O
+सॉकेट	O
+को	O
+ऑन	O
+कर	O
+दो	O
+
+बस	O
+मुझे	O
+आज	B-date
+की	O
+तारीख	O
+बताएं	O
+
+olly	O
+मुंबई	O
+और	O
+कोलकाता	O
+के	O
+मौसम	O
+का	O
+पूर्वानुमान	O
+बताओ	O
+
+प्रारंभ	O
+टैप	O
+करें	O
+और	O
+फिर	O
+setting	O
+चुनें	O
+
+नई	O
+दिल्ली	O
+भारत	O
+में	O
+इस	O
+समय	O
+क्या	O
+समय	O
+है	O
+
+भक्ति	O
+वाले	O
+गानों	O
+को	O
+चालू	O
+करो	O
+
+सोनू	O
+निगम	O
+
+घर	O
+की	O
+सफाई	O
+शरू	O
+करो	O
+
+क्या	O
+मुझे	O
+काम	O
+करने	O
+के	O
+लिए	O
+जैकेट	B-weather_descriptor
+पहननी	O
+चाहिए	O
+
+कृपया	O
+वॉल्यूम	O
+बढ़ाएं	O
+
+कमरे	O
+की	O
+हर	B-device_type
+रोशनी	I-device_type
+इसकी	O
+तीव्रता	O
+को	O
+बढ़ाती	O
+है	O
+
+कृपया	O
+सुनिधि	B-artist_name
+चौहान	I-artist_name
+के	O
+गाने	O
+को	O
+फिर	O
+से	O
+चालू	O
+करें	O
+
+ओरेवेना	O
+वॉयस	O
+रिकॉर्डर	O
+मुझे	O
+सिस्टम	O
+पेज	O
+देता	O
+है	O
+जहां	O
+गाने	O
+को	O
+सेव	O
+कर	O
+सकते	O
+हैं	O
+
+जलवायु	O
+
+अगले	O
+वर्ष	O
+मेरा	B-event_name
+जन्मदिन	I-event_name
+किस	O
+दिन	O
+पड़ता	O
+है	O
+
+सप्ताह	O
+का	O
+कौन	O
+सा	O
+दिन	O
+बारहवां	B-date
+है	O
+
+ऑडियो	O
+चालू	O
+
+संगीत	O
+बजाए	O
+
+क्या	O
+रेस्टोरेंट	B-business_type
+रॉयल	B-business_name
+इंडिया	O
+टेकअवे	B-order_type
+वितरण	O
+करता	O
+है	O
+
+क्या	O
+सूर्यास्त	B-time
+के	I-time
+बाद	I-time
+धुंध	B-weather_descriptor
+होगी	O
+
+बहार	O
+ठंड	B-weather_descriptor
+है	O
+
+अलार्म	O
+घड़ी	O
+
+आज	O
+शाम	B-timeofday
+पांच	B-time
+बजे	O
+के	O
+लिए	O
+अलार्म	O
+लगाओ	O
+टैक्सी	B-event_name
+लेबल	O
+
+गृहनगर	O
+में	O
+मौसम	O
+
+इस	O
+गाने	O
+के	O
+बाद	O
+तुम	O
+ही	O
+हो	O
+एल्बम	O
+का	O
+तुम	O
+ही	O
+हो	O
+गाना	O
+चलाओ	O
+
+alexa	O
+क्लासिक	B-music_genre
+रॉक	I-music_genre
+चालू	O
+पर	O
+डालो	O
+
+रोबोट	O
+वैक्यूम	O
+को	O
+शुरू	O
+करो	O
+
+क्या	O
+यह	O
+मैंगलोर	B-place_name
+में	O
+सबसे	O
+गर्म	O
+दिन	O
+है	O
+
+मुझे	O
+अलार्म	O
+टाइमिंग	O
+के	O
+बारे	O
+में	O
+बताओ	O
+
+किसी	O
+विशेष	O
+शब्द	O
+का	O
+मतलब	O
+
+संगीत	O
+सुनने	O
+के	O
+लिए	O
+
+मुझे	O
+शाम	B-weather_descriptor
+को	I-weather_descriptor
+रेन	I-weather_descriptor
+कोट	I-weather_descriptor
+की	O
+ज़रूरत	O
+है	O
+
+अंतरराष्ट्रीय	O
+व्यापार	O
+और	O
+व्यापार	O
+बाजार	O
+की	O
+ख़बरें	O
+
+क्या	O
+आप	O
+कृपया	O
+कुछ	O
+समय	O
+के	O
+लिए	O
+मौन	O
+रह	O
+सकते	O
+हैं	O
+
+मैं	O
+खाना	O
+order	O
+करना	O
+चाहता	O
+हूँ	O
+
+आपने	O
+मेरे	O
+लिए	O
+किस	O
+समय	O
+अलार्म	O
+लगाया	O
+है	O
+
+मुझे	O
+अभी	O
+कुछ	O
+कॉफी	O
+चाहिए	O
+
+मेरी	O
+सुबह	B-coffee_type
+की	O
+कॉफ़ी	O
+तैयार	O
+करो	O
+
+यह	O
+कॉफी	O
+का	O
+समय	O
+है	O
+
+क्या	O
+domino's	B-business_name
+में	O
+मेरा	O
+order	O
+तैयार	O
+है	O
+
+मैं	O
+भारतीय	B-food_type
+खाना	I-food_type
+कहाँ	O
+से	O
+पीक	O
+करूँ	O
+
+घड़ी	O
+खोलो	O
+
+अगला	O
+गाना	O
+चलाओ	O
+
+एलेक्सा	O
+प्रकाश	O
+की	O
+चमक	O
+बढानी	O
+है	O
+यहां	O
+नीचे	O
+देखना	O
+मुश्किल	O
+है	O
+
+क्या	O
+मेरा	O
+ऑर्डर	O
+अभी	O
+लेने	O
+के	O
+लिए	O
+तैयार	O
+है	O
+
+अलार्म	O
+सेट	O
+करना	O
+
+क्या	O
+मुझे	O
+आज	B-timeofday
+दोपहर	I-timeofday
+अपने	O
+साथ	O
+छाता	B-weather_descriptor
+ले	O
+जाने	O
+की	O
+आवश्यकता	O
+है	O
+
+अरिजीत	O
+सिंह	O
+वाले	O
+गाने	O
+को	O
+चालू	O
+करें	O
+
+अरे	O
+क्या	O
+आज	B-date
+गोवा	B-place_name
+भारत	I-place_name
+में	O
+बारिश	B-weather_descriptor
+होने	O
+वाली	O
+है	O
+
+हे	O
+olly	O
+दिल्ली	B-place_name
+में	O
+मौसम	O
+कैसा	O
+है	O
+
+नेहा	O
+कक्कड़	O
+का	O
+दिलबर	B-song_name
+चालू	O
+करें	O
+
+हे	O
+olly	O
+हल्दीराम	B-business_name
+से	O
+चटनी	B-food_type
+के	I-food_type
+साथ	I-food_type
+समोसा	I-food_type
+ऑर्डर	O
+करें	O
+
+hey	O
+siri	O
+पिज़्ज़ा	B-food_type
+के	I-food_type
+साथ	I-food_type
+एक्स्ट्रा	I-food_type
+चीज	I-food_type
+ऑर्डर	O
+करो	O
+
+हे	O
+olly	O
+नोएडा	B-place_name
+में	O
+समय	O
+क्या	O
+है	O
+
+मेरी	O
+हाल	O
+की	O
+प्लेलिस्ट	O
+में	O
+कुछ	B-music_descriptor
+भी	I-music_descriptor
+चलाएं	O
+
+olly	O
+मेरी	O
+हाल	O
+की	O
+प्लेलिस्ट	O
+में	O
+कुछ	B-music_descriptor
+भी	I-music_descriptor
+बजाओ	O
+
+जो	O
+गाना	O
+चल	O
+रहा	O
+है	O
+उसके	O
+बारे	O
+में	O
+मुझे	O
+जानकारी	O
+दें	O
+
+मेरे	O
+लिए	O
+मजाकिया	O
+बनो	O
+
+olly	O
+मुझे	O
+अपने	O
+दस्ताने	B-weather_descriptor
+पहनना	O
+चाहिए	O
+या	O
+नहीं	O
+
+मुझे	O
+अगले	B-time
+महीने	I-time
+के	O
+मौसम	O
+की	O
+जानकारी	O
+दो	O
+
+वैक्यूम	O
+चालू	O
+करो	O
+
+क्या	O
+मुझे	O
+आज	B-date
+कभी	O
+लेयर्स	O
+पहननी	O
+चाहिए	O
+
+इस	O
+सप्ताह	O
+की	O
+मौसम	O
+रिपोर्ट	O
+चेक	O
+करो	O
+
+मुझे	O
+एक	B-time
+सप्ताह	I-time
+का	O
+पूर्वानुमान	O
+दिखाओ	O
+
+क्या	O
+मुझे	O
+यहाँ	O
+से	O
+डिलीवरी	B-order_type
+मिल	O
+सकती	O
+है	O
+
+ट्यूब	O
+आज	B-date
+बहुत	O
+व्यस्त	O
+थी	O
+
+मुझे	O
+मेरे	O
+दिन	O
+के	O
+बारे	O
+में	O
+बताओ	O
+
+डोलोरेस	O
+क्या	O
+आपको	O
+अपनी	O
+दुनिया	O
+में	O
+कुछ	O
+अजीब	O
+लगता	O
+है	O
+
+क्या	O
+आप	O
+सुनना	O
+चाहते	O
+हैं	O
+कि	O
+आज	B-date
+क्या	O
+हुआ	O
+है	O
+
+आप	O
+मुझे	O
+कैसे	O
+जानते	O
+हैं	O
+
+गांधीनगर	O
+के	O
+इस	O
+नए	O
+खुले	O
+भोजनालय	B-business_type
+में	O
+रात	O
+का	O
+खाना	O
+बहुत	O
+अच्छा	O
+होगा	O
+
+olly	O
+यह	O
+कैसा	O
+चल	O
+रहा	O
+है	O
+
+आज	O
+मुझे	O
+पुरस्कार	O
+मिला	O
+
+आज	O
+मेरी	O
+बहुत	O
+सारी	O
+बैठकें	B-event_name
+हुईं	O
+
+तुम	O
+कहाँ	O
+से	O
+हो	O
+
+आज	O
+मौसम	O
+गर्म	O
+है	O
+
+हे	O
+गूगल	O
+मैंने	O
+एक	O
+मिलियन	O
+डॉलर	O
+की	O
+लॉटरी	O
+जैकपॉट	O
+जीता	O
+है	O
+
+मुझे	O
+आज	B-date
+की	O
+महत्वपूर्ण	O
+खबर	O
+बताओ	O
+
+आज	O
+का	O
+दिन	O
+कैसा	O
+है	O
+
+वेक	O
+वेक	O
+एग	O
+और	O
+बेकी	O
+
+चल	O
+क्या	O
+रहा	O
+है	O
+
+आज	O
+की	O
+खबरों	O
+में	O
+कुछ	O
+भी	O
+दिलचस्प	O
+
+मुझे	O
+शनिवार	B-date
+को	O
+पब	B-place_name
+में	O
+आमंत्रित	O
+किया	O
+गया	O
+
+मुझे	O
+एक	O
+अच्छा	O
+मादक	B-drink_type
+पेय	I-drink_type
+बताओ	O
+
+मुझे	O
+भारत	B-place_name
+के	O
+बारे	O
+में	O
+कुछ	O
+बताओ	O
+
+खेल	O
+
+अरे	O
+जल्द	O
+ही	O
+कौन	O
+सी	O
+अच्छी	O
+फिल्में	O
+आने	O
+वाली	O
+हैं	O
+
+तुम	O
+मेरी	O
+व्यक्तिगत	O
+जानकारी	O
+के	O
+साथ	O
+क्या	O
+करते	O
+हो	O
+
+जब	O
+मैं	O
+चाहता	O
+हूं	O
+कि	O
+यह	O
+नोट्स	O
+नीचे	O
+ले	O
+जाए	O
+
+मेरी	O
+साप्ताहिक	O
+योजना	O
+
+सामान्य	O
+ज्ञान	O
+
+विकिपीडिया	O
+विषय	O
+
+क्या	O
+चल	O
+रहा	O
+है	O
+
+कुत्तों	O
+की	O
+नस्लें	O
+जो	O
+सबसे	O
+अधिक	O
+हाइपोएलर्जेनिक	O
+हैं	O
+
+ओली	O
+मैं	O
+आज	B-date
+एक	O
+मलबे	O
+में	O
+गिर	O
+गया	O
+
+मैं	O
+आज	B-date
+वॉलमार्ट	B-place_name
+गया	O
+था	O
+
+व्यंग्यात्मक	O
+चुटकुले	O
+
+मनोरंजन	O
+समाचार	O
+
+मोबाइल	O
+
+मैं	O
+बारिश	O
+में	O
+भीग	O
+गया	O
+
+फैशन	O
+
+तय	O
+करो	O
+
+मुझे	O
+जवाब	O
+दो	O
+
+आज	O
+मेरा	B-event_name
+चीट	I-event_name
+डे	I-event_name
+है	O
+इसे	O
+मार्क	O
+करो	O
+
+आज	O
+का	O
+दिन	O
+थका	O
+देने	O
+वाला	O
+था	O
+
+क्या	O
+आपको	O
+मेरी	O
+प्रेमिका	B-relation
+अच्छी	O
+लगती	O
+है	O
+
+मुझे	O
+नेहा	B-artist_name
+कक्कड़	I-artist_name
+के	O
+बारे	O
+में	O
+बताओ	O
+
+दिल्ली	O
+में	O
+क्या	O
+हो	O
+रहा	O
+है	O
+
+मैंने	O
+इस	B-time
+समय	I-time
+क्या	O
+किया	O
+
+आपका	O
+दिन	O
+कैसा	O
+बीता	O
+
+ब्रह्मांड	O
+
+किस	O
+समय	O
+पर	O
+ताप	B-place_name
+स्तर	I-place_name
+
+चुटकुले	O
+
+खाना	O
+पकाने	O
+के	O
+बारे	O
+में	O
+पूछने	O
+के	O
+बारे	O
+में	O
+सहायक	O
+
+पूर्वानुमान	O
+दरें	O
+
+कारों	O
+
+बहुत	O
+व्यस्त	O
+
+गूगल	O
+एसईओ	O
+से	O
+संबंधित	O
+हालिया	O
+सलाह	O
+
+दिन	O
+का	O
+चुटुकुला	O
+
+किराने	O
+की	O
+दुकान	O
+पर	O
+आवश्यक	O
+सामग्री	O
+
+कैसा	O
+चल	O
+रहा	O
+है	O
+
+अगर	O
+आप	O
+तीन	O
+चीजों	O
+के	O
+बारे	O
+में	O
+बात	O
+कर	O
+सकते	O
+हैं	O
+तो	O
+वे	O
+क्या	O
+होंगी	O
+
+अंतरिक्ष	O
+अनुसंधान	O
+
+पुस्तकें	O
+
+मशहूर	O
+हस्तियों	O
+के	O
+बारे	O
+में	O
+गपशप	O
+
+शेष	O
+सप्ताह	O
+के	O
+लिए	O
+मेरा	O
+एजेंडा	O
+क्या	O
+है	O
+
+बैठकों	O
+से	O
+मेरा	O
+दिन	B-time
+साफ़	O
+करो	O
+
+कृपया	O
+मेरे	O
+कैलेंडर	O
+में	O
+दैनिक	B-general_frequency
+स्टैंड-अप	B-event_name
+दस	B-time
+ऐ.एम.	I-time
+तक	O
+रखें	O
+
+मेरी	O
+अगली	O
+बैठक	B-event_name
+कब	O
+है	O
+
+मेरे	O
+पांच	B-time
+पी.एम.	I-time
+पर	O
+दैनिक	B-general_frequency
+कॉल	B-event_name
+रद्द	O
+करो	O
+
+अमित	O
+के	O
+साथ	O
+एक	O
+बैठक	B-event_name
+बुक	O
+करें	O
+
+यह	O
+कब	O
+है	O
+
+क्या	O
+आज	B-date
+मेरा	O
+कोई	O
+कार्यक्रम	O
+है	O
+
+क्या	O
+मेरे	O
+पास	O
+कल	B-date
+के	O
+लिए	O
+कुछ	O
+भी	O
+बुक	O
+है	O
+
+मुझे	O
+मेरी	O
+घटनाओं	O
+के	O
+बारे	O
+में	O
+बताओ	O
+
+मेरे	O
+कैलेंडर	O
+की	O
+सभी	O
+घटनाओं	O
+को	O
+हटा	O
+दें	O
+
+olly	O
+अशोका	B-place_name
+पार्क	I-place_name
+पर	O
+picnic	B-event_name
+का	O
+मुझे	O
+याद	O
+दिलाना	O
+
+olly	O
+मैं	O
+इस	O
+सप्ताह	B-time
+के	I-time
+अंत	I-time
+में	O
+आउटडोर	B-event_name
+मूवी	I-event_name
+स्क्रीनिंग	O
+पर	O
+जाना	O
+चाहता	O
+हूं	O
+मुझे	O
+याद	O
+दिलाएं	O
+
+क्या	O
+आपने	O
+कल	B-date
+रात	O
+नौ	B-time
+बजे	I-time
+राम	B-person
+के	O
+साथ	O
+कोई	O
+मीटिंग	B-event_name
+जोड़ी	O
+है	O
+
+अगले	O
+पाँच	O
+दिनों	O
+के	O
+लिए	O
+सभी	O
+ईवेंट	O
+हटाएं	O
+
+क्या	O
+कल	B-date
+नौ	B-time
+पी.एम.	I-time
+पर	O
+मेरी	O
+कोई	O
+बैठकें	B-event_name
+है	O
+
+निम्नलिखित	O
+लोगों	O
+के	O
+साथ	O
+कैलेंडर	O
+में	O
+निम्नलिखित	O
+घटना	O
+सेट	O
+करें	O
+
+क्या	O
+आप	O
+मेरे	O
+द्वारा	O
+देखी	O
+गई	O
+पिछली	O
+घटना	O
+को	O
+मिटा	O
+सकते	O
+हैं	O
+
+क्या	O
+मेरे	O
+कैलेंडर	O
+में	O
+कोई	O
+आगामी	O
+कार्यक्रम	O
+है	O
+
+मेरे	O
+कैलेंडर	O
+पर	O
+अगली	O
+अपॉइंटमेंट	B-event_name
+कब	O
+है	O
+
+कल	O
+दो	B-time
+पी.एम.	I-time
+पर	O
+जन्मदिन	B-event_name
+की	I-event_name
+पार्टी	I-event_name
+को	O
+हटा	O
+दें	O
+
+क्या	O
+आप	O
+मेरे	O
+कैलेंडर	O
+से	O
+सभी	O
+ईवेंट	O
+हटा	O
+सकते	O
+हैं	O
+
+यह	O
+बहुत	O
+कठिन	O
+है	O
+
+मुझे	O
+हर	B-general_frequency
+एक	I-general_frequency
+दिन	I-general_frequency
+सुबह	B-time
+नौ	I-time
+बजे	I-time
+एक	O
+reminder	O
+चाहिए	O
+
+मुझे	O
+आज	B-date
+बैठक	B-event_name
+में	O
+किससे	O
+होने	O
+की	O
+उम्मीद	O
+करनी	O
+चाहिए	O
+
+सोमवार	O
+की	O
+बैठक	O
+को	O
+हर	B-general_frequency
+सोमवार	I-general_frequency
+को	O
+कैलेंडर	O
+पर	O
+रखें	O
+
+छह	O
+मार्च	O
+को	O
+ग्यारह	B-time
+बजे	I-time
+सामाजिक	B-event_name
+आयोजन	I-event_name
+का	I-event_name
+नोटिफिकेशन	O
+लगाओ	O
+
+क्या	O
+कल	B-date
+शाम	B-timeofday
+का	O
+कोई	O
+program	O
+है	O
+
+सभी	O
+ईवेंट	O
+और	O
+जानकारी	O
+हटाएं	O
+
+सभी	O
+आयोजन	O
+और	O
+कार्यक्रमों	O
+को	O
+हटा	O
+दें	O
+
+कल	O
+मेरा	O
+कार्यक्रम	O
+अनुसूची	O
+क्या	O
+है	O
+
+मुझे	O
+कल	B-date
+सुबह	B-time
+दस	I-time
+बजे	I-time
+की	O
+बैठक	B-event_name
+के	O
+बारे	O
+में	O
+याद	O
+दिलाना	O
+
+इस	O
+सप्ताह	O
+मेरी	O
+कितनी	O
+बैठकें	B-event_name
+है	O
+
+कैलेंडर	O
+को	O
+साफ	O
+करें	O
+
+मुझे	O
+कल	B-date
+सुबह	B-timeofday
+होने	O
+वाली	O
+बैठक	B-event_name
+से	O
+एक	B-time
+घंटे	I-time
+पहले	O
+याद	O
+दिलाएं	O
+
+कल	O
+मेरा	O
+दोपहर	B-timeofday
+का	O
+कार्यक्रम	O
+क्या	O
+है	O
+
+आनेवाले	O
+आयोजन	O
+
+नवीनतम	O
+आयोजन	O
+
+एलन	O
+के	O
+साथ	O
+कल	B-date
+के	O
+लिए	O
+एक	O
+मुलाकात	B-event_name
+निर्धारित	O
+करें	O
+
+क्या	O
+मेरे	O
+कैलेंडर	O
+पर	O
+कोई	O
+आयोजन	O
+आनेवाला	O
+है	O
+
+अगले	O
+महीने	O
+की	O
+छुट्टियों	B-event_name
+के	O
+लिए	O
+एक	O
+रिमाइंडर	O
+लगाए	O
+
+इस	O
+महीने	O
+के	O
+लिए	O
+स्पष्ट	O
+कैलेंडर	O
+
+कृपया	O
+अब	B-time
+से	I-time
+दो	I-time
+घंटे	I-time
+के	I-time
+लिए	I-time
+अलार्म	O
+सेट	O
+करें	O
+
+क्या	O
+इस	O
+शनिवार	B-date
+को	O
+दोपहर	O
+दो	B-time
+से	O
+चार	B-time
+बजे	I-time
+के	O
+बीच	O
+कुछ	O
+भी	O
+चल	O
+रहा	O
+है	O
+
+कृपया	O
+शेष	B-time
+दिन	I-time
+के	O
+लिए	O
+मेरे	O
+सभी	O
+कैलेंडर	O
+आयोजन	O
+हटा	O
+दें	O
+
+आज	O
+के	O
+लिए	O
+मेरे	O
+कैलेंडर	O
+में	O
+कौन-सी	O
+घटनाएँ	O
+हैं	O
+
+मेरे	O
+कैलेंडर	O
+आयोजन	O
+ईवेंट	O
+क्या	O
+हैं	O
+
+क्या	O
+मेरे	O
+पास	O
+आज	B-date
+कोई	O
+अनुस्मारक	O
+है	O
+
+शाम	O
+को	O
+आज	B-date
+की	O
+मीटिंग	B-event_name
+हटा	O
+दें	O
+
+मुझे	O
+बारह	B-date
+तारीख	I-date
+को	O
+मेरे	O
+डॉक्टर	B-event_name
+की	I-event_name
+नियुक्ति	I-event_name
+की	O
+सुबह	B-timeofday
+के	O
+बारे	O
+में	O
+बताएं	O
+
+शनिवार	O
+सुबह	B-timeofday
+में	O
+राहुल	B-person
+और	O
+राम	B-person
+के	O
+लिए	O
+ब्रांच	B-event_name
+में	O
+एक	O
+इवेंट	O
+बनाओ	O
+
+मुझे	O
+याद	O
+है	O
+कि	O
+आज	B-date
+शाम	O
+छह	B-time
+बजे	I-time
+सोनम	B-person
+से	O
+मिलना	B-event_name
+था	O
+
+अगले	O
+हफ्ते	O
+मेरे	O
+बॉस	B-relation
+के	O
+साथ	O
+वह	O
+बैठक	B-event_name
+कब	O
+है	O
+
+मेरे	O
+कैलेंडर	O
+से	O
+दसवीं	B-date
+की	O
+शादी	B-event_name
+हटाओ	O
+
+आयोजानो	O
+पर	O
+आगे	O
+क्या	O
+करना	O
+है	O
+
+मेरे	O
+पास	O
+कल	B-date
+अपॉइंटमेंट	B-event_name
+है	O
+मुझे	O
+याद	O
+दिलाएं	O
+
+शाम	O
+चार	O
+बजे	O
+
+olly	O
+मैं	O
+हर	B-general_frequency
+गुरुवार	I-general_frequency
+को	O
+दोपहर	O
+दो	B-time
+बजे	I-time
+अपने	O
+चिकित्सक	B-relation
+से	O
+मिलूंगा	O
+
+रद्द	O
+करना	O
+
+मैं	O
+शनिवार	B-date
+को	O
+रात	O
+दस	B-time
+बजे	I-time
+सैली	B-person
+के	O
+जन्मदिन	B-event_name
+पर	O
+जाना	O
+चाहता	O
+हूँ	O
+
+मेरे	O
+पास	O
+अगले	B-date
+सप्ताह	I-date
+क्या	O
+होने	O
+वाला	O
+है	O
+
+समीर	O
+मेरे	O
+दोस्त	B-relation
+के	O
+बिज़नस	O
+के	O
+उदघाटन	B-event_name
+की	O
+डेट	O
+बताओ	O
+मुझे	O
+
+कृपया	O
+मेरे	O
+कैलेंडर	O
+को	O
+दो	B-date
+अप्रैल	I-date
+को	O
+गोवा	B-place_name
+में	O
+छुट्टी	B-event_name
+के	I-event_name
+लिए	I-event_name
+चिह्नित	O
+करें	O
+
+आठ	O
+बजे	O
+याद	O
+दिलाना	O
+मेरी	O
+दवा	B-event_name
+लेने	O
+के	O
+लिए	O
+
+मैच	O
+कब	O
+शुरू	O
+होगा	O
+
+मैंने	O
+कल	B-date
+के	O
+लिए	O
+क्या	O
+निर्धारित	O
+किया	O
+है	O
+मुझे	O
+रद्द	O
+करने	O
+की	O
+आवश्यकता	O
+है	O
+
+कल	O
+दोपहर	B-time
+तीन	I-time
+बजे	I-time
+का	O
+मीटिंग	B-event_name
+का	O
+एक	O
+रिमाइंडर	O
+लगाओ	O
+
+मुझे	O
+अगले	O
+सोमवार	B-date
+को	O
+कपड़े	B-event_name
+धोने	I-event_name
+की	O
+याद	O
+दिलाएं	O
+
+एक	O
+अनुस्मारक	O
+सेट	O
+करें	O
+कि	O
+मुझे	O
+कल	B-date
+अपने	O
+पिता	B-relation
+के	O
+पास	O
+जाना	O
+है	O
+
+इस	O
+दोपहर	O
+के	O
+लिए	O
+कैलेंडर	O
+में	O
+एक	O
+रीयूनियन	B-event_name
+कार्यक्रम	O
+जोड़ें	O
+
+मेरा	O
+आज	B-date
+का	O
+सबसे	O
+पहला	O
+अपॉइंटमेंट	B-event_name
+किसका	O
+है	O
+
+आज	O
+के	O
+लिए	O
+मेरे	O
+शेड्यूल	O
+में	O
+क्या	O
+है	O
+
+कल	O
+दोपहर	O
+के	O
+भोजन	B-meal_type
+के	O
+लिए	O
+जो	B-person
+से	O
+मिलने	O
+के	O
+लिए	O
+मुझे	O
+याद	O
+दिलाएं	O
+
+क्या	O
+आप	O
+इस	O
+आयोजन	O
+के	O
+लिए	O
+मेरी	O
+बहनों	B-relation
+के	O
+घर	B-place_name
+में	O
+स्थान	O
+निर्धारित	O
+कर	O
+सकते	O
+हैं	O
+
+कैलेंडर	O
+से	O
+अगली	O
+आयोजन	O
+को	O
+हटा	O
+दें	O
+
+मेरे	O
+कैलेंडर	O
+में	O
+बारह	B-date
+जुलाई	I-date
+राधा	B-person
+का	O
+जन्मदिन	B-event_name
+जोड़ें	O
+
+कैलेंडर	O
+में	O
+डालो	O
+कि	O
+हम	O
+डिनर	B-meal_type
+के	O
+लिए	O
+जा	O
+रहे	O
+हैं	O
+फैज	O
+के	O
+साथ	O
+नौ	O
+अगस्त	O
+रात	O
+को	O
+आठ	O
+बजे	O
+
+मार्च	O
+में	O
+मेरे	O
+कैलेंडर	O
+में	O
+कार्यक्रम	O
+की	O
+सूची	O
+क्या	O
+है	O
+
+शादी	O
+कब	O
+निर्धारित	O
+है	O
+
+मार्च	O
+में	O
+कौन	O
+सी	O
+बैठकें	B-event_name
+उपलब्ध	O
+हैं	O
+
+कृपया	O
+बाईस	B-date
+मार्च	I-date
+दो	I-date
+हज़ार	I-date
+सत्रह	I-date
+की	O
+तीसरी	O
+घटना	O
+की	O
+जाँच	O
+करें	O
+
+कल	O
+उसके	O
+साथ	O
+वैलेंटाइन	B-event_name
+डे	I-event_name
+जोड़ें	O
+
+अगले	O
+महीने	O
+माँ	B-relation
+के	O
+साथ	O
+जन्मदिन	B-event_name
+जोड़ें	O
+
+दोस्त	O
+के	O
+साथ	O
+बैठक	B-event_name
+बनाएं	O
+
+बैठक	O
+से	O
+पहले	O
+उत्सव	B-event_name
+में	O
+शामिल	O
+हों	O
+
+कृपया	O
+केवल	O
+इन	O
+लोगों	O
+के	O
+साथ	O
+एक	O
+कार्यक्रम	O
+बनाएं	O
+
+मुझे	O
+हवाई	B-place_name
+अड्डे	I-place_name
+से	O
+दोपहर	O
+बारह	O
+बजे	O
+तक	O
+लेने	B-event_name
+के	O
+लिए	O
+याद	O
+रखें	O
+मेरी	O
+तीन	B-time
+पी.	I-time
+एम.	I-time
+पर	O
+बैठक	B-event_name
+है	O
+
+दस	O
+मार्च	O
+को	O
+रोहित	B-person
+के	O
+साथ	O
+मीटिंग	B-event_name
+सेट	O
+करें	O
+
+कल	O
+शाम	B-timeofday
+सात	B-time
+बजे	O
+तक	O
+मेरे	O
+और	O
+खिलाड़ियों	B-person
+के	O
+बीच	O
+एक	O
+बैठक	B-event_name
+तय	O
+करना	O
+याद	O
+रखना	O
+
+मेरे	O
+वर्तमान	O
+अलर्टस	O
+क्या	O
+हैं	O
+
+मुझे	O
+कल	B-date
+का	O
+interview	B-event_name
+के	O
+लिए	O
+याद	O
+दिलाएं	O
+
+आने	O
+वाले	O
+कार्यक्रम	O
+
+पुनरावर्ती	O
+पर	O
+ईवेंट	O
+सेट	O
+करें	O
+
+मंगलवार	O
+को	O
+एक	O
+बैठक	B-event_name
+निर्धारित	O
+करें	O
+
+कल	O
+हुई	O
+उस	O
+बैठक	B-event_name
+में	O
+हमें	O
+क्या	O
+मिला	O
+
+कृपया	O
+मेरी	O
+अगली	O
+बैठक	B-event_name
+जोड़ें	O
+
+इस	O
+मद	O
+के	O
+लिए	O
+कल	B-date
+के	O
+लिए	O
+अनुस्मारक	O
+सेट	O
+करें	O
+
+बैठक	O
+के	O
+लिए	O
+व्यक्ति	O
+को	O
+बुलाओ	O
+
+बिल	O
+चक्र	O
+कब	O
+है	O
+
+बिसकुट	O
+के	O
+लिए	O
+पाँच	B-time
+मिनट	I-time
+का	O
+टाइमर	O
+सेट	O
+करें	O
+
+हॉकी	O
+का	O
+खेल	O
+शुक्रवार	B-date
+को	O
+कब	O
+शुरू	O
+होता	O
+है	O
+
+कृपया	O
+मेरे	O
+सभी	O
+कैलेंडर	O
+घटनाएँ	O
+हटा	O
+दें	O
+
+मुझे	O
+कल	B-date
+सुबह	B-timeofday
+पिज़्ज़ा	B-event_name
+बनाने	I-event_name
+की	O
+याद	O
+दिलाना	O
+
+प्रत्येक	O
+शुक्रवार	O
+के	O
+लिए	O
+दोपहर	B-time
+बारह	I-time
+बजे	O
+प्रार्थना	B-event_name
+करें	O
+
+क्या	O
+मेरे	O
+पास	O
+कोई	O
+पेंडिंग	O
+रिमाइंडर	O
+हैं	O
+
+बीस	O
+अप्रैल	O
+को	O
+भाई	B-relation
+के	O
+जन्मदिन	B-event_name
+का	B-relation
+मुझे	O
+याद	O
+दिलाना	O
+मत	O
+भूलना	O
+
+मैं	O
+अजय	B-person
+चौहान	I-person
+और	O
+रोहित	B-person
+के	O
+साथ	O
+लंच	B-meal_type
+डेट	O
+जोड़ना	O
+चाहता	O
+हूं	O
+
+मुझे	O
+आज	B-date
+चार	B-time
+ऐ.एम.	I-time
+पर	O
+आगामी	O
+बैठक	B-event_name
+की	O
+याद	O
+दिलाएं	O
+
+आगामी	O
+बैठक	B-event_name
+की	O
+सूची	O
+बनाएं	O
+
+राजू	O
+सिंह	O
+के	O
+साथ	O
+मेरे	O
+सभी	O
+सप्ताहांत	B-time
+की	O
+घटनाओं	O
+को	O
+ढूंढें	O
+और	O
+हटाएं	O
+
+इस	O
+घटना	O
+को	O
+मेरे	O
+कैलेंडर	O
+में	O
+नोट	O
+करें	O
+
+क्या	O
+मेरे	O
+पास	O
+कोई	O
+अनुस्मारक	O
+लंबित	O
+है	O
+
+मुझे	O
+यह	O
+जरूर	O
+याद	O
+दिलाना	O
+
+हे	O
+olly	O
+कृपया	O
+कल	B-date
+सुबह	B-timeofday
+दस	B-time
+बजे	I-time
+बैठक	B-event_name
+के	O
+लिए	O
+एक	O
+अनुस्मारक	O
+सेट	O
+करें	O
+
+कृपया	O
+मुझे	O
+लंबित	O
+रिमाइंडर	O
+बताएं	O
+
+मेरी	O
+इस	B-date
+सप्ताह	I-date
+की	O
+बैठक	B-event_name
+के	O
+बारे	O
+में	O
+बताओ	O
+
+मेरा	O
+सोमवार	B-date
+को	O
+जन्मदिन	B-event_name
+है	O
+कार्यक्रम	O
+सेट	O
+करें	O
+
+मेरी	O
+पंद्रह	B-date
+तारीख	I-date
+को	O
+एक	O
+उड़ान	O
+है	O
+
+शाम	O
+के	O
+लिए	O
+एक	O
+कार्यक्रम	O
+निर्धारित	O
+करें	O
+
+हर	O
+तीसरे	O
+जून	O
+के	O
+लिए	O
+राज	B-person
+का	I-person
+जन्मदिन	B-event_name
+सेट	O
+करें	O
+
+मुझे	O
+हर	B-date
+शुक्रवार	I-date
+को	O
+दुकान	O
+पर	O
+जाने	O
+के	O
+लिए	O
+याद	O
+दिलाएं	O
+
+मेरे	O
+शनिवार	B-date
+के	O
+कार्यक्रम	O
+से	O
+किराने	O
+की	O
+खरीदारी	O
+हटाएं	O
+
+मेरे	O
+कैलेंडर	O
+से	O
+सभी	O
+डेटा	O
+हटाएं	O
+
+मुझे	O
+सोमवार	B-date
+को	O
+क्या	O
+करना	O
+है	O
+
+मेरे	O
+calender	O
+में	O
+एक	O
+event	O
+को	O
+दोहराओ	O
+
+क्या	O
+आगे	O
+बढ़ने	O
+और	O
+महीने	B-date
+के	O
+लिए	O
+मेरा	O
+कैलेंडर	O
+साफ़	O
+करने	O
+के	O
+तरीके	O
+हैं	O
+
+चार	O
+फरवरी	O
+को	O
+दो	B-time
+पी.एम.	I-time
+पर	O
+कलिंजी	B-place_name
+कुंज	I-place_name
+पार्क	I-place_name
+में	O
+मेरा	O
+अभ्यास	O
+जोड़ें	O
+
+कृपया	O
+मुझे	O
+स्वतीश	B-person
+के	O
+जन्मदिन	B-event_name
+के	O
+बारे	O
+में	O
+याद	O
+दिलाएं	O
+
+आज	O
+की	O
+कार्यसूची	O
+किस	O
+तरह	O
+की	O
+दिखती	O
+है	O
+
+भाग	O
+लेने	O
+के	O
+लिए	O
+एक	O
+इवेंट	O
+जोड़ें	O
+
+हर	O
+दिन	O
+सुबह	B-time
+आठ	I-time
+बजे	I-time
+मेरे	O
+काम	O
+के	O
+कामों	O
+के	O
+लिए	O
+एक	O
+बार-बार	O
+याद	O
+दिलाना	O
+
+मेरे	O
+समय	O
+सारणी	O
+को	O
+साफ	O
+कर	O
+दो	O
+
+क्या	O
+आज	B-date
+सुबह	B-time
+आठ	I-time
+बजे	I-time
+से	O
+लेकर	O
+शाम	B-time
+पाँच	I-time
+बजे	I-time
+तक	O
+मेरे	O
+पास	O
+कहीं	O
+कुछ	O
+भी	O
+है	O
+
+इस	O
+सप्ताह	O
+कौन	O
+से	O
+रिमाइंडर	O
+आ	O
+रहे	O
+हैं	O
+
+इवेंट	O
+बेसबॉल	B-event_name
+अभ्यास	I-event_name
+जोड़ें	O
+पांच	B-time
+पी.एम.	I-time
+आज	B-timeofday
+की	I-timeofday
+रात	I-timeofday
+
+मेरी	O
+सुबह	B-timeofday
+कल	B-date
+कैसी	O
+दिखती	O
+है	O
+
+इस	O
+शुक्रवार	B-date
+को	O
+बैठक	B-event_name
+में	O
+कौन	O
+शामिल	O
+होगा	O
+
+दूसरे	O
+और	O
+पंद्रहवें	B-date
+के	O
+बीच	O
+क्या	O
+हुआ	O
+
+मुझे	O
+आज	B-date
+और	O
+इक्कीस	B-date
+के	O
+बीच	O
+की	O
+सभी	O
+घटनाओं	O
+के	O
+बारे	O
+में	O
+बताएं	O
+
+कृपया	O
+मुझे	O
+हर	O
+तीस	B-time
+मिनट	I-time
+में	O
+चुनाव	B-event_name
+के	O
+बारे	O
+में	O
+अपडेट	O
+दें	O
+
+क्या	O
+मेरे	O
+पास	O
+आज	B-date
+कोई	O
+अपॉइंटमेंट	B-event_name
+है	O
+
+कैलेंडर	O
+खोलें	O
+सभी	O
+आयोजन	O
+को	O
+हटा	O
+दें	O
+
+मुझे	O
+शुक्रवार	B-date
+को	O
+एफएसयू	B-place_name
+में	O
+मेरे	O
+जीव	B-event_name
+विज्ञान	I-event_name
+परीक्षण	I-event_name
+के	O
+बारे	O
+में	O
+याद	O
+दिलाएं	O
+
+बीस	O
+नवंबर	O
+को	O
+क्या	O
+है	O
+
+अरिजीत	O
+सिंह	O
+के	O
+संगीत	O
+कॉन्सर्ट	O
+के	O
+लिए	O
+अगला	O
+शेड्यूल	O
+कब	O
+है	O
+
+मुझे	O
+प्रदर्शनी	O
+के	O
+बारे	O
+में	O
+क्या	O
+जानने	O
+की	O
+आवश्यक्ता	O
+है	O
+
+आज	O
+रात	O
+थिएटर	B-place_name
+में	O
+कौन	O
+और	O
+क्यों	O
+चल	O
+रहा	O
+है	O
+
+क्या	O
+आज	B-date
+के	O
+लिए	O
+कोई	O
+अनुस्मारक	O
+लगा	O
+है	O
+
+कृपया	O
+सात	B-date
+मार्च	I-date
+को	O
+निर्धारित	O
+अभिभावक	B-event_name
+शिक्षक	I-event_name
+सम्मेलन	I-event_name
+को	O
+हटा	O
+दें	O
+
+क्या	O
+मेरे	O
+कैलेंडर	O
+में	O
+आज	B-date
+के	O
+लिए	O
+मेरी	O
+कोई	O
+मीटिंग	B-event_name
+है	O
+
+कृपया	O
+मुझे	O
+दस	B-time
+मिनट	I-time
+में	O
+काम	B-event_name
+पर	I-event_name
+जाने	I-event_name
+के	O
+लिए	O
+एक	O
+रिमाइंडर	O
+सेट	O
+करें	O
+
+अगले	O
+सप्ताह	O
+मेरी	O
+कितनी	O
+बैठकें	O
+हैं	O
+
+चौदह	O
+फरवरी	O
+को	O
+भोजनालय	B-business_type
+में	O
+रात	B-meal_type
+के	I-meal_type
+खाने	I-meal_type
+का	O
+आरक्षण	O
+करें	O
+
+इस	O
+सप्ताह	B-date
+के	O
+अंत	O
+में	O
+क्या	O
+हो	O
+रहा	O
+है	O
+
+क्या	O
+यह	B-date
+सप्ताह	I-date
+कचरा	O
+उठाने	O
+का	O
+सप्ताह	O
+है	O
+
+आज	O
+रात	O
+डिनर	B-event_name
+पार्टी	I-event_name
+कितने	O
+बजे	O
+शुरू	O
+होगी	O
+
+मेरा	O
+अगला	O
+reminder	O
+कब	O
+है	O
+
+मुझे	O
+बाईस	B-date
+मार्च	I-date
+के	O
+सभी	O
+टूर्नामेंट	B-event_name
+के	O
+बारे	O
+मे	O
+सब	O
+कुछ	O
+बताओ	O
+
+कल	O
+दोपहर	B-timeofday
+को	O
+मूरथल	B-place_name
+ढाबा	I-place_name
+नई	I-place_name
+दिल्ली	I-place_name
+में	O
+दोपहर	B-timeofday
+के	O
+भोजन	O
+को	O
+सूचीपत्र	O
+करो	O
+
+क्या	O
+मेरे	O
+पास	O
+शुक्रवार	B-date
+की	O
+तारीख	O
+है	O
+
+मुझे	O
+एक	B-time
+पी.एम.	I-time
+मेरे	O
+कुत्ते	B-event_name
+को	I-event_name
+देखरेख	B-place_name
+करने	I-place_name
+वाले	I-place_name
+से	O
+लेने	B-event_name
+के	I-event_name
+लिए	I-event_name
+एक	O
+अनुस्मारक	O
+भेजें	O
+
+मेरी	O
+मीटिंग	B-event_name
+कब	O
+है	O
+
+olly	O
+मेरे	O
+अपॉइंटमेंट्स	B-event_name
+को	O
+ईमेल	O
+करो	O
+फिर	O
+से	O
+शेड्यूल	O
+करने	O
+के	O
+लिए	O
+
+हर	O
+शुक्रवार	O
+को	O
+दोहराने	O
+के	O
+लिए	O
+लंच	B-meal_type
+इवेंट	O
+में	O
+बदलाव	O
+करें	O
+
+बैठक	O
+प्रतिबिंबित	O
+करने	O
+के	O
+लिए	O
+बैठक	O
+मेरे	O
+कैलेंडर	O
+को	O
+अपडेट	O
+करें	O
+
+कल	O
+ट्रेनें	O
+कब	O
+चल	O
+रही	O
+हैं	O
+
+राम	O
+को	O
+लेने	O
+के	O
+लिए	O
+अपराह्न	O
+तीन	B-time
+बजे	I-time
+शेषफल	O
+सेट	O
+करें	O
+
+चौदह	O
+तारीख	O
+को	O
+मेरी	O
+बैठक	B-event_name
+रद्द	O
+करो	O
+
+मंगलवार	O
+रात	B-time
+के	O
+concert	O
+के	O
+बारे	O
+में	O
+मुझे	O
+जानकारी	O
+दो	O
+
+मुझे	O
+यह	O
+याद	O
+दिलाने	O
+की	O
+जरूरत	O
+है	O
+कि	O
+अजय	B-person
+की	I-person
+सेवानिवृत्ति	B-event_name
+के	O
+लिए	O
+एक	O
+बैठक	O
+है	O
+मंगलवार	B-date
+को	O
+तीन	B-time
+बजे	I-time
+रिमाइंडर	O
+सेट	O
+करें	O
+
+उस	O
+आयोजन	O
+में	O
+क्या	O
+चल	O
+रहा	O
+है	O
+
+मैं	O
+आज	O
+सुबह	B-time
+दस	I-time
+से	I-time
+बारह	I-time
+के	I-time
+बीच	I-time
+क्या	I-time
+कर	O
+रहा	O
+हूँ	O
+
+मेरी	O
+जॉन	B-person
+के	O
+साथ	O
+शाम	B-event_name
+की	I-event_name
+बैठक	I-event_name
+किस	O
+टाइम	O
+है	O
+
+एक	O
+अनुस्मारक	O
+सेट	O
+करें	O
+मुझे	O
+हर	B-general_frequency
+सुबह	I-general_frequency
+पांच	B-time
+बजे	I-time
+उठना	O
+होगा	O
+
+स्ट्रीट	O
+पीट	O
+में	O
+संगीत	B-event_name
+कार्यक्रम	I-event_name
+के	O
+बारे	O
+में	O
+अधिक	O
+जानकारी	O
+
+olly	O
+मुझे	O
+आज	B-timeofday
+रात	I-timeofday
+कल	B-date
+की	I-date
+बैठक	B-event_name
+के	O
+बारे	O
+में	O
+याद	O
+दिलाएं	O
+
+बुधवार	O
+को	O
+बैठक	B-event_name
+की	O
+सूचना	O
+
+मेरी	O
+आगामी	O
+बैठक	B-event_name
+को	O
+मेरे	O
+कैलेंडर	O
+में	O
+जोड़ें	O
+
+कृपया	O
+मेरा	O
+कैलेंडर	O
+पूरी	O
+तरह	O
+से	O
+साफ़	O
+करें	O
+
+कृपया	O
+आज	B-timeofday
+रात	I-timeofday
+जॉन	B-person
+के	O
+साथ	O
+मेरी	O
+बैठक	B-event_name
+को	O
+हटा	O
+दें	O
+
+बुधवार	O
+को	O
+दोपहर	O
+दो	B-time
+बजे	I-time
+रिमाइंडर	O
+सेट	O
+करें	O
+
+क्या	O
+यह	O
+सच	O
+है	O
+कि	O
+राम	B-person
+का	I-person
+जन्मदिन	B-event_name
+एक	B-date
+मार्च	I-date
+को	O
+है	O
+
+क्या	O
+तुमने	O
+कल	B-date
+की	I-date
+मीटिंग	B-event_name
+मेरे	O
+कैलेंडर	O
+में	O
+ऐड	O
+की	O
+है	O
+
+इस	O
+सप्ताह	O
+हर	B-general_frequency
+दिन	I-general_frequency
+दोपहर	B-timeofday
+में	O
+लंच	B-meal_type
+मीटिंग	B-event_name
+जोड़ें	O
+
+शुक्रवार	O
+को	O
+दोपहर	O
+तीन	B-time
+बजे	I-time
+मीटिंग	B-event_name
+के	O
+लिए	O
+रिमाइंडर	O
+सेट	O
+करें	O
+
+मेरे	O
+कैलंडर	O
+में	O
+से	O
+सबकुछ	O
+हटा	O
+दो	O
+
+अरे	O
+सिरी	O
+कल	B-date
+पक्का	O
+कर	O
+लेना	O
+कि	O
+मेरा	O
+कैलेंडर	O
+पूरी	O
+तरह	O
+से	O
+साफ	O
+हो	O
+गया	O
+है	O
+
+दो	O
+घंटे	O
+में	O
+बैठक	B-event_name
+की	O
+नई	O
+अधिसूचना	O
+
+मुझे	O
+कैलेंडर	O
+के	O
+बारे	O
+में	O
+याद	O
+दिलाएं	O
+
+क्या	O
+आज	O
+सुबह	B-timeofday
+कोई	O
+अपॉइंटमेंट	B-event_name
+बाकी	O
+है	O
+
+क्या	O
+यह	B-date
+सप्ताह	I-date
+एक	O
+वेतन-दिवस	O
+सप्ताह	O
+है	O
+
+मेरे	O
+कैलेंडर	O
+में	O
+सभी	O
+नियुक्तियों	B-event_name
+को	O
+रद्द	O
+करें	O
+
+मैंने	O
+कौन	O
+से	O
+रिमाइंडर	O
+सेट	O
+किए	O
+हैं	O
+
+आज	O
+सुबह	O
+साढ़े	B-time
+छह	I-time
+बजे	I-time
+की	O
+खबर	O
+क्या	O
+है	O
+
+मेरे	O
+कैलेंडर	O
+में	O
+कार्यक्रम	O
+को	O
+एक	B-time
+पी.एम.	I-time
+पर	O
+हटा	O
+दें	O
+
+olly	O
+मुझे	O
+याद	O
+दिलाना	O
+कि	O
+मुझे	O
+आज	O
+से	O
+एक	O
+सप्ताह	B-date
+में	O
+पांच	B-time
+बजे	O
+पुस्तकालय	B-place_name
+में	O
+रहना	O
+होगा	O
+
+अगले	O
+शनिवार	B-date
+के	O
+लिए	O
+एक	O
+रिमाइंडर	O
+सेट	O
+करें	O
+पाँच	B-time
+बजे	O
+पुस्तकालय	B-place_name
+में	O
+जाएँ	O
+
+मुझे	O
+आगामी	B-event_name
+राष्ट्रीय	I-event_name
+अवकाश	I-event_name
+के	O
+बारे	O
+में	O
+याद	O
+दिलाएं	O
+
+एक	O
+बजे	O
+मेरे	O
+कैलेंडर	O
+ईवेंट	O
+को	O
+हटा	O
+दें	O
+आज	B-date
+
+शाम	O
+को	O
+पांच	B-time
+बजे	I-time
+के	O
+लिए	O
+मेरी	O
+मीटिंग	B-event_name
+का	O
+रिमाइंडर	O
+लगाओ	O
+
+कृपया	O
+चिकित्सक	B-relation
+मुरारी	I-relation
+के	O
+कार्यालय	B-place_name
+में	O
+बुधवार	B-date
+को	O
+नो	B-time
+ऐ.एम.	I-time
+पर	O
+अपॉइंटमेंट	O
+जोड़ें	O
+
+इस	O
+शाम	O
+के	O
+फ़ुटबॉल	B-sport_type
+मैच	I-sport_type
+की	O
+मुख्य	O
+विशेषताएं	O
+क्या	O
+थीं	O
+
+मुझे	O
+बताओ	O
+कि	O
+आज	B-date
+के	O
+लिए	O
+मेरी	O
+सारणी	O
+में	O
+क्या	O
+है	O
+
+बादशाह	O
+अमृतसर	B-place_name
+में	O
+कब	O
+आ	O
+रहा	O
+है	O
+
+मैं	O
+अपने	O
+कैलेंडर	O
+में	O
+कुछ	O
+जोड़ना	O
+चाहता	O
+हूँ	O
+
+कैलेंडर	O
+से	O
+स्पष्ट	O
+घटना	O
+और	O
+ताज़ा	O
+करें	O
+
+मैं	O
+कौन-सी	O
+घटनाएँ	O
+लेकर	O
+आ	O
+रहा	O
+हूँ	O
+
+कैलेंडर	O
+पर	O
+अगला	O
+ईवेंट	O
+हटाएं	O
+
+कैलेंडर	O
+में	O
+अगला	O
+आयोजन	O
+कैंसिल	O
+कर	O
+दो	O
+
+आज	O
+आठ	B-time
+दस	I-time
+के	O
+बीच	O
+मेरी	O
+कौन	O
+सी	O
+बैठकें	B-event_name
+हैं	O
+
+मुझे	O
+कल	B-date
+दोपहर	B-time
+दो	I-time
+बजे	I-time
+याद	O
+दिलाना	O
+
+इस	O
+शनिवार	O
+को	O
+हर्ष	B-place_name
+की	I-place_name
+जगह	I-place_name
+में	O
+पूल	B-event_name
+पार्टी	I-event_name
+के	O
+लिए	O
+मेरे	O
+कैलेंडर	O
+में	O
+एक	O
+कार्यक्रम	O
+निर्धारित	O
+करें	O
+
+पहली	O
+जनवरी	O
+को	O
+होने	O
+वाले	O
+कार्यक्रम	O
+का	O
+पता	O
+क्या	O
+है	O
+
+मैं	O
+राधिका	B-person
+से	O
+कल	B-date
+मिलना	O
+चाहता	O
+हूँ	O
+
+मंगलवार	O
+को	O
+सोनम	B-person
+के	O
+साथ	O
+मेरी	O
+बैठक	B-event_name
+रद्द	O
+करें	O
+और	O
+इसे	O
+गुरुवार	B-date
+के	O
+लिए	O
+पुनर्निर्धारित	O
+करें	O
+
+मेरे	O
+कैलेंडर	O
+से	O
+गुरुवार	B-date
+का	O
+दोपहर	B-meal_type
+का	I-meal_type
+भोजन	I-meal_type
+हटा	O
+दें	O
+
+मेरे	O
+इंटरनेट	O
+बिल	O
+का	O
+भुगतान	O
+करने	O
+के	O
+लिए	O
+मुझे	O
+याद	O
+दिलाने	O
+के	O
+लिए	O
+हर	B-general_frequency
+महीने	I-general_frequency
+की	I-general_frequency
+पंद्रहवीं	I-general_frequency
+के	O
+लिए	O
+ईवेंट	O
+सेट	O
+करें	O
+
+मेरे	O
+कैलेंडर	O
+में	O
+निम्नलिखित	O
+तिथि	O
+और	O
+समय	O
+जोड़ें	O
+
+event	O
+कहां	O
+है	O
+
+पांच	O
+मई	O
+को	O
+दिन	B-time
+के	I-time
+तीन	I-time
+बजे	I-time
+goshen	B-place_name
+new	I-place_name
+york	I-place_name
+में	O
+dan's	B-event_name
+graduation	I-event_name
+event	I-event_name
+को	O
+ऐड	O
+करो	O
+
+पिछले	O
+वर्ष	O
+में	O
+मैं	O
+बैठकों	B-event_name
+में	O
+कितने	O
+घंटे	O
+रहा	O
+हूं	O
+
+बैठक	O
+हटाएं	O
+
+मेरी	O
+अल	B-person
+के	O
+साथ	O
+इक्कीस	B-date
+मार्च	I-date
+को	O
+दस	B-time
+बजे	O
+बैठक	B-event_name
+है	O
+
+मुझे	O
+बैठक	B-event_name
+की	O
+तैयारी	O
+करनी	O
+थी	O
+
+मेरे	O
+आने	O
+वाले	O
+कार्यक्रम	O
+दिखाओ	O
+
+अगले	O
+आयोजन	O
+को	O
+मेरे	O
+कलेंडर	O
+से	O
+मिटाओ	O
+
+क्या	O
+मेरा	O
+कैलेंडर	O
+कहता	O
+है	O
+कि	O
+मैं	O
+अप्रैल	B-date
+दो	I-date
+हजार	I-date
+सत्रह	I-date
+को	O
+खाली	O
+हूं	O
+
+साप्ताहिक	O
+नियुक्ति	O
+अनुस्मारक	O
+लगाएं	O
+
+दो	O
+दिन	O
+के	O
+बाद	O
+मेरी	B-event_name
+छुट्टी	I-event_name
+के	O
+लिए	O
+reminder	O
+सेट	O
+करें	O
+
+मंगलवार	O
+दोपहर	B-timeofday
+की	O
+बैठक	B-event_name
+
+क्या	O
+मेरे	O
+पास	O
+मार्च	B-date
+सातवें	I-date
+के	O
+लिए	O
+कुछ	O
+निर्धारित	O
+है	O
+
+ओली	O
+शुक्रवार	B-date
+को	O
+दो	B-time
+बजे	I-time
+डॉक्टर	B-event_name
+की	I-event_name
+अपॉइंटमेंट	I-event_name
+है	O
+
+क्या	O
+आप	O
+कृपया	O
+मेरे	O
+खाने	B-event_name
+के	I-event_name
+आरक्षण	I-event_name
+को	O
+मेरे	O
+कैलेंडर	O
+में	O
+जोड़	O
+सकते	O
+हैं	O
+
+अल्बर्ट	O
+की	O
+शादी	O
+के	O
+लिए	O
+कैलेंडर	O
+जानकारी	O
+सेट	O
+करें	O
+
+मेरे	O
+कैलेंडर	O
+में	O
+आज	B-date
+कुछ	O
+करने	O
+के	O
+लिए	O
+है	O
+
+मेरे	O
+स्थान	O
+पर	O
+छुट्टियां	B-event_name
+पर	O
+खोज	O
+रहे	O
+हैं	O
+
+विशेष	O
+तिथियों	O
+पर	O
+हाल	O
+की	O
+घटनाओं	O
+की	O
+खोज	O
+करना	O
+
+क्या	O
+मेरी	O
+सूची	O
+में	O
+कोई	O
+रिमाइंडर	O
+है	O
+
+कृपया	O
+मुझे	O
+याद	O
+दिलाएं	O
+
+कृपया	O
+इसके	O
+लिए	O
+अलार्म	O
+सेट	O
+करें	O
+
+क्या	O
+मुझे	O
+सोमवार	B-date
+को	O
+किसी	O
+बैठक	B-event_name
+की	O
+याद	O
+दिलाने	O
+की	O
+ज़रूरत	O
+है	O
+
+क्या	O
+पंचांग	O
+घटना	O
+गलत	O
+है	O
+
+शेष	O
+सप्ताह	O
+के	O
+लिए	O
+मेरी	O
+सभी	O
+मीटिंग	B-event_name
+हटा	O
+दें	O
+
+दो	O
+मई	O
+को	O
+कैलेंडर	O
+में	O
+जोड़ें	O
+राम	B-person
+का	I-person
+जन्मदिन	B-event_name
+हर	B-general_frequency
+साल	I-general_frequency
+दोहराएं	O
+
+मेरा	O
+रेन	O
+कोट	O
+ले	O
+लो	O
+
+कृपया	O
+मुझे	O
+अपना	B-event_name
+छाता	I-event_name
+लेने	I-event_name
+के	I-event_name
+लिए	I-event_name
+कहें	O
+क्योंकि	O
+आज	B-date
+बहुत	O
+गर्मी	O
+होगी	O
+
+चौदह	O
+जून	O
+दो	O
+हजार	O
+सत्रह	O
+के	O
+लिए	O
+मेरा	O
+कार्यक्रम	O
+क्या	O
+है	O
+
+कृपया	O
+रविवार	B-date
+के	O
+सभी	O
+रिमाइंडर	O
+हटा	O
+दें	O
+
+बिस्ट्रो	O
+इटालिया	O
+में	O
+गुरुवार	B-date
+को	O
+रात	B-meal_type
+का	I-meal_type
+खाना	I-meal_type
+याद	O
+रखें	O
+
+अनुस्मारक	O
+सेट	O
+करें	O
+
+इन	O
+लोगों	O
+के	O
+साथ	O
+पंचांग	O
+कार्यक्रम	O
+
+आज	O
+के	O
+लिए	O
+मेरा	O
+शेड्यूल	O
+क्लियर	O
+करें	O
+
+कैलेंडर	O
+में	O
+से	O
+जानकारी	O
+निकालो	O
+
+नवीनतम	O
+आयोजनों	O
+के	O
+बारे	O
+में	O
+बताओ	O
+
+बैठकें	O
+कब	O
+हैं	O
+
+पार्टी	O
+कब	O
+निर्धारित	O
+है	O
+
+अगले	O
+एक	O
+सप्ताह	O
+में	O
+सभी	O
+आयोजन	O
+के	O
+साथ	O
+मुझे	O
+सूचित	O
+करें	O
+
+जॉन	O
+की	O
+शादी	B-event_name
+की	I-event_name
+सालगिरह	I-event_name
+
+इस	O
+महीने	O
+में	O
+अवकाश	B-event_name
+कब	O
+है	O
+
+मुझे	O
+मंगलवार	B-date
+को	O
+बैठक	B-event_name
+के	O
+बारे	O
+में	O
+बताएं	O
+
+मैं	O
+चाहता	O
+हूं	O
+कि	O
+आप	O
+मुझे	O
+शाम	B-event_name
+के	I-event_name
+कार्यक्रम	I-event_name
+के	O
+बारे	O
+में	O
+याद	O
+दिलाएं	O
+
+मेरे	O
+कैलेंडर	O
+से	O
+अंकित	B-event_name
+का	I-event_name
+जन्मदिन	I-event_name
+मिटायें	O
+
+ok	O
+google	O
+विभाग	B-relation
+के	I-relation
+वी.पी.	I-relation
+के	O
+साथ	O
+बैठक	B-event_name
+शेड्यूल	O
+करो	O
+इक्कीस	B-date
+मार्च	I-date
+दो	I-date
+हजार	I-date
+सत्रह	I-date
+को	I-date
+
+मुझे	O
+गुरुवार	B-date
+को	O
+उस	B-relation
+सी.	I-relation
+ऍफ़.	I-relation
+ओ.	I-relation
+के	O
+साथ	O
+एक	O
+बैठक	B-event_name
+की	O
+जरूरत	O
+है	O
+
+मेरे	O
+कैलेंडर	O
+से	O
+जन्मदिन	B-event_name
+के	O
+आयोजन	O
+को	O
+हटा	O
+दें	O
+
+याद	O
+दिला	O
+दूं	O
+कि	O
+पांच	B-date
+अप्रैल	I-date
+को	O
+बॉस	B-relation
+से	O
+मुलाकात	B-event_name
+है	O
+
+इस	O
+गुरुवार	B-date
+को	O
+वीज़ा	B-event_name
+आवेदन	I-event_name
+के	O
+लिए	O
+एक	O
+अनुस्मारक	O
+बनाएँ	O
+
+जुलाई	O
+तीन	O
+कैलेंडर	O
+पर	O
+खाली	O
+करें	O
+
+मंगलवार	O
+चार	B-time
+पी.	I-time
+एम	I-time
+के	O
+लिए	O
+अलार्म	O
+सेट	O
+करें	O
+
+मंगलवार	O
+को	O
+मोनास	B-event_name
+की	I-event_name
+शादी	I-event_name
+के	O
+लिए	O
+एक	O
+घटना	O
+अनुस्मारक	O
+बनाओ	O
+
+कैलेंडर	O
+पर	O
+एक	O
+दोहराई	B-event_name
+जाने	I-event_name
+वाली	I-event_name
+घटना	I-event_name
+डालें	O
+
+इस	O
+सप्ताह	O
+मैं	O
+व्यस्त	O
+हूं	O
+
+क्या	O
+मेरे	O
+पास	O
+अगले	B-date
+सप्ताह	I-date
+नियुक्ति	B-event_name
+है	O
+
+घटना	O
+के	O
+बाद	O
+दिन	O
+हटाएं	O
+
+आवश्यक	O
+घटनाओं	O
+को	O
+रीसेट	O
+करने	O
+के	O
+लिए	O
+याद	O
+दिलाएं	O
+
+मेरी	O
+बहन	B-event_name
+को	O
+मेरे	O
+परिवार	B-event_name
+कैलेंडर	O
+में	O
+शामिल	O
+करें	O
+
+कन्वेंशन	O
+सेंटर	O
+कहाँ	O
+स्थित	O
+है	O
+
+शुक्रवार	O
+को	O
+कोई	O
+बैठक	O
+
+मुझे	O
+याद	O
+दिलाएं	O
+कि	O
+मेरी	O
+शनिवार	B-date
+को	O
+बारह	B-time
+बजे	I-time
+मुलाकात	B-event_name
+है	O
+
+क्या	O
+मेरे	O
+पास	O
+इस	B-date
+महीने	I-date
+कोई	O
+कैलेंडर	O
+कार्यक्रम	O
+है	O
+
+olly	O
+कृपया	O
+अगले	O
+शनिवार	B-date
+के	O
+लिए	O
+दस	B-time
+ऐ.एम.	I-time
+पर	O
+एक	O
+कैलेंडर	O
+प्रविष्टि	O
+करें	O
+
+मुझे	O
+बाबीस	B-date
+जनवरी	I-date
+पर	O
+बैठक	B-event_name
+की	O
+याद	O
+दिलाएं	O
+
+मुझे	O
+एक	B-time
+घंटे	I-time
+में	O
+बैठक	B-event_name
+के	O
+बारे	O
+में	O
+याद	O
+दिलाएं	O
+
+एक	O
+घंटे	O
+में	O
+मुझे	O
+मेरी	O
+मुलाकात	B-event_name
+के	O
+बारे	O
+में	O
+याद	O
+दिलाएं	O
+
+रेडियो	O
+में	O
+कुछ	O
+चलाओ	O
+
+रेडियो	O
+दिखाओ	O
+
+ओपन	O
+पेंडोरा	B-app_name
+प्ले	O
+रॉक	B-music_genre
+स्टेशन	O
+
+ओपन	O
+आईहार्टरेडियो	B-app_name
+रॉव	O
+द	O
+रॉक	B-music_genre
+
+अच्छे	O
+चुटकुलों	O
+के	O
+लिए	O
+रेडियो	O
+चैनल	O
+ट्यून	O
+करें	O
+
+रेडियो	O
+शुरू	O
+करो	O
+
+इंद्रधनुष	O
+मुंबई	O
+
+रेडियो	O
+को	O
+चालू	O
+पर	O
+रखो	O
+
+कृपया	O
+रेडियो	O
+चैनल	O
+को	O
+चलाएं	O
+
+मैं	O
+उस	O
+रेडियो	O
+चैनल	O
+को	O
+सुनना	O
+चाहता	O
+हूँ	O
+
+radio	O
+पर	O
+स्विच	O
+करें	O
+
+क्या	O
+आप	O
+ऑल	B-radio_name
+इंडिया	I-radio_name
+रेडियो	I-radio_name
+शुरू	O
+कर	O
+सकते	O
+हैं	O
+
+धुनों	O
+को	O
+चालू	O
+करें	O
+
+इसे	O
+बारंबार	O
+नौ	B-radio_name
+सौ	I-radio_name
+सत्तानबे	I-radio_name
+में	O
+बदल	O
+दें	O
+
+चैनल	O
+नौ	B-radio_name
+सौ	I-radio_name
+इक्यावन	I-radio_name
+चालू	O
+करें	O
+
+कृपया	O
+रेडियो	O
+बजाएं	O
+
+रेडियो	O
+चालू	O
+
+मेरे	O
+पसंदीदा	O
+रेडियो	O
+चैनल	O
+पर	O
+जाएं	O
+
+वो	O
+गाना	O
+चालू	O
+करो	O
+जो	O
+मुझको	O
+हसाए	O
+
+नौ	O
+सौ	O
+इकहत्तर	O
+चालू	O
+करें	O
+
+कृपया	O
+ऑल	B-radio_name
+इंडिया	I-radio_name
+रेडियो	I-radio_name
+चालू	O
+करें	O
+
+विविध	O
+भारती	O
+चालू	O
+करो	O
+
+कृपया	O
+मेरा	O
+एफ.	B-radio_name
+एम.	I-radio_name
+रेडियो	I-radio_name
+खोलें	O
+और	O
+नौ	B-radio_name
+सौ	I-radio_name
+सत्तासी	I-radio_name
+चालू	O
+करें	O
+
+ओली	O
+मैं	O
+ऑल	B-radio_name
+इंडिया	I-radio_name
+रेडियो	I-radio_name
+सुनना	O
+चाहता	O
+हूं	O
+
+रेडियो	O
+पर	O
+क्रिकेट	O
+खेल	O
+को	O
+चालू	O
+करो	O
+
+मेरे	O
+कितने	O
+स्पोर्ट्स	O
+पॉडकास्ट	O
+में	O
+नए	O
+एपिसोड	O
+हैं	O
+जिन्हें	O
+मैंने	O
+अभी	O
+तक	O
+नहीं	O
+सुना	O
+है	O
+
+gaana	O
+खोलें	O
+और	O
+शीर्ष	O
+हिट्स	O
+चालू	O
+करें	O
+
+spotify	O
+पर	O
+लोकप्रिय	O
+गाना	O
+चालू	O
+करें	O
+
+मेरे	O
+लिए	O
+रेडियो	B-radio_name
+मिर्ची	I-radio_name
+चलाओ	O
+
+मुझे	O
+आकाशवाणी	B-radio_name
+एफ.	O
+एम.	O
+से	O
+कुछ	O
+रेडियो	O
+संगीत	B-media_type
+दिलवाओ	O
+
+कृपया	O
+शीर्ष	O
+देश	B-music_genre
+खेलें	O
+
+रेडियो	O
+में	O
+संगीत	O
+कार्यक्रम	O
+चलाएं	O
+
+वर्तमान	O
+प्लेलिस्ट	O
+को	O
+चालू	O
+करें	O
+
+रेडियो	O
+मिर्ची	O
+पर	O
+आर.	O
+जे.	O
+नावेद	O
+के	O
+प्रसारण	O
+को	O
+खोजें	O
+
+रेडियो	O
+मिर्ची	O
+एक	B-radio_name
+सौ	I-radio_name
+दो	I-radio_name
+दशमलव	I-radio_name
+चार	I-radio_name
+स्टेशन	O
+को	O
+चालू	O
+करें	O
+
+एफ.	O
+एम.	O
+में	O
+समाचार	O
+को	O
+चालू	O
+करो	O
+
+नवेद	O
+मिर्ची	O
+मुर्गा	O
+प्रकरण	O
+red	O
+f.m.	O
+बजाओ	O
+
+ऑल	O
+इंडिया	O
+रेडियो	O
+खेलें	O
+
+मिर्ची	O
+लव	O
+चलाएं	O
+
+ओके	O
+गूगल	O
+कपिल	B-person
+शर्मा	I-person
+शो	O
+चलाओ	O
+
+रात	O
+नौ	O
+बजे	O
+मेरा	O
+पसंदीदा	O
+स्टेशन	O
+चलाओ	O
+
+रेडियो	O
+सिटि	O
+रेडियो	O
+
+रेडियो	O
+मिर्ची	O
+पर	O
+मिर्ची	O
+मुर्गा	O
+चलाओ	O
+
+आज	O
+सुबह	B-timeofday
+कौन	O
+से	O
+स्टेशन	O
+अच्छा	O
+संगीत	O
+चला	O
+रहे	O
+हैं	O
+
+हिंदी	O
+एफ.	O
+एम	O
+में	O
+ट्यून	O
+करें।	O
+।	O
+
+ऑल	O
+इंडिया	O
+रेडियो	O
+चलाओ	O
+
+पुरानी	O
+जीन्स	O
+शो	O
+की	O
+ओर	O
+मोड़ें	O
+
+अट्ठानवे	O
+दशमलव	O
+तीन	O
+रेड	O
+एफएम	O
+चलाएं	O
+
+यह	O
+कार्यक्रम	O
+चलाओ	O
+
+क्या	O
+आप	O
+गोदान	B-audiobook_name
+की	O
+मेरी	O
+पसंदीदा	O
+ऑडियो	O
+बुक	O
+चला	O
+सकते	O
+हैं	O
+
+क्या	O
+आप	O
+रात	B-audiobook_name
+के	I-audiobook_name
+उस	I-audiobook_name
+पार	I-audiobook_name
+ऑडियो	O
+बुक	O
+लगा	B-player_setting
+सकते	I-player_setting
+हैं	I-player_setting
+
+मोगली	O
+का	O
+सातवा	O
+अध्याय	O
+शुरू	B-player_setting
+करो	I-player_setting
+
+चाणक्य	O
+नीति	O
+ऑडियो	O
+बुक	O
+को	O
+फिर	B-player_setting
+से	I-player_setting
+चालू	I-player_setting
+करें	I-player_setting
+
+क्या	O
+आप	O
+ऑडियो	B-media_type
+को	O
+रोक	B-player_setting
+सकते	O
+हो	O
+
+मेरी	O
+ऑडियो	B-media_type
+किताब	I-media_type
+चलाना	O
+जारी	O
+रखें	O
+
+ऑडियो	O
+बुक	O
+को	B-player_setting
+रोको	I-player_setting
+
+डेविंसी	O
+कोड	O
+खोलें	O
+जहां	O
+मैंने	O
+छोड़ा	O
+था	O
+
+एक	O
+थी	O
+डायन	O
+ऑडियो	B-media_type
+बुक	I-media_type
+को	O
+चलाना	O
+शुरू	O
+करें	O
+
+हाल	O
+ही	O
+में	O
+जोड़ी	O
+गई	O
+ऑडियोबुक	B-media_type
+चलाएं	O
+
+ऑडियो	O
+चलाएं	O
+
+मेरी	O
+श्रवणसूची	B-media_type
+फिर	B-player_setting
+से	O
+शुरू	B-player_setting
+करना	I-player_setting
+जहा	O
+हम	O
+पिछली	O
+बार	O
+रुके	O
+
+पिछली	O
+बार	O
+चलाए	O
+गए	O
+ऑडियो	B-media_type
+बुक	I-media_type
+को	O
+फिर	B-player_setting
+से	I-player_setting
+शुरू	I-player_setting
+करो	I-player_setting
+
+कृपया	O
+हाल	O
+ही	O
+में	O
+रुका	O
+हुआ	O
+ऑडियो	B-media_type
+चलाएं	O
+
+last	O
+chapter	O
+से	O
+मेरा	O
+ऑडियोबुक	B-media_type
+फिर	O
+शुरू	O
+करो	B-player_setting
+
+चाणक्य	O
+नीति	O
+खेलें	O
+
+पाँच	O
+मिनट	O
+का	O
+विराम	B-player_setting
+लें	O
+
+किताब	O
+पढ़ना	O
+शुरू	B-player_setting
+करें	I-player_setting
+
+मेरे	O
+लिए	O
+गोदान	B-audiobook_name
+फिर	O
+से	O
+शुरू	B-player_setting
+करें	I-player_setting
+
+राजा	O
+और	O
+रानी	O
+ऑडियो	B-media_type
+बुक	I-media_type
+खोलें	O
+और	O
+आखिरी	O
+बार	O
+जहाँ	O
+चालू	O
+था	O
+वहाँ	O
+से	O
+चालू	O
+करें	O
+
+ऑडियोबुक	O
+में	O
+इस	O
+प्लेबैक	O
+को	O
+देखें	O
+और	O
+मेरे	O
+लिए	O
+खेलें	O
+
+कृपया	O
+इस	O
+प्लेबैक	O
+को	O
+ऑडियो	B-media_type
+बुक	I-media_type
+में	O
+फिर	B-player_setting
+से	I-player_setting
+शुरू	I-player_setting
+करें	I-player_setting
+
+kuku	O
+f.	O
+m.	O
+पर	O
+चाणक्य	B-audiobook_name
+नीति	I-audiobook_name
+चलाओ	O
+
+चौथे	O
+अध्याय	O
+से	O
+निर्मला	B-audiobook_name
+उपन्यास	I-audiobook_name
+को	O
+पढ़ना	B-player_setting
+शुरू	I-player_setting
+करें	I-player_setting
+
+अरिजीत	O
+सिंह	O
+द्वारा	O
+ऑडियोबुक	B-media_type
+से	O
+एक	O
+गाना	O
+फिर	B-player_setting
+से	I-player_setting
+शुरू	I-player_setting
+करें	O
+
+गीता	O
+ऑडियोबुक	B-media_type
+चलाओ	O
+
+क्या	O
+आप	O
+भारत	B-audiobook_name
+एक	I-audiobook_name
+खोज	I-audiobook_name
+की	O
+ऑडियोबुक	B-media_type
+जारी	B-player_setting
+रख	I-player_setting
+सकते	O
+हैं	O
+
+ऑडियो	O
+बुक	O
+जय	B-song_name
+हो	I-song_name
+चालू	O
+करो	O
+
+भारतीय	O
+पाठ	O
+को	O
+पढ़ना	O
+फिर	B-player_setting
+से	I-player_setting
+शुरू	I-player_setting
+करें	I-player_setting
+
+कृपया	O
+कुछ-कुछ	O
+होता	O
+है	O
+चालू	O
+करो	O
+
+वह	O
+चाणक्य	B-audiobook_author
+नीति	I-audiobook_author
+किताब	B-media_type
+पढ़ना	B-player_setting
+शुरू	I-player_setting
+करें	I-player_setting
+
+कृपया	O
+मेरी	O
+ऑडियोबुक	B-media_type
+जारी	B-player_setting
+रखें	I-player_setting
+
+विटामिन	O
+की	O
+मेरी	O
+किताब	B-audiobook_name
+खेलना	O
+जारी	B-player_setting
+रखें	I-player_setting
+
+olly	O
+चाणक्य	B-audiobook_name
+नीति	I-audiobook_name
+को	O
+फिर	B-player_setting
+से	I-player_setting
+शुरू	I-player_setting
+करें	I-player_setting
+
+इस	O
+ऑडियो	B-media_type
+बुक	I-media_type
+से	O
+इस	O
+बिन्दु	O
+से	O
+चालू	O
+करें	O
+
+मुझे	O
+बताओ	O
+लहसुन	B-food_type
+युक्त	I-food_type
+रोटी	I-food_type
+कैसे	O
+बनती	O
+है	O
+
+पास्ता	O
+पकाने	B-cooking_type
+में	O
+कितना	O
+वक्त	O
+लगेगा	O
+
+मैं	O
+broccoli	B-ingredient
+and	O
+chicken	B-ingredient
+के	O
+साथ	O
+what	O
+पका	O
+सकता	O
+हूँ	O
+
+मुझे	O
+भोजन	O
+के	O
+लिए	O
+निर्देश	O
+दें	O
+
+मैं	O
+मैगी	B-food_type
+कैसे	O
+बना	O
+सकता	O
+हूं	O
+
+सफ़ेद	O
+वाइन	O
+के	O
+बदले	O
+क्या	O
+इस्तेमाल	O
+कर	O
+सकते	O
+हैं	O
+
+क्या	O
+आप	O
+कृपया	O
+भारतीय	B-food_type
+खाना	O
+बनाने	O
+के	O
+लिए	O
+वीडियो	B-media_type
+प्रदर्शित	O
+कर	O
+सकते	O
+हैं	O
+
+मैं	O
+lobster	B-food_type
+bisque	I-food_type
+कैसे	O
+बनाऊं	O
+
+बट	O
+कलेजी	O
+कैसे	O
+बनती	O
+है	O
+
+डेट	O
+पर	O
+सबसे	O
+दिलचस्प	B-food_type
+खाना	O
+क्या	O
+बनाना	O
+है	O
+
+पिज्जा	O
+को	O
+एकदम	O
+खस्ता	B-cooking_type
+बनाने	O
+के	O
+लिए	O
+उसे	O
+कितने	O
+समय	O
+तक	O
+ओवन	O
+में	O
+रखना	O
+चाहिए	O
+
+तुम	O
+मटर	B-ingredient
+की	I-ingredient
+सब्जी	I-ingredient
+कैसे	O
+बनाती	O
+हो	O
+
+olly	O
+मुझे	O
+रेसिपी	O
+दो	O
+
+मुझे	O
+खाना	O
+बनाने	O
+का	O
+तरीका	O
+दिखाने	O
+के	O
+लिए	O
+google	O
+का	O
+उपयोग	O
+करें	O
+
+मुझे	O
+खाना	O
+बनाने	O
+के	O
+सबसे	O
+अच्छे	O
+आइडिया	O
+दो	O
+
+मुझे	O
+भोजन	B-food_type
+का	I-food_type
+नुस्खा	O
+दिखाओ	O
+
+मैं	O
+बिस्कुट	B-food_type
+कैसे	O
+बनाता	O
+हूं	O
+
+एक	O
+चौथाई	B-time
+गैलन	I-time
+में	O
+कितने	O
+कप	O
+होते	O
+हैं	O
+
+alexa	O
+मैं	O
+एक	O
+आलू	B-food_type
+कैसे	O
+बेक	O
+करूं	O
+
+olly	O
+पिज़्ज़ा	B-food_type
+रेसिपी	O
+बताओ	O
+
+मैं	O
+meatloaf	B-food_type
+कैसे	O
+बना	O
+सकता	O
+हूँ	O
+
+मुझे	O
+चिकन	B-food_type
+नूडल	I-food_type
+सूप	I-food_type
+की	O
+विधि	O
+बताओ	O
+
+gluten	O
+free	O
+menus	O
+खोजें	O
+
+olly	O
+मुझे	O
+दिखाओ	O
+रेसिपी	O
+कैसे	O
+तैयार	O
+की	O
+जाती	O
+है	O
+
+मैं	O
+कब	O
+तक	O
+एक	O
+आइसबॉक्स	O
+पाई	O
+को	O
+ठंडा	O
+रख	O
+सकता	O
+हूं	O
+
+चार	O
+चीज़	B-food_type
+ऑमलेट	I-food_type
+तुम	O
+कैसे	O
+बनाते	O
+हो	O
+
+hotdog	O
+बनाने	O
+की	O
+recipe	O
+प्राप्त	O
+करें	O
+
+चिकन	O
+करी	O
+की	O
+कुकर	O
+वाली	O
+रेसिपी	O
+दो	O
+
+olly	O
+क्या	O
+तुम	O
+फाफड़ा	B-food_type
+बनाने	O
+की	O
+रेसिपी	O
+बता	O
+सकते	O
+हो	O
+
+भारतीय	O
+बिरयानी	O
+के	O
+लिए	O
+एक	O
+विधि	O
+लाओ	O
+
+विधी	O
+
+olly	O
+चिकन	B-food_type
+पकोड़े	I-food_type
+कब	O
+तक	O
+भूनते	O
+हैं	O
+
+crabmeat	O
+के	O
+लिए	O
+recipe	O
+
+मुझे	O
+रात	O
+के	O
+खाने	O
+के	O
+लिए	O
+कुछ	O
+सुझाव	O
+चाहिए	O
+जो	O
+भारतीय	B-food_type
+हो	O
+
+और	O
+टिप्पणियां	O
+नहीं	O
+
+boiled	O
+eggs	O
+पकाने	O
+का	O
+समय	O
+क्या	O
+है	O
+
+बादाम	O
+के	O
+दूध	O
+की	O
+आसान	O
+रेसिपी	O
+बताओ	O
+
+शावर्मा	O
+की	O
+रेसिपी	O
+बताओ	O
+
+भोजन	O
+की	O
+विधि	O
+देखो	O
+
+एलेक्सा	O
+chess	B-game_name
+with	O
+me	O
+खेलें	O
+
+मैं	O
+शतरंज	B-game_name
+खेलना	O
+चाहता	O
+हूँ	O
+क्या	O
+तुम	O
+play	O
+कर	O
+सकते	O
+हो	O
+
+लूडो	O
+का	O
+एक	O
+अच्छा	O
+खेल	O
+कैसा	O
+रहेगा	O
+
+तीन	O
+पत्ती	O
+खेलें	O
+
+एक	O
+लूडो	B-game_type
+खेल	O
+खेलें	O
+
+चलो	O
+तीन	B-game_name
+पत्ती	I-game_name
+खेलते	O
+हैं	O
+
+लूडो	O
+खेलना	O
+शुरू	O
+करें	O
+
+मेरे	O
+साथ	O
+एक	O
+गेम	O
+खेलना	O
+चाहोगे	O
+
+मैं	O
+चाहता	O
+हूँ	O
+तुम	O
+मेरा	O
+हॉकी	B-game_name
+गेम	O
+खेलो	O
+पांचवें	O
+लेवल	O
+से	O
+
+सामान्य	O
+लूडो	B-game_name
+खेलना	O
+चाहते	O
+हैं	O
+
+खेल	O
+को	O
+खोजो	O
+
+मेरे	O
+साथ	O
+सांप	B-game_name
+सीडी	I-game_name
+खेलो	O
+
+पहेली	O
+को	O
+हल	O
+करते	O
+हैं	O
+
+ओपन	O
+papa	B-game_name
+pear	I-game_name
+saga	I-game_name
+
+चलो	O
+लूडो	B-game_name
+खेलते	O
+हैं	O
+
+खेल	O
+शुरू	O
+करो	O
+
+क्या	O
+तुम	O
+तीन	B-game_name
+पत्ती	I-game_name
+में	O
+दुश्मन	O
+का	O
+रोल	O
+कर	O
+सकते	O
+हो	O
+
+कृपया	O
+मेरे	O
+साथ	O
+क्रिकेट	B-game_name
+खेलें	O
+
+लूडो	O
+गेम	O
+खेलें	O
+
+क्या	O
+तुम	O
+poker	B-game_name
+with	O
+me	O
+खेल	O
+सकते	O
+हो	O
+
+चलो	O
+तीन	B-game_name
+पत्ती	I-game_name
+खेलते	O
+हैं	O
+
+चलो	O
+लूडो	B-game_name
+खेलते	O
+हैं	O
+
+olly	O
+मेरी	O
+शॉपिंग	B-list_name
+सूची	O
+में	O
+से	O
+आइटम्स	O
+की	O
+सूची	O
+दो	O
+
+मैं	O
+अगले	O
+सप्ताह	O
+वेगास	O
+की	O
+यात्रा	O
+रद्द	O
+करना	O
+चाहता	O
+हूँ	O
+
+मेरी	O
+शॉपिंग	B-list_name
+की	O
+सूची	O
+में	O
+आज	B-date
+क्या	O
+है	O
+
+ब्रेड	O
+को	O
+ख़रीददारी	B-list_name
+की	O
+सूची	O
+से	O
+हटा	O
+दो	O
+
+मेरी	O
+पार्टी	B-list_name
+खरीदारी	I-list_name
+सूची	I-list_name
+में	O
+वोदका	O
+जोड़ें	O
+
+खरीदने	O
+के	O
+लिए	O
+चीजों	B-list_name
+की	O
+एक	O
+सूची	O
+निकालें	O
+
+क्या	O
+आप	O
+एक	O
+नई	O
+सूची	O
+बना	O
+सकते	O
+हैं	O
+
+पिछले	O
+हफ्ते	O
+जो	O
+खाने	B-list_name
+का	O
+सामान	O
+खरीदा	O
+था	O
+उस	O
+सूची	O
+को	O
+हटा	O
+दो	O
+
+यह	O
+देखा	O
+पर	O
+निर्भर	O
+है	O
+
+सूची	O
+खाली	O
+करो	O
+
+सूची	O
+बनाओ	O
+
+मैंने	O
+किन	O
+ग्रोसरी	B-list_name
+स्टोर्स	I-list_name
+की	O
+सूची	O
+बनाई	O
+है	O
+
+मेरी	O
+सूचियां	O
+क्या	O
+हैं	O
+
+कौन	O
+सी	O
+सूचियां	O
+उपलब्ध	O
+हैं	O
+
+सूची	O
+ढूंढो	O
+सेब	O
+हटाओ	O
+
+मेरे	O
+पुराने	B-list_name
+अंग्रेजी	I-list_name
+गानों	O
+की	O
+सूची	O
+को	O
+हटा	O
+दो	O
+
+कृपया	O
+सूची	O
+रिमूव	O
+करो	O
+
+इस	O
+आइटम	O
+को	O
+सूची	O
+में	O
+ऐड	O
+करो	O
+
+मेरे	O
+द्वारा	O
+बनाई	O
+अंतिम	O
+पांच	O
+सूचियां	O
+क्या	O
+हैं	O
+
+आखिरी	O
+सूची	O
+जो	O
+अपलोड	O
+की	O
+थी	O
+मुझे	O
+भेजो	O
+
+मेरे	O
+लिए	O
+अंकों	B-list_name
+की	O
+एक	O
+सूची	O
+बनाओ	O
+
+मेरे	O
+लिए	O
+एक	O
+नई	O
+सूची	O
+बनाओ	O
+
+आज	O
+की	O
+मेरी	O
+टू	B-list_name
+डू	I-list_name
+लिस्ट	O
+में	O
+क्या	O
+है	O
+
+मैं	O
+आज	B-date
+क्या	O
+कर	O
+रहा	O
+हूँ	O
+
+मेरी	O
+बचे	B-list_name
+हुए	I-list_name
+काम	I-list_name
+की	O
+सूची	O
+में	O
+वस्तु	O
+पाँच	O
+की	O
+जांच	O
+करें	O
+
+मेरी	O
+सूची	O
+दिखाओ	O
+
+एक्सेल	O
+फाइल	O
+को	O
+सूची	O
+से	O
+हटा	O
+दो	O
+
+मुझे	O
+एक	O
+प्लेलिस्ट	O
+बताओ	O
+
+सूची	O
+में	O
+कितने	O
+खाद्य	O
+पदार्थ	O
+हैं	O
+
+सूची	O
+में	O
+वो	O
+सभी	O
+आइटम	O
+नहीं	O
+होने	O
+चाहिए	O
+जिसके	O
+आगे	O
+ड्राई	O
+जुड़ा	O
+हुआ	O
+हो	O
+
+कल	O
+तक	O
+एक	O
+नई	O
+सूची	O
+बनाएं	O
+
+एक	O
+नई	O
+सूची	O
+बनाओ	O
+
+नई	O
+किराने	B-list_name
+की	O
+सूची	O
+में	O
+पेंसिल	O
+डालें	O
+
+कृपया	O
+मेरी	O
+list	O
+से	O
+यह	O
+remove	O
+करो	O
+
+सूची	O
+में	O
+किराना	O
+शामिल	O
+करो	O
+
+सूची	O
+को	O
+पढ़ो	O
+
+मेरी	O
+list	O
+लाओ	O
+
+मुझे	O
+बताओ	O
+कि	O
+मेरे	O
+पास	O
+कौन	O
+सी	O
+सूचियां	O
+हैं	O
+
+तीन	O
+item	O
+remove	O
+करो	O
+
+सूची	O
+कैसे	O
+चालू	O
+करें	O
+
+इस	O
+आइटम	O
+को	O
+सूची	O
+में	O
+ऐड	O
+करो	O
+
+अभी	O
+की	O
+सूची	O
+चलाओ	O
+
+क्या	O
+आप	O
+कृपया	O
+मुझे	O
+बता	O
+सकते	O
+हैं	O
+कि	O
+मेरी	O
+सूची	O
+में	O
+क्या	O
+है	O
+
+मेरी	O
+ग्रोसरी	B-list_name
+सूची	O
+में	O
+से	O
+मिर्च	O
+हटा	O
+दो	O
+
+मेरी	O
+सूची	O
+में	O
+कुछ	O
+ऐड	O
+करो	O
+
+उस	O
+आइटम	O
+को	O
+मेरी	O
+सूची	O
+में	O
+से	O
+हटा	O
+दो	O
+
+google	O
+अनुवाद	O
+
+इस	O
+सप्ताह	O
+के	O
+लिए	O
+मैंने	O
+अपनी	O
+किराना	O
+सूची	O
+में	O
+जो	O
+कुछ	O
+रखा	O
+है	O
+उसे	O
+वापस	O
+पढ़ें	O
+
+खरीदारी	O
+सूची	O
+वस्तु	O
+पढ़ें	O
+
+मेरी	O
+खरीदारी	O
+सूची	O
+में	O
+दलिया	O
+जोड़ें	O
+
+क्या	O
+अंडे	O
+मेरी	O
+ख़रीददारी	B-list_name
+सूची	O
+में	O
+हैं	O
+
+क्या	O
+मेरे	O
+पास	O
+उस	O
+पार्टी	B-event_name
+के	O
+लिए	O
+संपर्कों	O
+की	O
+सूची	O
+है	O
+जिसकी	O
+मैं	O
+योजना	O
+बना	O
+रहा	O
+हूं	O
+
+मेरी	O
+टू	B-list_name
+डू	I-list_name
+सूची	O
+को	O
+डिलीट	O
+करें	O
+
+सूची	O
+से	O
+आइटम	O
+हटा	O
+दो	O
+
+मेरी	O
+grocery	B-list_name
+list	O
+मे	O
+दूध	O
+को	O
+जोड़ो	O
+
+क्या	O
+आप	O
+कृपया	O
+मुझे	O
+मेरी	O
+सूचियां	O
+दिखाएंगे	O
+
+खुली	O
+सूचियाँ	O
+सूची	O
+हटाएँ	O
+
+olly	O
+मेरी	O
+सूची	O
+में	O
+अगला	O
+क्या	O
+है	O
+
+दूध	O
+को	O
+मेरी	O
+किराना	B-list_name
+सूची	O
+में	O
+से	O
+हटा	O
+दो	O
+
+कृपया	O
+मुझे	O
+बताएं	O
+कि	O
+मैंने	O
+कौन	O
+सी	O
+सूचियां	O
+बनाई	O
+हैं	O
+
+इसे	O
+सूची	O
+से	O
+हटाने	O
+के	O
+बाद	O
+फिर	O
+से	O
+अर्रेंज	O
+करो	O
+
+इसे	O
+सूची	O
+से	O
+हटा	O
+दो	O
+
+olly	O
+मेरी	O
+सूची	O
+में	O
+और	O
+क्या	O
+है	O
+
+ग्रोसरी	O
+ख़रीदनी	O
+है	O
+इसे	O
+मेरी	O
+आज	B-date
+की	O
+काम	O
+करने	O
+की	O
+सूची	O
+में	O
+ऐड	O
+करो	O
+
+मुझे	O
+बताओ	O
+कि	O
+आइटम	O
+को	O
+कैसे	O
+हटाना	O
+है	O
+
+क्या	O
+मैं	O
+अपनी	O
+सूचियाँ	O
+देख	O
+सकता	O
+हूँ	O
+
+क्या	O
+मैंने	O
+एक	O
+ख़रीददारी	B-list_name
+सूची	O
+बनाई	O
+है	O
+
+मेरी	O
+सूची	O
+से	O
+आइटम	O
+हटा	O
+दो	O
+
+एक	O
+नई	O
+सूची	O
+बनाओ	O
+
+मुझे	O
+सूची	O
+के	O
+बारे	O
+में	O
+बताओ	O
+
+कृपया	O
+पहली	O
+सूची	O
+हटाओ	O
+
+बुधवार	O
+की	O
+सुबह	B-timeofday
+के	O
+लिए	O
+बैठक	O
+निकालें	O
+
+मेरे	O
+पेंडिंग	B-list_name
+बिल्स	I-list_name
+की	O
+एक	O
+नई	O
+सूची	O
+बनाओ	O
+
+मेरे	O
+लिए	O
+मेरी	O
+list	O
+पढ़ो	O
+
+मुझे	O
+मेरी	O
+सूची	O
+दो	O
+
+काम	O
+की	O
+एक	O
+सूची	O
+बनाओ	O
+
+कृपया	O
+किकबॉल	B-list_name
+शीर्षक	O
+वाली	O
+सूची	O
+हटाएं	O
+
+मुझे	O
+इस	O
+सूची	O
+की	O
+अब	O
+जरूरत	O
+नहीं	O
+है	O
+
+क्या	O
+मेरे	O
+पास	O
+करने	B-list_name
+के	O
+लिए	O
+मेरी	O
+सूची	O
+में	O
+कुछ	O
+है	O
+
+कौन	O
+सी	O
+सूचियां	O
+अभी	O
+उपलब्ध	O
+हैं	O
+
+आखिरी	O
+लाइन	O
+डिलीट	O
+कर	O
+दो	O
+
+स्कूल	O
+की	O
+आपूर्ति	O
+के	O
+लिए	O
+एक	O
+नई	O
+सूची	O
+बनाएं	O
+
+मेरी	O
+vacation	B-list_name
+list	I-list_name
+से	O
+कॉल	O
+अख़बार	O
+हटाएं	O
+
+आज	O
+के	O
+लिए	O
+मेरी	O
+खरीदारी	B-list_name
+सूची	O
+पढ़ें	O
+
+today	O
+की	O
+सूची	O
+में	O
+क्या	O
+है	O
+
+सूची	O
+में	O
+एक	O
+आइटम	O
+शामिल	O
+करें	O
+
+किराने	O
+की	O
+खरीदारी	O
+को	O
+सूची	O
+से	O
+हटा	O
+दें	O
+
+हम	O
+पेंट	O
+से	O
+बाहर	O
+हैं	O
+इसलिए	O
+सूची	O
+से	O
+बाथरूम	O
+पेंटिंग	O
+को	O
+हटा	O
+दें	O
+
+मुझे	O
+याद	O
+दिलाना	O
+और	O
+साबुन	O
+आर्डर	O
+करना	O
+है	O
+
+मेरी	O
+सूची	O
+खोलो	O
+
+पिछले	O
+खेले	O
+गए	O
+गाने	O
+को	O
+हटा	O
+दें	O
+
+कृपया	O
+राम	B-person
+को	O
+मेरी	O
+संपर्क	O
+सूची	O
+में	O
+जोड़ें	O
+
+क्या	O
+आप	O
+मेरे	O
+लिए	O
+मेरी	O
+सूचियां	O
+पढ़	O
+सकते	O
+हैं	O
+
+अरे	O
+मेरी	O
+सूचियां	O
+क्या	O
+हैं	O
+
+अरे	O
+ओली	O
+मेरी	O
+सूची	O
+क्या	O
+है	O
+
+क्या	O
+आप	O
+मुझे	O
+बता	O
+सकते	O
+हैं	O
+कि	O
+मेरी	O
+किराने	B-list_name
+की	O
+सूची	O
+में	O
+कौन	O
+से	O
+आइटम	O
+हैं	O
+
+सूची	O
+में	O
+यह	O
+क्या	O
+है	O
+
+मुझे	O
+बताओ	O
+मेरी	O
+सूची	O
+में	O
+क्या	O
+है	O
+
+एक	O
+सूची	O
+हटाओ	O
+
+ख़रीदारी	O
+सूची	O
+से	O
+दूध	O
+रद्द	O
+करें	O
+
+मेरी	O
+ग्रोसरी	B-list_name
+लिस्ट	O
+में	O
+दूध	O
+ऐड	O
+करो	O
+
+अरिजीत	O
+सिंह	O
+के	O
+संगीत	O
+को	O
+हटा	O
+दो	O
+
+इस	O
+विशिष्ट	O
+सूची	O
+में	O
+क्या	O
+है	O
+
+क्या	O
+मैं	O
+अपनी	O
+काम	O
+की	O
+सूची	O
+देख	O
+सकता	O
+हूं	O
+
+इसको	O
+एक	O
+सूची	O
+में	O
+ऐड	O
+करो	O
+
+मेरी	O
+आज	B-date
+की	O
+काम	B-list_name
+करने	I-list_name
+की	O
+सूची	O
+हटा	O
+दो	O
+
+मुझे	O
+अंडे	O
+नहीं	O
+चाहिए	O
+
+सूची	O
+जो	O
+उपलब्ध	O
+हैं	O
+
+खरीदे	O
+जाने	O
+वाले	O
+मासिक	B-general_frequency
+किराना	B-list_name
+सामान	O
+की	O
+सूची	O
+बनाएं	O
+
+मेरे	O
+काम	O
+का	O
+कार्यक्रम	O
+
+मेरी	O
+स्वास्थ्य	B-list_name
+योजना	I-list_name
+
+क्रिसमस	O
+की	O
+सूची	O
+में	O
+पेस्ट्री	O
+जोड़ें	O
+
+करने	O
+के	O
+लिए	O
+चीजों	O
+की	O
+सूची	O
+को	O
+हटा	O
+दें	O
+
+पुरानी	O
+प्लेलिस्ट	O
+डिलीट	O
+कर	O
+दो	O
+और	O
+नई	O
+बनाओ	O
+
+जांच	O
+सूची	O
+
+मेरे	O
+काम	B-list_name
+करने	I-list_name
+की	O
+सूची	O
+में	O
+कितने	O
+आइटम्स	O
+हैं	O
+
+मेरी	O
+सूची	O
+चेक	O
+करो	O
+
+क्या	O
+आप	O
+रेडियो	O
+में	O
+एक	O
+कड़ी	O
+आगे	B-player_setting
+कर	O
+सकते	O
+हैं	O
+
+अगला	O
+episode	O
+चलाओ	O
+
+मेरे	O
+पॉडकास्ट	O
+का	O
+पता	O
+लगाएं	O
+
+अगले	O
+प्रकरण	O
+के	O
+लिए	O
+आगे	O
+बढ़ें	O
+
+नवीनतम	O
+कारण	B-podcast_name
+पॉडकास्ट	O
+खेलें	O
+
+अगले	O
+प्रकरण	O
+पर	O
+जाएँ	O
+
+इसके	O
+बाद	O
+एक	B-podcast_name
+और	I-podcast_name
+कहानी	I-podcast_name
+का	O
+सातवां	O
+एपिसोड	O
+चलाएं	O
+
+सभी	O
+नवीनतम	O
+डांसिंग	O
+ट्रैक्स	O
+की	O
+प्लेलिस्ट	O
+ढूंढें	O
+और	O
+बनाएं	O
+
+अरिजीत	O
+के	O
+सब	O
+गाने	O
+व्यवस्थित	O
+करें	O
+और	O
+बजाएं	O
+
+शुरुआत	O
+से	O
+पॉडकास्ट	O
+को	O
+शुरू	O
+करो	O
+
+अरे	O
+उस	O
+पॉडकास्ट	O
+को	O
+चलाओ	O
+जिसे	O
+मैंने	O
+कल	B-podcast_descriptor
+रात	I-podcast_descriptor
+रोक	I-podcast_descriptor
+दिया	I-podcast_descriptor
+था	I-podcast_descriptor
+
+आगले	O
+पॉडकास्ट	O
+पर	O
+आगे	O
+बढ़ो	O
+
+निम्नलिखित	O
+पॉडकास्ट	O
+को	O
+फिर	O
+से	O
+चलाएं	O
+
+अगले	O
+पॉडकास्ट	O
+पर	O
+जाएं	O
+
+मैं	O
+अंकुर	B-person
+वारिकू	I-person
+का	O
+पॉडकास्ट	O
+सुनना	O
+चाहता	O
+हूँ	O
+
+पसंदीदा	O
+
+कृपया	O
+आगे	B-player_setting
+बढ़ें	O
+
+पॉडकास्ट	O
+ढूंढों	O
+और	O
+उसे	O
+चलाओ	O
+
+क्या	O
+आप	O
+मेरी	O
+संगीत	O
+फ़ाइल	O
+चला	O
+सकते	O
+हैं	O
+
+अगले	O
+एपिसोड	O
+पर	O
+जाएं	O
+
+इस	O
+पॉडकास्ट	O
+को	O
+समाप्त	O
+करो	O
+और	O
+नया	O
+चालू	O
+करो	O
+
+नीलेश	O
+मिश्रा	O
+का	O
+नवीनतम	O
+पॉडकास्ट	O
+सुनें	O
+
+अंतिम	O
+अगला	B-podcast_descriptor
+प्रकरण	I-podcast_descriptor
+चलाएं	O
+
+पॉडकास्ट	O
+शुरू	O
+करो	O
+
+मुझे	O
+सर्वश्रेष्ठ	B-podcast_descriptor
+मूल्यांकित	I-podcast_descriptor
+पॉडकास्ट	O
+दिखाओ	O
+
+दा	O
+बीयर	O
+बिसेप्स	O
+शो	O
+का	O
+प्रकरण	O
+चालू	O
+करें	O
+
+शास्त्रीय	O
+संगीत	O
+चालू	O
+करें	O
+
+अंकुर	O
+वारिकू	O
+शो	O
+पॉडकास्ट	O
+चालू	O
+करो	O
+
+एक	O
+प्रकरण	O
+पीछे	O
+
+रिवाइंड	O
+बटन	O
+
+मुझे	O
+आखरी	O
+episode	O
+दिखाओ	O
+
+olly	O
+प्ले	O
+jiosaavn	B-podcast_name
+पॉडकास्ट	O
+
+नरेंद्र	O
+मोदी-	O
+दा	O
+लेजेंड	O
+पॉडकास्ट	O
+को	O
+यंत्र	O
+में	O
+चालू	O
+करो	O
+
+मिर्ची	O
+तड़का	O
+का	O
+podcast	O
+
+बहुत	O
+more	O
+clearer	O
+and	O
+subject	O
+oriented	O
+
+the	O
+रणवीर	O
+show	O
+
+मेरी	O
+कहानी	O
+का	O
+सबसे	O
+वर्तमान	B-podcast_descriptor
+एपिसोड	I-podcast_descriptor
+चलाएं	O
+
+मैं	O
+यह	O
+podcast	O
+सुनना	O
+चाहता	O
+हूँ	O
+
+इस	O
+सप्ताह	O
+सिनेमाघरों	O
+में	O
+कौन	O
+सी	O
+नई	O
+फिल्में	O
+चल	O
+रही	O
+हैं	O
+
+क्या	O
+दिल्ली	B-place_name
+शहर	I-place_name
+के	O
+पास	O
+डॉग	B-event_name
+शो	I-event_name
+चल	O
+रहे	O
+हैं	O
+
+शहर	O
+में	O
+निकटतम	O
+पब	B-business_type
+कहाँ	O
+है	O
+
+आस-पास	O
+कौन	O
+से	O
+संगीत	B-event_name
+कार्यक्रम	I-event_name
+निश्चित	B-time
+होने	O
+वाले	O
+हैं	O
+
+regal	O
+cinema	O
+में	O
+कौन	O
+सी	O
+फिल्में	O
+दिखाई	O
+जा	O
+रही	O
+हैं	O
+
+मेट्रो	O
+सिनेमा	O
+में	O
+कौन	O
+से	O
+प्रदर्शन	B-event_name
+या	O
+शो	B-event_name
+निर्धारित	O
+हैं	O
+
+मेरे	O
+आस-पास	O
+क्या	O
+घटनाएँ	O
+हो	O
+रही	O
+हैं	O
+
+मुझे	O
+अपने	O
+क्षेत्र	O
+में	O
+भारतीय	B-food_type
+भोजन	O
+के	O
+लिए	O
+कहाँ	O
+जाना	O
+चाहिए	O
+
+मुझे	O
+कुछ	O
+पालक	B-food_type
+पनीर	I-food_type
+चाहिए	O
+जो	O
+निकटतम	O
+है	O
+
+आस-पास	O
+के	O
+चीनी	B-food_type
+रेस्तरां	B-business_type
+खोजें	O
+
+आज	O
+रात	O
+फूड	B-event_name
+फेस्टिवल	I-event_name
+कहाँ	O
+है	O
+
+मैं	O
+कुछ	O
+ड्रेस	B-business_type
+शो	I-business_type
+की	O
+तलाश	O
+में	O
+हूं	O
+क्या	O
+आपको	O
+एक	B-place_name
+मील	I-place_name
+के	I-place_name
+भीतर	I-place_name
+कपड़ों	O
+की	O
+दुकान	O
+मिल	O
+सकती	O
+है	O
+
+सबसे	O
+निकटतम	O
+रेस्टोरेंट	B-business_type
+कहाँ	O
+है	O
+
+ओली	O
+मुझे	O
+दुकान	O
+का	O
+स्थान	O
+बताओ	O
+
+आज	O
+कौन	O
+सी	O
+नई	O
+फिल्में	O
+उपलब्ध	O
+हैं	O
+
+मुझे	O
+मेरे	B-place_name
+स्थान	I-place_name
+के	I-place_name
+निकटतम	I-place_name
+कोई	O
+फ़ूड	B-business_type
+कोर्ट	I-business_type
+दिखाओ	O
+
+केरल	O
+में	O
+कोई	O
+अच्छी	O
+बाइक	B-business_type
+की	I-business_type
+दुकानें	I-business_type
+हैं	O
+
+स्थानीय	O
+क्षेत्र	O
+में	O
+सर्वश्रेष्ठ	O
+बार	B-business_type
+
+मुझे	O
+सारे	O
+स्थानीय	O
+आयोजन	O
+बताओ	O
+
+निकटतम	O
+किराना	B-business_type
+
+मैं	O
+लखनऊ	B-place_name
+के	O
+आसपास	O
+के	O
+सिनेमाघरों	O
+में	O
+कौन	O
+सी	O
+बाहुबली	B-movie_type
+फिल्म	O
+देख	O
+सकता	O
+हूं	O
+
+कुतुब	O
+राष्ट्रीय	O
+उद्यान	O
+का	O
+दौरा	O
+करते	O
+समय	O
+एक	O
+सूची	O
+बनाएं	O
+
+जब	O
+मैं	O
+येलोस्टोन	B-place_name
+नेशनल	I-place_name
+पार्क	I-place_name
+जाऊं	O
+तो	O
+मुझे	O
+कौन	O
+सी	O
+चीजें	O
+करनी	O
+चाहिए	O
+
+मेरे	O
+आसपास	O
+क्या	O
+हो	O
+रहा	O
+है	O
+
+मेरे	O
+निकट	O
+के	O
+सिनेमा	B-business_type
+हॉल	I-business_type
+
+नई	O
+दिल्ली	O
+में	O
+अगले	B-date
+सप्ताह	I-date
+कौन	O
+से	O
+पुस्तक	B-event_name
+मेले	I-event_name
+का	O
+आयोजन	O
+हो	O
+रहा	O
+है	O
+
+निकटतम	O
+थियेटर	O
+कौन	O
+सा	O
+है	O
+जो	O
+अजय	B-movie_name
+देवगन	I-movie_name
+की	O
+नई	O
+फिल्म	O
+चलाता	O
+है	O
+
+मथुरा	O
+शहर	O
+में	O
+कौन	O
+से	O
+कार्यक्रम	O
+चल	O
+रहे	O
+हैं	O
+
+लगान	O
+
+ओडिसा	O
+में	O
+सबसे	O
+सस्ती	O
+नेटबुक	O
+कौन	O
+बेचता	O
+है	O
+
+यहाँ	O
+सबसे	O
+अच्छा	O
+कपड़ों	B-business_type
+का	I-business_type
+स्टोर	I-business_type
+कहाँ	O
+है	O
+
+बीयर	O
+बेचने	O
+वाली	O
+दुकान	O
+ढूंढें	O
+
+मेरे	O
+आस-पास	O
+के	O
+सिनेमाघरों	B-place_name
+में	O
+कौन	O
+सी	O
+फिल्में	O
+चल	O
+रही	O
+हैं	O
+
+मेरे	O
+आस-पास	O
+ऐसी	O
+कौन	O
+सी	O
+फिल्में	O
+चल	O
+रही	O
+हैं	O
+जिनकी	O
+समीक्षा	O
+अधिक	O
+है	O
+
+अच्छी	O
+सड़े	O
+हुए	O
+टमाटर	O
+रेटिंग	O
+वाली	O
+फिल्में	O
+
+मेरे	O
+क्षेत्र	O
+में	O
+क्या	O
+गतिविधियां	O
+हो	O
+रही	O
+हैं	O
+
+कौन	O
+से	O
+झंडे	O
+की	O
+सवारी	O
+सबसे	O
+अच्छी	O
+है	O
+
+देखने	O
+लायक	O
+क्या	O
+है	O
+
+मुझे	O
+इस	B-date
+सप्ताहांत	I-date
+क्षेत्र	O
+की	O
+गतिविधियों	O
+के	O
+बारे	O
+में	O
+बताएं	O
+
+उत्तर	O
+प्रदेश	O
+में	O
+क्या	O
+चल	O
+रहा	O
+है	O
+
+मेरे	O
+मोहल्ले	O
+के	O
+पास	O
+किस	O
+तरह	O
+की	O
+दुकानें	B-business_type
+हैं	O
+
+क्या	O
+आप	O
+इस	O
+क्षेत्र	O
+में	O
+एक	O
+सस्ते	O
+रेस्टोरेंट	B-business_type
+की	O
+सिफारिश	O
+कर	O
+सकते	O
+हैं	O
+
+olly	O
+मेरे	O
+आस-पास	O
+कुछ	O
+होटल	B-business_type
+कौन	O
+से	O
+हैं	O
+
+मुझे	O
+अपने	O
+क्षेत्र	O
+में	O
+निकटतम	O
+आयरिश	B-business_type
+पब	I-business_type
+कहां	O
+मिल	O
+सकता	O
+है	O
+
+मेरे	O
+आस-पास	O
+कौन	O
+से	O
+बार	B-business_type
+हैं	O
+
+मुझे	O
+इंदौर	B-place_name
+में	O
+होने	O
+वाली	O
+सभी	O
+प्रतिस्पर्धाएं	O
+दिखाओ	O
+
+मुझे	O
+बताओ	O
+मेरे	O
+शहर	O
+में	O
+क्या	O
+हो	O
+रहा	O
+है	O
+
+आज	O
+दिल्ली	B-place_name
+में	O
+क्या	O
+चल	O
+रहा	O
+है	O
+
+मेरे	O
+पड़ोस	O
+में	O
+कितने	O
+किराना	O
+स्टोर	O
+स्थित	O
+हैं	O
+
+मेरे	O
+क्षेत्र	O
+में	O
+एक	O
+भोजनालय	B-business_type
+से	O
+पूछो	O
+
+मैं	O
+भूख	O
+से	O
+मर	O
+रहा	O
+हूँ	O
+कोलकाता	B-place_name
+में	O
+खाने	B-business_type
+के	I-business_type
+लिए	I-business_type
+क्या	O
+अच्छा	B-business_type
+है	O
+
+olly	O
+मैं	O
+मुंबई	B-place_name
+में	O
+कुछ	O
+पेय	B-business_type
+कहाँ	O
+ले	O
+सकता	O
+हूँ	O
+
+आज	O
+के	O
+स्थानीय	O
+कार्यक्रम	O
+
+आस-पास	O
+की	O
+सभी	O
+दुकानों	B-business_type
+को	O
+सूचीबद्ध	O
+करें	O
+
+क्या	O
+आप	O
+मिलीग्राम	B-place_name
+रोड	I-place_name
+में	O
+किसी	O
+पब	B-business_type
+की	O
+सिफारिश	O
+कर	O
+सकते	O
+हैं	O
+
+आस-पड़ोस	O
+में	O
+क्या	O
+हो	O
+रहा	O
+है	O
+
+मुझे	O
+एक	O
+ऐसी	O
+जगह	O
+चाहिए	O
+जो	O
+मुझे	O
+दिल्ली	B-place_name
+में	O
+पिज़्ज़ा	B-food_type
+पहुंचाए	O
+
+क्या	O
+ग्वालियर	B-place_name
+में	O
+कोई	O
+लिट्टी	B-food_type
+चोखा	I-food_type
+जगह	O
+है	O
+
+कृपया	O
+मेरे	O
+स्थान	O
+में	O
+घटनाएँ	O
+खोजें	O
+
+hey	O
+olly	O
+मैं	O
+अहमदाबाद	B-place_name
+के	O
+लिए	O
+एक	O
+ट्रेन	O
+चाहता	O
+हूँ	O
+बुधवार	B-date
+को	O
+
+कॉर्नवाल	O
+के	O
+लिए	O
+अगली	O
+ट्रेन	B-transport_type
+कब	O
+है	O
+
+फ्रांस	O
+के	O
+लिए	O
+सबसे	O
+अच्छा	O
+तरीका	O
+क्या	O
+है	O
+
+मैं	O
+आधे	B-time
+घंटे	I-time
+में	I-time
+चाइनाटाउन	B-place_name
+जा	O
+रहा	O
+हूँ	O
+मेरे	O
+लिए	O
+एक	O
+uber	B-transport_agency
+बुक	O
+करो	O
+
+नई	O
+दिल्ली	O
+के	O
+लिए	O
+राजधानी	B-transport_name
+एक्सप्रेस	I-transport_name
+पर	O
+इस	B-date
+शुक्रवार	I-date
+शाम	B-time
+पांच	I-time
+बजे	I-time
+का	O
+एक	O
+टिकट	O
+बुक	O
+करें	O
+
+दिल्ली	O
+से	O
+देहरादून	B-place_name
+के	O
+लिए	O
+एक	O
+चेयर	O
+कार	O
+ए.	O
+सी.	O
+ट्रेन	B-transport_type
+टिकट	O
+बुक	O
+करो	O
+
+गांधी	O
+मार्ग	O
+में	O
+ट्रैफिक	O
+की	O
+स्थिति	O
+कैसी	O
+है	O
+
+मुझे	O
+अभी	O
+के	O
+लिए	O
+एक	O
+उबर	B-transport_agency
+कॉल	O
+करें	O
+
+द्वारका	O
+में	O
+ज्यादा	O
+ट्रैफिक	O
+है	O
+क्या	O
+
+अभी	O
+मीरा	B-place_name
+रोड	I-place_name
+पर	O
+कितना	O
+traffic	O
+है	O
+
+मेरे	O
+लिए	O
+अभी	O
+एक	O
+ऊबर	B-transport_agency
+भेजो	O
+
+रेलवे	O
+स्टेशन	O
+कहां	O
+है	O
+
+क्या	O
+आप	O
+कृपया	O
+पंद्रह	B-time
+मिनट	I-time
+में	O
+uber	B-transport_agency
+मेरे	O
+घर	B-place_name
+पहुंच	O
+सकते	O
+हैं	O
+
+मुझे	O
+एक	O
+टैक्सी	B-transport_type
+चाहिए	O
+मुझे	O
+एयरपोर्ट	B-place_name
+पहुँचाने	O
+के	O
+लिए	O
+
+मेरे	O
+लिए	O
+एक	O
+प्लेन	O
+की	O
+टिकट	O
+बुक	O
+करो	O
+
+घर	O
+जाने	O
+के	O
+लिए	O
+टैक्सी	B-transport_type
+की	O
+तलाश	O
+करें	O
+
+मेरे	O
+घर	B-place_name
+से	O
+उबर	B-transport_agency
+बुक	O
+करें	O
+
+क्या	O
+आप	O
+मुझे	O
+दिल्ली	B-place_name
+के	O
+लिए	O
+अगली	O
+चार	O
+निर्धारित	O
+ट्रेनों	O
+के	O
+बारे	O
+में	O
+बता	O
+सकते	O
+हैं	O
+
+गाँधी	O
+रोड	O
+में	O
+ट्रैफिक	O
+कैसा	O
+है	O
+
+ट्रैफिक	O
+कैसा	O
+है	O
+
+मुझे	O
+अगले	O
+गुरुवार	B-date
+के	O
+लिए	O
+बोस्टन	B-place_name
+के	O
+लिए	O
+एक	O
+एमट्रैक	O
+टिकट	O
+प्राप्त	O
+करें	O
+बाद	O
+में	O
+बेहतर	O
+होगा	O
+
+पंजाब	O
+mail	O
+के	O
+ग्वालियर	B-place_name
+पहुँचने	O
+का	O
+तय	O
+समय	O
+क्या	O
+है	O
+
+मुंबई	O
+के	O
+लिए	O
+अगली	O
+train	B-transport_type
+कब	O
+है	O
+
+चलो	O
+एक	O
+टैक्सी	B-transport_type
+बुक	O
+करते	O
+हैं	O
+
+मुझे	O
+निकटतम	O
+रेलवे	B-place_name
+स्टेशन	I-place_name
+की	O
+ओर	O
+निर्देशित	O
+करें	O
+
+लखनऊ	O
+से	O
+बरेली	B-place_name
+की	O
+रेलगाड़ी	B-transport_type
+का	O
+समय	O
+
+जयपुर	O
+के	O
+लिए	O
+मंगलवार	B-date
+की	I-date
+train	B-transport_type
+के	O
+दो	O
+टिकट	O
+ढूँढे	O
+
+काम	O
+से	O
+घर	B-place_name
+तक	O
+यातायात	O
+की	O
+क्या	O
+स्थिति	O
+है	O
+
+मुझे	O
+यहाँ	O
+से	O
+घर	B-place_name
+तक	O
+की	O
+traffic	O
+condition	O
+बताओ	O
+
+एक	O
+taxi	B-transport_type
+reserve	O
+करो	O
+
+किराया	O
+और	O
+डिब्बा	O
+
+दिल्ली	O
+में	O
+यातायात	O
+का	O
+स्तर	O
+बहुत	O
+अधिक	O
+
+कल	O
+सुबह	B-timeofday
+के	O
+लिए	O
+हवाई	B-place_name
+अड्डे	I-place_name
+के	O
+लिए	O
+टैक्सी	B-transport_type
+बुक	O
+करें	O
+
+मैं	O
+ट्रैफिक	O
+कंडीशन	O
+जानना	O
+चाहूँगा	O
+
+मेरे	O
+सबसे	O
+नज़दीकी	O
+टैक्सी	B-transport_type
+बुक	O
+करो	O
+
+मैं	O
+नैनीताल	B-place_name
+कैसे	O
+पहुँचूँ	O
+
+मेरे	O
+लिए	O
+एक	O
+ऊबर	B-transport_agency
+बुलाओ	O
+
+एक	O
+taxi	B-transport_type
+book	O
+करो	O
+
+दिल्ली	O
+की	O
+आखिरी	O
+train	B-transport_type
+का	O
+ticket	O
+फिर	O
+से	O
+खरीदो	O
+
+मेरे	O
+लिए	O
+मुरादाबाद	B-place_name
+के	O
+लिए	O
+आज	B-date
+की	O
+रेलगाड़ी	B-transport_type
+का	O
+टिकट	O
+खरीदें	O
+
+निकटतम	O
+एप्पल	B-business_name
+स्टोर	I-business_name
+के	O
+लिए	O
+दिशा	O
+निर्देश	O
+
+मुझे	O
+वर्तमान	O
+यातायात	O
+की	O
+स्थिति	O
+का	O
+विचार	O
+दें	O
+
+पंजाब	O
+से	O
+हरियाणा	B-place_name
+जाने	O
+के	O
+लिए	O
+ट्रेन	B-transport_type
+का	O
+समय	O
+क्या	O
+है	O
+
+मैं	O
+मनाली	B-place_name
+से	O
+नैनीताल	B-place_name
+कैसे	O
+पहुँचूँ	O
+
+घर	O
+से	O
+कार्यस्थल	O
+तक	O
+का	O
+ट्रैफ़िक	O
+कैसा	O
+है	O
+
+एक	O
+सवारी	O
+पकड़ो	O
+
+तेईस	O
+को	O
+ग्वालियर	B-place_name
+तक	O
+रेल	B-transport_type
+का	O
+समय	O
+क्या	O
+है	O
+
+ट्रेन	O
+टिकिट	O
+खरीदो	O
+
+कल	O
+सुबह	B-timeofday
+आठ	B-time
+बजे	O
+एक	O
+टैक्सी	B-transport_type
+चाहिए	O
+
+सुबह	O
+जाने	O
+के	O
+लिए	O
+टिकट	O
+बुक	O
+करें	O
+
+आज	O
+रात	O
+दस	B-time
+बजे	I-time
+के	O
+बाद	O
+के	O
+लिए	O
+उपलब्ध	O
+एक	O
+uber	B-transport_agency
+ड्राइवर	O
+खोजें	O
+
+नहलूर	O
+के	O
+लिए	O
+ट्रेन	B-transport_type
+कितने	O
+बजे	O
+निकलती	O
+है	O
+
+क्या	O
+आप	O
+मुझे	O
+अगले	O
+मंगलवार	B-date
+के	O
+लिए	O
+ग्वालियर	B-place_name
+के	O
+लिए	O
+रेल	B-transport_type
+टिकट	O
+बुक	O
+कर	O
+सकते	O
+हैं	O
+
+श्रावस्ती	O
+से	O
+रेलगाड़ी	B-transport_type
+कितने	O
+बजे	O
+निकलती	O
+है	O
+
+आगरा	O
+के	O
+लिए	O
+अगली	O
+शताब्दी	O
+एक्सप्रेस	O
+ट्रेन	B-transport_type
+कब	O
+है	O
+
+मुझे	O
+स्थानीय	O
+किराए	B-business_type
+की	I-business_type
+गाड़ी	I-business_type
+की	I-business_type
+सेवा	I-business_type
+के	O
+लिए	O
+नंबर	O
+प्राप्त	O
+करें	O
+
+मुझे	O
+जगह	O
+के	O
+लिए	O
+निर्देश	O
+दें	O
+
+इमेजिका	O
+के	O
+लिए	O
+दिशा-निर्देश	O
+
+मुझे	O
+एक	O
+कैब	B-transport_type
+बुलानी	O
+है	O
+
+मैं	O
+इस	O
+स्थान	O
+के	O
+लिए	O
+सभी	O
+रेलगाड़ियों	B-transport_type
+के	O
+टिकटों	O
+के	O
+दाम	O
+की	O
+सूची	O
+चाहूंगा	O
+
+राजस्थान	O
+के	O
+लिए	O
+train	B-transport_type
+टिकिट	O
+बूक	O
+करो	O
+
+जयपुर	O
+से	O
+चंडीगढ़	B-place_name
+के	O
+लिए	O
+रेलगाड़ी	B-transport_type
+का	O
+समय	O
+क्या	O
+है	O
+
+olly	O
+कृपया	O
+मुझे	O
+लखनऊ	B-place_name
+के	O
+लिए	O
+एक	O
+रेलगाड़ी	B-transport_type
+टिकट	O
+खरीदो	O
+
+रेलगाड़ी	O
+टिकट	O
+के	O
+लिए	O
+कितना	O
+
+कृपया	O
+मुझे	O
+इस	O
+बारे	O
+में	O
+जानकारी	O
+भेजें	O
+कि	O
+न्यू	B-place_name
+यॉर्क	I-place_name
+के	O
+लिए	O
+ट्रेन	B-transport_type
+टिकट	O
+खरीदने	O
+के	O
+लिए	O
+कैसे	O
+जाना	O
+है	O
+
+क्या	O
+आप	O
+मुझे	O
+मुंबई	B-place_name
+के	O
+लिए	O
+रेलगाड़ी	B-transport_type
+की	O
+समय	O
+सारिणी	O
+दे	O
+सकते	O
+हैं	O
+
+कल	O
+सुबह	O
+दस	B-time
+बजे	O
+से	O
+पहले	O
+मेरे	O
+लिए	O
+इंदौर	B-place_name
+के	O
+लिए	O
+एक	O
+रेल	B-transport_type
+टिकट	O
+बुक	O
+करें	O
+
+मैं	O
+बैंक	B-business_name
+ऑफ	I-business_name
+इंडिया	I-business_name
+जाना	O
+चाहता	O
+हूँ	O
+मुझे	O
+दिशा	O
+बताओ	O
+
+कृपया	O
+मुंबई	B-place_name
+के	O
+लिए	O
+एक	O
+रेलगाड़ी	B-transport_type
+का	O
+टिकट	O
+खरीदें	O
+
+कल	O
+प्रातः	B-timeofday
+आठ	B-time
+बजे	O
+काम	O
+पर	O
+जाने	O
+के	O
+लिए	O
+मुझे	O
+टैक्सी	B-transport_type
+की	O
+जरुरत	O
+है	O
+
+वर्तमान	O
+यातायात	O
+
+के	O
+लिए	O
+रेलगाड़ी	B-transport_type
+की	O
+समय	O
+सारिणी	O
+क्या	O
+है	O
+
+क्या	O
+आप	O
+कृपया	O
+हमारे	O
+घर	B-place_name
+के	O
+लिए	O
+यातायात	O
+की	O
+जांच	O
+कर	O
+सकते	O
+हैं	O
+
+यातायात	O
+भारी	O
+है	O
+
+मुंबई	O
+के	O
+लिए	O
+ट्रेन	B-transport_type
+लेने	O
+के	O
+लिए	O
+मेरे	O
+लिए	O
+एक	O
+टिकट	O
+खरीदें	O
+
+घंटाघर	O
+में	O
+अक्सर	O
+ट्रैफिक	O
+कितना	O
+रहता	O
+है	O
+
+इस	O
+समय	O
+के	O
+लिए	O
+बुक	O
+करें	O
+रेलगाड़ी	B-transport_type
+का	O
+टिकट	O
+
+उबर	O
+सेट	O
+अप	O
+करें	O
+
+कृपया	O
+मुझे	O
+celebration	B-place_name
+mall	I-place_name
+की	O
+ride	O
+करवाओ	O
+
+मुझे	O
+अभी	O
+लेने	O
+के	O
+लिए	O
+taxi	B-transport_type
+बुलाओ	O
+
+क्या	O
+कोई	O
+ट्रैफिक	O
+समस्या	O
+है	O
+
+निकटतम	O
+मैकडॉनल्ड्स	B-business_name
+के	O
+लिए	O
+मार्ग	O
+क्या	O
+है	O
+
+पुणे	O
+जाने	O
+के	O
+मुझे	O
+कौन	O
+सा	O
+गली	O
+लेना	O
+होगा	O
+
+मुझे	O
+ट्रेन	B-transport_type
+का	O
+टिकट	O
+खरीदना	O
+है	O
+
+के	O
+लिए	O
+एक	O
+ट्रेन	B-transport_type
+टिकट	O
+बुक	O
+करें	O
+
+केदारनाथ	O
+के	O
+लिए	O
+कितने	O
+train	B-transport_type
+टिकिट	O
+है	O
+
+उड्राइव	O
+सेवा	O
+से	O
+टैक्सी	B-transport_type
+का	O
+अनुरोध	O
+करें	O
+
+आज	O
+इस	O
+सुबह	B-timeofday
+यातायात	O
+क्या	O
+है	O
+
+अभी	O
+ट्रैफिक	O
+कितना	O
+है	O
+
+मेरे	O
+नजदीक	O
+में	O
+traffic	O
+कैसा	O
+है	O
+
+ओहियो	O
+में	O
+वर्तमान	O
+यातायात	O
+क्या	O
+है	O
+
+सारे	O
+रेल	B-transport_type
+की	O
+टाइम	O
+बताओ	O
+दिल्ली	B-place_name
+के	O
+लिए	O
+
+मुंबई	O
+के	O
+लिए	O
+सभी	O
+रेलगाड़ियां	B-transport_type
+और	O
+उनका	O
+समय	O
+दिखाओ	O
+
+आज	O
+मुझे	O
+लखनऊ	B-place_name
+के	O
+लिए	O
+ट्रेन	B-transport_type
+का	O
+एक	O
+टिकट	O
+प्राप्त	O
+हुआ	O
+
+भोपाल	O
+जाने	O
+का	O
+सबसे	O
+तेज़	O
+रास्ता	O
+कौन	O
+सा	O
+है	O
+
+irctc	O
+एप्लीकेशन	O
+खोलें	O
+और	O
+टिकट	O
+बुक	O
+करने	O
+के	O
+लिए	O
+जाएं	O
+
+मेरे	O
+लिए	O
+मुंबई	B-place_name
+का	O
+train	B-transport_type
+टिकिट	O
+बूक	O
+करो	O
+
+एक	O
+घंटे	O
+के	O
+समय	O
+में	O
+मेरे	O
+वर्तमान	O
+स्थान	O
+पर	O
+से	O
+ले	O
+जाने	O
+के	O
+लिए	O
+टैक्सी	B-transport_type
+बुक	O
+करें	O
+
+आज	O
+किस	O
+रूट	O
+पर	O
+ट्रैफिक	O
+कम	O
+है	O
+
+मुंबई	O
+के	O
+लिए	O
+मेरी	O
+रेलगाड़ी	B-transport_type
+टिकट	O
+बुक	O
+करें	O
+
+शुक्रवार	O
+को	O
+सुबह	B-time
+साढ़े	I-time
+पांच	I-time
+बजे	I-time
+एयरपोर्ट	B-place_name
+के	O
+लिए	O
+मेरे	O
+लिए	O
+टैक्सी	B-transport_type
+बुक	O
+करो	O
+
+मेरे	O
+लिए	O
+धारावी	B-place_name
+से	O
+वसई	B-place_name
+तक	O
+लोकल	O
+रेलगाड़ी	B-transport_type
+में	O
+सवारी	O
+बुक	O
+करो	O
+
+क्या	O
+आप	O
+अगले	B-date
+दिन	I-date
+नोएडा	B-place_name
+जाने	O
+वाली	O
+ट्रेनों	O
+की	O
+सूची	O
+बता	O
+सकते	O
+हैं	O
+
+क्या	O
+किसी	O
+विशेष	O
+क्षेत्र	O
+में	O
+सड़क	O
+चौड़ी	O
+या	O
+संकरी	O
+है	O
+
+मार्च	O
+बीस	O
+को	O
+train	B-transport_type
+मे	O
+मेरे	O
+लिए	O
+एक	O
+सीट	O
+reserve	O
+करो	O
+
+please	O
+मुझे	O
+गरीब	B-transport_name
+रथ	I-transport_name
+train	B-transport_type
+का	O
+समय	O
+बताओ	O
+
+कृपया	O
+अगली	O
+टैक्सी	B-transport_type
+बुक	O
+करें	O
+
+uber	O
+app	O
+खोलो	O
+और	O
+मुझे	O
+एक	O
+car	B-transport_type
+दिलवाओ	O
+प्लीज	O
+
+अरे	O
+मैं	O
+अपने	O
+सबसे	O
+नजदीकी	O
+ट्रेन	B-transport_type
+कितने	O
+बजे	O
+पकड़	O
+सकता	O
+हूँ	O
+
+एक	O
+परिभाषा	O
+खोजें	O
+
+भारत	O
+के	O
+राष्ट्रपति	O
+कौन	O
+हैं	O
+
+भारत	O
+किस	O
+मुद्रा	O
+का	O
+उपयोग	O
+करता	O
+है	O
+
+जिराफ	O
+कितना	O
+लंबा	O
+है	O
+
+आप	O
+किस	O
+परिदृश्य	O
+में	O
+असुविधा	B-definition_word
+शब्द	O
+का	O
+प्रयोग	O
+करेंगे	O
+
+इस	O
+रोकनेवाला	O
+के	O
+प्रतिरोध	O
+की	O
+गणना	O
+करें	O
+
+गूगल	O
+
+ब्राउज़िंग	O
+केंद्र	O
+
+मुझे	O
+निष्क्रमण	B-definition_word
+की	O
+संक्षिप्त	O
+परिभाषा	O
+बताओ	O
+
+क्या	O
+आपको	O
+लगता	O
+है	O
+कि	O
+समय	O
+यात्रा	O
+संभव	O
+है	O
+
+अलीशा	O
+चिनाय	O
+की	O
+उम्र	O
+क्या	O
+है	O
+
+ईमेल	O
+दोस्त	O
+
+मुझे	O
+इस	O
+बारे	O
+में	O
+समझाएं	O
+कि	O
+रहस्योद्घाटन	O
+की	O
+पुस्तक	O
+में	O
+विभिन्न	O
+देशों	O
+का	O
+क्या	O
+प्रतिनिधित्व	O
+किया	O
+गया	O
+है	O
+
+तीन	O
+गुना	O
+सात	O
+क्या	O
+है	O
+
+मुझे	O
+आज	B-timeofday
+रात	I-timeofday
+क्या	O
+पकाना	O
+चाहिए	O
+
+बताओ	O
+क्या	O
+होता	O
+है	O
+जब	O
+हम	O
+मर	O
+जाते	O
+हैं	O
+
+गौतम	O
+अडानी	O
+किस	O
+राज्य	O
+से	O
+है	O
+
+केवल	O
+मेरे	O
+और	O
+तुम्हारे	O
+लिए	O
+एक	O
+डेट	O
+फिक्स	O
+करो	O
+
+बयालीस	O
+का	O
+वर्गमूल	O
+क्या	O
+है	O
+
+मुझे	O
+बताओ	O
+कि	O
+कुणाल	B-person
+कामरा	I-person
+भारती	I-person
+सिंह	I-person
+से	O
+बेहतर	O
+कॉमेडियन	O
+क्यों	O
+है	O
+
+मुझे	O
+ऋतिक	B-person
+देशमुख	I-person
+का	O
+मध्य	O
+नाम	O
+बताओ	O
+
+जिराफ़	O
+शब्द	O
+का	O
+उच्चारण	O
+कैसे	O
+करें	O
+
+क्या	O
+आप	O
+विमुद्रीकरण	B-definition_word
+शब्द	O
+कह	O
+सकते	O
+हैं	O
+
+जो	O
+दुनिया	B-place_name
+की	O
+सबसे	O
+लंबी	O
+इमारत	O
+थी	O
+
+क्या	O
+आप	O
+अरहमान	B-artist_name
+संगीत	O
+के	O
+गाने	O
+सुनते	O
+हैं	O
+
+मेरे	O
+सहयोगी	B-relation
+के	O
+साथ	O
+एक	O
+बैठक	B-event_name
+निर्धारित	O
+करें	O
+
+अभिनेता	O
+जो	O
+एक	O
+भूमिका	O
+निभाता	O
+है	O
+
+कृपया	O
+मुझे	O
+आमिर	B-person
+खान	I-person
+की	O
+अगली	O
+फिल्म	O
+के	O
+बारे	O
+में	O
+जानकारी	O
+दें	O
+
+कोई	O
+नहीं	O
+
+क्या	O
+तुम	O
+झूठ	O
+बोल	O
+सकते	O
+हो	O
+
+तूफान	O
+क्या	O
+है	O
+
+गूगल	O
+शब्द	O
+
+दिल्ली	O
+से	O
+मुंबई	B-place_name
+की	O
+दूरी	O
+की	O
+गणना	O
+करें	O
+
+गणना	O
+हल	O
+करें	O
+
+मुंबई	O
+की	O
+जनसँख्या	O
+कितनी	O
+है	O
+
+आपकी	O
+मातृभाषा	O
+क्या	O
+है	O
+
+अक्षय	O
+कुमार	O
+कितनी	O
+पुरानी	O
+है	O
+
+मेरे	O
+लिए	O
+उन	O
+सभी	O
+चीजों	O
+का	O
+योग	O
+करें	O
+जो	O
+मैं	O
+खुद	O
+को	O
+खुश	O
+बनाने	O
+के	O
+लिए	O
+कर	O
+सकता	O
+था	O
+
+अगर	O
+खुद	O
+को	O
+अमीर	O
+बनाने	O
+के	O
+लिए	O
+दस	O
+आसान	O
+उपाय	O
+होते	O
+तो	O
+वे	O
+क्या	O
+होते	O
+
+सबसे	O
+बड़ा	O
+जानवर	O
+
+सबसे	O
+ऊंची	O
+इमारत	O
+
+अर्जित	O
+सिंह	O
+का	O
+घर	O
+कहाँ	O
+है	O
+
+मेरी	O
+स्थिति	O
+क्या	O
+है	O
+
+इंटरनेट	O
+पर	O
+आप	O
+जो	O
+भी	O
+जानकारी	O
+एकत्र	O
+कर	O
+सकते	O
+हैं	O
+क्या	O
+आप	O
+कृपया	O
+मुझे	O
+राष्ट्रपति	O
+कैनेडी	O
+की	O
+हत्या	O
+के	O
+बारे	O
+में	O
+सर्वोत्तम	O
+संभावित	O
+स्पष्टीकरण	O
+प्रदान	O
+कर	O
+सकते	O
+हैं	O
+
+मैं	O
+अपनी	O
+पत्नी	B-relation
+के	O
+लिए	O
+एक	O
+रोमांटिक	O
+संदेश	O
+लिखना	O
+चाहता	O
+हूँ	O
+
+मुझे	O
+रामानुजन	B-person
+और	O
+उनकी	O
+गणितीय	O
+यात्रा	O
+की	O
+कहानी	O
+बताओ	O
+
+निम्नलिखित	O
+प्रश्न	O
+आपको	O
+शिक्षक	O
+के	O
+लक्ष्यों	O
+और	O
+इच्छित	O
+कार्यों	O
+का	O
+विश्लेषण	O
+करने	O
+के	O
+लिए	O
+कहता	O
+है	O
+
+महान	O
+हिप	B-music_genre
+हॉप	I-music_genre
+कलाकार	O
+कौन	O
+हैं	O
+
+पाखंड	O
+का	O
+क्या	O
+अर्थ	O
+है	O
+
+पाखंड	O
+शब्द	O
+का	O
+क्या	O
+अर्थ	O
+है	O
+
+इस	O
+सवाल	O
+का	O
+जवाब	O
+दें	O
+कि	O
+सुपर	O
+मारियो	O
+ब्रदर्स	O
+में	O
+पहला	O
+बॉस	O
+कौन	O
+है	O
+
+एक	O
+वाक्य	O
+में	O
+प्रयोग	O
+करें	O
+
+टू	O
+प्लस	O
+टू	O
+का	O
+उत्तर	O
+क्या	O
+है	O
+
+घुमाव	O
+को	O
+परिभाषित	O
+करें	O
+
+शब्दों	O
+को	O
+परिभाषित	O
+करते	O
+समय	O
+थिसॉरस	O
+दें	O
+और	O
+इसे	O
+स्पष्ट	O
+करने	O
+के	O
+लिए	O
+वाक्य	O
+में	O
+उपयोग	O
+करें	O
+
+मुंबई	O
+के	O
+शीर्ष	O
+पांच	O
+गोल	O
+स्कोरर	O
+कौन	O
+हैं	O
+
+नरेंद्र	O
+मोदी	O
+का	O
+जन्म	O
+कब	O
+हुआ	O
+था	O
+
+मुम्बई	O
+के	O
+गवर्नर	O
+कौन	O
+हैं	O
+
+पीडीए	O
+की	O
+परिभाषा	O
+क्या	O
+है	O
+
+क्या	O
+है	O
+ट्रंप	B-person
+की	I-person
+अप्रूवल	O
+रेटिंग	O
+
+क्या	O
+आप	O
+मुझे	O
+बता	O
+सकते	O
+हैं	O
+कि	O
+इसका	O
+उत्तर	O
+कैसे	O
+मिलेगा	O
+
+गणित	O
+का	O
+प्रश्न	O
+हल	O
+करें	O
+
+क्या	O
+अन्य	O
+ग्रहों	O
+पर	O
+जीवन	O
+है	O
+
+आपका	O
+पसंदीदा	O
+रंग	O
+क्या	O
+है	O
+
+रोबोटिक्स	O
+के	O
+तीन	O
+नियमों	O
+के	O
+बारे	O
+में	O
+आप	O
+क्या	O
+सोचते	O
+हैं	O
+
+आज	O
+का	O
+शुभ	O
+रंग	O
+बताओ	O
+
+मेरे	O
+लिए	O
+एक	O
+कविता	O
+पढ़ें	O
+
+क्या	O
+पिछले	B-date
+सप्ताह	I-date
+के	O
+दौरान	O
+नई	B-place_name
+दिल्ली	I-place_name
+और	O
+नैस्डैक	O
+की	O
+कीमतों	O
+में	O
+मौसम	O
+के	O
+बीच	O
+कोई	O
+संबंध	O
+है	O
+
+क्या	O
+सलीम	B-person
+ख़ान	I-person
+इकलौता	O
+बच्चा	O
+है	O
+
+कृपया	O
+इस	O
+शब्द	O
+को	O
+खोजें	O
+
+आकाश	O
+नीला	O
+क्यों	O
+है	O
+
+चौबीस	O
+गुना	O
+चौबीस	O
+क्या	O
+है	O
+
+पृथ्वी	O
+दिवस	O
+कितने	O
+समय	O
+का	O
+होता	O
+है	O
+
+मुझे	O
+आशा	O
+है	O
+कि	O
+हम	O
+एक	O
+साथ	O
+दोपहर	B-meal_type
+का	I-meal_type
+भोजन	I-meal_type
+कर	O
+सकते	O
+हैं	O
+
+बीटल्स	O
+में	O
+कौन	O
+था	O
+
+क्या	O
+दुनिया	O
+खत्म	O
+हो	O
+जाएगी	O
+जब	O
+
+काल	O
+का	O
+क्या	O
+अर्थ	O
+है	O
+
+मेरी	O
+गर्ल	O
+फ्रेंड	O
+अभी	O
+कहाँ	O
+है	O
+
+एम्बुलेंस	O
+की	O
+परिभाषा	O
+देखें	O
+
+क्या	O
+जेलो	O
+शॉट्स	O
+कैलोरी	O
+मुक्त	O
+हैं	O
+
+क्या	O
+आप	O
+मुझे	O
+ग्राउंड	O
+बीफ	O
+पाने	O
+की	O
+सबसे	O
+सस्ती	O
+जगह	O
+बता	O
+सकते	O
+हैं	O
+
+आलू	O
+क्या	O
+मतलब	O
+है	O
+
+मुझे	O
+इसके	O
+बारे	O
+में	O
+एक	O
+दिलचस्प	O
+तथ्य	O
+बताओ	O
+
+अगला	O
+दौरा	O
+कब	O
+है	O
+
+वर्तमान	O
+में	O
+डॉलर	B-currency_name
+और	O
+यूरो	B-currency_name
+के	O
+बीच	O
+विनिमय	O
+दर	O
+क्या	O
+है	O
+
+ढांचा	O
+को	O
+परिभाषित	O
+करें	O
+
+एक	O
+आलू	B-definition_word
+का	O
+वर्णन	O
+करें	O
+
+कितनी	O
+बार	O
+एडेल	O
+हीरा	O
+गया	O
+है	O
+
+आज	O
+दुनिया	O
+में	O
+हो	O
+रही	O
+सबसे	O
+अजीबोगरीब	O
+चीज	O
+बताओ	O
+
+मुझे	O
+समय	O
+बताओ	O
+
+आप	O
+शाब्दिक	B-definition_word
+को	O
+कैसे	O
+परिभाषित	O
+करते	O
+हैं	O
+
+मैं	O
+चेन्नई	B-place_name
+की	O
+मुफ्त	O
+यात्रा	O
+करना	O
+चाहता	O
+हूं	O
+क्या	O
+आप	O
+मुझे	O
+वहां	O
+ले	O
+जा	O
+सकते	O
+हैं	O
+
+येन	O
+यूएस	O
+डॉलर	O
+विनिमय	O
+दर	O
+क्या	O
+है	O
+
+पांच	O
+किलोमीटर	O
+में	O
+कितने	O
+मील	O
+
+सुषमा	O
+स्वराज	O
+कितनी	O
+पुरानी	O
+है	O
+
+हैदराबाद	O
+कहाँ	O
+है	O
+
+मनमोहन	O
+सिंह	O
+अभी	O
+क्या	O
+कर	O
+रहे	O
+हैं	O
+
+मोबाइल	O
+फ़ोन	O
+टावर	O
+क्या	O
+है	O
+
+भारत	O
+में	O
+रुपया	B-currency_name
+क्या	O
+है	O
+
+लखनऊ	O
+शहर	O
+मुंबई	B-place_name
+से	O
+कितने	O
+मील	O
+की	O
+दूरी	O
+पर	O
+है	O
+
+आई	O
+एन	O
+आर	O
+से	O
+कैड	B-currency_name
+की	O
+विनिमय	O
+दर	O
+क्या	O
+है	O
+
+स्वतंत्रता	O
+की	O
+प्रतिमा	O
+के	O
+बारे	O
+में	O
+आप	O
+क्या	O
+जानते	O
+हैं	O
+
+संयुक्त	O
+राज्य	O
+अमेरिका	O
+और	O
+चीन	B-place_name
+के	O
+बीच	O
+विनिमय	O
+दर	O
+क्या	O
+है	O
+
+बारे	O
+में	O
+जानकारी	O
+ढूंढें	O
+
+संयुक्त	O
+राज्य	O
+अमेरिका	O
+की	O
+औसत	O
+ऊंचाई	O
+क्या	O
+है	O
+
+हमारे	O
+और	O
+फ्रांस	B-currency_name
+के	O
+बीच	O
+विनिमय	O
+दर	O
+क्या	O
+है	O
+
+मुंबई	O
+में	O
+कितने	O
+लोग	O
+रहते	O
+हैं	O
+
+siri	O
+भारतीय	B-currency_name
+रुपया	I-currency_name
+में	O
+एक	O
+अमेरिकी	B-currency_name
+डॉलर	I-currency_name
+क्या	O
+है	O
+
+अमिताभ	O
+बच्चन	O
+किस	O
+वर्ष	O
+पैदा	O
+हुए	O
+
+मुझे	O
+पनीर	B-definition_word
+के	O
+बारे	O
+में	O
+बताओ	O
+
+वॉलमार्ट	O
+में	O
+स्टॉक	O
+की	O
+कीमतें	O
+
+कौन	O
+सा	O
+धर्म	O
+सबसे	O
+सच्चा	O
+है	O
+
+हरियाणा	O
+और	O
+मुंबई	B-place_name
+के	O
+बीच	O
+कितने	O
+मील	O
+की	O
+दूरी	O
+है	O
+
+अश्वनी	O
+कुमार	O
+कितने	O
+साल	O
+के	O
+हैं	O
+
+क्या	O
+कैटरीना	B-person
+कैफ	I-person
+ने	O
+कभी	O
+अकादमी	O
+पुरस्कार	O
+जीता	O
+है	O
+
+मुझे	O
+येन	B-currency_name
+के	O
+लिए	O
+विनिमय	O
+दर	O
+बताओ	O
+
+रुपया	O
+के	O
+मुकाबले	O
+अमेरिकी	B-currency_name
+डॉलर	I-currency_name
+कितना	O
+है	O
+
+कृपया	O
+मुझे	O
+डॉलर	B-currency_name
+और	O
+येन	B-currency_name
+के	O
+बीच	O
+विनिमय	O
+दर	O
+दिखाएं	O
+
+होम	O
+रन	O
+की	O
+परिभाषा	O
+क्या	O
+है	O
+
+नरेंद्र	O
+मोदी	O
+की	O
+उम्र	O
+क्या	O
+है	O
+
+मुझे	O
+दो	O
+बच्चों	O
+को	O
+व्यस्त	O
+रखना	O
+है	O
+मुझे	O
+बताओ	O
+क्या	O
+करना	O
+है	O
+
+क्या	O
+आप	O
+मुझे	O
+डॉलर	O
+की	O
+विनिमय	O
+दर	O
+रुपये	O
+में	O
+दे	O
+सकते	O
+हैं	O
+
+मुझे	O
+सौर	B-definition_word
+ऊर्जा	I-definition_word
+संचालित	I-definition_word
+उद्यान	I-definition_word
+वाले	O
+बगीचे	O
+के	O
+हिस्से	O
+के	O
+बारे	O
+में	O
+बताएं	O
+
+तमिलनाडु	O
+का	O
+सबसे	O
+बड़ा	O
+शहर	O
+कौन	O
+सा	O
+है	O
+
+वर्चुअल	O
+रियलिटी	O
+हेडसेट	O
+का	O
+विवरण	O
+क्या	O
+है	O
+
+क्या	O
+टिंडर	O
+पर	O
+मेरा	O
+कोई	O
+नया	O
+मिलान	O
+है	O
+
+केला	O
+कैसा	O
+दिखता	O
+है	O
+
+नरेंद्र	O
+मोदी	O
+कौन	O
+हैं	O
+
+भारत	O
+कहाँ	O
+है	O
+
+एक	O
+अजंता	B-place_name
+एलोरा	I-place_name
+क्या	O
+है	O
+
+शिल्पा	O
+शेट्टी	O
+का	O
+जन्म	O
+कब	O
+हुआ	O
+था	O
+
+कलरव	O
+का	O
+मतलब	O
+क्या	O
+होता	O
+है	O
+
+उत्तर	O
+प्रदेश	O
+कहाँ	O
+है	O
+
+विजयोल्लास	O
+का	O
+क्या	O
+अर्थ	O
+है	O
+
+हमारा	O
+राज्य	O
+सबसे	O
+दूर	O
+उत्तर	O
+है	O
+
+स्टोनहेंज	O
+कहां	O
+है	O
+
+मुझे	O
+रिलायंस	B-business_name
+के	O
+लिए	O
+स्टॉक	O
+की	O
+कीमत	O
+चाहिए	O
+
+भारतीय	O
+रुपया	O
+की	O
+दर	O
+क्या	O
+है	O
+
+बरमूडा	O
+त्रिकोण	O
+क्या	O
+है	O
+
+भारतीय	O
+रुपया	O
+के	O
+लिए	O
+विनिमय	O
+दर	O
+क्या	O
+है	O
+
+रिलायंस	O
+के	O
+शेयर	O
+की	O
+क्या	O
+कीमत	O
+है	O
+
+अलका	O
+याग्निक	O
+का	O
+बायो	O
+
+यूरो	O
+से	O
+यू	B-currency_name
+एस	I-currency_name
+डी	I-currency_name
+
+क्या	O
+आप	O
+मुझे	O
+महात्मा	B-person
+गांधी	I-person
+जी	I-person
+का	O
+जन्मदिन	B-event_name
+दे	O
+सकते	O
+हैं	O
+
+एक	O
+अपराधी	O
+किस	O
+प्रकार	O
+की	O
+पैंट	O
+है	O
+
+विकिपीडिया	O
+में	O
+कोशिश	O
+करो	O
+
+ऑली	O
+ब्राज़ील	B-place_name
+में	O
+डॉलर	B-currency_name
+कम	O
+या	O
+ज्यादा	O
+मूल्य	O
+का	O
+है	O
+
+कमीज	O
+कैसा	O
+दिखती	O
+है	O
+
+मेरे	O
+सलाहकार	O
+से	O
+पूछो	O
+
+डॉव	O
+जोन्स	O
+आज	B-date
+क्या	O
+है	O
+
+कृपया	O
+मुझे	O
+बताएं	O
+कि	O
+अगर	O
+मैं	O
+आज	O
+डॉव	O
+शेयरों	O
+में	O
+निवेश	O
+करूं	O
+तो	O
+मैं	O
+कब	O
+अमीर	O
+बन	O
+सकता	O
+हूं	O
+और	O
+पांच	O
+साल	O
+बाद	O
+रिटर्न	O
+क्या	O
+होगा	O
+
+सुशांत	O
+का	O
+जन्म	O
+किस	O
+वर्ष	O
+हुआ	O
+था	O
+
+स्थानों	O
+का	O
+सटीक	O
+स्थान	O
+खोजें	O
+
+कितने	O
+इंच	O
+एक	O
+फुट	O
+बनाते	O
+हैं	O
+
+यूरो	O
+बनाम	O
+कैनेडियन	B-currency_name
+डॉलर	I-currency_name
+कितना	O
+है	O
+
+अमिताभ	O
+बच्चन	O
+की	O
+शीर्ष	O
+पांच	O
+चलचित्र	O
+की	O
+सूची	O
+बनाएं	O
+
+अमेरिकी	O
+डॉलर	O
+और	O
+यूरो	B-currency_name
+के	O
+बीच	O
+विनिमय	O
+दर	O
+क्या	O
+है	O
+
+छह	O
+घटा	O
+चार	O
+क्या	O
+है	O
+
+मुझे	O
+बताओ	O
+एक	O
+यूरो	B-currency_name
+डॉलर	I-currency_name
+के	O
+बराबर	O
+है	O
+
+भारत	O
+कितना	O
+बड़ा	O
+है	O
+
+मुझे	O
+जयपुर	B-place_name
+के	O
+बारे	O
+में	O
+बताओ	O
+
+पृथ्वी	O
+में	O
+विभिन्न	O
+पौधों	O
+को	O
+दिखाओ	O
+
+आज	O
+रिलायंस	B-business_name
+का	O
+शेयर	O
+कैसा	O
+चल	O
+रहा	O
+है	O
+
+मोदी	O
+की	O
+पत्नी	O
+कौन	O
+है	O
+
+google	O
+के	O
+लिए	O
+आज	O
+का	O
+बंद	O
+भाव	O
+
+कैनरा	O
+के	O
+शेयर	O
+मूल्य	O
+का	O
+उल्लेख	O
+करें	O
+
+परिकल्पना	O
+का	O
+क्या	O
+अर्थ	O
+है	O
+
+स्वतंत्रता	O
+की	O
+मूर्ति	O
+कब	O
+बनी	O
+थी	O
+
+माइकल	O
+फेल्प्स	O
+ने	O
+किस	O
+उम्र	O
+में	O
+शादी	O
+की	O
+
+सुनील	O
+शेट्टी	O
+कौन	O
+हैं	O
+
+अपूर्ण	O
+की	O
+परिभाषा	O
+क्या	O
+है	O
+
+एम्पायर	O
+स्टेट	O
+बिल्डिंग	O
+कितनी	O
+लंबी	O
+है	O
+
+यू	O
+एस	O
+डी	O
+और	O
+रुपया	B-currency_name
+के	O
+बीच	O
+विनिमय	O
+दर	O
+क्या	O
+है	O
+
+राजनीति	O
+की	O
+वर्तमान	O
+स्थिति	O
+का	O
+वर्णन	O
+करें	O
+
+सोनू	O
+निगम	O
+का	O
+जन्म	O
+कब	O
+हुआ	O
+था	O
+
+एक	O
+शब्द	O
+में	O
+खुद	O
+को	O
+परिभाषित	O
+करें	O
+
+निकटतम	O
+भारतीय	B-food_type
+रेस्टोरेंट	B-business_type
+कहाँ	O
+है	O
+
+क्या	O
+आप	O
+मुझे	O
+बता	O
+सकते	O
+हैं	O
+कि	O
+कबाब	B-definition_word
+कैसा	O
+दिखता	O
+है	O
+
+क्या	O
+गुलाबी	O
+एक	O
+नया	O
+एल्बम	O
+रिकॉर्ड	O
+कर	O
+रहा	O
+है	O
+
+वस्तु	O
+के	O
+नाम	O
+की	O
+परिभाषा	O
+
+वोक्सवैगन	O
+गोल्फ	O
+कार	O
+कैसी	O
+दिखेगी	O
+
+आईपैड	O
+एयर	O
+की	O
+विशेषताएं	O
+
+मुझे	O
+सूरज	O
+और	O
+चाँद	O
+के	O
+बीच	O
+की	O
+दूरी	O
+बताओ	O
+
+ढूढें	O
+दुनिया	B-definition_word
+का	O
+मतलब	O
+शब्दकोश	O
+में	O
+
+जो	O
+दो	O
+हजार	O
+सत्रह	O
+में	O
+सबसे	O
+अच्छा	O
+स्मार्टफोन	O
+कौन	O
+सा	O
+है	O
+
+विनिमय	O
+दर	O
+मुझे	O
+विदेशी	O
+मुद्रा	O
+के	O
+साथ	O
+मिलेगी	O
+
+मुझे	O
+इस	O
+व्यक्ति	O
+का	O
+विवरण	O
+प्राप्त	O
+करें	O
+
+कृपया	O
+इस	O
+व्यक्ति	O
+के	O
+बारे	O
+में	O
+कुछ	O
+विवरण	O
+बताएं	O
+
+आज	O
+भारत	B-place_name
+में	O
+सबसे	O
+ज्यादा	O
+चिंता	O
+का	O
+विषय	O
+क्या	O
+है	O
+
+संयुक्त	O
+राज्य	O
+अमेरिका	O
+के	O
+पच्चीसवें	O
+राष्ट्रपति	O
+कौन	O
+थे	O
+
+मुझे	O
+बताओ	O
+कि	O
+सबसे	O
+कम	O
+लागत	O
+विकल्प	O
+समय	O
+के	O
+साथ	O
+हवाई	O
+जहाज	O
+के	O
+बिना	O
+बाली	O
+कैसे	O
+जाना	O
+है	O
+कोई	O
+फर्क	O
+नहीं	O
+पड़ता	O
+मेरे	O
+पास	O
+दो	O
+सौ	O
+दिन	O
+का	O
+यात्रा	O
+समय	O
+है	O
+और	O
+खर्च	O
+करने	O
+के	O
+लिए	O
+केवल	O
+डॉलर	O
+हैं	O
+
+मुझे	O
+लैपटॉप	B-definition_word
+सर्किट	I-definition_word
+का	O
+विवरण	O
+दें	O
+
+iphone	O
+स्टॉक	O
+आमतौर	O
+पर	O
+कब	O
+गिरता	O
+है	O
+
+समझाना	O
+
+मुझे	O
+समझाओ	O
+कि	O
+गुरुत्वाकर्षण	O
+कैसे	O
+काम	O
+करता	O
+है	O
+
+निकिता	O
+गांधी	O
+और	O
+बादशाह	B-person
+की	O
+शादी	O
+कब	O
+हुई	O
+
+डॉलर	O
+और	O
+यूरो	B-currency_name
+के	O
+बीच	O
+विनिमय	O
+दर	O
+
+क्या	O
+आप	O
+मुझे	O
+बता	O
+सकते	O
+हैं	O
+कि	O
+अतिवृद्धि	B-definition_word
+का	O
+क्या	O
+मतलब	O
+होता	O
+है	O
+
+स्टॉक	O
+कंपनी	O
+का	O
+नाम	O
+
+मैं	O
+चाहता	O
+हूँ	O
+कि	O
+मेरा	O
+रोबोट	O
+मेरे	O
+लिए	O
+मेरा	O
+काम	O
+करे	O
+
+मुझे	O
+लैपटॉप	B-definition_word
+सर्किट	I-definition_word
+का	O
+विवरण	O
+दें	O
+
+xy	O
+को	O
+समझाइये	O
+
+मुझे	O
+माइक्रोमैक्स	B-business_name
+का	O
+शुरुआती	O
+स्टॉक	O
+मूल्य	O
+दें	O
+
+मुझे	O
+जैविक	O
+गेहूं	O
+कहां	O
+मिल	O
+सकता	O
+है	O
+
+कृपया	O
+स्टॉक	O
+करें	O
+
+डॉलर	O
+को	O
+रुपये	B-currency_name
+की	O
+दरों	O
+में	O
+बदलें	O
+
+डॉलर	O
+रुपए	O
+विनिमय	O
+दर	O
+
+वह	O
+कौन	O
+सी	O
+बात	O
+है	O
+जिसने	O
+मोदी	O
+को	O
+चुनाव	O
+जीतने	O
+दिया	O
+
+भूकंप	O
+भविष्यवाणी	O
+
+ओके	O
+गूगल	O
+टर्की	O
+पकाने	O
+का	O
+सबसे	O
+आसान	O
+और	O
+तेज़	O
+तरीका	O
+क्या	O
+है	O
+
+ब्रॉयलर	O
+किस	O
+प्रकार	O
+का	O
+इंप्लीमेंट	O
+है	O
+और	O
+मैं	O
+इसका	O
+उपयोग	O
+कैसे	O
+करूँ	O
+
+मेरे	O
+लिए	O
+ब्रॉयलर	B-definition_word
+को	O
+परिभाषित	O
+करें	O
+
+स्टेच्यू	O
+ऑफ़	O
+लिबर्टी	O
+कहाँ	O
+है	O
+
+मुझे	O
+बताओ	O
+कि	O
+गेंद	B-definition_word
+कैसी	O
+दिखती	O
+है	O
+
+alexa	O
+मुझे	O
+नाना	B-person
+पाटेकर	I-person
+के	O
+बारे	O
+में	O
+वह	O
+सब	O
+कुछ	O
+देती	O
+है	O
+जो	O
+आप	O
+जानते	O
+हैं	O
+
+मुझे	O
+रिलायंस	B-business_name
+स्टॉक	O
+की	O
+कीमतें	O
+बताएं	O
+
+एएमडी	O
+स्टॉक	O
+की	O
+कीमतें	O
+क्या	O
+हैं	O
+
+व्हाट्सएप्प	O
+का	O
+स्टॉक	O
+मूल्य	O
+क्या	O
+है	O
+
+आप	O
+नई	O
+योजनाएँ	O
+लाए	O
+थे	O
+
+एक	O
+पाउंड	B-currency_name
+को	O
+अमेरिकी	B-currency_name
+डॉलर	I-currency_name
+में	O
+परिवर्तन	O
+करें	O
+
+उच्च	O
+स्टॉक	O
+मूल्य	O
+
+कैनन	O
+के	O
+विवरण	O
+में	O
+कितने	O
+मेगा	O
+पिक्सेल	O
+सूचीबद्ध	O
+हैं	O
+
+सुधीर	O
+चौधरी	O
+प्रसिद्ध	O
+कैसे	O
+हुआ	O
+
+दो	O
+गुणा	O
+तीन	O
+का	O
+उत्तर	O
+क्या	O
+है	O
+
+बारह	O
+को	O
+चार	O
+से	O
+कितना	O
+विभाजित	O
+किया	O
+जाता	O
+है	O
+
+अनुष्का	O
+शर्मा	O
+के	O
+प्राकृतिक	O
+बालों	O
+का	O
+रंग	O
+क्या	O
+है	O
+
+मेरे	O
+पास	O
+पांच	O
+अमरीकी	B-currency_name
+डॉलर	I-currency_name
+हैं	O
+भारतीय	B-currency_name
+रुपया	I-currency_name
+में	O
+वह	O
+कितना	O
+है	O
+
+मेरे	O
+लिए	O
+चंद्रमा	B-definition_word
+को	O
+परिभाषित	O
+करें	O
+
+दुनिया	O
+में	O
+कितनी	O
+नदियां	O
+हैं	O
+
+मुझे	O
+कुछ	O
+ऐसी	O
+हस्तियां	O
+खोजें	O
+जो	O
+मकर	O
+राशि	O
+की	O
+हैं	O
+
+अगर	O
+यह	O
+उपभोक्ता	O
+अच्छा	O
+है	O
+तो	O
+ग्राहक	O
+प्रतिक्रिया	O
+क्या	O
+है	O
+
+भारतीय	O
+रुपया	O
+यू.	O
+एस.	O
+डॉलर	O
+के	O
+मुकाबले	O
+कितना	O
+जा	O
+रहा	O
+है	O
+
+क्या	O
+आप	O
+उस	O
+वस्तु	O
+का	O
+वर्णन	O
+कर	O
+सकते	O
+हैं	O
+
+नासा	O
+द्वारा	O
+प्रक्षेपित	O
+किया	O
+जाने	O
+वाला	O
+पहला	O
+उपग्रह	O
+कौन	O
+सा	O
+था	O
+
+कृपया	O
+मुझे	O
+हाथी	B-definition_word
+का	O
+वर्णन	O
+करें	O
+
+आज	O
+अमेरिकी	B-currency_name
+डॉलर	I-currency_name
+की	O
+दर	O
+क्या	O
+है	O
+
+अलिया	O
+भट्ट	O
+कितने	O
+समय	O
+से	O
+गर्भवती	O
+है	O
+
+बिग	O
+बाज़ार	O
+के	O
+लिए	O
+स्टॉक	O
+मूल्य	O
+क्या	O
+है	O
+
+मैं	O
+चाहता	O
+हूँ	O
+कि	O
+यह	O
+आसानी	O
+से	O
+एक	O
+लिस्ट	O
+बनाए	O
+और	O
+मुझे	O
+बताए	O
+कि	O
+मैं	O
+कब	O
+किसी	O
+चीज	O
+में	O
+पीछे	O
+चल	O
+रहा	O
+हूं	O
+
+मोदी	O
+इस	B-date
+हफ्ते	I-date
+के	O
+बारे	O
+में	O
+क्या	O
+कर	O
+रहे	O
+हैं	O
+
+मारिनारा	O
+की	O
+परिभाषा	O
+क्या	O
+है	O
+
+लोग	O
+ऐसा	O
+कैसे	O
+सोच	O
+रहे	O
+हैं	O
+कि	O
+भगवान	O
+से	O
+सब	O
+कुछ	O
+छिपा	O
+सकते	O
+हैं	O
+
+मुद्रा	O
+विनिमय	O
+दर	O
+
+एक	O
+बाय	O
+क्या	O
+है	O
+
+मानुषी	O
+चिल्लर	O
+कितनी	O
+पुरानी	O
+है	O
+
+मुझे	O
+बताओ	O
+कि	O
+दुनिया	O
+कैसे	O
+शुरू	O
+हुई	O
+
+मुझे	O
+यूरो	B-currency_name
+में	O
+दस	O
+डॉलर	B-currency_name
+की	O
+विनिमय	O
+दर	O
+बताओ	O
+
+कंप्यूटर	O
+क्या	O
+है	O
+
+दुनिया	O
+का	O
+सबसे	O
+छोटा	O
+द्वीप	O
+कौन	O
+सा	O
+है	O
+
+भारत	O
+कितना	O
+बड़ा	O
+है	O
+
+दिल्ली	O
+से	O
+बरेली	B-place_name
+कितनी	O
+दूर	O
+है	O
+
+क्या	O
+तुम	O
+मुझे	O
+बता	O
+सकते	O
+हो	O
+सिनेमाघर	O
+में	O
+आज	B-timeofday
+रात	I-timeofday
+कौन	O
+सी	O
+फ़िल्में	O
+चल	O
+रही	O
+हैं	O
+
+ओली	O
+घपला	B-definition_word
+शब्द	O
+की	O
+परिभाषा	O
+क्या	O
+है	O
+
+ओली	O
+अमेरिकी	B-currency_name
+डॉलर	I-currency_name
+और	O
+ऑस्ट्रेलियाई	B-currency_name
+डॉलर	I-currency_name
+के	O
+बीच	O
+विनिमय	O
+दर	O
+क्या	O
+है	O
+
+रिलायंस	O
+का	O
+क्या	O
+भाव	O
+है	O
+
+हे	O
+olly	O
+पैसिव	B-definition_word
+की	O
+परिभाषा	O
+क्या	O
+है	O
+
+सर	O
+सी.वी.	O
+रमन	O
+कितने	O
+साल	O
+के	O
+थे	O
+जब	O
+वे	O
+सापेक्षता	O
+सिद्धांत	O
+के	O
+साथ	O
+आए	O
+थे	O
+
+शून्य	O
+से	O
+पाँच	O
+तक	O
+घातांकीय	O
+फलन	O
+के	O
+निकट	O
+समाकलन	O
+की	O
+गणना	O
+कीजिए	O
+
+मुझे	O
+बताएं	O
+कि	O
+ब्रेक्सिट	O
+का	O
+क्या	O
+प्रभाव	O
+पड़ने	O
+वाला	O
+है	O
+
+कृपया	O
+हमारे	O
+और	O
+मेक्सिको	O
+के	O
+बीच	O
+लेन	O
+देन	O
+देखें	O
+
+सैमसंग	O
+टी.	O
+वी.	O
+के	O
+बारे	O
+में	O
+विवरण	O
+पाएं	O
+
+samsung	O
+के	O
+लिए	O
+विनिमय	O
+दर	O
+क्या	O
+है	O
+
+कितनी	O
+दूर	O
+है	O
+
+यह	O
+क्या	O
+चीज़	O
+है	O
+
+इंफ़ोसिस	O
+स्टॉक	O
+क्या	O
+है	O
+
+ट्विटर	O
+पर	O
+क्या	O
+ट्रेंड	O
+कर	O
+रहा	O
+है	O
+
+मेरी	O
+माँ	B-relation
+ने	O
+आखिरी	O
+बात	O
+क्या	O
+कही	O
+थी	O
+
+मोहन	O
+के	O
+फेसबुक	B-media_type
+से	O
+मुझे	O
+सप्ताहांत	B-time
+के	O
+अपडेट	O
+बताएं	O
+
+मुझे	O
+मेरे	O
+फेसबुक	B-media_type
+से	O
+नई	O
+टिप्पणियाँ	O
+ढूँढ़ें	O
+
+मेरे	O
+पिछले	O
+इंस्टाग्राम	B-media_type
+फोटो	O
+को	O
+कितने	O
+लाइक	O
+मिले	O
+हैं	O
+
+मेरे	O
+लिए	O
+पंजाब	B-media_type
+केसरी	I-media_type
+का	O
+आखिरी	O
+ट्वीट	O
+पढ़ें	O
+
+फेसबुक	O
+पर	O
+नई	O
+स्थिति	O
+पोस्ट	O
+करें	O
+जश्न	O
+मनाने	O
+का	O
+समय	O
+
+मेरा	O
+फेसबुक	B-media_type
+अपडेट	O
+हर	B-general_frequency
+तीन	I-general_frequency
+घंटे	I-general_frequency
+में	O
+उपलब्ध	O
+होना	O
+चाहिए	O
+
+उसे	O
+फेसबुक	B-media_type
+पर	O
+डाल	O
+दो	O
+
+यह	O
+लेख	O
+बहुत	O
+अच्छा	O
+है	O
+क्या	O
+आप	O
+मेरे	O
+लिए	O
+फेसबुक	B-media_type
+का	O
+लिंक	O
+साझा	O
+कर	O
+सकते	O
+हैं	O
+
+यू	O
+ट्यूब	O
+में	O
+एक	O
+वीडियो	O
+प्रसारित	O
+करें	O
+
+फेसबुक	O
+स्थिति	O
+व्यस्त	O
+दिन	O
+
+कृपया	O
+आमिर	B-person
+खान	I-person
+को	O
+पोस्ट	O
+करें	O
+
+please	O
+facebook	B-media_type
+पर	O
+एक	O
+status	O
+सबमिट	O
+करो	O
+
+मुझे	O
+उन	O
+स्थानों	O
+की	O
+सूची	O
+दिखाओ	O
+जहाँ	O
+मेरे	O
+रिशतेदार	B-relation
+उनकी	O
+तस्वीरों	O
+के	O
+आधार	O
+पर	O
+रहे	O
+हैं	O
+
+फेसबुक	O
+से	O
+नवीनतम	O
+समाचार	O
+फ़ीड	O
+
+मुझे	O
+मेरे	O
+ट्विटर	B-media_type
+हैंडल	O
+प्रोफाइल	O
+का	O
+विवरण	O
+दें	O
+जिसमें	O
+कुल	O
+अनुयायियों	O
+की	O
+संख्या	O
+शामिल	O
+है	O
+
+अच्छा	O
+क्या	O
+आप	O
+इसे	O
+मेरे	O
+व्हाट्स	B-media_type
+ऐप	I-media_type
+पर	O
+पोस्ट	O
+कर	O
+सकते	O
+हैं	O
+
+क्या	O
+आप	O
+मुझे	O
+बता	O
+सकते	O
+हैं	O
+कि	O
+मेरे	O
+सोशल	O
+मीडिया	O
+का	O
+क्या	O
+हुआ	O
+
+मेरी	O
+feed	O
+से	O
+नया	O
+क्या	O
+है	O
+
+please	O
+मुझे	O
+किसी	O
+नए	O
+status	O
+update	O
+के	O
+बारे	O
+में	O
+सूचित	O
+करो	O
+
+ट्रेंडिंग	O
+सोशल	O
+मीडिया	O
+
+नया	O
+ट्वीट	B-media_type
+
+फेसबुक	O
+लाएँ	O
+और	O
+देश	O
+अमेरीका	B-place_name
+को	O
+जन्मदिन	B-event_name
+की	O
+शुभकामनाएँ	O
+दें	O
+
+मैं	O
+टेस्को	B-business_name
+से	O
+नाखुश	O
+हूं	O
+कृपया	O
+मेरी	O
+मदद	O
+करें	O
+
+क्या	O
+आप	O
+अजीओ	B-business_name
+को	O
+यह	O
+कहते	O
+हुए	O
+ट्वीट	B-media_type
+भेज	O
+सकते	O
+हैं	O
+कि	O
+उनका	O
+ऐप	O
+क्रैश	O
+हो	O
+गया	O
+है	O
+
+निम्नलिखित	O
+को	O
+फेसबुक	B-media_type
+पर	O
+स्टेटस	O
+के	O
+रूप	O
+में	O
+पोस्ट	O
+करें	O
+
+कहते	O
+हुए	O
+ट्विटर	B-media_type
+पर	O
+स्टेटस	O
+पोस्ट	O
+करें	O
+
+कृपया	O
+इस	O
+तस्वीर	O
+को	O
+मेरे	O
+फेसबुक	B-media_type
+पर	O
+पोस्ट	O
+करें	O
+
+हमदर्द	O
+को	O
+ट्वीट	B-media_type
+करें	O
+और	O
+उन्हें	O
+बताएं	O
+कि	O
+मेरा	O
+ऐप	O
+क्रैश	O
+हो	O
+गया	O
+है	O
+
+मेरे	O
+facebook	B-media_type
+ग्रुप	O
+को	O
+बताओ	O
+कि	O
+मैं	O
+आ	O
+गया	O
+हूँ	O
+
+please	O
+levis	B-business_name
+को	O
+शिकायत	O
+करो	O
+
+उन्हें	O
+बताएं	O
+कि	O
+उनकी	O
+लाइनें	O
+बहुत	O
+लंबी	O
+हैं	O
+
+मुझे	O
+एक	O
+चरनी	O
+चाहिए	O
+
+यह	O
+संदेश	O
+ट्विटर	O
+पर	O
+माइक्रोसॉफ्ट	O
+को	O
+भेजें	O
+
+फेसबुक	O
+एलेक्सा	O
+पर	O
+मेरे	O
+फोन	B-device_type
+पर	O
+तस्वीर	O
+पोस्ट	O
+करें	O
+
+नौसेना	O
+की	O
+पुरानी	O
+वेबसाइट	O
+पर	O
+एक	O
+शिकायत	O
+ट्वीट	B-media_type
+करें	O
+
+यूनाइटेड	O
+एयरलाइंस	O
+को	O
+ट्वीट	B-media_type
+भेजें	O
+मैं	O
+नाराज़	O
+हूँ	O
+आपने	O
+मेरा	O
+बैग	O
+खो	O
+दिया	O
+
+olive	O
+garden	O
+की	O
+बहुत	O
+बुरी	O
+सर्विस	O
+थी	O
+मुझे	O
+उन्हें	O
+ट्वीट	B-media_type
+करने	O
+की	O
+ज़रूरत	O
+है	O
+
+ट्विटर	O
+उपभोक्ता	B-business_name
+सेवा	I-business_name
+के	O
+माध्यम	O
+से	O
+शिकायत	O
+भेजें	O
+
+क्या	O
+आप	O
+फ़र्नीचर	B-business_name
+स्टोर	I-business_name
+ग्राहक	I-business_name
+सेवा	I-business_name
+को	O
+शिकायत	O
+ट्वीट	B-media_type
+कर	O
+सकते	O
+हैं	O
+
+टाटा	O
+स्काई	O
+को	O
+बताएं	O
+कि	O
+मैं	O
+अभी	O
+भी	O
+होल्ड	O
+पर	O
+हूं	O
+
+मेरे	O
+द्वारा	O
+आज	B-date
+खरीदे	O
+गए	O
+टेबलेट	O
+के	O
+लिए	O
+सीपला	B-business_name
+को	O
+शिकायत	O
+लिखें	O
+
+राष्ट्रीय	O
+ग्रिड	O
+को	O
+बताएं	O
+कि	O
+बिजली	O
+फिर	O
+से	O
+बंद	O
+है	O
+
+twitter	O
+के	O
+द्वारा	O
+अमेज़न	B-business_name
+ग्राहक	I-business_name
+सेवा	I-business_name
+से	O
+संपर्क	O
+
+कृपया	O
+मुझे	O
+मेरे	O
+सोशल	O
+मीडिया	O
+अकाउंट	O
+पर	O
+अपडेट	O
+करें	O
+
+सैमसंग	O
+को	O
+शिकायत	O
+ट्वीट	B-media_type
+करे	O
+
+कृपया	O
+लैपटॉप	O
+की	O
+दोषपूर्ण	O
+सेवा	O
+के	O
+बारे	O
+में	O
+डेल	B-business_name
+कंपनी	I-business_name
+को	O
+एक	O
+ट्वीट	B-media_type
+करें	O
+
+वॉलमार्ट	O
+को	O
+ट्वीट	B-media_type
+करें	O
+और	O
+उन्हें	O
+बताएं	O
+कि	O
+उनकी	O
+ग्राहक	O
+सेवा	O
+भयानक	O
+है	O
+
+meijer	O
+को	O
+एक	O
+ट्वीट	B-media_type
+भेजें	O
+उन्हें	O
+बताएं	O
+कि	O
+उनके	O
+पास	O
+सबसे	O
+खराब	O
+ग्राहक	O
+सेवा	O
+है	O
+
+ग्राहक	O
+सेवा	O
+को	O
+निम्नलिखित	O
+शिकायत	O
+ट्वीट	B-media_type
+करें	O
+
+क्या	O
+राहुल	B-person
+ने	O
+फेसबुक	B-media_type
+पर	O
+कुछ	O
+भी	O
+नया	O
+पोस्ट	O
+किया	O
+है	O
+
+खराब	O
+डिलीवरी	O
+के	O
+बारे	O
+में	O
+डोमिनोज़	B-business_name
+को	O
+एक	O
+ट्वीट	B-media_type
+भेजें	O
+
+मुझे	O
+इस	O
+कंपनी	O
+में	O
+ट्वीट	B-media_type
+करने	O
+के	O
+लिए	O
+याद	O
+दिलाएं	O
+
+फेसबुक	O
+पर	O
+पोस्ट	O
+करें	O
+ओह	O
+मैं	O
+बीमार	O
+हूँ	O
+
+टम्बलर	O
+पर	O
+पोस्ट	O
+करें	O
+मुझे	O
+मज़ा	O
+आ	O
+रहा	O
+है	O
+
+स्थिति	O
+को	O
+संबोधित	O
+करें	O
+
+बर्गर	O
+किंग	O
+को	O
+शिकायत	O
+ट्वीट	B-media_type
+करें	O
+
+olly	O
+company	O
+को	O
+एक	O
+tweet	B-media_type
+भेजो	O
+
+एल.	O
+जी.	O
+को	O
+रेफ्रिजरेटर	O
+के	O
+बारे	O
+में	O
+मेरी	O
+शिकायत	O
+को	O
+ट्वीट	B-media_type
+करें	O
+
+gallery	O
+खोलो	O
+video	O
+नाम	O
+post	O
+करो	O
+
+ट्विटर	O
+पर	O
+पोस्ट	O
+करो	O
+और	O
+लिखो	O
+कि	O
+आगे	O
+एक	O
+व्यस्त	O
+दिन	O
+होगा	O
+
+ट्वीट	O
+ग्राहक	O
+सेवा	O
+मेरे	O
+ट्विटर	B-media_type
+अकाउंट	O
+में	O
+लीटर	O
+प्रति	O
+ग्राम	O
+सेवा	O
+के	O
+लिए	O
+अच्छी	O
+नहीं	O
+है	O
+
+शिकायत	O
+ट्वीट	B-media_type
+करे	O
+
+मेरे	O
+instagram	B-media_type
+अकाउंट	O
+पर	O
+नवीनतम	O
+तस्वीरें	O
+क्या	O
+हैं	O
+
+ok	O
+google	O
+ये	O
+ट्वीट	B-media_type
+करो	O
+कि	O
+देवा	O
+फूड	O
+में	O
+सेवा	O
+भयानक	O
+है	O
+
+गन्दा	O
+नाला	O
+अवरुद्ध	O
+होने	O
+की	O
+शिकायत	O
+मेरे	O
+लिए	O
+ट्वीट	B-media_type
+करें	O
+
+सामाजिक	O
+जानकारी	O
+
+ग्राहक	O
+सेवा	O
+को	O
+ट्वीट	B-media_type
+करें	O
+कि	O
+मैं	O
+हमारी	O
+हालिया	O
+बातचीत	O
+से	O
+बहुत	O
+निराश	O
+हूं	O
+
+मैं	O
+ट्विटर	B-media_type
+पर	O
+एक	O
+स्टेटस	O
+पोस्ट	O
+करना	O
+चाहता	O
+हूं	O
+
+मुझे	O
+गंगाधर	B-person
+पांडे	I-person
+से	O
+कार	O
+दुर्घटना	O
+के	O
+बारे	O
+में	O
+ईमेल	O
+कब	O
+मिला	O
+
+मुझे	O
+बताएं	O
+कि	O
+क्या	O
+मेरे	O
+पास	O
+नए	O
+ईमेल	O
+हैं	O
+
+अंकिता	O
+को	O
+ईमेल	O
+भेजो	O
+कहो	O
+कि	O
+मैं	O
+लेट	O
+हो	O
+जाऊंगा	O
+डिनर	B-meal_type
+पे	O
+इंतजार	O
+न	O
+करे	O
+
+क्या	O
+जुही	B-person
+से	O
+कोई	O
+ईमेल	O
+आया	O
+है	O
+
+क्या	O
+आप	O
+कृपया	O
+रीमा	B-person
+को	O
+एक	O
+ईमेल	O
+भेज	O
+सकते	O
+हैं	O
+
+मेरा	O
+इनबॉक्स	B-email_folder
+चेक	O
+करें	O
+
+दुष्यंत	O
+को	O
+कल	B-date
+के	O
+बैठक	B-event_name
+के	O
+बारे	O
+में	O
+ईमेल	O
+करो	O
+और	O
+लिखो	O
+कि	O
+दुष्यंत	B-person
+क्या	O
+हम	O
+दोपहर	B-timeofday
+में	O
+बैठक	B-event_name
+कर	O
+सकते	O
+हैं	O
+
+ओली	O
+मैं	O
+राम	B-person
+की	O
+पार्टी	B-event_name
+के	O
+बारे	O
+में	O
+जानना	O
+चाहूंगा	O
+
+मेरा	O
+नवीनतम	O
+ईमेल	O
+खोलें	O
+और	O
+उत्तर	O
+दें	O
+
+इस	O
+सामग्री	O
+को	O
+ईमेल	O
+के	O
+माध्यम	O
+से	O
+भेजें	O
+
+विषय	O
+मौसम	O
+निकाय	O
+के	O
+साथ	O
+माँ	B-relation
+को	O
+एक	O
+ईमेल	O
+भेजें	O
+इस	B-date
+सप्ताह	I-date
+वहां	O
+का	O
+मौसम	O
+कैसा	O
+है	O
+
+माँ	O
+के	O
+अपठित	O
+ईमेल	O
+के	O
+लिए	O
+ईमेल	O
+देखें	O
+
+कृपया	O
+मुझे	O
+मेरे	O
+संपर्क	O
+से	O
+विनोद	B-person
+का	O
+विवरण	B-personal_info
+दें	O
+
+क्या	O
+मेरी	O
+सूची	O
+में	O
+रोहन	B-person
+नामक	B-personal_info
+कोई	O
+संपर्क	O
+है	O
+
+राम	O
+को	O
+जीमेल	O
+डॉट	O
+कॉम	O
+पर	O
+नया	O
+साल	O
+मुबारक	O
+भेजें	O
+
+राम	O
+का	O
+उपनाम	B-personal_info
+क्या	O
+है	O
+
+मेरे	O
+मित्र	B-relation
+को	O
+उसके	O
+प्रश्न	O
+का	O
+उत्तर	O
+भेजें	O
+
+पिछले	O
+दो	O
+घंटों	O
+के	O
+ईमेल	O
+देखें	O
+
+पिछले	O
+बारह	O
+घंटों	O
+के	O
+ईमेल	O
+देखें	O
+
+alexa	O
+त्रिपाठी	B-email_address
+ऐट	I-email_address
+हॉटमेल	I-email_address
+डॉट	I-email_address
+कॉम	I-email_address
+को	O
+महिमा	B-person
+त्रिपाठी	I-person
+के	O
+लिए	O
+एक	O
+नए	O
+संपर्क	O
+के	O
+रूप	O
+में	O
+जोड़ें	O
+
+मुझे	O
+बताएं	O
+कि	O
+क्या	O
+फ्लिपकार्ट	B-business_name
+से	O
+कोई	O
+नया	O
+ईमेल	O
+है	O
+
+कृपया	O
+इस	O
+संपर्क	O
+को	O
+निम्न	O
+संदेश	O
+ईमेल	O
+करें	O
+
+जांचें	O
+और	O
+देखें	O
+कि	O
+क्या	O
+मुझे	O
+आंजनेय	B-person
+सिंह	I-person
+से	O
+बजट	O
+से	O
+संबंधित	O
+कोई	O
+ईमेल	O
+प्राप्त	O
+हुआ	O
+है	O
+
+यह	O
+ईमेल	O
+को	O
+संपर्क	O
+में	O
+सहेजें	O
+
+अश्मित	O
+को	O
+उसके	O
+उपलब्ध	O
+ताज़ा	O
+टेक	O
+टॉपिक	O
+भेजो	O
+
+मुझे	O
+बताएं	O
+जब	O
+डॉली	B-person
+मुझे	O
+ईमेल	O
+करे	O
+
+मुझे	O
+बताएं	O
+कि	O
+दोपहर	O
+तीन	B-time
+बजे	I-time
+से	O
+मेरे	O
+इनबॉक्स	B-email_folder
+में	O
+क्या	O
+जमा	O
+है	O
+
+क्या	O
+आप	O
+मेरे	O
+दोस्त	B-relation
+रोहित	B-person
+को	O
+ईमेल	O
+भेज	O
+सकते	O
+हैं	O
+जो	O
+कहता	O
+है	O
+कि	O
+मैं	O
+कल	B-date
+व्यस्त	O
+हूँ	O
+
+अखंड	O
+की	O
+समय	O
+सीमा	O
+खोजें	O
+
+अरे	O
+सहकर्मी	B-relation
+को	O
+ईमेल	O
+शुरू	O
+करो	O
+
+इस	O
+ईमेल	O
+पर	O
+इस	O
+सहकर्मी	B-relation
+के	O
+लिए	O
+नया	O
+ईमेल	O
+खोलें	O
+
+मेरा	O
+जीमेल	O
+इनबॉक्स	B-email_folder
+रिफ्रेश	O
+करो	O
+
+नमस्ते	O
+भेजो	O
+
+मोहन	O
+से	O
+नवीनतम	O
+ईमेल	O
+दिखाएं	O
+
+मेरे	O
+प्रबंधक	B-relation
+को	O
+एक	O
+ईमेल	O
+भेजें	O
+
+नवीनतम	O
+ईमेल	O
+प्रदर्शित	O
+करें	O
+राम	O
+
+संजीव	O
+सेन	O
+को	O
+ईमेल	O
+करें	O
+
+पिछले	O
+पांच	O
+मिनट	O
+में	O
+कोई	O
+भी	O
+आने	O
+वाली	O
+ईमेल	O
+
+मेरे	O
+दोस्त	B-relation
+को	O
+एक	O
+ईमेल	O
+भेजें	O
+जन्मदिन	B-event_name
+की	O
+शुभकामनाएं	O
+कहें	O
+
+माँ	O
+का	O
+ईमेल	B-personal_info
+पता	I-personal_info
+क्या	O
+है	O
+
+मैं	O
+चाहता	O
+हूँ	O
+यह	O
+नया	O
+ईमेल	O
+मेरे	O
+कॉन्टेक्ट्स	O
+में	O
+ऐड	O
+किया	O
+जाए	O
+
+रोहन	O
+को	O
+ईमेल	O
+भेजें	O
+मैं	O
+अगले	B-date
+दिन	I-date
+फाइल	O
+भेजने	O
+जा	O
+रहा	O
+हूँ	O
+
+हाल	O
+ही	O
+में	O
+प्राप्त	O
+सभी	O
+ईमेल	O
+को	O
+टाइम	O
+स्टैम्प	O
+के	O
+साथ	O
+दिखाएं	O
+
+मुझे	O
+नया	O
+ईमेल	O
+दिखाओ	O
+
+खुला	O
+जवाब	O
+
+इस	O
+ईमेल	O
+का	O
+जवाब	O
+दो	O
+
+जय	O
+को	O
+ईमेल	O
+भेजें	O
+उसे	O
+बताएं	O
+कि	O
+उसकी	O
+दादी	O
+उससे	O
+प्यार	O
+करती	O
+है	O
+और	O
+आशा	O
+करती	O
+है	O
+कि	O
+उसके	O
+पास	O
+एक	O
+अच्छा	O
+सप्ताहांत	O
+है	O
+
+उत्तर	O
+लिखें	O
+
+मुझे	O
+मेरे	O
+भाई	B-relation
+के	O
+संपर्क	B-personal_info
+विवरण	I-personal_info
+बताओ	O
+
+इस	O
+मैसेज	O
+को	O
+फैमिली	B-relation
+ग्रुप	O
+में	O
+भेजो	O
+जो	O
+ए	O
+से	O
+स्टार्ट	O
+होता	O
+है	O
+
+जिन्होंने	O
+मुझे	O
+हाल	O
+ही	O
+में	O
+ईमेल	O
+किया	O
+है	O
+और	O
+प्रत्येक	O
+ईमेल	O
+के	O
+विषय	O
+क्या	O
+हैं	O
+
+olly	O
+कृपया	O
+बबलू	B-person
+के	I-person
+ईमेल	O
+का	O
+यह	O
+कहते	O
+हुए	O
+जवाब	O
+दें	O
+कि	O
+उनका	O
+विचार	O
+शानदार	O
+है	O
+
+प्रदर्शन	O
+समीक्षा	O
+के	O
+लिए	O
+मिलने	O
+के	O
+लिए	O
+मालिक	B-relation
+को	O
+ईमेल	O
+भेजें	O
+
+क्या	O
+प्रतीक	B-person
+भारत	B-place_name
+में	O
+रहता	B-personal_info
+है	I-personal_info
+
+अगर	O
+मुझे	O
+मेरे	O
+ईमेल	O
+पर	O
+कोई	O
+मेल	O
+प्राप्त	O
+होता	O
+है	O
+तो	O
+मुझे	O
+सूचित	O
+करें	O
+
+संदेश	O
+ईमेल	O
+करें	O
+हाय	O
+आज	B-timeofday
+रात	I-timeofday
+खाने	B-meal_type
+के	O
+लिए	O
+नीचे	O
+आओ	O
+भाई	B-relation
+
+नाव	O
+बेचने	O
+वाले	O
+व्यक्ति	O
+को	O
+एक	O
+ईमेल	O
+भेजकर	O
+बताएं	O
+कि	O
+मेरे	O
+पास	O
+पैसे	O
+हैं	O
+
+मुझे	O
+बताओ	O
+कि	O
+कल	B-date
+बॉस	O
+के	O
+बारे	O
+में	O
+ईमेल	O
+किसने	O
+भेजा	O
+था	O
+
+क्लिनिक	O
+ने	O
+मेरी	O
+परीक्षा	O
+के	O
+बारे	O
+में	O
+क्या	O
+कहा	O
+
+क्या	O
+मुझे	O
+एक	O
+कांटेक्ट	O
+के	O
+बारे	O
+में	O
+जानकारी	O
+मिल	O
+सकती	O
+है	O
+
+मेरे	O
+अपठित	O
+ईमेल	O
+पढ़ें	O
+
+नए	O
+ईमेल	O
+की	O
+जाँच	O
+करें	O
+
+क्या	O
+आप	O
+यह	O
+देखने	O
+के	O
+लिए	O
+जाँच	O
+कर	O
+सकते	O
+हैं	O
+कि	O
+क्या	O
+मेरे	O
+पास	O
+कोई	O
+हालिया	O
+ईमेल	O
+अलर्ट	O
+है	O
+
+मेरे	O
+लिए	O
+एक	O
+ईमेल	O
+भेजें	O
+
+सभी	O
+को	O
+जवाब	O
+देना	O
+
+राम	O
+सिंह	O
+को	O
+बताओ	O
+
+धन्यवाद	O
+के	O
+साथ	O
+उत्तर	O
+दें	O
+
+क्या	O
+मेरे	O
+पास	O
+राम	B-person
+का	O
+कोई	O
+नया	O
+ईमेल	O
+है	O
+
+क्या	O
+मेरे	O
+प्रचार	B-event_name
+के	O
+संबंध	O
+में	O
+कोई	O
+ईमेल	O
+है	O
+
+अरे	O
+ईमेल	O
+चेक	O
+करो	O
+
+पिछले	O
+सप्ताह	O
+में	O
+मुझे	O
+सभी	O
+ईमेल	O
+के	O
+विषयों	O
+और	O
+प्रेषकों	O
+की	O
+सूची	O
+बनाएं	O
+
+किसने	O
+मुझे	O
+हाल	O
+ही	O
+में	O
+ईमेल	O
+किया	O
+और	O
+उन्होंने	O
+किस	O
+बारे	O
+में	O
+ईमेल	O
+किया	O
+
+जगदीश	O
+को	O
+ईमेल	O
+भेजें	O
+
+ईमेल	O
+शुरू	O
+करो	O
+
+मेरे	O
+पास	O
+कितने	O
+अपठित	O
+ईमेल	O
+हैं	O
+
+मुसर्रत	O
+को	O
+ईमेल	O
+भेजें	O
+रात	O
+के	O
+खाने	O
+का	O
+समय	O
+क्या	O
+है	O
+
+रिलायंस	O
+को	O
+ईमेल	O
+भेजें	O
+कि	O
+उनकी	O
+सेवा	O
+बेकार	O
+है	O
+
+कृपया	O
+इस	O
+प्रेषक	O
+के	O
+हालिया	O
+ईमेल	O
+अध्ययन	O
+की	O
+जांच	O
+करें	O
+
+मेरा	O
+ईमेल	O
+खाता	O
+खोलें	O
+और	O
+नए	O
+ईमेल	O
+की	O
+जांच	O
+करें	O
+
+मेरे	O
+बॉस	B-relation
+को	O
+यह	O
+कहते	O
+हुए	O
+एक	O
+ईमेल	O
+भेजें	O
+कि	O
+मुझे	O
+देर	O
+हो	O
+जाएगी	O
+
+मेरे	O
+पास	O
+कौन	O
+से	O
+नए	O
+संदेश	O
+हैं	O
+
+मेरे	O
+नए	O
+ईमेल	O
+खोलो	O
+
+शिवानी	O
+से	O
+ईमेल	O
+की	O
+जाँच	O
+करें	O
+
+मार्क	O
+के	O
+ईमेल	O
+का	O
+जवाब	O
+
+आज	O
+कितने	O
+ईमेल	O
+
+क्या	O
+मेरी	O
+माँ	B-relation
+ने	O
+मुझे	O
+एक	O
+ईमेल	O
+भेजा	O
+
+माँ	O
+को	O
+ईमेल	O
+भेजो	O
+कल	B-date
+शॉपिंग	O
+के	O
+लिए	O
+जाना	O
+है	O
+
+अशोक	O
+के	O
+सभी	O
+ईमेल	O
+देखें	O
+
+क्या	O
+आप	O
+मुझे	O
+रितु	B-person
+को	O
+ईमेल	O
+लिखने	O
+में	O
+मदद	O
+करेंगे	O
+
+ओली	O
+कृपया	O
+जांचें	O
+कि	O
+क्या	O
+मुझे	O
+माँ	B-relation
+से	O
+कोई	O
+ईमेल	O
+मिला	O
+है	O
+
+मेरी	O
+कंपनी	B-relation
+के	I-relation
+सभी	O
+कर्मचारियों	B-relation
+को	O
+एक	O
+ईमेल	O
+भेजें	O
+
+पते	O
+पर	O
+ईमेल	O
+संदेश	O
+
+नया	O
+पता	O
+
+google	O
+उस	O
+पिंकू	B-person
+के	O
+लिए	O
+नया	O
+ईमेल	O
+पता	O
+ढूंढो	O
+जिसे	O
+मैंने	O
+शुक्रवार	B-date
+को	O
+जोड़ा	O
+था	O
+
+क्या	O
+यह	O
+मेरे	O
+मालिक	B-relation
+के	O
+लिए	O
+सही	O
+क्षेत्र	O
+कोड	O
+है	O
+
+जवाब	O
+दे	O
+दो	O
+
+कृपया	O
+उन	O
+संपर्कों	O
+को	O
+हटा	O
+दें	O
+जिनसे	O
+मैंने	O
+तीन	B-date
+महीनों	I-date
+से	I-date
+बात	O
+नहीं	O
+की	O
+है	O
+
+मैं	O
+रोहन	B-email_address
+एट	I-email_address
+जीमेल	I-email_address
+डॉट	I-email_address
+कॉम	I-email_address
+पर	O
+ईमेल	O
+भेजना	O
+चाहता	O
+हूं	O
+
+बेटी	O
+को	O
+यह	O
+कहते	O
+हुए	O
+ईमेल	O
+भेजें	O
+कि	O
+मैं	O
+तुमसे	O
+प्यार	O
+करता	O
+हूँ	O
+
+माँ	O
+को	O
+ईमेल	O
+भेजें	O
+जन्मदिन	B-event_name
+मुबारक	O
+हो	O
+
+कृपया	O
+मुझे	O
+बताएं	O
+कि	O
+क्या	O
+जुलाई	B-person
+ने	O
+मुझे	O
+कोई	O
+ईमेल	O
+भेजा	O
+है	O
+
+बॉस	O
+की	O
+ओर	O
+से	O
+कोई	O
+नया	O
+ईमेल	O
+
+क्या	O
+मुझे	O
+पिछले	B-time
+एक	I-time
+घंटे	I-time
+में	O
+कोई	O
+ईमेल	O
+प्राप्त	O
+हुआ	O
+है	O
+
+क्या	O
+अभी	O
+तक	O
+कोई	O
+भी	O
+व्यक्तिगत	O
+ईमेल	O
+नहीं	O
+आया	O
+है	O
+
+कल	O
+से	O
+मेरी	O
+बहन	B-relation
+का	I-relation
+ईमेल	O
+खोलो	O
+उत्तर	O
+पर	O
+क्लिक	O
+करें	O
+और	O
+मेरी	O
+प्रतिक्रिया	O
+के	O
+लिए	O
+आवाज	O
+सक्रियण	O
+चालू	O
+करें	O
+
+मेरे	O
+फोन	B-device_type
+बुक	I-device_type
+में	O
+कितने	O
+संपर्क	O
+हैं	O
+
+क्या	O
+आप	O
+देख	O
+सकते	O
+हैं	O
+कि	O
+अनिल	B-person
+ने	O
+मुझे	O
+किस	O
+बारे	O
+में	O
+ईमेल	O
+किया	O
+था	O
+
+मैं	O
+उस	O
+विषय	O
+के	O
+साथ	O
+राम	B-person
+से	O
+ईमेल	O
+ढूंढना	O
+चाहता	O
+हूं	O
+जिसमें	O
+बैठक	O
+शब्द	O
+शामिल	O
+है	O
+
+कृपया	O
+मेरी	O
+माँ	B-relation
+को	O
+ईमेल	O
+भेजें	O
+
+क्या	O
+समीर	B-person
+ने	O
+मुझे	O
+एक	O
+ईमेल	O
+भेजा	O
+
+मेरे	O
+ईमेल	O
+को	O
+देखो	O
+
+विनोद	O
+का	O
+ईमेल	O
+खोलें	O
+
+संपर्क	O
+के	O
+लिए	O
+ईमेल	O
+खोजें	O
+
+सम्पर्क	O
+खोजें	O
+
+मेरा	O
+ईमेल	O
+लाओ	O
+
+john	O
+नाम	O
+का	O
+संपर्क	O
+खोलें	O
+
+i	O
+recently	O
+email	O
+किया	O
+
+आज	O
+के	O
+ईमेल	O
+इनबॉक्स	B-email_folder
+से	O
+विषय	O
+पंक्ति	O
+और	O
+प्रेषक	O
+क्या	O
+हैं	O
+
+कृपया	O
+मेरी	O
+संपर्क	B-list_name
+सूची	I-list_name
+खोलें	O
+
+अनुपम	O
+की	O
+संपर्क	O
+जानकारी	O
+खोलें	O
+
+रणवीर	O
+सुरजेवाला	O
+के	O
+सभी	O
+ईमेल	O
+की	O
+जाँच	O
+करें	O
+
+रोहन	O
+को	O
+उत्तर	O
+भेजो	O
+
+अरे	O
+क्या	O
+मुझे	O
+कोई	O
+नया	O
+ईमेल	O
+मिला	O
+
+पंकज	O
+को	O
+ईमेल	O
+करें	O
+
+मेरे	O
+मेल	O
+की	O
+जांच	O
+करो	O
+
+मुझे	O
+ईशिका	B-person
+और	O
+अखिल	B-person
+को	O
+ईमेल	O
+करना	O
+है	O
+
+नहीं	O
+पढ़े	O
+हुए	O
+दिखाओ	O
+
+क्या	O
+मेरे	O
+इनबॉक्स	B-email_folder
+में	O
+नए	O
+ईमेल	O
+हैं	O
+
+उत्तर	O
+मेल	O
+
+एन.	O
+एस	O
+अलुवालिया	O
+को	O
+एक	O
+ईमेल	O
+भेजें	O
+उससे	O
+पूछें	O
+कि	O
+क्या	O
+डीन	O
+ने	O
+अपना	O
+पिछला	O
+होमवर्क	O
+असाइनमेंट	O
+दिया	O
+है	O
+
+मेरे	O
+पिछले	O
+ईमेल	O
+का	O
+जवाब	O
+भेजें	O
+
+छह	O
+तीस	O
+प्रतिक्रिया	O
+के	O
+साथ	O
+विराट	B-person
+का	I-person
+ईमेल	O
+का	O
+जवाब	O
+दो	O
+
+मेरे	O
+पास	O
+क्या	O
+मेल	O
+है	O
+
+मैं	O
+रोहन	B-person
+के	O
+ईमेल	O
+का	O
+जवाब	O
+देना	O
+चाहता	O
+हूं	O
+
+मनोज	O
+के	O
+ईमेल	O
+जांचें	O
+
+क्या	O
+कोई	O
+नया	O
+ईमेल	O
+है	O
+
+मेरे	O
+लिए	O
+मेरा	O
+इनबॉक्स	B-email_folder
+चेक	O
+करें	O
+
+मेरे	O
+संपर्क	O
+में	O
+ईमेल	O
+सहेजें	O
+
+संपर्कों	O
+में	O
+सहेजें	O
+
+मुझे	O
+मेरे	O
+सभी	O
+हाल	O
+के	O
+ईमेल	O
+दें	O
+
+मेरी	O
+हाल	O
+की	O
+ईमेल	O
+गतिविधि	O
+क्या	O
+है	O
+
+मुझे	O
+संपर्क	O
+मेल	B-personal_info
+आईडी	I-personal_info
+दें	O
+
+कृपया	O
+मुझे	O
+रीहान	B-person
+के	O
+नए	O
+ईमेल	O
+बताएं	O
+
+बस	O
+मुझे	O
+सोनम	B-person
+के	O
+नए	O
+ईमेल	O
+बताएं	O
+
+क्या	O
+मुझे	O
+पांच	B-time
+बजे	I-time
+से	O
+कोई	O
+ईमेल	O
+प्राप्त	O
+हुआ	O
+है	O
+
+क्या	O
+मुझे	O
+आज	B-date
+राजेश	B-person
+से	O
+कोई	O
+ईमेल्स	O
+आए	O
+हैं	O
+
+आज	O
+की	O
+निर्धारित	O
+मीटिंग	O
+जानकारी	O
+के	O
+साथ	O
+मेरी	O
+कंपनी	B-relation
+के	I-relation
+कर्मचारी	I-relation
+को	O
+एक	O
+ईमेल	O
+प्रकाशित	O
+करें	O
+
+क्या	O
+मुझको	O
+आज	B-date
+नेहा	B-person
+से	O
+कोई	O
+नया	O
+ईमेल	O
+मिला	O
+है	O
+
+रवि	O
+को	O
+ईमेल	O
+भेजें	O
+
+राजू	O
+के	O
+फोन	B-personal_info
+नंबर	I-personal_info
+पर	O
+कॉल	O
+करें	O
+
+कोई	O
+नए	O
+ईमेल	O
+के	O
+बारे	O
+में	O
+बताओ	O
+
+मेरे	O
+पास	O
+कितने	O
+अपठित	O
+संदेश	O
+हैं	O
+
+कृपया	O
+उस	O
+ईमेल	O
+का	O
+जवाब	O
+दें	O
+जिसे	O
+मैंने	O
+अभी	O
+पढ़ा	O
+है	O
+
+क्या	O
+रोहन	B-person
+ने	O
+आज	B-date
+मुझे	O
+लिखा	O
+
+रामू	O
+का	O
+क्या	O
+पता	B-personal_info
+है	O
+
