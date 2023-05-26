@@ -17,3 +17,8 @@ python query_to_lf.py --type_condition='control' --add_demo='false'
 python query_to_lf.py --type_condition='none' --add_demo='true'
 ```
 
+(4) Run exp for CoT (with demos - with conditioning)
+```
+python query_to_lf.py --type_condition='control' --add_demo='true'
+```
+
