@@ -290,7 +290,7 @@ for example in content[0:1]:
             step_2_prompt = gen_step_2 + 'Sentence: ' + utterance + '\n'
         else:
             step_2_prompt = gen_step_2c + 'Sentence: ' + utterance + '\n'
-            step_2_prompt += 'Potential Intents: ' + '\n'
+            step_2_prompt += 'Potential Intents: ' + intent + '\n'
 
 
         step_2_prompt += 'AMR Graph: ' + amr_graph + '\n'
@@ -309,14 +309,14 @@ for example in content[0:1]:
                 demo_kp = dem['key_phrase']
                 demo_amr = dem['AMR']
                 if (args.type_condition != 'none'):
-                    demo_2 += 'Potential Intents: ' + '\n'
+                    demo_2 += 'Potential Intents: ' +  demo_intent + '\n'
                 demo_2 += 'AMR Graph: ' + demo_amr + '\n'
                 demo_2 += 'Key phrases: ' + demo_kp + '\n'
 
             step_2_prompt  = demo_2 + '\n' + step_2_prompt 
 
 
-        key_phrases = call_chatgpt(step_2)
+        key_phrases = call_chatgpt(step_2_prompt)
         print("STEP 2: Get Key Phrases")
         #print("STEP 2: Get Key Phrases", step_2_prompt)
 
@@ -348,7 +348,7 @@ for example in content[0:1]:
                 demo_kp = dem['key_phrase']
                 demo_pair = dem['pair']
                 if (args.type_condition != 'none'):
-                    demo_3 += 'Potential Intents: ' + '\n'
+                    demo_3 += 'Potential Intents: ' + demo_intent + '\n'
                 demo_3 += 'AMR Graph: ' + demo_amr + '\n'
                 demo_3 += 'Key phrases: ' + demo_kp + '\n'
 
@@ -356,7 +356,7 @@ for example in content[0:1]:
 
             step_3_prompt  = demo_3 + '\n' + step_3_prompt 
 
-        slot_type = call_chatgpt(step_3)
+        slot_type = call_chatgpt(step_3_prompt)
         print("STEP 3: Get Slot Type")
         #print("STEP 3: Get Slot Type", step_3_prompt)
         
@@ -385,7 +385,7 @@ for example in content[0:1]:
 
             step_4_prompt  = demo_4 + '\n' + step_4_prompt 
 
-        pred_lf = call_chatgpt(step_4)
+        pred_lf = call_chatgpt(step_4_prompt)
         print("STEP 4: Get Logic Form")
         #print("STEP 4: Get Logic Form", step_4_prompt)
         writer.write(json.dumps({"utterance": utterance, "intent": intent, "AMR Graph": amr_graph, "key_phrase":
