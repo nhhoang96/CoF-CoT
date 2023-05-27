@@ -8,10 +8,10 @@ import os
 import time
 import argparse
 import re
-#import openai
+import openai
 
-#openai.api_key = os.getenv("openai_key")
-#model_name = "gpt-3.5-turbo"
+openai.api_key = "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"
+model_name = "gpt-3.5-turbo"
 
 
 def get_intent_slot_vob(dataset):
@@ -218,7 +218,7 @@ amr_graph=''
 key_phrases=''
 
 content = content.split("\n")
-for example in content[0:1]:
+for example in content[0:100]:
     utterance, logical_form, _, _, tag = example.split("\t")
     # --- Directly prompt
     if type_prompt == "direct":
