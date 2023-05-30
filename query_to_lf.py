@@ -179,6 +179,8 @@ parser.add_argument("--dataset", default="MTOP", choices=["MTOP", "MASSIVE"], ty
                     help='Type of dataset')
 parser.add_argument("--type_condition", default='control', type=str, help='Kind of conditioning: (none, condition)')
 parser.add_argument("--add_demo", choices=['true','false'], default='false', type=str)
+parser.add_argument("--output_for", choices=['api','test'], default='test', type=str)
+
 args = parser.parse_args()
 
 # ---- Generic Structure
@@ -210,7 +212,7 @@ direct_prompt += "Slot Type: " + slot_str + "\n"
 
 type_prompt = "chain_of"
 add_demo, condition_type = args.add_demo, args.type_condition
-result_output_file = f'result/{type_prompt}_demo_{add_demo}_condition_{condition_type}_dialogue.jsonl'
+result_output_file = f'./result/{type_prompt}_demo_{add_demo}_condition_{condition_type}_dialogue.jsonl'
 writer = open(result_output_file, 'w')
 slot_type=''
 intent=''
@@ -251,10 +253,13 @@ for example in content[0:1]:
                 demo_1 += 'Intent type: ' + demo_intent + '\n'
 
             step_1a_prompt = demo_1 + '\n' + step_1a_prompt
-
-        intent = call_chatgpt(step_1a_prompt)
-        print("STEP 1a: Get Intent")
-        #print("STEP 1a: Get Intent", step_1a_prompt)
+        
+        if (args.output_for == 'api'):
+            intent = call_chatgpt(step_1a_prompt)
+            print("STEP 1a: Get Intent")
+        else:
+            print("STEP 1a: Get Intent \n", step_1a_prompt)
+            intent =''
 
         # --- Step 1b: Get AMR Graph
         if (args.type_condition == 'none'):
@@ -281,9 +286,12 @@ for example in content[0:1]:
 
             step_1b_prompt  = demo_1b + '\n' + step_1b_prompt 
 
-        amr_graph = call_chatgpt(step_1b_prompt)
-        print("STEP 1b: Get AMR Graph")
-        #print("STEP 1b: Get AMR Graph", step_1b_prompt)
+        if (args.output_for == 'api'):
+            amr_graph = call_chatgpt(step_1b_prompt)
+            print("STEP 1b: Get AMR Graph")
+        else:
+            print("STEP 1b: Get AMR Graph", step_1b_prompt)
+            amr_graph=''
 
         # --- Step 2: Get Key Phrases
         if (args.type_condition == 'none'):
@@ -315,10 +323,12 @@ for example in content[0:1]:
 
             step_2_prompt  = demo_2 + '\n' + step_2_prompt 
 
-
-        key_phrases = call_chatgpt(step_2_prompt)
-        print("STEP 2: Get Key Phrases")
-        #print("STEP 2: Get Key Phrases", step_2_prompt)
+        if (args.output_for == 'api'):
+            key_phrases = call_chatgpt(step_2_prompt)
+            print("STEP 2: Get Key Phrases")
+        else:
+            print("STEP 2: Get Key Phrases", step_2_prompt)
+            key_phrases=''
 
         # --- Step 3: Get Slot Type
         if (args.type_condition == 'none'):
@@ -356,9 +366,12 @@ for example in content[0:1]:
 
             step_3_prompt  = demo_3 + '\n' + step_3_prompt 
 
-        slot_type = call_chatgpt(step_3_prompt)
-        print("STEP 3: Get Slot Type")
-        #print("STEP 3: Get Slot Type", step_3_prompt)
+        if (args.output_for == 'api'):
+            slot_type = call_chatgpt(step_3_prompt)
+            print("STEP 3: Get Slot Type")
+        else:
+            slot_type=''
+            print("STEP 3: Get Slot Type", step_3_prompt)
         
 
         # --- Step 4: Get Logic Form
@@ -384,9 +397,11 @@ for example in content[0:1]:
 
 
             step_4_prompt  = demo_4 + '\n' + step_4_prompt 
-
+    if (args.output_for == 'api'):
         pred_lf = call_chatgpt(step_4_prompt)
         print("STEP 4: Get Logic Form")
-        #print("STEP 4: Get Logic Form", step_4_prompt)
+    else:
+        pred_lf =''
+        print("STEP 4: Get Logic Form", step_4_prompt)
         writer.write(json.dumps({"utterance": utterance, "intent": intent, "AMR Graph": amr_graph, "key_phrase":
             key_phrases, "slot_type": slot_type, "pred_lf": pred_lf, "gold_lf": logical_form}) + '\n')
