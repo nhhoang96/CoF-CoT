@@ -8,10 +8,10 @@ import os
 import time
 import argparse
 import re
-import openai
+#import openai
 
-openai.api_key = "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"
-model_name = "gpt-3.5-turbo"
+#openai.api_key = "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"
+#model_name = "gpt-3.5-turbo"
 
 
 def get_intent_slot_vob(dataset):
@@ -177,7 +177,7 @@ for line in open(input_fs_file, 'r'):
 parser = argparse.ArgumentParser()
 parser.add_argument("--dataset", default="MTOP", choices=["MTOP", "MASSIVE"], type=str,
                     help='Type of dataset')
-parser.add_argument("--type_condition", default='control', type=str, help='Kind of conditioning: (none, condition)')
+parser.add_argument("--type_condition", default='control', type=str, help='Kind of conditioning: (none, control, control_filter)')
 parser.add_argument("--add_demo", choices=['true','false'], default='false', type=str)
 parser.add_argument("--output_for", choices=['api','test'], default='test', type=str)
 
@@ -188,7 +188,11 @@ intent_vocab, slot_vocab = get_intent_slot_vob(args.dataset)
 intent_str = ','.join(intent_vocab)
 slot_str = ','.join(slot_vocab)
 gen_step_1 = 'Given the intent vocabulary and sentence, choose 1 of the following as the intent type for the sentence: \n'
-gen_step_1c = 'Given the intent vocabulary and sentence, choose the top 3 of the following as the potential intent types for the sentence with numeric confidence scores. Return the list of intent types separated by commas, followed by the list of numeric confidence scores separated by commas: \n'
+#gen_step_1c = 'Given the intent vocabulary and sentence, choose the top 3 of the following as the potential intent types for the sentence with numeric confidence scores. Return the list of intent types separated by commas, followed by the list of numeric confidence scores separated by commas: \n'
+
+gen_step_1c = 'Given the intent vocabulary and sentence, choose the top 3 of the following as the potential intent types for the sentence. Return the list of intent types separated by commas: \n' 
+
+gen_step_1c_filter = 'Given the intent vocabulary and sentence, choose at least 1 of the following whose confidence score is greater than or equal to 0.8 as the potential intent types for the sentence. Return the list of intent types separated by commas: \n' 
 
 gen_step_1b = 'Given the sentence, generate one and only one Abstract Meaning Representation (AMR) graph representation in the textual Neo-Davidsonian format \n'
 
@@ -201,7 +205,7 @@ gen_step_2c = 'Based on the sentence, its potential intents and its AMR graph, i
 gen_step_3 = 'Given the slot vocabulary, the sentence and its key phrases, identify the corresponding slot type for each key phrases. Return the list of key phrases and their corresponding slot types in the following format: (slot_type, key_phrase) separated by commas \n'
 gen_step_3 += 'Slot Vocabulary: ' + slot_str + '\n'
 
-gen_step_3c = 'Given the slot vocabulary, the sentence, its potential intents and its key phrases, identify the corresponding slot type for each key phrases. Return the list of key phrases and their corresponding slot types in the following format: (slot_type, key_phrase) separated by commas \n'
+gen_step_3c = 'Given the slot vocabulary, the sentence, its potential intents, its AMR graph and its key phrases, identify the corresponding slot type for each key phrases. Return the list of key phrases and their corresponding slot types in the following format: (slot_type, key_phrase) separated by commas \n'
 gen_step_3c += 'Slot Vocabulary: ' + slot_str + '\n'
 
 gen_step_4 = 'Given the sentence, its potential intent types, its slot type and slot value pairs in (slot_type, slot_value) format, generate the logic form in the format: [IN:___ [SL:___] [SL:____]] where IN: is followed by an intent type and SL: is followed by a slot type and slot value pair separated by white space. The number of [SL: ] is unlimited. The number of [IN: ] is limited to 1 \n'
@@ -233,8 +237,11 @@ for example in content[0:100]:
         # --- Step 1a: Get Intent
         if (args.type_condition == 'none'):
             step_1a_prompt = gen_step_1 + 'Intent Vocabulary: ' + intent_str + '\n'
-        else:
+        elif (args.type_condition == 'control'):
             step_1a_prompt = gen_step_1c + 'Intent Vocabulary: ' + intent_str + '\n'
+        elif (args.type_condition == 'control_filter'):
+
+            step_1a_prompt = gen_step_1c_filter + 'Intent Vocabulary: ' + intent_str + '\n'
         step_1a_prompt += 'Sentence: ' + utterance + '\n'
         step_1a_prompt += 'Intent type: ' + '\n'
 
@@ -339,6 +346,7 @@ for example in content[0:100]:
         else:
             step_3_prompt = gen_step_3c + 'Sentence: ' + utterance + '\n'
             step_3_prompt += 'Potential Intent Types: ' + intent + '\n'
+            step_3_prompt += 'AMR Graph: ' + amr_graph + '\n'
             step_3_prompt += 'Key phrases: ' + key_phrases + '\n'
             #step_3 = gen_step_3 + 'Key phrases: ' + '\n'
             #step_3 += 'Sentence: ' + utterance + '\n'
