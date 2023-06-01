@@ -6,11 +6,12 @@
 import json
 import os
 import time
+from tqdm import tqdm
 import argparse
 import re
 import openai
 
-openai.api_key = os.getenv("openai_key")
+openai.api_key = "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"
 model_name = "gpt-3.5-turbo"
 
 def call_chatgpt(input_prompt):
@@ -39,7 +40,7 @@ with open(input_test_file, 'r') as file:
 gen_step_1b = 'Given the sentence, generate one and only one Abstract Meaning Representation (AMR) graph representation in the textual Neo-Davidsonian format \n'
 
 content = content.split("\n")
-for example in content[0:1]:
+for example in tqdm(content[0:100]):
     utterance, logical_form, _, _, tag = example.split("\t")
     output = example.split('\t')
     utterance=output[0]
