@@ -1,0 +1,100 @@
+I want to listen to Justin Bieber's latest album	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Justin Bieber ] [SL:MUSIC_TYPE album ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Justin Bieber ] [SL:MUSIC_TYPE album ] ]	music	en_XX
+resume the baking timer	[IN:RESUME_TIMER [SL:METHOD_TIMER timer ] ]	[IN:RESUME_TIMER [SL:METHOD_TIMER timer ] ]	timer	en_XX
+how many calories are in tomato sauce	[IN:GET_INFO_RECIPES [SL:RECIPES_ATTRIBUTE how many ] [SL:RECIPES_UNIT_NUTRITION calories ] [SL:RECIPES_DISH tomato sauce ] ]	[IN:GET_INFO_RECIPES [SL:RECIPES_ATTRIBUTE how many ] [SL:RECIPES_UNIT_NUTRITION calories ] [SL:RECIPES_DISH tomato sauce ] ]	recipes	en_XX
+Set the timer for 30 min. I do not want to leave the hair color in for too long	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME for 30 min ] ]	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME for 30 min ] ]	timer	en_XX
+find me art majors from Stanford	[IN:GET_CONTACT [SL:MAJOR art ] [SL:SCHOOL Stanford ] ]	[IN:GET_CONTACT [SL:MAJOR art ] [SL:SCHOOL Stanford ] ]	people	en_XX
+Yesterday was awfully hot and I would like to know what the yesterday's temperature was	[IN:GET_WEATHER [SL:DATE_TIME Yesterday ] [SL:WEATHER_ATTRIBUTE hot ] [SL:DATE_TIME yesterday ] ]	[IN:GET_WEATHER [SL:DATE_TIME Yesterday ] [SL:WEATHER_ATTRIBUTE hot ] [SL:DATE_TIME yesterday ] ]	weather	en_XX
+please dial Ryann Small right away	[IN:CREATE_CALL [SL:CONTACT Ryann Small ] ]	[IN:CREATE_CALL [SL:CONTACT Ryann Small ] ]	calling	en_XX
+Subtract 30 minutes from my timer	[IN:SUBTRACT_TIME_TIMER [SL:DATE_TIME 30 minutes ] [SL:METHOD_TIMER timer ] ]	[IN:SUBTRACT_TIME_TIMER [SL:DATE_TIME 30 minutes ] [SL:METHOD_TIMER timer ] ]	timer	en_XX
+What kind of event is Oktoberfest?	[IN:GET_CATEGORY_EVENT [SL:TITLE_EVENT Oktoberfest ] ]	[IN:GET_CATEGORY_EVENT [SL:TITLE_EVENT Oktoberfest ] ]	event	en_XX
+respond interested to Open Stage NYC	[IN:SET_RSVP_INTERESTED [SL:TITLE_EVENT Open Stage NYC ] ]	[IN:SET_RSVP_INTERESTED [SL:TITLE_EVENT Open Stage NYC ] ]	event	en_XX
+What's the address of Mike's current employer?	[IN:GET_LOCATION [SL:CONTACT Mike ] ]	[IN:GET_LOCATION [SL:CONTACT Mike ] ]	people	en_XX
+Seek all available	[IN:GET_AVAILABILITY ]	[IN:GET_AVAILABILITY ]	calling	en_XX
+any new news of donald trump	[IN:GET_STORIES_NEWS [SL:NEWS_REFERENCE new ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC donald trump ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_REFERENCE new ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC donald trump ] ]	news	en_XX
+Remove my reminder for dinner on Wednesday.	[IN:DELETE_REMINDER [SL:PERSON_REMINDED my ] [SL:TODO dinner ] [SL:DATE_TIME on Wednesday ] ]	[IN:DELETE_REMINDER [SL:PERSON_REMINDED my ] [SL:TODO dinner ] [SL:DATE_TIME on Wednesday ] ]	reminder	en_XX
+Remove work reminders.	[IN:DELETE_REMINDER [SL:TODO work ] ]	[IN:DELETE_REMINDER [SL:TODO work ] ]	reminder	en_XX
+How do you mix a martini	[IN:GET_INFO_RECIPES [SL:RECIPES_DISH martini ] ]	[IN:GET_INFO_RECIPES [SL:RECIPES_DISH martini ] ]	recipes	en_XX
+what temperature is lamb cooked	[IN:GET_INFO_RECIPES [SL:RECIPES_ATTRIBUTE temperature ] [SL:RECIPES_INCLUDED_INGREDIENT lamb ] ]	[IN:GET_INFO_RECIPES [SL:RECIPES_ATTRIBUTE temperature ] [SL:RECIPES_INCLUDED_INGREDIENT lamb ] ]	recipes	en_XX
+Could you connect me to Magic: The Gathering on Slack please	[IN:CREATE_CALL [SL:GROUP Magic : The Gathering ] [SL:NAME_APP Slack ] ]	[IN:CREATE_CALL [SL:GROUP Magic : The Gathering ] [SL:NAME_APP Slack ] ]	calling	en_XX
+Shuffle the channels.	[IN:START_SHUFFLE_MUSIC [SL:MUSIC_TYPE channels ] ]	[IN:START_SHUFFLE_MUSIC [SL:MUSIC_TYPE channels ] ]	music	en_XX
+what is the weather locally	[IN:GET_WEATHER [SL:LOCATION locally ] ]	[IN:GET_WEATHER [SL:LOCATION locally ] ]	weather	en_XX
+Get my video messages from Julia Walters and Sparks	[IN:GET_MESSAGE [SL:TYPE_CONTENT video ] [SL:RECIPIENT Julia Walters ] [SL:RECIPIENT Sparks ] ]	[IN:GET_MESSAGE [SL:TYPE_CONTENT video ] [SL:RECIPIENT Julia Walters ] [SL:RECIPIENT Sparks ] ]	messaging	en_XX
+play me some country	[IN:PLAY_MUSIC [SL:MUSIC_GENRE country ] ]	[IN:PLAY_MUSIC [SL:MUSIC_GENRE country ] ]	music	en_XX
+The name of my friend that works at Starbucks	[IN:GET_CONTACT [SL:CONTACT_RELATED my ] [SL:TYPE_RELATION friend ] [SL:EMPLOYER Starbucks ] ]	[IN:GET_CONTACT [SL:CONTACT_RELATED my ] [SL:TYPE_RELATION friend ] [SL:EMPLOYER Starbucks ] ]	people	en_XX
+can you tell me the most recent news stories	[IN:GET_STORIES_NEWS [SL:DATE_TIME the most recent ] [SL:NEWS_TYPE news stories ] ]	[IN:GET_STORIES_NEWS [SL:DATE_TIME the most recent ] [SL:NEWS_TYPE news stories ] ]	news	en_XX
+Set me an alarm at 4PM to call my mum.	[IN:CREATE_ALARM [SL:DATE_TIME at 4 PM ] [SL:ALARM_NAME call my mum ] ]	[IN:CREATE_ALARM [SL:DATE_TIME at 4 PM ] [SL:ALARM_NAME call my mum ] ]	alarm	en_XX
+at what temperature do you cook baked chicken at	[IN:GET_INFO_RECIPES [SL:RECIPES_ATTRIBUTE temperature ] [SL:RECIPES_DISH baked chicken ] ]	[IN:GET_INFO_RECIPES [SL:RECIPES_ATTRIBUTE temperature ] [SL:RECIPES_DISH baked chicken ] ]	recipes	en_XX
+Friends of Adelaide's	[IN:GET_CONTACT [SL:TYPE_RELATION Friends ] [SL:CONTACT_RELATED Adelaide ] ]	[IN:GET_CONTACT [SL:TYPE_RELATION Friends ] [SL:CONTACT_RELATED Adelaide ] ]	people	en_XX
+How many calories are in a full pizza pie?	[IN:GET_INFO_RECIPES [SL:RECIPES_ATTRIBUTE How many ] [SL:RECIPES_UNIT_NUTRITION calories ] [SL:RECIPES_DISH pizza pie ] ]	[IN:GET_INFO_RECIPES [SL:RECIPES_ATTRIBUTE How many ] [SL:RECIPES_UNIT_NUTRITION calories ] [SL:RECIPES_DISH pizza pie ] ]	recipes	en_XX
+remind me to go left at the light	[IN:CREATE_REMINDER [SL:PERSON_REMINDED me ] [SL:TODO go left at the light ] ]	[IN:CREATE_REMINDER [SL:PERSON_REMINDED me ] [SL:TODO go left at the light ] ]	reminder	en_XX
+whatsapp video call Lucy Hoffman	[IN:CREATE_CALL [SL:NAME_APP whatsapp ] [SL:CONTACT Lucy Hoffman ] ]	[IN:CREATE_CALL [SL:NAME_APP whatsapp ] [SL:CONTACT Lucy Hoffman ] ]	calling	en_XX
+Concerts this weekend	[IN:GET_EVENT [SL:CATEGORY_EVENT Concerts ] [SL:DATE_TIME this weekend ] ]	[IN:GET_EVENT [SL:CATEGORY_EVENT Concerts ] [SL:DATE_TIME this weekend ] ]	event	en_XX
+Is Nick Foles married?	[IN:GET_LIFE_EVENT [SL:CONTACT Nick Foles ] [SL:LIFE_EVENT married ] ]	[IN:GET_LIFE_EVENT [SL:CONTACT Nick Foles ] [SL:LIFE_EVENT married ] ]	people	en_XX
+Give me CNN headlines	[IN:GET_STORIES_NEWS [SL:NEWS_SOURCE CNN ] [SL:NEWS_TYPE headlines ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_SOURCE CNN ] [SL:NEWS_TYPE headlines ] ]	news	en_XX
+all James friends	[IN:GET_CONTACT [SL:CONTACT_RELATED James ] [SL:TYPE_RELATION friends ] ]	[IN:GET_CONTACT [SL:CONTACT_RELATED James ] [SL:TYPE_RELATION friends ] ]	people	en_XX
+set my timer for a 35 minute baking time	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME 35 minute ] ]	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME 35 minute ] ]	timer	en_XX
+Change to video call	[IN:UPDATE_METHOD_CALL ]	[IN:UPDATE_METHOD_CALL ]	calling	en_XX
+create a conference call reminder to all my subornants.	[IN:CREATE_REMINDER [SL:TODO conference call ] [SL:PERSON_REMINDED all my subornants ] ]	[IN:CREATE_REMINDER [SL:TODO [IN:CREATE_CALL ] ] [SL:PERSON_REMINDED all my subornants ] ]	reminder	en_XX
+Please give me the local news.	[IN:GET_STORIES_NEWS [SL:NEWS_CATEGORY local ] [SL:NEWS_TYPE news ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_CATEGORY local ] [SL:NEWS_TYPE news ] ]	news	en_XX
+Turn on all alarms	[IN:CREATE_ALARM [SL:AMOUNT all ] ]	[IN:CREATE_ALARM [SL:AMOUNT all ] ]	alarm	en_XX
+What is the recipe for Pico de Gallo	[IN:GET_RECIPES [SL:RECIPES_DISH Pico de Gallo ] ]	[IN:GET_RECIPES [SL:RECIPES_DISH Pico de Gallo ] ]	recipes	en_XX
+How much longer do I have	[IN:GET_TIMER ]	[IN:GET_TIMER ]	timer	en_XX
+Delete my reminder to send a gift to Brent, it's already done	[IN:DELETE_REMINDER [SL:PERSON_REMINDED my ] [SL:TODO send a gift to Brent ] ]	[IN:DELETE_REMINDER [SL:PERSON_REMINDED my ] [SL:TODO send a gift to Brent ] ]	reminder	en_XX
+delete all rap songs.	[IN:REMOVE_FROM_PLAYLIST_MUSIC [SL:MUSIC_GENRE rap ] [SL:MUSIC_TYPE songs ] ]	[IN:REMOVE_FROM_PLAYLIST_MUSIC [SL:MUSIC_GENRE rap ] [SL:MUSIC_TYPE songs ] ]	music	en_XX
+Could you please give weather information for Italy	[IN:GET_WEATHER [SL:LOCATION Italy ] ]	[IN:GET_WEATHER [SL:LOCATION Italy ] ]	weather	en_XX
+Start timer again.	[IN:RESTART_TIMER [SL:METHOD_TIMER timer ] ]	[IN:RESTART_TIMER [SL:METHOD_TIMER timer ] ]	timer	en_XX
+hang up to end the call	[IN:END_CALL ]	[IN:END_CALL ]	calling	en_XX
+Set a reminder to call my dad at 5:00 to ask about his doctor's appointment.	[IN:CREATE_REMINDER [SL:TODO call my dad at 5 : 00 to ask about his doctor 's appointment ] ]	[IN:CREATE_REMINDER [SL:TODO [IN:GET_TODO [SL:TODO [IN:CREATE_CALL [SL:CONTACT [IN:GET_CONTACT [SL:CONTACT_RELATED my ] [SL:TYPE_RELATION dad ] ] ] ] ] [SL:DATE_TIME at 5 : 00 ] [SL:TODO ask about his doctor 's appointment ] ] ] ]	reminder	en_XX
+When did Sam get his diploma?	[IN:GET_EDUCATION_TIME [SL:CONTACT Sam ] [SL:EDUCATION_DEGREE diploma ] ]	[IN:GET_EDUCATION_TIME [SL:CONTACT Sam ] [SL:EDUCATION_DEGREE diploma ] ]	people	en_XX
+Set an Early bird alarm for tomorrow morning at six.	[IN:CREATE_ALARM [SL:ALARM_NAME Early bird ] [SL:DATE_TIME for tomorrow morning at six ] ]	[IN:CREATE_ALARM [SL:ALARM_NAME Early bird ] [SL:DATE_TIME for tomorrow morning at six ] ]	alarm	en_XX
+Do any of my friends attend Eastern?	[IN:GET_CONTACT [SL:CONTACT_RELATED my ] [SL:TYPE_RELATION friends ] [SL:SCHOOL Eastern ] ]	[IN:GET_CONTACT [SL:CONTACT_RELATED my ] [SL:TYPE_RELATION friends ] [SL:SCHOOL Eastern ] ]	people	en_XX
+leave current call and switch to new call	[IN:SWITCH_CALL ]	[IN:SWITCH_CALL ]	calling	en_XX
+Any news on the marijuana legalization in Sonoma County	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC marijuana legalization in Sonoma County ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC marijuana legalization in Sonoma County ] ]	news	en_XX
+Set alarm every minutes for 15 minutes	[IN:CREATE_ALARM [SL:PERIOD every minutes ] [SL:DATE_TIME for 15 minutes ] ]	[IN:CREATE_ALARM [SL:PERIOD every minutes ] [SL:DATE_TIME for 15 minutes ] ]	alarm	en_XX
+Tell Jimmy the puppet show will be tonight at the local elementary school.	[IN:SEND_MESSAGE [SL:RECIPIENT Jimmy ] [SL:CONTENT_EXACT the puppet show will be tonight at the local elementary school ] ]	[IN:SEND_MESSAGE [SL:RECIPIENT Jimmy ] [SL:CONTENT_EXACT the puppet show will be tonight at the local elementary school ] ]	messaging	en_XX
+Give me the local news for New York.	[IN:GET_STORIES_NEWS [SL:NEWS_CATEGORY local ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC New York ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_CATEGORY local ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC New York ] ]	news	en_XX
+Delete the reminder to make plan reservations for Christmas.	[IN:DELETE_REMINDER [SL:TODO make plan reservations for Christmas ] ]	[IN:DELETE_REMINDER [SL:TODO make plan reservations for Christmas ] ]	reminder	en_XX
+Alarm must be set for tomorrow	[IN:CREATE_ALARM [SL:DATE_TIME for tomorrow ] ]	[IN:CREATE_ALARM [SL:DATE_TIME for tomorrow ] ]	alarm	en_XX
+add 28 minutes to the stop showering timer	[IN:ADD_TIME_TIMER [SL:DATE_TIME 28 minutes ] [SL:TIMER_NAME stop showering ] [SL:METHOD_TIMER timer ] ]	[IN:ADD_TIME_TIMER [SL:DATE_TIME 28 minutes ] [SL:TIMER_NAME stop showering ] [SL:METHOD_TIMER timer ] ]	timer	en_XX
+i would like to message the classmate thread message	[IN:SEND_MESSAGE [SL:GROUP classmate ] ]	[IN:SEND_MESSAGE [SL:GROUP classmate ] ]	messaging	en_XX
+Fast forward that song	[IN:FAST_FORWARD_MUSIC [SL:MUSIC_TYPE song ] ]	[IN:FAST_FORWARD_MUSIC [SL:MUSIC_TYPE song ] ]	music	en_XX
+What is the recipe for fettuccine Alfredo	[IN:GET_RECIPES [SL:RECIPES_DISH fettuccine Alfredo ] ]	[IN:GET_RECIPES [SL:RECIPES_DISH fettuccine Alfredo ] ]	recipes	en_XX
+Things going on in Ft Worth this weekend	[IN:GET_EVENT [SL:LOCATION Ft Worth ] [SL:DATE_TIME this weekend ] ]	[IN:GET_EVENT [SL:LOCATION Ft Worth ] [SL:DATE_TIME this weekend ] ]	event	en_XX
+Is there any sports match in November	[IN:GET_EVENT [SL:CATEGORY_EVENT sports match ] [SL:DATE_TIME in November ] ]	[IN:GET_EVENT [SL:CATEGORY_EVENT sports match ] [SL:DATE_TIME in November ] ]	event	en_XX
+start a call with stepsisters	[IN:CREATE_CALL [SL:CONTACT stepsisters ] ]	[IN:CREATE_CALL [SL:CONTACT [IN:GET_CONTACT [SL:TYPE_RELATION stepsisters ] ] ] ]	calling	en_XX
+Display reminders for student loans payments including the dates and repayment links	[IN:GET_REMINDER [SL:METHOD_RETRIEVAL_REMINDER Display ] [SL:TODO student loans payments including the dates and repayment links ] ]	[IN:GET_REMINDER [SL:METHOD_RETRIEVAL_REMINDER Display ] [SL:TODO student loans payments including the dates and repayment links ] ]	reminder	en_XX
+What timers do i have running	[IN:GET_TIMER [SL:METHOD_TIMER timers ] ]	[IN:GET_TIMER [SL:METHOD_TIMER timers ] ]	timer	en_XX
+Send a message asking what time they want to go to the Santa Monica Pier?	[IN:SEND_MESSAGE [SL:CONTENT_EXACT what time they want to go to the Santa Monica Pier ] ]	[IN:SEND_MESSAGE [SL:CONTENT_EXACT what time they want to go to the Santa Monica Pier ] ]	messaging	en_XX
+Anything interesting in the news?	[IN:GET_STORIES_NEWS [SL:NEWS_REFERENCE interesting ] [SL:NEWS_TYPE news ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_REFERENCE interesting ] [SL:NEWS_TYPE news ] ]	news	en_XX
+display video messages from my cousin Fernando	[IN:GET_MESSAGE [SL:TYPE_CONTENT video ] [SL:SENDER my cousin Fernando ] ]	[IN:GET_MESSAGE [SL:TYPE_CONTENT video ] [SL:SENDER [IN:GET_CONTACT [SL:CONTACT_RELATED my ] [SL:TYPE_RELATION cousin ] [SL:CONTACT Fernando ] ] ] ]	messaging	en_XX
+Who is jack	[IN:GET_INFO_CONTACT [SL:CONTACT jack ] ]	[IN:GET_INFO_CONTACT [SL:CONTACT jack ] ]	people	en_XX
+Send me the news from New York University.	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC New York University ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC New York University ] ]	news	en_XX
+Alarm for February 14, 10am	[IN:CREATE_ALARM [SL:DATE_TIME for February 14 , 10 am ] ]	[IN:CREATE_ALARM [SL:DATE_TIME for February 14 , 10 am ] ]	alarm	en_XX
+please give me a news update	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news ] ]	news	en_XX
+What soccer matches are coming up tonight	[IN:GET_EVENT [SL:CATEGORY_EVENT soccer matches ] [SL:DATE_TIME tonight ] ]	[IN:GET_EVENT [SL:CATEGORY_EVENT soccer matches ] [SL:DATE_TIME tonight ] ]	event	en_XX
+Read Anthony's text to me this morning	[IN:GET_MESSAGE [SL:SENDER Anthony ] [SL:RECIPIENT me ] [SL:DATE_TIME this morning ] ]	[IN:GET_MESSAGE [SL:SENDER Anthony ] [SL:RECIPIENT me ] [SL:DATE_TIME this morning ] ]	messaging	en_XX
+Does Jason live in Richmond?	[IN:GET_LOCATION [SL:CONTACT Jason ] [SL:LOCATION Richmond ] ]	[IN:GET_LOCATION [SL:CONTACT Jason ] [SL:LOCATION Richmond ] ]	people	en_XX
+Is there rain forecasted in Panama City, FL next week?	[IN:GET_WEATHER [SL:WEATHER_ATTRIBUTE rain ] [SL:LOCATION Panama City , FL ] [SL:DATE_TIME next week ] ]	[IN:GET_WEATHER [SL:WEATHER_ATTRIBUTE rain ] [SL:LOCATION Panama City , FL ] [SL:DATE_TIME next week ] ]	weather	en_XX
+What's happening in Baltimore tonight	[IN:GET_EVENT [SL:LOCATION Baltimore ] [SL:DATE_TIME tonight ] ]	[IN:GET_EVENT [SL:LOCATION Baltimore ] [SL:DATE_TIME tonight ] ]	event	en_XX
+Start a one hour timer	[IN:CREATE_TIMER [SL:DATE_TIME one hour ] [SL:METHOD_TIMER timer ] ]	[IN:CREATE_TIMER [SL:DATE_TIME one hour ] [SL:METHOD_TIMER timer ] ]	timer	en_XX
+What is the temperature in Yucaipa today?	[IN:GET_WEATHER [SL:LOCATION Yucaipa ] [SL:DATE_TIME today ] ]	[IN:GET_WEATHER [SL:LOCATION Yucaipa ] [SL:DATE_TIME today ] ]	weather	en_XX
+How long do I need to cook ground beef for	[IN:GET_INFO_RECIPES [SL:RECIPES_ATTRIBUTE How long ] [SL:RECIPES_DISH ground beef ] ]	[IN:GET_INFO_RECIPES [SL:RECIPES_ATTRIBUTE How long ] [SL:RECIPES_DISH ground beef ] ]	recipes	en_XX
+how many teaspoons of cinnamon are needed	[IN:GET_INFO_RECIPES [SL:RECIPES_ATTRIBUTE how many ] [SL:RECIPES_UNIT_MEASUREMENT teaspoons ] [SL:RECIPES_INCLUDED_INGREDIENT cinnamon ] ]	[IN:GET_INFO_RECIPES [SL:RECIPES_ATTRIBUTE how many ] [SL:RECIPES_UNIT_MEASUREMENT teaspoons ] [SL:RECIPES_INCLUDED_INGREDIENT cinnamon ] ]	recipes	en_XX
+Will it be above 11 in degrees Celsius here	[IN:GET_WEATHER [SL:WEATHER_ATTRIBUTE above ] [SL:WEATHER_ATTRIBUTE 11 ] [SL:WEATHER_TEMPERATURE_UNIT Celsius ] [SL:LOCATION here ] ]	[IN:GET_WEATHER [SL:WEATHER_ATTRIBUTE above ] [SL:WEATHER_ATTRIBUTE 11 ] [SL:WEATHER_TEMPERATURE_UNIT Celsius ] [SL:LOCATION here ] ]	weather	en_XX
+set an alarm for 5am named get up	[IN:CREATE_ALARM [SL:DATE_TIME for 5 am ] [SL:ALARM_NAME get up ] ]	[IN:CREATE_ALARM [SL:DATE_TIME for 5 am ] [SL:ALARM_NAME get up ] ]	alarm	en_XX
+I wanna snooze the alarm to give me 15 more minutes sleep	[IN:SNOOZE_ALARM [SL:DATE_TIME 15 more minutes ] ]	[IN:SNOOZE_ALARM [SL:DATE_TIME 15 more minutes ] ]	alarm	en_XX
+Can you set a reminder to look at flights at 5:30 AM Tuesday?	[IN:CREATE_REMINDER [SL:TODO look at flights ] [SL:DATE_TIME at 5 : 30 AM Tuesday ] ]	[IN:CREATE_REMINDER [SL:TODO look at flights ] [SL:DATE_TIME at 5 : 30 AM Tuesday ] ]	reminder	en_XX
+New alarm for film contest tomorrow at 8	[IN:CREATE_ALARM [SL:DATE_TIME tomorrow at 8 ] ]	[IN:CREATE_ALARM [SL:DATE_TIME tomorrow at 8 ] ]	alarm	en_XX
+Has co workers chat sent me anything	[IN:GET_MESSAGE [SL:GROUP co workers ] [SL:RECIPIENT me ] ]	[IN:GET_MESSAGE [SL:GROUP co workers ] [SL:RECIPIENT me ] ]	messaging	en_XX
+Send Comic Con to Mary	[IN:SHARE_EVENT [SL:TITLE_EVENT Comic Con ] [SL:CONTACT Mary ] ]	[IN:SHARE_EVENT [SL:TITLE_EVENT Comic Con ] [SL:CONTACT Mary ] ]	event	en_XX
+change the channel to Spotify	[IN:PLAY_MUSIC [SL:MUSIC_TYPE channel ] [SL:MUSIC_PROVIDER_NAME Spotify ] ]	[IN:PLAY_MUSIC [SL:MUSIC_TYPE channel ] [SL:MUSIC_PROVIDER_NAME Spotify ] ]	music	en_XX
+I want replies from Greg today	[IN:GET_MESSAGE [SL:SENDER Greg ] [SL:DATE_TIME today ] ]	[IN:GET_MESSAGE [SL:SENDER Greg ] [SL:DATE_TIME today ] ]	messaging	en_XX
+What is the weather like in Adelaide?	[IN:GET_WEATHER [SL:LOCATION Adelaide ] ]	[IN:GET_WEATHER [SL:LOCATION Adelaide ] ]	weather	en_XX
+things to do this weekend	[IN:GET_EVENT [SL:DATE_TIME this weekend ] ]	[IN:GET_EVENT [SL:DATE_TIME this weekend ] ]	event	en_XX
+Play me The Yellow Submarine album please	[IN:PLAY_MUSIC [SL:MUSIC_ALBUM_TITLE The Yellow Submarine ] [SL:MUSIC_TYPE album ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ALBUM_TITLE The Yellow Submarine ] [SL:MUSIC_TYPE album ] ]	music	en_XX
+Let's send my husband a video message response	[IN:SEND_MESSAGE [SL:RECIPIENT my husband ] [SL:TYPE_CONTENT video ] ]	[IN:SEND_MESSAGE [SL:RECIPIENT [IN:GET_CONTACT [SL:CONTACT_RELATED my ] [SL:TYPE_RELATION husband ] ] ] [SL:TYPE_CONTENT video ] ]	messaging	en_XX
+Please play 2Pac on Apple Music	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME 2Pac ] [SL:MUSIC_PROVIDER_NAME Apple ] [SL:MUSIC_TYPE Music ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME 2Pac ] [SL:MUSIC_PROVIDER_NAME Apple ] [SL:MUSIC_TYPE Music ] ]	music	en_XX
+Could you tell me the weather of Colorado?	[IN:GET_WEATHER [SL:LOCATION Colorado ] ]	[IN:GET_WEATHER [SL:LOCATION Colorado ] ]	weather	en_XX
+Can you play some country music?	[IN:PLAY_MUSIC [SL:MUSIC_GENRE country ] [SL:MUSIC_TYPE music ] ]	[IN:PLAY_MUSIC [SL:MUSIC_GENRE country ] [SL:MUSIC_TYPE music ] ]	music	en_XX
+Will it rain in Las Vegas. NV next week?	[IN:GET_WEATHER [SL:WEATHER_ATTRIBUTE rain ] [SL:LOCATION Las Vegas ] [SL:DATE_TIME next week ] ]	[IN:GET_WEATHER [SL:WEATHER_ATTRIBUTE rain ] [SL:LOCATION Las Vegas ] [SL:DATE_TIME next week ] ]	weather	en_XX
+check if katie is online right now	[IN:GET_AVAILABILITY [SL:CONTACT katie ] ]	[IN:GET_AVAILABILITY [SL:CONTACT katie ] ]	calling	en_XX

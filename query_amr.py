@@ -31,8 +31,8 @@ def call_chatgpt(input_prompt):
     return response
 
 # ----- Output file definition ------#
-input_test_file = "nlu_data/mtop_flat_simple/en/train.txt"
-write_output= 'nlu_data/mtop_flat_simple/en/train_amr.txt'
+input_test_file = "nlu_data/mtop_flat_simple/en/demo_100.txt"
+write_output= 'nlu_data/mtop_flat_simple/en/demo_100_label.txt'
 
 with open(input_test_file, 'r') as file:
     content = file.read()
