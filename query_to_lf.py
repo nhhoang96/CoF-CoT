@@ -188,6 +188,8 @@ parser.add_argument("--dataset", default="MTOP", choices=["MTOP", "MASSIVE"], ty
 parser.add_argument("--type_condition", default='control', type=str, help='Kind of conditioning: (none, control, control_filter)')
 parser.add_argument("--add_demo", choices=['true','false'], default='false', type=str)
 parser.add_argument("--output_for", choices=['api','test'], default='test', type=str)
+parser.add_argument("--number_output",  default=10, type=int)
+parser.add_argument("--temperature",  default=1, type=float)
 
 args = parser.parse_args()
 
@@ -239,7 +241,7 @@ for example in content[0:100]:
         direct_prompt += "Sentence: " + utterance + "\n"
         direct_prompt += "Just generate the Logic Form: "
         print ("Direct prompt", direct_prompt)
-        pred_lf = call_chatgpt(direct_prompt)
+        pred_lf = call_openai(direct_prompt, args.number_output, args.temperature)
         writer.write(json.dumps({"utterance": utterance, "pred_lf": pred_lf, "gold_lf": logical_form}) + '\n')
     else:
         # --- Step 1a: Get Intent
@@ -270,7 +272,7 @@ for example in content[0:100]:
             step_1a_prompt = demo_1 + '\n' + step_1a_prompt
         
         if (args.output_for == 'api'):
-            intent = call_chatgpt(step_1a_prompt)
+            intent = call_openai(step_1a_prompt, args.number_output, args.temperature)
             print("STEP 1a: Get Intent")
         else:
             print("STEP 1a: Get Intent \n", step_1a_prompt)
@@ -302,7 +304,7 @@ for example in content[0:100]:
             step_1b_prompt  = demo_1b + '\n' + step_1b_prompt 
 
         if (args.output_for == 'api'):
-            amr_graph = call_chatgpt(step_1b_prompt)
+            amr_graph = call_openai(step_1b_prompt, args.number_output, args.temperature)
             print("STEP 1b: Get AMR Graph")
         else:
             print("STEP 1b: Get AMR Graph", step_1b_prompt)
@@ -339,7 +341,7 @@ for example in content[0:100]:
             step_2_prompt  = demo_2 + '\n' + step_2_prompt 
 
         if (args.output_for == 'api'):
-            key_phrases = call_chatgpt(step_2_prompt)
+            key_phrases = call_openai(step_2_prompt, args.number_output, args.temperature)
             print("STEP 2: Get Key Phrases")
         else:
             print("STEP 2: Get Key Phrases", step_2_prompt)
@@ -383,7 +385,7 @@ for example in content[0:100]:
             step_3_prompt  = demo_3 + '\n' + step_3_prompt 
 
         if (args.output_for == 'api'):
-            slot_type = call_chatgpt(step_3_prompt)
+            slot_type = call_openai(step_3_prompt, args.number_output, args.temperature)
             print("STEP 3: Get Slot Type")
         else:
             slot_type=''
@@ -414,7 +416,7 @@ for example in content[0:100]:
 
             step_4_prompt  = demo_4 + '\n' + step_4_prompt 
     if (args.output_for == 'api'):
-        pred_lf = call_chatgpt(step_4_prompt)
+        pred_lf = call_openai(step_4_prompt, args.number_output, args.temperature)
         print("STEP 4: Get Logic Form")
     else:
         pred_lf =''
