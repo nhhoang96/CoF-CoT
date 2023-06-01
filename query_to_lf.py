@@ -9,6 +9,7 @@ import time
 import argparse
 import re
 import openai
+from collections import Counter
 
 openai.api_key = "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"
 model_name = "gpt-3.5-turbo"
@@ -88,21 +89,28 @@ def get_intent_slot_vob(dataset):
     return intent_vocab, slot_vocab
 
 
-def call_chatgpt(input_prompt):
+def call_openai(que_promp, output_num, temperature):
     success = False
     while success == False:
         try:
             response = openai.ChatCompletion.create(
-                model = model_name,
+                model="gpt-3.5-turbo",
                 messages=[
-                    {"role": "user", "content": input_prompt}
-                ]
+                    {"role": "user", "content": que_promp}
+                ],
+                n = output_num,
+                temperature = temperature,
             )
             success = True
         except:
             time.sleep(1)
-    response = response["choices"][0]['message']['content'].strip()
-    return response
+    return response["choices"]
+
+
+def find_majority(inputs):
+    counter = Counter(inputs)
+    majority = counter.most_common(1)
+    return majority[0][0]
 
 def parse_lf(lf):
     #print ("LF", lf)
