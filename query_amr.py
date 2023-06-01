@@ -34,6 +34,8 @@ def call_chatgpt(input_prompt):
 input_test_file = "nlu_data/mtop_flat_simple/en/demo_100.txt"
 write_output= 'nlu_data/mtop_flat_simple/en/demo_100_label.txt'
 
+writer = open(write_output, 'w')
+
 with open(input_test_file, 'r') as file:
     content = file.read()
 
@@ -55,5 +57,4 @@ for example in tqdm(content[0:100]):
     output.append(amr_graph)
     write_output = '\t'.join(output)
     
-    #writer.write(json.dumps({"utterance": utterance, "intent": intent, "AMR Graph": amr_graph, "key_phrase":
-    #    key_phrases, "slot_type": slot_type, "pred_lf": pred_lf, "gold_lf": logical_form}) + '\n')
+    writer.write(json.dumps({"utterance": utterance,  "AMR Graph": write_output}))
