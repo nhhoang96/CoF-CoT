@@ -38,3 +38,26 @@ python query_to_lf.py --type_condition='control_filter' --add_demo='true' --outp
 python query_amr.py
 ```
 
+# Note (June 5th)
+
+(1) Run exp with different structured rep  (Exp with base CoT w/o Demos)
+```
+python query_to_lf.py --type_condition='none' --add_demo='false' --output_for='api' --structure_rep=${rep}
+```
+
+where rep ```${rep}```: Structured representation as either 'dp': for Dependency Parsing, 'cp': Constituency Parsing, 'amr': AMR Graph
+
+
+(2) Run exp with CoT conditioning & CoT conditioning-filter (fixed from note May 30th) 
+```
+
+python query_to_lf.py --type_condition='control' --add_demo='false' --output_for='api' 
+python query_to_lf.py --type_condition='control_filter' --add_demo='false' --output_for='api' 
+```
+
+(3) Generate Label Definitions and output as a JSON file for future loading. The output should be generated as ./nlu_data/mtop_flat_simple/intent_vocab_map.jsonl and ./nlu_data_mtop_flat_simple/slot_vocab_map.jsonl
+```
+python query_label_desc.py
+```
+
+
