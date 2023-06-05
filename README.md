@@ -45,7 +45,7 @@ python query_amr.py
 python query_to_lf.py --type_condition='none' --add_demo='false' --output_for='api' --structure_rep=${rep}
 ```
 
-where rep ```${rep}```: Structured representation as either 'dp': for Dependency Parsing, 'cp': Constituency Parsing, 'amr': AMR Graph
+where rep ```${rep}```: Structured representation as either **'dp'**: for Dependency Parsing, **'cp'**: Constituency Parsing, **'amr'**: AMR Graph
 
 
 (2) Run exp with CoT conditioning & CoT conditioning-filter (fixed from note May 30th) 
