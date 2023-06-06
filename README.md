@@ -50,7 +50,7 @@ where rep ```${rep}```: Structured representation as either **'dp'**: for Depend
 
 (2) Run exp with CoT conditioning & CoT conditioning-filter (fixed from note May 30th) 
 ```
-
+python query_to_lf.py --type_condition='control_single' --add_demo='false' --output_for='api' 
 python query_to_lf.py --type_condition='control' --add_demo='false' --output_for='api' 
 python query_to_lf.py --type_condition='control_filter' --add_demo='false' --output_for='api' 
 ```

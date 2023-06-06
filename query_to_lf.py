@@ -9,6 +9,8 @@ import time
 import argparse
 import re
 from collections import Counter
+import numpy as np
+import copy
 
 
 structure_map={'amr': 'Abstract Meaning Representation (AMR) Graph in the textual Neo-Davidson format', 'dp': 'Dependency Parsing Graph', 'cp': 'Constituency Parsing Graph'}
@@ -157,6 +159,7 @@ with open(input_test_file, 'r') as file:
 input_fs_file = "nlu_data/mtop_flat_simple/en/fs.txt"
 
 demo_ex=[]
+demo_dict_ex={'utt':[], 'intent':[], 'key_phrase':[], 'pair':[], 'AMR':[], 'lf':[], 'utt_length':[]}
 ex_counter=0
 for line in open(input_fs_file, 'r'):
     ex = line.strip().split('\t')
@@ -174,11 +177,43 @@ for line in open(input_fs_file, 'r'):
     demo_dict['AMR'] = amr_info
     demo_dict['lf'] = lf
 
+    demo_dict_ex['utt'].append(utt)
+    demo_dict_ex['intent'].append(intent)
+    demo_dict_ex['key_phrase'].append(','.join(slot_vals))
+    demo_dict_ex['pair'].append(','.join(map(str, slot_pairs)))
+    demo_dict_ex['AMR'].append(amr_info)
+    demo_dict_ex['lf'].append(lf)
+
+    demo_dict_ex['utt_length'].append(len(utt.split(' ')))
+
+
     print ("Demo dict", demo_dict)
     demo_ex.append(demo_dict)
     ex_counter += 1
     #break
 
+#---- Conduct selection
+#--- Complex COT = longest_utt length
+
+#sorted_idx = copy.deepcopy(demo_dict_ex['utt_length'])
+#sorted_idx = sorted(sorted_idx, reverse=True)
+#top_num= sorted_idx[:3]
+
+#print ("Length example", demo_dict_ex['utt_length'])
+sorted_idx = copy.deepcopy(np.array(demo_dict_ex['utt_length']))
+sorted_idx = np.argsort(sorted_idx)
+top_num= sorted_idx[::-1][:3] #idx of max_elements
+
+
+
+#print ("Top num", top_num)
+selected_demo_dict_ex={'utt':[], 'intent':[], 'key_phrase':[], 'pair':[], 'AMR':[], 'lf':[]}
+
+for k,v in demo_dict_ex.items():
+    v = copy.deepcopy(np.array(v))
+    selected_v = v[top_num]
+    selected_demo_dict_ex[k] = list(selected_v)
+#print ("Selected", selected_demo_dict_ex)
 
     
 parser = argparse.ArgumentParser()
@@ -254,10 +289,12 @@ for example in content[0:100]:
         # --- Step 1a: Get Intent
         if (args.type_condition == 'none'):
             step_1a_prompt = gen_step_1 + 'Intent Vocabulary: ' + intent_str + '\n'
+
+        elif (args.type_condition == 'control_single'):
+            step_1a_prompt = gen_step_1 + 'Intent Vocabulary: ' + intent_str + '\n'
         elif (args.type_condition == 'control'):
             step_1a_prompt = gen_step_1c + 'Intent Vocabulary: ' + intent_str + '\n'
         elif (args.type_condition == 'control_filter'):
-
             step_1a_prompt = gen_step_1c_filter + 'Intent Vocabulary: ' + intent_str + '\n'
         step_1a_prompt += 'Sentence: ' + utterance + '\n'
         step_1a_prompt += 'Intent type: ' + '\n'
@@ -266,8 +303,13 @@ for example in content[0:100]:
         if (args.add_demo == 'true'):
             if (args.type_condition == 'none'):
                 demo_1 = gen_step_1 + 'Intent Vocabulary: ' + intent_str + '\n'
-            else:
+
+            elif (args.type_condition == 'control_single'):
+                demo_1 = gen_step_1 + 'Intent Vocabulary: ' + intent_str + '\n'
+            elif (args.type_condition == 'control'):
                 demo_1 = gen_step_1c + 'Intent Vocabulary: ' + intent_str + '\n'
+            elif (args.type_condition == 'control_filter'):
+                demo_1 = gen_step_1c_filter + 'Intent Vocabulary: ' + intent_str + '\n'
             for dem in demo_ex:
                 demo_utt = dem['utt']
                 demo_intent = dem['intent']
