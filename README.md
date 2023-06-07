@@ -63,4 +63,10 @@ python query_to_lf.py --type_condition='control_filter' --add_demo='false' --out
 python query_label_desc.py
 ```
 
+(4) Run baseline: SC-CoT, ComplexCoT
+```
+python query_to_lf.py --type_condition='none' --add_demo='false' --output_for='api' --number_output=10 --voting_method='major'
+python query_to_lf.py --type_condition='none' --add_demo='false' --output_for='api' --number_output=10 --voting_method='complex'
+```
+
 

@@ -47,7 +47,7 @@ def get_intent_slot_vob(dataset):
     return intent_vocab, slot_vocab
 
 
-def call_openai(que_promp, output_num, temperature):
+def call_openai(args, que_promp, output_num, temperature):
     success = False
     while success == False:
         try:
@@ -66,13 +66,38 @@ def call_openai(que_promp, output_num, temperature):
     if (output_num == 1):
         return response['choices'][0]['message']['content']
     else: #TODO: Multiple outputs for future consistency/ majority voting performance
-        return response["choices"]
+
+        predictions = get_generated_list(response['choices'])
+        if (args.voting_method == 'major'):
+            output = find_majority(predictions)
+        elif ('complex' in args.voting_method):
+            output = find_most_complex(predictions)
+        
+        return output
+        #return get_generated_list(response['choices'])
+
+def get_generated_list(response_list):
+    que_list = []
+    for que in response_list:
+        que_list.append(que['message']['content'])
+    return que_list
 
 
 def find_majority(inputs):
     counter = Counter(inputs)
     majority = counter.most_common(1)
     return majority[0][0]
+
+def find_most_complex(inputs):
+    #print ("All inputs", inputs)
+    lengths = [len(x) for x in inputs]
+    np_len = np.array(lengths)
+    idx_np = np.argsort(np_len)[::-1][0]
+    longest_ans = np.array(inputs)[idx_np]
+    #print ("INs", longest_ans)
+    return longes_ans
+    
+
 
 def parse_lf(lf):
     #print ("LF", lf)
@@ -183,6 +208,8 @@ parser.add_argument("--dataset", default="MTOP", choices=["MTOP", "MASSIVE"], ty
 parser.add_argument("--type_condition", default='control', type=str, help='Kind of conditioning: (none, control, control_filter)')
 parser.add_argument("--add_demo", choices=['true','false'], default='false', type=str)
 parser.add_argument("--output_for", choices=['api','test'], default='test', type=str)
+
+parser.add_argument("--voting_method", default='major', type=str)
 parser.add_argument("--structure_rep",  choices=['amr','dp','cp'], default='amr', type=str)
 parser.add_argument("--number_output",  default=2, type=int)
 parser.add_argument("--temperature",  default=1, type=float)
@@ -231,7 +258,8 @@ direct_prompt += "Slot Type: " + slot_str + "\n"
 
 type_prompt = "chain_of"
 add_demo, condition_type = args.add_demo, args.type_condition
-result_output_file = f'./result/{type_prompt}_demo_{add_demo}_condition_{condition_type}_dialogue.jsonl'
+add_voting = args.voting_method
+result_output_file = f'./result/{type_prompt}_demo_{add_demo}_condition_{condition_type}_voting_{add_voting}_dialogue.jsonl'
 writer = open(result_output_file, 'w')
 slot_type=''
 intent=''
@@ -239,14 +267,14 @@ amr_graph=''
 key_phrases=''
 
 content = content.split("\n")
-for example in content[0:1]:
+for example in content[0:100]:
     utterance, logical_form, _, _, tag = example.split("\t")
     # --- Directly prompt
     if type_prompt == "direct":
         direct_prompt += "Sentence: " + utterance + "\n"
         direct_prompt += "Just generate the Logic Form: "
         print ("Direct prompt", direct_prompt)
-        pred_lf = call_openai(direct_prompt, args.number_output, args.temperature)
+        pred_lf = call_openai(args,direct_prompt, args.number_output, args.temperature)
         writer.write(json.dumps({"utterance": utterance, "pred_lf": pred_lf, "gold_lf": logical_form}) + '\n')
     else:
         # --- Step 1a: Get Intent
@@ -284,7 +312,7 @@ for example in content[0:1]:
             step_1a_prompt = demo_1 + '\n' + step_1a_prompt
         
         if (args.output_for == 'api'):
-            intent = call_openai(step_1a_prompt, args.number_output, args.temperature)
+            intent = call_openai(args,step_1a_prompt, args.number_output, args.temperature)
             print("STEP 1a: Get Intent")
         else:
             print("STEP 1a: Get Intent \n", step_1a_prompt)
@@ -317,9 +345,10 @@ for example in content[0:1]:
             step_1b_prompt  = demo_1b + '\n' + step_1b_prompt 
 
         if (args.output_for == 'api'):
-            amr_graph = call_openai(step_1b_prompt, args.number_output, args.temperature)
-
+            amr_graph = call_openai(args,step_1b_prompt, args.number_output, args.temperature)
+            
             print("STEP 1b: Get AMR Graph")
+            print ("AMR", amr_graph)
         else:
             print("STEP 1b: Get AMR Graph", step_1b_prompt)
             amr_graph=''
@@ -355,7 +384,7 @@ for example in content[0:1]:
             step_2_prompt  = demo_2 + '\n' + step_2_prompt 
 
         if (args.output_for == 'api'):
-            key_phrases = call_openai(step_2_prompt, args.number_output, args.temperature)
+            key_phrases = call_openai(args,step_2_prompt, args.number_output, args.temperature)
             print("STEP 2: Get Key Phrases")
         else:
             print("STEP 2: Get Key Phrases", step_2_prompt)
@@ -399,7 +428,7 @@ for example in content[0:1]:
             step_3_prompt  = demo_3 + '\n' + step_3_prompt 
 
         if (args.output_for == 'api'):
-            slot_type = call_openai(step_3_prompt, args.number_output, args.temperature)
+            slot_type = call_openai(args,step_3_prompt, args.number_output, args.temperature)
             print("STEP 3: Get Slot Type")
         else:
             slot_type=''
@@ -427,13 +456,12 @@ for example in content[0:1]:
                 demo_4 += "Slot Type, Slot Value pairs: " + demo_pair + '\n'
                 demo_4 += 'Logic Form: ' + dem['lf'] + '\n'
 
-
             step_4_prompt  = demo_4 + '\n' + step_4_prompt 
-    if (args.output_for == 'api'):
-        pred_lf = call_openai(step_4_prompt, args.number_output, args.temperature)
-        print("STEP 4: Get Logic Form")
-    else:
-        pred_lf =''
-        print("STEP 4: Get Logic Form", step_4_prompt)
+        if (args.output_for == 'api'):
+            pred_lf = call_openai(args,step_4_prompt, args.number_output, args.temperature)
+            print("STEP 4: Get Logic Form")
+        else:
+            pred_lf =''
+            print("STEP 4: Get Logic Form", step_4_prompt)
         writer.write(json.dumps({"utterance": utterance, "intent": intent, "AMR Graph": amr_graph, "key_phrase":
             key_phrases, "slot_type": slot_type, "pred_lf": pred_lf, "gold_lf": logical_form}) + '\n')
