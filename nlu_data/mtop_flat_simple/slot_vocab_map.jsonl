@@ -1,0 +1,76 @@
+{"label": "music_radio_id", "label_description": "Identifier for a music radio station."}
+{"label": "alarm_name", "label_description": "Name of the alarm system."}
+{"label": "recipes_diet", "label_description": "Healthy and nutritious meal ideas for all diets."}
+{"label": "recipes_meal", "label_description": "Collection of meal recipes for all occasions."}
+{"label": "group", "label_description": "A set of individuals with shared characteristics or goals."}
+{"label": "attendee", "label_description": "A person who is present at an event."}
+{"label": "music_artist_name", "label_description": "Name of a musical artist or band."}
+{"label": "location", "label_description": "Identifies whereabouts or position of something/someone."}
+{"label": "recipes_unit_nutrition", "label_description": "Recipes with unit nutrition information included."}
+{"label": "recipes_cooking_method", "label_description": "Instructions for preparing dishes using specific techniques."}
+{"label": "music_album_title", "label_description": "Title of a musical album."}
+{"label": "music_track_title", "label_description": "Title of a musical track."}
+{"label": "title_event", "label_description": "Title of a scheduled event."}
+{"label": "weather_temperature_unit", "label_description": "Unit used to measure temperature in weather forecasts."}
+{"label": "music_playlist_title", "label_description": "Title of a music playlist."}
+{"label": "attendee_event", "label_description": "Record of person who attended event."}
+{"label": "music_type", "label_description": "Type or genre of music."}
+{"label": "recipes_source", "label_description": "Source of recipes used for the dish."}
+{"label": "user_attendee_event", "label_description": "User attending an event."}
+{"label": "todo", "label_description": "List of tasks to be completed."}
+{"label": "method_timer", "label_description": "Calculates and records time for a specified method."}
+{"label": "recipes_type_nutrition", "label_description": "Nutritional content of recipe categorized by type."}
+{"label": "phone_number", "label_description": "A sequence of digits used to contact someone."}
+{"label": "amount", "label_description": "Quantity or numerical value of something."}
+{"label": "method_retrieval_reminder", "label_description": "Reminds user to use retrieval practice method."}
+{"label": "type_relation", "label_description": "Indicates the relationship between different types of entities."}
+{"label": "category_event", "label_description": "Events labeled by their category."}
+{"label": "date_time", "label_description": "Date and time of an event or occurrence."}
+{"label": "job", "label_description": "Employment opportunity; work task."}
+{"label": "news_topic", "label_description": "Current event or trending news story."}
+{"label": "contact_method", "label_description": "Method used to communicate or connect with someone."}
+{"label": "age", "label_description": "Indication of how long one has lived."}
+{"label": "recipes_attribute", "label_description": "Attributes of recipes, such as ingredients, cooking time, etc."}
+{"label": "person_reminded", "label_description": "A person who is reminded or prompted."}
+{"label": "recipes_included_ingredient", "label_description": "Recipes that include a specific ingredient."}
+{"label": "timer_name", "label_description": "Name of a specific timer."}
+{"label": "recipes_type", "label_description": "Type or category of recipe."}
+{"label": "major", "label_description": "Significant or prominent in importance or scale."}
+{"label": "news_reference", "label_description": "A reference to a news source or article."}
+{"label": "ordinal", "label_description": "Categorical data with a natural order or ranking."}
+{"label": "school", "label_description": "Educational institution where students are taught academic subjects."}
+{"label": "news_type", "label_description": "Type or category of news articles."}
+{"label": "sender", "label_description": "Person or entity sending a message or package."}
+{"label": "O", "label_description": "Unknown or unidentifiable object."}
+{"label": "music_genre", "label_description": "Type or category of music."}
+{"label": "recipes_qualifier_nutrition", "label_description": "Nutrition-related recipe qualifications."}
+{"label": "contact_related", "label_description": "Related to communication or interaction with others."}
+{"label": "music_album_modifier", "label_description": "Modification or differentiation of a music album."}
+{"label": "recipes_dish", "label_description": "Collection of recipes for specific dishes."}
+{"label": "recipient", "label_description": "Person or entity receiving item or communication."}
+{"label": "recipes_excluded_ingredient", "label_description": "Recipes that do not contain a specific ingredient."}
+{"label": "news_source", "label_description": "The source of the news being reported."}
+{"label": "music_rewind_time", "label_description": "Listen to previously played songs on repeat."}
+{"label": "recipes_cuisine", "label_description": "Collection of recipes categorized by cuisine type."}
+{"label": "recipes_time_preparation", "label_description": "Preparation time for recipes."}
+{"label": "contact", "label_description": "Information for reaching out to someone."}
+{"label": "content_exact", "label_description": "Exact match of content within defined parameters."}
+{"label": "music_provider_name", "label_description": "Name of the music provider."}
+{"label": "recipes_unit_measurement", "label_description": "Recipes with specified unit measurements for ingredients."}
+{"label": "news_category", "label_description": "Categorization of news articles."}
+{"label": "life_event", "label_description": "Significant occurrence in someone's personal journey."}
+{"label": "type_content", "label_description": "Distinguishing content by format or category."}
+{"label": "employer", "label_description": "An entity that hires people to work for them."}
+{"label": "similarity", "label_description": "Comparison of likeness or resemblance."}
+{"label": "contact_added", "label_description": "Indicates a new contact has been added."}
+{"label": "contact_removed", "label_description": "Contact no longer accessible or deleted."}
+{"label": "recipes_rating", "label_description": "Rating system for recipes."}
+{"label": "type_contact", "label_description": "Specify the type of contact."}
+{"label": "weather_attribute", "label_description": "Attributes describing the weather."}
+{"label": "attribute_event", "label_description": "Attributes assigned to an event or action."}
+{"label": "period", "label_description": "Menstruation cycle lasting 3-7 days."}
+{"label": "name_app", "label_description": "Name of the application."}
+{"label": "music_playlist_modifier", "label_description": "Edits, modifies, or adjusts a music playlist."}
+{"label": "education_degree", "label_description": "Degree level achieved in academic education."}
+{"label": "method_recipes", "label_description": "Collection of cooking techniques and instructions."}
+{"label": "gender", "label_description": "Classification based on biological sex."}

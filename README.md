@@ -55,9 +55,10 @@ python query_to_lf.py --type_condition='control' --add_demo='false' --output_for
 python query_to_lf.py --type_condition='control_filter' --add_demo='false' --output_for='api' 
 ```
 
-(3) Generate Label Definitions and output as a JSON file for future loading. The output should be generated as ./nlu_data/mtop_flat_simple/intent_vocab_map.jsonl and ./nlu_data_mtop_flat_simple/slot_vocab_map.jsonl
+~~(3) Generate Label Definitions and output as a JSON file for future loading. The output should be generated as ./nlu_data/mtop_flat_simple/intent_vocab_map.jsonl and ./nlu_data_mtop_flat_simple/slot_vocab_map.jsonl
 ```
 python query_label_desc.py
 ```
+~~
 
 
