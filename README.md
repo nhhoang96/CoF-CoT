@@ -1,4 +1,7 @@
 # llm_nlu
+
+**NEW UPDATE**: Please create the key.txt file with your OPENAI KEY. query_to_lf.py will read the key from that file (one-line) before running ChatCompletion
+
 Put the evaluating file under ./gpt_output and change the variable file_name in cal_metric.py to run the evaluation
 
 # Additional Note (May 25th)

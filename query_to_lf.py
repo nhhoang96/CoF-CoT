@@ -13,79 +13,36 @@ import numpy as np
 import copy
 
 
+
 structure_map={'amr': 'Abstract Meaning Representation (AMR) Graph in the textual Neo-Davidson format', 'dp': 'Dependency Parsing Graph', 'cp': 'Constituency Parsing Graph'}
 
 
 def get_intent_slot_vob(dataset):
     if dataset == "MTOP":
-        # ---- MTOP ------#
-        intent_vocab = ['add_time_timer', 'add_to_playlist_music', 'answer_call', 'cancel_call', 'cancel_message',
-                        'create_alarm', 'create_call', 'create_playlist_music', 'create_reminder', 'create_timer',
-                        'delete_alarm', 'delete_playlist_music', 'delete_reminder', 'delete_timer', 'dislike_music',
-                        'disprefer', 'end_call', 'fast_forward_music', 'follow_music', 'get_age', 'get_airquality',
-                        'get_alarm', 'get_attendee_event', 'get_availability', 'get_call', 'get_call_contact',
-                        'get_call_time', 'get_category_event', 'get_contact', 'get_contact_method',
-                        'get_date_time_event', 'get_details_news', 'get_education_degree', 'get_education_time',
-                        'get_employer', 'get_employment_time', 'get_event', 'get_gender', 'get_group',
-                        'get_info_contact', 'get_info_recipes', 'get_job', 'get_language', 'get_life_event',
-                        'get_life_event_time', 'get_location', 'get_lyrics_music', 'get_major', 'get_message',
-                        'get_message_contact', 'get_mutual_friends', 'get_recipes', 'get_reminder',
-                        'get_reminder_amount', 'get_reminder_date_time', 'get_reminder_location', 'get_stories_news',
-                        'get_sunrise', 'get_sunset', 'get_timer', 'get_track_info_music', 'get_undergrad',
-                        'get_weather', 'help_reminder', 'hold_call', 'ignore_call', 'is_true_recipes', 'like_music',
-                        'loop_music', 'merge_call', 'pause_music', 'pause_timer', 'play_media', 'play_music', 'prefer',
-                        'previous_track_music', 'question_music', 'question_news', 'remove_from_playlist_music',
-                        'repeat_all_music', 'repeat_all_off_music', 'replay_music', 'restart_timer', 'resume_call',
-                        'resume_music', 'resume_timer', 'rewind_music', 'send_message', 'set_available',
-                        'set_default_provider_calling', 'set_default_provider_music', 'set_rsvp_interested',
-                        'set_rsvp_no', 'set_rsvp_yes', 'set_unavailable', 'share_event', 'silence_alarm',
-                        'skip_track_music', 'snooze_alarm', 'start_shuffle_music', 'stop_music', 'stop_shuffle_music',
-                        'subtract_time_timer', 'switch_call', 'unloop_music', 'update_alarm', 'update_call',
-                        'update_method_call', 'update_reminder', 'update_reminder_date_time',
-                        'update_reminder_location', 'update_reminder_todo', 'update_timer']
+        intent_vocab, slot_vocab = [], []
+        intent_file = './nlu_data/mtop_flat_simple/intent_vocab.txt'
+        slot_file = './nlu_data/mtop_flat_simple/slot_vocab.txt'
+
+        for line in open(intent_file, 'r'):
+            intent_vocab.append(line.strip())
+
+        for line in open(slot_file, 'r'):
+            slot_vocab.append(line.strip())
 
 
-        slot_vocab = ['music_radio_id', 'alarm_name', 'recipes_diet', 'recipes_meal', 'group', 'attendee',
-                      'music_artist_name', 'location', 'recipes_unit_nutrition', 'recipes_cooking_method',
-                      'music_album_title', 'music_track_title', 'title_event', 'weather_temperature_unit',
-                      'music_playlist_title', 'attendee_event', 'music_type', 'recipes_source', 'user_attendee_event',
-                      'todo', 'method_timer', 'recipes_type_nutrition', 'phone_number', 'amount',
-                      'method_retrieval_reminder', 'type_relation', 'category_event', 'date_time', 'job', 'news_topic',
-                      'contact_method', 'age', 'recipes_attribute', 'person_reminded', 'recipes_included_ingredient',
-                      'timer_name', 'recipes_type', 'major', 'news_reference', 'ordinal', 'school', 'news_type',
-                      'sender', 'O', 'music_genre', 'recipes_qualifier_nutrition', 'contact_related',
-                      'music_album_modifier', 'recipes_dish', 'recipient', 'recipes_excluded_ingredient', 'news_source',
-                      'music_rewind_time', 'recipes_cuisine', 'recipes_time_preparation', 'contact', 'content_exact',
-                      'music_provider_name', 'recipes_unit_measurement', 'news_category', 'life_event', 'type_content',
-                      'employer', 'similarity', 'contact_added', 'contact_removed', 'recipes_rating', 'type_contact',
-                      'weather_attribute', 'attribute_event', 'period', 'name_app', 'music_playlist_modifier',
-                      'education_degree', 'method_recipes', 'gender']
 
     elif dataset == "MASSIVE":
         # ----- MASSIVE -----#
-        intent_vocab = ['qa_currency', 'iot_wemo_off', 'general_greet', 'play_music', 'iot_coffee', 'play_radio',
-                        'lists_createoradd', 'audio_volume_down', 'music_dislikeness', 'takeaway_order',
-                        'music_likeness', 'weather_query', 'audio_volume_mute', 'alarm_query', 'email_sendemail',
-                        'takeaway_query', 'cooking_recipe', 'lists_query', 'email_querycontact', 'iot_cleaning',
-                        'social_post', 'transport_query', 'qa_stock', 'play_audiobook', 'qa_maths', 'play_game',
-                        'audio_volume_other', 'music_query', 'alarm_remove', 'qa_factoid', 'general_joke',
-                        'iot_hue_lightdim', 'calendar_remove', 'iot_hue_lightoff', 'play_podcasts', 'transport_ticket',
-                        'email_query', 'iot_hue_lightchange', 'news_query', 'transport_taxi', 'cooking_query',
-                        'general_quirky', 'lists_remove', 'calendar_set', 'recommendation_movies', 'iot_wemo_on',
-                        'recommendation_locations', 'datetime_convert', 'transport_traffic', 'alarm_set',
-                        'calendar_query', 'qa_definition', 'audio_volume_up', 'iot_hue_lightup', 'iot_hue_lighton',
-                        'music_settings', 'recommendation_events', 'datetime_query', 'email_addcontact', 'social_query']
 
-        slot_vocab = ['alarm_type', 'app_name', 'artist_name', 'audiobook_author', 'audiobook_name', 'business_name',
-                      'business_type', 'change_amount', 'coffee_type', 'color_type', 'cooking_type', 'currency_name',
-                      'date', 'definition_word', 'device_type', 'drink_type', 'email_address', 'email_folder',
-                      'event_name', 'food_type', 'game_name', 'game_type', 'general_frequency', 'house_place',
-                      'ingredient', 'joke_type', 'list_name', 'meal_type', 'media_type', 'movie_name', 'movie_type',
-                      'music_album', 'music_descriptor', 'music_genre', 'news_topic', 'order_type', 'person',
-                      'personal_info', 'place_name', 'player_setting', 'playlist_name', 'podcast_descriptor',
-                      'podcast_name', 'radio_name', 'relation', 'song_name', 'sport_type', 'time', 'time_zone',
-                      'timeofday', 'transport_agency', 'transport_descriptor', 'transport_name', 'transport_type',
-                      'weather_descriptor']
+        intent_vocab, slot_vocab = [], []
+        intent_file = './nlu_data/massive_data_full/intent_vocab.txt'
+        slot_file = './nlu_data/massive_data_full/slot_vocab.txt'
+
+        for line in open(intent_file, 'r'):
+            intent_vocab.append(line.strip())
+
+        for line in open(slot_file, 'r'):
+            slot_vocab.append(line.strip())
 
     return intent_vocab, slot_vocab
 
@@ -223,7 +180,7 @@ parser.add_argument("--type_condition", default='control', type=str, help='Kind 
 parser.add_argument("--add_demo", choices=['true','false'], default='false', type=str)
 parser.add_argument("--output_for", choices=['api','test'], default='test', type=str)
 parser.add_argument("--structure_rep",  choices=['amr','dp','cp'], default='amr', type=str)
-parser.add_argument("--number_output",  default=10, type=int)
+parser.add_argument("--number_output",  default=2, type=int)
 parser.add_argument("--temperature",  default=1, type=float)
 
 args = parser.parse_args()
@@ -231,7 +188,11 @@ args = parser.parse_args()
 # OpenAPI api 
 if (args.output_for == 'api'):
     import openai
-    openai.api_key = "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"
+    #openai.api_key = "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"
+    key_file = open('./key.txt', 'r')
+    key = [k for k in key_file][0]
+    #print ("Key", key)
+    openai.api_key =  key
     model_name = "gpt-3.5-turbo"
 
 # ---- Generic Structure
@@ -276,7 +237,7 @@ amr_graph=''
 key_phrases=''
 
 content = content.split("\n")
-for example in content[0:100]:
+for example in content[0:1]:
     utterance, logical_form, _, _, tag = example.split("\t")
     # --- Directly prompt
     if type_prompt == "direct":
@@ -287,6 +248,7 @@ for example in content[0:100]:
         writer.write(json.dumps({"utterance": utterance, "pred_lf": pred_lf, "gold_lf": logical_form}) + '\n')
     else:
         # --- Step 1a: Get Intent
+        print ("Step 1a")
         if (args.type_condition == 'none'):
             step_1a_prompt = gen_step_1 + 'Intent Vocabulary: ' + intent_str + '\n'
 
