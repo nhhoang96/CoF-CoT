@@ -1,4 +1,7 @@
 # llm_nlu
+
+**NEW UPDATE**: Please create the key.txt file with your OPENAI KEY. query_to_lf.py will read the key from that file (one-line) before running ChatCompletion
+
 Put the evaluating file under ./gpt_output and change the variable file_name in cal_metric.py to run the evaluation
 
 # Additional Note (May 25th)
@@ -33,7 +36,7 @@ python query_to_lf.py --type_condition='control' --add_demo='true' --output_for=
 python query_to_lf.py --type_condition='control_filter' --add_demo='true' --output_for='api'
 ```
 
-(3) Generate AMR labels to prepare for future Demonstration Selection (use training dataset). Write output to data directory, naming as train_amr.txt, one more column than train.txt. It is possible to try out only <=100 examples for now.
+**DONE** ~~(3) Generate AMR labels to prepare for future Demonstration Selection (use training dataset). Write output to data directory, naming as train_amr.txt, one more column than train.txt. It is possible to try out only <=100 examples for now.~~
 ```
 python query_amr.py
 ```
@@ -42,7 +45,7 @@ python query_amr.py
 
 (1) Run exp with different structured rep  (Exp with base CoT w/o Demos)
 ```
-python query_to_lf.py --type_condition='none' --add_demo='false' --output_for='api' --structure_rep=${rep}
+python query_to_lf.py --type_condition='none' --add_demo='false' --output_for='api' --number_output=1 --structure_rep=${rep}
 ```
 
 where rep ```${rep}```: Structured representation as either **'dp'**: for Dependency Parsing, **'cp'**: Constituency Parsing, **'amr'**: AMR Graph
@@ -50,14 +53,20 @@ where rep ```${rep}```: Structured representation as either **'dp'**: for Depend
 
 (2) Run exp with CoT conditioning & CoT conditioning-filter (fixed from note May 30th) 
 ```
-python query_to_lf.py --type_condition='control_single' --add_demo='false' --output_for='api' 
-python query_to_lf.py --type_condition='control' --add_demo='false' --output_for='api' 
-python query_to_lf.py --type_condition='control_filter' --add_demo='false' --output_for='api' 
+python query_to_lf.py --type_condition='control_single' --add_demo='false' --output_for='api' --number_output=1
+python query_to_lf.py --type_condition='control' --add_demo='false' --output_for='api' --number_output=1
+python query_to_lf.py --type_condition='control_filter' --add_demo='false' --output_for='api' --number_output=1
 ```
 
 **DONE** ~~(3) Generate Label Definitions and output as a JSON file for future loading. The output should be generated as ./nlu_data/mtop_flat_simple/intent_vocab_map.jsonl and ./nlu_data_mtop_flat_simple/slot_vocab_map.jsonl~~
 ```
 python query_label_desc.py
+```
+
+(4) Run baseline: SC-CoT, ComplexCoT
+```
+python query_to_lf.py --type_condition='none' --add_demo='false' --output_for='api' --number_output=10 --voting_method='major'
+python query_to_lf.py --type_condition='none' --add_demo='false' --output_for='api' --number_output=10 --voting_method='complex'
 ```
 
 
