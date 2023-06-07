@@ -33,7 +33,7 @@ python query_to_lf.py --type_condition='control' --add_demo='true' --output_for=
 python query_to_lf.py --type_condition='control_filter' --add_demo='true' --output_for='api'
 ```
 
-(3) Generate AMR labels to prepare for future Demonstration Selection (use training dataset). Write output to data directory, naming as train_amr.txt, one more column than train.txt. It is possible to try out only <=100 examples for now.
+**DONE** ~~(3) Generate AMR labels to prepare for future Demonstration Selection (use training dataset). Write output to data directory, naming as train_amr.txt, one more column than train.txt. It is possible to try out only <=100 examples for now. ~~
 ```
 python query_amr.py
 ```
