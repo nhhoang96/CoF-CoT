@@ -62,7 +62,11 @@ def call_openai(que_promp, output_num, temperature):
             success = True
         except:
             time.sleep(1)
-    return response["choices"]
+    #print ("Response", response)
+    if (output_num == 1):
+        return response['choices'][0]['message']['content']
+    else: #TODO: Multiple outputs for future consistency/ majority voting performance
+        return response["choices"]
 
 
 def find_majority(inputs):
@@ -188,11 +192,9 @@ args = parser.parse_args()
 # OpenAPI api 
 if (args.output_for == 'api'):
     import openai
-    #openai.api_key = "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"
     key_file = open('./key.txt', 'r')
-    key = [k for k in key_file][0]
-    #print ("Key", key)
-    openai.api_key =  key
+    key = [k.strip() for k in key_file][0]
+    openai.api_key =  str(key)
     model_name = "gpt-3.5-turbo"
 
 # ---- Generic Structure
@@ -248,7 +250,6 @@ for example in content[0:1]:
         writer.write(json.dumps({"utterance": utterance, "pred_lf": pred_lf, "gold_lf": logical_form}) + '\n')
     else:
         # --- Step 1a: Get Intent
-        print ("Step 1a")
         if (args.type_condition == 'none'):
             step_1a_prompt = gen_step_1 + 'Intent Vocabulary: ' + intent_str + '\n'
 
@@ -297,6 +298,7 @@ for example in content[0:1]:
             step_1b_prompt += 'Potential Intent Types: ' + intent + '\n'
         
         step_1b_prompt += structure_map[args.structure_rep] + ': ' + '\n'
+        print ("Step 1b prompt", step_1b_prompt)
 
         #--- Demo 1b
         if (args.add_demo == 'true'):
@@ -316,6 +318,7 @@ for example in content[0:1]:
 
         if (args.output_for == 'api'):
             amr_graph = call_openai(step_1b_prompt, args.number_output, args.temperature)
+
             print("STEP 1b: Get AMR Graph")
         else:
             print("STEP 1b: Get AMR Graph", step_1b_prompt)
@@ -328,7 +331,7 @@ for example in content[0:1]:
             step_2_prompt = gen_step_2c + 'Sentence: ' + utterance + '\n'
             step_2_prompt += 'Potential Intents: ' + intent + '\n'
 
-
+        #print ("AMR Graph", type(structure_map[args.structure_rep]), type(amr_graph), amr_graph)
         step_2_prompt += structure_map[args.structure_rep] + ': ' + amr_graph + '\n'
         step_2_prompt += 'Key phrases: \n'
 
