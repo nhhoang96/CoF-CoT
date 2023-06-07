@@ -43,8 +43,8 @@ gen_step_1b = 'Given the sentence, generate one and only one Abstract Meaning Re
 
 content = content.split("\n")
 for example in tqdm(content[0:100]):
-    utterance, logical_form, _, _, tag = example.split("\t")
-    output = example.split('\t')
+    #utterance, logical_form, _, _, tag = example.split("\t")
+    output = example.strip().split('\t')
     utterance=output[0]
 
     # --- Step 1b: Get AMR Graph
@@ -52,9 +52,10 @@ for example in tqdm(content[0:100]):
     
     step_1b_prompt += 'AMR Graph: ' + '\n'
     amr_graph = call_chatgpt(step_1b_prompt)
-    #print("STEP 1b: Get AMR Graph", step_1b_prompt)
-
+    print("STEP 1b: Get AMR Graph", step_1b_prompt)
+    #amr_graph=''
     output.append(amr_graph)
     write_output = '\t'.join(output)
-    
-    writer.write(json.dumps({"utterance": utterance,  "AMR Graph": write_output}))
+    writer.write(write_output + '\n')
+    #writer.write(json.dumps({"utterance": utterance,  "AMR Graph": write_output}
+    #    ))

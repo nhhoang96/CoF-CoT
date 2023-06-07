@@ -1,0 +1,113 @@
+{"label": "add_time_timer", "label_description": "Adds a timer for tracking time."}
+{"label": "add_to_playlist_music", "label_description": "Add music to an existing playlist."}
+{"label": "answer_call", "label_description": "Answering an incoming phone call."}
+{"label": "cancel_call", "label_description": "Cancel a scheduled phone conversation."}
+{"label": "cancel_message", "label_description": "Message indicating cancellation of a process or service."}
+{"label": "create_alarm", "label_description": "Create a timed alarm."}
+{"label": "create_call", "label_description": "Initiate a phone call."}
+{"label": "create_playlist_music", "label_description": "Create a custom music playlist."}
+{"label": "create_reminder", "label_description": "Create a reminder for a specific event or task."}
+{"label": "create_timer", "label_description": "Creates a new timer object for measuring time."}
+{"label": "delete_alarm", "label_description": "Deletes an existing alarm."}
+{"label": "delete_playlist_music", "label_description": "Remove music from a selected playlist."}
+{"label": "delete_reminder", "label_description": "Delete a previously set reminder."}
+{"label": "delete_timer", "label_description": "Removes a previously set timer."}
+{"label": "dislike_music", "label_description": "Negative feeling towards music."}
+{"label": "disprefer", "label_description": "Negative preference or aversion towards something."}
+{"label": "end_call", "label_description": "Terminate phone conversation or video call."}
+{"label": "fast_forward_music", "label_description": "Quick tempo music ideal for energetic activities."}
+{"label": "follow_music", "label_description": "Stay tuned for the latest music updates."}
+{"label": "get_age", "label_description": "Retrieve the person's age."}
+{"label": "get_airquality", "label_description": "Retrieve current air quality data."}
+{"label": "get_alarm", "label_description": "Retrieve the current alarm time."}
+{"label": "get_attendee_event", "label_description": "Retrieve the attendees of an event."}
+{"label": "get_availability", "label_description": "Determine item availability or schedule a meeting."}
+{"label": "get_call", "label_description": "Retrieve phone call."}
+{"label": "get_call_contact", "label_description": "Retrieve contact information for a phone call."}
+{"label": "get_call_time", "label_description": "Retrieve duration of phone call."}
+{"label": "get_category_event", "label_description": "Retrieve the category of an event."}
+{"label": "get_contact", "label_description": "Retrieve contact information."}
+{"label": "get_contact_method", "label_description": "Retrieve preferred communication method for contact."}
+{"label": "get_date_time_event", "label_description": "Retrieve date and time of an event."}
+{"label": "get_details_news", "label_description": "Retrieve detailed news information."}
+{"label": "get_education_degree", "label_description": "Obtain a formal academic qualification."}
+{"label": "get_education_time", "label_description": "Duration of time spent on education or training."}
+{"label": "get_employer", "label_description": "Retrieve information about an employer."}
+{"label": "get_employment_time", "label_description": "Track length of time employed by company."}
+{"label": "get_event", "label_description": "Retrieve information about an event."}
+{"label": "get_gender", "label_description": "Return the gender of a person."}
+{"label": "get_group", "label_description": "Retrieve the members of a specified group."}
+{"label": "get_info_contact", "label_description": "Retrieve contact information."}
+{"label": "get_info_recipes", "label_description": "Retrieve recipe information."}
+{"label": "get_job", "label_description": "Employment opportunity attainment or job acquisition."}
+{"label": "get_language", "label_description": "Retrieve the selected language."}
+{"label": "get_life_event", "label_description": "Capture user's major life milestone."}
+{"label": "get_life_event_time", "label_description": "Retrieve date and time of user's life event."}
+{"label": "get_location", "label_description": "Retrieve geographical location of user or device."}
+{"label": "get_lyrics_music", "label_description": "Retrieve lyrics for a specific song or artist."}
+{"label": "get_major", "label_description": "Return the highest value in a given list."}
+{"label": "get_message", "label_description": "Retrieves a message from a source."}
+{"label": "get_message_contact", "label_description": "Retrieve message sender's contact information."}
+{"label": "get_mutual_friends", "label_description": "Retrieves mutual friends between two users."}
+{"label": "get_recipes", "label_description": "Retrieve cooking instructions for dishes."}
+{"label": "get_reminder", "label_description": "Alert or notification for upcoming event/task."}
+{"label": "get_reminder_amount", "label_description": "Retrieve the amount of reminders."}
+{"label": "get_reminder_date_time", "label_description": "Retrieve date and time for reminder."}
+{"label": "get_reminder_location", "label_description": "Retrieve location for a reminder."}
+{"label": "get_stories_news", "label_description": "Retrieve latest news and stories."}
+{"label": "get_sunrise", "label_description": "Returns the time of sunrise for a given location."}
+{"label": "get_sunset", "label_description": "Capture stunning sunset views with this label."}
+{"label": "get_timer", "label_description": "Retrieves the current system time."}
+{"label": "get_track_info_music", "label_description": "Retrieve music track information."}
+{"label": "get_undergrad", "label_description": "Undergraduate education or degree level."}
+{"label": "get_weather", "label_description": "Retrieve current weather conditions."}
+{"label": "help_reminder", "label_description": "A label for reminders that require assistance or support."}
+{"label": "hold_call", "label_description": "Call is placed on hold."}
+{"label": "ignore_call", "label_description": "Do not answer this phone call."}
+{"label": "is_true_recipes", "label_description": "Recipes that are guaranteed to work."}
+{"label": "like_music", "label_description": "Enjoyable sound productions."}
+{"label": "loop_music", "label_description": "Repeating, rhythmic audio track."}
+{"label": "merge_call", "label_description": "Combine two or more phone calls into one."}
+{"label": "pause_music", "label_description": "Stop music playback temporarily."}
+{"label": "pause_timer", "label_description": "Stops timer temporarily."}
+{"label": "play_media", "label_description": "Control and play media content."}
+{"label": "play_music", "label_description": "Play audio or music tracks."}
+{"label": "prefer", "label_description": "Indicates a liking or choice for something."}
+{"label": "previous_track_music", "label_description": "Music played on the previous track."}
+{"label": "question_music", "label_description": "Music-related inquiry."}
+{"label": "question_news", "label_description": "News article that poses a question as the main topic."}
+{"label": "remove_from_playlist_music", "label_description": "Removes a song from a playlist."}
+{"label": "repeat_all_music", "label_description": "Plays all music in playlist on repeat."}
+{"label": "repeat_all_off_music", "label_description": "Turn off all music and repeat previous action."}
+{"label": "replay_music", "label_description": "Repeat playing of audio tracks."}
+{"label": "restart_timer", "label_description": "Resets the timer for a specific task."}
+{"label": "resume_call", "label_description": "Resume a paused phone call."}
+{"label": "resume_music", "label_description": "Combining music and professional experience for job applications."}
+{"label": "resume_timer", "label_description": "Track time spent on resume-building tasks."}
+{"label": "rewind_music", "label_description": "Returns to the beginning of a musical track."}
+{"label": "send_message", "label_description": "Send a message to a recipient."}
+{"label": "set_available", "label_description": "Mark item as ready for use or purchase."}
+{"label": "set_default_provider_calling", "label_description": "Set default provider for calling service."}
+{"label": "set_default_provider_music", "label_description": "Sets the default music provider for a device."}
+{"label": "set_rsvp_interested", "label_description": "Tracks guests who are potentially interested in the event."}
+{"label": "set_rsvp_no", "label_description": "Indicates a negative RSVP response."}
+{"label": "set_rsvp_yes", "label_description": "Indicates that the recipient has accepted the invitation."}
+{"label": "set_unavailable", "label_description": "Item cannot be purchased at this time."}
+{"label": "share_event", "label_description": "Share an upcoming event."}
+{"label": "silence_alarm", "label_description": "Stop alarm and return to silence."}
+{"label": "skip_track_music", "label_description": "Skip to the next track in the music."}
+{"label": "snooze_alarm", "label_description": "Delay waking up with temporary silencing of alarm."}
+{"label": "start_shuffle_music", "label_description": "Begin shuffling music tracks."}
+{"label": "stop_music", "label_description": "Stop playing music."}
+{"label": "stop_shuffle_music", "label_description": "Stop shuffling the music playlist."}
+{"label": "subtract_time_timer", "label_description": "Counts down from a specified time and subtracts seconds."}
+{"label": "switch_call", "label_description": "Change active call to another phone."}
+{"label": "unloop_music", "label_description": "Non-repetitive music designed to prevent looping thoughts."}
+{"label": "update_alarm", "label_description": "Update an existing alarm setting."}
+{"label": "update_call", "label_description": "A label indicating a call update has occurred."}
+{"label": "update_method_call", "label_description": "Updating a method by calling it again."}
+{"label": "update_reminder", "label_description": "Notification to update information or software."}
+{"label": "update_reminder_date_time", "label_description": "Reminder to update date and time information."}
+{"label": "update_reminder_location", "label_description": "Reminder to update location information."}
+{"label": "update_reminder_todo", "label_description": "Reminder to update a TODO list."}
+{"label": "update_timer", "label_description": "Keep track of time and update accordingly."}

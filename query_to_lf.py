@@ -8,11 +8,12 @@ import os
 import time
 import argparse
 import re
-import openai
 from collections import Counter
+import numpy as np
+import copy
 
-openai.api_key = "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"
-model_name = "gpt-3.5-turbo"
+
+structure_map={'amr': 'Abstract Meaning Representation (AMR) Graph in the textual Neo-Davidson format', 'dp': 'Dependency Parsing Graph', 'cp': 'Constituency Parsing Graph'}
 
 
 def get_intent_slot_vob(dataset):
@@ -158,6 +159,7 @@ with open(input_test_file, 'r') as file:
 input_fs_file = "nlu_data/mtop_flat_simple/en/fs.txt"
 
 demo_ex=[]
+demo_dict_ex={'utt':[], 'intent':[], 'key_phrase':[], 'pair':[], 'AMR':[], 'lf':[], 'utt_length':[]}
 ex_counter=0
 for line in open(input_fs_file, 'r'):
     ex = line.strip().split('\t')
@@ -175,11 +177,43 @@ for line in open(input_fs_file, 'r'):
     demo_dict['AMR'] = amr_info
     demo_dict['lf'] = lf
 
+    demo_dict_ex['utt'].append(utt)
+    demo_dict_ex['intent'].append(intent)
+    demo_dict_ex['key_phrase'].append(','.join(slot_vals))
+    demo_dict_ex['pair'].append(','.join(map(str, slot_pairs)))
+    demo_dict_ex['AMR'].append(amr_info)
+    demo_dict_ex['lf'].append(lf)
+
+    demo_dict_ex['utt_length'].append(len(utt.split(' ')))
+
+
     print ("Demo dict", demo_dict)
     demo_ex.append(demo_dict)
     ex_counter += 1
     #break
 
+#---- Conduct selection
+#--- Complex COT = longest_utt length
+
+#sorted_idx = copy.deepcopy(demo_dict_ex['utt_length'])
+#sorted_idx = sorted(sorted_idx, reverse=True)
+#top_num= sorted_idx[:3]
+
+#print ("Length example", demo_dict_ex['utt_length'])
+sorted_idx = copy.deepcopy(np.array(demo_dict_ex['utt_length']))
+sorted_idx = np.argsort(sorted_idx)
+top_num= sorted_idx[::-1][:3] #idx of max_elements
+
+
+
+#print ("Top num", top_num)
+selected_demo_dict_ex={'utt':[], 'intent':[], 'key_phrase':[], 'pair':[], 'AMR':[], 'lf':[]}
+
+for k,v in demo_dict_ex.items():
+    v = copy.deepcopy(np.array(v))
+    selected_v = v[top_num]
+    selected_demo_dict_ex[k] = list(selected_v)
+#print ("Selected", selected_demo_dict_ex)
 
     
 parser = argparse.ArgumentParser()
@@ -188,10 +222,17 @@ parser.add_argument("--dataset", default="MTOP", choices=["MTOP", "MASSIVE"], ty
 parser.add_argument("--type_condition", default='control', type=str, help='Kind of conditioning: (none, control, control_filter)')
 parser.add_argument("--add_demo", choices=['true','false'], default='false', type=str)
 parser.add_argument("--output_for", choices=['api','test'], default='test', type=str)
+parser.add_argument("--structure_rep",  choices=['amr','dp','cp'], default='amr', type=str)
 parser.add_argument("--number_output",  default=10, type=int)
 parser.add_argument("--temperature",  default=1, type=float)
 
 args = parser.parse_args()
+
+# OpenAPI api 
+if (args.output_for == 'api'):
+    import openai
+    openai.api_key = "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"
+    model_name = "gpt-3.5-turbo"
 
 # ---- Generic Structure
 intent_vocab, slot_vocab = get_intent_slot_vob(args.dataset)
@@ -204,18 +245,19 @@ gen_step_1c = 'Given the intent vocabulary and sentence, choose the top 3 of the
 
 gen_step_1c_filter = 'Given the intent vocabulary and sentence, choose at least 1 of the following whose confidence score is greater than or equal to 0.8 as the potential intent types for the sentence. Return the list of intent types separated by commas: \n' 
 
-gen_step_1b = 'Given the sentence, generate one and only one Abstract Meaning Representation (AMR) graph representation in the textual Neo-Davidsonian format \n'
+# Update different Structured Rep 
+gen_step_1b = 'Given the sentence, generate one and only one ' + structure_map[args.structure_rep] + '\n'
 
-gen_step_1bc = 'Given the sentence and its potential intent types, generate one and only one Abstract Meaning Representation (AMR) graph representation in the textual Neo-Davidsonian format \n'
+gen_step_1bc = 'Given the sentence and its potential intent types, generate one and only one ' + structure_map[args.structure_rep] + '\n'
 
-gen_step_2 = 'Based on the sentence and its AMR graph, identify a list of key phrases for the sentence. Key phrases can be made up from multiple AMR concepts. Each word in key phrases must exist in the given sentence. Return a list of key phrases separated by commas \n'
+gen_step_2 = 'Based on the sentence and its ' + structure_map[args.structure_rep] + ' , identify a list of key phrases for the sentence. Key phrases can be made up from multiple AMR concepts. Each word in key phrases must exist in the given sentence. Return a list of key phrases separated by commas \n'
 
-gen_step_2c = 'Based on the sentence, its potential intents and its AMR graph, identify a list of key phrases for the sentence. Key phrases can be made up from multiple AMR concepts. Each word in key phrases must exist in the given sentence. Return a list of key phrases separated by commas \n'
+gen_step_2c = 'Based on the sentence, its potential intents and its ' + structure_map[args.structure_rep] + ' , identify a list of key phrases for the sentence. Key phrases can be made up from multiple AMR concepts. Each word in key phrases must exist in the given sentence. Return a list of key phrases separated by commas \n'
 
 gen_step_3 = 'Given the slot vocabulary, the sentence and its key phrases, identify the corresponding slot type for each key phrases. Return the list of key phrases and their corresponding slot types in the following format: (slot_type, key_phrase) separated by commas \n'
 gen_step_3 += 'Slot Vocabulary: ' + slot_str + '\n'
 
-gen_step_3c = 'Given the slot vocabulary, the sentence, its potential intents, its AMR graph and its key phrases, identify the corresponding slot type for each key phrases. Return the list of key phrases and their corresponding slot types in the following format: (slot_type, key_phrase) separated by commas \n'
+gen_step_3c = 'Given the slot vocabulary, the sentence, its potential intents, its ' + structure_map[args.structure_rep] + ' and its key phrases, identify the corresponding slot type for each key phrases. Return the list of key phrases and their corresponding slot types in the following format: (slot_type, key_phrase) separated by commas \n'
 gen_step_3c += 'Slot Vocabulary: ' + slot_str + '\n'
 
 gen_step_4 = 'Given the sentence, its potential intent types, its slot type and slot value pairs in (slot_type, slot_value) format, generate the logic form in the format: [IN:___ [SL:___] [SL:____]] where IN: is followed by an intent type and SL: is followed by a slot type and slot value pair separated by white space. The number of [SL: ] is unlimited. The number of [IN: ] is limited to 1 \n'
@@ -247,10 +289,12 @@ for example in content[0:100]:
         # --- Step 1a: Get Intent
         if (args.type_condition == 'none'):
             step_1a_prompt = gen_step_1 + 'Intent Vocabulary: ' + intent_str + '\n'
+
+        elif (args.type_condition == 'control_single'):
+            step_1a_prompt = gen_step_1 + 'Intent Vocabulary: ' + intent_str + '\n'
         elif (args.type_condition == 'control'):
             step_1a_prompt = gen_step_1c + 'Intent Vocabulary: ' + intent_str + '\n'
         elif (args.type_condition == 'control_filter'):
-
             step_1a_prompt = gen_step_1c_filter + 'Intent Vocabulary: ' + intent_str + '\n'
         step_1a_prompt += 'Sentence: ' + utterance + '\n'
         step_1a_prompt += 'Intent type: ' + '\n'
@@ -259,8 +303,13 @@ for example in content[0:100]:
         if (args.add_demo == 'true'):
             if (args.type_condition == 'none'):
                 demo_1 = gen_step_1 + 'Intent Vocabulary: ' + intent_str + '\n'
-            else:
+
+            elif (args.type_condition == 'control_single'):
+                demo_1 = gen_step_1 + 'Intent Vocabulary: ' + intent_str + '\n'
+            elif (args.type_condition == 'control'):
                 demo_1 = gen_step_1c + 'Intent Vocabulary: ' + intent_str + '\n'
+            elif (args.type_condition == 'control_filter'):
+                demo_1 = gen_step_1c_filter + 'Intent Vocabulary: ' + intent_str + '\n'
             for dem in demo_ex:
                 demo_utt = dem['utt']
                 demo_intent = dem['intent']
@@ -285,7 +334,7 @@ for example in content[0:100]:
             step_1b_prompt = gen_step_1bc + 'Sentence: ' + utterance + '\n'
             step_1b_prompt += 'Potential Intent Types: ' + intent + '\n'
         
-        step_1b_prompt += 'AMR Graph: ' + '\n'
+        step_1b_prompt += structure_map[args.structure_rep] + ': ' + '\n'
 
         #--- Demo 1b
         if (args.add_demo == 'true'):
@@ -299,7 +348,7 @@ for example in content[0:100]:
                 if (args.type_condition != 'none'):
                     demo_1b += 'Potential Intent Types: ' + demo_intent + '\n'
                 
-                demo_1b += 'AMR Graph: ' + '\n'
+                demo_1b += structure_map[args.structure_rep] + ': ' + '\n'
 
             step_1b_prompt  = demo_1b + '\n' + step_1b_prompt 
 
@@ -318,7 +367,7 @@ for example in content[0:100]:
             step_2_prompt += 'Potential Intents: ' + intent + '\n'
 
 
-        step_2_prompt += 'AMR Graph: ' + amr_graph + '\n'
+        step_2_prompt += structure_map[args.structure_rep] + ': ' + amr_graph + '\n'
         step_2_prompt += 'Key phrases: \n'
 
         # -- Step 2 Demo
@@ -335,7 +384,7 @@ for example in content[0:100]:
                 demo_amr = dem['AMR']
                 if (args.type_condition != 'none'):
                     demo_2 += 'Potential Intents: ' +  demo_intent + '\n'
-                demo_2 += 'AMR Graph: ' + demo_amr + '\n'
+                demo_2 += structure_map[args.structure_rep] + ': ' + demo_amr + '\n'
                 demo_2 += 'Key phrases: ' + demo_kp + '\n'
 
             step_2_prompt  = demo_2 + '\n' + step_2_prompt 
@@ -356,7 +405,7 @@ for example in content[0:100]:
         else:
             step_3_prompt = gen_step_3c + 'Sentence: ' + utterance + '\n'
             step_3_prompt += 'Potential Intent Types: ' + intent + '\n'
-            step_3_prompt += 'AMR Graph: ' + amr_graph + '\n'
+            step_3_prompt += structure_map[args.structure_rep] + ': ' + amr_graph + '\n'
             step_3_prompt += 'Key phrases: ' + key_phrases + '\n'
             #step_3 = gen_step_3 + 'Key phrases: ' + '\n'
             #step_3 += 'Sentence: ' + utterance + '\n'
@@ -377,7 +426,7 @@ for example in content[0:100]:
                 demo_pair = dem['pair']
                 if (args.type_condition != 'none'):
                     demo_3 += 'Potential Intents: ' + demo_intent + '\n'
-                demo_3 += 'AMR Graph: ' + demo_amr + '\n'
+                demo_3 += structure_map[args.structure_rep] + ': ' + demo_amr + '\n'
                 demo_3 += 'Key phrases: ' + demo_kp + '\n'
 
                 demo_3 += 'Slot Type, Key phrase pairs: ' + demo_pair + '\n'
