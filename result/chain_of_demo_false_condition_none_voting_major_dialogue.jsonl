@@ -1,0 +1,902 @@
+[
+    {
+        "utterance": "call Nicholas and Natasha",
+        "intent": "create_call",
+        "AMR Graph": "(S (VP (VB call) (NP (NP (NNP Nicholas)) (CC and) (NP (NNP Natasha)))))",
+        "key_phrase": "call Nicholas, call Natasha, call Nicholas and Natasha",
+        "slot_type": "(O, call Nicholas), (O, call Natasha), (O, call Nicholas and Natasha)",
+        "pred_lf": "[IN:create_call [SL:O call Nicholas] [SL:O call Natasha] [SL:O call Nicholas and Natasha]]",
+        "gold_lf": "[IN:CREATE_CALL [SL:CONTACT Nicholas ] [SL:CONTACT Natasha ] ]"
+    },
+    {
+        "utterance": "Give me the most recent NPR news",
+        "intent": "question_news",
+        "AMR Graph": "(S (VP (VB Give) (NP (PRP me)) (NP (DT the) (NP (RBS most) (JJ recent)) (NNP NPR) (NN news)))))",
+        "key_phrase": "most recent NPR news, me, Give",
+        "slot_type": "(title_event, most recent NPR news), (O, me), (O, Give)",
+        "pred_lf": "[IN:question_news [SL:title_event most recent NPR news] [SL:O me] [SL:O Give]]",
+        "gold_lf": "[IN:GET_STORIES_NEWS [SL:DATE_TIME the most recent ] [SL:NEWS_SOURCE NPR ] [SL:NEWS_TYPE news ] ]"
+    },
+    {
+        "utterance": "What's the work address with zipcode where James work?",
+        "intent": "get_location",
+        "AMR Graph": "(S (SBARQ (WHNP (What's)) (SQ (VP (VBZ work) (NP (NP (NN address)) (PP (IN with) (NP (NP (NN zipcode)) (SBAR (WHADVP (where)) (S (NP (NNP James)) (VP (VBP work)))))))) (. ?)))",
+        "key_phrase": "work address, zipcode, James' work address",
+        "slot_type": "(location, work address), (location, zipcode), (job, James' work address)",
+        "pred_lf": "[IN:get_location [SL:location work address] [SL:location zipcode] [SL:job James' work address]]",
+        "gold_lf": "[IN:GET_LOCATION [SL:CONTACT James ] ]"
+    },
+    {
+        "utterance": "ring my brother",
+        "intent": "create_call",
+        "AMR Graph": "(S (VP (VB ring) (NP (PRP$ my) (NN brother))))",
+        "key_phrase": "ring, my brother",
+        "slot_type": "(todo, ring), (contact_method, my brother)",
+        "pred_lf": "[IN:create_call [SL:todo ring] [SL:contact_method my brother]]",
+        "gold_lf": "[IN:CREATE_CALL [SL:CONTACT my brother ] ]"
+    },
+    {
+        "utterance": "set a timer for my workout right now",
+        "intent": "create_timer",
+        "AMR Graph": "(S (VP (VB set) (NP (DT a) (NN timer)) (PP (IN for) (NP (PRP$ my) (NN workout)))) (ADVP (RB right) (RB now)))",
+        "key_phrase": "set a timer, my workout, right now",
+        "slot_type": "(method_timer, set a timer), (todo, my workout), (O, right now)",
+        "pred_lf": "[IN:create_timer [SL:method_timer set a timer] [SL:todo my workout] [SL:O right now]]",
+        "gold_lf": "[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:TIMER_NAME workout ] ]"
+    },
+    {
+        "utterance": "call Camilla whatsapp video",
+        "intent": "create_call",
+        "AMR Graph": "(S (NP (V call) (NP (NP (N Camilla)) (PP (P whatsapp) (NP (N video))))))",
+        "key_phrase": "call Camilla, whatsapp video",
+        "slot_type": "(contact_method, call Camilla), (method_retrieval_reminder, whatsapp video)",
+        "pred_lf": "[IN:create_call [SL:contact_method call Camilla] [SL:method_retrieval_reminder whatsapp video]]",
+        "gold_lf": "[IN:CREATE_CALL [SL:CONTACT Camilla ] [SL:NAME_APP whatsapp ] ]"
+    },
+    {
+        "utterance": "call Avery M",
+        "intent": "create_call",
+        "AMR Graph": "(S (VP (V call) (NP (N Avery) (N M))))",
+        "key_phrase": "Avery M, call Avery M",
+        "slot_type": "(contact_name, Avery M), (method_call, call Avery M)",
+        "pred_lf": "[IN:create_call [SL:contact_name Avery M] [SL:method_call call Avery M]]",
+        "gold_lf": "[IN:CREATE_CALL [SL:CONTACT Avery M ] ]"
+    },
+    {
+        "utterance": "what is the next alarm for",
+        "intent": "get_alarm",
+        "AMR Graph": "(S (SBARQ (WHNP (WP what)) (SQ (VBZ is) (NP (DT the) (JJ next) (NN alarm) (PP (IN for))))))",
+        "key_phrase": "next alarm",
+        "slot_type": "(alarm_name, next alarm)",
+        "pred_lf": "[IN:get_alarm [SL:alarm_name next alarm]]",
+        "gold_lf": "[IN:GET_ALARM [SL:ORDINAL next ] ]"
+    },
+    {
+        "utterance": "Recommend me some Broadway shows in Anchorage for Thursday night",
+        "intent": "question_music",
+        "AMR Graph": "(S\n  (VP\n    (VB Recommend)\n    (NP (PRP me))\n    (NP\n      (DT some)\n      (JJ Broadway)\n      (NNS shows)\n      (PP\n        (IN in)\n        (NP (NNP Anchorage))))\n    (PP (IN for) (NP (NNP Thursday) (NN night))))))",
+        "key_phrase": "Broadway shows, Anchorage, Thursday night",
+        "slot_type": "(category_event, Broadway shows), (location, Anchorage), (date_time, Thursday night)",
+        "pred_lf": "[IN: question_music [SL: category_event Broadway shows] [SL: location Anchorage] [SL: date_time Thursday night]]",
+        "gold_lf": "[IN:GET_EVENT [SL:CATEGORY_EVENT Broadway shows ] [SL:LOCATION Anchorage ] [SL:DATE_TIME for Thursday night ] ]"
+    },
+    {
+        "utterance": "What's news about facebook this week",
+        "intent": "question_news",
+        "AMR Graph": "(S (SBARQ (WHNP (WP What)) (SQ (VP (VBZ 's) (NP (NN news)) (PP (IN about) (NP (NP (NNP facebook)) (NP (DT this) (NN week)))))) (. .)))",
+        "key_phrase": "Facebook, news, this week",
+        "slot_type": "(news_topic, Facebook), (news_type, news), (period, this week)",
+        "pred_lf": "[IN:question_news [SL:news_topic Facebook] [SL:news_type news] [SL:period this week]]",
+        "gold_lf": "[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC facebook ] [SL:DATE_TIME this week ] ]"
+    },
+    {
+        "utterance": "can you set a warning alarm for 7pm",
+        "intent": "create_alarm",
+        "AMR Graph": "(S\n  (VP\n    (MD can)\n    (NP\n      (PRP you))\n    (VP\n      (VB set)\n      (NP\n        (DT a)\n        (NN warning)\n        (NN alarm))\n      (PP\n        (IN for)\n        (NP\n          (CD 7)\n          (NN pm)))))))",
+        "key_phrase": "warning alarm, 7pm",
+        "slot_type": "(alarm_name, warning alarm), (date_time, 7pm)",
+        "pred_lf": "[IN:create_alarm [SL:alarm_name warning alarm] [SL:date_time 7pm]]",
+        "gold_lf": "[IN:CREATE_ALARM [SL:ALARM_NAME warning ] [SL:DATE_TIME for 7 pm ] ]"
+    },
+    {
+        "utterance": "Tell me about events going on in Crandon this weekend",
+        "intent": "get_event",
+        "AMR Graph": "(ROOT\n  (S\n    (VP\n      (VB Tell)\n      (NP\n        (PRP me))\n      (PP\n        (IN about)\n        (NP\n          (NP\n            (NNS events))\n          (VP\n            (VBG going)\n            (PRT\n              (RP on))\n            (PP\n              (IN in)\n              (NP\n                (NNP Crandon)))\n            (NP\n              (DT this)\n              (NN weekend)))))))))",
+        "key_phrase": "events, Crandon, weekend",
+        "slot_type": "(title_event, events), (location, Crandon), (date_time, weekend)",
+        "pred_lf": "[IN:get_event [SL:title_event events] [SL:location Crandon] [SL:date_time weekend]]",
+        "gold_lf": "[IN:GET_EVENT [SL:LOCATION Crandon ] [SL:DATE_TIME this weekend ] ]"
+    },
+    {
+        "utterance": "make one timer for four minutes and another for 10 minutes",
+        "intent": "create_timer",
+        "AMR Graph": "(S (VP (VB make) (NP (NP (CD one) (NN timer)) (PP (IN for) (NP (CD four) (NNS minutes)))) (CC and) (NP (DT another) (PP (IN for) (NP (CD 10) (NNS minutes))))))",
+        "key_phrase": "timer, four minutes, another, 10 minutes",
+        "slot_type": "(method_timer, timer), (recipes_unit_measurement, four minutes), (O, another), (recipes_unit_measurement, 10 minutes)",
+        "pred_lf": "[IN:create_timer [SL:method_timer timer] [SL:recipes_unit_measurement four minutes] [SL:O another] [SL:recipes_unit_measurement 10 minutes]]",
+        "gold_lf": "[IN:CREATE_TIMER [SL:AMOUNT one ] [SL:METHOD_TIMER timer ] [SL:DATE_TIME for four minutes ] [SL:DATE_TIME for 10 minutes ] ]"
+    },
+    {
+        "utterance": "How do I prepare spaghetti",
+        "intent": "get_info_recipes",
+        "AMR Graph": "(S(ROOT(SBAR(WHADVP(WH_ADVERB(How)) (S(S(NP(I)) (VP(VBP(do) (NP(NP(I)) (VP(VB(prepare) (NP(NN(spaghetti))))))))))))",
+        "key_phrase": "I, prepare spaghetti, how",
+        "slot_type": "(method_recipes, prepare spaghetti), (O, how), (O, I)",
+        "pred_lf": "[IN:get_info_recipes [SL:method_recipes prepare spaghetti] [SL:O how] [SL:O I]]",
+        "gold_lf": "[IN:GET_RECIPES [SL:RECIPES_DISH spaghetti ] ]"
+    },
+    {
+        "utterance": "mark me as not going to Olympic Peninsula Apple and Cider Festival",
+        "intent": "set_rsvp_no",
+        "AMR Graph": "(S (NP (NNP Mark))\n   (VP (VB me)\n       (PP (IN as)\n           (S (VP (RB not)\n                  (VP (VBG going)\n                      (PP (TO to)\n                          (NP (NNP Olympic)\n                              (NNP Peninsula)\n                              (NNP Apple)\n                              (CC and)\n                              (NNP Cider)\n                              (NNP Festival))))))))))",
+        "key_phrase": "Mark, not going, Olympic Peninsula Apple and Cider Festival",
+        "slot_type": "(user_attendee_event, Mark), (type_relation, not going), (title_event, Olympic Peninsula Apple and Cider Festival)",
+        "pred_lf": "[IN:set_rsvp_no [SL:user_attendee_event Mark] [SL:type_relation not going] [SL:title_event Olympic Peninsula Apple and Cider Festival]]",
+        "gold_lf": "[IN:SET_RSVP_NO [SL:TITLE_EVENT Olympic Peninsula Apple and Cider Festival ] ]"
+    },
+    {
+        "utterance": "tell mark to pick up our to go order from olive garden",
+        "intent": "None of the above (This sentence does not match any of the provided intent types)",
+        "AMR Graph": "(S (VP (VB tell)\n      (NP (NNP mark))\n      (S (VP (TO to)\n             (VP (VB pick)\n                 (PRT (RP up))\n                 (NP (PRP$ our)\n                     (JJ to)\n                     (NN go)\n                     (NN order))\n                 (PP (IN from)\n                     (NP (NNP olive)\n                         (NNP garden)))))))))",
+        "key_phrase": "mark, pick up, our to go order, olive garden",
+        "slot_type": "(person_reminded, mark), (method_retrieval_reminder, pick up), (recipes_dish, to go order), (location, olive garden)",
+        "pred_lf": "[IN:remind [SL:person_reminded mark] [SL:method_retrieval_reminder pick up] [SL:recipes_dish to go order] [SL:location olive garden]]",
+        "gold_lf": "[IN:SEND_MESSAGE [SL:RECIPIENT mark ] [SL:CONTENT_EXACT pick up our to go order from olive garden ] ]"
+    },
+    {
+        "utterance": "Set my alarm for 21st of May at 5 am.",
+        "intent": "create_alarm",
+        "AMR Graph": "(S (NP (VP (VB Set) (NP (PRP$ my) (NN alarm))) (PP (IN for) (NP (NP (CD 21) (JJst) (IN of) (NNP May)) (PP (IN at) (NP (CD 5) (NN am)))))))",
+        "key_phrase": "my alarm, 21st of May, 5 am",
+        "slot_type": "(alarm_name, my alarm), (date_time, 21st of May at 5 am)",
+        "pred_lf": "[IN:create_alarm [SL:alarm_name my alarm] [SL:date_time 21st of May at 5 am]]",
+        "gold_lf": "[IN:CREATE_ALARM [SL:DATE_TIME for 21st of May at 5 am ] ]"
+    },
+    {
+        "utterance": "call on whatsapp Zachary Adkins",
+        "intent": "create_call",
+        "AMR Graph": "(S (VP (VB call) (PP (IN on) (NP (NNP whatsapp) (NNP Zachary) (NNP Adkins))))))",
+        "key_phrase": "whatsapp, Zachary Adkins",
+        "slot_type": "(contact_method, whatsapp), (person_reminded, Zachary Adkins)",
+        "pred_lf": "[IN:create_call [SL:contact_method whatsapp] [SL:person_reminded Zachary Adkins]]",
+        "gold_lf": "[IN:CREATE_CALL [SL:NAME_APP whatsapp ] [SL:CONTACT Zachary Adkins ] ]"
+    },
+    {
+        "utterance": "Is it below 47 in F at New York today",
+        "intent": "get_weather",
+        "AMR Graph": "(Sentence \n  (Question \n    (Is) \n    (it) \n  ) \n  (PrepositionPhrase \n    (below) \n    (Number \n      (47) \n      (Measure \n        (in) \n        (Temperature \n          (F) \n        ) \n      ) \n    ) \n    (Location \n      (at) \n      (City \n        (New York) \n      ) \n      (Date \n        (today) \n      ) \n    ) \n  ) \n)",
+        "key_phrase": "47 in F, New York today",
+        "slot_type": "(weather_temperature_unit, 47 in F), (location, New York today)",
+        "pred_lf": "[IN:get_weather [SL:weather_temperature_unit 47 in F] [SL:location New York today]]",
+        "gold_lf": "[IN:GET_WEATHER [SL:WEATHER_ATTRIBUTE below ] [SL:WEATHER_ATTRIBUTE 47 ] [SL:WEATHER_TEMPERATURE_UNIT F ] [SL:LOCATION New York ] [SL:DATE_TIME today ] ]"
+    },
+    {
+        "utterance": "Did my Mom send me a message this week?",
+        "intent": "get_message_contact",
+        "AMR Graph": "(S (SBAR (IN Did) (S (NP (PRP$ my) (NN Mom)) (VP (VB send) (NP (PRP me)) (NP (DT a) (NN message)) (NP (DT this) (NN week)))) (?.)))",
+        "key_phrase": "Mom, send me a message, this week",
+        "slot_type": "contact, Mom\nmethod_retrieval_reminder, send me a message\ndate_time, this week",
+        "pred_lf": "[IN:get_message_contact [SL:contact Mom] [SL:method_retrieval_reminder send me a message] [SL:date_time this week]]",
+        "gold_lf": "[IN:GET_MESSAGE [SL:SENDER my Mom ] [SL:RECIPIENT me ] [SL:DATE_TIME this week ] ]"
+    },
+    {
+        "utterance": "What kind of event is Pumpkin Run?",
+        "intent": "get_category_event",
+        "AMR Graph": "(S (NP (WP What) (NN kind) (IN of) (NN event))\n   (VP (VBZ is)\n       (NP (NNP Pumpkin) (NNP Run))))",
+        "key_phrase": "event, Pumpkin Run",
+        "slot_type": "(title_event, Pumpkin Run), (O, event)",
+        "pred_lf": "[IN:get_category_event [SL:title_event Pumpkin Run] [SL:O event]]",
+        "gold_lf": "[IN:GET_CATEGORY_EVENT [SL:TITLE_EVENT Pumpkin Run ] ]"
+    },
+    {
+        "utterance": "reset alarm for 7am on Sunday morning",
+        "intent": "update_alarm",
+        "AMR Graph": "(S (VP (VB reset) (NP (NN alarm)) (PP (IN for) (NP (CD 7am) (PP (IN on) (NP (NNP Sunday) (NN morning)))))))",
+        "key_phrase": "reset alarm, 7am on Sunday morning",
+        "slot_type": "(todo, reset alarm), (date_time, 7am on Sunday morning)",
+        "pred_lf": "[IN:update_alarm [SL:todo reset alarm] [SL:date_time 7am on Sunday morning]]",
+        "gold_lf": "[IN:CREATE_ALARM [SL:DATE_TIME for 7 am on Sunday morning ] ]"
+    },
+    {
+        "utterance": "Find a recipe for jerk chicken",
+        "intent": "get_recipes",
+        "AMR Graph": "(S (VP (VB Find) (NP (DT a) (NN recipe) (PP (IN for) (NP (NN jerk) (NN chicken))))))",
+        "key_phrase": "recipe, jerk chicken",
+        "slot_type": "(recipes_type, recipe), (recipes_dish, jerk chicken)",
+        "pred_lf": "[IN:get_recipes [SL:recipes_type recipe] [SL:recipes_dish jerk chicken]]",
+        "gold_lf": "[IN:GET_RECIPES [SL:RECIPES_DISH jerk chicken ] ]"
+    },
+    {
+        "utterance": "play destiny's child",
+        "intent": "play_music",
+        "AMR Graph": "(S (VP (VB play) (NP (NN destiny's) (NN child))))",
+        "key_phrase": "play, destiny's child",
+        "slot_type": "(music_track_title, destiny's child), (music_type, play)",
+        "pred_lf": "[IN:play_music [SL:music_track_title destiny's child] [SL:music_type play]]",
+        "gold_lf": "[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME destiny 's child ] ]"
+    },
+    {
+        "utterance": "make an alarm for the 5th",
+        "intent": "create_alarm",
+        "AMR Graph": "(S (VP (VB make) (NP (DT an) (NN alarm) (PP (IN for) (NP (DT the) (JJ 5th))))))",
+        "key_phrase": "alarm, 5th",
+        "slot_type": "(alarm_name, alarm), (ordinal, 5th)",
+        "pred_lf": "[IN:create_alarm [SL:alarm_name alarm] [SL:ordinal 5th]]",
+        "gold_lf": "[IN:CREATE_ALARM [SL:DATE_TIME for the 5th ] ]"
+    },
+    {
+        "utterance": "Set an alarm for Monday at 5pm",
+        "intent": "create_alarm",
+        "AMR Graph": "(S (VP (VB Set) (NP (DT an) (NN alarm))) (PP (IN for) (NP (NNP Monday))) (PP (IN at) (NP (CD 5pm)))))",
+        "key_phrase": "Set an alarm, Monday, 5pm",
+        "slot_type": "(todo, Set an alarm), (date_time, Monday), (date_time, 5pm)",
+        "pred_lf": "[IN:create_alarm [SL:todo Set an alarm] [SL:date_time Monday] [SL:date_time 5pm]]",
+        "gold_lf": "[IN:CREATE_ALARM [SL:DATE_TIME for Monday at 5 pm ] ]"
+    },
+    {
+        "utterance": "When did Lisa's employment at Publix finish?",
+        "intent": "get_employment_time",
+        "AMR Graph": "(S (SBAR (WHADVP (WRB When)) (S (NP (NP (NN Lisa) (POS 's)) (NN employment)) (PP (IN at) (NP (NNP Publix)))) (VP (VB finish))))",
+        "key_phrase": "Lisa's employment, Publix, finish.",
+        "slot_type": "(job, Lisa's employment), (location, Publix), (O, finish)",
+        "pred_lf": "[IN:get_employment_time [SL:job Lisa's employment] [SL:location Publix] [SL:O finish]]",
+        "gold_lf": "[IN:GET_EMPLOYMENT_TIME [SL:CONTACT Lisa ] [SL:EMPLOYER Publix ] ]"
+    },
+    {
+        "utterance": "What's Larry's work address?",
+        "intent": "get_location",
+        "AMR Graph": "(S (SBARQ (WHNP (WP What 's)) (NP (NNP Larry 's) (NN work) (NN address))) (. ?)))",
+        "key_phrase": "Larry's work address",
+        "slot_type": "(contact_related, Larry), (location, work address)",
+        "pred_lf": "[IN:get_location [SL:contact_related Larry] [SL:location work address]]",
+        "gold_lf": "[IN:GET_LOCATION [SL:CONTACT Larry ] ]"
+    },
+    {
+        "utterance": "Does Rachel live in Avon?",
+        "intent": "get_location",
+        "AMR Graph": "(ROOT\n  (S\n    (VP\n      (VBZ Does)\n      (NP (NNP Rachel))\n      (VP\n        (VB live)\n        (PP (IN in) (NP (NNP Avon)))))\n    (. ?)))",
+        "key_phrase": "Rachel, live, Avon",
+        "slot_type": "(person_reminded, Rachel), (method_retrieval_reminder, live), (location, Avon)",
+        "pred_lf": "[IN:get_location [SL:person_reminded Rachel] [SL:method_retrieval_reminder live] [SL:location Avon]]",
+        "gold_lf": "[IN:GET_LOCATION [SL:CONTACT Rachel ] [SL:LOCATION Avon ] ]"
+    },
+    {
+        "utterance": "What method of cooking is better",
+        "intent": "question_recipes",
+        "AMR Graph": "(S (NP (WDT what)) (VP (NN method) (PP (IN of) (NP (NN cooking)))) (VP (VBZ is) (ADJP (JJR better))))",
+        "key_phrase": "method of cooking, better",
+        "slot_type": "(recipes_cooking_method, method of cooking), (O, better)",
+        "pred_lf": "[IN:question_recipes [SL:recipes_cooking_method method of cooking] [SL:O better]]",
+        "gold_lf": "[IN:GET_INFO_RECIPES ]"
+    },
+    {
+        "utterance": "what is the weather in New York today?",
+        "intent": "get_weather",
+        "AMR Graph": "(S (SBAR (WHNP (WP What)) (S (VP (VBZ is) (NP (DT the) (NN weather)) (PP (IN in) (NP (NNP New) (NNP York)))))) (NP (NN today)) (. ?))",
+        "key_phrase": "weather in New York, today",
+        "slot_type": "(location, New York), (date_time, today), (weather_attribute, weather)",
+        "pred_lf": "[IN:get_weather [SL:location New York] [SL:date_time today] [SL:weather_attribute weather]]",
+        "gold_lf": "[IN:GET_WEATHER [SL:LOCATION New York ] [SL:DATE_TIME today ] ]"
+    },
+    {
+        "utterance": "add camille to call",
+        "intent": "create_call",
+        "AMR Graph": "(S (VP (VB add) (NP (NN camille)) (PP (TO to) (NP (NN call)))))",
+        "key_phrase": "camille, call.",
+        "slot_type": "(attendee, camille), (todo, call)",
+        "pred_lf": "[IN:create_call [SL:attendee camille] [SL:todo call]]",
+        "gold_lf": "[IN:UPDATE_CALL [SL:CONTACT_ADDED camille ] ]"
+    },
+    {
+        "utterance": "How to make gluten free pancakes",
+        "intent": "get_info_recipes",
+        "AMR Graph": "(S (SBARQ \n        (WHADVP (WRB How))\n        (SQ \n            (VP \n                (TO to)\n                (VP \n                    (VB make) \n                    (NP (JJ gluten) (JJ free) (NNS pancakes)))))))",
+        "key_phrase": "gluten free pancakes",
+        "slot_type": "(recipes_dish, gluten free pancakes)",
+        "pred_lf": "[IN:get_info_recipes [SL:recipes_dish gluten free pancakes]]",
+        "gold_lf": "[IN:GET_RECIPES [SL:RECIPES_TYPE gluten free ] [SL:RECIPES_DISH pancakes ] ]"
+    },
+    {
+        "utterance": "Pause the timer.",
+        "intent": "pause_timer",
+        "AMR Graph": "(S (VP (VB Pause) (NP (DT the) (NN timer))))",
+        "key_phrase": "Pause the timer, timer, the timer",
+        "slot_type": "(method_timer, Pause the timer), (todo, timer), (todo, the timer)",
+        "pred_lf": "[IN:pause_timer [SL: method_timer Pause the timer] [SL: todo timer] [SL: todo the timer]]",
+        "gold_lf": "[IN:PAUSE_TIMER [SL:METHOD_TIMER timer ] ]"
+    },
+    {
+        "utterance": "remind rex to set up the meeting time",
+        "intent": "create_reminder",
+        "AMR Graph": "(S (VP (VB remind) (NP (NNP rex))) (S (VP (TO to) (VP (VB set) (PRT (RP up)) (NP (DT the) (NN meeting) (NN time))))))",
+        "key_phrase": "remind rex, set up, meeting time",
+        "slot_type": "(todo, remind rex), (method_timer, set up), (title_event, meeting time)",
+        "pred_lf": "[IN:create_reminder [SL:todo remind rex] [SL:method_timer set up] [SL:title_event meeting time]]",
+        "gold_lf": "[IN:CREATE_REMINDER [SL:PERSON_REMINDED rex ] [SL:TODO set up the meeting time ] ]"
+    },
+    {
+        "utterance": "Can I wear sandals today?",
+        "intent": "get_weather",
+        "AMR Graph": "(S (S (VP (MD Can) (NP (PRP I))) (VP (VB wear) (NP (NNS sandals)))) (ADVP (RB today)) (. ?))",
+        "key_phrase": "sandals, today",
+        "slot_type": "(location, sandals), (date_time, today)",
+        "pred_lf": "[IN:get_weather [SL:location sandals] [SL:date_time today]]",
+        "gold_lf": "[IN:GET_WEATHER [SL:WEATHER_ATTRIBUTE sandals ] [SL:DATE_TIME today ] ]"
+    },
+    {
+        "utterance": "Add aunties to current call",
+        "intent": "merge_call",
+        "AMR Graph": "(S (VP (VB Add) (NP (NNS aunties)) (PP (TO to) (NP (JJ current) (NN call)))))",
+        "key_phrase": "aunties, current call",
+        "slot_type": "(group, aunties), (user_attendee_event, current call)",
+        "pred_lf": "[IN:merge_call [SL:group aunties] [SL:user_attendee_event current call]]",
+        "gold_lf": "[IN:UPDATE_CALL [SL:CONTACT_ADDED aunties ] ]"
+    },
+    {
+        "utterance": "where will american federal aid be sent to",
+        "intent": "question_news",
+        "AMR Graph": "(S (SBAR (WHADVP (WRADVP where)) (S (MD will) (NP (JJ american) (JJ federal) (NN aid)) (VP (VB be) (VP (VBN sent) (PP (TO to)))))))",
+        "key_phrase": "american federal aid, federal aid, american aid, be sent to",
+        "slot_type": "(location, american federal aid), (location, federal aid), (location, american aid), (location, be sent to)",
+        "pred_lf": "[IN: question_news [SL: location american federal aid] [SL: location federal aid] [SL: location american aid] [SL: location be sent to]]",
+        "gold_lf": "[IN:QUESTION_NEWS [SL:NEWS_TOPIC where will american federal aid be sent to ] ]"
+    },
+    {
+        "utterance": "get me messages from Angela",
+        "intent": "get_message_contact",
+        "AMR Graph": "(S (VP (VB get) (NP (PRP me)) (NP (NNS messages) (PP (IN from) (NP (NNP Angela))))))",
+        "key_phrase": "messages, Angela",
+        "slot_type": "(todo, messages), (contact, Angela)",
+        "pred_lf": "[IN:get_message_contact [SL:todo messages] [SL:contact Angela]]",
+        "gold_lf": "[IN:GET_MESSAGE [SL:SENDER Angela ] ]"
+    },
+    {
+        "utterance": "Temperature this weekend new york fahrenheit",
+        "intent": "get_weather",
+        "AMR Graph": "(S\n  (NP (NN Temperature))\n  (NP\n    (DT this)\n    (NN weekend)\n    (NNP new)\n    (NNP york))\n  (NP (NN fahrenheit)))",
+        "key_phrase": "Temperature, this weekend, New York, fahrenheit",
+        "slot_type": "(weather_temperature_unit, Temperature), (location, New York), (weather_temperature_unit, fahrenheit)",
+        "pred_lf": "[IN:get_weather [SL:weather_temperature_unit Temperature] [SL:location New York] [SL:weather_temperature_unit fahrenheit]]",
+        "gold_lf": "[IN:GET_WEATHER [SL:DATE_TIME this weekend ] [SL:LOCATION new york ] [SL:WEATHER_TEMPERATURE_UNIT fahrenheit ] ]"
+    },
+    {
+        "utterance": "How many kids got arrested",
+        "intent": "question_news",
+        "AMR Graph": "(S (NP (WHNP (WRB How)) (NP (JJ many) (NNS kids))) (VP (VBD got) (VP (VBN arrested))))",
+        "key_phrase": "How many kids, got arrested",
+        "slot_type": "(O, How many kids), (O, got arrested)",
+        "pred_lf": "[IN: question_news [SL: O How many kids] [SL: O got arrested]]",
+        "gold_lf": "[IN:QUESTION_NEWS [SL:NEWS_TOPIC kids got arrested ] ]"
+    },
+    {
+        "utterance": "Show new messages",
+        "intent": "get_message",
+        "AMR Graph": "(S\n  (VP (VB Show) (NP (JJ new) (NNS messages)))\n)",
+        "key_phrase": "new messages",
+        "slot_type": "(O, Show), (news_type, new messages)",
+        "pred_lf": "[IN:get_message [SL:O Show] [SL:news_type new messages]]",
+        "gold_lf": "[IN:GET_MESSAGE ]"
+    },
+    {
+        "utterance": "Remind me to take dinner to Lori on Friday.",
+        "intent": "create_reminder",
+        "AMR Graph": "(S (VP (VB Remind) (S (NP (PRP me)) (VP (TO to) (VP (VB take) (NP (NN dinner)) (PP (TO to) (NP (NNP Lori))) (PP (IN on) (NP (NNP Friday))))))))",
+        "key_phrase": "take dinner, Lori, Friday",
+        "slot_type": "(todo, take dinner), (person_reminded, Lori), (date_time, Friday)",
+        "pred_lf": "[IN:create_reminder [SL:todo take dinner] [SL:person_reminded Lori] [SL:date_time Friday]]",
+        "gold_lf": "[IN:CREATE_REMINDER [SL:PERSON_REMINDED me ] [SL:TODO take dinner to Lori ] [SL:DATE_TIME on Friday ] ]"
+    },
+    {
+        "utterance": "Show my spa reminders with my mom next month.",
+        "intent": "get_reminder, get_reminder_location, get_date_time_event, get_attendee_event",
+        "AMR Graph": "(S\n   (VP Show\n      (NP my spa reminders\n         (PP with\n         (NP my mom)))\n      (PP next month)))",
+        "key_phrase": "my spa reminders, my mom, next month",
+        "slot_type": "(todo, my spa reminders), (user_attendee_event, my mom), (date_time, next month)",
+        "pred_lf": "[IN: get_reminder_location [SL: todo my spa reminders] [SL: user_attendee_event my mom] [SL: date_time next month]]",
+        "gold_lf": "[IN:GET_REMINDER [SL:METHOD_RETRIEVAL_REMINDER Show ] [SL:PERSON_REMINDED my ] [SL:TODO spa ] [SL:TODO with my mom ] [SL:DATE_TIME next month ] ]"
+    },
+    {
+        "utterance": "Michigan crime reports",
+        "intent": "question_news",
+        "AMR Graph": "(S (NP (NNP Michigan)) (NP (NN crime) (NNS reports)))",
+        "key_phrase": "Michigan, crime reports",
+        "slot_type": "(location, Michigan), (category_event, crime reports)",
+        "pred_lf": "[IN:question_news [SL:location Michigan] [SL:category_event crime reports]]",
+        "gold_lf": "[IN:GET_STORIES_NEWS [SL:NEWS_TOPIC Michigan crime ] [SL:NEWS_TYPE reports ] ]"
+    },
+    {
+        "utterance": "What's the biggest story today?",
+        "intent": "question_news",
+        "AMR Graph": "(S\n  (SBARQ\n    (WHNP (What 's))\n    (SQ\n      (NP (DT the) (JJS biggest) (NN story))\n      (VP (VBZ today))))\n    (. ?)))",
+        "key_phrase": "biggest story, today",
+        "slot_type": "(ordinal, biggest story), (date_time, today)",
+        "pred_lf": "[IN:question_news [SL:ordinal biggest story] [SL:date_time today]]",
+        "gold_lf": "[IN:GET_STORIES_NEWS [SL:NEWS_REFERENCE biggest ] [SL:NEWS_TYPE story ] [SL:DATE_TIME today ] ]"
+    },
+    {
+        "utterance": "please record a video message for Gina and Sparks",
+        "intent": "create_message_contact",
+        "AMR Graph": "(S (VP (VB please) (VP (VB record) (NP (DT a) (NN video) (NN message) (PP (IN for) (NP (NNP Gina) (CC and) (NNP Sparks))))))))",
+        "key_phrase": "record a video message, Gina and Sparks",
+        "slot_type": "(todo, record a video message), (person_reminded, Gina), (person_reminded, Sparks)",
+        "pred_lf": "[IN:create_message_contact [SL:todo record a video message] [SL:person_reminded Gina] [SL:person_reminded Sparks]]",
+        "gold_lf": "[IN:SEND_MESSAGE [SL:TYPE_CONTENT video ] [SL:RECIPIENT Gina ] [SL:RECIPIENT Sparks ] ]"
+    },
+    {
+        "utterance": "What is the temperature going to be today?",
+        "intent": "get_weather",
+        "AMR Graph": "(S \n  (WHNP (WP What)) \n  (VP \n    (VBZ is) \n    (NP \n      (DT the) \n      (NN temperature)) \n    (VP \n      (VBG going) \n      (PP \n        (TO to) \n        (VP \n          (VB be) \n          (NP (NN today)))))))",
+        "key_phrase": "temperature, today",
+        "slot_type": "(weather_temperature_unit, temperature), (date_time, today)",
+        "pred_lf": "[IN:get_weather [SL:weather_temperature_unit temperature] [SL:date_time today]]",
+        "gold_lf": "[IN:GET_WEATHER [SL:DATE_TIME today ] ]"
+    },
+    {
+        "utterance": "Do you have any reminders for me?",
+        "intent": "get_reminder",
+        "AMR Graph": "(S (VP (VB Do) (NP (PRP you)) (VP (VB have) (NP (DT any) (NNS reminders)) (PP (IN for) (NP (PRP me))))))",
+        "key_phrase": "reminders, for me",
+        "slot_type": "(todo, reminders), (O, for me)",
+        "pred_lf": "[IN:get_reminder [SL:todo reminders] [SL:O for me]]",
+        "gold_lf": "[IN:GET_REMINDER [SL:PERSON_REMINDED me ] ]"
+    },
+    {
+        "utterance": "I have a video message I need sent to my dad.",
+        "intent": "send_message",
+        "AMR Graph": "(S (NP (PRP I))\n   (VP (VBP have)\n       (NP (DT a)\n           (NN video)\n           (NN message))\n       (S (NP (PRP I))\n          (VP (VBP need)\n              (VP (VBN sent)\n                  (PP (TO to)\n                      (NP (PRP$ my) (NN dad))))))))\n      \nNote: This parsing graph represents the sentence as a hierarchical structure, with each node representing a constituent and its children representing its sub-constituents. The top-level node is the sentence (S), which has two main branches: the subject noun phrase (NP) \"I\" and the verb phrase (VP) \"have...need...sent to my dad\". The latter branch further branches into two VP nodes, \"need\" and \"sent\", with the latter having a prepositional phrase (PP) as a complement. The leaves of the graph are the individual words of the sentence.",
+        "key_phrase": "video message, I, need sent, dad",
+        "slot_type": "(todo, video message), (O, I), (method_retrieval_reminder, need sent), (contact_related, dad)",
+        "pred_lf": "[IN:send_message [SL:todo video message] [SL:O I] [SL:method_retrieval_reminder need sent] [SL:contact_related dad]]",
+        "gold_lf": "[IN:SEND_MESSAGE [SL:TYPE_CONTENT video ] [SL:RECIPIENT my dad ] ]"
+    },
+    {
+        "utterance": "Any celebrity news stories?",
+        "intent": "question_news",
+        "AMR Graph": "(S \n  (NP (DT Any) (NN celebrity) (NNS news) (NNS stories)) \n  (. ?))",
+        "key_phrase": "celebrity news stories",
+        "slot_type": "(news_topic, celebrity news stories)",
+        "pred_lf": "[IN:question_news [SL:news_topic celebrity news stories]]",
+        "gold_lf": "[IN:GET_STORIES_NEWS [SL:NEWS_CATEGORY celebrity ] [SL:NEWS_TYPE news stories ] ]"
+    },
+    {
+        "utterance": "put up my blink timer",
+        "intent": "create_timer",
+        "AMR Graph": "(S (VP (VB put) (PRT (RP up)) (NP (PRP$ my) (NN blink) (NN timer))))",
+        "key_phrase": "put up, blink timer",
+        "slot_type": "(method_timer, put up), (timer_name, blink timer)",
+        "pred_lf": "[IN:create_timer [SL:method_timer put up] [SL:timer_name blink timer]]",
+        "gold_lf": "[IN:GET_TIMER [SL:TIMER_NAME blink ] [SL:METHOD_TIMER timer ] ]"
+    },
+    {
+        "utterance": "how do you cook steak in a pan",
+        "intent": "get_info_recipes",
+        "AMR Graph": "(S (NP (WHADVP (WRB how)) (do you)) (VP (VB cook) (NP (NN steak)) (PP (IN in) (NP (DT a) (NN pan))))))",
+        "key_phrase": "cook steak, in a pan",
+        "slot_type": "recipes_cooking_method, cook steak\nlocation, in a pan",
+        "pred_lf": "[IN:get_info_recipes [SL:recipes_cooking_method cook steak] [SL:location in a pan]]",
+        "gold_lf": "[IN:GET_INFO_RECIPES [SL:RECIPES_INCLUDED_INGREDIENT steak ] ]"
+    },
+    {
+        "utterance": "how long should i cook ribs",
+        "intent": "get_recipes",
+        "AMR Graph": "(S (SBARQ (WHADVP (WRB how))\n          (SQ (MD should)\n              (NP (PRP i))\n              (VP (VB cook)\n                  (NP (NNS ribs)))))\n   (. ?))",
+        "key_phrase": "cook ribs, how long, i, should.",
+        "slot_type": "recipes_cooking_method, cook ribs \nmethod_timer, how long \nO, i \nO, should.",
+        "pred_lf": "[IN:get_recipes [SL:recipes_cooking_method cook ribs] [SL:method_timer how long]]",
+        "gold_lf": "[IN:GET_INFO_RECIPES [SL:RECIPES_ATTRIBUTE how long ] [SL:RECIPES_INCLUDED_INGREDIENT ribs ] ]"
+    },
+    {
+        "utterance": "End my call",
+        "intent": "end_call",
+        "AMR Graph": "(S (VP (V End) (NP (DET my) (N call))))",
+        "key_phrase": "End, my call, call, my",
+        "slot_type": "(O, End), (type_contact, call), (content_exact, my call), (type_contact, my)",
+        "pred_lf": "[IN:end_call [SL:O End] [SL:type_contact call] [SL:content_exact my call] [SL:type_contact my]]",
+        "gold_lf": "[IN:END_CALL ]"
+    },
+    {
+        "utterance": "Savannah Georgia events for next weekend",
+        "intent": "get_event",
+        "AMR Graph": "(S (NP (NNP Savannah) (NNP Georgia)) (NP (NNS events)) (PP (IN for) (NP (JJ next) (NN weekend)))))",
+        "key_phrase": "Savannah Georgia, events, next weekend",
+        "slot_type": "(location, Savannah Georgia), (title_event, events), (date_time, next weekend)",
+        "pred_lf": "[IN:get_event [SL:location Savannah Georgia] [SL:title_event events] [SL:date_time next weekend]]",
+        "gold_lf": "[IN:GET_EVENT [SL:LOCATION Savannah Georgia ] [SL:DATE_TIME for next weekend ] ]"
+    },
+    {
+        "utterance": "what's the temperature supposed to be tomorrow?",
+        "intent": "get_weather",
+        "AMR Graph": "(S\n    (SBARQ\n        (WHNP (what))\n        (SQ\n            (VP\n                (VBZ 's)\n                (NP (DT the) (NN temperature))\n                (ADJP (VBN supposed) (S\n                    (VP\n                        (TO to)\n                        (VP\n                            (VB be)\n                            (ADVP (RB tomorrow))))))))))\n    (. ?))",
+        "key_phrase": "temperature, tomorrow",
+        "slot_type": "(weather_temperature_unit, temperature), (date_time, tomorrow)",
+        "pred_lf": "[IN:get_weather [SL:weather_temperature_unit temperature] [SL:date_time tomorrow]]",
+        "gold_lf": "[IN:GET_WEATHER [SL:DATE_TIME tomorrow ] ]"
+    },
+    {
+        "utterance": "Did someone just graduate from CU Denver?",
+        "intent": "get_education_degree",
+        "AMR Graph": "(S (SBAR (IN Did) (NP (NN someone)) (VP (RB just) (VP (VB graduate) (PP (IN from) (NP (NNP CU) (NNP Denver)))))) (PUNC ?))",
+        "key_phrase": "someone, graduate, CU Denver",
+        "slot_type": "(person_reminded, someone), (education_degree, graduate), (school, CU Denver)",
+        "pred_lf": "[IN:get_education_degree [SL:person_reminded someone] [SL:education_degree graduate] [SL:school CU Denver]]",
+        "gold_lf": "[IN:GET_CONTACT [SL:SCHOOL CU Denver ] ]"
+    },
+    {
+        "utterance": "which whole food karen used to work at",
+        "intent": "get_employment_time",
+        "AMR Graph": "(S (NP (WDT which) (JJ whole) (NN food))\n   (SBAR (WHNP (NNP Karen))\n         (S (VP (VBD used)\n                (PP (TO to)\n                    (NP (VB work)\n                        (PP (IN at))))))))",
+        "key_phrase": "whole food, Karen, used to work at",
+        "slot_type": "(group, whole food), (person_reminded, Karen), (job, used to work at)",
+        "pred_lf": "[IN:get_employment_time [SL:group whole food] [SL:person_reminded Karen] [SL:job used to work at]]",
+        "gold_lf": "[IN:GET_EMPLOYER [SL:EMPLOYER whole food ] [SL:CONTACT karen ] ]"
+    },
+    {
+        "utterance": "Healthy dinner recipes",
+        "intent": "get_recipes",
+        "AMR Graph": "                (S)\n                / \\\n              NP  VP\n              /   /  \\\n            JJ   V   NP\n            /   /   /   \\\n         Healthy dinner recipes",
+        "key_phrase": "Healthy dinner, dinner recipes, healthy recipes",
+        "slot_type": "recipes_type_nutrition, Healthy dinner\nrecipes_type, dinner recipes\nrecipes_type_nutrition, healthy recipes",
+        "pred_lf": "[IN:get_recipes [SL:recipes_type_nutrition healthy recipes] [SL:recipes_type dinner recipes]]",
+        "gold_lf": "[IN:GET_RECIPES [SL:RECIPES_ATTRIBUTE Healthy ] [SL:RECIPES_MEAL dinner ] ]"
+    },
+    {
+        "utterance": "Message Jason and ask him to send a photo of his damaged car.",
+        "intent": "get_message_contact",
+        "AMR Graph": "(S (VP (VB Message) (NP (NNP Jason))) (CC and) (VP (VB ask) (NP (PRP him)) (VP (TO to) (VP (VB send) (NP (DT a) (NN photo)) (PP (IN of) (NP (PRP$ his) (JJ damaged) (NN car)))))))",
+        "key_phrase": "Jason, send photo, damaged car.",
+        "slot_type": "(attendee, Jason), (method_retrieval_reminder, send photo), (attribute_event, damaged car)",
+        "pred_lf": "[IN:get_message_contact [SL:attendee Jason] [SL:method_retrieval_reminder send photo] [SL:attribute_event damaged car]]",
+        "gold_lf": "[IN:SEND_MESSAGE [SL:RECIPIENT Jason ] [SL:CONTENT_EXACT send a photo of his damaged car ] ]"
+    },
+    {
+        "utterance": "What temp for the cherry pies",
+        "intent": "get_temperature",
+        "AMR Graph": "(S (NP (WDT What)) (VP (VBZ temp) (PP (IN for) (NP (DT the) (JJ cherry) (NNS pies))))))",
+        "key_phrase": "temp, cherry pies",
+        "slot_type": "(weather_temperature_unit, temp), (recipes_dish, cherry pies)",
+        "pred_lf": "[IN:get_temperature [SL: weather_temperature_unit temp] [SL: recipes_dish cherry pies]]",
+        "gold_lf": "[IN:GET_INFO_RECIPES [SL:RECIPES_ATTRIBUTE temp ] [SL:RECIPES_DISH cherry pies ] ]"
+    },
+    {
+        "utterance": "Add more minutes to my timer.",
+        "intent": "add_time_timer",
+        "AMR Graph": "(S (VP (VB Add) (NP (NP (JJR more) (NNS minutes)) (PP (TO to) (NP (PRP$ my) (NN timer))))))",
+        "key_phrase": "minutes, my timer",
+        "slot_type": "(method_timer, minutes), (timer_name, my timer)",
+        "pred_lf": "[IN:add_time_timer [SL:method_timer minutes] [SL:timer_name my timer]]",
+        "gold_lf": "[IN:ADD_TIME_TIMER [SL:DATE_TIME minutes ] [SL:METHOD_TIMER timer ] ]"
+    },
+    {
+        "utterance": "What is the hottest that it will get all week?",
+        "intent": "get_weather",
+        "AMR Graph": "(S (NP (WDT What)) (VP (VBZ is) (NP (DT the) (JJS hottest) (SBAR (IN that) (S (NP (PRP it)) (VP (MD will) (VP (VB get) (NP (DT all) (NN week)))))))) (. ?))",
+        "key_phrase": "hottest, all week",
+        "slot_type": "(weather_temperature_unit, hottest), (period, all week)",
+        "pred_lf": "[IN:get_weather [SL:weather_temperature_unit hottest] [SL:period all week]]",
+        "gold_lf": "[IN:GET_WEATHER [SL:WEATHER_ATTRIBUTE hottest ] [SL:DATE_TIME all week ] ]"
+    },
+    {
+        "utterance": "set alarm for 7:30 am",
+        "intent": "create_alarm",
+        "AMR Graph": "(S (VP (VB set) (NP (NN alarm) (PP (IN for) (NP (CD 7:30) (NN am))))))",
+        "key_phrase": "set alarm, 7:30 am",
+        "slot_type": "(todo, set alarm), (date_time, 7:30 am)",
+        "pred_lf": "[IN:create_alarm [SL:todo set alarm] [SL:date_time 7:30 am]]",
+        "gold_lf": "[IN:CREATE_ALARM [SL:DATE_TIME for 7 : 30 am ] ]"
+    },
+    {
+        "utterance": "How much is it going to rain tomorrow?",
+        "intent": "get_weather",
+        "AMR Graph": "(S \n  (SBAR \n    (WHADVP (WRB How)) \n    (S \n      (NP (JJ much)) \n      (VP (VBZ is) \n        (NP \n          (PRP it)) \n        (VP (VBG going) \n          (S \n            (VP (TO to) \n              (VP (VB rain)))))))) \n  (. tomorrow?)))",
+        "key_phrase": "How much, tomorrow, rain",
+        "slot_type": "(weather_attribute, How much), (date_time, tomorrow), (weather_type, rain)",
+        "pred_lf": "[IN:get_weather [SL:weather_attribute How much] [SL:date_time tomorrow] [SL:weather_type rain]]",
+        "gold_lf": "[IN:GET_WEATHER [SL:WEATHER_ATTRIBUTE rain ] [SL:DATE_TIME tomorrow ] ]"
+    },
+    {
+        "utterance": "start music on pandora",
+        "intent": "play_music",
+        "AMR Graph": "(TOP (S (VP (VB start) (NP (NN music)) (PP (IN on) (NP (NNP pandora))))))",
+        "key_phrase": "music, pandora, start music, start music on pandora",
+        "slot_type": "(music_type, music), (music_provider_name, pandora), (method_timer, start music), (music_provider_name, pandora)",
+        "pred_lf": "[IN:play_music [SL:music_type music] [SL:music_provider_name pandora] [SL:method_timer start music]]",
+        "gold_lf": "[IN:PLAY_MUSIC [SL:MUSIC_TYPE music ] [SL:MUSIC_PROVIDER_NAME pandora ] ]"
+    },
+    {
+        "utterance": "when are the next elections",
+        "intent": "get_event",
+        "AMR Graph": "(S (NP (WRB when))\n   (VP (VBP are)\n       (NP (DT the)\n           (JJ next)\n           (NNS elections))))",
+        "key_phrase": "next elections",
+        "slot_type": "(title_event, next elections)",
+        "pred_lf": "[IN:get_event [SL:title_event next elections]]",
+        "gold_lf": "[IN:QUESTION_NEWS [SL:NEWS_REFERENCE next ] [SL:NEWS_TOPIC elections ] ]"
+    },
+    {
+        "utterance": "Find me the latest Linkin Park album",
+        "intent": "get_track_info_music",
+        "AMR Graph": "(S (VP (V Find) (NP (PRON me)) (NP (DT the) (ADJ latest) (NN Linkin) (NNP Park) (NN album))))",
+        "key_phrase": "latest Linkin Park album, me, Find",
+        "slot_type": "(music_album_modifier, latest), (music_artist_name, Linkin Park), (O, album), (type_relation, me), (method_retrieval_reminder, Find)",
+        "pred_lf": "[IN:get_track_info_music [SL:music_album_modifier latest] [SL:music_artist_name Linkin Park] [SL:O album] [SL:type_relation me] [SL:method_retrieval_reminder Find]]",
+        "gold_lf": "[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Linkin Park ] [SL:MUSIC_TYPE album ] ]"
+    },
+    {
+        "utterance": "Easy salad recipes",
+        "intent": "get_info_recipes",
+        "AMR Graph": "(S (NP (JJ Easy) (NNS salad) ) (NNS recipes) )",
+        "key_phrase": "Easy salad, salad recipes",
+        "slot_type": "recipes_meal, Easy salad \nrecipes_type, recipes \n",
+        "pred_lf": "[IN:get_info_recipes [SL:recipes_meal Easy salad] [SL:recipes_type recipes]]",
+        "gold_lf": "[IN:GET_RECIPES [SL:RECIPES_ATTRIBUTE Easy ] [SL:RECIPES_DISH salad ] ]"
+    },
+    {
+        "utterance": "call India Cortez and Vivian Hamilton",
+        "intent": "create_call",
+        "AMR Graph": "(S (VP (VB call) (NP (NP (NNP India) (NNP Cortez)) (CC and) (NP (NNP Vivian) (NNP Hamilton)))))",
+        "key_phrase": "India Cortez, Vivian Hamilton",
+        "slot_type": "(contact, India Cortez), (contact, Vivian Hamilton)",
+        "pred_lf": "[IN:create_call [SL:contact India Cortez] [SL:contact Vivian Hamilton]]",
+        "gold_lf": "[IN:CREATE_CALL [SL:CONTACT India Cortez ] [SL:CONTACT Vivian Hamilton ] ]"
+    },
+    {
+        "utterance": "Where does Paula Carlton work?",
+        "intent": "get_employer",
+        "AMR Graph": "(S\n  (WHADVP (WRB Where))\n  (S\n    (VP (VBZ does)\n      (NP (NNP Paula) (NNP Carlton))\n      (VP (VB work))))\n  (. ?))",
+        "key_phrase": "Where, Paula Carlton, work.",
+        "slot_type": "(location, Where), (person_reminded, Paula Carlton), (job, work)",
+        "pred_lf": "[IN:get_employer [SL:location Where] [SL:person_reminded Paula Carlton] [SL:job work]]",
+        "gold_lf": "[IN:GET_EMPLOYER [SL:CONTACT Paula Carlton ] ]"
+    },
+    {
+        "utterance": "Will there be a lot of rain this weekend?",
+        "intent": "get_weather",
+        "AMR Graph": "(S (NP (MD Will) (EX there))\n   (VP (VB be)\n       (NP (DT a) (NN lot) (IN of) (NN rain))\n       (NP (DT this) (NN weekend)))\n   (. ?))",
+        "key_phrase": "Will, there be, a lot of rain, this weekend.",
+        "slot_type": "O, Will\nO, there be\nweather_attribute, a lot of rain\ndate_time, this weekend",
+        "pred_lf": "[IN:get_weather [SL:O Will] [SL:O there be] [SL:weather_attribute a lot of rain] [SL:date_time this weekend]]",
+        "gold_lf": "[IN:GET_WEATHER [SL:WEATHER_ATTRIBUTE rain ] [SL:DATE_TIME this weekend ] ]"
+    },
+    {
+        "utterance": "set an alarm for one hour",
+        "intent": "create_alarm",
+        "AMR Graph": "(S (VP (VB set) (NP (DT an) (NN alarm))) (PP (IN for) (NP (CD one) (NN hour)))))",
+        "key_phrase": "set an alarm, for one hour, alarm for one hour",
+        "slot_type": "(method_timer, set an alarm), (recipes_unit_measurement, one hour), (alarm_name, alarm for one hour)",
+        "pred_lf": "[IN:create_alarm [SL:method_timer set an alarm] [SL:recipes_unit_measurement one hour] [SL:alarm_name alarm for one hour]]",
+        "gold_lf": "[IN:CREATE_ALARM [SL:DATE_TIME for one hour ] ]"
+    },
+    {
+        "utterance": "Give me news regarding the Senate Russia hearings.",
+        "intent": "question_news",
+        "AMR Graph": "(S (VP (VB Give) (NP (PRP me) (NP (NN news) (PP (IN regarding) (NP (DT the) (NNP Senate) (NNP Russia) (NNS hearings)))))))",
+        "key_phrase": "news, Senate Russia hearings, regarding",
+        "slot_type": "(title_event, news), (news_topic, Senate Russia hearings)",
+        "pred_lf": "[IN:question_news [SL:title_event news] [SL:news_topic Senate Russia hearings]]",
+        "gold_lf": "[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC Senate Russia hearings ] ]"
+    },
+    {
+        "utterance": "Is there lightning reported in the current thunderstorm?",
+        "intent": "get_weather",
+        "AMR Graph": "(S (VP (VBZ Is) (NP (DT there) (NN lightning)) (VP (VBN reported) (PP (IN in) (NP (DT the) (JJ current) (NN thunderstorm))))?)))",
+        "key_phrase": "lightning, current thunderstorm, reported, in",
+        "slot_type": "(location, lightning), (location, current thunderstorm), (O, reported), (O, in)",
+        "pred_lf": "[IN:get_weather [SL:location current thunderstorm] [SL:O reported] [SL:location lightning]]",
+        "gold_lf": "[IN:GET_WEATHER [SL:WEATHER_ATTRIBUTE lightning ] [SL:WEATHER_ATTRIBUTE thunderstorm ] ]"
+    },
+    {
+        "utterance": "Ask Ryan if he wants to go to an FSU football game this fall.",
+        "intent": "get_event",
+        "AMR Graph": "(S \n  (VP \n    (VB Ask) \n    (NP \n      (NNP Ryan))) \n  (SBAR \n    (IN if) \n    (S \n      (NP \n        (PRP he)) \n      (VP \n        (VBZ wants) \n        (S \n          (VP \n            (TO to) \n            (VP \n              (VB go) \n              (PP \n                (TO to) \n                (NP \n                  (DT an) \n                  (NN FSU) \n                  (NN football) \n                  (NN game))))))))) \n  (NP \n    (DT this) \n    (NN fall)))",
+        "key_phrase": "Ryan, FSU football game, this fall.",
+        "slot_type": "(person_reminded, Ryan), (title_event, FSU football game), (date_time, this fall)",
+        "pred_lf": "[IN:get_event [SL:person_reminded Ryan] [SL:title_event FSU football game] [SL:date_time this fall]]",
+        "gold_lf": "[IN:SEND_MESSAGE [SL:RECIPIENT Ryan ] [SL:CONTENT_EXACT he wants to go to an FSU football game this fall ] ]"
+    },
+    {
+        "utterance": "Cancel my reminder for juice.",
+        "intent": "delete_reminder",
+        "AMR Graph": "(S (VP (VB Cancel) (NP (PRP$ my) (NN reminder) (PP (IN for) (NP (NN juice))))))",
+        "key_phrase": "reminder, juice",
+        "slot_type": "(todo, reminder), (recipes_excluded_ingredient, juice)",
+        "pred_lf": "[IN: delete_reminder [SL: todo reminder] [SL: recipes_excluded_ingredient juice]]",
+        "gold_lf": "[IN:DELETE_REMINDER [SL:PERSON_REMINDED my ] [SL:TODO juice ] ]"
+    },
+    {
+        "utterance": "how to make pancakes from scratch",
+        "intent": "get_recipes",
+        "AMR Graph": "(S (NP (WHADVP how) (S (VP to (VP make (NP (NNS pancakes))))))\n   (PP (IN from) (NP (NN scratch))))",
+        "key_phrase": "how to make pancakes, pancakes, from scratch",
+        "slot_type": "recipes_dish, pancakes\nrecipes_cooking_method, make \nrecipes_source, scratch",
+        "pred_lf": "[IN:get_recipes [SL:recipes_dish pancakes] [SL:recipes_cooking_method make] [SL:recipes_source scratch]]",
+        "gold_lf": "[IN:GET_RECIPES [SL:RECIPES_DISH pancakes ] [SL:RECIPES_COOKING_METHOD from scratch ] ]"
+    },
+    {
+        "utterance": "delete the wedding reminder for sunday",
+        "intent": "delete_reminder",
+        "AMR Graph": "(S\n   (VP\n      (VB delete)\n      (NP\n         (DT the)\n         (NN wedding)\n         (NN reminder)\n         (PP\n            (IN for)\n            (NP (NNP sunday))))))",
+        "key_phrase": "wedding reminder, sunday",
+        "slot_type": "(method_retrieval_reminder, wedding reminder), (date_time, sunday)",
+        "pred_lf": "[IN:delete_reminder [SL:method_retrieval_reminder wedding reminder] [SL:date_time sunday]]",
+        "gold_lf": "[IN:DELETE_REMINDER [SL:TODO wedding ] [SL:DATE_TIME for sunday ] ]"
+    },
+    {
+        "utterance": "show me who is available please",
+        "intent": "get_availability",
+        "AMR Graph": "(S (VP (VB show) (NP (PRP me))) (SBAR (WHNP (WP who)) (S (VP (VBZ is) (ADJP (JJ available)))) (, ,) (ADVP (RB please))))",
+        "key_phrase": "show me, who is available, please",
+        "slot_type": "O, show me\nuser_attendee_event, who is available\nO, please",
+        "pred_lf": "[IN:get_availability [SL:user_attendee_event who is available]]",
+        "gold_lf": "[IN:GET_AVAILABILITY ]"
+    },
+    {
+        "utterance": "Turn on the radio please",
+        "intent": "play_media",
+        "AMR Graph": "(S (VP (VBP Turn) (PRT (RP on)) (NP (DT the) (NN radio))) (VP (VB please)))",
+        "key_phrase": "radio, turn on, please",
+        "slot_type": "(music_radio_id, radio), (method_timer, turn on), (O, please)",
+        "pred_lf": "[IN:play_media [SL:music_radio_id radio] [SL:method_timer turn on] [SL:O please]]",
+        "gold_lf": "[IN:PLAY_MUSIC [SL:MUSIC_TYPE radio ] ]"
+    },
+    {
+        "utterance": "let's start recording a video message for Nobuko Falconeri",
+        "intent": "create_message",
+        "AMR Graph": "(S (VP (VB let) (VBZ 's) (VP (VB start) (S (VP (VBG recording) (NP (DT a) (NN video) (NN message) (PP (IN for) (NP (NNP Nobuko) (NNP Falconeri)))))))))",
+        "key_phrase": "recording a video message, Nobuko Falconeri",
+        "slot_type": "(todo, recording a video message), (person_reminded, Nobuko Falconeri)",
+        "pred_lf": "[IN:create_message [SL:todo recording a video message] [SL:person_reminded Nobuko Falconeri]]",
+        "gold_lf": "[IN:SEND_MESSAGE [SL:TYPE_CONTENT video ] [SL:RECIPIENT Nobuko Falconeri ] ]"
+    },
+    {
+        "utterance": "Play Eminem's newest hit",
+        "intent": "play_music",
+        "AMR Graph": "(S (VP (VB Play) (NP (NP (NNP Eminem) (POS 's)) (ADJP (JJS newest)) (NN hit))))",
+        "key_phrase": "Eminem's newest hit",
+        "slot_type": "(music_artist_name, Eminem), (music_track_title, newest hit)",
+        "pred_lf": "[IN: play_music [SL: music_artist_name Eminem] [SL: music_track_title newest hit]]",
+        "gold_lf": "[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Eminem ] [SL:MUSIC_TYPE hit ] ]"
+    },
+    {
+        "utterance": "Message Riley to say I am going to be late",
+        "intent": "send_message",
+        "AMR Graph": "             (S)\n             /   |   \\\n        (VP)    (NP)  (S)\n        /   \\      |     |  \n      (VB)  (NP) (PRP) (VP)    \n       |       |     |   |    \n     Message Riley  I am going to be late",
+        "key_phrase": "Message Riley, I, be late",
+        "slot_type": "(todo, Message Riley), (O, I), (attribute_event, be late)",
+        "pred_lf": "[IN: send_message [SL: todo Message Riley] [SL: O I] [SL: attribute_event be late]]",
+        "gold_lf": "[IN:SEND_MESSAGE [SL:RECIPIENT Riley ] [SL:CONTENT_EXACT I am going to be late ] ]"
+    },
+    {
+        "utterance": "What's happening in Dallas",
+        "intent": "get_location",
+        "AMR Graph": "(ROOT\n  (SBARQ\n    (WHNP (What))\n    (SQ\n      (VBZ 's)\n      (VP\n        (VBG happening)\n        (PP (IN in) (NP (NNP Dallas)))))))",
+        "key_phrase": "happening in Dallas, Dallas",
+        "slot_type": "(location, happening in Dallas), (location, Dallas)",
+        "pred_lf": "[IN:get_location [SL:location happening in Dallas] [SL:location Dallas]]",
+        "gold_lf": "[IN:GET_EVENT [SL:LOCATION Dallas ] ]"
+    },
+    {
+        "utterance": "Update reminder for today's staff meeting from 1 pm to 2 pm.",
+        "intent": "update_reminder_date_time",
+        "AMR Graph": "(S\n   (NP Update reminder)\n   (PP for\n      (NP today's staff meeting))\n   (PP from\n      (NP 1 pm)\n      (PP to\n         (NP 2 pm))))",
+        "key_phrase": "Update reminder, today's staff meeting, 1 pm, 2 pm.",
+        "slot_type": "todo, Update reminder\ntitle_event, today's staff meeting\ndate_time, 1 pm\ndate_time, 2 pm",
+        "pred_lf": "[IN:update_reminder_date_time [SL:todo Update reminder] [SL:title_event today's staff meeting] [SL:date_time 1 pm] [SL:date_time 2 pm]]",
+        "gold_lf": "[IN:UPDATE_REMINDER_DATE_TIME [SL:TODO today 's staff meeting ] [SL:DATE_TIME 1 pm ] [SL:DATE_TIME 2 pm ] ]"
+    },
+    {
+        "utterance": "Remind me to get tacos for dinner",
+        "intent": "create_reminder",
+        "AMR Graph": "(S (NP (NN Remind) (PRP me)) (VP (TO to) (VP (VB get) (NP (NNS tacos)) (PP (IN for) (NP (NN dinner))))))",
+        "key_phrase": "Remind me, get tacos, for dinner",
+        "slot_type": "(todo, Remind me), (recipes_dish, tacos), (recipes_meal, dinner)",
+        "pred_lf": "[IN:create_reminder [SL:todo Remind me] [SL:recipes_dish tacos] [SL:recipes_meal dinner]]",
+        "gold_lf": "[IN:CREATE_REMINDER [SL:PERSON_REMINDED me ] [SL:TODO get tacos for dinner ] ]"
+    },
+    {
+        "utterance": "Start the timer at 8:30",
+        "intent": "create_timer",
+        "AMR Graph": "(S (NP (VB Start) (DT the) (NN timer)) (VP (IN at) (NP (CD 8:30))))",
+        "key_phrase": "timer, start, 8:30.",
+        "slot_type": "(method_timer, timer), (O, start), (date_time, 8:30)",
+        "pred_lf": "[IN:create_timer [SL:method_timer timer] [SL:O start] [SL:date_time 8:30]]",
+        "gold_lf": "[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME at 8 : 30 ] ]"
+    },
+    {
+        "utterance": "How many calories are in a Big Mac from McDonald's",
+        "intent": "get_info_recipes",
+        "AMR Graph": "(S (SBARQ \n      (WHADVP (WRB How))\n      (SQ \n        (VBZ many)\n        (NP \n          (NNS calories))\n        (VP \n          (VBP are)\n          (PP \n            (IN in)\n            (NP \n              (DT a)\n              (JJ Big)\n              (NN Mac)\n              (PP \n                (IN from)\n                (NP \n                  (NNP McDonald's)))))))))\n                  \nAlternatively:\n\n                (S \n                  (SBARQ \n                    (WHADVP (WRB How))\n                    (S \n                      (NP (DT many) (NNS calories))\n                      (VP (VBP are)\n                          (PP \n                            (IN in)\n                            (NP \n                              (NP (DT a) (JJ Big) (NN Mac))\n                              (PP (IN from)\n                                  (NP (NNP McDonald's))))))))))",
+        "key_phrase": "calories, Big Mac, McDonald's",
+        "slot_type": "(recipes_unit_nutrition, calories), (recipes_dish, Big Mac), (recipes_source, McDonald's)",
+        "pred_lf": "[IN:get_info_recipes [SL:recipes_unit_nutrition calories] [SL:recipes_dish Big Mac] [SL:recipes_source McDonald's]]",
+        "gold_lf": "[IN:GET_INFO_RECIPES [SL:RECIPES_UNIT_NUTRITION calories ] [SL:RECIPES_DISH Big Mac ] ]"
+    },
+    {
+        "utterance": "What is the correct temperature for medium rare steak",
+        "intent": "question_food",
+        "AMR Graph": "(S\n  (NP (DT What))\n  (VP\n    (VBZ is)\n    (NP\n      (DT the)\n      (JJ correct)\n      (NN temperature)\n      (PP (IN for) (NP (JJ medium) (JJ rare) (NN steak))))))",
+        "key_phrase": "correct temperature, medium rare steak",
+        "slot_type": "weather_temperature_unit, correct temperature\nrecipes_qualifier_nutrition, medium rare steak",
+        "pred_lf": "[IN: question_food [SL: weather_temperature_unit correct temperature] [SL: recipes_qualifier_nutrition medium rare steak]]",
+        "gold_lf": "[IN:GET_INFO_RECIPES [SL:RECIPES_ATTRIBUTE temperature ] [SL:RECIPES_ATTRIBUTE medium rare ] [SL:RECIPES_DISH steak ] ]"
+    },
+    {
+        "utterance": "where does ali live?",
+        "intent": "get_location",
+        "AMR Graph": "(S (Wh-phrase (Wh-word where)) (Aux-phrase (Aux does)) (NP (Name ali)) (VP (Verb live)) (?, ?))",
+        "key_phrase": "\"ali live\"",
+        "slot_type": "(location, ali live)",
+        "pred_lf": "[IN:get_location [SL:location ali live]]",
+        "gold_lf": "[IN:GET_LOCATION [SL:CONTACT ali ] ]"
+    },
+    {
+        "utterance": "make a call to Xander Brown's mom",
+        "intent": "create_call",
+        "AMR Graph": "(S (VP (VB make) (NP (DT a) (NN call) (PP (TO to) (NP (NP (NNP Xander) (NNP Brown) (POS 's)) (NN mom))))))",
+        "key_phrase": "make a call, Xander Brown's mom",
+        "slot_type": "(todo, make a call), (person_reminded, Xander Brown's mom), (contact_method, call)",
+        "pred_lf": "[IN:create_call [SL:todo make a call] [SL:person_reminded Xander Brown's mom] [SL:contact_method call]]",
+        "gold_lf": "[IN:CREATE_CALL [SL:CONTACT Xander Brown 's mom ] ]"
+    },
+    {
+        "utterance": "remind me about dinner tonight at 5",
+        "intent": "create_reminder",
+        "AMR Graph": "(S (VP (VB remind) (NP (PRP me)) (PP (IN about) (NP (NN dinner) (NN tonight))) (PP (IN at) (NP (CD 5))))))",
+        "key_phrase": "dinner, tonight, 5",
+        "slot_type": "(todo, remind me about), (recipes_meal, dinner), (date_time, tonight at 5)",
+        "pred_lf": "[IN:create_reminder [SL:todo remind me about] [SL:recipes_meal dinner] [SL:date_time tonight at 5]]",
+        "gold_lf": "[IN:CREATE_REMINDER [SL:PERSON_REMINDED me ] [SL:TODO dinner ] [SL:DATE_TIME tonight at 5 ] ]"
+    },
+    {
+        "utterance": "Find me a recipe for curry chicken",
+        "intent": "get_recipes",
+        "AMR Graph": "(S (VP (VB Find) (NP (PRP me)) (NP (DT a) (NN recipe) (PP (IN for) (NP (NN curry) (NN chicken))))))",
+        "key_phrase": "recipe, curry chicken",
+        "slot_type": "(recipes_dish, curry chicken), (recipes_type, recipe)",
+        "pred_lf": "[IN:get_recipes [SL:recipes_dish curry chicken] [SL:recipes_type recipe]]",
+        "gold_lf": "[IN:GET_RECIPES [SL:RECIPES_DISH curry chicken ] ]"
+    },
+    {
+        "utterance": "theater events in los angeles this week",
+        "intent": "get_event",
+        "AMR Graph": "(S (NP (N theater))\n   (NP (N events))\n   (PP (P in)\n       (NP (NP (N los) (N angeles))\n           (NP (D this) (N week)))))",
+        "key_phrase": "theater events, events in Los Angeles, this week",
+        "slot_type": "category_event, theater events \nlocation, Los Angeles \ndate_time, this week",
+        "pred_lf": "[IN:get_event [SL:category_event theater events] [SL:location Los Angeles] [SL:date_time this week]]",
+        "gold_lf": "[IN:GET_EVENT [SL:CATEGORY_EVENT theater ] [SL:LOCATION los angeles ] [SL:DATE_TIME this week ] ]"
+    },
+    {
+        "utterance": "What do I need to make a chicken noodle soup",
+        "intent": "get_info_recipes",
+        "AMR Graph": "(S (SQ (WHNP (WP What))\n   (VP (VBP do)\n       (NP (PRP I))\n       (VP (VB need)\n           (S (VP (TO to)\n                  (VP (VB make)\n                      (NP (DT a)\n                          (JJ chicken)\n                          (NN noodle)\n                          (NN soup))))))))))",
+        "key_phrase": "chicken noodle soup, I, need, make",
+        "slot_type": "(recipes_dish, chicken noodle soup), (O, I), (method_recipes, need), (O, make)",
+        "pred_lf": "[IN:get_info_recipes [SL:recipes_dish chicken noodle soup] [SL:method_recipes need] [SL:O I] [SL:O make]]",
+        "gold_lf": "[IN:GET_INFO_RECIPES [SL:RECIPES_DISH chicken noodle soup ] ]"
+    },
+    {
+        "utterance": "What is the temperature in London?",
+        "intent": "get_weather",
+        "AMR Graph": "(S (SBARQ \n      (WHNP (WP What)) \n      (SQ (VBZ is) \n          (NP (DT the) \n              (NN temperature) \n              (PP (IN in) \n                  (NP (NNP London)))) \n          (. ?))))",
+        "key_phrase": "temperature, London",
+        "slot_type": "(weather_temperature_unit, temperature), (location, London)",
+        "pred_lf": "[IN:get_weather [SL:weather_temperature_unit temperature] [SL:location London]]",
+        "gold_lf": "[IN:GET_WEATHER [SL:LOCATION London ] ]"
+    },
+    {
+        "utterance": "Play a bunch of songs from musicals, please.",
+        "intent": "play_music",
+        "AMR Graph": "(S (VP (VB Play) (NP (NP (DT a) (NN bunch)) (PP (IN of) (NP (NNS songs) (PP (IN from) (NP (NNS musicals))))))) (, ,) (VP (VB please)) (. .))",
+        "key_phrase": "songs from musicals, bunch of songs",
+        "slot_type": "(music_type, songs from musicals), (O, bunch of songs)",
+        "pred_lf": "[IN:play_music [SL:music_type songs from musicals] [SL:O bunch of songs]]",
+        "gold_lf": "[IN:PLAY_MUSIC [SL:MUSIC_TYPE songs ] ]"
+    },
+    {
+        "utterance": "Have Janie and Kyle Coleman messaged me today",
+        "intent": "get_message_contact",
+        "AMR Graph": "(S (VP (V Have) (NP (NP (N Janie)) (CC and) (NP (N Kyle) (N Coleman)))) (VP (V messaged) (NP (PRP me)) (ADVP (ADV today))))",
+        "key_phrase": "Janie, Kyle Coleman, messaged me, today.",
+        "slot_type": "attendee, Janie\nattendee, Kyle Coleman\nmethod_recipes, messaged me\ndate_time, today",
+        "pred_lf": "[IN:get_message_contact [SL:attendee Janie] [SL:attendee Kyle Coleman] [SL:method_recipes messaged me] [SL:date_time today]]",
+        "gold_lf": "[IN:GET_MESSAGE [SL:SENDER Janie ] [SL:SENDER Kyle Coleman ] [SL:RECIPIENT me ] [SL:DATE_TIME today ] ]"
+    }
+]

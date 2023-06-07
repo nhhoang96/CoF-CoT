@@ -13,8 +13,6 @@ import numpy as np
 import copy
 import pandas as pd
 
-
-
 structure_map={'amr': 'Abstract Meaning Representation (AMR) Graph in the textual Neo-Davidson format', 'dp': 'Dependency Parsing Graph', 'cp': 'Constituency Parsing Graph'}
 
 
@@ -325,7 +323,7 @@ direct_prompt += "Slot Type: " + slot_str + "\n"
 type_prompt = "chain_of"
 add_demo, condition_type = args.add_demo, args.type_condition
 add_voting = args.voting_method
-result_output_file = f'./result/{type_prompt}_demo_{add_demo}_condition_{condition_type}_voting_{add_voting}_dialogue.jsonl'
+result_output_file = f'./result/{type_prompt}_demo_{add_demo}_condition_{condition_type}_voting_{add_voting}_structure_{args.structure_rep}_dialogue.jsonl'
 writer = open(result_output_file, 'w')
 slot_type=''
 intent=''
@@ -333,6 +331,7 @@ amr_graph=''
 key_phrases=''
 
 content = content.split("\n")
+result = []
 for example in content[0:100]:
     utterance, logical_form, _, _, tag = example.split("\t")
     # --- Directly prompt
@@ -341,7 +340,8 @@ for example in content[0:100]:
         direct_prompt += "Just generate the Logic Form: "
         print ("Direct prompt", direct_prompt)
         pred_lf = call_openai(args,direct_prompt, args.number_output, args.temperature)
-        writer.write(json.dumps({"utterance": utterance, "pred_lf": pred_lf, "gold_lf": logical_form}) + '\n')
+        # writer.write(json.dumps({"utterance": utterance, "pred_lf": pred_lf, "gold_lf": logical_form}) + '\n')
+        result.append({"utterance": utterance, "pred_lf": pred_lf, "gold_lf": logical_form})
     else:
         # --- Step 1a: Get Intent
         if (args.type_condition == 'none'):
@@ -555,5 +555,8 @@ for example in content[0:100]:
         else:
             pred_lf =''
             print("STEP 4: Get Logic Form", step_4_prompt)
-        writer.write(json.dumps({"utterance": utterance, "intent": intent, "AMR Graph": amr_graph, "key_phrase":
-            key_phrases, "slot_type": slot_type, "pred_lf": pred_lf, "gold_lf": logical_form}) + '\n')
+        # writer.write(json.dumps({"utterance": utterance, "intent": intent, "AMR Graph": amr_graph, "key_phrase":
+        #     key_phrases, "slot_type": slot_type, "pred_lf": pred_lf, "gold_lf": logical_form}) + '\n')
+        result.append({"utterance": utterance, "intent": intent, "AMR Graph": amr_graph, "key_phrase":
+            key_phrases, "slot_type": slot_type, "pred_lf": pred_lf, "gold_lf": logical_form})
+json.dump(result, writer, indent=4)
