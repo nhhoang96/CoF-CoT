@@ -71,10 +71,16 @@ python query_to_lf.py --type_condition='none' --add_demo='false' --output_for='a
 
 (5) Run demo selection method, including: 'length', 'type', 'random' (NOTE: num_samples = 11 = # domains)
 ```
-python query_to_lf.py --type_condition='none' --add_demo='true' --output_for='api' --number_output=1 --number_demo=11 -- demo_select_criteria='length'
-python query_to_lf.py --type_condition='none' --add_demo='true' --output_for='api' --number_output=1 --number_demo=11 -- demo_select_criteria='type'
-python query_to_lf.py --type_condition='none' --add_demo='true' --output_for='api' --number_output=1 --number_demo=11 -- demo_select_criteria='random'
+python query_to_lf.py --type_condition='none' --add_demo='true' --output_for='api' --number_output=1 --number_demo=11 --demo_select_criteria='length'
+python query_to_lf.py --type_condition='none' --add_demo='true' --output_for='api' --number_output=1 --number_demo=11 --demo_select_criteria='type'
+python query_to_lf.py --type_condition='none' --add_demo='true' --output_for='api' --number_output=1 --number_demo=11 --demo_select_criteria='random'
 ```
 
+
+(6) Run conditioning on intent description (control-single w/o demos for now)
+
+```
+python query_to_lf.py --type_condition='control_single' --add_demo='false' --output_for='api' --number_output=1 --condition_on='descr'
+```
 
 

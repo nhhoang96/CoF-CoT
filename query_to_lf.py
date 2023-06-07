@@ -30,7 +30,30 @@ def get_intent_slot_vob(dataset):
         for line in open(slot_file, 'r'):
             slot_vocab.append(line.strip())
 
+        
+        intent_map_file = './nlu_data/mtop_flat_simple/intent_vocab_map.jsonl'
+        intent_vocab, intent_descr=[],[]
+        intent_map={}
+        for line in open(intent_map_file, 'r'):
+            line_output = json.loads(line)
+            name, description = line_output['label'], line_output['label_description']
+            intent_map[name] = description
+            intent_vocab.append(name)
+            intent_descr.append(description)
 
+        
+
+        slot_map={}
+        slot_map_file = './nlu_data/mtop_flat_simple/slot_vocab_map.jsonl'
+        for line in open(slot_map_file, 'r'):
+            line_output = json.loads(line)
+            name, description = line_output['label'], line_output['label_description']
+            slot_map[name] = description
+            intent_vocab.append(name)
+            intent_descr.append(description)
+
+        #print ("Check intent", intent_vocab)
+        print ("Intent map", intent_map)
 
     elif dataset == "MASSIVE":
         # ----- MASSIVE -----#
@@ -45,7 +68,7 @@ def get_intent_slot_vob(dataset):
         for line in open(slot_file, 'r'):
             slot_vocab.append(line.strip())
 
-    return intent_vocab, slot_vocab
+    return intent_vocab, intent_map, slot_vocab, slot_map
 
 
 def call_openai(args, que_promp, output_num, temperature):
@@ -171,6 +194,22 @@ def select_fs_ex(demo_dict_ex, num_sample, criteria):
         selected_demo_dict_ex = type_random_demos.to_dict(orient='list')
         #print ("Top num", top_num)
     return selected_demo_dict_ex
+
+def condition_intent_info(args, current_prompt,intent_info, intent_map):
+    output_prompt = current_prompt
+    if (args.condition_on == 'descr'):
+        multiple_intents = intent_info.split(',')
+        print ("Multiple intents", multiple_intents)
+        for m in multiple_intents:
+            if (m in intent_map):
+                output_prompt += 'Potential Intent Types: ' + intent_map[m]
+            else:
+                output_prompt += 'Potential Intent Types: ' + m
+        output_prompt += '\n'
+    else:
+        output_prompt += 'Potential Intent Types: ' + intent_info + '\n'
+    return output_prompt
+
 # ----- Output file definition ------#
 input_test_file = "nlu_data/mtop_flat_simple/en/eval.txt"
 with open(input_test_file, 'r') as file:
@@ -191,6 +230,7 @@ parser.add_argument("--number_output",  default=2, type=int)
 parser.add_argument("--number_demo",  default=11, type=int)
 parser.add_argument('--demo_select_criteria', default='random', type=str)
 parser.add_argument("--temperature",  default=1, type=float)
+parser.add_argument('--condition_on', default='label', type=str)
 
 args = parser.parse_args()
 
@@ -251,7 +291,7 @@ if (args.output_for == 'api'):
     model_name = "gpt-3.5-turbo"
 
 # ---- Generic Structure
-intent_vocab, slot_vocab = get_intent_slot_vob(args.dataset)
+intent_vocab, intent_map, slot_vocab,slot_map = get_intent_slot_vob(args.dataset)
 intent_str = ','.join(intent_vocab)
 slot_str = ','.join(slot_vocab)
 gen_step_1 = 'Given the intent vocabulary and sentence, choose 1 of the following as the intent type for the sentence: \n'
@@ -353,10 +393,9 @@ for example in content[0:100]:
             step_1b_prompt = gen_step_1b + 'Sentence: ' + utterance + '\n'
         else:
             step_1b_prompt = gen_step_1bc + 'Sentence: ' + utterance + '\n'
-            step_1b_prompt += 'Potential Intent Types: ' + intent + '\n'
+            step_1b_prompt = condition_intent_info(args, step_1b_prompt,intent, intent_map)
         
         step_1b_prompt += structure_map[args.structure_rep] + ': ' + '\n'
-        print ("Step 1b prompt", step_1b_prompt)
 
         #--- Demo 1b
         if (args.add_demo == 'true'):
@@ -370,8 +409,8 @@ for example in content[0:100]:
                 else:
                     demo_1b = gen_step_1bc + 'Sentence: ' + demo_utt + '\n'
                 if (args.type_condition != 'none'):
-                    demo_1b += 'Potential Intent Types: ' + demo_intent + '\n'
-                
+                    demo_1b = condition_intent_info(args, demo_1b,demo_intent, intent_map)
+
                 demo_1b += structure_map[args.structure_rep] + ': ' + demo_amr + '\n'
                 iter_demo += 1
 
@@ -392,10 +431,9 @@ for example in content[0:100]:
         if (args.type_condition == 'none'):
             step_2_prompt = gen_step_2 + 'Sentence: ' + utterance + '\n'
         else:
-            step_2_prompt = gen_step_2c + 'Sentence: ' + utterance + '\n'
-            step_2_prompt += 'Potential Intents: ' + intent + '\n'
+            step_2_prompt = gen_step_2c + 'Sentence: ' + utterance + '\n'    
+            step_2_prompt = condition_intent_info(args, step_2_prompt,intent, intent_map)
 
-        #print ("AMR Graph", type(structure_map[args.structure_rep]), type(amr_graph), amr_graph)
         step_2_prompt += structure_map[args.structure_rep] + ': ' + amr_graph + '\n'
         step_2_prompt += 'Key phrases: \n'
 
@@ -416,7 +454,7 @@ for example in content[0:100]:
                 #for dem in demo_ex:
 
                 if (args.type_condition != 'none'):
-                    demo_2 += 'Potential Intents: ' +  demo_intent + '\n'
+                    demo_2 = condition_intent_info(args, demo_2,demo_intent, intent_map)
                 demo_2 += structure_map[args.structure_rep] + ': ' + demo_amr + '\n'
                 demo_2 += 'Key phrases: ' + demo_kp + '\n'
                 iter_demo += 1
@@ -440,7 +478,8 @@ for example in content[0:100]:
             #step_3 += 'Sentence: ' + utterance + '\n'
         else:
             step_3_prompt = gen_step_3c + 'Sentence: ' + utterance + '\n'
-            step_3_prompt += 'Potential Intent Types: ' + intent + '\n'
+
+            step_3_prompt = condition_intent_info(args, step_3_prompt,intent, intent_map)
             step_3_prompt += structure_map[args.structure_rep] + ': ' + amr_graph + '\n'
             step_3_prompt += 'Key phrases: ' + key_phrases + '\n'
             #step_3 = gen_step_3 + 'Key phrases: ' + '\n'
@@ -463,7 +502,7 @@ for example in content[0:100]:
                 demo_kp = selected_demo_dict_ex['key_phrase'][idx]
                 demo_pair = selected_demo_dict_ex['pair'][idx]
                 if (args.type_condition != 'none'):
-                    demo_3 += 'Potential Intents: ' + demo_intent + '\n'
+                    demo_3 = condition_intent_info(args, demo_3,demo_intent, intent_map)
                 demo_3 += structure_map[args.structure_rep] + ': ' + demo_amr + '\n'
                 demo_3 += 'Key phrases: ' + demo_kp + '\n'
 
@@ -483,6 +522,7 @@ for example in content[0:100]:
 
         # --- Step 4: Get Logic Form
         step_4_prompt = gen_step_4 + 'Sentence: ' + utterance + '\n'
+
         step_4_prompt += "Intent: " + intent + '\n'
         step_4_prompt += "Slot Type, Slot Value pairs: " + slot_type + '\n'
         step_4_prompt += 'Logic Form: \n'
@@ -500,7 +540,8 @@ for example in content[0:100]:
                 demo_kp = selected_demo_dict_ex['key_phrase'][idx]
                 demo_pair = selected_demo_dict_ex['pair'][idx]
                 demo_lf = selected_demo_dict_ex['lf'][idx]
-                demo_4 += "Intent: " + demo_intent + '\n'
+
+                demo_4 = condition_intent_info(args, demo_4,demo_intent, intent_map)
                 demo_4 += "Slot Type, Slot Value pairs: " + demo_pair + '\n'
                 demo_4 += 'Logic Form: ' + demo_lf + '\n'
                 iter_demo += 1
