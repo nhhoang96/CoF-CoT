@@ -69,4 +69,12 @@ python query_to_lf.py --type_condition='none' --add_demo='false' --output_for='a
 python query_to_lf.py --type_condition='none' --add_demo='false' --output_for='api' --number_output=10 --voting_method='complex'
 ```
 
+(5) Run demo selection method, including: 'length', 'type', 'random' (NOTE: num_samples = 11 = # domains)
+```
+python query_to_lf.py --type_condition='none' --add_demo='true' --output_for='api' --number_output=1 --number_demo=11 -- demo_select_criteria='length'
+python query_to_lf.py --type_condition='none' --add_demo='true' --output_for='api' --number_output=1 --number_demo=11 -- demo_select_criteria='type'
+python query_to_lf.py --type_condition='none' --add_demo='true' --output_for='api' --number_output=1 --number_demo=11 -- demo_select_criteria='random'
+```
+
+
 

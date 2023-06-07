@@ -11,6 +11,7 @@ import re
 from collections import Counter
 import numpy as np
 import copy
+import pandas as pd
 
 
 
@@ -136,70 +137,45 @@ def parse_lf(lf):
     #print ("Extracted Intent: %s \t Slots: %s \n"%(intent, slots))
     return intent, slots, slot_vals
 
+def select_fs_ex(demo_dict_ex, num_sample, criteria):
+    if (criteria == 'length'):
+
+        sorted_idx = copy.deepcopy(np.array(demo_dict_ex['utt_length']))
+        sorted_idx = np.argsort(sorted_idx)
+        top_num= sorted_idx[::-1][:num_sample] #idx of max_elements
+
+        selected_demo_dict_ex={'utt':[], 'intent':[], 'key_phrase':[], 'pair':[], 'AMR':[], 'lf':[]}
+
+        for k,v in demo_dict_ex.items():
+            v = copy.deepcopy(np.array(v))
+            selected_v = v[top_num]
+            selected_demo_dict_ex[k] = list(selected_v)
+    elif (criteria == 'random'):
+        sorted_idx = np.arange(len(demo_dict_ex['utt_length']))
+        np.random.shuffle(sorted_idx)
+        top_num = sorted_idx[:num_sample]
+
+        selected_demo_dict_ex={'utt':[], 'intent':[], 'key_phrase':[], 'pair':[], 'AMR':[], 'lf':[]}
+
+        for k,v in demo_dict_ex.items():
+            v = copy.deepcopy(np.array(v))
+            selected_v = v[top_num]
+            selected_demo_dict_ex[k] = list(selected_v)
+    elif (criteria == 'type'):
+        demos = pd.DataFrame(demo_dict_ex)
+        type_sample_num = int(num_sample / demos.groupby('domain').ngroups)
+        #print ("Group by", demos.groupby('domain').ngroups)
+        #print ("Type check", type_sample_num)
+        type_random_demos = demos.groupby('domain').apply(lambda x: x.sample(type_sample_num))
+        type_random_demos.reset_index(drop=True, inplace=True)
+        selected_demo_dict_ex = type_random_demos.to_dict(orient='list')
+        #print ("Top num", top_num)
+    return selected_demo_dict_ex
 # ----- Output file definition ------#
 input_test_file = "nlu_data/mtop_flat_simple/en/eval.txt"
 with open(input_test_file, 'r') as file:
     content = file.read()
 
-
-input_fs_file = "nlu_data/mtop_flat_simple/en/fs.txt"
-
-demo_ex=[]
-demo_dict_ex={'utt':[], 'intent':[], 'key_phrase':[], 'pair':[], 'AMR':[], 'lf':[], 'utt_length':[]}
-ex_counter=0
-for line in open(input_fs_file, 'r'):
-    ex = line.strip().split('\t')
-    utt = ex[0]
-    lf = ex[1]
-    domain=ex[3]
-    amr_info = ex[-1] #when generated
-    print ("AMR INFO", amr_info)
-    intent, slot_pairs, slot_vals = parse_lf(lf)
-    demo_dict={'utt':'', 'intent':'', 'key_phrase':'', 'pair':'', 'AMR':'', 'lf':''}
-    demo_dict['utt'] = utt
-    demo_dict['intent'] = intent
-    demo_dict['pair'] = ','.join(map(str,slot_pairs))
-    demo_dict['key_phrase'] = ','.join(slot_vals)
-    demo_dict['AMR'] = amr_info
-    demo_dict['lf'] = lf
-
-    demo_dict_ex['utt'].append(utt)
-    demo_dict_ex['intent'].append(intent)
-    demo_dict_ex['key_phrase'].append(','.join(slot_vals))
-    demo_dict_ex['pair'].append(','.join(map(str, slot_pairs)))
-    demo_dict_ex['AMR'].append(amr_info)
-    demo_dict_ex['lf'].append(lf)
-
-    demo_dict_ex['utt_length'].append(len(utt.split(' ')))
-
-
-    print ("Demo dict", demo_dict)
-    demo_ex.append(demo_dict)
-    ex_counter += 1
-    #break
-
-#---- Conduct selection
-#--- Complex COT = longest_utt length
-
-#sorted_idx = copy.deepcopy(demo_dict_ex['utt_length'])
-#sorted_idx = sorted(sorted_idx, reverse=True)
-#top_num= sorted_idx[:3]
-
-#print ("Length example", demo_dict_ex['utt_length'])
-sorted_idx = copy.deepcopy(np.array(demo_dict_ex['utt_length']))
-sorted_idx = np.argsort(sorted_idx)
-top_num= sorted_idx[::-1][:3] #idx of max_elements
-
-
-
-#print ("Top num", top_num)
-selected_demo_dict_ex={'utt':[], 'intent':[], 'key_phrase':[], 'pair':[], 'AMR':[], 'lf':[]}
-
-for k,v in demo_dict_ex.items():
-    v = copy.deepcopy(np.array(v))
-    selected_v = v[top_num]
-    selected_demo_dict_ex[k] = list(selected_v)
-#print ("Selected", selected_demo_dict_ex)
 
     
 parser = argparse.ArgumentParser()
@@ -212,11 +188,61 @@ parser.add_argument("--output_for", choices=['api','test'], default='test', type
 parser.add_argument("--voting_method", default='major', type=str)
 parser.add_argument("--structure_rep",  choices=['amr','dp','cp'], default='amr', type=str)
 parser.add_argument("--number_output",  default=2, type=int)
+parser.add_argument("--number_demo",  default=11, type=int)
+parser.add_argument('--demo_select_criteria', default='random', type=str)
 parser.add_argument("--temperature",  default=1, type=float)
 
 args = parser.parse_args()
 
-# OpenAPI api 
+#------ Prepare Demos -----#
+#input_fs_file = "nlu_data/mtop_flat_simple/en/fs.txt"
+input_fs_file = "nlu_data/mtop_flat_simple/en/demo_100_label.txt"
+
+demo_ex=[]
+demo_dict_ex={'utt':[], 'intent':[], 'key_phrase':[], 'pair':[], 'AMR':[], 'lf':[], 'utt_length':[], 'domain':[]}
+ex_counter=0
+for line in open(input_fs_file, 'r'):
+    ex = line.strip().split('\t')
+    utt = ex[0]
+    lf = ex[1]
+    domain=ex[3]
+    amr_info = ex[-1] #when generated
+    #print ("AMR INFO", amr_info)
+    intent, slot_pairs, slot_vals = parse_lf(lf)
+    demo_dict={'utt':'', 'intent':'', 'key_phrase':'', 'pair':'', 'AMR':'', 'lf':''}
+    demo_dict['utt'] = utt
+    demo_dict['intent'] = intent
+    demo_dict['pair'] = ','.join(map(str,slot_pairs))
+    demo_dict['key_phrase'] = ','.join(slot_vals)
+    demo_dict['AMR'] = amr_info
+    demo_dict['lf'] = lf
+    
+
+    demo_dict_ex['utt'].append(utt)
+    demo_dict_ex['intent'].append(intent)
+    demo_dict_ex['key_phrase'].append(','.join(slot_vals))
+    demo_dict_ex['pair'].append(','.join(map(str, slot_pairs)))
+    demo_dict_ex['AMR'].append(amr_info)
+    demo_dict_ex['lf'].append(lf)
+
+    demo_dict_ex['domain'].append(domain)
+    demo_dict_ex['utt_length'].append(len(utt.split(' ')))
+
+
+    #print ("Demo dict", demo_dict)
+    demo_ex.append(demo_dict)
+    ex_counter += 1
+    #break
+
+#---- Conduct selection
+selected_demo_dict_ex=select_fs_ex(demo_dict_ex, args.number_demo, args.demo_select_criteria)
+#print ("Top num", top_num)
+
+print ("Selected key-len %d \t Num samples:%d"%(len(selected_demo_dict_ex), len(selected_demo_dict_ex['utt'])))
+print ("Ex counter", ex_counter)
+
+#
+## OpenAPI api 
 if (args.output_for == 'api'):
     import openai
     key_file = open('./key.txt', 'r')
@@ -301,14 +327,18 @@ for example in content[0:100]:
                 demo_1 = gen_step_1c + 'Intent Vocabulary: ' + intent_str + '\n'
             elif (args.type_condition == 'control_filter'):
                 demo_1 = gen_step_1c_filter + 'Intent Vocabulary: ' + intent_str + '\n'
-            for dem in demo_ex:
-                demo_utt = dem['utt']
-                demo_intent = dem['intent']
+
+            iter_demo=0
+            for idx in range (len(selected_demo_dict_ex['utt'])): 
+            #for dem in demo_ex:
+                demo_utt = selected_demo_dict_ex['utt'][idx]
+                demo_intent = selected_demo_dict_ex['intent'][idx]
                 #print ("Demo ex", utt)
 
                 demo_1 += 'Sentence: ' + demo_utt + '\n'
                 demo_1 += 'Intent type: ' + demo_intent + '\n'
-
+                iter_demo += 1
+            assert iter_demo == args.number_demo
             step_1a_prompt = demo_1 + '\n' + step_1a_prompt
         
         if (args.output_for == 'api'):
@@ -317,7 +347,7 @@ for example in content[0:100]:
         else:
             print("STEP 1a: Get Intent \n", step_1a_prompt)
             intent =''
-
+        
         # --- Step 1b: Get AMR Graph
         if (args.type_condition == 'none'):
             step_1b_prompt = gen_step_1b + 'Sentence: ' + utterance + '\n'
@@ -330,17 +360,22 @@ for example in content[0:100]:
 
         #--- Demo 1b
         if (args.add_demo == 'true'):
-            if (args.type_condition == 'none'):
-                demo_1b = gen_step_1b + 'Sentence: ' + demo_utt + '\n'
-            else:
-                demo_1b = gen_step_1bc + 'Sentence: ' + demo_utt + '\n'
-            for dem in demo_ex:
-                demo_utt = dem['utt']
-                demo_intent = dem['intent']
+            iter_demo = 0
+            for idx in range (len(selected_demo_dict_ex['utt'])): 
+                demo_utt = selected_demo_dict_ex['utt'][idx]
+                demo_intent = selected_demo_dict_ex['intent'][idx]
+                demo_amr = selected_demo_dict_ex['AMR'][idx]
+                if (args.type_condition == 'none'):
+                    demo_1b = gen_step_1b + 'Sentence: ' + demo_utt + '\n'
+                else:
+                    demo_1b = gen_step_1bc + 'Sentence: ' + demo_utt + '\n'
                 if (args.type_condition != 'none'):
                     demo_1b += 'Potential Intent Types: ' + demo_intent + '\n'
                 
-                demo_1b += structure_map[args.structure_rep] + ': ' + '\n'
+                demo_1b += structure_map[args.structure_rep] + ': ' + demo_amr + '\n'
+                iter_demo += 1
+
+            assert iter_demo == args.number_demo
 
             step_1b_prompt  = demo_1b + '\n' + step_1b_prompt 
 
@@ -366,20 +401,27 @@ for example in content[0:100]:
 
         # -- Step 2 Demo
         if (args.add_demo == 'true'):
-            if (args.type_condition == 'none'):
-                demo_2 = gen_step_2 + 'Sentence: ' + demo_utt + '\n'
-            else:
-                demo_2 = gen_step_2c + 'Sentence: ' + demo_utt + '\n'
-        
-            for dem in demo_ex:
-                demo_utt = dem['utt']
-                demo_intent = dem['intent']
-                demo_kp = dem['key_phrase']
-                demo_amr = dem['AMR']
+            iter_demo = 0
+            for idx in range (len(selected_demo_dict_ex['utt'])): 
+                demo_utt = selected_demo_dict_ex['utt'][idx]
+                demo_intent = selected_demo_dict_ex['intent'][idx]
+                demo_kp = selected_demo_dict_ex['key_phrase'][idx]
+                demo_amr = selected_demo_dict_ex['AMR'][idx]
+
+                if (args.type_condition == 'none'):
+                    demo_2 = gen_step_2 + 'Sentence: ' + demo_utt + '\n'
+                else:
+                    demo_2 = gen_step_2c + 'Sentence: ' + demo_utt + '\n'
+            
+                #for dem in demo_ex:
+
                 if (args.type_condition != 'none'):
                     demo_2 += 'Potential Intents: ' +  demo_intent + '\n'
                 demo_2 += structure_map[args.structure_rep] + ': ' + demo_amr + '\n'
                 demo_2 += 'Key phrases: ' + demo_kp + '\n'
+                iter_demo += 1
+
+            assert iter_demo == args.number_demo
 
             step_2_prompt  = demo_2 + '\n' + step_2_prompt 
 
@@ -412,19 +454,23 @@ for example in content[0:100]:
                 demo_3 = gen_step_3 + 'Sentence: ' + demo_utt + '\n'
             else:
                 demo_3 = gen_step_3c + 'Sentence: ' + demo_utt + '\n'
-        
-            for dem in demo_ex:
-                demo_utt = dem['utt']
-                demo_intent = dem['intent']
-                demo_kp = dem['key_phrase']
-                demo_pair = dem['pair']
+       
+            iter_demo = 0
+            for idx in range (len(selected_demo_dict_ex['utt'])): 
+            #for dem in demo_ex:
+                demo_utt = selected_demo_dict_ex['utt'][idx]
+                demo_intent = selected_demo_dict_ex['intent'][idx]
+                demo_kp = selected_demo_dict_ex['key_phrase'][idx]
+                demo_pair = selected_demo_dict_ex['pair'][idx]
                 if (args.type_condition != 'none'):
                     demo_3 += 'Potential Intents: ' + demo_intent + '\n'
                 demo_3 += structure_map[args.structure_rep] + ': ' + demo_amr + '\n'
                 demo_3 += 'Key phrases: ' + demo_kp + '\n'
 
                 demo_3 += 'Slot Type, Key phrase pairs: ' + demo_pair + '\n'
+                iter_demo += 1
 
+            assert iter_demo == args.number_demo
             step_3_prompt  = demo_3 + '\n' + step_3_prompt 
 
         if (args.output_for == 'api'):
@@ -446,15 +492,20 @@ for example in content[0:100]:
         if (args.add_demo == 'true'):
             demo_4 = gen_step_4 + 'Sentence: ' + demo_utt + '\n'
         
-            for dem in demo_ex:
-                demo_utt = dem['utt']
-                demo_intent = dem['intent']
-                demo_kp = dem['key_phrase']
-                demo_pair = dem['pair']
-
+            iter_demo=0
+            for idx in range (len(selected_demo_dict_ex['utt'])): 
+            #for dem in demo_ex:
+                demo_utt = selected_demo_dict_ex['utt'][idx]
+                demo_intent = selected_demo_dict_ex['intent'][idx]
+                demo_kp = selected_demo_dict_ex['key_phrase'][idx]
+                demo_pair = selected_demo_dict_ex['pair'][idx]
+                demo_lf = selected_demo_dict_ex['lf'][idx]
                 demo_4 += "Intent: " + demo_intent + '\n'
                 demo_4 += "Slot Type, Slot Value pairs: " + demo_pair + '\n'
-                demo_4 += 'Logic Form: ' + dem['lf'] + '\n'
+                demo_4 += 'Logic Form: ' + demo_lf + '\n'
+                iter_demo += 1
+
+            assert iter_demo == args.number_demo
 
             step_4_prompt  = demo_4 + '\n' + step_4_prompt 
         if (args.output_for == 'api'):
