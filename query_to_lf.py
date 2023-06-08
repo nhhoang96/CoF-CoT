@@ -347,13 +347,14 @@ intent=''
 amr_graph=''
 key_phrases=''
 
-content = content.split("\n")
+content = content.split("\n")[:-1]
 result = []
-for example in content[0:1]:
+for example in content:
     utterance, logical_form, _, _, tag = example.split("\t")
     # --- Directly prompt
     if args.type_prompt == "direct":
         cur_direct_prompt = new_session
+        cur_direct_prompt += direct_prompt
         if (args.add_demo == 'true'): 
             for idx in range (len(selected_demo_dict_ex['utt'])): 
                 demo_utt = selected_demo_dict_ex['utt'][idx]
@@ -362,12 +363,14 @@ for example in content[0:1]:
                 cur_direct_prompt += "Just generate the Logic Form: " + demo_lf + "\n"
 
             cur_direct_prompt += '\n'
+            cur_direct_prompt += direct_prompt
         cur_direct_prompt += "Sentence: " + utterance + "\n"
         cur_direct_prompt += "Just generate the Logic Form: "
         print ("Direct prompt", cur_direct_prompt)
         if (args.output_for == 'api'):
             pred_lf = call_openai(args,cur_direct_prompt, args.number_output, args.temperature)
             # writer.write(json.dumps({"utterance": utterance, "pred_lf": pred_lf, "gold_lf": logical_form}) + '\n')
+            print ("Pred", pred_lf)
             result.append({"utterance": utterance, "pred_lf": pred_lf, "gold_lf": logical_form})
     else:
         # --- Step 1a: Get Intent
