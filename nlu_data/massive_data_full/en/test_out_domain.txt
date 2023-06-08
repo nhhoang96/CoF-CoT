@@ -1,0 +1,774 @@
+pink is all we need	[IN:iot_hue_lightchange [SL:color_type pink] ]	iot	en-US
+and the darkness has fallen	[IN:iot_hue_lighton ]	iot	en-US
+olly turn the lights off in the bedroom	[IN:iot_hue_lightoff [SL:house_place bedroom] ]	iot	en-US
+it's dirty here make some noise	[IN:iot_cleaning ]	iot	en-US
+hoover the hallway	[IN:iot_cleaning [SL:house_place hallway] ]	iot	en-US
+set lights brightness higher	[IN:iot_hue_lightup ]	iot	en-US
+lower the lights	[IN:iot_hue_lightdim ]	iot	en-US
+tell me some business news	[IN:news_query [SL:news_topic business] ]	news	en-US
+tell me international news	[IN:news_query [SL:place_name international] ]	news	en-US
+let's have the lights blue	[IN:iot_hue_lightchange [SL:color_type blue] ]	iot	en-US
+what is the exchange rate of us dollar to pound sterling	[IN:news_query [SL:news_topic exchange rate of us dollar to pound sterling] ]	news	en-US
+light up the lights in the kitchen	[IN:iot_hue_lighton [SL:house_place kitchen] ]	iot	en-US
+start a vacuum cleaner	[IN:iot_cleaning [SL:device_type vacuum cleaner] ]	iot	en-US
+turn on the vacuum cleaner	[IN:iot_cleaning [SL:device_type vacuum cleaner] ]	iot	en-US
+disable my okug	[IN:iot_wemo_off [SL:device_type okug] ]	iot	en-US
+enable my plug	[IN:iot_wemo_on [SL:device_type plug] ]	iot	en-US
+please tell me the latest news	[IN:news_query ]	news	en-US
+switch off the lights	[IN:iot_hue_lightoff ]	iot	en-US
+what's sensational in time of india	[IN:news_query [SL:media_type time of india] ]	news	en-US
+turn the smart plug on	[IN:iot_wemo_on [SL:device_type smart plug] ]	iot	en-US
+what are the breaking news	[IN:news_query ]	news	en-US
+power up the plug socket one	[IN:iot_wemo_on [SL:device_type plug socket one] ]	iot	en-US
+turn off the lights in the bathroom	[IN:iot_hue_lightoff [SL:house_place bathroom] ]	iot	en-US
+turn off the bathroom lights	[IN:iot_hue_lightoff [SL:house_place bathroom] ]	iot	en-US
+what are the latest news headlines	[IN:news_query ]	news	en-US
+what's happening in the news	[IN:news_query ]	news	en-US
+run coffee maker	[IN:iot_coffee [SL:device_type coffee maker] ]	iot	en-US
+get me the latest stock price for costco	[IN:news_query [SL:news_topic stock price for costco] ]	news	en-US
+change the bedroom lights to green	[IN:iot_hue_lightchange [SL:house_place bedroom] [SL:color_type green] ]	iot	en-US
+change the lights to dim	[IN:iot_hue_lightdim ]	iot	en-US
+change light color	[IN:iot_hue_lightchange ]	iot	en-US
+show latest news	[IN:news_query ]	news	en-US
+what is new news for today	[IN:news_query [SL:date today] ]	news	en-US
+set notification for news about the dakota pipeline	[IN:news_query [SL:news_topic dakota pipeline] ]	news	en-US
+please start vacuum cleaner	[IN:iot_cleaning [SL:device_type vacuum cleaner] ]	iot	en-US
+turn off room lights	[IN:iot_hue_lightoff [SL:house_place room] ]	iot	en-US
+can you lower the lights	[IN:iot_hue_lightdim ]	iot	en-US
+keep me informed about bitcoin price	[IN:news_query [SL:news_topic bitcoin price] ]	news	en-US
+hi can you please turn lower the lights	[IN:iot_hue_lightdim ]	iot	en-US
+i want to hear the last news from c. n. n.	[IN:news_query [SL:media_type c. n. n.] ]	news	en-US
+turn the lights off	[IN:iot_hue_lightoff ]	iot	en-US
+could you please give me up to date news headlines from my newest provider	[IN:news_query [SL:media_type newest provider] ]	news	en-US
+could you please find me the latest news from a source that i do not usually go to	[IN:news_query ]	news	en-US
+tell me about the latest political news	[IN:news_query [SL:news_topic political] ]	news	en-US
+what are the b. b. c. poll predictions for the upcoming us elections	[IN:news_query [SL:media_type b. b. c. poll] [SL:news_topic upcoming us elections] ]	news	en-US
+start the robot roomba	[IN:iot_cleaning [SL:device_type robot roomba] ]	iot	en-US
+robot vacuum the living room now	[IN:iot_cleaning [SL:house_place living room] ]	iot	en-US
+make the house lights amber at six p. m.	[IN:iot_hue_lightchange [SL:house_place house] [SL:color_type amber] [SL:time six p. m.] ]	iot	en-US
+please turn lights off	[IN:iot_hue_lightoff ]	iot	en-US
+increase the brightness of the lights	[IN:iot_hue_lightup ]	iot	en-US
+i want dimmer lights	[IN:iot_hue_lightdim ]	iot	en-US
+news articles on a particular subject	[IN:news_query ]	news	en-US
+turn the living room's light off	[IN:iot_hue_lightoff [SL:house_place living room's] ]	iot	en-US
+could you turn the light off	[IN:iot_hue_lightoff ]	iot	en-US
+dim the lights in the living room	[IN:iot_hue_lightdim [SL:house_place living room] ]	iot	en-US
+turn on the robot vacuum cleaner	[IN:iot_cleaning [SL:device_type robot vacuum cleaner] ]	iot	en-US
+give me up to date on sports news	[IN:news_query [SL:news_topic sports] ]	news	en-US
+get hourly notification on sports news	[IN:news_query [SL:general_frequency hourly] [SL:news_topic sports] ]	news	en-US
+brighten the lights in the hallway	[IN:iot_hue_lightup [SL:house_place hallway] ]	iot	en-US
+please turn up the screen brightness all the way	[IN:iot_hue_lightup [SL:device_type screen] [SL:change_amount all the way] ]	iot	en-US
+user friendly	[IN:news_query ]	news	en-US
+can you increase the brightness in the room	[IN:iot_hue_lightup [SL:house_place room] ]	iot	en-US
+go to the washington post website	[IN:news_query [SL:media_type washington post] ]	news	en-US
+is there any special in politic	[IN:news_query [SL:news_topic politic] ]	news	en-US
+start vacuum cleaner	[IN:iot_cleaning [SL:device_type vacuum cleaner] ]	iot	en-US
+latest new on international women's day	[IN:news_query [SL:news_topic international women's day] ]	news	en-US
+find today's wapo articles about trump	[IN:news_query [SL:date today's] [SL:media_type wapo] [SL:news_topic trump] ]	news	en-US
+olly change the lighting to blue	[IN:iot_hue_lightchange [SL:color_type blue] ]	iot	en-US
+i want a coffee	[IN:iot_coffee ]	iot	en-US
+fast me the news of academy awards	[IN:news_query [SL:news_topic academy awards] ]	news	en-US
+tell me about the new foreign policy of trump	[IN:news_query [SL:news_topic foreign policy of trump] ]	news	en-US
+please raise the light i am not comfortable at this	[IN:iot_hue_lightup ]	iot	en-US
+what do we have on new york time's front page	[IN:news_query [SL:media_type new york time's] ]	news	en-US
+please turn off the light of my son's room	[IN:iot_hue_lightoff [SL:house_place my son's room] ]	iot	en-US
+can you make me some coffee olly	[IN:iot_coffee ]	iot	en-US
+tell me about trump	[IN:news_query [SL:news_topic trump] ]	news	en-US
+let me know when you hear about france	[IN:news_query [SL:news_topic france] ]	news	en-US
+change the lights to blue olly	[IN:iot_hue_lightchange [SL:color_type blue] ]	iot	en-US
+i'd like some red lighting	[IN:iot_hue_lightchange [SL:color_type red] ]	iot	en-US
+what are today's sports news	[IN:news_query [SL:date today's] [SL:news_topic sports] ]	news	en-US
+show me the available colors of lights	[IN:iot_hue_lightchange ]	iot	en-US
+what news has happened on c. n. n. today	[IN:news_query [SL:media_type c. n. n.] [SL:date today] ]	news	en-US
+turn on wemo	[IN:iot_wemo_on [SL:device_type wemo] ]	iot	en-US
+turn off the lamps	[IN:iot_hue_lightoff [SL:device_type lamps] ]	iot	en-US
+start the vacuum cleaner	[IN:iot_cleaning [SL:device_type vacuum cleaner] ]	iot	en-US
+set notification from world news	[IN:news_query [SL:media_type world news] ]	news	en-US
+can you tell me the latest news	[IN:news_query ]	news	en-US
+once a new topic on politics comes up alert me	[IN:news_query [SL:news_topic politics] ]	news	en-US
+show me the latest news from the guardian	[IN:news_query [SL:media_type guardian] ]	news	en-US
+so clean news in past six hours is what	[IN:news_query [SL:media_type so clean] [SL:time past six hours] ]	news	en-US
+my vacuum cleaner should start between ten to eleven am everyday	[IN:iot_cleaning [SL:device_type vacuum cleaner] [SL:time ten] [SL:time eleven am] [SL:general_frequency everyday] ]	iot	en-US
+turn off all lights	[IN:iot_hue_lightoff [SL:device_type all lights] ]	iot	en-US
+brighten the lights	[IN:iot_hue_lightup ]	iot	en-US
+give me news on president trump	[IN:news_query [SL:news_topic president trump] ]	news	en-US
+latest news on terrorism	[IN:news_query [SL:news_topic terrorism] ]	news	en-US
+please dim the lights	[IN:iot_hue_lightdim ]	iot	en-US
+turn off the dining room	[IN:iot_hue_lightoff [SL:house_place dining room] ]	iot	en-US
+switch off the master's bedroom	[IN:iot_hue_lightoff [SL:house_place master's bedroom] ]	iot	en-US
+will trump visit russia anytime soon	[IN:news_query [SL:person trump] [SL:place_name russia] ]	news	en-US
+which teams are playing today in the premier league	[IN:news_query [SL:date today] [SL:news_topic premier league] ]	news	en-US
+more lights please	[IN:iot_hue_lightup ]	iot	en-US
+please make me coffee without sweetener	[IN:iot_coffee [SL:coffee_type without sweetener] ]	iot	en-US
+get me match highlights	[IN:news_query [SL:news_topic match highlights] ]	news	en-US
+turn on vacuum cleaner	[IN:iot_cleaning [SL:device_type vacuum cleaner] ]	iot	en-US
+clean my house	[IN:iot_cleaning [SL:house_place house] ]	iot	en-US
+change the light to pink color	[IN:iot_hue_lightchange [SL:color_type pink] ]	iot	en-US
+can you turn up the lights	[IN:iot_hue_lightup ]	iot	en-US
+lower lights in kitchen	[IN:iot_hue_lightdim [SL:house_place kitchen] ]	iot	en-US
+coffee make now	[IN:iot_coffee ]	iot	en-US
+i want more light	[IN:iot_hue_lightup ]	iot	en-US
+raise the light	[IN:iot_hue_lightup ]	iot	en-US
+what's going on in the world these days	[IN:news_query [SL:place_name world] ]	news	en-US
+color of light should be dimmed bright	[IN:iot_hue_lightdim ]	iot	en-US
+i'm going to sleep now	[IN:iot_hue_lightoff ]	iot	en-US
+c. n. n. headlines	[IN:news_query [SL:media_type c. n. n.] ]	news	en-US
+b. b. c. world headlines	[IN:news_query [SL:media_type b. b. c. world] ]	news	en-US
+turn off kitchen light	[IN:iot_hue_lightoff [SL:house_place kitchen] ]	iot	en-US
+i can't see turn up the lights	[IN:iot_hue_lightup ]	iot	en-US
+read me the latest international news	[IN:news_query [SL:place_name international] ]	news	en-US
+show me the dim color	[IN:iot_hue_lightdim ]	iot	en-US
+light color for study room	[IN:iot_hue_lightup [SL:house_place study room] ]	iot	en-US
+i need to change my house lights color to blue	[IN:iot_hue_lightchange [SL:house_place house] [SL:color_type blue] ]	iot	en-US
+start coffee at six am	[IN:iot_coffee [SL:time six am] ]	iot	en-US
+keep me up to date with today's n. b. a. scores	[IN:news_query [SL:date today's] [SL:news_topic n. b. a. scores] ]	news	en-US
+put the lights off now	[IN:iot_hue_lightoff ]	iot	en-US
+alexa turn the lights down to seven	[IN:iot_hue_lightdim [SL:change_amount to seven] ]	iot	en-US
+what's the news for today	[IN:news_query [SL:date today] ]	news	en-US
+alexa give me the headline news	[IN:news_query ]	news	en-US
+put dark colors instead of light ones in the house	[IN:iot_hue_lightchange [SL:color_type dark] [SL:house_place house] ]	iot	en-US
+olly put dark colors instead of light ones in the house	[IN:iot_hue_lightchange [SL:color_type dark] [SL:house_place house] ]	iot	en-US
+what's happening around the world	[IN:news_query [SL:place_name world] ]	news	en-US
+give me the latest news	[IN:news_query ]	news	en-US
+give me more light	[IN:iot_hue_lightup ]	iot	en-US
+start robot vacuum cleaner	[IN:iot_cleaning [SL:device_type robot vacuum cleaner] ]	iot	en-US
+send tech news	[IN:news_query [SL:news_topic tech] ]	news	en-US
+turn off the shed light	[IN:iot_hue_lightoff [SL:house_place shed] ]	iot	en-US
+daily news	[IN:news_query ]	news	en-US
+how do i set my coffee machine to make coffee	[IN:iot_coffee [SL:device_type coffee machine] ]	iot	en-US
+how do i start the robot vacuum cleaner	[IN:iot_cleaning [SL:device_type robot vacuum cleaner] ]	iot	en-US
+make the room light blue	[IN:iot_hue_lightchange [SL:house_place room] [SL:color_type blue] ]	iot	en-US
+make the bedroom lights red and the hall lights normal color please	[IN:iot_hue_lightchange [SL:house_place bedroom] [SL:color_type red] [SL:house_place hall] [SL:color_type normal] ]	iot	en-US
+anything interesting from bob's news	[IN:news_query [SL:media_type bob's news] ]	news	en-US
+change the lights in my home to green	[IN:iot_hue_lightchange [SL:house_place home] [SL:color_type green] ]	iot	en-US
+turn off my wemo socket	[IN:iot_wemo_off [SL:device_type wemo socket] ]	iot	en-US
+turn off the porch light	[IN:iot_hue_lightoff [SL:house_place porch] ]	iot	en-US
+what's the latest news from c. n. n. please	[IN:news_query [SL:media_type c. n. n.] ]	news	en-US
+turn up the brightness	[IN:iot_hue_lightup ]	iot	en-US
+tell me about the latest environmental news	[IN:news_query [SL:news_topic environmental] ]	news	en-US
+show me news about trump	[IN:news_query [SL:news_topic trump] ]	news	en-US
+show me news about the environment	[IN:news_query [SL:news_topic environment] ]	news	en-US
+latest news from the area	[IN:news_query ]	news	en-US
+turn off the socket	[IN:iot_wemo_off [SL:device_type socket] ]	iot	en-US
+shut the lights off	[IN:iot_hue_lightoff ]	iot	en-US
+give me news from c. n. n.	[IN:news_query [SL:media_type c. n. n.] ]	news	en-US
+start a pot of coffee please	[IN:iot_coffee ]	iot	en-US
+i need a cup of coffee	[IN:iot_coffee ]	iot	en-US
+shut off lights	[IN:iot_hue_lightoff ]	iot	en-US
+discontinue use of lights	[IN:iot_hue_lightoff ]	iot	en-US
+can you make me a cup of coffee	[IN:iot_coffee ]	iot	en-US
+set the living room lights to fifty percent	[IN:iot_hue_lightchange [SL:house_place living room] [SL:change_amount to fifty percent] ]	iot	en-US
+please get the coffee machine to make me some coffee	[IN:iot_coffee [SL:device_type coffee machine] ]	iot	en-US
+please show me any articles related to weather in the morning news	[IN:news_query [SL:news_topic weather] [SL:media_type morning news] ]	news	en-US
+are there any updates in regard to the election	[IN:news_query [SL:news_topic election] ]	news	en-US
+please start the vacuum cleaner	[IN:iot_cleaning [SL:device_type vacuum cleaner] ]	iot	en-US
+brightness ninety percent	[IN:iot_hue_lightchange [SL:change_amount ninety percent] ]	iot	en-US
+what are the news stories on the c. n. n. website	[IN:news_query [SL:media_type c. n. n.] ]	news	en-US
+initialize the robot vacuum	[IN:iot_cleaning [SL:device_type robot vacuum] ]	iot	en-US
+start the vacuum	[IN:iot_cleaning [SL:device_type vacuum] ]	iot	en-US
+turn office lights off	[IN:iot_hue_lightoff [SL:house_place office] ]	iot	en-US
+please change the light colors to red	[IN:iot_hue_lightchange [SL:color_type red] ]	iot	en-US
+please tell me news related to the stock market	[IN:qa_stock [SL:news_topic stock market] ]	qa	en-US
+can you raise the lights for me please	[IN:iot_hue_lightup ]	iot	en-US
+retrieve the light for me	[IN:iot_hue_lightup ]	iot	en-US
+front page news articles please	[IN:news_query ]	news	en-US
+what's new in the news	[IN:news_query ]	news	en-US
+change my light color to blue and please turn off the kitchen light	[IN:iot_hue_lightchange [SL:color_type blue] [SL:house_place kitchen] ]	iot	en-US
+what is the news from that newsource	[IN:news_query [SL:media_type newsource] ]	news	en-US
+shut off the socket	[IN:iot_wemo_off ]	iot	en-US
+make the lights off	[IN:iot_hue_lightoff ]	iot	en-US
+show me some current events	[IN:news_query ]	news	en-US
+olly turn the news on	[IN:news_query ]	news	en-US
+make me a cup of coffee with salted carmel flavored cream	[IN:iot_coffee [SL:coffee_type salted carmel flavored cream] ]	iot	en-US
+turn my bedroom lights off	[IN:iot_hue_lightoff [SL:house_place bedroom] ]	iot	en-US
+stop start the juice	[IN:iot_wemo_on ]	iot	en-US
+hey olly can you please make me a creamy coffee	[IN:iot_coffee [SL:coffee_type creamy] ]	iot	en-US
+what is the current state of the investigation into trump's ties with russia	[IN:news_query [SL:news_topic investigation into trump's ties] [SL:place_name russia] ]	news	en-US
+i want a lower light	[IN:iot_hue_lightdim ]	iot	en-US
+lower the lights please	[IN:iot_hue_lightdim ]	iot	en-US
+power off the wemo plug	[IN:iot_wemo_off [SL:device_type wemo plug] ]	iot	en-US
+please activate my coffee pot for me	[IN:iot_coffee [SL:device_type coffee pot] ]	iot	en-US
+please make me a cup of coffee	[IN:iot_coffee ]	iot	en-US
+please turn on my coffee pot	[IN:iot_coffee [SL:device_type coffee pot] ]	iot	en-US
+turn the plug off	[IN:iot_wemo_off ]	iot	en-US
+i want to see the news	[IN:news_query ]	news	en-US
+no lights in the kitchen	[IN:iot_hue_lightoff [SL:house_place kitchen] ]	iot	en-US
+turn down the lights to medium	[IN:iot_hue_lightoff ]	iot	en-US
+make it red in here	[IN:iot_hue_lightchange [SL:color_type red] ]	iot	en-US
+can you set my coffee machine to make me coffee at seven am	[IN:iot_coffee [SL:device_type coffee machine] [SL:time seven am] ]	iot	en-US
+please turn on my balcony lights	[IN:iot_hue_lighton [SL:house_place balcony] ]	iot	en-US
+change the lights in the living room to green and red	[IN:iot_hue_lightchange [SL:house_place living room] [SL:color_type green and red] ]	iot	en-US
+i want the light to be a little more red ish	[IN:iot_hue_lightchange [SL:color_type red ish] ]	iot	en-US
+set my coffee machine	[IN:iot_coffee [SL:device_type coffee machine] ]	iot	en-US
+please turn off the lights in patio	[IN:iot_hue_lightoff [SL:house_place patio] ]	iot	en-US
+what is the latest story from fox news	[IN:news_query [SL:media_type fox news] ]	news	en-US
+brighter	[IN:iot_hue_lightup ]	iot	en-US
+what's the latest news from xinhua	[IN:news_query [SL:media_type xinhua] ]	news	en-US
+what's the latest news on c. n. n.	[IN:news_query [SL:media_type c. n. n.] ]	news	en-US
+what is going on in the world today	[IN:news_query [SL:date today] ]	news	en-US
+news from c. n. n.	[IN:news_query [SL:media_type c. n. n.] ]	news	en-US
+i would like the like in the kitchen to be a different color	[IN:iot_hue_lightchange [SL:house_place kitchen] ]	iot	en-US
+lights at percent	[IN:iot_hue_lightchange ]	iot	en-US
+turn the lights to red color	[IN:iot_hue_lightchange [SL:color_type red] ]	iot	en-US
+olly if any new news comes out about the flood can you let me know right away	[IN:news_query [SL:news_topic flood] ]	news	en-US
+raise the lights	[IN:iot_hue_lightup ]	iot	en-US
+disable smart socket	[IN:iot_wemo_off [SL:device_type smart socket] ]	iot	en-US
+i want the smart socket off now	[IN:iot_wemo_off [SL:device_type smart socket] ]	iot	en-US
+turn off the bathroom light please	[IN:iot_hue_lightoff [SL:house_place bathroom] ]	iot	en-US
+find me info on cars	[IN:news_query [SL:news_topic cars] ]	news	en-US
+turn down lights	[IN:iot_hue_lightdim ]	iot	en-US
+activate the roomba	[IN:iot_cleaning [SL:device_type roomba] ]	iot	en-US
+brighten up the lighting	[IN:iot_hue_lightup ]	iot	en-US
+can you make the lights go out	[IN:iot_hue_lightoff ]	iot	en-US
+what happened on the walking dead	[IN:news_query [SL:news_topic walking dead] ]	news	en-US
+let's suck out the dust	[IN:iot_cleaning ]	iot	en-US
+what's in the news	[IN:news_query ]	news	en-US
+please power down	[IN:iot_wemo_off ]	iot	en-US
+power off	[IN:iot_wemo_off ]	iot	en-US
+run the vacuum	[IN:iot_cleaning [SL:device_type vacuum] ]	iot	en-US
+turn the kitchen lights off	[IN:iot_hue_lightoff [SL:house_place kitchen] ]	iot	en-US
+make a coffee	[IN:iot_coffee ]	iot	en-US
+turn off overhead light	[IN:iot_hue_lightoff ]	iot	en-US
+i want to know everything that breaks about the dam breaking in california	[IN:news_query [SL:place_name california] ]	news	en-US
+turn off my wifi	[IN:iot_wemo_off ]	iot	en-US
+turn off the lights in the kitchen	[IN:iot_hue_lightoff [SL:house_place kitchen] ]	iot	en-US
+activate the vacuum cleaner and use it	[IN:iot_cleaning [SL:device_type vacuum cleaner] ]	iot	en-US
+hey olly chance the current light settings	[IN:iot_hue_lightchange ]	iot	en-US
+give me the latest political headlines across the world	[IN:news_query [SL:news_topic political] [SL:place_name world] ]	news	en-US
+is there any news about the presidency	[IN:news_query [SL:news_topic presidency] ]	news	en-US
+power on wemo	[IN:iot_wemo_on [SL:device_type wemo] ]	iot	en-US
+switch on the roomba	[IN:iot_cleaning [SL:device_type roomba] ]	iot	en-US
+olly turn on the coffee machine to make me some coffee	[IN:iot_coffee [SL:device_type coffee machine] ]	iot	en-US
+house change all lights to blue	[IN:iot_hue_lightchange [SL:color_type blue] ]	iot	en-US
+house lights blue	[IN:iot_hue_lightchange [SL:color_type blue] ]	iot	en-US
+house can you make all the lights in the house blue	[IN:iot_hue_lightchange [SL:house_place house] [SL:color_type blue] ]	iot	en-US
+what's the latest news	[IN:news_query ]	news	en-US
+prepare coffee now	[IN:iot_coffee ]	iot	en-US
+my coffee is cold please make more coffee	[IN:iot_coffee ]	iot	en-US
+increase the brightness in this room	[IN:iot_hue_lightup [SL:house_place this room] ]	iot	en-US
+make the light in here redder	[IN:iot_hue_lightchange [SL:color_type redder] ]	iot	en-US
+turn lights off	[IN:iot_hue_lightoff ]	iot	en-US
+cease operating lights	[IN:iot_hue_lightoff ]	iot	en-US
+what are the headlines on c. n. n.	[IN:news_query [SL:media_type c. n. n.] ]	news	en-US
+what are the trending articles on the new york times	[IN:news_query [SL:media_type new york times] ]	news	en-US
+make coffee at three	[IN:iot_coffee [SL:time three] ]	iot	en-US
+start the coffee machine at three	[IN:iot_coffee [SL:device_type coffee machine] [SL:time three] ]	iot	en-US
+what is the latest news on donald trump	[IN:news_query [SL:person donald trump] ]	news	en-US
+what are the latest crime statistics for me area	[IN:news_query [SL:news_topic crime statistics] ]	news	en-US
+what did vogue post today	[IN:news_query [SL:media_type vogue] [SL:date today] ]	news	en-US
+olly change the color of the lights	[IN:iot_hue_lightchange ]	iot	en-US
+can you make some coffee	[IN:iot_coffee ]	iot	en-US
+read me the latest headlines from nytimescom	[IN:news_query [SL:media_type nytimescom] ]	news	en-US
+find information on today's stocks	[IN:news_query [SL:date today's] ]	news	en-US
+enable smart socket	[IN:iot_wemo_on [SL:device_type smart socket] ]	iot	en-US
+turn on new smart socket	[IN:iot_wemo_on [SL:device_type smart socket] ]	iot	en-US
+the news from c. b. s. alexa	[IN:news_query [SL:media_type c. b. s.] ]	news	en-US
+is there any new information regarding the mexican american border wall	[IN:news_query [SL:news_topic the mexican american border wall] ]	news	en-US
+i want coffee everyday	[IN:iot_coffee [SL:date everyday] ]	iot	en-US
+please turn on the wemo plug socket	[IN:iot_wemo_on [SL:device_type wemo plug socket] ]	iot	en-US
+change the lights to a different hue	[IN:iot_hue_lightchange ]	iot	en-US
+make the lights pink	[IN:iot_hue_lightchange [SL:color_type pink] ]	iot	en-US
+is there any news olly	[IN:news_query ]	news	en-US
+lower the overhead lights	[IN:iot_hue_lightdim [SL:house_place overhead] ]	iot	en-US
+news of the train wreck	[IN:news_query [SL:news_topic train wreck] ]	news	en-US
+would you love to see	[IN:iot_hue_lightchange ]	iot	en-US
+hello i want to turn off my wemo plug	[IN:iot_wemo_off [SL:device_type wemo plug] ]	iot	en-US
+who won the presidential election this year	[IN:qa_factoid [SL:news_topic the presidential election] [SL:date this year] ]	qa	en-US
+prepare a cup of coffee for me	[IN:iot_coffee ]	iot	en-US
+turn off sockets	[IN:iot_wemo_off ]	iot	en-US
+make my usual	[IN:iot_coffee [SL:coffee_type usual] ]	iot	en-US
+can you make the room brighter	[IN:iot_hue_lightup [SL:house_place room] ]	iot	en-US
+tell me the news about share market ups and downs	[IN:news_query [SL:news_topic share market ups and downs] ]	news	en-US
+can you please make a coffee	[IN:iot_coffee ]	iot	en-US
+please make the lights natural	[IN:iot_hue_lightchange ]	iot	en-US
+alexa please turn down the lights in the house	[IN:iot_hue_lightdim [SL:house_place house] ]	iot	en-US
+off all type of active devices	[IN:iot_wemo_off ]	iot	en-US
+here's the truth about meals on wheels in someone's budget	[IN:news_query ]	news	en-US
+set the coffee maker to on	[IN:iot_coffee [SL:device_type coffee maker] ]	iot	en-US
+turn the light off in the living room	[IN:iot_hue_lightoff [SL:house_place living room] ]	iot	en-US
+olly turn the light off in the living room	[IN:iot_hue_lightoff [SL:house_place living room] ]	iot	en-US
+lower the intensity of light	[IN:iot_hue_lightdim ]	iot	en-US
+i want to know about the brexit	[IN:news_query [SL:news_topic the brexit] ]	news	en-US
+turn my lights down to a lower level of brightness	[IN:iot_hue_lightdim ]	iot	en-US
+siri please turn the lights off in the bathroom	[IN:iot_hue_lightoff [SL:house_place bathroom] ]	iot	en-US
+set environmental news notification	[IN:news_query [SL:news_topic environmental] ]	news	en-US
+what is currently breaking news	[IN:news_query ]	news	en-US
+show b. b. c. news of migration	[IN:news_query [SL:media_type b. b. c.] [SL:news_topic migration] ]	news	en-US
+olly get me the popular news from b. b. c.	[IN:news_query [SL:media_type b. b. c.] ]	news	en-US
+get me the popular news from b. b. c.	[IN:news_query [SL:media_type b. b. c.] ]	news	en-US
+put on the vacuum on now and clean the living room	[IN:iot_cleaning [SL:device_type vacuum] [SL:house_place living room] ]	iot	en-US
+olly give me some dim light	[IN:iot_hue_lightdim ]	iot	en-US
+what's the latest trump controversy	[IN:news_query [SL:news_topic trump controversy] ]	news	en-US
+please turn socket off	[IN:iot_wemo_off ]	iot	en-US
+read me the latest new york times headlines	[IN:news_query [SL:media_type new york times] ]	news	en-US
+what are the top stories on c. n. n.	[IN:news_query [SL:media_type c. n. n.] ]	news	en-US
+please put all the lights	[IN:iot_hue_lightup [SL:device_type all the lights] ]	iot	en-US
+please set the brightness of lightness appropriately in kitchen	[IN:iot_hue_lightup [SL:house_place kitchen] ]	iot	en-US
+brighten of lights in living room	[IN:iot_hue_lightup [SL:house_place living room] ]	iot	en-US
+please turn the lights off	[IN:iot_hue_lightoff ]	iot	en-US
+switch wemo plug socket off	[IN:iot_wemo_off [SL:device_type wemo plug socket] ]	iot	en-US
+please tell me the news headlines	[IN:news_query ]	news	en-US
+begin vacuuming	[IN:iot_cleaning [SL:device_type vacuuming] ]	iot	en-US
+brighten the light of hall	[IN:iot_hue_lightup [SL:house_place hall] ]	iot	en-US
+turn off smart plug socket	[IN:iot_wemo_off [SL:device_type smart plug socket] ]	iot	en-US
+hot topic	[IN:news_query ]	news	en-US
+power off please	[IN:iot_wemo_off ]	iot	en-US
+make a coffee please	[IN:iot_coffee ]	iot	en-US
+what is the latest update on the new york bridge proposal	[IN:news_query [SL:news_topic new york bridge proposal] ]	news	en-US
+any breaking news from the huffington post	[IN:news_query [SL:media_type huffington post] ]	news	en-US
+show me the latest news from the un	[IN:news_query [SL:media_type un] ]	news	en-US
+adjust the lights to a lower setting please	[IN:iot_hue_lightdim ]	iot	en-US
+decrease brightness of lights	[IN:iot_hue_lightdim ]	iot	en-US
+coffee	[IN:iot_coffee ]	iot	en-US
+hey olly turn off the light please	[IN:iot_hue_lightoff ]	iot	en-US
+did i leave the light on in the garage	[IN:iot_hue_lightoff [SL:house_place garage] ]	iot	en-US
+please start the coffee pot	[IN:iot_coffee [SL:device_type coffee pot] ]	iot	en-US
+make the coffee	[IN:iot_coffee ]	iot	en-US
+turn off porch light	[IN:iot_hue_lightoff [SL:house_place porch] ]	iot	en-US
+turn off bedroom light at nine thirty p. m.	[IN:iot_hue_lightoff [SL:house_place bedroom] [SL:time nine thirty p. m.] ]	iot	en-US
+i want to hear the latest world news from today	[IN:news_query [SL:place_name world] [SL:date today] ]	news	en-US
+keep me up to date with the world news	[IN:news_query [SL:place_name world] ]	news	en-US
+clean the floor	[IN:iot_cleaning [SL:house_place floor] ]	iot	en-US
+make it brighter in here	[IN:iot_hue_lightup ]	iot	en-US
+plant based news	[IN:news_query [SL:news_topic plant based] ]	news	en-US
+what's happening in france today	[IN:news_query [SL:place_name france] [SL:date today] ]	news	en-US
+tell interesting news	[IN:news_query ]	news	en-US
+elections in up	[IN:news_query ]	news	en-US
+economic affairs	[IN:news_query ]	news	en-US
+what's been happening for the last two months	[IN:news_query [SL:date last two months] ]	news	en-US
+yesterday at noontime in times square what was the protest about	[IN:news_query [SL:date yesterday] [SL:time noontime] [SL:place_name times square] ]	news	en-US
+when does the super bowl officially start	[IN:qa_factoid [SL:event_name super bowl] ]	qa	en-US
+what else is missing in the diary	[IN:lists_query ]	lists	en-US
+please clean my shopping list	[IN:lists_remove [SL:list_name shopping] ]	lists	en-US
+delete the first item on the list	[IN:lists_remove ]	lists	en-US
+remove my task list	[IN:lists_remove [SL:list_name task] ]	lists	en-US
+any special events on my list	[IN:lists_query ]	lists	en-US
+remove events from my list	[IN:lists_remove ]	lists	en-US
+delete item	[IN:lists_remove ]	lists	en-US
+what i am going to do today	[IN:lists_query [SL:date today] ]	lists	en-US
+what's on my to-do list	[IN:lists_query [SL:list_name to-do] ]	lists	en-US
+get rid of a list	[IN:lists_remove ]	lists	en-US
+i need to create a new to do list	[IN:lists_createoradd [SL:list_name to do] ]	lists	en-US
+help me start my kitchen list	[IN:lists_createoradd [SL:list_name kitchen] ]	lists	en-US
+what is on my to do list	[IN:lists_query [SL:list_name to do] ]	lists	en-US
+remove pencil from stationary	[IN:lists_remove [SL:list_name stationary] ]	lists	en-US
+may i have a list of five star hotels in paris	[IN:qa_factoid [SL:list_name five star hotels] [SL:place_name paris] ]	qa	en-US
+add broccoli to my grocery list	[IN:lists_createoradd [SL:list_name grocery] ]	lists	en-US
+add the post office to my list of errands for saturday	[IN:lists_createoradd [SL:list_name errands] [SL:date saturday] ]	lists	en-US
+remove list item	[IN:lists_remove ]	lists	en-US
+list everything left on my query	[IN:lists_query ]	lists	en-US
+i want to make this week's shopping list	[IN:lists_createoradd [SL:time week's] [SL:list_name shopping] ]	lists	en-US
+delete from playlist my old english songs list	[IN:lists_remove [SL:list_name old english] ]	lists	en-US
+remove my car payment on my calendar	[IN:lists_remove ]	lists	en-US
+remove the list	[IN:lists_remove ]	lists	en-US
+how the to do list for today	[IN:lists_query [SL:date today] ]	lists	en-US
+please repeat my shopping list	[IN:lists_query [SL:list_name shopping] ]	lists	en-US
+can you create a list for me	[IN:lists_createoradd ]	lists	en-US
+delete all lists	[IN:lists_remove ]	lists	en-US
+remove the old music list	[IN:lists_remove [SL:list_name old music] ]	lists	en-US
+check my to do list	[IN:lists_query [SL:list_name to do] ]	lists	en-US
+android	[IN:lists_query ]	lists	en-US
+give me all my lists	[IN:lists_query ]	lists	en-US
+reset my locations list	[IN:lists_remove [SL:list_name locations] ]	lists	en-US
+show me the contents of the list	[IN:lists_query ]	lists	en-US
+remove the second row from the list	[IN:lists_remove ]	lists	en-US
+please update my grocery list with one gallon of two percent milk	[IN:lists_createoradd [SL:list_name grocery] ]	lists	en-US
+search the item	[IN:lists_createoradd ]	lists	en-US
+add paav bhaji in menu card	[IN:lists_createoradd ]	lists	en-US
+create a list that is available	[IN:lists_createoradd ]	lists	en-US
+add detergent to the list of things i need to buy	[IN:lists_createoradd [SL:list_name things i need to buy] ]	lists	en-US
+add red wine to my shopping list	[IN:lists_createoradd [SL:list_name shopping list] ]	lists	en-US
+remove the list called party time	[IN:lists_remove [SL:list_name party time] ]	lists	en-US
+recite the schedules of the list	[IN:lists_query [SL:list_name schedules] ]	lists	en-US
+please remove the following list	[IN:lists_remove ]	lists	en-US
+trash the current list	[IN:lists_remove ]	lists	en-US
+add spent five dollars in my expenses list	[IN:lists_createoradd [SL:list_name expenses] ]	lists	en-US
+what is on my to do list today	[IN:lists_query [SL:list_name to do] [SL:date today] ]	lists	en-US
+what lists do i have queried	[IN:lists_query ]	lists	en-US
+if there is event of show then remove it	[IN:lists_remove ]	lists	en-US
+replace	[IN:lists_remove ]	lists	en-US
+inform me on the items on the list	[IN:lists_query ]	lists	en-US
+add this to the list	[IN:lists_createoradd ]	lists	en-US
+create a new list	[IN:lists_createoradd ]	lists	en-US
+can you remove this item from the list	[IN:lists_remove ]	lists	en-US
+read what is on my list	[IN:lists_query ]	lists	en-US
+can you please add an item to my grocery list	[IN:lists_createoradd [SL:list_name grocery] ]	lists	en-US
+remove that item	[IN:lists_remove ]	lists	en-US
+what did i put down already on the walmart list	[IN:lists_query [SL:list_name walmart list] ]	lists	en-US
+throw away my to do list please	[IN:lists_remove [SL:list_name to do] ]	lists	en-US
+clear out the shopping list	[IN:lists_remove [SL:list_name shopping] ]	lists	en-US
+what items are on my shopping list	[IN:lists_query [SL:list_name shopping] ]	lists	en-US
+read me my list for shopping	[IN:lists_query [SL:list_name shopping] ]	lists	en-US
+tell me that list i wrote two days ago	[IN:lists_query [SL:date two days] ]	lists	en-US
+remove cereal from my shopping list	[IN:lists_remove [SL:list_name shopping] ]	lists	en-US
+do i have a grocery list ready	[IN:lists_query [SL:list_name grocery] ]	lists	en-US
+clear my activities list for today	[IN:lists_remove [SL:list_name activities] [SL:date today] ]	lists	en-US
+delete item from list	[IN:lists_remove ]	lists	en-US
+i need to make a list	[IN:lists_createoradd ]	lists	en-US
+read my grocery list	[IN:lists_query [SL:list_name grocery] ]	lists	en-US
+please show me the list that i have	[IN:lists_query ]	lists	en-US
+delete last item listed	[IN:lists_remove ]	lists	en-US
+add bananas to my shopping list	[IN:lists_createoradd [SL:list_name shopping] ]	lists	en-US
+add toothpaste to my shopping list	[IN:lists_createoradd [SL:list_name shopping] ]	lists	en-US
+create a playlist	[IN:lists_createoradd ]	lists	en-US
+olly clear the list	[IN:lists_remove ]	lists	en-US
+clear the list	[IN:lists_remove ]	lists	en-US
+delete list for groceries	[IN:lists_remove [SL:list_name groceries] ]	lists	en-US
+erase all	[IN:lists_remove ]	lists	en-US
+remove milk from my grocery list	[IN:lists_remove [SL:list_name grocery] ]	lists	en-US
+i don't have enough money to buy the nintendo switch right now can you please remove it on my amazon wishlist	[IN:lists_remove ]	lists	en-US
+remove this list from the others	[IN:lists_remove ]	lists	en-US
+what are my available lists	[IN:lists_query ]	lists	en-US
+take that off there	[IN:lists_remove ]	lists	en-US
+need to check my list	[IN:lists_query ]	lists	en-US
+new list	[IN:lists_createoradd ]	lists	en-US
+olly anything else left on the list	[IN:lists_query ]	lists	en-US
+delete my list	[IN:lists_remove ]	lists	en-US
+make a grocery list please	[IN:lists_createoradd [SL:list_name grocery] ]	lists	en-US
+delete item from my list	[IN:lists_remove ]	lists	en-US
+please add list of things to buy for party	[IN:lists_createoradd [SL:event_name party] ]	lists	en-US
+olly read my lists to me	[IN:lists_query ]	lists	en-US
+begin a new list	[IN:lists_createoradd ]	lists	en-US
+let me hear my list	[IN:lists_query ]	lists	en-US
+what is on my playlist	[IN:lists_query ]	lists	en-US
+please remove my list of favorite albums	[IN:lists_remove [SL:list_name favorite albums] ]	lists	en-US
+please add sugar to my grocery list	[IN:lists_createoradd [SL:list_name grocery] ]	lists	en-US
+make a new shopping list	[IN:lists_createoradd [SL:list_name shopping] ]	lists	en-US
+how many lists do i have in contacts	[IN:lists_query ]	lists	en-US
+what groups are listed in my contacts	[IN:lists_query ]	lists	en-US
+remind me of how many lists i have	[IN:lists_query ]	lists	en-US
+scratch that one from the list	[IN:lists_remove ]	lists	en-US
+delete the last phrase	[IN:lists_remove ]	lists	en-US
+what's on your list right now	[IN:lists_query ]	lists	en-US
+let me know the list	[IN:lists_query ]	lists	en-US
+put hamburger on my grocery list	[IN:lists_createoradd [SL:list_name grocery] ]	lists	en-US
+delete my to do's for this week	[IN:lists_remove [SL:list_name to do's] [SL:date this week] ]	lists	en-US
+on my to dos remove mop kitchen	[IN:lists_remove [SL:list_name to dos] ]	lists	en-US
+add bob to my list of contacts	[IN:lists_createoradd [SL:person bob] [SL:list_name list of contacts] ]	lists	en-US
+say the list	[IN:lists_query ]	lists	en-US
+remove shopping list	[IN:lists_remove [SL:list_name shopping] ]	lists	en-US
+delete to do list	[IN:lists_remove [SL:list_name to do] ]	lists	en-US
+add new item to list	[IN:lists_createoradd ]	lists	en-US
+add to list	[IN:lists_createoradd ]	lists	en-US
+get rid of the list google	[IN:lists_remove ]	lists	en-US
+please add oranges to my grocery list	[IN:lists_createoradd [SL:list_name grocery] ]	lists	en-US
+how many lists do i have	[IN:lists_query ]	lists	en-US
+what lists are in my notebook	[IN:lists_query ]	lists	en-US
+take out the milk from the shopping list	[IN:lists_remove [SL:list_name shopping] ]	lists	en-US
+get rid of tax list from nineteen ninety	[IN:lists_remove [SL:list_name tax] [SL:date nineteen ninety] ]	lists	en-US
+what are my current list	[IN:lists_query [SL:list_name current] ]	lists	en-US
+list items on my work list	[IN:lists_query [SL:list_name work] ]	lists	en-US
+give me the details on purchase order	[IN:lists_query ]	lists	en-US
+remove the guest list i created last week	[IN:lists_remove [SL:list_name guest] [SL:date last week] ]	lists	en-US
+set list	[IN:lists_createoradd ]	lists	en-US
+please find all name start with alphabetic of a and create a list	[IN:lists_createoradd ]	lists	en-US
+add business contacts to contact list	[IN:lists_createoradd [SL:list_name contact list] ]	lists	en-US
+check recent to do list	[IN:lists_query [SL:list_name to do] ]	lists	en-US
+please create new list	[IN:lists_createoradd ]	lists	en-US
+i want to remove apples from list	[IN:lists_remove ]	lists	en-US
+away off from list	[IN:lists_remove ]	lists	en-US
+open google keep	[IN:lists_query [SL:app_name google keep] ]	lists	en-US
+trash my list	[IN:lists_remove ]	lists	en-US
+give me all available lists	[IN:lists_query ]	lists	en-US
+list all the lists on this device	[IN:lists_query ]	lists	en-US
+add a wrist watch to the shopping list	[IN:lists_createoradd [SL:list_name shopping list] ]	lists	en-US
+i have my clothes list	[IN:lists_query [SL:list_name clothes] ]	lists	en-US
+find the list	[IN:lists_query ]	lists	en-US
+important house information	[IN:lists_query ]	lists	en-US
+list	[IN:lists_query ]	lists	en-US
+please create a new list for me	[IN:lists_createoradd ]	lists	en-US
+read back my grocery list to me	[IN:lists_query [SL:list_name grocery] ]	lists	en-US
+most viewed list	[IN:lists_query ]	lists	en-US
+olly i need a drink	[IN:iot_coffee ]	iot	en-US
+i need a drink	[IN:iot_coffee ]	iot	en-US
+what is the highest building in the world	[IN:qa_factoid [SL:place_name world] ]	qa	en-US
+define elaborate	[IN:qa_definition [SL:definition_word elaborate] ]	qa	en-US
+please define forensic	[IN:qa_definition [SL:definition_word forensic] ]	qa	en-US
+what is the definition of forensic	[IN:qa_definition [SL:definition_word forensic] ]	qa	en-US
+which is the highest peak in the world	[IN:qa_factoid [SL:place_name world] ]	qa	en-US
+what does turbulence mean	[IN:qa_definition [SL:definition_word turbulence] ]	qa	en-US
+check definition of capricious	[IN:qa_definition [SL:definition_word capricious] ]	qa	en-US
+how old is mariah carey	[IN:qa_factoid [SL:person mariah carey] ]	qa	en-US
+look up the definition of blunder	[IN:qa_definition [SL:definition_word blunder] ]	qa	en-US
+what is two hundred divided by ten	[IN:qa_maths ]	qa	en-US
+what is the square root of nine	[IN:qa_maths ]	qa	en-US
+i want sweet potato pie from a local bakery	[IN:lists_createoradd ]	lists	en-US
+what are the definitions of orange	[IN:qa_definition [SL:definition_word orange] ]	qa	en-US
+why isn't adam sandler funny	[IN:qa_factoid [SL:person adam sandler] ]	qa	en-US
+what is robin williams birthday	[IN:qa_factoid [SL:person robin williams] ]	qa	en-US
+tell me billy crytals address	[IN:qa_factoid [SL:person billy crytals] ]	qa	en-US
+who was the current prime minister of britain	[IN:qa_factoid [SL:place_name britain] ]	qa	en-US
+what is one plus one	[IN:qa_maths ]	qa	en-US
+how much is one plus one	[IN:qa_maths ]	qa	en-US
+what is the capital of nigeria	[IN:qa_factoid [SL:place_name nigeria] ]	qa	en-US
+what is the factorial of ten	[IN:qa_maths ]	qa	en-US
+how big is the cosmos	[IN:qa_factoid ]	qa	en-US
+when is the birth date of taylor lautner	[IN:qa_factoid [SL:person taylor lautner] ]	qa	en-US
+tell me all about hurricane	[IN:qa_definition [SL:definition_word hurricane] ]	qa	en-US
+do you know jessica snout's phone number	[IN:qa_factoid [SL:person jessica snout's] ]	qa	en-US
+what does oscillate mean	[IN:qa_definition [SL:definition_word oscillate] ]	qa	en-US
+spell and define oscillate	[IN:qa_definition [SL:definition_word oscillate] ]	qa	en-US
+calculate two multiplied by two	[IN:qa_maths ]	qa	en-US
+tell me how are the results of assembly elections in delhi going to come out	[IN:news_query [SL:place_name delhi] ]	news	en-US
+what is the root of six hundred and twenty five	[IN:qa_maths ]	qa	en-US
+do you know math	[IN:qa_maths ]	qa	en-US
+location	[IN:qa_definition ]	qa	en-US
+what was george eliot's first november el	[IN:qa_factoid [SL:person george eliot's] ]	qa	en-US
+please give me information about john abraham lincon	[IN:qa_factoid [SL:person john abraham lincon] ]	qa	en-US
+how much money did bill gates make	[IN:qa_factoid [SL:person bill gates] ]	qa	en-US
+what is the definition of the word perpetual	[IN:qa_definition [SL:definition_word perpetual] ]	qa	en-US
+who is celebrity	[IN:qa_factoid ]	qa	en-US
+what does celebrity do	[IN:qa_factoid ]	qa	en-US
+what's two plus two	[IN:qa_maths ]	qa	en-US
+alexa i've got dollars for the month how much can i spend every day this month	[IN:qa_maths [SL:general_frequency every day] [SL:date this month] ]	qa	en-US
+what size is a sperm whale	[IN:qa_factoid ]	qa	en-US
+what is twelve plus one hundred and ninety six	[IN:qa_maths ]	qa	en-US
+what is the definition of timeliness	[IN:qa_definition [SL:definition_word timeliness] ]	qa	en-US
+what's the sum of the two numbers four and six	[IN:qa_maths ]	qa	en-US
+how many states have the death penalty	[IN:qa_factoid ]	qa	en-US
+what's ten percent off forty dollars	[IN:qa_maths ]	qa	en-US
+show me the answer for this problem two hundred and forty six plus six hundred and fifty four	[IN:qa_maths ]	qa	en-US
+what is four plus five	[IN:qa_maths ]	qa	en-US
+how old is j. k. rowling	[IN:qa_factoid [SL:person j. k. rowling] ]	qa	en-US
+what is twelve divided by four	[IN:qa_maths ]	qa	en-US
+tell me what the product of eighteen and thirty one is	[IN:qa_maths ]	qa	en-US
+when was the us got freedom	[IN:qa_factoid [SL:place_name us] ]	qa	en-US
+olly what is the capital of california	[IN:qa_factoid [SL:place_name california] ]	qa	en-US
+give the definition of motivation	[IN:qa_definition [SL:definition_word motivation] ]	qa	en-US
+how many legs does a dog have	[IN:qa_factoid ]	qa	en-US
+why are whales big	[IN:qa_factoid ]	qa	en-US
+what was the last movie will smith was in	[IN:qa_factoid [SL:person will smith] ]	qa	en-US
+i'd like you to turn turn on the t. v.	[IN:iot_wemo_on ]	iot	en-US
+what is six divided by two	[IN:qa_maths ]	qa	en-US
+how tall is brad pitt	[IN:qa_factoid [SL:person brad pitt] ]	qa	en-US
+currency converter please	[IN:qa_currency ]	qa	en-US
+when was last academy award winning movie	[IN:qa_factoid ]	qa	en-US
+how tall is mount everest	[IN:qa_factoid [SL:place_name everest] ]	qa	en-US
+what is the capitol of west virginia	[IN:qa_factoid [SL:place_name west virginia] ]	qa	en-US
+where is new zealand located on a map	[IN:qa_factoid [SL:place_name new zealand] ]	qa	en-US
+tell me where steve jobs was born	[IN:qa_factoid [SL:person steve jobs] ]	qa	en-US
+could you please confirm if leonardo is married	[IN:qa_factoid [SL:person leonardo] ]	qa	en-US
+where do most celebrities hang out	[IN:qa_factoid ]	qa	en-US
+what is the largest desk	[IN:qa_definition [SL:definition_word largest desk] ]	qa	en-US
+what is arnold schwarzenegger's birthday	[IN:qa_factoid [SL:person arnold schwarzenegger's] ]	qa	en-US
+what is the increase in stock value over the past week of disney	[IN:qa_stock [SL:business_name disney] ]	qa	en-US
+what are pounds worth right now	[IN:qa_currency [SL:currency_name pounds] ]	qa	en-US
+can you tell me how many stomachs a cow has	[IN:qa_factoid ]	qa	en-US
+how many plays has patrick stewart been in	[IN:qa_factoid [SL:person patrick stewart] ]	qa	en-US
+what brand hair spray does donald trump use	[IN:qa_factoid [SL:person donald trump] ]	qa	en-US
+what is the dollar price in inr	[IN:qa_currency [SL:currency_name dollar] [SL:currency_name inr] ]	qa	en-US
+has the dollar rate increased	[IN:qa_currency ]	qa	en-US
+what is the most current exchange rate in china	[IN:qa_currency [SL:place_name china] ]	qa	en-US
+what is a chair	[IN:qa_definition [SL:definition_word chair] ]	qa	en-US
+what color are chairs	[IN:qa_factoid ]	qa	en-US
+where is the prime meridian	[IN:qa_factoid ]	qa	en-US
+what is an electronic emissions system	[IN:qa_definition [SL:definition_word electronic emissions system] ]	qa	en-US
+describe a rotor	[IN:qa_definition [SL:definition_word rotor] ]	qa	en-US
+what is a mango	[IN:qa_definition [SL:definition_word mango] ]	qa	en-US
+can you really see russia from alaska	[IN:qa_factoid [SL:place_name russia] [SL:place_name alaska] ]	qa	en-US
+list exchange rate information for the day for u. s. d. to jpy	[IN:qa_currency [SL:currency_name u. s. d.] [SL:currency_name jpy] ]	qa	en-US
+what is terranova stock going for	[IN:qa_stock [SL:business_name terranova] ]	qa	en-US
+what's the exchange rates between u. s. a. and china	[IN:qa_currency [SL:place_name u. s. a.] [SL:place_name china] ]	qa	en-US
+what's the currency exchange rate for china	[IN:qa_currency [SL:place_name china] ]	qa	en-US
+what's the currency exchange rate for china	[IN:qa_currency [SL:place_name china] ]	qa	en-US
+tell me the current price of exxon mobil stock	[IN:qa_stock [SL:business_name exxon mobil] ]	qa	en-US
+how old is marian carey	[IN:qa_factoid [SL:person marian carey] ]	qa	en-US
+what's a parsec	[IN:qa_factoid ]	qa	en-US
+two by two is	[IN:qa_maths ]	qa	en-US
+how far is california from georgia	[IN:qa_factoid [SL:place_name california] [SL:place_name georgia] ]	qa	en-US
+can you describe a credit card	[IN:qa_definition [SL:definition_word credit card] ]	qa	en-US
+is steph curry married	[IN:qa_factoid [SL:person steph curry] ]	qa	en-US
+what is the exchange rate between us and mexico	[IN:qa_currency [SL:currency_name us] [SL:currency_name mexico] ]	qa	en-US
+how many square miles is the average country on earth	[IN:qa_factoid ]	qa	en-US
+what is the definition of subjegant	[IN:qa_definition [SL:definition_word subjegant] ]	qa	en-US
+what happened to the dow jones today	[IN:qa_stock [SL:date today] ]	qa	en-US
+how far away is the sun	[IN:qa_factoid ]	qa	en-US
+what is the exchange rate for mexico money	[IN:qa_currency [SL:currency_name mexico] ]	qa	en-US
+where on earth has the most volcanoes	[IN:qa_factoid ]	qa	en-US
+when did elvis die	[IN:qa_factoid [SL:person elvis] ]	qa	en-US
+list me the stock of apple right now	[IN:qa_stock [SL:business_name apple] ]	qa	en-US
+what is the definition of logic	[IN:qa_definition [SL:definition_word logic] ]	qa	en-US
+where is yosemite park	[IN:qa_factoid [SL:place_name yosemite park] ]	qa	en-US
+please google location and information of mount rushmore	[IN:qa_factoid ]	qa	en-US
+how would you describe a happy birthday	[IN:qa_definition [SL:definition_word happy birthday] ]	qa	en-US
+please give me information on michael jackson	[IN:qa_factoid [SL:artist_name michael jackson] ]	qa	en-US
+what is the temperature in indianapolis indiana	[IN:qa_factoid [SL:place_name indianapolis indiana] ]	qa	en-US
+can you tell me about wayne gretszky	[IN:qa_factoid [SL:person wayne gretszky] ]	qa	en-US
+from dollar to euro	[IN:qa_currency [SL:currency_name dollar] [SL:currency_name euro] ]	qa	en-US
+the definition of life	[IN:qa_definition [SL:definition_word life] ]	qa	en-US
+define flabbergasted	[IN:qa_definition [SL:definition_word flabbergasted] ]	qa	en-US
+can you tell me what flabbergasted means	[IN:qa_definition [SL:definition_word flabbergasted] ]	qa	en-US
+what is the birthday of hemingway	[IN:qa_factoid [SL:person hemingway] ]	qa	en-US
+how much is lebron james worth	[IN:qa_factoid [SL:person lebron james] ]	qa	en-US
+how is the stock going in general	[IN:qa_stock ]	qa	en-US
+what is the yen worth	[IN:qa_currency [SL:currency_name yen] ]	qa	en-US
+where is laos located	[IN:qa_factoid [SL:place_name laos] ]	qa	en-US
+dollar rate at present	[IN:qa_currency [SL:currency_name dollar] ]	qa	en-US
+suffering consequences	[IN:qa_definition ]	qa	en-US
+consequences to actions	[IN:qa_definition ]	qa	en-US
+how much is the average house	[IN:qa_factoid ]	qa	en-US
+describe a sloth	[IN:qa_definition [SL:definition_word sloth] ]	qa	en-US
+tell me everything you know about sloths	[IN:qa_factoid ]	qa	en-US
+what is dolly parton's birthday	[IN:qa_factoid [SL:person dolly parton's] [SL:event_name birthday] ]	qa	en-US
+what are the coordinates of the equator	[IN:qa_factoid [SL:place_name the equator] ]	qa	en-US
+describe hell	[IN:qa_definition [SL:definition_word hell] ]	qa	en-US
+one plus two equal	[IN:qa_maths ]	qa	en-US
+if a pencil cost four dollars and a book ten dollars cost how much i should pay if i buy two pencil and three book	[IN:qa_maths ]	qa	en-US
+what is the us dollar and euro exchange rate	[IN:qa_currency [SL:currency_name us dollar] [SL:currency_name euro] ]	qa	en-US
+tell me when obama was born	[IN:qa_factoid [SL:person obama] ]	qa	en-US
+what is the location of moldova	[IN:qa_factoid ]	qa	en-US
+how tall is hulk hogan	[IN:qa_factoid ]	qa	en-US
+what is the exchange rates in this region	[IN:qa_currency ]	qa	en-US
+what year did george clooney start acting	[IN:qa_factoid [SL:person george clooney] ]	qa	en-US
+what was elvis presley's birthday	[IN:qa_factoid [SL:person elvis presley's] [SL:event_name birthday] ]	qa	en-US
+one dolla equals how much inr	[IN:qa_currency [SL:currency_name dolla] [SL:currency_name inr] ]	qa	en-US
+where jackie chan currently live	[IN:qa_factoid [SL:person jackie chan] ]	qa	en-US
+facebook current stock rate	[IN:qa_stock [SL:business_name facebook] ]	qa	en-US
+where are the rocky mountains	[IN:qa_factoid ]	qa	en-US
+give details of rock sand	[IN:qa_definition [SL:definition_word rock sand] ]	qa	en-US
+describe rock sand	[IN:qa_definition [SL:definition_word rock sand] ]	qa	en-US
+where are pyramids located	[IN:qa_factoid [SL:place_name pyramids] ]	qa	en-US
+show geographic details of pyramids	[IN:qa_factoid [SL:place_name pyramids] ]	qa	en-US
+show bio of rihana	[IN:qa_factoid [SL:artist_name rihana] ]	qa	en-US
+what is googs current price	[IN:qa_stock [SL:business_name googs] ]	qa	en-US
+please tell me what is the definition of cylinder	[IN:qa_definition [SL:definition_word cylinder] ]	qa	en-US
+how much is the british pound	[IN:qa_currency [SL:currency_name british pound] ]	qa	en-US
+define blanket	[IN:qa_definition [SL:definition_word blanket] ]	qa	en-US
+what are converse shoes	[IN:qa_definition [SL:definition_word converse shoes] ]	qa	en-US
+what kinds of sunglasses are considered aviators	[IN:qa_factoid ]	qa	en-US
+africa info	[IN:qa_factoid [SL:place_name africa] ]	qa	en-US
+search the locality	[IN:qa_factoid ]	qa	en-US
+where did amal clooney go to college	[IN:qa_factoid [SL:person amal clooney] ]	qa	en-US
+does kim kardashian wear converse	[IN:qa_factoid [SL:person kim kardashian] ]	qa	en-US
+how far is canada from my current location	[IN:qa_factoid [SL:place_name canada] ]	qa	en-US
+what is the price of starbuck's stock	[IN:qa_stock [SL:business_name starbuck's] ]	qa	en-US
+how much is starbuck's stock these days	[IN:qa_stock [SL:business_name starbuck's] ]	qa	en-US
+answer for three times four	[IN:qa_maths ]	qa	en-US
+how much is the us dollar worth in canada	[IN:qa_currency [SL:currency_name us dollar] [SL:currency_name canada] ]	qa	en-US
+what movies has emma watson acted in	[IN:qa_factoid [SL:person emma watson] ]	qa	en-US
+how much is the us dollar versus the pound	[IN:qa_currency [SL:currency_name us dollar] [SL:currency_name pound] ]	qa	en-US
+how much is the euro worth versus u. s. dollar	[IN:qa_currency [SL:currency_name euro] [SL:currency_name u. s. dollar] ]	qa	en-US
+details on person	[IN:qa_factoid ]	qa	en-US
+how much is amazon stock	[IN:qa_stock [SL:business_name amazon] ]	qa	en-US
+can you do nine plus two	[IN:qa_maths ]	qa	en-US
+hey what's a book	[IN:qa_definition [SL:definition_word book] ]	qa	en-US
+tell me about jaipur	[IN:qa_factoid [SL:place_name jaipur] ]	qa	en-US
+what's the rate between pesos and yen	[IN:qa_currency [SL:currency_name pesos] [SL:currency_name yen] ]	qa	en-US
+explain the geographical location of india	[IN:qa_factoid [SL:place_name india] ]	qa	en-US
+what is leonardo dicaprio's networth	[IN:qa_factoid ]	qa	en-US
+how large is alaska	[IN:qa_factoid [SL:place_name alaska] ]	qa	en-US
+what is the size of the united states	[IN:qa_factoid ]	qa	en-US
+what color is a dragon fruit	[IN:qa_factoid ]	qa	en-US
+where was steve jobs born	[IN:qa_factoid [SL:person steve jobs] ]	qa	en-US
+what is the stock price of hdfc	[IN:qa_stock [SL:business_name hdfc] ]	qa	en-US
+what is a hypothesis	[IN:qa_definition [SL:definition_word hypothesis] ]	qa	en-US
+what's the answer to the universe	[IN:qa_factoid ]	qa	en-US
+can many seashells did sally sell by the seashore	[IN:qa_factoid ]	qa	en-US
+tell me the profession of celebrity	[IN:qa_factoid ]	qa	en-US
+definition of velocity	[IN:qa_definition [SL:definition_word velocity] ]	qa	en-US
+how big is the empire state building	[IN:qa_factoid ]	qa	en-US
+what is the deepest point on earth	[IN:qa_factoid ]	qa	en-US
+give the stock price details of motorolla	[IN:qa_stock [SL:business_name motorolla] ]	qa	en-US
+describe about the computer hard disk	[IN:qa_definition [SL:definition_word computer hard disk] ]	qa	en-US
+which ocean touches at our continent	[IN:qa_factoid ]	qa	en-US
+is angeline having a new movie this year	[IN:qa_factoid [SL:person angeline] ]	qa	en-US
+what is a caftan	[IN:qa_definition [SL:definition_word caftan] ]	qa	en-US
+find exchange rate for u. s. d. to pound	[IN:qa_currency [SL:currency_name u. s. d.] [SL:currency_name pound] ]	qa	en-US
+what is the capital of mexico	[IN:qa_factoid [SL:place_name mexico] ]	qa	en-US
+where is fiji	[IN:qa_factoid [SL:place_name fiji] ]	qa	en-US
+what was the first movie of morgan freeman	[IN:qa_factoid [SL:person morgan freeman] ]	qa	en-US
+does pink have a new baby	[IN:qa_factoid [SL:person pink] ]	qa	en-US
+exchange rate of euro with dollar	[IN:qa_currency [SL:currency_name euro] [SL:currency_name dollar] ]	qa	en-US
+find route	[IN:qa_factoid ]	qa	en-US
+open stock price for name	[IN:qa_stock ]	qa	en-US
+detail for stock price	[IN:qa_stock ]	qa	en-US
+when was the bolshoi theater constructed	[IN:qa_factoid [SL:place_name bolshoi theater] ]	qa	en-US
+give me the description about smartphone	[IN:qa_definition [SL:definition_word smartphone] ]	qa	en-US
+olly how many meetings did mahatma gandhi undertake	[IN:qa_factoid [SL:person mahatma gandhi] ]	qa	en-US
+who is the current prime minister of russia	[IN:qa_factoid [SL:place_name russia] ]	qa	en-US
+please summarize the latest george r. r. martin ice and fire book	[IN:qa_factoid ]	qa	en-US
+where did mahatma gandhi born	[IN:qa_factoid [SL:person mahatma gandhi] ]	qa	en-US
+what is price of dollar	[IN:qa_currency [SL:currency_name dollar] ]	qa	en-US
+notify me when g. b. p. to u. s. d. rate as i expected	[IN:qa_currency [SL:currency_name g. b. p.] [SL:currency_name u. s. d.] ]	qa	en-US
+find geographic details of this place	[IN:qa_factoid ]	qa	en-US
+please find out the share price of microsoft in nasdaq	[IN:qa_stock [SL:business_name microsoft] ]	qa	en-US
+tell me about india location	[IN:qa_factoid [SL:place_name india] ]	qa	en-US
+make a list about selena gomez concert schedule	[IN:lists_createoradd [SL:person selena gomez] ]	lists	en-US
+let me know up and down in stock price of this company stock	[IN:qa_stock ]	qa	en-US
+what is the largest active volcano on earth	[IN:qa_factoid [SL:place_name earth] ]	qa	en-US
+how long will it take to travel to japan from south korea	[IN:qa_factoid [SL:place_name japan] [SL:place_name south korea] ]	qa	en-US
+give me the description of a television circuit	[IN:qa_definition [SL:definition_word television circuit] ]	qa	en-US
+give me the description of a smartphone circuit	[IN:qa_definition [SL:definition_word smartphone circuit] ]	qa	en-US
+what is the population of new york	[IN:qa_factoid [SL:place_name new york] ]	qa	en-US
+currency exchange	[IN:qa_currency ]	qa	en-US
+for how many years was abraham lincoln president of united states	[IN:qa_factoid ]	qa	en-US
+did angelina jolie leave brad pitt	[IN:qa_factoid [SL:person angelina jolie] [SL:person brad pitt] ]	qa	en-US
+what new movie is jennifer lawrence working on	[IN:qa_factoid [SL:person jennifer lawrence] ]	qa	en-US
+divide two hundred by four	[IN:qa_maths ]	qa	en-US
+foreign exchange rates	[IN:qa_currency ]	qa	en-US
+describe what a sphere is	[IN:qa_definition [SL:definition_word sphere] ]	qa	en-US
+stock price	[IN:qa_stock ]	qa	en-US
+what is the population of russia	[IN:qa_factoid [SL:place_name russia] ]	qa	en-US
+what is the exchange rate of euro and dollar	[IN:qa_currency [SL:currency_name euro] [SL:currency_name dollar] ]	qa	en-US
+what is the birth year of barack obama	[IN:qa_factoid [SL:person barack obama] ]	qa	en-US
+describe item xy	[IN:qa_definition ]	qa	en-US
+what is the hobby of ajay devgn	[IN:qa_factoid [SL:person ajay devgn] ]	qa	en-US
+who is the prime minister of russia	[IN:qa_factoid [SL:place_name russia] ]	qa	en-US
+ok google what is a president	[IN:qa_definition [SL:definition_word president] ]	qa	en-US
+what exactly is a resin tooth filling	[IN:qa_definition [SL:definition_word resin tooth filling] ]	qa	en-US
+describe the heart stone card game	[IN:qa_definition [SL:definition_word heart stone card game] ]	qa	en-US
+ok google where does sophia vergara live	[IN:qa_factoid [SL:person sophia vergara] ]	qa	en-US
+where does sophia vergara live	[IN:qa_factoid [SL:person sophia vergara] ]	qa	en-US
+what's euro u. s. d. right now	[IN:qa_currency [SL:currency_name euro u. s. d.] ]	qa	en-US
+what's the capital of kazakhstan	[IN:qa_factoid [SL:place_name kazakhstan] ]	qa	en-US
+divide seventy six in two parts	[IN:qa_maths ]	qa	en-US
+give me the definition for the word pontificate	[IN:qa_definition [SL:definition_word pontificate] ]	qa	en-US
+dollar to euro exchange rate	[IN:qa_currency [SL:currency_name dollar] [SL:currency_name euro] ]	qa	en-US
+how much is the dollar worth compared to the euro	[IN:qa_currency [SL:currency_name dollar] [SL:currency_name euro] ]	qa	en-US
+how would you describe a ball	[IN:qa_definition [SL:definition_word ball] ]	qa	en-US
+tell me the largest ocean in the world	[IN:qa_factoid [SL:place_name world] ]	qa	en-US
+what is the difference between roman and grigorean calendar	[IN:qa_factoid ]	qa	en-US
+what is the make up of the chair	[IN:qa_factoid ]	qa	en-US
+what is elvis favorite ride	[IN:qa_factoid [SL:person elvis] ]	qa	en-US
+more stock price	[IN:qa_stock ]	qa	en-US
+to compare in people	[IN:qa_factoid ]	qa	en-US
+what is a neutral density filter and would i want a gradient one or a solid one also which would be better in style between the screw on one and the square ones	[IN:qa_factoid ]	qa	en-US
+could you explain the meaning of exorbitant for me please	[IN:qa_definition [SL:definition_word exorbitant] ]	qa	en-US
+what is the exchange rate with in one british pound	[IN:qa_currency [SL:currency_name british pound] ]	qa	en-US
+check stock price for dinky donuts	[IN:qa_stock [SL:business_name dinky donuts] ]	qa	en-US
+what are the climatic conditions in that area	[IN:qa_factoid ]	qa	en-US
+meaning of	[IN:qa_definition ]	qa	en-US
+what is the least tornado prone state in the entire us	[IN:qa_factoid [SL:place_name us] ]	qa	en-US
+please describe that object for me	[IN:qa_definition ]	qa	en-US
+in which field does that person excel in	[IN:qa_factoid ]	qa	en-US
+were the stocks rising or declining	[IN:qa_stock ]	qa	en-US
+where was president madison born	[IN:qa_factoid [SL:person madison] ]	qa	en-US
+when's mark lanegan's next album out	[IN:qa_factoid [SL:person mark lanegan's] ]	qa	en-US
+how have megatel shares done last week	[IN:qa_stock [SL:business_name megatel] [SL:date last week] ]	qa	en-US
+did the price of walmart stock go up or down	[IN:qa_stock [SL:business_name walmart] ]	qa	en-US
+how much would it cost to buy stock in apple	[IN:qa_stock [SL:business_name apple] ]	qa	en-US
+let me know about the exchange rate of rupee to dirham	[IN:qa_currency [SL:currency_name rupee] [SL:currency_name dirham] ]	qa	en-US
+tell me the info about india's geography	[IN:qa_factoid [SL:place_name india's] ]	qa	en-US
+i need some details about bruce lee please assist	[IN:qa_factoid [SL:person bruce lee] ]	qa	en-US
+what is the prevailing exchange rate us versus indian rupees	[IN:qa_currency [SL:currency_name us] [SL:currency_name indian rupees] ]	qa	en-US
+iphone seven description	[IN:qa_definition [SL:definition_word iphone seven] ]	qa	en-US
+what is denzel washington's next movie	[IN:qa_factoid [SL:person denzel washington's] ]	qa	en-US
+what does situation mean	[IN:qa_definition [SL:definition_word situation] ]	qa	en-US
+how much is one american dollars worth in england	[IN:qa_currency [SL:currency_name american dollars] [SL:currency_name england] ]	qa	en-US
+how old is clint eastwood	[IN:qa_factoid [SL:person clint eastwood] ]	qa	en-US
+how much is one dollar in pounds	[IN:qa_currency [SL:currency_name dollar] [SL:currency_name pounds] ]	qa	en-US
+olly where do the rocky mountains start	[IN:qa_factoid [SL:place_name the rocky mountains] ]	qa	en-US
+which pole is colder south or north	[IN:qa_factoid ]	qa	en-US
+how old is emma watson newest boyfriend	[IN:qa_factoid [SL:person emma watson] ]	qa	en-US
+info on lisa ann please	[IN:qa_factoid [SL:person lisa ann] ]	qa	en-US
+olly where did the first americans settle	[IN:qa_factoid ]	qa	en-US
+find a description about a samsung t. v.	[IN:qa_definition [SL:definition_word samsung t. v.] ]	qa	en-US
+look up the number of people living in miami florida	[IN:qa_factoid [SL:place_name miami florida] ]	qa	en-US
+what region is miami located	[IN:qa_factoid [SL:place_name miami] ]	qa	en-US
+siri please check exchange rates	[IN:qa_currency ]	qa	en-US
+how many euros can i get for one dollar	[IN:qa_currency [SL:currency_name euros] [SL:currency_name dollar] ]	qa	en-US
+define speaker	[IN:qa_definition [SL:definition_word speaker] ]	qa	en-US
+how is i. b. m. doing	[IN:qa_stock [SL:business_name i. b. m.] ]	qa	en-US
+what is the trending now	[IN:news_query ]	news	en-US
+what is the news today	[IN:news_query [SL:date today] ]	news	en-US
+give me the latest updates	[IN:news_query ]	news	en-US

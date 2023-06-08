@@ -1,0 +1,16 @@
+what is the time in the mountain time zone	[IN:datetime_query [SL:time_zone mountain] ]	datetime	en-US
+tell me the time in moscow	[IN:datetime_query [SL:place_name moscow] ]	datetime	en-US
+what train companies are near me	[IN:recommendation_locations [SL:business_type train companies] ]	recommendation	en-US
+train times for tomorrow	[IN:transport_query [SL:date tomorrow] ]	transport	en-US
+get me a recipe for cookies	[IN:cooking_recipe [SL:food_type cookies] ]	cooking	en-US
+describe about it	[IN:general_quirky ]	general	en-US
+set a remainder for twelve p. m. for lunch	[IN:calendar_set [SL:time twelve p. m.] [SL:meal_type lunch] ]	calendar	en-US
+post this message in facebook	[IN:social_post [SL:media_type facebook] ]	social	en-US
+add reminder today evening to collect the parcel from jakes bristo	[IN:calendar_set [SL:date today] [SL:timeofday evening] [SL:event_name collect the parcel] [SL:person jakes] [SL:place_name bristo] ]	calendar	en-US
+what is the weather like in brooklyn right now	[IN:weather_query [SL:place_name brooklyn] ]	weather	en-US
+fun things to do today	[IN:recommendation_events [SL:event_name fun things] [SL:date today] ]	recommendation	en-US
+please repeat that music again of akon	[IN:music_settings [SL:player_setting repeat] [SL:artist_name akon] ]	music	en-US
+the music volume should increase to ninety	[IN:audio_volume_up [SL:change_amount to ninety] ]	audio	en-US
+show me today all train times of next two hours at jodhpur to pali	[IN:transport_query [SL:date today] [SL:transport_type train] [SL:time next two hours] [SL:place_name jodhpur] [SL:place_name pali] ]	transport	en-US
+please erase the next birthday event	[IN:calendar_remove [SL:event_name birthday] ]	calendar	en-US
+clear the entire month of may	[IN:calendar_remove [SL:time may] ]	calendar	en-US
