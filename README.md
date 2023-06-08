@@ -123,15 +123,16 @@ python query_to_lf.py --type_condition='control_single' --add_demo='false' --out
 python query_to_lf.py --type_condition='control_single' --add_demo='false' --output_for='api' --number_output=1 --condition_on='label'
 ```
 
-**NOTE: WAIT**
-
-
 _Few-shot Experiments(In-context learning)_
 
 (a2) Direct Prompting
 ```
 python query_to_lf.py --type_prompt='direct' --add_demo='true' -- output_for='api' --number_demo=16 --number_output=1
 ```
+
+**NOTE: WAIT**
+
+
 (b2) CoT baselines (no demonstrations): SC-CoT, ComplexCoT, RandomCoT
 ```
 python query_to_lf.py --type_condition='none' --add_demo='true' --number_demo=16 --output_for='api' --number_output=10 --voting_method='major' --demo_select_criteria='random'
