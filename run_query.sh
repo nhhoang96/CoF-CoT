@@ -36,10 +36,10 @@ for s in ${seeds[@]}; do
 
 	#Few-shot: HOLD
 	# Baseline FS: SC-COT, COMPLEXCOT, RandomCOT (RetrieveCOT)
-	python query_to_lf.py --type_condition='none' --add_demo='true' --number_demo=16 --output_for=${output} --number_output=10 --voting_method='major' --demo_select_criteria='random' --dataset=${dataset} --test_file=${test_file} --seed=$s
-	python query_to_lf.py --type_condition='none' --add_demo='false' --number_demo=16 --output_for=${output} --number_output=10 --voting_method='complex' --demo_select_criteria='length' --dataset=${dataset} --test_file=${test_file} --seed=$s
-	python query_to_lf.py --type_condition='none' --add_demo='true' --number_demo=16 --output_for=${output} --number_output=1 --voting_method='major' --demo_select_criteria='random' --dataset=${dataset} --test_file=${test_file} --seed=$s
+	#python query_to_lf.py --type_condition='none' --add_demo='true' --number_demo=16 --output_for=${output} --number_output=10 --voting_method='major' --demo_select_criteria='random' --dataset=${dataset} --test_file=${test_file} --seed=$s
+	#python query_to_lf.py --type_condition='none' --add_demo='true' --number_demo=16 --output_for=${output} --number_output=10 --voting_method='complex' --demo_select_criteria='length' --dataset=${dataset} --test_file=${test_file} --seed=$s
+	#python query_to_lf.py --type_condition='none' --add_demo='true' --number_demo=16 --output_for=${output} --number_output=1 --voting_method='major' --demo_select_criteria='random' --dataset=${dataset} --test_file=${test_file} --seed=$s
 
-	#Ours
+	##Ours
 done
 

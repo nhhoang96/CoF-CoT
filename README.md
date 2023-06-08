@@ -101,19 +101,6 @@ python query_to_lf.py --type_condition='none' --add_demo='false' --output_for='a
 python query_to_lf.py --type_condition='none' --add_demo='false' --output_for='api' --number_output=10 --voting_method='complex'
 ```
 
-_Few-shot Experiments(In-context learning)_
-
-(a2) Direct Prompting
-```
-python query_to_lf.py --type_prompt='direct' --add_demo='true' -- output_for='api' --number_demo=16 --number_output=1
-```
-(b2) CoT baselines (no demonstrations): SC-CoT, ComplexCoT, RandomCoT
-```
-python query_to_lf.py --type_condition='none' --add_demo='true' --number_demo=16 --output_for='api' --number_output=10 --voting_method='major' --demo_select_criteria='random'
-python query_to_lf.py --type_condition='none' --add_demo='false' --number_demo=16 --output_for='api' --number_output=10 --voting_method='complex' --demo_select_criteria='length'
-python query_to_lf.py --type_condition='none' --add_demo='true' --number_demo=16 --output_for='api' --number_output=1 --voting_method='major' --demo_select_criteria='random'
-```
-
 (2) Ablation 1: No structured Rep, CP, DP, AMR
 ```
 python query_to_lf.py --type_condition='none' --add_demo='false' --output_for='api' --number_output=1 --structure_rep='none'
@@ -137,6 +124,20 @@ python query_to_lf.py --type_condition='control_single' --add_demo='false' --out
 ```
 
 **NOTE: WAIT**
+
+
+_Few-shot Experiments(In-context learning)_
+
+(a2) Direct Prompting
+```
+python query_to_lf.py --type_prompt='direct' --add_demo='true' -- output_for='api' --number_demo=16 --number_output=1
+```
+(b2) CoT baselines (no demonstrations): SC-CoT, ComplexCoT, RandomCoT
+```
+python query_to_lf.py --type_condition='none' --add_demo='true' --number_demo=16 --output_for='api' --number_output=10 --voting_method='major' --demo_select_criteria='random'
+python query_to_lf.py --type_condition='none' --add_demo='false' --number_demo=16 --output_for='api' --number_output=10 --voting_method='complex' --demo_select_criteria='length'
+python query_to_lf.py --type_condition='none' --add_demo='true' --number_demo=16 --output_for='api' --number_output=1 --voting_method='major' --demo_select_criteria='random'
+```
 
 (5) Our proposed model: ZS, FS
 ```
