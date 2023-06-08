@@ -13,7 +13,7 @@ import numpy as np
 import copy
 import pandas as pd
 
-structure_map={'amr': 'Abstract Meaning Representation (AMR) Graph in the textual Neo-Davidson format', 'dp': 'Dependency Parsing Graph', 'cp': 'Constituency Parsing Graph'}
+structure_map={'amr': 'Abstract Meaning Representation (AMR) Graph in the textual Neo-Davidson format', 'dp': 'Dependency Parsing Graph', 'cp': 'Constituency Parsing Graph', 'none':'none'}
 
 
 def get_intent_slot_vob(dataset):
@@ -208,22 +208,23 @@ def condition_intent_info(args, current_prompt,intent_info, intent_map):
         output_prompt += 'Potential Intent Types: ' + intent_info + '\n'
     return output_prompt
 
-# ----- Output file definition ------#
-input_test_file = "nlu_data/mtop_flat_simple/en/eval.txt"
-with open(input_test_file, 'r') as file:
-    content = file.read()
 
-
-    
 parser = argparse.ArgumentParser()
 parser.add_argument("--dataset", default="MTOP", choices=["MTOP", "MASSIVE"], type=str,
                     help='Type of dataset')
+
+parser.add_argument("--demo_file", default='demo_100_label', type=str, help='Kind of conditioning: (none, control, control_filter)')
+
+parser.add_argument("--type_prompt", default='chain_of', type=str, help='Direct Prompting or CoT')
+parser.add_argument('--seed', default=111, type=int, choices=[111,222,333])
+
+parser.add_argument("--test_file", default='test', type=str, help='Kind of conditioning: (none, control, control_filter)')
 parser.add_argument("--type_condition", default='control', type=str, help='Kind of conditioning: (none, control, control_filter)')
 parser.add_argument("--add_demo", choices=['true','false'], default='false', type=str)
 parser.add_argument("--output_for", choices=['api','test'], default='test', type=str)
 
 parser.add_argument("--voting_method", default='major', type=str)
-parser.add_argument("--structure_rep",  choices=['amr','dp','cp'], default='amr', type=str)
+parser.add_argument("--structure_rep",  choices=['amr','dp','cp','none'], default='amr', type=str)
 parser.add_argument("--number_output",  default=2, type=int)
 parser.add_argument("--number_demo",  default=11, type=int)
 parser.add_argument('--demo_select_criteria', default='random', type=str)
@@ -234,7 +235,20 @@ args = parser.parse_args()
 
 #------ Prepare Demos -----#
 #input_fs_file = "nlu_data/mtop_flat_simple/en/fs.txt"
-input_fs_file = "nlu_data/mtop_flat_simple/en/demo_100_label.txt"
+if (args.dataset == 'MTOP'):
+    data_root = './nlu_data/mtop_flat_simple/en/'
+else:
+    data_root = './nlu_data/massive_data_full/en/'
+
+#input_fs_file = "nlu_data/mtop_flat_simple/en/demo_100_label.txt"
+input_fs_file = os.path.join(data_root, args.demo_file + '.txt')
+
+# ----- Output file definition ------#
+#input_test_file = "nlu_data/mtop_flat_simple/en/eval.txt"
+input_test_file = os.path.join(data_root, args.test_file + '_'  + str (args.seed) + '.txt')
+print ("Input test", input_test_file)
+with open(input_test_file, 'r') as file:
+    content = file.read()
 
 demo_ex=[]
 demo_dict_ex={'utt':[], 'intent':[], 'key_phrase':[], 'pair':[], 'AMR':[], 'lf':[], 'utt_length':[], 'domain':[]}
@@ -283,7 +297,7 @@ print ("Ex counter", ex_counter)
 ## OpenAPI api 
 if (args.output_for == 'api'):
     import openai
-    key_file = open('./key.txt', 'r')
+    key_file = open('./my_key.txt', 'r')
     key = [k.strip() for k in key_file][0]
     openai.api_key =  str(key)
     model_name = "gpt-3.5-turbo"
@@ -306,6 +320,7 @@ gen_step_1bc = 'Given the sentence and its potential intent types, generate one 
 
 gen_step_2 = 'Based on the sentence and its ' + structure_map[args.structure_rep] + ' , identify a list of key phrases for the sentence. Key phrases can be made up from multiple AMR concepts. Each word in key phrases must exist in the given sentence. Return a list of key phrases separated by commas \n'
 
+gen_step_2_nostruct = 'Based on the sentence, identify a list of key phrases for the sentence. Each word in key phrases must exist in the given sentence. Return a list of key phrases separated by commas \n'
 gen_step_2c = 'Based on the sentence, its potential intents and its ' + structure_map[args.structure_rep] + ' , identify a list of key phrases for the sentence. Key phrases can be made up from multiple AMR concepts. Each word in key phrases must exist in the given sentence. Return a list of key phrases separated by commas \n'
 
 gen_step_3 = 'Given the slot vocabulary, the sentence and its key phrases, identify the corresponding slot type for each key phrases. Return the list of key phrases and their corresponding slot types in the following format: (slot_type, key_phrase) separated by commas \n'
@@ -316,14 +331,16 @@ gen_step_3c += 'Slot Vocabulary: ' + slot_str + '\n'
 
 gen_step_4 = 'Given the sentence, its potential intent types, its slot type and slot value pairs in (slot_type, slot_value) format, generate the logic form in the format: [IN:___ [SL:___] [SL:____]] where IN: is followed by an intent type and SL: is followed by a slot type and slot value pair separated by white space. The number of [SL: ] is unlimited. The number of [IN: ] is limited to 1 \n'
 
-direct_prompt = "New Session: Given the intent type vocabulary, slot type vocabulary and sentence, generate logic form of the sentence in the format of [IN:___ [SL:____] [SL:___]] where IN: is followed by an intent type and SL: is followed by a slot type and slot value pair separated by white space. The number of [SL: ] is unlimited. \n"
+new_session="New Session: "
+direct_prompt = "Given the intent type vocabulary, slot type vocabulary and sentence, generate logic form of the sentence in the format of [IN:___ [SL:____] [SL:___]] where IN: is followed by an intent type and SL: is followed by a slot type and slot value pair separated by white space. The number of [SL: ] is unlimited. \n"
 direct_prompt += "Intent Type: " + intent_str + "\n"
 direct_prompt += "Slot Type: " + slot_str + "\n"
 
-type_prompt = "chain_of"
+type_prompt,seed_val = args.type_prompt, args.seed
 add_demo, condition_type = args.add_demo, args.type_condition
-add_voting = args.voting_method
-result_output_file = f'./result/{type_prompt}_demo_{add_demo}_condition_{condition_type}_voting_{add_voting}_structure_{args.structure_rep}_dialogue.jsonl'
+add_voting, numdemo, select,cond = args.voting_method, args.number_demo, args.demo_select_criteria, args.condition_on
+struc_rep = args.structure_rep
+result_output_file = f'./result/{type_prompt}_seed_{seed_val}_demo_{add_demo}_condition_{condition_type}_voting_{add_voting}_structure_{struc_rep}_numberdemo_{numdemo}_criteria_{select}_condname_{cond}_dialogue.jsonl'
 writer = open(result_output_file, 'w')
 slot_type=''
 intent=''
@@ -332,16 +349,26 @@ key_phrases=''
 
 content = content.split("\n")
 result = []
-for example in content[0:100]:
+for example in content[0:1]:
     utterance, logical_form, _, _, tag = example.split("\t")
     # --- Directly prompt
-    if type_prompt == "direct":
-        direct_prompt += "Sentence: " + utterance + "\n"
-        direct_prompt += "Just generate the Logic Form: "
-        print ("Direct prompt", direct_prompt)
-        pred_lf = call_openai(args,direct_prompt, args.number_output, args.temperature)
-        # writer.write(json.dumps({"utterance": utterance, "pred_lf": pred_lf, "gold_lf": logical_form}) + '\n')
-        result.append({"utterance": utterance, "pred_lf": pred_lf, "gold_lf": logical_form})
+    if args.type_prompt == "direct":
+        cur_direct_prompt = new_session
+        if (args.add_demo == 'true'): 
+            for idx in range (len(selected_demo_dict_ex['utt'])): 
+                demo_utt = selected_demo_dict_ex['utt'][idx]
+                demo_lf = selected_demo_dict_ex['lf'][idx]
+                cur_direct_prompt += "Sentence: " + demo_utt + '\n'
+                cur_direct_prompt += "Just generate the Logic Form: " + demo_lf + "\n"
+
+            cur_direct_prompt += '\n'
+        cur_direct_prompt += "Sentence: " + utterance + "\n"
+        cur_direct_prompt += "Just generate the Logic Form: "
+        print ("Direct prompt", cur_direct_prompt)
+        if (args.output_for == 'api'):
+            pred_lf = call_openai(args,cur_direct_prompt, args.number_output, args.temperature)
+            # writer.write(json.dumps({"utterance": utterance, "pred_lf": pred_lf, "gold_lf": logical_form}) + '\n')
+            result.append({"utterance": utterance, "pred_lf": pred_lf, "gold_lf": logical_form})
     else:
         # --- Step 1a: Get Intent
         if (args.type_condition == 'none'):
@@ -389,79 +416,85 @@ for example in content[0:100]:
             intent =''
         
         # --- Step 1b: Get AMR Graph
-        if (args.type_condition == 'none'):
-            step_1b_prompt = gen_step_1b + 'Sentence: ' + utterance + '\n'
-        else:
-            step_1b_prompt = gen_step_1bc + 'Sentence: ' + utterance + '\n'
-            step_1b_prompt = condition_intent_info(args, step_1b_prompt,intent, intent_map)
-        
-        step_1b_prompt += structure_map[args.structure_rep] + ': ' + '\n'
-
-        #--- Demo 1b
-        if (args.add_demo == 'true'):
-            iter_demo = 0
-            for idx in range (len(selected_demo_dict_ex['utt'])): 
-                demo_utt = selected_demo_dict_ex['utt'][idx]
-                demo_intent = selected_demo_dict_ex['intent'][idx]
-                demo_amr = selected_demo_dict_ex['AMR'][idx]
-                if (args.type_condition == 'none'):
-                    demo_1b = gen_step_1b + 'Sentence: ' + demo_utt + '\n'
-                else:
-                    demo_1b = gen_step_1bc + 'Sentence: ' + demo_utt + '\n'
-                if (args.type_condition != 'none'):
-                    demo_1b = condition_intent_info(args, demo_1b,demo_intent, intent_map)
-
-                demo_1b += structure_map[args.structure_rep] + ': ' + demo_amr + '\n'
-                iter_demo += 1
-
-            assert iter_demo == args.number_demo
-
-            step_1b_prompt  = demo_1b + '\n' + step_1b_prompt 
-
-        if (args.output_for == 'api'):
-            amr_graph = call_openai(args,step_1b_prompt, args.number_output, args.temperature)
+        if (args.structure_rep != 'none'):
+            if (args.type_condition == 'none'):
+                step_1b_prompt = gen_step_1b + 'Sentence: ' + utterance + '\n'
+            else:
+                step_1b_prompt = gen_step_1bc + 'Sentence: ' + utterance + '\n'
+                step_1b_prompt = condition_intent_info(args, step_1b_prompt,intent, intent_map)
             
-            print("STEP 1b: Get AMR Graph")
-            print ("AMR", amr_graph)
-        else:
-            print("STEP 1b: Get AMR Graph", step_1b_prompt)
-            amr_graph=''
+            step_1b_prompt += structure_map[args.structure_rep] + ': ' + '\n'
+
+            #--- Demo 1b
+            if (args.add_demo == 'true'):
+                iter_demo = 0
+                for idx in range (len(selected_demo_dict_ex['utt'])): 
+                    demo_utt = selected_demo_dict_ex['utt'][idx]
+                    demo_intent = selected_demo_dict_ex['intent'][idx]
+                    demo_amr = selected_demo_dict_ex['AMR'][idx]
+                    if (args.type_condition == 'none'):
+                        demo_1b = gen_step_1b + 'Sentence: ' + demo_utt + '\n'
+                    else:
+                        demo_1b = gen_step_1bc + 'Sentence: ' + demo_utt + '\n'
+                    if (args.type_condition != 'none'):
+                        demo_1b = condition_intent_info(args, demo_1b,demo_intent, intent_map)
+
+                    demo_1b += structure_map[args.structure_rep] + ': ' + demo_amr + '\n'
+                    iter_demo += 1
+
+                assert iter_demo == args.number_demo
+
+                step_1b_prompt  = demo_1b + '\n' + step_1b_prompt 
+
+            if (args.output_for == 'api'):
+                amr_graph = call_openai(args,step_1b_prompt, args.number_output, args.temperature)
+                
+                print("STEP 1b: Get AMR Graph")
+                print ("AMR", amr_graph)
+            else:
+                print("STEP 1b: Get AMR Graph", step_1b_prompt)
+                amr_graph=''
 
         # --- Step 2: Get Key Phrases
-        if (args.type_condition == 'none'):
-            step_2_prompt = gen_step_2 + 'Sentence: ' + utterance + '\n'
-        else:
-            step_2_prompt = gen_step_2c + 'Sentence: ' + utterance + '\n'    
-            step_2_prompt = condition_intent_info(args, step_2_prompt,intent, intent_map)
 
-        step_2_prompt += structure_map[args.structure_rep] + ': ' + amr_graph + '\n'
-        step_2_prompt += 'Key phrases: \n'
+        if (args.structure_rep != 'none'):
+            if (args.type_condition == 'none'):
+                step_2_prompt = gen_step_2 + 'Sentence: ' + utterance + '\n'
+            else:
+                step_2_prompt = gen_step_2c + 'Sentence: ' + utterance + '\n'    
+                step_2_prompt = condition_intent_info(args, step_2_prompt,intent, intent_map)
+                step_2_prompt += structure_map[args.structure_rep] + ': ' + amr_graph + '\n'
+            step_2_prompt += 'Key phrases: \n'
 
-        # -- Step 2 Demo
-        if (args.add_demo == 'true'):
-            iter_demo = 0
-            for idx in range (len(selected_demo_dict_ex['utt'])): 
-                demo_utt = selected_demo_dict_ex['utt'][idx]
-                demo_intent = selected_demo_dict_ex['intent'][idx]
-                demo_kp = selected_demo_dict_ex['key_phrase'][idx]
-                demo_amr = selected_demo_dict_ex['AMR'][idx]
+            # -- Step 2 Demo
+            if (args.add_demo == 'true'):
+                iter_demo = 0
+                for idx in range (len(selected_demo_dict_ex['utt'])): 
+                    demo_utt = selected_demo_dict_ex['utt'][idx]
+                    demo_intent = selected_demo_dict_ex['intent'][idx]
+                    demo_kp = selected_demo_dict_ex['key_phrase'][idx]
+                    demo_amr = selected_demo_dict_ex['AMR'][idx]
 
-                if (args.type_condition == 'none'):
-                    demo_2 = gen_step_2 + 'Sentence: ' + demo_utt + '\n'
-                else:
-                    demo_2 = gen_step_2c + 'Sentence: ' + demo_utt + '\n'
-            
-                #for dem in demo_ex:
+                    if (args.type_condition == 'none'):
+                        demo_2 = gen_step_2 + 'Sentence: ' + demo_utt + '\n'
+                    else:
+                        demo_2 = gen_step_2c + 'Sentence: ' + demo_utt + '\n'
+                
+                    #for dem in demo_ex:
 
-                if (args.type_condition != 'none'):
-                    demo_2 = condition_intent_info(args, demo_2,demo_intent, intent_map)
-                demo_2 += structure_map[args.structure_rep] + ': ' + demo_amr + '\n'
-                demo_2 += 'Key phrases: ' + demo_kp + '\n'
-                iter_demo += 1
+                    if (args.type_condition != 'none'):
+                        demo_2 = condition_intent_info(args, demo_2,demo_intent, intent_map)
+                    demo_2 += structure_map[args.structure_rep] + ': ' + demo_amr + '\n'
+                    demo_2 += 'Key phrases: ' + demo_kp + '\n'
+                    iter_demo += 1
 
-            assert iter_demo == args.number_demo
+                assert iter_demo == args.number_demo
 
-            step_2_prompt  = demo_2 + '\n' + step_2_prompt 
+                step_2_prompt  = demo_2 + '\n' + step_2_prompt 
+
+        else: # No structure (for Ablation) - No demos
+            step_2_prompt = gen_step_2_nostruct + 'Sentence: ' + utterance + '\n'
+            step_2_prompt += 'Key phrases: \n'
 
         if (args.output_for == 'api'):
             key_phrases = call_openai(args,step_2_prompt, args.number_output, args.temperature)
@@ -469,7 +502,6 @@ for example in content[0:100]:
         else:
             print("STEP 2: Get Key Phrases", step_2_prompt)
             key_phrases=''
-
         # --- Step 3: Get Slot Type
         if (args.type_condition == 'none'):
             step_3_prompt = gen_step_3 + 'Sentence: ' + utterance + '\n'
@@ -503,7 +535,8 @@ for example in content[0:100]:
                 demo_pair = selected_demo_dict_ex['pair'][idx]
                 if (args.type_condition != 'none'):
                     demo_3 = condition_intent_info(args, demo_3,demo_intent, intent_map)
-                demo_3 += structure_map[args.structure_rep] + ': ' + demo_amr + '\n'
+                if (args.structure_rep != 'none'):
+                    demo_3 += structure_map[args.structure_rep] + ': ' + demo_amr + '\n'
                 demo_3 += 'Key phrases: ' + demo_kp + '\n'
 
                 demo_3 += 'Slot Type, Key phrase pairs: ' + demo_pair + '\n'

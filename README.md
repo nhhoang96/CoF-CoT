@@ -83,4 +83,60 @@ python query_to_lf.py --type_condition='none' --add_demo='true' --output_for='ap
 python query_to_lf.py --type_condition='control_single' --add_demo='false' --output_for='api' --number_output=1 --condition_on='descr'
 ```
 
+# Final Experiments (June 7th)
+See run_query.sh for the completed sets of scripts to run. 
+(1) Main Experiments:
+_Zero-shot Experiments_
+(a1) Direct Prompting
+```
+python query_to_lf.py --type_prompt='direct' --number_output=1
+```
+(b1) CoT baselines (no demonstrations): SC-CoT, ComplexCoT
+```
+python query_to_lf.py --type_condition='none' --add_demo='false' --output_for='api' --number_output=10 --voting_method='major'
+python query_to_lf.py --type_condition='none' --add_demo='false' --output_for='api' --number_output=10 --voting_method='complex'
+```
+
+_Few-shot Experiments(In-context learning)_
+(a2) Direct Prompting
+```
+python query_to_lf.py --type_prompt='direct' --add_demo='true' -- output_for='api' --number_demo=16 --number_output=1
+```
+(b2) CoT baselines (no demonstrations): SC-CoT, ComplexCoT, RandomCoT
+```
+python query_to_lf.py --type_condition='none' --add_demo='true' --number_demo=16 --output_for='api' --number_output=10 --voting_method='major' --demo_select_criteria='random'
+python query_to_lf.py --type_condition='none' --add_demo='false' --number_demo=16 --output_for='api' --number_output=10 --voting_method='complex' --demo_select_criteria='length'
+python query_to_lf.py --type_condition='none' --add_demo='true' --number_demo=16 --output_for='api' --number_output=1 --voting_method='major' --demo_select_criteria='random'
+```
+
+(2) Ablation 1: No structured Rep, CP, DP, AMR
+```
+python query_to_lf.py --type_condition='none' --add_demo='false' --output_for='api' --number_output=1 --structure_rep='none'
+python query_to_lf.py --type_condition='none' --add_demo='false' --output_for='api' --number_output=1 --structure_rep='cp'
+python query_to_lf.py --type_condition='none' --add_demo='false' --output_for='api' --number_output=1 --structure_rep='dp'
+python query_to_lf.py --type_condition='none' --add_demo='false' --output_for='api' --number_output=1 --structure_rep='amr'
+```
+
+(3) Ablation 2:
+```
+python query_to_lf.py --type_condition='none' --add_demo='false' --output_for='api' --number_output=1
+python query_to_lf.py --type_condition='control_single' --add_demo='false' --output_for='api' --number_output=1
+python query_to_lf.py --type_condition='control' --add_demo='false' --output_for='api' --number_output=1
+python query_to_lf.py --type_condition='control_filter' --add_demo='false' --output_for='api' --number_output=1
+```
+
+(4) Ablation 3: Intent Description vs Intent Name
+```
+python query_to_lf.py --type_condition='control_single' --add_demo='false' --output_for='api' --number_output=1 --condition_on='descr'
+python query_to_lf.py --type_condition='control_single' --add_demo='false' --output_for='api' --number_output=1 --condition_on='label'
+```
+
+** NOTE: WAIT **
+```
+(4) Our proposed model: ZS, FS
+```
+python query_to_lf.py --type_condition='control_filter' --add_demo='false' --output_for='api' --number_output=10 --voting_method='major' --structure_rep='amr' --condition_on='descr' -- 
+python query_to_lf.py --type_condition='control_filter' --add_demo='true' --number_demo=16 --output_for='api' --number_output=10 --voting_method='major' --structure_rep='amr' --condition_on='descr' -- 
+```
+
 
