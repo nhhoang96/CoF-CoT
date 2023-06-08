@@ -84,7 +84,9 @@ python query_to_lf.py --type_condition='control_single' --add_demo='false' --out
 ```
 
 # Final Experiments (June 7th)
-See run_query.sh for the completed sets of scripts to run. 
+
+See run_query.sh for the completed sets of scripts to run (all arguments)
+
 (1) Main Experiments:
 
 _Zero-shot Experiments_
@@ -120,7 +122,7 @@ python query_to_lf.py --type_condition='none' --add_demo='false' --output_for='a
 python query_to_lf.py --type_condition='none' --add_demo='false' --output_for='api' --number_output=1 --structure_rep='amr'
 ```
 
-(3) Ablation 2:
+(3) Ablation 2: Type of conditioning
 ```
 python query_to_lf.py --type_condition='none' --add_demo='false' --output_for='api' --number_output=1
 python query_to_lf.py --type_condition='control_single' --add_demo='false' --output_for='api' --number_output=1
@@ -135,8 +137,8 @@ python query_to_lf.py --type_condition='control_single' --add_demo='false' --out
 ```
 
 **NOTE: WAIT**
-```
-(4) Our proposed model: ZS, FS
+
+(5) Our proposed model: ZS, FS
 ```
 python query_to_lf.py --type_condition='control_filter' --add_demo='false' --output_for='api' --number_output=10 --voting_method='major' --structure_rep='amr' --condition_on='descr'
 python query_to_lf.py --type_condition='control_filter' --add_demo='true' --number_demo=16 --output_for='api' --number_output=10 --voting_method='major' --structure_rep='amr' --condition_on='descr'
