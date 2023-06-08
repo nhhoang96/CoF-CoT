@@ -11,7 +11,8 @@ import argparse
 import re
 import openai
 
-openai.api_key = "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"
+#openai.api_key = "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"
+openai.api_key = "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"
 model_name = "gpt-3.5-turbo"
 
 def call_chatgpt(input_prompt):
@@ -54,7 +55,7 @@ for example in tqdm(content[0:100]):
     amr_graph = call_chatgpt(step_1b_prompt)
     print("STEP 1b: Get AMR Graph", step_1b_prompt)
     #amr_graph=''
-    output.append(amr_graph)
+    output.append(repr(amr_graph))
     write_output = '\t'.join(output)
     writer.write(write_output + '\n')
     #writer.write(json.dumps({"utterance": utterance,  "AMR Graph": write_output}

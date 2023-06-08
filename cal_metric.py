@@ -1,15 +1,24 @@
 import json
 import top_metrics
 import re
+import argparse
 
-file_loc = './gpt_output/'
+parser = argparse.ArgumentParser()
+parser.add_argument("--eval_loc", type=str, default='',
+                    help='Location of eval files')
+parser.add_argument("--eval_file", default='', type=str, help='Evaluation file name')
+args = parser.parse_args()
+
+
+#file_loc = './gpt_output/'
 #file_name='direct_dialogue'
 
 #file_name='chain_of_dialogue'
 #file_name='fixed_direct'
-file_name='fixed_chain_of_dialogue'
+#file_name='fixed_chain_of_dialogue'
 
-file_full_loc = file_loc + file_name + '.jsonl'
+file_full_loc = args.eval_loc + args.eval_file + '.jsonl'
+#file_full_loc = file_loc + file_name + '.jsonl'
 
 #with open( file_full_loc, 'r') as json_file:
 #    json_list = list(json_file)

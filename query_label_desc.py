@@ -9,10 +9,11 @@ import time
 from tqdm import tqdm
 import argparse
 import re
-#import openai
+import openai
 
 #openai.api_key = "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"
-#model_name = "gpt-3.5-turbo"
+openai.api_key = "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"
+model_name = "gpt-3.5-turbo"
 
 def call_chatgpt(input_prompt):
     success = False
@@ -34,7 +35,7 @@ def call_chatgpt(input_prompt):
 type_info=['intent', 'slot']
 for t in type_info:
     input_test_file = "nlu_data/mtop_flat_simple/" + t + "_vocab.txt"
-    write_output= 'nlu_data/mtop_flat_simple/" + t + "_vocab_map.jsonl'
+    write_output= "nlu_data/mtop_flat_simple/" + t + "_vocab_map.jsonl"
 
     writer = open(write_output, 'w')
 
@@ -54,7 +55,6 @@ for t in type_info:
         step_1b_prompt += 'Description: ' + '\n'
         write_output = call_chatgpt(step_1b_prompt)
         print("STEP 1b: Get AMR Graph", step_1b_prompt)
-
-        
-        writer.write(json.dumps({"label": utterance,  "label_description": write_output}) + '\n'
+ 
+        writer.write(json.dumps({"label": label,  "label_description": write_output}) + '\n'
             )
