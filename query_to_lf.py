@@ -51,7 +51,7 @@ def get_intent_slot_vob(dataset):
             intent_descr.append(description)
 
         #print ("Check intent", intent_vocab)
-        print ("Intent map", intent_map)
+        #print ("Intent map", intent_map)
 
     elif dataset == "MASSIVE":
         # ----- MASSIVE -----#
@@ -247,9 +247,8 @@ input_fs_file = os.path.join(data_root, args.demo_file + '.txt')
 #input_test_file = "nlu_data/mtop_flat_simple/en/eval.txt"
 input_test_file = os.path.join(data_root, args.test_file + '_'  + str (args.seed) + '.txt')
 print ("Input test", input_test_file)
-with open(input_test_file, 'r') as file:
-    content = file.read()
-
+#with open(input_test_file, 'r') as file:
+#    content = file.read()
 demo_ex=[]
 demo_dict_ex={'utt':[], 'intent':[], 'key_phrase':[], 'pair':[], 'AMR':[], 'lf':[], 'utt_length':[], 'domain':[]}
 ex_counter=0
@@ -347,10 +346,10 @@ intent=''
 amr_graph=''
 key_phrases=''
 
-content = content.split("\n")[:-1]
 result = []
-for example in content:
-    utterance, logical_form, _, _, tag = example.split("\t")
+for example in open(input_test_file, 'r'):
+    print ("Example", example)
+    utterance, logical_form, _, _, tag = example.strip().split("\t")
     # --- Directly prompt
     if args.type_prompt == "direct":
         cur_direct_prompt = new_session
