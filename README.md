@@ -86,7 +86,9 @@ python query_to_lf.py --type_condition='control_single' --add_demo='false' --out
 # Final Experiments (June 7th)
 See run_query.sh for the completed sets of scripts to run. 
 (1) Main Experiments:
+
 _Zero-shot Experiments_
+
 (a1) Direct Prompting
 ```
 python query_to_lf.py --type_prompt='direct' --number_output=1
@@ -98,6 +100,7 @@ python query_to_lf.py --type_condition='none' --add_demo='false' --output_for='a
 ```
 
 _Few-shot Experiments(In-context learning)_
+
 (a2) Direct Prompting
 ```
 python query_to_lf.py --type_prompt='direct' --add_demo='true' -- output_for='api' --number_demo=16 --number_output=1
@@ -131,12 +134,12 @@ python query_to_lf.py --type_condition='control_single' --add_demo='false' --out
 python query_to_lf.py --type_condition='control_single' --add_demo='false' --output_for='api' --number_output=1 --condition_on='label'
 ```
 
-** NOTE: WAIT **
+**NOTE: WAIT**
 ```
 (4) Our proposed model: ZS, FS
 ```
-python query_to_lf.py --type_condition='control_filter' --add_demo='false' --output_for='api' --number_output=10 --voting_method='major' --structure_rep='amr' --condition_on='descr' -- 
-python query_to_lf.py --type_condition='control_filter' --add_demo='true' --number_demo=16 --output_for='api' --number_output=10 --voting_method='major' --structure_rep='amr' --condition_on='descr' -- 
+python query_to_lf.py --type_condition='control_filter' --add_demo='false' --output_for='api' --number_output=10 --voting_method='major' --structure_rep='amr' --condition_on='descr'
+python query_to_lf.py --type_condition='control_filter' --add_demo='true' --number_demo=16 --output_for='api' --number_output=10 --voting_method='major' --structure_rep='amr' --condition_on='descr'
 ```
 
 
