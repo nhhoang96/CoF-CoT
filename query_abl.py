@@ -255,7 +255,7 @@ parser.add_argument("--type_prompt", default='chain_of', type=str, help='Direct 
 parser.add_argument('--seed', default=111, type=int, choices=[111,222,333])
 
 parser.add_argument("--test_file", default='test', type=str, help='Kind of conditioning: (none, control, control_filter)')
-parser.add_argument("--type_condition", default='control', type=str, help='Kind of conditioning: (none, control, control_filter)')
+parser.add_argument("--type_condition", default='none', type=str, help='Kind of conditioning: (none, control, control_filter)')
 parser.add_argument("--add_demo", choices=['true','false'], default='false', type=str)
 parser.add_argument("--output_for", choices=['api','test'], default='test', type=str)
 
@@ -440,7 +440,7 @@ if (args.structure_rep == 'amr'):
 #gen_step_2 = 'Based on the sentence and its ' + structure_map[args.structure_rep] + ' , identify a list of key phrases for the sentence. Key phrases can be made up from multiple AMR concepts. Each word in key phrases must exist in the given sentence. Each unique word can only appear in one key phrase. Key phrases need to contain consecutive words in the given sentence. Return a list of key phrases separated by commas \n'
 
 
-gen_step_2 = 'Based on the sentence and its ' + structure_map[args.structure_rep]
+gen_step_2 = 'Based on the following information'
 
 gen_step_2_nostruct = 'Based on the sentence, identify a list of key phrases for the sentence. Each word in key phrases must exist in the given sentence and might only appear once in the returned list. Key phrases need to contain consecutive words in the given sentence. Return a list of key phrases separated by commas \n'
 
@@ -459,7 +459,7 @@ if (args.structure_rep == 'amr'):
     gen_step_2c += 'noun '
 
 
-gen_step_2 += 'phrases for the sentence. Key phrases can be made up from multiple AMR concepts. Each word in key phrases must exist in the given sentence. Each word in the sentence appears in only one key phrase. Key phrases need to contain consecutive words in the given sentence. Key phrases do not need to cover all words in the sentence. Return a list of key phrases separated by commas \n'
+gen_step_2 += 'phrases for the sentence. Key phrases can be made up from multiple concepts. Each word in key phrases must exist in the given sentence. Each word in the sentence appears in only one key phrase. Key phrases need to contain consecutive words in the given sentence. Key phrases do not need to cover all words in the sentence. Return a list of key phrases separated by commas \n'
 
 gen_step_2c += 'phrases for the sentence. Key phrases can be made up from multiple AMR concepts. Each word in key phrases must exist in the given sentence. Each word in the sentence must appear in at most one and only one key phrase. Key phrases need to contain consecutive words in the given sentence. Key phrases do not need to cover all words in the sentence. Return a list of key phrases separated by commas \n'
 
@@ -521,10 +521,12 @@ struc_rep = args.structure_rep
 num_output =args.number_output
 add_domain=args.add_domain
 
-if (args.add_demo == 'false'):
-    result_output_file = f'./result_{args.dataset}/zs_{type_prompt}_seed_{seed_val}_condition_{condition_type}_voting_{add_voting}_structure_{struc_rep}_criteria_{select}_condname_{cond}_numoutput_{num_output}_domain_{add_domain}_dialogue.jsonl'
-else:
-    result_output_file = f'./result_{args.dataset}/fs_{type_prompt}_seed_{seed_val}_condition_{condition_type}_voting_{add_voting}_structure_{struc_rep}_numberdemo_{numdemo}_criteria_{select}_condname_{cond}_numoutput_{num_output}_dialogue.jsonl'
+result_output_file=f'./result_{args.dataset}/ablation_randorder.jsonl'
+
+#if (args.add_demo == 'false'):
+#    result_output_file = f'./result_{args.dataset}/zs_{type_prompt}_seed_{seed_val}_condition_{condition_type}_voting_{add_voting}_structure_{struc_rep}_criteria_{select}_condname_{cond}_numoutput_{num_output}_domain_{add_domain}_dialogue.jsonl'
+#else:
+#    result_output_file = f'./result_{args.dataset}/fs_{type_prompt}_seed_{seed_val}_condition_{condition_type}_voting_{add_voting}_structure_{struc_rep}_numberdemo_{numdemo}_criteria_{select}_condname_{cond}_numoutput_{num_output}_dialogue.jsonl'
 
 if (args.write_output == 'true'):
     writer = open(result_output_file, 'w')
@@ -534,6 +536,9 @@ slot_type=''
 intent=''
 amr_graph=''
 key_phrases=''
+sequence_order=['1', '1b', '2', '3', '4']
+#sequence_order=['1b', '2', '3', '1a', '4']
+sequence_order=['2','1','1b','3','4']
 
 def gen_step_1a(args,intent_str):
 
@@ -587,6 +592,7 @@ def gen_step_prompt(args, step_number='1a'):
     out_prompt += '\n'
     return out_prompt
 
+#def gen_full_prompt(args, step_number, utterance,intent, slot):
 
 result = []
 for example in open(input_test_file, 'r'):
@@ -597,287 +603,227 @@ for example in open(input_test_file, 'r'):
 
         utterance, logical_form,domain_name, tag = example.strip().split("\t")
     print ("utt", utterance, logical_form)
-    # --- Directly prompt
-    if args.type_prompt == "direct":
-        cur_direct_prompt = new_session
-        #cur_direct_prompt = ''
-        cur_direct_prompt += direct_prompt + '\n'
-        if (args.add_demo == 'true'): 
-            for idx in range (len(selected_demo_dict_ex['utt'])): 
-                demo_utt = selected_demo_dict_ex['utt'][idx]
-                demo_lf = selected_demo_dict_ex['lf'][idx]
-                cur_direct_prompt += "Sentence: " + demo_utt + '\n'
-                cur_direct_prompt += "Just generate the Logic Form: " + demo_lf + "\n##\n"
+    # --- Step 1a: Get Intent
+    # --- Demo Step 1a
+    #if (args.add_demo == 'true'):
+    #    demo_1 = gen_step_prompt(args, step_number='1a')
+    #    #demo_1 = gen_step_1a(args, intent_str)
+    #    iter_demo=0
+    #    for idx in range (len(selected_demo_dict_ex['utt'])): 
+    #    #for dem in demo_ex:
+    #        demo_utt = selected_demo_dict_ex['utt'][idx]
+    #        demo_intent = selected_demo_dict_ex['intent'][idx]
 
-            #cur_direct_prompt += '\n'
-            #cur_direct_prompt += direct_prompt
-        #else:
-        #    cur_direct_prompt = new_session + direct_prompt + '\n'
-        cur_direct_prompt += "Sentence: " + utterance + "\n"
-        cur_direct_prompt += "Just generate the Logic Form: "
-        print ("Direct prompt", cur_direct_prompt)
-        if (args.output_for == 'api'):
-            pred_lf = call_openai(args,cur_direct_prompt, args.number_output, args.temperature)
-            # writer.write(json.dumps({"utterance": utterance, "pred_lf": pred_lf, "gold_lf": logical_form}) + '\n')
-            print ("Pred", pred_lf)
-            print ("Target", logical_form)
-            result.append({"utterance": utterance, "pred_lf": pred_lf, "gold_lf": logical_form})
+    #        demo_1 += 'Sentence: ' + demo_utt + '\n'
+    #        demo_1 += 'Intent type: ' + demo_intent + '\n##\n'
+    #        iter_demo += 1
+    #    assert iter_demo == args.number_demo
+    #    step_1a_prompt = demo_1 + '\n'
+    #    #step_1a_prompt = demo_1 + '\n' + step_1a_prompt
+    #else:
+
+
+    # Fine to Coarse Order
+    #step_1b_prompt = gen_step_prompt(args, step_number='1b')
+
+    #step_1b_prompt += 'Sentence: ' + utterance + '\n'
+    #if (args.type_condition != 'none'):
+    #    step_1b_prompt = condition_intent_info(args, step_1b_prompt,intent, intent_map)
+    #
+    #step_1b_prompt += structure_map[args.structure_rep] + ': ' + '\n'
+
+    #if (args.output_for == 'api'):
+    #    amr_graph = call_openai(args,step_1b_prompt, args.number_output, args.temperature)
+    #    
+    #    print("STEP 1b: Get AMR Graph", step_1b_prompt)
+    #    print ("AMR", amr_graph)
+    #else:
+    #    print("STEP 1b: Get AMR Graph", step_1b_prompt)
+    #    amr_graph=''
+
+
+    #step_2_prompt = gen_step_prompt(args, step_number='2')
+
+    #step_2_prompt += 'Sentence: ' + utterance + '\n'
+    #if (args.type_condition != 'none'):
+    #    step_2_prompt = condition_intent_info(args, step_2_prompt,intent, intent_map)
+    #step_2_prompt += structure_map[args.structure_rep] + ': ' + amr_graph + '\n'
+
+
+    #step_2_prompt += 'Key phrases: \n'
+
+    #if (args.output_for == 'api'):
+    #    key_phrases = call_openai(args,step_2_prompt, args.number_output, args.temperature)
+    #    print("STEP 2: Get Key Phrases", step_2_prompt)
+    #    print("STEP 2: Key phrases", key_phrases)
+    #else:
+    #    print("STEP 2: Get Key Phrases", step_2_prompt)
+    #    key_phrases=''
+
+
+
+
+
+    #step_3_prompt = gen_step_prompt(args, step_number='3')
+    #step_3_prompt += 'Sentence: ' + utterance + '\n'
+    #if (args.type_condition != 'none'):
+    #    step_3_prompt = condition_intent_info(args, step_3_prompt,intent, intent_map)
+    #    step_3_prompt += structure_map[args.structure_rep] + ': ' + amr_graph + '\n'
+
+    #step_3_prompt += 'Key phrases: ' + key_phrases + '\n'
+    #if (args.add_domain == 'true'):
+    #    #step_1a_prompt += 'Domain Name: ' + domain_name + '\n'
+    #    step_3_prompt += 'Domain name: ' + domain_name + '\n'
+    #step_3_prompt += 'Slot Type, Key phrase  pairs: \n'
+    #if (args.output_for == 'api'):
+    #    slot_type = call_openai(args,step_3_prompt, args.number_output, args.temperature)
+    #    print("STEP 3: Get Slot Type", step_3_prompt)
+    #    print ("STEP 3: Slot Type: ", slot_type)
+    #else:
+    #    slot_type=''
+    #    print("STEP 3: Get Slot Type", step_3_prompt)
+
+
+
+    #step_1a_prompt = gen_step_prompt(args, step_number='1a')
+
+    #step_1a_prompt = new_session + step_1a_prompt
+
+    #step_1a_prompt += 'Sentence: ' + utterance + '\n'
+    ##if (args.add_domain == 'true'):
+    ##    step_1a_prompt += 'Domain Name: ' + domain_name + '\n'
+    #step_1a_prompt += 'Intent type: ' + '\n'
+    #if (args.output_for == 'api'):
+    #    intent = call_openai(args,step_1a_prompt, args.number_output, args.temperature)
+    #    print("STEP 1a: Get Intent ", step_1a_prompt)
+    #    print ("Intent", intent)
+    #    #act_intent = intent_rev_map[intent.strip()]
+    #    #print ("Mapped intent", act_intent)
+    #else:
+    #    print("STEP 1a: Get Intent \n", step_1a_prompt)
+    #    intent =''
+   
+    #step_4_prompt = gen_step_prompt(args, step_number='4')
+
+    #step_4_prompt += 'Sentence: ' + utterance + '\n'
+
+    #step_4_prompt += "Intent: " + intent + '\n'
+    #step_4_prompt += "Slot Type, Slot Value pairs: " + slot_type + '\n'
+
+    #if (args.add_domain == 'true'):
+    #    step_4_prompt += 'Domain name: ' + domain_name + '\n'
+    #step_4_prompt += 'Logic Form: \n'
+    #if (args.output_for == 'api'):
+    #    pred_lf = call_openai(args,step_4_prompt, args.number_output, args.temperature)
+    #    print("STEP 4: Get Logic Form", step_4_prompt)
+    #    print ("STEP 4: OUT LF ", pred_lf)
+    #    print ("Target", logical_form)
+    #else:
+    #    pred_lf =''
+    #    print("STEP 4: Get Logic Form", step_4_prompt)
+
+    #-------------------Random Order ------------------------------------------#
+
+    step_2_prompt = gen_step_prompt(args, step_number='2')
+
+    step_2_prompt += 'Sentence: ' + utterance + '\n'
+    if (args.type_condition != 'none'):
+        step_2_prompt = condition_intent_info(args, step_2_prompt,intent, intent_map)
+    step_2_prompt += structure_map[args.structure_rep] + ': ' + amr_graph + '\n'
+
+
+    step_2_prompt += 'Key phrases: \n'
+
+    if (args.output_for == 'api'):
+        key_phrases = call_openai(args,step_2_prompt, args.number_output, args.temperature)
+        print("STEP 2: Get Key Phrases", step_2_prompt)
+        print("STEP 2: Key phrases", key_phrases)
     else:
-        # --- Step 1a: Get Intent
-        # --- Demo Step 1a
-        if (args.add_demo == 'true'):
-            demo_1 = gen_step_prompt(args, step_number='1a')
-            #demo_1 = gen_step_1a(args, intent_str)
-            iter_demo=0
-            for idx in range (len(selected_demo_dict_ex['utt'])): 
-            #for dem in demo_ex:
-                demo_utt = selected_demo_dict_ex['utt'][idx]
-                demo_intent = selected_demo_dict_ex['intent'][idx]
+        print("STEP 2: Get Key Phrases", step_2_prompt)
+        key_phrases=''
 
-                demo_1 += 'Sentence: ' + demo_utt + '\n'
-                demo_1 += 'Intent type: ' + demo_intent + '\n##\n'
-                iter_demo += 1
-            assert iter_demo == args.number_demo
-            step_1a_prompt = demo_1 + '\n'
-            #step_1a_prompt = demo_1 + '\n' + step_1a_prompt
-        else:
-            step_1a_prompt = gen_step_prompt(args, step_number='1a')
 
-        step_1a_prompt = new_session + step_1a_prompt
+    step_1b_prompt = gen_step_prompt(args, step_number='1b')
 
-        step_1a_prompt += 'Sentence: ' + utterance + '\n'
-        if (args.add_domain == 'true'):
-            step_1a_prompt += 'Domain Name: ' + domain_name + '\n'
-        step_1a_prompt += 'Intent type: ' + '\n'
-        if (args.output_for == 'api'):
-            intent = call_openai(args,step_1a_prompt, args.number_output, args.temperature)
-            print("STEP 1a: Get Intent ", step_1a_prompt)
-            print ("Intent", intent)
-            #act_intent = intent_rev_map[intent.strip()]
-            #print ("Mapped intent", act_intent)
-        else:
-            print("STEP 1a: Get Intent \n", step_1a_prompt)
-            intent =''
-       
+    step_1b_prompt += 'Sentence: ' + utterance + '\n'
+    if (args.type_condition != 'none'):
+        step_1b_prompt = condition_intent_info(args, step_1b_prompt,intent, intent_map)
+    
+    step_1b_prompt += structure_map[args.structure_rep] + ': ' + '\n'
 
-        #--- Block for now
-        # --- Step 1b: Get AMR Graph (except for no structure conditioning)
-        if (args.structure_rep != 'none'):
-            #--- Demo 1b
-            if (args.add_demo == 'true'):
-                iter_demo = 0
-                demo_1b = gen_step_prompt(args, step_number='1b')
-
-                for idx in range (len(selected_demo_dict_ex['utt'])): 
-                    demo_utt = selected_demo_dict_ex['utt'][idx]
-                    demo_intent = selected_demo_dict_ex['intent'][idx]
-                    demo_amr = selected_demo_dict_ex['AMR'][idx]
-                    demo_1b += 'Sentence: ' + demo_utt + '\n'
-                    if (args.type_condition != 'none'):
-                        demo_1b = condition_intent_info(args, demo_1b,demo_intent, intent_map)
-
-                    demo_1b += structure_map[args.structure_rep] + ': ' + demo_amr + '\n##\n'
-                    iter_demo += 1
-
-                assert iter_demo == args.number_demo
-
-                #step_1b_prompt  = demo_1b + '\n' + step_1b_prompt 
-                step_1b_prompt = demo_1b + '\n'
-
-            else:
-                step_1b_prompt = gen_step_prompt(args, step_number='1b')
-
-            step_1b_prompt += 'Sentence: ' + utterance + '\n'
-            if (args.type_condition != 'none'):
-                step_1b_prompt = condition_intent_info(args, step_1b_prompt,intent, intent_map)
-            
-            step_1b_prompt += structure_map[args.structure_rep] + ': ' + '\n'
-
-            if (args.output_for == 'api'):
-                amr_graph = call_openai(args,step_1b_prompt, args.number_output, args.temperature)
-                
-                print("STEP 1b: Get AMR Graph", step_1b_prompt)
-                print ("AMR", amr_graph)
-            else:
-                print("STEP 1b: Get AMR Graph", step_1b_prompt)
-                amr_graph=''
-
-        #if (args.add_demo == 'true'):
-        #    demo_1 = gen_step_prompt(args, step_number='1a')
-        #    #demo_1 = gen_step_1a(args, intent_str)
-        #    iter_demo=0
-        #    for idx in range (len(selected_demo_dict_ex['utt'])): 
-        #    #for dem in demo_ex:
-        #        demo_utt = selected_demo_dict_ex['utt'][idx]
-        #        demo_intent = selected_demo_dict_ex['intent'][idx]
-
-        #        demo_1 += 'Sentence: ' + demo_utt + '\n'
-        #        demo_1 += 'Intent type: ' + demo_intent + '\n##\n'
-        #        iter_demo += 1
-        #    assert iter_demo == args.number_demo
-        #    step_1a_prompt = demo_1 + '\n'
-        #    #step_1a_prompt = demo_1 + '\n' + step_1a_prompt
-        #else:
-        #    step_1a_prompt = gen_step_prompt(args, step_number='1c')
-        #step_1a_prompt += 'Sentence: ' + utterance + '\n'
-        #step_1a_prompt += 'AMR Graph: ' + amr_graph + '\n'
-        #step_1a_prompt += 'Intent type: ' + '\n'
-        #if (args.output_for == 'api'):
-        #    intent = call_openai(args,step_1a_prompt, args.number_output, args.temperature)
-        #    print("STEP 1a: Get Intent ", step_1a_prompt)
-        #    print ("Intent", intent)
-        #else:
-        #    print("STEP 1a: Get Intent \n", step_1a_prompt)
-        #    intent =''
-
-        # --- Step 2: Get Key Phrases
-
-        if (args.structure_rep != 'none'):
-
-            #step_2_prompt = gen_step_prompt(args, step_number='2')
-            # -- Step 2 Demo
-            if (args.add_demo == 'true'):
-                iter_demo = 0
-
-                demo_2 = gen_step_prompt(args, step_number='2')
-                for idx in range (len(selected_demo_dict_ex['utt'])): 
-                    demo_utt = selected_demo_dict_ex['utt'][idx]
-                    demo_intent = selected_demo_dict_ex['intent'][idx]
-                    demo_kp = selected_demo_dict_ex['key_phrase'][idx]
-                    demo_amr = selected_demo_dict_ex['AMR'][idx]
-
-                    demo_2 += 'Sentence: ' + demo_utt + '\n'
-
-                    if (args.type_condition != 'none'):
-                        demo_2 = condition_intent_info(args, demo_2,demo_intent, intent_map)
-                    demo_2 += structure_map[args.structure_rep] + ': ' + demo_amr + '\n'
-                    demo_2 += 'Key phrases: ' + demo_kp + '\n##\n'
-                    iter_demo += 1
-
-                assert iter_demo == args.number_demo
-
-                step_2_prompt  = demo_2 + '\n' 
-            else:
-                step_2_prompt = gen_step_prompt(args, step_number='2')
-
-            step_2_prompt += 'Sentence: ' + utterance + '\n'
-            if (args.type_condition != 'none'):
-                step_2_prompt = condition_intent_info(args, step_2_prompt,intent, intent_map)
-            step_2_prompt += structure_map[args.structure_rep] + ': ' + amr_graph + '\n'
-            #step_2_prompt += 'Key phrases: \n'
-        else: # No structure (for Ablation) - No demos
-            step_2_prompt = gen_step_2_nostruct + 'Sentence: ' + utterance + '\n'
-        if (args.add_domain == 'true'):
-            step_2_prompt += 'Domain name: ' +domain_name + '\n'
-        step_2_prompt += 'Key phrases: \n'
-
-        if (args.output_for == 'api'):
-            key_phrases = call_openai(args,step_2_prompt, args.number_output, args.temperature)
-            print("STEP 2: Get Key Phrases", step_2_prompt)
-            print("STEP 2: Key phrases", key_phrases)
-        else:
-            print("STEP 2: Get Key Phrases", step_2_prompt)
-            key_phrases=''
-
-        # --- Step 3: Get Slot Type
-        if (args.add_demo == 'true'):  
-            demo_3 = gen_step_prompt(args, step_number='3')
-            
-            iter_demo = 0
-            for idx in range (len(selected_demo_dict_ex['utt'])): 
-            #for dem in demo_ex:
-                demo_utt = selected_demo_dict_ex['utt'][idx]
-                demo_intent = selected_demo_dict_ex['intent'][idx]
-                demo_kp = selected_demo_dict_ex['key_phrase'][idx]
-                demo_pair = selected_demo_dict_ex['pair'][idx]
-
-                demo_3 += 'Sentence: ' + demo_utt + '\n'
-                if (args.type_condition != 'none'):
-                    demo_3 = condition_intent_info(args, demo_3,demo_intent, intent_map)
-                if (args.structure_rep != 'none'):
-                    demo_3 += structure_map[args.structure_rep] + ': ' + demo_amr + '\n'
-
-                demo_3 += 'Key phrases: ' + demo_kp + '\n'
-
-                demo_3 += 'List of (Slot Type, Key phrase) pairs separated by commas : ' + demo_pair + '\n##\n'
-                iter_demo += 1
-
-            assert iter_demo == args.number_demo
-            step_3_prompt  = demo_3 + '\n' 
-        else:
-            step_3_prompt = gen_step_prompt(args, step_number='3')
-        step_3_prompt += 'Sentence: ' + utterance + '\n'
-        if (args.type_condition != 'none'):
-            step_3_prompt = condition_intent_info(args, step_3_prompt,intent, intent_map)
-            step_3_prompt += structure_map[args.structure_rep] + ': ' + amr_graph + '\n'
-
-        step_3_prompt += 'Key phrases: ' + key_phrases + '\n'
-        if (args.add_domain == 'true'):
-
-            #step_1a_prompt += 'Domain Name: ' + domain_name + '\n'
-            step_3_prompt += 'Domain name: ' + domain_name + '\n'
-        step_3_prompt += 'Slot Type, Key phrase  pairs: \n'
-        if (args.output_for == 'api'):
-            slot_type = call_openai(args,step_3_prompt, args.number_output, args.temperature)
-            print("STEP 3: Get Slot Type", step_3_prompt)
-            print ("STEP 3: Slot Type: ", slot_type)
-        else:
-            slot_type=''
-            print("STEP 3: Get Slot Type", step_3_prompt)
+    if (args.output_for == 'api'):
+        amr_graph = call_openai(args,step_1b_prompt, args.number_output, args.temperature)
         
-        # --- Step 4: Get Logic Form
-        #step_4_prompt = gen_step_prompt(args, step_number='4')
-        #step_4_prompt += 'Sentence: ' + utterance + '\n'
+        print("STEP 1b: Get AMR Graph", step_1b_prompt)
+        print ("AMR", amr_graph)
+    else:
+        print("STEP 1b: Get AMR Graph", step_1b_prompt)
+        amr_graph=''
 
-        #step_4_prompt += "Intent: " + intent + '\n'
-        #step_4_prompt += "Slot Type, Slot Value pairs: " + slot_type + '\n'
-        #step_4_prompt += 'Logic Form: \n'
 
-        #--- Add Demo Step 4
-        if (args.add_demo == 'true'):
+        amr_graph=''
 
-            demo_4 = gen_step_prompt(args, step_number='4')
-            iter_demo=0
-            for idx in range (len(selected_demo_dict_ex['utt'])): 
 
-            #for dem in demo_ex:
-                demo_utt = selected_demo_dict_ex['utt'][idx]
-                demo_intent = selected_demo_dict_ex['intent'][idx]
-                demo_kp = selected_demo_dict_ex['key_phrase'][idx]
-                demo_pair = selected_demo_dict_ex['pair'][idx]
-                demo_lf = selected_demo_dict_ex['lf'][idx]
+    step_1a_prompt = gen_step_prompt(args, step_number='1a')
 
-                demo_4 += 'Sentence: ' + demo_utt + '\n'
-                demo_4 = condition_intent_info(args, demo_4,demo_intent, intent_map)
-                demo_4 += "Slot Type, Slot Value pairs: " + demo_pair + '\n'
-                demo_4 += 'Logic Form: ' + demo_lf + '\n##\n'
-                iter_demo += 1
+    #step_1a_prompt = new_session + step_1a_prompt
 
-            assert iter_demo == args.number_demo
+    step_1a_prompt += 'Sentence: ' + utterance + '\n'
+    #if (args.add_domain == 'true'):
+    #    step_1a_prompt += 'Domain Name: ' + domain_name + '\n'
+    step_1a_prompt += 'Intent type: ' + '\n'
+    if (args.output_for == 'api'):
+        intent = call_openai(args,step_1a_prompt, args.number_output, args.temperature)
+        print("STEP 1a: Get Intent ", step_1a_prompt)
+        print ("Intent", intent)
+        #act_intent = intent_rev_map[intent.strip()]
+        #print ("Mapped intent", act_intent)
+    else:
+        print("STEP 1a: Get Intent \n", step_1a_prompt)
+        intent =''
 
-            step_4_prompt  = demo_4 + '\n'
-        else:
-            step_4_prompt = gen_step_prompt(args, step_number='4')
+    step_3_prompt = gen_step_prompt(args, step_number='3')
+    step_3_prompt += 'Sentence: ' + utterance + '\n'
+    if (args.type_condition != 'none'):
+        step_3_prompt = condition_intent_info(args, step_3_prompt,intent, intent_map)
+        step_3_prompt += structure_map[args.structure_rep] + ': ' + amr_graph + '\n'
 
-        step_4_prompt += 'Sentence: ' + utterance + '\n'
+    step_3_prompt += 'Key phrases: ' + key_phrases + '\n'
+    if (args.add_domain == 'true'):
+        #step_1a_prompt += 'Domain Name: ' + domain_name + '\n'
+        step_3_prompt += 'Domain name: ' + domain_name + '\n'
+    step_3_prompt += 'Slot Type, Key phrase  pairs: \n'
+    if (amr_graph != ''):
+        step_3_prompt += "AMR Graph: " + amr_graph
+    if (args.output_for == 'api'):
+        slot_type = call_openai(args,step_3_prompt, args.number_output, args.temperature)
+        print("STEP 3: Get Slot Type", step_3_prompt)
+        print ("STEP 3: Slot Type: ", slot_type)
+    else:
+        slot_type=''
+        print("STEP 3: Get Slot Type", step_3_prompt)
 
-        step_4_prompt += "Intent: " + intent + '\n'
-        step_4_prompt += "Slot Type, Slot Value pairs: " + slot_type + '\n'
+ 
+    step_4_prompt = gen_step_prompt(args, step_number='4')
 
-        if (args.add_domain == 'true'):
-            step_4_prompt += 'Domain name: ' + domain_name + '\n'
-        step_4_prompt += 'Logic Form: \n'
-        if (args.output_for == 'api'):
-            pred_lf = call_openai(args,step_4_prompt, args.number_output, args.temperature)
-            print("STEP 4: Get Logic Form", step_4_prompt)
-            print ("STEP 4: OUT LF ", pred_lf)
-            print ("Target", logical_form)
-        else:
-            pred_lf =''
-            print("STEP 4: Get Logic Form", step_4_prompt)
-        # writer.write(json.dumps({"utterance": utterance, "intent": intent, "AMR Graph": amr_graph, "key_phrase":
-        #     key_phrases, "slot_type": slot_type, "pred_lf": pred_lf, "gold_lf": logical_form}) + '\n')
-        result.append({"utterance": utterance, "intent": intent, "AMR Graph": amr_graph, "key_phrase":
+    step_4_prompt += 'Sentence: ' + utterance + '\n'
+
+    step_4_prompt += "Intent: " + intent + '\n'
+    step_4_prompt += "Slot Type, Slot Value pairs: " + slot_type + '\n'
+
+    if (args.add_domain == 'true'):
+        step_4_prompt += 'Domain name: ' + domain_name + '\n'
+    step_4_prompt += 'Logic Form: \n'
+    if (args.output_for == 'api'):
+        pred_lf = call_openai(args,step_4_prompt, args.number_output, args.temperature)
+        print("STEP 4: Get Logic Form", step_4_prompt)
+        print ("STEP 4: OUT LF ", pred_lf)
+        print ("Target", logical_form)
+    else:
+        pred_lf =''
+        print("STEP 4: Get Logic Form", step_4_prompt)
+    print ("=====================================================================")
+    result.append({"utterance": utterance, "intent": intent, "AMR Graph": amr_graph, "key_phrase":
             key_phrases, "slot_type": slot_type, "pred_lf": pred_lf, "gold_lf": logical_form})
 print ("Output file name",  result_output_file)
 if (args.write_output == 'true'):
