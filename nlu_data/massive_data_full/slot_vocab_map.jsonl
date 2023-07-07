@@ -1,55 +1,55 @@
 {"label": "alarm_type", "label_description": "Type of alarm that has been triggered."}
-{"label": "app_name", "label_description": "Name of the application."}
-{"label": "artist_name", "label_description": "Name of the credited artist for the work."}
-{"label": "audiobook_author", "label_description": "Author of the audiobook."}
-{"label": "audiobook_name", "label_description": "Name of the audiobook being referenced."}
-{"label": "business_name", "label_description": "The name of a business or company."}
-{"label": "business_type", "label_description": "Specifies the type of business."}
-{"label": "change_amount", "label_description": "Amount of change or difference."}
-{"label": "coffee_type", "label_description": "Type of coffee available."}
-{"label": "color_type", "label_description": "Type of color used in product design."}
-{"label": "cooking_type", "label_description": "Type or style of cooking used for the dish."}
-{"label": "currency_name", "label_description": "Name of a country's official currency."}
-{"label": "date", "label_description": "Specifies a particular day or range of days."}
-{"label": "definition_word", "label_description": "Defines a specific word or phrase."}
-{"label": "device_type", "label_description": "Type of electronic device."}
-{"label": "drink_type", "label_description": "The type of beverage being consumed."}
-{"label": "email_address", "label_description": "A string of characters used for electronic communication."}
-{"label": "email_folder", "label_description": "Folder where emails are stored and organized."}
-{"label": "event_name", "label_description": "Name of the event being referred to."}
-{"label": "food_type", "label_description": "The type or category of food."}
-{"label": "game_name", "label_description": "The name of a specific video game."}
-{"label": "game_type", "label_description": "Type of game being played."}
-{"label": "general_frequency", "label_description": "Frequency that applies to all cases."}
-{"label": "house_place", "label_description": "Location or address of a house."}
-{"label": "ingredient", "label_description": "List of components present in a product."}
-{"label": "joke_type", "label_description": "Type or category of the joke."}
-{"label": "list_name", "label_description": "Name of a list or group of items."}
-{"label": "meal_type", "label_description": "Type of meal being served or eaten."}
-{"label": "media_type", "label_description": "Type or format of media being used."}
-{"label": "movie_name", "label_description": "Name of the specified movie."}
-{"label": "movie_type", "label_description": "Type or genre of a movie."}
-{"label": "music_album", "label_description": "Collection of audio tracks sold as a package."}
-{"label": "music_descriptor", "label_description": "Describes style, genre or mood of music."}
-{"label": "music_genre", "label_description": "Type or category of musical style."}
-{"label": "news_topic", "label_description": "Top stories and latest news updates."}
-{"label": "order_type", "label_description": "Type of order being placed or fulfilled."}
-{"label": "person", "label_description": "Human being or individual with identity."}
-{"label": "personal_info", "label_description": "Sensitive information about an individual."}
-{"label": "place_name", "label_description": "Identifies a specific location or area by name."}
-{"label": "player_setting", "label_description": "Customizable options for individual users."}
-{"label": "playlist_name", "label_description": "Name of a customized list of songs."}
-{"label": "podcast_descriptor", "label_description": "Information related to a podcast episode."}
-{"label": "podcast_name", "label_description": "Name of a podcast."}
-{"label": "radio_name", "label_description": "The name of a radio station."}
-{"label": "relation", "label_description": "Connection or association between two or more things."}
-{"label": "song_name", "label_description": "Name of a music composition."}
-{"label": "sport_type", "label_description": "Type of sport or physical activity."}
-{"label": "time", "label_description": "Measurement of duration between two events."}
-{"label": "time_zone", "label_description": "Specifies a geographic region with the same standard time."}
-{"label": "timeofday", "label_description": "Indicates the time of day."}
-{"label": "transport_agency", "label_description": "Agency responsible for transportation operations and management."}
-{"label": "transport_descriptor", "label_description": "Specifies transport protocol characteristics of media."}
-{"label": "transport_name", "label_description": "Name of transportation method or company."}
-{"label": "transport_type", "label_description": "Type of transportation used."}
-{"label": "weather_descriptor", "label_description": "Describes the weather conditions in concise terms."}
+{"label": "app_name", "label_description": "Application name for easy identification and access."}
+{"label": "artist_name", "label_description": "Name of the artist or musician."}
+{"label": "audiobook_author", "label_description": "Author of an audio book."}
+{"label": "audiobook_name", "label_description": "Collection of spoken text in audio format."}
+{"label": "business_name", "label_description": "Name of a company or enterprise engaged in commercial activities."}
+{"label": "business_type", "label_description": "Type of business or industry."}
+{"label": "change_amount", "label_description": "Quantity adjustment or variation."}
+{"label": "coffee_type", "label_description": "Types of coffee available for purchase."}
+{"label": "color_type", "label_description": "Indicates the type of color used in a product or design."}
+{"label": "cooking_type", "label_description": "The type of cooking used to prepare the dish."}
+{"label": "currency_name", "label_description": "The name of a type of currency."}
+{"label": "date", "label_description": "Fruit of a palm tree, often eaten dried."}
+{"label": "definition_word", "label_description": "A label name is not enough information to generate a description. Please provide more context or information."}
+{"label": "device_type", "label_description": "The type of device used for a certain task or purpose."}
+{"label": "drink_type", "label_description": "Type of beverage to quench your thirst."}
+{"label": "email_address", "label_description": "A unique identifier for electronic mail communication."}
+{"label": "email_folder", "label_description": "A folder for organizing electronic mail messages."}
+{"label": "event_name", "label_description": "Sorry, as an AI language model, I cannot generate a description without any information or context about the event_name label. Please provide more details."}
+{"label": "food_type", "label_description": "Type of food."}
+{"label": "game_name", "label_description": "Sorry, I cannot generate a label description without any information about the game_name. Please provide more details."}
+{"label": "game_type", "label_description": "The type of game being played."}
+{"label": "general_frequency", "label_description": "The label represents general occurrence rates or regularity of events."}
+{"label": "house_place", "label_description": "A place where one dwells or resides."}
+{"label": "ingredient", "label_description": "A substance used in the production of a food or product."}
+{"label": "joke_type", "label_description": "Specifies the type of joke."}
+{"label": "list_name", "label_description": "A list of names."}
+{"label": "meal_type", "label_description": "Type of meal eaten at a specific time."}
+{"label": "media_type", "label_description": "Type of media format for storage and playback."}
+{"label": "movie_name", "label_description": "This label contains the name of a movie."}
+{"label": "movie_type", "label_description": "Type of movie, such as comedy, drama, action, or horror."}
+{"label": "music_album", "label_description": "Collection of recorded songs by an artist or group."}
+{"label": "music_descriptor", "label_description": "A label for identifying and describing various genres and characteristics of music."}
+{"label": "music_genre", "label_description": "Type of music categorized by common characteristics such as rhythm or instrumentation."}
+{"label": "news_topic", "label_description": "Updated information on current events and important subjects."}
+{"label": "order_type", "label_description": "Indicates the type of order placed by the user."}
+{"label": "person", "label_description": "A human being, an individual."}
+{"label": "personal_info", "label_description": "Personal information of individuals stored in the application."}
+{"label": "place_name", "label_description": "Name of a location or geographical place."}
+{"label": "player_setting", "label_description": "Configuration options for game player."}
+{"label": "playlist_name", "label_description": "A name given to a set of songs for organized playback."}
+{"label": "podcast_descriptor", "label_description": "A descriptor for a podcast."}
+{"label": "podcast_name", "label_description": "A name for a podcast."}
+{"label": "radio_name", "label_description": "A name for a radio station."}
+{"label": "relation", "label_description": "Connection or association between people, things, or events."}
+{"label": "song_name", "label_description": "A name of a song."}
+{"label": "sport_type", "label_description": "Type of sport played, such as basketball or soccer."}
+{"label": "time", "label_description": "A term to describe the ongoing and chronological sequence of events."}
+{"label": "time_zone", "label_description": "A region where all people follow the same standard time."}
+{"label": "timeofday", "label_description": "The time of day at which an event or activity occurs."}
+{"label": "transport_agency", "label_description": "Agency responsible for transportation services and logistics."}
+{"label": "transport_descriptor", "label_description": "Describes the method or means of transportation used."}
+{"label": "transport_name", "label_description": "A label for identifying a mode of transportation."}
+{"label": "transport_type", "label_description": "Type of transportation used for a particular activity or product."}
+{"label": "weather_descriptor", "label_description": "Words describing atmospheric conditions and phenomena."}

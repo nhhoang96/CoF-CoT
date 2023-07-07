@@ -1,60 +1,60 @@
-{"label": "qa_currency", "label_description": "Identifies currency or monetary values for quality assurance."}
-{"label": "iot_wemo_off", "label_description": "Indicates when a WeMo device is turned off."}
-{"label": "general_greet", "label_description": "A standard greeting message."}
-{"label": "play_music", "label_description": "Play audio files or music tracks."}
-{"label": "iot_coffee", "label_description": "Smart coffee equipment utilizing Internet of Things technology."}
-{"label": "play_radio", "label_description": "Listen to live or recorded audio content."}
+{"label": "qa_currency", "label_description": "Quality assurance for currency."}
+{"label": "iot_wemo_off", "label_description": "IoT device Wemo turned off."}
+{"label": "general_greet", "label_description": "A general greeting to express goodwill and social etiquette."}
+{"label": "play_music", "label_description": "Plays music."}
+{"label": "iot_coffee", "label_description": "Internet of Things coffee."}
+{"label": "play_radio", "label_description": "A product for playing FM/AM radio stations."}
 {"label": "lists_createoradd", "label_description": "Create or add items to a list."}
-{"label": "audio_volume_down", "label_description": "Decreases the volume of audio output."}
-{"label": "music_dislikeness", "label_description": "Negative sentiment towards music."}
-{"label": "takeaway_order", "label_description": "Order food to go."}
-{"label": "music_likeness", "label_description": "Similarity in musical style or sound."}
-{"label": "weather_query", "label_description": "Search for current or future weather conditions."}
-{"label": "audio_volume_mute", "label_description": "Mute the audio volume."}
-{"label": "alarm_query", "label_description": "Query regarding an alarm or alert."}
-{"label": "email_sendemail", "label_description": "Sending email from one user to another."}
-{"label": "takeaway_query", "label_description": "Inquiry about takeout or food to-go options."}
-{"label": "cooking_recipe", "label_description": "Instructions for preparing a specific dish or meal."}
-{"label": "lists_query", "label_description": "Compiles results into a structured list."}
-{"label": "email_querycontact", "label_description": "Request to contact via email for inquiry."}
-{"label": "iot_cleaning", "label_description": "Smart cleaning devices utilizing IoT technology."}
-{"label": "social_post", "label_description": "A post made on social media platform(s)."}
-{"label": "transport_query", "label_description": "Request for transportation information or service."}
-{"label": "qa_stock", "label_description": "Quality assurance of stock inventory."}
-{"label": "play_audiobook", "label_description": "Play an audio book."}
-{"label": "qa_maths", "label_description": "Quality assurance testing for math components."}
-{"label": "play_game", "label_description": "Engage in an interactive and enjoyable activity."}
-{"label": "audio_volume_other", "label_description": "Adjustment of non-primary audio source volume."}
-{"label": "music_query", "label_description": "Search and retrieve music information."}
-{"label": "alarm_remove", "label_description": "Remove an existing alarm or disable alarm feature."}
-{"label": "qa_factoid", "label_description": "Answering single, factual questions with concise answers."}
-{"label": "general_joke", "label_description": "A label for jokes that don't fit other categories."}
-{"label": "iot_hue_lightdim", "label_description": "IoT enabled Philips Hue light dimming control."}
-{"label": "calendar_remove", "label_description": "Remove an event/task from a calendar."}
-{"label": "iot_hue_lightoff", "label_description": "IoT-enabled Hue light turned off."}
-{"label": "play_podcasts", "label_description": "Listen to your favorite podcasts."}
-{"label": "transport_ticket", "label_description": "Proof of payment for transportation services."}
-{"label": "email_query", "label_description": "Inquiry or request sent through email."}
-{"label": "iot_hue_lightchange", "label_description": "IoT control of Philips Hue light changes."}
-{"label": "news_query", "label_description": "User input query for news content."}
-{"label": "transport_taxi", "label_description": "Transportation service provided by taxi companies."}
-{"label": "cooking_query", "label_description": "Retrieve cooking information or recipes through search."}
-{"label": "general_quirky", "label_description": "A light-hearted and offbeat vibe."}
-{"label": "lists_remove", "label_description": "Removes items from a list."}
-{"label": "calendar_set", "label_description": "Set of dates and events organized in a calendar."}
-{"label": "recommendation_movies", "label_description": "Top suggested films based on user preferences."}
-{"label": "iot_wemo_on", "label_description": "Wemo IoT device turned on."}
-{"label": "recommendation_locations", "label_description": "Suggested places or venues to visit."}
-{"label": "datetime_convert", "label_description": "Converts date and time formats."}
-{"label": "transport_traffic", "label_description": "Movement of vehicles along roadways or transportation routes."}
-{"label": "alarm_set", "label_description": "Indicates an alarm has been set."}
-{"label": "calendar_query", "label_description": "Search and display calendar events."}
-{"label": "qa_definition", "label_description": "Quality assurance definition."}
-{"label": "audio_volume_up", "label_description": "Increase the volume of audio output."}
-{"label": "iot_hue_lightup", "label_description": "Internet of things: smart lights with Philips Hue."}
-{"label": "iot_hue_lighton", "label_description": "Indicates that an IoT-enabled Hue light is turned on."}
-{"label": "music_settings", "label_description": "Customize the settings for the music player."}
-{"label": "recommendation_events", "label_description": "Suggested events based on user preferences and history."}
-{"label": "datetime_query", "label_description": "Query based on date and time parameters."}
-{"label": "email_addcontact", "label_description": "Add a contact to email address book."}
-{"label": "social_query", "label_description": "A query related to social media or networks."}
+{"label": "audio_volume_down", "label_description": "Decreases the volume of audio playback."}
+{"label": "music_dislikeness", "label_description": "A dislike or aversion towards music."}
+{"label": "takeaway_order", "label_description": "An order for food that is intended for takeout purposes."}
+{"label": "music_likeness", "label_description": "The likeness or similarity of the music being heard."}
+{"label": "weather_query", "label_description": "A label for weather-related queries or questions."}
+{"label": "audio_volume_mute", "label_description": "Adjust audio volume to lowest level or turn off completely."}
+{"label": "alarm_query", "label_description": "A label for querying alarm status or configuration in an application."}
+{"label": "email_sendemail", "label_description": "Sends email from one address to another."}
+{"label": "takeaway_query", "label_description": "Query for ordering food to take away."}
+{"label": "cooking_recipe", "label_description": "Instructions for preparing a dish, including ingredients and steps."}
+{"label": "lists_query", "label_description": "A collection of search queries in an organized and structured format."}
+{"label": "email_querycontact", "label_description": "Query contact information through email."}
+{"label": "iot_cleaning", "label_description": "Cleaning solutions for Internet of Things devices."}
+{"label": "social_post", "label_description": "A label for posts made on social media platforms."}
+{"label": "transport_query", "label_description": "A label for transportation-related queries."}
+{"label": "qa_stock", "label_description": "Stock of Quality Assurance items for testing and analysis."}
+{"label": "play_audiobook", "label_description": "Listen to your favorite book with this audio player."}
+{"label": "qa_maths", "label_description": "Questions and answers related to mathematics."}
+{"label": "play_game", "label_description": "Engage in an exciting matchup on your device."}
+{"label": "audio_volume_other", "label_description": "Other audio volume levels not specified in previous labels."}
+{"label": "music_query", "label_description": "Search and retrieve music data."}
+{"label": "alarm_remove", "label_description": "Remove alarm easily with this product."}
+{"label": "qa_factoid", "label_description": "Question answering on factual information."}
+{"label": "general_joke", "label_description": "A collection of lighthearted and humorous content for everyone to enjoy."}
+{"label": "iot_hue_lightdim", "label_description": "IoT Hue Light Dimming Technology"}
+{"label": "calendar_remove", "label_description": "Remove events from your calendar with ease using this tool."}
+{"label": "iot_hue_lightoff", "label_description": "Turn off Philips Hue smart lights using the Internet of Things."}
+{"label": "play_podcasts", "label_description": "Listen to interesting podcasts about various topics while you play."}
+{"label": "transport_ticket", "label_description": "A ticket used to ride on a public transportation system."}
+{"label": "email_query", "label_description": "A label for email-based queries."}
+{"label": "iot_hue_lightchange", "label_description": "Internet of Things Hue Light Change."}
+{"label": "news_query", "label_description": "A label used to search for or request news."}
+{"label": "transport_taxi", "label_description": "A vehicle for hire to transport passengers to their destinations."}
+{"label": "cooking_query", "label_description": "A platform for asking cooking-related questions and getting community responses."}
+{"label": "general_quirky", "label_description": "A collection of odd and humorous items of a broad range."}
+{"label": "lists_remove", "label_description": "Remove elements from a list."}
+{"label": "calendar_set", "label_description": "A set of calendars for tracking and organizing dates and events."}
+{"label": "recommendation_movies", "label_description": "Movies recommended for you based on your preferences."}
+{"label": "iot_wemo_on", "label_description": "Turn on Wemo device with IoT technology."}
+{"label": "recommendation_locations", "label_description": "Locations recommended for certain purposes based on various factors."}
+{"label": "datetime_convert", "label_description": "Converts datetime values to another format."}
+{"label": "transport_traffic", "label_description": "Movement and congestion of vehicles."}
+{"label": "alarm_set", "label_description": "A label for a device or system that sets an alarm."}
+{"label": "calendar_query", "label_description": "A tool to search and retrieve data from a calendar."}
+{"label": "qa_definition", "label_description": "Quality assurance definition for product development and testing."}
+{"label": "audio_volume_up", "label_description": "Increases the sound level of electronic devices."}
+{"label": "iot_hue_lightup", "label_description": "Internet of Things Hue LightUp."}
+{"label": "iot_hue_lighton", "label_description": "IoT Hue Light On"}
+{"label": "music_settings", "label_description": "Adjustable audio configurations for optimal listening experience."}
+{"label": "recommendation_events", "label_description": "Events that are suggested based on preference and past interactions."}
+{"label": "datetime_query", "label_description": "A label to interact with date and time information from a database."}
+{"label": "email_addcontact", "label_description": "Adds email to contact list."}
+{"label": "social_query", "label_description": "A label for social media search function or inquiry."}

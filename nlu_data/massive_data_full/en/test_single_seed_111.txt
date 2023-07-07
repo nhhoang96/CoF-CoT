@@ -1,0 +1,1 @@
+i want to know everything that breaks about the dam breaking in california	[IN:news_query [SL:place_name california] ]	news	en-US
