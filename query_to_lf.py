@@ -447,19 +447,6 @@ def gen_step_prompt(args, step_number='1a'):
     
     if (step_number == '1a'):
         out_prompt = gen_step_1c
-        #if (args.type_condition == 'control'):
-        #elif (args.type_condition == 'control_filter'):
-        #    out_prompt = gen_step_1c_filter
-        #else:
-        #    out_prompt = gen_step_1
-            
-    #elif (step_number == '1c'):
-    #    out_prompt = gen_step_1_flip
-    #elif (step_number == '1b'):
-    #    if (args.type_condition == 'none'):
-    #        out_prompt = gen_step_1b 
-    #    else:
-    #        out_prompt = gen_step_1bc
 
     elif (step_number == '2'):
         if (args.type_condition == 'none'):
@@ -468,9 +455,6 @@ def gen_step_prompt(args, step_number='1a'):
             out_prompt = gen_step_2c
 
     elif (step_number == '3'):
-        #if (args.type_condition == 'none'):
-        #    out_prompt = gen_step_3
-        #else:
         out_prompt = gen_step_3c
         step_3_prompt = gen_step_3c + 'Sentence: ' + utterance + '\n'
 
@@ -481,30 +465,12 @@ def gen_step_prompt(args, step_number='1a'):
 
 
 def extract_intent(input_text):
-    #m = re.search(r"\[([A-Za-z0-9_]+)\]", input_text)
     input_text = input_text.strip()
-    print ("input text", input_text)
     m = re.findall(r"\[([\s\w]*)\]", input_text)
 
-    print ("Type m", type(m), m)
-    for i in m:
-        print ("I test", i)
-    #print ("Return intent info", m.group(1))
-    #intent_info = input_text.split('\n')[0]
-    #intent_out = intent_info.split(':')[-1]
-    #intent_out = intent_out.replace("'", "")
-    #intent_out = intent_out.replace('[','').replace(']','')
-    #print ("Intent out", intent_out)
     return intent_out.strip()
 
 def reformat_output(output, slot_vocab):
-
-    #m = re.findall(r"```([\s\w]*)```", output)
-    #print ("Type m", m)
-    #print ("LF", repr(output))
-    #output= re.search(r'```\n([A-Za-z0-9_\./\\-]*)\n```', output)
-    #print ("Out", output.group())
-
     if ('\n\n' in output):
         output = output.split('\n\n')[1]
     
@@ -520,70 +486,19 @@ def reformat_output(output, slot_vocab):
         element = element.strip()
         if (element.startswith('IN:')):
             intent = element.split(':')[-1].strip()
-        #elif (element.startswith('[SL')):
         else:
-            #slot_info = element.split(':')[-1].strip()
             slot_info = ' '.join(element.split(':')[1:]).strip()
-            #print ("Fix", slot_info)
             slot_info = slot_info.replace('"','')
             slot_info = slot_info.replace('=', ' ')
             slot_info = slot_info.replace(':', ' ')
             slot_info = re.sub(' +', ' ', slot_info)
             slot_info = slot_info.strip()
-            #print ("SLot info", slot_info)
-            ## Fix the flip
-            #try_it = slot_info.split(' ')
-
-            #if (try_it[1] in slot_vocab):
-            #    slot_value = try_it[0]
-            #    slot_type = try_it[1]
-            #else:
-            #    slot_value = try_it[1]
-            #    slot_type = try_it[0]
-
-            #if ('_' in slot_value):
-            #    slot_value = slot_value.replace('_', ' ')
-
-            #
-            #slot_info = ' '.join(slot_type, slot_value)
             slots.append(slot_info)
  
     return_output = '[IN:' + str(intent)
     for s in slots:
         return_output += ' [SL:' + s + ']'
-    return_output += ' ]'
- 
-    print ("Return output", return_output)
-
-        
-    #if (len(output.split('\n\n')) >=2):
-    #    core_output = output.split('\n\n')[1]
-    #    core_output = core_output.replace('```', '')
-    #    clear_str = core_output.replace('[','').replace(']','')
-    #    clear_str = clear_str.replace('`', '`')
-
-    #    slots=[]
-    #    intent=''
-    #    for element in clear_str.split('\n'):
-    #        element = element.strip()
-    #        if (element.startswith('IN:')):
-    #            intent = element.split(':')[-1].strip()
-    #        else:
-    #            slot_info = element.split(':')[-1].strip()
-    #            slot_info = slot_info.replace('"','')
-    #            slot_info = slot_info.replace('=', '')
-    #            slot_info = re.sub(' +', ' ', slot_info)
-    #            slot_info = slot_info.strip()
-    #            slots.append(slot_info)
-    # 
-    #    return_output = '[IN:' + str(intent)
-    #    for s in slots:
-    #        return_output += ' [SL:' + s + ']'
-    #    return_output += ' ]'
-    # 
-    #    print ("Return output", return_output)
-    #else:
-    #    return_output = '[]'
+    return_output += ' ]'    
     return return_output
 
 

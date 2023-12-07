@@ -1,8 +1,8 @@
 # CoF-CoT
-This repository provides PyTorch implementation for the paper [*CoF-CoT: Enhancing Large Language Models with Coarse-to-Fine Chain-of-Thought Prompting for Multi-domain NLU Tasks*](https://arxiv.org/abs/2310.14623) **(EMNLP'2023)**
+This repository provides evaluation datasets, implementation and sample demos for the paper [*CoF-CoT: Enhancing Large Language Models with Coarse-to-Fine Chain-of-Thought Prompting for Multi-domain NLU Tasks*](https://arxiv.org/abs/2310.14623) **(EMNLP'2023 Main Conference)**
 
 ## Support
-We provide support for API Calls from 2 Large Language Models (LLMs), including: [PaLM](https://blog.research.google/2022/04/pathways-language-model-palm-scaling-to.html) and [GPT3.5-turbo](https://openai.com/blog/gpt-3-5-turbo-fine-tuning-and-api-updates).
+We provide support for API Calls from 2 Large Language Models (LLMs), including [PaLM](https://blog.research.google/2022/04/pathways-language-model-palm-scaling-to.html) and [GPT3.5-turbo](https://openai.com/blog/gpt-3-5-turbo-fine-tuning-and-api-updates).
 Please make sure you have your own valid API keys and update them in ```key.txt``` and ```google_key.txt``` files correspondingly before running the experiments.
 
 ## Prerequisites
@@ -12,8 +12,6 @@ Refer to documentation of PaLM](https://blog.research.google/2022/04/pathways-la
 We conduct evaluations on subsets of [MTOP dataset](https://aclanthology.org/2021.eacl-main.257/) and [MASSIVE dataset](https://aclanthology.org/2023.acl-long.235/).
 Both evaluation datasets are few-shot in-context learning samples are provided. Please refer to our paper for further details.
 
-**NOTE:** For consistency purposes, for NER tasks, labels are generated on character levels across all 4 languages. 
- 
 
 ## Running Experiments/ Demonstrations
 Please refer to the manuscript regarding the detailed rationale of the experiment design.
