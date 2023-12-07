@@ -1,0 +1,986 @@
+Any breaking news today?	[IN:GET_STORIES_NEWS [SL:NEWS_REFERENCE breaking ] [SL:NEWS_TYPE news ] [SL:DATE_TIME today ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_REFERENCE breaking ] [SL:NEWS_TYPE news ] [SL:DATE_TIME today ] ]	news	en_XX
+Is my timer almost finished?	[IN:GET_TIMER [SL:METHOD_TIMER timer ] ]	[IN:GET_TIMER [SL:METHOD_TIMER timer ] ]	timer	en_XX
+What are this weekend's top stories	[IN:GET_STORIES_NEWS [SL:DATE_TIME this weekend ] [SL:NEWS_REFERENCE top ] [SL:NEWS_TYPE stories ] ]	[IN:GET_STORIES_NEWS [SL:DATE_TIME this weekend ] [SL:NEWS_REFERENCE top ] [SL:NEWS_TYPE stories ] ]	news	en_XX
+were there any murders in Chicago last night?	[IN:QUESTION_NEWS [SL:NEWS_TOPIC murders in Chicago ] [SL:DATE_TIME last night ] ]	[IN:QUESTION_NEWS [SL:NEWS_TOPIC murders in Chicago ] [SL:DATE_TIME last night ] ]	news	en_XX
+Please play Pink now	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Pink ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Pink ] ]	music	en_XX
+what's going on in the news?	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news ] ]	news	en_XX
+play French music	[IN:PLAY_MUSIC [SL:MUSIC_GENRE French ] [SL:MUSIC_TYPE music ] ]	[IN:PLAY_MUSIC [SL:MUSIC_TYPE music ] [SL:MUSIC_GENRE French ] ]	music	en_XX
+who signs this song?	[IN:GET_TRACK_INFO_MUSIC [SL:MUSIC_TYPE song ] ]	[IN:GET_TRACK_INFO_MUSIC [SL:MUSIC_TYPE song ] ]	music	en_XX
+Please shuffle my favorite songs	[IN:START_SHUFFLE_MUSIC [SL:MUSIC_PLAYLIST_TITLE favorite ] [SL:MUSIC_TYPE songs ] ]	[IN:START_SHUFFLE_MUSIC [SL:MUSIC_PLAYLIST_TITLE favorite ] [SL:MUSIC_TYPE songs ] ]	music	en_XX
+play selena gomez's most famous song	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME selena gomez ] [SL:MUSIC_TYPE song ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME selena gomez ] [SL:MUSIC_TYPE song ] ]	music	en_XX
+Play Paul Kelly on google play music	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Paul Kelly ] [SL:MUSIC_PROVIDER_NAME google play music ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Paul Kelly ] [SL:MUSIC_PROVIDER_NAME google play music ] ]	music	en_XX
+What station is playing right now?	[IN:GET_TRACK_INFO_MUSIC [SL:MUSIC_TYPE station ] ]	[IN:GET_TRACK_INFO_MUSIC [SL:MUSIC_TYPE station ] ]	music	en_XX
+Play Justin Timberlake's newest single.	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Justin Timberlake ] [SL:MUSIC_TYPE single ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Justin Timberlake ] [SL:MUSIC_TYPE single ] ]	music	en_XX
+tell me my lap times	[IN:GET_TIMER [SL:METHOD_TIMER times ] ]	[IN:GET_TIMER [SL:METHOD_TIMER times ] ]	timer	en_XX
+Read the new york times latest stories	[IN:GET_STORIES_NEWS [SL:NEWS_SOURCE new york times ] [SL:DATE_TIME latest ] [SL:NEWS_TYPE stories ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_SOURCE new york times ] [SL:DATE_TIME latest ] [SL:NEWS_TYPE stories ] ]	news	en_XX
+take 5 minutes off of timer	[IN:SUBTRACT_TIME_TIMER [SL:DATE_TIME 5 minutes ] [SL:METHOD_TIMER timer ] ]	[IN:SUBTRACT_TIME_TIMER [SL:DATE_TIME 5 minutes ] [SL:METHOD_TIMER timer ] ]	timer	en_XX
+How much more time is left?	[IN:GET_TIMER [SL:METHOD_TIMER time ] ]	[IN:GET_TIMER [SL:METHOD_TIMER time ] ]	timer	en_XX
+please play some Golden Age	[IN:PLAY_MUSIC [SL:MUSIC_GENRE Golden Age ] ]	[IN:PLAY_MUSIC [SL:MUSIC_GENRE Golden Age ] ]	music	en_XX
+what's this song called?	[IN:GET_TRACK_INFO_MUSIC [SL:MUSIC_TYPE song ] ]	[IN:GET_TRACK_INFO_MUSIC [SL:MUSIC_TYPE song ] ]	music	en_XX
+Increase current timer by 6 minutes	[IN:ADD_TIME_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME by 6 minutes ] ]	[IN:ADD_TIME_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME by 6 minutes ] ]	timer	en_XX
+make this timer longer by 2 minutes	[IN:ADD_TIME_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME by 2 minutes ] ]	[IN:ADD_TIME_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME by 2 minutes ] ]	timer	en_XX
+can you add 5 minutes to the timer	[IN:ADD_TIME_TIMER [SL:DATE_TIME 5 minutes ] [SL:METHOD_TIMER timer ] ]	[IN:ADD_TIME_TIMER [SL:DATE_TIME 5 minutes ] [SL:METHOD_TIMER timer ] ]	timer	en_XX
+How do I set a timer	[IN:CREATE_TIMER ]	[IN:CREATE_TIMER ]	timer	en_XX
+Are there headlines about North Korea?	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE headlines ] [SL:NEWS_TOPIC North Korea ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE headlines ] [SL:NEWS_TOPIC North Korea ] ]	news	en_XX
+Put my no cussing timer on hold for now.	[IN:PAUSE_TIMER [SL:TIMER_NAME no cussing ] [SL:METHOD_TIMER timer ] ]	[IN:PAUSE_TIMER [SL:TIMER_NAME no cussing ] [SL:METHOD_TIMER timer ] ]	timer	en_XX
+Set smoker timer to 6 hrs.	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME to 6 hrs ] ]	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME to 6 hrs ] ]	timer	en_XX
+Set timer for 15 seconds	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME for 15 seconds ] ]	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME for 15 seconds ] ]	timer	en_XX
+start 1 minute timer	[IN:CREATE_TIMER [SL:DATE_TIME 1 minute ] [SL:METHOD_TIMER timer ] ]	[IN:CREATE_TIMER [SL:DATE_TIME 1 minute ] [SL:METHOD_TIMER timer ] ]	timer	en_XX
+play nickelback for me	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME nickelback ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME nickelback ] ]	music	en_XX
+What's the latest news on O.J. Simpson?	[IN:GET_STORIES_NEWS [SL:DATE_TIME latest ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC O.J . Simpson ] ]	[IN:GET_STORIES_NEWS [SL:DATE_TIME latest ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC O.J . Simpson ] ]	news	en_XX
+set a timer for 20 minutes	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME for 20 minutes ] ]	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME for 20 minutes ] ]	timer	en_XX
+I want to listen to Maroon 5 latest album.	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Maroon 5 ] [SL:MUSIC_TYPE album ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Maroon 5 ] [SL:MUSIC_TYPE album ] ]	music	en_XX
+cancel my existing timer	[IN:DELETE_TIMER [SL:METHOD_TIMER timer ] ]	[IN:DELETE_TIMER [SL:METHOD_TIMER timer ] ]	timer	en_XX
+Set timer for 3 minutes	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME for 3 minutes ] ]	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME for 3 minutes ] ]	timer	en_XX
+Read me the headlines from yesterday.	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE headlines ] [SL:DATE_TIME from yesterday ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE headlines ] [SL:DATE_TIME from yesterday ] ]	news	en_XX
+What are the top headlines for today	[IN:GET_STORIES_NEWS [SL:NEWS_REFERENCE top ] [SL:NEWS_TYPE headlines ] [SL:DATE_TIME for today ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_REFERENCE top ] [SL:NEWS_TYPE headlines ] [SL:DATE_TIME for today ] ]	news	en_XX
+please read me today's news?	[IN:GET_STORIES_NEWS [SL:DATE_TIME today ] [SL:NEWS_TYPE news ] ]	[IN:GET_STORIES_NEWS [SL:DATE_TIME today ] [SL:NEWS_TYPE news ] ]	news	en_XX
+Please read me today's local headlines	[IN:GET_STORIES_NEWS [SL:DATE_TIME today ] [SL:NEWS_CATEGORY local ] [SL:NEWS_TYPE headlines ] ]	[IN:GET_STORIES_NEWS [SL:DATE_TIME today ] [SL:NEWS_CATEGORY local ] [SL:NEWS_TYPE headlines ] ]	news	en_XX
+Give me more details on the efforts to repeal Obamacare.	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE details ] [SL:NEWS_TOPIC efforts to repeal Obamacare ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE details ] [SL:NEWS_TOPIC efforts to repeal Obamacare ] ]	news	en_XX
+play The Fray on iheartradio	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME The Fray ] [SL:MUSIC_PROVIDER_NAME iheartradio ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME The Fray ] [SL:MUSIC_PROVIDER_NAME iheartradio ] ]	music	en_XX
+Reset all of my timers back to one minute	[IN:RESTART_TIMER [SL:AMOUNT all ] [SL:METHOD_TIMER timers ] [SL:DATE_TIME to one minute ] ]	[IN:RESTART_TIMER [SL:AMOUNT all ] [SL:METHOD_TIMER timers ] [SL:DATE_TIME to one minute ] ]	timer	en_XX
+What are the countries biggest headlines?	[IN:GET_STORIES_NEWS [SL:NEWS_CATEGORY countries ] [SL:NEWS_TYPE headlines ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_CATEGORY countries ] [SL:NEWS_TYPE headlines ] ]	news	en_XX
+What's today's news update?	[IN:GET_STORIES_NEWS [SL:DATE_TIME today ] [SL:NEWS_TYPE news ] ]	[IN:GET_STORIES_NEWS [SL:DATE_TIME today ] [SL:NEWS_TYPE news ] ]	news	en_XX
+please tell me the news	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news ] ]	news	en_XX
+Please start playing Pandora app now	[IN:PLAY_MUSIC [SL:MUSIC_PROVIDER_NAME Pandora ] ]	[IN:PLAY_MUSIC [SL:MUSIC_PROVIDER_NAME Pandora ] ]	music	en_XX
+Play blues music.	[IN:PLAY_MUSIC [SL:MUSIC_GENRE blues ] [SL:MUSIC_TYPE music ] ]	[IN:PLAY_MUSIC [SL:MUSIC_GENRE blues ] [SL:MUSIC_TYPE music ] ]	music	en_XX
+set walking timer for 45 minutes	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME for 45 minutes ] ]	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME for 45 minutes ] ]	timer	en_XX
+Who does Lester Holt anchor for	[IN:QUESTION_NEWS [SL:NEWS_TOPIC Lester Holt anchor ] ]	[IN:QUESTION_NEWS [SL:NEWS_TOPIC Lester Holt anchor ] ]	news	en_XX
+give me local news headlines	[IN:GET_STORIES_NEWS [SL:NEWS_CATEGORY local ] [SL:NEWS_TYPE news headlines ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_CATEGORY local ] [SL:NEWS_TYPE news headlines ] ]	news	en_XX
+Reset the timer please	[IN:RESTART_TIMER [SL:METHOD_TIMER timer ] ]	[IN:RESTART_TIMER [SL:METHOD_TIMER timer ] ]	timer	en_XX
+How much longer do I have for this workout	[IN:GET_TIMER ]	[IN:GET_TIMER ]	timer	en_XX
+put on the Kendrick Lamar playlist with Spotify	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Kendrick Lamar ] [SL:MUSIC_TYPE playlist ] [SL:MUSIC_PROVIDER_NAME Spotify ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Kendrick Lamar ] [SL:MUSIC_TYPE playlist ] [SL:MUSIC_PROVIDER_NAME Spotify ] ]	music	en_XX
+Change the timer to 60 minutes	[IN:UPDATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME to 60 minutes ] ]	[IN:UPDATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME to 60 minutes ] ]	timer	en_XX
+Pause the timer and resume in 5 minutes	[IN:PAUSE_TIMER [SL:METHOD_TIMER timer ] ]	[IN:PAUSE_TIMER [SL:METHOD_TIMER timer ] ]	timer	en_XX
+What is the name of the song currently playing?	[IN:GET_TRACK_INFO_MUSIC [SL:MUSIC_TYPE song ] ]	[IN:GET_TRACK_INFO_MUSIC [SL:MUSIC_TYPE song ] ]	music	en_XX
+iheartradio as my default music provider	[IN:SET_DEFAULT_PROVIDER_MUSIC [SL:MUSIC_PROVIDER_NAME iheartradio ] ]	[IN:SET_DEFAULT_PROVIDER_MUSIC [SL:MUSIC_PROVIDER_NAME iheartradio ] ]	music	en_XX
+developing news tonight	[IN:GET_STORIES_NEWS [SL:NEWS_CATEGORY developing ] [SL:NEWS_TYPE news ] [SL:DATE_TIME tonight ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_CATEGORY developing ] [SL:NEWS_TYPE news ] [SL:DATE_TIME tonight ] ]	news	en_XX
+What are the headlines on Bloomberg	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE headlines ] [SL:NEWS_SOURCE Bloomberg ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE headlines ] [SL:NEWS_SOURCE Bloomberg ] ]	news	en_XX
+whats the time left on my timer	[IN:GET_TIMER [SL:METHOD_TIMER timer ] ]	[IN:GET_TIMER [SL:METHOD_TIMER timer ] ]	timer	en_XX
+Who won the last presidential election in the US	[IN:QUESTION_NEWS [SL:NEWS_TOPIC won ] [SL:DATE_TIME the last ] [SL:NEWS_CATEGORY presidential election ] [SL:NEWS_TOPIC US ] ]	[IN:QUESTION_NEWS [SL:NEWS_TOPIC won ] [SL:DATE_TIME the last ] [SL:NEWS_CATEGORY presidential election ] [SL:NEWS_TOPIC US ] ]	news	en_XX
+Play Run The Jewels	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Run The Jewels ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Run The Jewels ] ]	music	en_XX
+How are things in Guam	[IN:QUESTION_NEWS [SL:NEWS_TOPIC Guam ] ]	[IN:QUESTION_NEWS [SL:NEWS_TOPIC Guam ] ]	news	en_XX
+turn on 100.3 on iheartradio	[IN:PLAY_MUSIC [SL:MUSIC_RADIO_ID 100.3 ] [SL:MUSIC_PROVIDER_NAME iheartradio ] ]	[IN:PLAY_MUSIC [SL:MUSIC_RADIO_ID 100.3 ] [SL:MUSIC_PROVIDER_NAME iheartradio ] ]	music	en_XX
+whats todays farm report	[IN:GET_STORIES_NEWS [SL:DATE_TIME todays ] [SL:NEWS_TOPIC farm ] [SL:NEWS_TYPE report ] ]	[IN:GET_STORIES_NEWS [SL:DATE_TIME todays ] [SL:NEWS_TOPIC farm ] [SL:NEWS_TYPE report ] ]	news	en_XX
+Play Jhene Aiko.	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Jhene Aiko ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Jhene Aiko ] ]	music	en_XX
+Please restart my timer	[IN:RESTART_TIMER [SL:METHOD_TIMER timer ] ]	[IN:RESTART_TIMER [SL:METHOD_TIMER timer ] ]	timer	en_XX
+Tell me what are the top news stories today for Dallas, Texas	[IN:GET_STORIES_NEWS [SL:NEWS_REFERENCE top ] [SL:NEWS_TYPE news stories ] [SL:DATE_TIME today ] [SL:NEWS_TOPIC Dallas , Texas ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_REFERENCE top ] [SL:NEWS_TYPE news stories ] [SL:DATE_TIME today ] [SL:NEWS_TOPIC Dallas , Texas ] ]	news	en_XX
+Houston news headlines.	[IN:GET_STORIES_NEWS [SL:NEWS_TOPIC Houston ] [SL:NEWS_TYPE news headlines ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TOPIC Houston ] [SL:NEWS_TYPE news headlines ] ]	news	en_XX
+News on Politics	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE News ] [SL:NEWS_CATEGORY Politics ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE News ] [SL:NEWS_CATEGORY Politics ] ]	news	en_XX
+play the band The 1975	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME The 1975 ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME The 1975 ] ]	music	en_XX
+Turn on timer.	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] ]	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] ]	timer	en_XX
+Play some Migos please.	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Migos ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Migos ] ]	music	en_XX
+play the top 10 songs on google play	[IN:PLAY_MUSIC [SL:MUSIC_PLAYLIST_TITLE top 10 ] [SL:MUSIC_TYPE songs ] [SL:MUSIC_PROVIDER_NAME google play ] ]	[IN:PLAY_MUSIC [SL:MUSIC_PLAYLIST_TITLE top 10 ] [SL:MUSIC_TYPE songs ] [SL:MUSIC_PROVIDER_NAME google play ] ]	music	en_XX
+I want to listen to Enrique Iglesias' latest album	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Enrique Iglesias ] [SL:MUSIC_TYPE album ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Enrique Iglesias ] [SL:MUSIC_TYPE album ] ]	music	en_XX
+I don't like this song.	[IN:DISLIKE_MUSIC [SL:MUSIC_TYPE song ] ]	[IN:DISLIKE_MUSIC [SL:MUSIC_TYPE song ] ]	music	en_XX
+Replay that last song, please.	[IN:PREVIOUS_TRACK_MUSIC [SL:ORDINAL last ] [SL:MUSIC_TYPE song ] ]	[IN:PREVIOUS_TRACK_MUSIC [SL:ORDINAL last ] [SL:MUSIC_TYPE song ] ]	music	en_XX
+Any recent news about the Philippines	[IN:GET_STORIES_NEWS [SL:DATE_TIME recent ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC Philippines ] ]	[IN:GET_STORIES_NEWS [SL:DATE_TIME recent ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC Philippines ] ]	news	en_XX
+what happened in the news today	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news ] [SL:DATE_TIME today ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news ] [SL:DATE_TIME today ] ]	news	en_XX
+I want to listen to Karaoke music, please.	[IN:PLAY_MUSIC [SL:MUSIC_GENRE Karaoke ] [SL:MUSIC_TYPE music ] ]	[IN:PLAY_MUSIC [SL:MUSIC_GENRE Karaoke ] [SL:MUSIC_TYPE music ] ]	music	en_XX
+timer for 6 minutes	[IN:CREATE_TIMER [SL:DATE_TIME for 6 minutes ] ]	[IN:CREATE_TIMER [SL:DATE_TIME for 6 minutes ] ]	timer	en_XX
+What happened in yesterday's news?	[IN:GET_STORIES_NEWS [SL:DATE_TIME in yesterday ] [SL:NEWS_TYPE news ] ]	[IN:GET_STORIES_NEWS [SL:DATE_TIME in yesterday ] [SL:NEWS_TYPE news ] ]	news	en_XX
+Tonights local crime news	[IN:GET_STORIES_NEWS [SL:DATE_TIME Tonights ] [SL:NEWS_CATEGORY local crime ] [SL:NEWS_TYPE news ] ]	[IN:GET_STORIES_NEWS [SL:DATE_TIME Tonights ] [SL:NEWS_CATEGORY local crime ] [SL:NEWS_TYPE news ] ]	news	en_XX
+Can you make a new timer that will run for 97 seconds?	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME for 97 seconds ] ]	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME for 97 seconds ] ]	timer	en_XX
+Add a timer for 25 minutes	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME for 25 minutes ] ]	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME for 25 minutes ] ]	timer	en_XX
+What are the CNN headlines?	[IN:GET_STORIES_NEWS [SL:NEWS_SOURCE CNN ] [SL:NEWS_TYPE headlines ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_SOURCE CNN ] [SL:NEWS_TYPE headlines ] ]	news	en_XX
+Add 5 minutes to the current timer	[IN:ADD_TIME_TIMER [SL:DATE_TIME 5 minutes ] [SL:METHOD_TIMER timer ] ]	[IN:ADD_TIME_TIMER [SL:DATE_TIME 5 minutes ] [SL:METHOD_TIMER timer ] ]	timer	en_XX
+How long until the buzzer goes off	[IN:GET_TIMER [SL:METHOD_TIMER buzzer ] ]	[IN:GET_TIMER [SL:METHOD_TIMER buzzer ] ]	timer	en_XX
+play one of my Spotify playlists	[IN:PLAY_MUSIC [SL:MUSIC_PROVIDER_NAME Spotify ] [SL:MUSIC_TYPE playlists ] ]	[IN:PLAY_MUSIC [SL:MUSIC_PROVIDER_NAME Spotify ] [SL:MUSIC_TYPE playlists ] ]	music	en_XX
+add 5 minutes to time out timer	[IN:ADD_TIME_TIMER [SL:DATE_TIME 5 minutes ] [SL:METHOD_TIMER timer ] ]	[IN:ADD_TIME_TIMER [SL:DATE_TIME 5 minutes ] [SL:METHOD_TIMER timer ] ]	timer	en_XX
+Read the political headlines please	[IN:GET_STORIES_NEWS [SL:NEWS_CATEGORY political ] [SL:NEWS_TYPE headlines ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_CATEGORY political ] [SL:NEWS_TYPE headlines ] ]	news	en_XX
+Play a mix of classic and new rock	[IN:PLAY_MUSIC [SL:MUSIC_TYPE mix ] [SL:MUSIC_GENRE classic ] [SL:MUSIC_GENRE rock ] ]	[IN:PLAY_MUSIC [SL:MUSIC_TYPE mix ] [SL:MUSIC_GENRE classic ] [SL:MUSIC_GENRE rock ] ]	music	en_XX
+information on sports news	[IN:GET_STORIES_NEWS [SL:NEWS_CATEGORY sports ] [SL:NEWS_TYPE news ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_CATEGORY sports ] [SL:NEWS_TYPE news ] ]	news	en_XX
+Play some pop songs	[IN:PLAY_MUSIC [SL:MUSIC_GENRE pop ] [SL:MUSIC_TYPE songs ] ]	[IN:PLAY_MUSIC [SL:MUSIC_GENRE pop ] [SL:MUSIC_TYPE songs ] ]	music	en_XX
+play The King Of Soul on Pandora	[IN:PLAY_MUSIC [SL:MUSIC_ALBUM_TITLE The King Of Soul ] [SL:MUSIC_PROVIDER_NAME Pandora ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ALBUM_TITLE The King Of Soul ] [SL:MUSIC_PROVIDER_NAME Pandora ] ]	music	en_XX
+cancel my timer	[IN:DELETE_TIMER [SL:METHOD_TIMER timer ] ]	[IN:DELETE_TIMER [SL:METHOD_TIMER timer ] ]	timer	en_XX
+Play One Direction	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME One Direction ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME One Direction ] ]	music	en_XX
+What's the most popular news on CNN right now	[IN:GET_STORIES_NEWS [SL:NEWS_REFERENCE most popular ] [SL:NEWS_TYPE news ] [SL:NEWS_SOURCE CNN ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_REFERENCE most popular ] [SL:NEWS_TYPE news ] [SL:NEWS_SOURCE CNN ] ]	news	en_XX
+make timer longer by 1628 seconds	[IN:ADD_TIME_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME by 1628 seconds ] ]	[IN:ADD_TIME_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME by 1628 seconds ] ]	timer	en_XX
+What is today's top story	[IN:GET_STORIES_NEWS [SL:DATE_TIME today ] [SL:NEWS_REFERENCE top ] [SL:NEWS_TYPE story ] ]	[IN:GET_STORIES_NEWS [SL:DATE_TIME today ] [SL:NEWS_REFERENCE top ] [SL:NEWS_TYPE story ] ]	news	en_XX
+What is today's biggest international news story?	[IN:GET_STORIES_NEWS [SL:DATE_TIME today ] [SL:NEWS_REFERENCE biggest ] [SL:NEWS_CATEGORY international ] [SL:NEWS_TYPE news story ] ]	[IN:GET_STORIES_NEWS [SL:DATE_TIME today ] [SL:NEWS_REFERENCE biggest ] [SL:NEWS_CATEGORY international ] [SL:NEWS_TYPE news story ] ]	news	en_XX
+When does my time run out?	[IN:GET_TIMER [SL:METHOD_TIMER time ] ]	[IN:GET_TIMER [SL:METHOD_TIMER time ] ]	timer	en_XX
+Tell me the most recent TMZ headlines.	[IN:GET_STORIES_NEWS [SL:DATE_TIME the most recent ] [SL:NEWS_SOURCE TMZ ] [SL:NEWS_TYPE headlines ] ]	[IN:GET_STORIES_NEWS [SL:DATE_TIME the most recent ] [SL:NEWS_SOURCE TMZ ] [SL:NEWS_TYPE headlines ] ]	news	en_XX
+what are top news in technology today?	[IN:GET_STORIES_NEWS [SL:NEWS_REFERENCE top ] [SL:NEWS_TYPE news ] [SL:NEWS_CATEGORY technology ] [SL:DATE_TIME today ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_REFERENCE top ] [SL:NEWS_TYPE news ] [SL:NEWS_CATEGORY technology ] [SL:DATE_TIME today ] ]	news	en_XX
+start timer for 10 minutes	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME for 10 minutes ] ]	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME for 10 minutes ] ]	timer	en_XX
+what is the latest new york post headlines	[IN:GET_STORIES_NEWS [SL:DATE_TIME latest ] [SL:NEWS_SOURCE new york post ] [SL:NEWS_TYPE headlines ] ]	[IN:GET_STORIES_NEWS [SL:DATE_TIME latest ] [SL:NEWS_SOURCE new york post ] [SL:NEWS_TYPE headlines ] ]	news	en_XX
+What's today's headlines?	[IN:GET_STORIES_NEWS [SL:DATE_TIME today ] [SL:NEWS_TYPE headlines ] ]	[IN:GET_STORIES_NEWS [SL:DATE_TIME today ] [SL:NEWS_TYPE headlines ] ]	news	en_XX
+give me news update from DC	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news update ] [SL:NEWS_TOPIC DC ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news update ] [SL:NEWS_TOPIC DC ] ]	news	en_XX
+create timer for new show	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:TIMER_NAME new show ] ]	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:TIMER_NAME new show ] ]	timer	en_XX
+what is business news from germany	[IN:GET_STORIES_NEWS [SL:NEWS_CATEGORY business ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC germany ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_CATEGORY business ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC germany ] ]	news	en_XX
+What does our State Department say about if it's safe to travel in Spain	[IN:QUESTION_NEWS [SL:NEWS_TOPIC it 's safe to travel in Spain ] ]	[IN:QUESTION_NEWS [SL:NEWS_TOPIC it 's safe to travel in Spain ] ]	news	en_XX
+Whats new in Music news?	[IN:GET_STORIES_NEWS [SL:NEWS_CATEGORY Music ] [SL:NEWS_TYPE news ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_CATEGORY Music ] [SL:NEWS_TYPE news ] ]	news	en_XX
+play that song 2 more times	[IN:REPLAY_MUSIC [SL:MUSIC_TYPE song ] ]	[IN:REPLAY_MUSIC [SL:MUSIC_TYPE song ] ]	music	en_XX
+add 9 minutes more to my Floss timer	[IN:ADD_TIME_TIMER [SL:DATE_TIME 9 minutes ] [SL:TIMER_NAME Floss ] [SL:METHOD_TIMER timer ] ]	[IN:ADD_TIME_TIMER [SL:DATE_TIME 9 minutes ] [SL:TIMER_NAME Floss ] [SL:METHOD_TIMER timer ] ]	timer	en_XX
+Give me news update for Florida	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC Florida ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC Florida ] ]	news	en_XX
+Play 'Cherry' by Lana Del Rey?	[IN:PLAY_MUSIC [SL:MUSIC_TRACK_TITLE Cherry ] [SL:MUSIC_ARTIST_NAME Lana Del Rey ] ]	[IN:PLAY_MUSIC [SL:MUSIC_TRACK_TITLE Cherry ] [SL:MUSIC_ARTIST_NAME Lana Del Rey ] ]	music	en_XX
+play Greatest Hits: My Prerogative by Lil Uzi Vert	[IN:PLAY_MUSIC [SL:MUSIC_TRACK_TITLE Greatest Hits : My Prerogative ] [SL:MUSIC_ARTIST_NAME Lil Uzi Vert ] ]	[IN:PLAY_MUSIC [SL:MUSIC_TRACK_TITLE Greatest Hits : My Prerogative ] [SL:MUSIC_ARTIST_NAME Lil Uzi Vert ] ]	music	en_XX
+please make this timer longer by three hours	[IN:ADD_TIME_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME by three hours ] ]	[IN:ADD_TIME_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME by three hours ] ]	timer	en_XX
+Can I have the sports headlines now?	[IN:GET_STORIES_NEWS [SL:NEWS_CATEGORY sports ] [SL:NEWS_TYPE headlines ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_CATEGORY sports ] [SL:NEWS_TYPE headlines ] ]	news	en_XX
+Get me a news update	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news ] ]	news	en_XX
+Play dance music	[IN:PLAY_MUSIC [SL:MUSIC_GENRE dance ] [SL:MUSIC_TYPE music ] ]	[IN:PLAY_MUSIC [SL:MUSIC_GENRE dance ] [SL:MUSIC_TYPE music ] ]	music	en_XX
+let me see the timer	[IN:GET_TIMER [SL:METHOD_TIMER timer ] ]	[IN:GET_TIMER [SL:METHOD_TIMER timer ] ]	timer	en_XX
+Can you set the timer to go off in 24 hours	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME in 24 hours ] ]	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME in 24 hours ] ]	timer	en_XX
+Play me a mix of David Bowie	[IN:PLAY_MUSIC [SL:MUSIC_TYPE mix ] [SL:MUSIC_ARTIST_NAME David Bowie ] ]	[IN:PLAY_MUSIC [SL:MUSIC_TYPE mix ] [SL:MUSIC_ARTIST_NAME David Bowie ] ]	music	en_XX
+Please read the details about the murder trial today	[IN:QUESTION_NEWS [SL:NEWS_TYPE details ] [SL:NEWS_TOPIC murder trial ] [SL:DATE_TIME today ] ]	[IN:QUESTION_NEWS [SL:NEWS_TYPE details ] [SL:NEWS_TOPIC murder trial ] [SL:DATE_TIME today ] ]	news	en_XX
+What's trending in the news?	[IN:GET_STORIES_NEWS [SL:NEWS_REFERENCE trending ] [SL:NEWS_TYPE news ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_REFERENCE trending ] [SL:NEWS_TYPE news ] ]	news	en_XX
+Read me my local news.	[IN:GET_STORIES_NEWS [SL:NEWS_CATEGORY local ] [SL:NEWS_TYPE news ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_CATEGORY local ] [SL:NEWS_TYPE news ] ]	news	en_XX
+Open Spotify and play my country song list	[IN:PLAY_MUSIC [SL:MUSIC_PROVIDER_NAME Spotify ] [SL:MUSIC_PLAYLIST_TITLE country song ] [SL:MUSIC_TYPE list ] ]	[IN:PLAY_MUSIC [SL:MUSIC_PROVIDER_NAME Spotify ] [SL:MUSIC_PLAYLIST_TITLE country song ] [SL:MUSIC_TYPE list ] ]	music	en_XX
+Can you skip the next two tracks	[IN:SKIP_TRACK_MUSIC [SL:ORDINAL next ] [SL:MUSIC_TYPE tracks ] ]	[IN:SKIP_TRACK_MUSIC [SL:ORDINAL next ] [SL:MUSIC_TYPE tracks ] ]	music	en_XX
+Skip song.	[IN:SKIP_TRACK_MUSIC [SL:MUSIC_TYPE song ] ]	[IN:SKIP_TRACK_MUSIC [SL:MUSIC_TYPE song ] ]	music	en_XX
+Play me a little Guns N Roses.	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Guns N Roses ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Guns N Roses ] ]	music	en_XX
+Play some Alternative Rap music.	[IN:PLAY_MUSIC [SL:MUSIC_GENRE Alternative Rap ] [SL:MUSIC_TYPE music ] ]	[IN:PLAY_MUSIC [SL:MUSIC_GENRE Alternative Rap ] [SL:MUSIC_TYPE music ] ]	music	en_XX
+What's the latest tech headlines	[IN:GET_STORIES_NEWS [SL:DATE_TIME latest ] [SL:NEWS_CATEGORY tech ] [SL:NEWS_TYPE headlines ] ]	[IN:GET_STORIES_NEWS [SL:DATE_TIME latest ] [SL:NEWS_CATEGORY tech ] [SL:NEWS_TYPE headlines ] ]	news	en_XX
+read me news headlines about syria	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news headlines ] [SL:NEWS_TOPIC syria ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news headlines ] [SL:NEWS_TOPIC syria ] ]	news	en_XX
+change timer to 12 minutes	[IN:UPDATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME to 12 minutes ] ]	[IN:UPDATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME to 12 minutes ] ]	timer	en_XX
+Create a list of Kendrick Lamar's favorite songs	[IN:CREATE_PLAYLIST_MUSIC [SL:MUSIC_ARTIST_NAME Kendrick Lamar ] [SL:MUSIC_TYPE songs ] ]	[IN:CREATE_PLAYLIST_MUSIC [SL:MUSIC_ARTIST_NAME Kendrick Lamar ] [SL:MUSIC_TYPE songs ] ]	music	en_XX
+play me song	[IN:PLAY_MUSIC [SL:MUSIC_TYPE song ] ]	[IN:PLAY_MUSIC [SL:MUSIC_TYPE song ] ]	music	en_XX
+Is there any news on the construction work	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC construction work ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC construction work ] ]	news	en_XX
+What is the top headlines for today	[IN:GET_STORIES_NEWS [SL:NEWS_REFERENCE top ] [SL:NEWS_TYPE headlines ] [SL:DATE_TIME for today ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_REFERENCE top ] [SL:NEWS_TYPE headlines ] [SL:DATE_TIME for today ] ]	news	en_XX
+Provide me the news about the Oakland fire last year.	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC Oakland fire ] [SL:DATE_TIME last year ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC Oakland fire ] [SL:DATE_TIME last year ] ]	news	en_XX
+play the boston globe live news	[IN:GET_STORIES_NEWS [SL:NEWS_SOURCE the boston globe ] [SL:NEWS_TYPE live ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_SOURCE the boston globe ] [SL:NEWS_TYPE live ] ]	news	en_XX
+Find songs by Richard Cheese only.	[IN:PLAY_MUSIC [SL:MUSIC_TYPE songs ] [SL:MUSIC_ARTIST_NAME Richard Cheese ] ]	[IN:PLAY_MUSIC [SL:MUSIC_TYPE songs ] [SL:MUSIC_ARTIST_NAME Richard Cheese ] ]	music	en_XX
+any new news about trump today	[IN:GET_STORIES_NEWS [SL:NEWS_REFERENCE new ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC trump ] [SL:DATE_TIME today ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_REFERENCE new ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC trump ] [SL:DATE_TIME today ] ]	news	en_XX
+give me Action news local highlights today	[IN:GET_STORIES_NEWS [SL:NEWS_SOURCE Action news ] [SL:NEWS_CATEGORY local ] [SL:NEWS_TYPE highlights ] [SL:DATE_TIME today ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_SOURCE Action news ] [SL:NEWS_CATEGORY local ] [SL:NEWS_TYPE highlights ] [SL:DATE_TIME today ] ]	news	en_XX
+I want to hear Hip Hop music	[IN:PLAY_MUSIC [SL:MUSIC_GENRE Hip Hop ] [SL:MUSIC_TYPE music ] ]	[IN:PLAY_MUSIC [SL:MUSIC_GENRE Hip Hop ] [SL:MUSIC_TYPE music ] ]	music	en_XX
+make one timer for eight seconds and another for 12 hours and another for 8 minutes	[IN:CREATE_TIMER [SL:AMOUNT one ] [SL:METHOD_TIMER timer ] [SL:DATE_TIME for eight seconds ] [SL:DATE_TIME for 12 hours ] [SL:DATE_TIME for 8 minutes ] ]	[IN:CREATE_TIMER [SL:AMOUNT one ] [SL:METHOD_TIMER timer ] [SL:DATE_TIME for eight seconds ] [SL:DATE_TIME for 12 hours ] [SL:DATE_TIME for 8 minutes ] ]	timer	en_XX
+fire news	[IN:GET_STORIES_NEWS [SL:NEWS_CATEGORY fire ] [SL:NEWS_TYPE news ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_CATEGORY fire ] [SL:NEWS_TYPE news ] ]	news	en_XX
+When will the timer go off next	[IN:GET_TIMER [SL:METHOD_TIMER timer ] [SL:ORDINAL next ] ]	[IN:GET_TIMER [SL:METHOD_TIMER timer ] [SL:ORDINAL next ] ]	timer	en_XX
+What is the latest update on NASA's expeditions?	[IN:GET_STORIES_NEWS [SL:DATE_TIME latest ] [SL:NEWS_TYPE update ] [SL:NEWS_TOPIC NASA 's expeditions ] ]	[IN:GET_STORIES_NEWS [SL:DATE_TIME latest ] [SL:NEWS_TYPE update ] [SL:NEWS_TOPIC NASA 's expeditions ] ]	news	en_XX
+Can you play metal radio from Spotify for me	[IN:PLAY_MUSIC [SL:MUSIC_GENRE metal ] [SL:MUSIC_TYPE radio ] [SL:MUSIC_PROVIDER_NAME Spotify ] ]	[IN:PLAY_MUSIC [SL:MUSIC_GENRE metal ] [SL:MUSIC_TYPE radio ] [SL:MUSIC_PROVIDER_NAME Spotify ] ]	music	en_XX
+How much more time is there on the timer?	[IN:GET_TIMER [SL:METHOD_TIMER time ] [SL:METHOD_TIMER timer ] ]	[IN:GET_TIMER [SL:METHOD_TIMER time ] [SL:METHOD_TIMER timer ] ]	timer	en_XX
+Anna Farris and Chris Pratt divorce details	[IN:GET_STORIES_NEWS [SL:NEWS_TOPIC Anna Farris and Chris Pratt divorce ] [SL:NEWS_TYPE details ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TOPIC Anna Farris and Chris Pratt divorce ] [SL:NEWS_TYPE details ] ]	news	en_XX
+Stop song	[IN:STOP_MUSIC [SL:MUSIC_TYPE song ] ]	[IN:STOP_MUSIC [SL:MUSIC_TYPE song ] ]	music	en_XX
+i want the current headlines across US	[IN:GET_STORIES_NEWS [SL:DATE_TIME the current ] [SL:NEWS_TYPE headlines ] [SL:NEWS_TOPIC US ] ]	[IN:GET_STORIES_NEWS [SL:DATE_TIME the current ] [SL:NEWS_TYPE headlines ] [SL:NEWS_TOPIC US ] ]	news	en_XX
+Any news from Wired	[IN:GET_STORIES_NEWS [SL:NEWS_SOURCE Wired ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_SOURCE Wired ] ]	news	en_XX
+play Rolled Gold + on google play	[IN:PLAY_MUSIC [SL:MUSIC_ALBUM_TITLE Rolled Gold + ] [SL:MUSIC_PROVIDER_NAME google play ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ALBUM_TITLE Rolled Gold + ] [SL:MUSIC_PROVIDER_NAME google play ] ]	music	en_XX
+Play my Spotify mix	[IN:PLAY_MUSIC [SL:MUSIC_PROVIDER_NAME Spotify ] [SL:MUSIC_TYPE mix ] ]	[IN:PLAY_MUSIC [SL:MUSIC_PROVIDER_NAME Spotify ] [SL:MUSIC_TYPE mix ] ]	music	en_XX
+Play Noah Cyrus' new song	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Noah Cyrus ] [SL:MUSIC_TYPE song ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Noah Cyrus ] [SL:MUSIC_TYPE song ] ]	music	en_XX
+What was the last measure that Donald Trump signed?	[IN:QUESTION_NEWS [SL:NEWS_TOPIC Donald Trump ] ]	[IN:QUESTION_NEWS [SL:NEWS_TOPIC Donald Trump ] ]	news	en_XX
+Read me the headline from the sports section of The Daily News.	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE headline ] [SL:NEWS_CATEGORY sports ] [SL:NEWS_SOURCE The Daily News ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE headline ] [SL:NEWS_CATEGORY sports ] [SL:NEWS_SOURCE The Daily News ] ]	news	en_XX
+Set the timer for thirty minutes in one hour.	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME for thirty minutes in one hour ] ]	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME for thirty minutes in one hour ] ]	timer	en_XX
+HAS NORTH KOREA THREATENED THE U.S.A	[IN:QUESTION_NEWS [SL:NEWS_TOPIC NORTH KOREA THREATENED THE U.S.A ] ]	[IN:QUESTION_NEWS [SL:NEWS_TOPIC NORTH KOREA THREATENED THE U.S.A ] ]	news	en_XX
+please play Wizkid	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Wizkid ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Wizkid ] ]	music	en_XX
+Is there new news about Justin Bieber and Selena Gomez getting back together?	[IN:GET_STORIES_NEWS [SL:NEWS_REFERENCE new ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC Justin Bieber and Selena Gomez getting back together ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_REFERENCE new ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC Justin Bieber and Selena Gomez getting back together ] ]	news	en_XX
+Please tell me the recent news on O.J. Simpson's parole.	[IN:GET_STORIES_NEWS [SL:DATE_TIME recent ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC O.J . Simpson 's parole ] ]	[IN:GET_STORIES_NEWS [SL:DATE_TIME recent ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC O.J . Simpson 's parole ] ]	news	en_XX
+What are today's entertainment headlines?	[IN:GET_STORIES_NEWS [SL:DATE_TIME today ] [SL:NEWS_CATEGORY entertainment ] [SL:NEWS_TYPE headlines ] ]	[IN:GET_STORIES_NEWS [SL:DATE_TIME today ] [SL:NEWS_CATEGORY entertainment ] [SL:NEWS_TYPE headlines ] ]	news	en_XX
+Add a new timer	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] ]	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] ]	timer	en_XX
+Add 3 minutes to the timer	[IN:ADD_TIME_TIMER [SL:DATE_TIME 3 minutes ] [SL:METHOD_TIMER timer ] ]	[IN:ADD_TIME_TIMER [SL:DATE_TIME 3 minutes ] [SL:METHOD_TIMER timer ] ]	timer	en_XX
+read me the headlines from last night	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE headlines ] [SL:DATE_TIME from last night ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE headlines ] [SL:DATE_TIME from last night ] ]	news	en_XX
+Start a new timer at 2:00.	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME at 2 : 00 ] ]	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME at 2 : 00 ] ]	timer	en_XX
+details on game of thrones	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE details ] [SL:NEWS_TOPIC game of thrones ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE details ] [SL:NEWS_TOPIC game of thrones ] ]	news	en_XX
+What are the top headlines in finance today	[IN:GET_STORIES_NEWS [SL:NEWS_CATEGORY top ] [SL:NEWS_TYPE headlines ] [SL:NEWS_CATEGORY finance ] [SL:DATE_TIME today ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_CATEGORY top ] [SL:NEWS_TYPE headlines ] [SL:NEWS_CATEGORY finance ] [SL:DATE_TIME today ] ]	news	en_XX
+create playlist for genre	[IN:CREATE_PLAYLIST_MUSIC [SL:MUSIC_TYPE playlist ] ]	[IN:CREATE_PLAYLIST_MUSIC [SL:MUSIC_TYPE playlist ] ]	music	en_XX
+create a playlist called: All Out 70s	[IN:CREATE_PLAYLIST_MUSIC [SL:MUSIC_PLAYLIST_TITLE All Out 70s ] ]	[IN:CREATE_PLAYLIST_MUSIC [SL:MUSIC_PLAYLIST_TITLE All Out 70s ] ]	music	en_XX
+How much more time do I have on my timer?	[IN:GET_TIMER [SL:METHOD_TIMER timer ] ]	[IN:GET_TIMER [SL:METHOD_TIMER timer ] ]	timer	en_XX
+Play Stay with me by Sam Smith	[IN:PLAY_MUSIC [SL:MUSIC_TRACK_TITLE Stay with me ] [SL:MUSIC_ARTIST_NAME Sam Smith ] ]	[IN:PLAY_MUSIC [SL:MUSIC_TRACK_TITLE Stay with me ] [SL:MUSIC_ARTIST_NAME Sam Smith ] ]	music	en_XX
+add 12 minutes to lap timer	[IN:ADD_TIME_TIMER [SL:DATE_TIME 12 minutes ] [SL:METHOD_TIMER timer ] ]	[IN:ADD_TIME_TIMER [SL:DATE_TIME 12 minutes ] [SL:METHOD_TIMER timer ] ]	timer	en_XX
+open Pandora and play My Everything (Italian Edition) on shuffle	[IN:START_SHUFFLE_MUSIC [SL:MUSIC_PROVIDER_NAME Pandora ] [SL:MUSIC_ALBUM_TITLE My Everything ( Italian Edition ) ] ]	[IN:START_SHUFFLE_MUSIC [SL:MUSIC_PROVIDER_NAME Pandora ] [SL:MUSIC_ALBUM_TITLE My Everything ( Italian Edition ) ] ]	music	en_XX
+I want to listen to Journey's last album.	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Journey ] [SL:MUSIC_TYPE album ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Journey ] [SL:MUSIC_TYPE album ] ]	music	en_XX
+Can you read me news on politics	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news ] [SL:NEWS_CATEGORY politics ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news ] [SL:NEWS_CATEGORY politics ] ]	news	en_XX
+what's the latest news on North Korea?	[IN:GET_STORIES_NEWS [SL:DATE_TIME latest ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC North Korea ] ]	[IN:GET_STORIES_NEWS [SL:DATE_TIME latest ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC North Korea ] ]	news	en_XX
+Set my timer for my tabata workout.	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:TIMER_NAME tabata workout ] ]	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:TIMER_NAME tabata workout ] ]	timer	en_XX
+Play the Beatles oldest album.	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME the Beatles ] [SL:MUSIC_GENRE oldest ] [SL:MUSIC_TYPE album ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME the Beatles ] [SL:MUSIC_GENRE oldest ] [SL:MUSIC_TYPE album ] ]	music	en_XX
+Set timer to 30 minutes.	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME to 30 minutes ] ]	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME to 30 minutes ] ]	timer	en_XX
+don't play this song again	[IN:REMOVE_FROM_PLAYLIST_MUSIC [SL:MUSIC_TYPE song ] ]	[IN:REMOVE_FROM_PLAYLIST_MUSIC [SL:MUSIC_TYPE song ] ]	music	en_XX
+Let's have that timer go off at 10 pm	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME at 10 pm ] ]	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME at 10 pm ] ]	timer	en_XX
+start the 5 minute timer now	[IN:CREATE_TIMER [SL:DATE_TIME the 5 minute ] [SL:METHOD_TIMER timer ] ]	[IN:CREATE_TIMER [SL:DATE_TIME the 5 minute ] [SL:METHOD_TIMER timer ] ]	timer	en_XX
+please lengthen that timer by 40 seconds	[IN:ADD_TIME_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME by 40 seconds ] ]	[IN:ADD_TIME_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME by 40 seconds ] ]	timer	en_XX
+repeat timer	[IN:RESUME_TIMER [SL:METHOD_TIMER timer ] ]	[IN:RESUME_TIMER [SL:METHOD_TIMER timer ] ]	timer	en_XX
+Take 5 minutes off current timer	[IN:SUBTRACT_TIME_TIMER [SL:DATE_TIME 5 minutes ] [SL:METHOD_TIMER timer ] ]	[IN:SUBTRACT_TIME_TIMER [SL:DATE_TIME 5 minutes ] [SL:METHOD_TIMER timer ] ]	timer	en_XX
+play the album Keeps Gettin' Better: A Decade of Hits on iheartradio	[IN:PLAY_MUSIC [SL:MUSIC_TYPE album ] [SL:MUSIC_ALBUM_TITLE Keeps Gettin ' Better : A Decade of Hits ] [SL:MUSIC_PROVIDER_NAME iheartradio ] ]	[IN:PLAY_MUSIC [SL:MUSIC_TYPE album ] [SL:MUSIC_ALBUM_TITLE Keeps Gettin ' Better : A Decade of Hits ] [SL:MUSIC_PROVIDER_NAME iheartradio ] ]	music	en_XX
+create French press timer	[IN:CREATE_TIMER [SL:TIMER_NAME French press ] [SL:METHOD_TIMER timer ] ]	[IN:CREATE_TIMER [SL:TIMER_NAME French press ] [SL:METHOD_TIMER timer ] ]	timer	en_XX
+Set the timer for 20 seconds.	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME for 20 seconds ] ]	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME for 20 seconds ] ]	timer	en_XX
+can i listen to the new genesis album	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME genesis ] [SL:MUSIC_TYPE album ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME genesis ] [SL:MUSIC_TYPE album ] ]	music	en_XX
+open my kesha station on pandora	[IN:PLAY_MUSIC [SL:MUSIC_PLAYLIST_TITLE kesha ] [SL:MUSIC_TYPE station ] [SL:MUSIC_PROVIDER_NAME pandora ] ]	[IN:PLAY_MUSIC [SL:MUSIC_PLAYLIST_TITLE kesha ] [SL:MUSIC_TYPE station ] [SL:MUSIC_PROVIDER_NAME pandora ] ]	music	en_XX
+Play some meditation music	[IN:PLAY_MUSIC [SL:MUSIC_GENRE meditation ] [SL:MUSIC_TYPE music ] ]	[IN:PLAY_MUSIC [SL:MUSIC_GENRE meditation ] [SL:MUSIC_TYPE music ] ]	music	en_XX
+pause current timer	[IN:PAUSE_TIMER [SL:METHOD_TIMER timer ] ]	[IN:PAUSE_TIMER [SL:METHOD_TIMER timer ] ]	timer	en_XX
+proceed with the timer	[IN:RESUME_TIMER [SL:METHOD_TIMER timer ] ]	[IN:RESUME_TIMER [SL:METHOD_TIMER timer ] ]	timer	en_XX
+Set	[IN:CREATE_TIMER ]	[IN:CREATE_TIMER ]	timer	en_XX
+play 6LACK on iheartradio	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME 6LACK ] [SL:MUSIC_PROVIDER_NAME iheartradio ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME 6LACK ] [SL:MUSIC_PROVIDER_NAME iheartradio ] ]	music	en_XX
+what's the national news	[IN:GET_STORIES_NEWS [SL:NEWS_CATEGORY national ] [SL:NEWS_TYPE news ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_CATEGORY national ] [SL:NEWS_TYPE news ] ]	news	en_XX
+Can you play Break My Heart by Hey Violet on Pandora?	[IN:PLAY_MUSIC [SL:MUSIC_TRACK_TITLE Break My Heart ] [SL:MUSIC_ARTIST_NAME Hey Violet ] [SL:MUSIC_PROVIDER_NAME Pandora ] ]	[IN:PLAY_MUSIC [SL:MUSIC_TRACK_TITLE Break My Heart ] [SL:MUSIC_ARTIST_NAME Hey Violet ] [SL:MUSIC_PROVIDER_NAME Pandora ] ]	music	en_XX
+What is latest news about Korea	[IN:GET_STORIES_NEWS [SL:DATE_TIME latest ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC Korea ] ]	[IN:GET_STORIES_NEWS [SL:DATE_TIME latest ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC Korea ] ]	news	en_XX
+how much time left on my timer please	[IN:GET_TIMER [SL:METHOD_TIMER timer ] ]	[IN:GET_TIMER [SL:METHOD_TIMER timer ] ]	timer	en_XX
+What are the 5 most recent headlines	[IN:GET_STORIES_NEWS [SL:NEWS_CATEGORY 5 most ] [SL:DATE_TIME recent ] [SL:NEWS_TYPE headlines ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_CATEGORY 5 most ] [SL:DATE_TIME recent ] [SL:NEWS_TYPE headlines ] ]	news	en_XX
+Current timer, add 10 minutes	[IN:ADD_TIME_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME 10 minutes ] ]	[IN:ADD_TIME_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME 10 minutes ] ]	timer	en_XX
+go to iheartradio and play KRRL	[IN:PLAY_MUSIC [SL:MUSIC_PROVIDER_NAME iheartradio ] [SL:MUSIC_RADIO_ID KRRL ] ]	[IN:PLAY_MUSIC [SL:MUSIC_PROVIDER_NAME iheartradio ] [SL:MUSIC_RADIO_ID KRRL ] ]	music	en_XX
+what's the latest news about North Korea?	[IN:GET_STORIES_NEWS [SL:DATE_TIME latest ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC North Korea ] ]	[IN:GET_STORIES_NEWS [SL:DATE_TIME latest ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC North Korea ] ]	news	en_XX
+what is the hottest piece of news today?	[IN:GET_STORIES_NEWS [SL:NEWS_REFERENCE hottest ] [SL:NEWS_TYPE news ] [SL:DATE_TIME today ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_REFERENCE hottest ] [SL:NEWS_TYPE news ] [SL:DATE_TIME today ] ]	news	en_XX
+is there any news on Mike Pence tonight	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC Mike Pence ] [SL:DATE_TIME tonight ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC Mike Pence ] [SL:DATE_TIME tonight ] ]	news	en_XX
+I would like to listen to some country	[IN:PLAY_MUSIC [SL:MUSIC_GENRE country ] ]	[IN:PLAY_MUSIC [SL:MUSIC_GENRE country ] ]	music	en_XX
+Play any Linkin Park song.	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Linkin Park ] [SL:MUSIC_TYPE song ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Linkin Park ] [SL:MUSIC_TYPE song ] ]	music	en_XX
+what are the current headlines on Fox ?	[IN:GET_STORIES_NEWS [SL:DATE_TIME the current ] [SL:NEWS_TYPE headlines ] [SL:NEWS_SOURCE Fox ] ]	[IN:GET_STORIES_NEWS [SL:DATE_TIME the current ] [SL:NEWS_TYPE headlines ] [SL:NEWS_SOURCE Fox ] ]	news	en_XX
+i want to pause the timer	[IN:PAUSE_TIMER [SL:METHOD_TIMER timer ] ]	[IN:PAUSE_TIMER [SL:METHOD_TIMER timer ] ]	timer	en_XX
+what is the timer now?	[IN:GET_TIMER [SL:METHOD_TIMER timer ] ]	[IN:GET_TIMER [SL:METHOD_TIMER timer ] ]	timer	en_XX
+Please pause timer	[IN:PAUSE_TIMER [SL:METHOD_TIMER timer ] ]	[IN:PAUSE_TIMER [SL:METHOD_TIMER timer ] ]	timer	en_XX
+Show me recent CBS news update	[IN:GET_STORIES_NEWS [SL:DATE_TIME recent ] [SL:NEWS_SOURCE CBS news ] [SL:NEWS_TYPE update ] ]	[IN:GET_STORIES_NEWS [SL:DATE_TIME recent ] [SL:NEWS_SOURCE CBS news ] [SL:NEWS_TYPE update ] ]	news	en_XX
+Resume the timer in 3 minutes	[IN:RESUME_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME in 3 minutes ] ]	[IN:RESUME_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME in 3 minutes ] ]	timer	en_XX
+What did Congress vote on yesterday	[IN:QUESTION_NEWS [SL:NEWS_TOPIC What did Congress vote ] [SL:DATE_TIME on yesterday ] ]	[IN:QUESTION_NEWS [SL:NEWS_TOPIC What did Congress vote ] [SL:DATE_TIME on yesterday ] ]	news	en_XX
+play track 3 on look what the cat dragged in by poison	[IN:PLAY_MUSIC [SL:MUSIC_TYPE track ] [SL:MUSIC_TRACK_TITLE look what the cat dragged in ] [SL:MUSIC_ARTIST_NAME poison ] ]	[IN:PLAY_MUSIC [SL:MUSIC_TYPE track ] [SL:MUSIC_TRACK_TITLE look what the cat dragged in ] [SL:MUSIC_ARTIST_NAME poison ] ]	music	en_XX
+Read me some of the headlines from CNN.	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE headlines ] [SL:NEWS_SOURCE CNN ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE headlines ] [SL:NEWS_SOURCE CNN ] ]	news	en_XX
+Set rest period for 30 seconds on my timer	[IN:CREATE_TIMER [SL:DATE_TIME for 30 seconds ] [SL:METHOD_TIMER timer ] ]	[IN:CREATE_TIMER [SL:DATE_TIME for 30 seconds ] [SL:METHOD_TIMER timer ] ]	timer	en_XX
+which timers are going	[IN:GET_TIMER [SL:METHOD_TIMER timers ] ]	[IN:GET_TIMER [SL:METHOD_TIMER timers ] ]	timer	en_XX
+Please time how long this song will last	[IN:CREATE_TIMER [SL:METHOD_TIMER time ] [SL:TIMER_NAME how long this song will last ] ]	[IN:CREATE_TIMER [SL:METHOD_TIMER time ] [SL:TIMER_NAME how long this song will last ] ]	timer	en_XX
+make an Oven timer for 24 minutes	[IN:CREATE_TIMER [SL:TIMER_NAME Oven ] [SL:METHOD_TIMER timer ] [SL:DATE_TIME for 24 minutes ] ]	[IN:CREATE_TIMER [SL:TIMER_NAME Oven ] [SL:METHOD_TIMER timer ] [SL:DATE_TIME for 24 minutes ] ]	timer	en_XX
+Are we at work with North Korea	[IN:QUESTION_NEWS [SL:NEWS_TOPIC work with North Korea ] ]	[IN:QUESTION_NEWS [SL:NEWS_TOPIC work with North Korea ] ]	news	en_XX
+remove 12 hours from You aren't done running till this goes off timer	[IN:SUBTRACT_TIME_TIMER [SL:DATE_TIME 12 hours ] [SL:TIMER_NAME You aren't done running till this goes off ] [SL:METHOD_TIMER timer ] ]	[IN:SUBTRACT_TIME_TIMER [SL:DATE_TIME 12 hours ] [SL:TIMER_NAME You aren't done running till this goes off ] [SL:METHOD_TIMER timer ] ]	timer	en_XX
+Set a timer for soft boiled eggs	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:TIMER_NAME soft boiled eggs ] ]	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:TIMER_NAME soft boiled eggs ] ]	timer	en_XX
+play Thotiana on iHeartRadio	[IN:PLAY_MUSIC [SL:MUSIC_TRACK_TITLE Thotiana ] [SL:MUSIC_PROVIDER_NAME iHeartRadio ] ]	[IN:PLAY_MUSIC [SL:MUSIC_TRACK_TITLE Thotiana ] [SL:MUSIC_PROVIDER_NAME iHeartRadio ] ]	music	en_XX
+Time remaining?	[IN:GET_TIMER [SL:METHOD_TIMER Time ] ]	[IN:GET_TIMER [SL:METHOD_TIMER Time ] ]	timer	en_XX
+Repeat the last Luther Vandross song.	[IN:PREVIOUS_TRACK_MUSIC [SL:ORDINAL last ] [SL:MUSIC_ARTIST_NAME Luther Vandross ] [SL:MUSIC_TYPE song ] ]	[IN:PREVIOUS_TRACK_MUSIC [SL:ORDINAL last ] [SL:MUSIC_ARTIST_NAME Luther Vandross ] [SL:MUSIC_TYPE song ] ]	music	en_XX
+set timer 10 minutes from now	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME 10 minutes ] ]	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME 10 minutes ] ]	timer	en_XX
+Repeat the last song, please.	[IN:PREVIOUS_TRACK_MUSIC [SL:ORDINAL last ] [SL:MUSIC_TYPE song ] ]	[IN:PREVIOUS_TRACK_MUSIC [SL:ORDINAL last ] [SL:MUSIC_TYPE song ] ]	music	en_XX
+set a 30 second timer	[IN:CREATE_TIMER [SL:DATE_TIME 30 second ] [SL:METHOD_TIMER timer ] ]	[IN:CREATE_TIMER [SL:DATE_TIME 30 second ] [SL:METHOD_TIMER timer ] ]	timer	en_XX
+create one timer for 18 minutes and another for 15 minutes and another for 6 minutes	[IN:CREATE_TIMER [SL:AMOUNT one ] [SL:METHOD_TIMER timer ] [SL:DATE_TIME for 18 minutes ] [SL:DATE_TIME for 15 minutes ] [SL:DATE_TIME for 6 minutes ] ]	[IN:CREATE_TIMER [SL:AMOUNT one ] [SL:METHOD_TIMER timer ] [SL:DATE_TIME for 18 minutes ] [SL:DATE_TIME for 15 minutes ] [SL:DATE_TIME for 6 minutes ] ]	timer	en_XX
+add to the Spaghetti timer	[IN:ADD_TIME_TIMER [SL:TIMER_NAME Spaghetti ] [SL:METHOD_TIMER timer ] ]	[IN:ADD_TIME_TIMER [SL:TIMER_NAME Spaghetti ] [SL:METHOD_TIMER timer ] ]	timer	en_XX
+Play Frank Ocean.	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Frank Ocean ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Frank Ocean ] ]	music	en_XX
+Add the song waves by Kanye west to my playlist titled jams	[IN:ADD_TO_PLAYLIST_MUSIC [SL:MUSIC_TYPE song ] [SL:MUSIC_TRACK_TITLE waves ] [SL:MUSIC_ARTIST_NAME Kanye west ] [SL:MUSIC_TYPE playlist ] [SL:MUSIC_PLAYLIST_TITLE jams ] ]	[IN:ADD_TO_PLAYLIST_MUSIC [SL:MUSIC_TYPE song ] [SL:MUSIC_TRACK_TITLE waves ] [SL:MUSIC_ARTIST_NAME Kanye west ] [SL:MUSIC_TYPE playlist ] [SL:MUSIC_PLAYLIST_TITLE jams ] ]	music	en_XX
+What is Taylor Swift's most popular song	[IN:QUESTION_MUSIC [SL:MUSIC_ARTIST_NAME Taylor Swift ] [SL:MUSIC_TYPE song ] ]	[IN:QUESTION_MUSIC [SL:MUSIC_ARTIST_NAME Taylor Swift ] [SL:MUSIC_TYPE song ] ]	music	en_XX
+Play only anthems	[IN:PLAY_MUSIC [SL:MUSIC_GENRE anthems ] ]	[IN:PLAY_MUSIC [SL:MUSIC_GENRE anthems ] ]	music	en_XX
+Stop timer and restart	[IN:PAUSE_TIMER [SL:METHOD_TIMER timer ] ]	[IN:PAUSE_TIMER [SL:METHOD_TIMER timer ] ]	timer	en_XX
+What was BBC news top stories for this morning?	[IN:GET_STORIES_NEWS [SL:NEWS_SOURCE BBC news ] [SL:NEWS_REFERENCE top ] [SL:NEWS_TYPE stories ] [SL:DATE_TIME for this morning ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_SOURCE BBC news ] [SL:NEWS_REFERENCE top ] [SL:NEWS_TYPE stories ] [SL:DATE_TIME for this morning ] ]	news	en_XX
+Add ten minutes to my timer.	[IN:ADD_TIME_TIMER [SL:DATE_TIME ten minutes ] [SL:METHOD_TIMER timer ] ]	[IN:ADD_TIME_TIMER [SL:DATE_TIME ten minutes ] [SL:METHOD_TIMER timer ] ]	timer	en_XX
+Are there any celebrities in the news currently	[IN:GET_STORIES_NEWS [SL:NEWS_CATEGORY celebrities ] [SL:NEWS_TYPE news ] [SL:DATE_TIME currently ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_CATEGORY celebrities ] [SL:NEWS_TYPE news ] [SL:DATE_TIME currently ] ]	news	en_XX
+Please play some Lady Gaga.	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Lady Gaga ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Lady Gaga ] ]	music	en_XX
+open iHeartRadio and play The Very Best Of The Eagles (Remastered)	[IN:PLAY_MUSIC [SL:MUSIC_PROVIDER_NAME iHeartRadio ] [SL:MUSIC_ALBUM_TITLE The Very Best Of The Eagles ( Remastered ) ] ]	[IN:PLAY_MUSIC [SL:MUSIC_PROVIDER_NAME iHeartRadio ] [SL:MUSIC_ALBUM_TITLE The Very Best Of The Eagles ( Remastered ) ] ]	music	en_XX
+Can you play Guns n Roses?	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Guns n Roses ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Guns n Roses ] ]	music	en_XX
+Add two minutes to timer	[IN:ADD_TIME_TIMER [SL:DATE_TIME two minutes ] [SL:METHOD_TIMER timer ] ]	[IN:ADD_TIME_TIMER [SL:DATE_TIME two minutes ] [SL:METHOD_TIMER timer ] ]	timer	en_XX
+How many minutes left on my timer	[IN:GET_TIMER [SL:METHOD_TIMER timer ] ]	[IN:GET_TIMER [SL:METHOD_TIMER timer ] ]	timer	en_XX
+Please give me details on N. Korea in the headlines	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE details ] [SL:NEWS_TOPIC N . Korea ] [SL:NEWS_TYPE headlines ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE details ] [SL:NEWS_TOPIC N . Korea ] [SL:NEWS_TYPE headlines ] ]	news	en_XX
+Switch to the next track	[IN:SKIP_TRACK_MUSIC [SL:ORDINAL next ] [SL:MUSIC_TYPE track ] ]	[IN:SKIP_TRACK_MUSIC [SL:ORDINAL next ] [SL:MUSIC_TYPE track ] ]	music	en_XX
+Best song of carlos vives.	[IN:PLAY_MUSIC [SL:MUSIC_TYPE song ] [SL:MUSIC_ARTIST_NAME carlos vives ] ]	[IN:PLAY_MUSIC [SL:MUSIC_TYPE song ] [SL:MUSIC_ARTIST_NAME carlos vives ] ]	music	en_XX
+Set a timer for 20 minutes.	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME for 20 minutes ] ]	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME for 20 minutes ] ]	timer	en_XX
+How much time left on timer?	[IN:GET_TIMER [SL:METHOD_TIMER time ] [SL:METHOD_TIMER timer ] ]	[IN:GET_TIMER [SL:METHOD_TIMER time ] [SL:METHOD_TIMER timer ] ]	timer	en_XX
+make me a timer named time to leave	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:TIMER_NAME time to leave ] ]	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:TIMER_NAME time to leave ] ]	timer	en_XX
+open Pandora and play Cloud Nine on shuffle	[IN:START_SHUFFLE_MUSIC [SL:MUSIC_PROVIDER_NAME Pandora ] [SL:MUSIC_ALBUM_TITLE Cloud Nine ] ]	[IN:START_SHUFFLE_MUSIC [SL:MUSIC_PROVIDER_NAME Pandora ] [SL:MUSIC_ALBUM_TITLE Cloud Nine ] ]	music	en_XX
+Whats the news about the bachelor?	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC the bachelor ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC the bachelor ] ]	news	en_XX
+the hottest news of lakers	[IN:GET_STORIES_NEWS [SL:NEWS_REFERENCE hottest ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC lakers ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_REFERENCE hottest ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC lakers ] ]	news	en_XX
+set a new timer for thirty seconds	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME for thirty seconds ] ]	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME for thirty seconds ] ]	timer	en_XX
+News for my area	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE News ] [SL:NEWS_TOPIC my area ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE News ] [SL:NEWS_TOPIC my area ] ]	news	en_XX
+Who is on Fox News	[IN:QUESTION_NEWS [SL:NEWS_SOURCE Fox News ] ]	[IN:QUESTION_NEWS [SL:NEWS_SOURCE Fox News ] ]	news	en_XX
+How much longer on this countdown?	[IN:GET_TIMER [SL:METHOD_TIMER countdown ] ]	[IN:GET_TIMER [SL:METHOD_TIMER countdown ] ]	timer	en_XX
+Play the latest song by Lil Wayne	[IN:PLAY_MUSIC [SL:MUSIC_TYPE song ] [SL:MUSIC_ARTIST_NAME Lil Wayne ] ]	[IN:PLAY_MUSIC [SL:MUSIC_TYPE song ] [SL:MUSIC_ARTIST_NAME Lil Wayne ] ]	music	en_XX
+Baseball news	[IN:GET_STORIES_NEWS [SL:NEWS_TOPIC Baseball ] [SL:NEWS_TYPE news ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TOPIC Baseball ] [SL:NEWS_TYPE news ] ]	news	en_XX
+Do I have any active timers?	[IN:GET_TIMER [SL:METHOD_TIMER timers ] ]	[IN:GET_TIMER [SL:METHOD_TIMER timers ] ]	timer	en_XX
+please add a one and a half minute timer	[IN:CREATE_TIMER [SL:DATE_TIME one and a half minute ] [SL:METHOD_TIMER timer ] ]	[IN:CREATE_TIMER [SL:DATE_TIME one and a half minute ] [SL:METHOD_TIMER timer ] ]	timer	en_XX
+what was the news last night	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news ] [SL:DATE_TIME last night ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news ] [SL:DATE_TIME last night ] ]	news	en_XX
+I want to listen to Third Eye Blind	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Third Eye Blind ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Third Eye Blind ] ]	music	en_XX
+Play some slow jams.	[IN:PLAY_MUSIC [SL:MUSIC_GENRE slow jams ] ]	[IN:PLAY_MUSIC [SL:MUSIC_GENRE slow jams ] ]	music	en_XX
+i want to listen to justin bieber	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME justin bieber ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME justin bieber ] ]	music	en_XX
+Play I heard they suck live by NOFX	[IN:PLAY_MUSIC [SL:MUSIC_TRACK_TITLE I heard they suck live ] [SL:MUSIC_ARTIST_NAME NOFX ] ]	[IN:PLAY_MUSIC [SL:MUSIC_TRACK_TITLE I heard they suck live ] [SL:MUSIC_ARTIST_NAME NOFX ] ]	music	en_XX
+What did Donald Trump say at his press conference	[IN:QUESTION_NEWS [SL:NEWS_TOPIC Donald Trump ] [SL:NEWS_TOPIC press conference ] ]	[IN:QUESTION_NEWS [SL:NEWS_TOPIC Donald Trump ] [SL:NEWS_TOPIC press conference ] ]	news	en_XX
+What's the last news on replacing Obamacare?	[IN:GET_STORIES_NEWS [SL:NEWS_REFERENCE last ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC replacing Obamacare ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_REFERENCE last ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC replacing Obamacare ] ]	news	en_XX
+Can I listen to the new Ariel Pink single on Spotify?	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Ariel Pink ] [SL:MUSIC_TYPE single ] [SL:MUSIC_PROVIDER_NAME Spotify ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Ariel Pink ] [SL:MUSIC_TYPE single ] [SL:MUSIC_PROVIDER_NAME Spotify ] ]	music	en_XX
+Start the timer again in 10 minutes	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME in 10 minutes ] ]	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME in 10 minutes ] ]	timer	en_XX
+what today's top headlines	[IN:GET_STORIES_NEWS [SL:DATE_TIME today ] [SL:NEWS_REFERENCE top ] [SL:NEWS_TYPE headlines ] ]	[IN:GET_STORIES_NEWS [SL:DATE_TIME today ] [SL:NEWS_REFERENCE top ] [SL:NEWS_TYPE headlines ] ]	news	en_XX
+What is the most recent news headlines from Mexico?	[IN:GET_STORIES_NEWS [SL:DATE_TIME the most recent ] [SL:NEWS_TYPE news headlines ] [SL:NEWS_TOPIC Mexico ] ]	[IN:GET_STORIES_NEWS [SL:DATE_TIME the most recent ] [SL:NEWS_TYPE news headlines ] [SL:NEWS_TOPIC Mexico ] ]	news	en_XX
+what is Trump's take on supremacists in America?	[IN:QUESTION_NEWS [SL:NEWS_TOPIC Trump 's take on supremacists in America ] ]	[IN:QUESTION_NEWS [SL:NEWS_TOPIC Trump 's take on supremacists in America ] ]	news	en_XX
+read the latest news out of the white house	[IN:GET_STORIES_NEWS [SL:DATE_TIME latest ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC out of the white house ] ]	[IN:GET_STORIES_NEWS [SL:DATE_TIME latest ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC out of the white house ] ]	news	en_XX
+play artists like sam hunt	[IN:PLAY_MUSIC [SL:MUSIC_TYPE artists ] [SL:MUSIC_ARTIST_NAME sam hunt ] ]	[IN:PLAY_MUSIC [SL:MUSIC_TYPE artists ] [SL:MUSIC_ARTIST_NAME sam hunt ] ]	music	en_XX
+Add 10 minutes to my existing timer.	[IN:ADD_TIME_TIMER [SL:DATE_TIME 10 minutes ] [SL:METHOD_TIMER timer ] ]	[IN:ADD_TIME_TIMER [SL:DATE_TIME 10 minutes ] [SL:METHOD_TIMER timer ] ]	timer	en_XX
+Read me all breaking news stories.	[IN:GET_STORIES_NEWS [SL:NEWS_REFERENCE breaking ] [SL:NEWS_TYPE news stories ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_REFERENCE breaking ] [SL:NEWS_TYPE news stories ] ]	news	en_XX
+What is the latest news on the fire in West Texas	[IN:GET_STORIES_NEWS [SL:DATE_TIME latest ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC fire in West Texas ] ]	[IN:GET_STORIES_NEWS [SL:DATE_TIME latest ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC fire in West Texas ] ]	news	en_XX
+or anything from the bee gees	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME bee gees ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME bee gees ] ]	music	en_XX
+Is there any progress in negotiations among Canada, the US and Mexico?	[IN:GET_DETAILS_NEWS [SL:NEWS_TOPIC progress in negotiations among Canada , the US and Mexico ] ]	[IN:GET_DETAILS_NEWS [SL:NEWS_TOPIC progress in negotiations among Canada , the US and Mexico ] ]	news	en_XX
+is there any news on the new healthcare proposal	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC new healthcare proposal ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC new healthcare proposal ] ]	news	en_XX
+set timer to start in 5 minutes and stop in 10	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME in 5 minutes ] [SL:DATE_TIME in 10 ] ]	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME in 5 minutes ] [SL:DATE_TIME in 10 ] ]	timer	en_XX
+how much has fema helped in texas	[IN:GET_DETAILS_NEWS [SL:NEWS_TOPIC fema helped in texas ] ]	[IN:GET_DETAILS_NEWS [SL:NEWS_TOPIC fema helped in texas ] ]	news	en_XX
+Add 10 more minutes to the timer	[IN:ADD_TIME_TIMER [SL:DATE_TIME 10 more minutes ] [SL:METHOD_TIMER timer ] ]	[IN:ADD_TIME_TIMER [SL:DATE_TIME 10 more minutes ] [SL:METHOD_TIMER timer ] ]	timer	en_XX
+Recent news about north korea	[IN:GET_STORIES_NEWS [SL:DATE_TIME Recent ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC north korea ] ]	[IN:GET_STORIES_NEWS [SL:DATE_TIME Recent ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC north korea ] ]	news	en_XX
+How many minutes are left on timer	[IN:GET_TIMER [SL:METHOD_TIMER timer ] ]	[IN:GET_TIMER [SL:METHOD_TIMER timer ] ]	timer	en_XX
+play Words I Might Have Ate	[IN:PLAY_MUSIC [SL:MUSIC_TRACK_TITLE Words I Might Have Ate ] ]	[IN:PLAY_MUSIC [SL:MUSIC_TRACK_TITLE Words I Might Have Ate ] ]	music	en_XX
+set timer for 10 minutes	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME for 10 minutes ] ]	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME for 10 minutes ] ]	timer	en_XX
+show the timer left on treadmill	[IN:GET_TIMER [SL:METHOD_TIMER timer ] ]	[IN:GET_TIMER [SL:METHOD_TIMER timer ] ]	timer	en_XX
+top story please	[IN:GET_STORIES_NEWS [SL:NEWS_REFERENCE top ] [SL:NEWS_TYPE story ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_REFERENCE top ] [SL:NEWS_TYPE story ] ]	news	en_XX
+Repeat current song	[IN:REPLAY_MUSIC [SL:MUSIC_TYPE song ] ]	[IN:REPLAY_MUSIC [SL:MUSIC_TYPE song ] ]	music	en_XX
+this song on spotify is one that i hate	[IN:DISLIKE_MUSIC [SL:MUSIC_TYPE song ] [SL:MUSIC_PROVIDER_NAME spotify ] ]	[IN:DISLIKE_MUSIC [SL:MUSIC_TYPE song ] [SL:MUSIC_PROVIDER_NAME spotify ] ]	music	en_XX
+I want to listen to Tamela Mann's new album	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Tamela Mann ] [SL:MUSIC_TYPE album ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Tamela Mann ] [SL:MUSIC_TYPE album ] ]	music	en_XX
+Set a timer for 40 seconds.	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME for 40 seconds ] ]	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME for 40 seconds ] ]	timer	en_XX
+Stop baking timer	[IN:PAUSE_TIMER [SL:METHOD_TIMER timer ] ]	[IN:PAUSE_TIMER [SL:METHOD_TIMER timer ] ]	timer	en_XX
+Raleigh news this week?	[IN:GET_STORIES_NEWS [SL:NEWS_TOPIC Raleigh ] [SL:NEWS_TYPE news ] [SL:DATE_TIME this week ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TOPIC Raleigh ] [SL:NEWS_TYPE news ] [SL:DATE_TIME this week ] ]	news	en_XX
+what's the news in the music industry	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news ] [SL:NEWS_CATEGORY music industry ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news ] [SL:NEWS_CATEGORY music industry ] ]	news	en_XX
+stop that timer	[IN:PAUSE_TIMER [SL:METHOD_TIMER timer ] ]	[IN:PAUSE_TIMER [SL:METHOD_TIMER timer ] ]	timer	en_XX
+play 1470 radio	[IN:PLAY_MUSIC [SL:MUSIC_RADIO_ID 1470 ] [SL:MUSIC_TYPE radio ] ]	[IN:PLAY_MUSIC [SL:MUSIC_RADIO_ID 1470 ] [SL:MUSIC_TYPE radio ] ]	music	en_XX
+stop my timer	[IN:PAUSE_TIMER [SL:METHOD_TIMER timer ] ]	[IN:PAUSE_TIMER [SL:METHOD_TIMER timer ] ]	timer	en_XX
+local police news	[IN:GET_STORIES_NEWS [SL:NEWS_CATEGORY local ] [SL:NEWS_TOPIC police ] [SL:NEWS_TYPE news ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_CATEGORY local ] [SL:NEWS_TOPIC police ] [SL:NEWS_TYPE news ] ]	news	en_XX
+Can I listen to the last song one more time?	[IN:PREVIOUS_TRACK_MUSIC [SL:ORDINAL last ] [SL:MUSIC_TYPE song ] ]	[IN:PREVIOUS_TRACK_MUSIC [SL:ORDINAL last ] [SL:MUSIC_TYPE song ] ]	music	en_XX
+add ten minutes to the timer please	[IN:ADD_TIME_TIMER [SL:DATE_TIME ten minutes ] [SL:METHOD_TIMER timer ] ]	[IN:ADD_TIME_TIMER [SL:DATE_TIME ten minutes ] [SL:METHOD_TIMER timer ] ]	timer	en_XX
+Tell me about the news	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news ] ]	news	en_XX
+When is the Election Day	[IN:QUESTION_NEWS [SL:NEWS_TOPIC Election Day ] ]	[IN:QUESTION_NEWS [SL:NEWS_TOPIC Election Day ] ]	news	en_XX
+News about Russia	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE News ] [SL:NEWS_TOPIC Russia ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE News ] [SL:NEWS_TOPIC Russia ] ]	news	en_XX
+Any news from the New York Times	[IN:GET_STORIES_NEWS [SL:NEWS_SOURCE New York Times ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_SOURCE New York Times ] ]	news	en_XX
+Find classical covers of pop songs.	[IN:PLAY_MUSIC [SL:MUSIC_GENRE classical covers ] [SL:MUSIC_GENRE pop ] [SL:MUSIC_TYPE songs ] ]	[IN:PLAY_MUSIC [SL:MUSIC_GENRE classical covers ] [SL:MUSIC_GENRE pop ] [SL:MUSIC_TYPE songs ] ]	music	en_XX
+Any science related news	[IN:GET_STORIES_NEWS [SL:NEWS_CATEGORY science ] [SL:NEWS_TYPE news ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_CATEGORY science ] [SL:NEWS_TYPE news ] ]	news	en_XX
+What are the networks saying about Brexit	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE networks ] [SL:NEWS_TOPIC Brexit ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE networks ] [SL:NEWS_TOPIC Brexit ] ]	news	en_XX
+Provide me with the news about the recent mudslide in Sierra Leone	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news ] [SL:DATE_TIME about the recent ] [SL:NEWS_TOPIC mudslide in Sierra Leone ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news ] [SL:DATE_TIME about the recent ] [SL:NEWS_TOPIC mudslide in Sierra Leone ] ]	news	en_XX
+play 98.9 radio on iheartradio	[IN:PLAY_MUSIC [SL:MUSIC_RADIO_ID 98.9 ] [SL:MUSIC_TYPE radio ] [SL:MUSIC_PROVIDER_NAME iheartradio ] ]	[IN:PLAY_MUSIC [SL:MUSIC_RADIO_ID 98.9 ] [SL:MUSIC_TYPE radio ] [SL:MUSIC_PROVIDER_NAME iheartradio ] ]	music	en_XX
+what was the biggest news story today	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news story ] [SL:DATE_TIME today ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news story ] [SL:DATE_TIME today ] ]	news	en_XX
+is there an update on the news story about Bill Clinton	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE update ] [SL:NEWS_TYPE news story ] [SL:NEWS_TOPIC Bill Clinton ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE update ] [SL:NEWS_TYPE news story ] [SL:NEWS_TOPIC Bill Clinton ] ]	news	en_XX
+what events happened in the news this week?	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news ] [SL:DATE_TIME this week ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news ] [SL:DATE_TIME this week ] ]	news	en_XX
+What's the latest news from Raleigh, NC?	[IN:GET_STORIES_NEWS [SL:DATE_TIME latest ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC Raleigh , NC ] ]	[IN:GET_STORIES_NEWS [SL:DATE_TIME latest ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC Raleigh , NC ] ]	news	en_XX
+Recent news about Hilary Clinton	[IN:GET_STORIES_NEWS [SL:DATE_TIME Recent ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC Hilary Clinton ] ]	[IN:GET_STORIES_NEWS [SL:DATE_TIME Recent ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC Hilary Clinton ] ]	news	en_XX
+what news did I miss yesterday	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news ] [SL:DATE_TIME yesterday ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news ] [SL:DATE_TIME yesterday ] ]	news	en_XX
+Whats the latest news with North Korea?	[IN:GET_STORIES_NEWS [SL:DATE_TIME latest ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC North Korea ] ]	[IN:GET_STORIES_NEWS [SL:DATE_TIME latest ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC North Korea ] ]	news	en_XX
+show political news	[IN:GET_STORIES_NEWS [SL:NEWS_CATEGORY political ] [SL:NEWS_TYPE news ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_CATEGORY political ] [SL:NEWS_TYPE news ] ]	news	en_XX
+skip this timer and start a new one	[IN:DELETE_TIMER [SL:METHOD_TIMER timer ] ]	[IN:DELETE_TIMER [SL:METHOD_TIMER timer ] ]	timer	en_XX
+Who was playing guitar in the last song?	[IN:GET_TRACK_INFO_MUSIC [SL:MUSIC_TYPE song ] ]	[IN:GET_TRACK_INFO_MUSIC [SL:MUSIC_TYPE song ] ]	music	en_XX
+news on fox ?	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news ] [SL:NEWS_SOURCE fox ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news ] [SL:NEWS_SOURCE fox ] ]	news	en_XX
+Set 2 minute pregnancy test timer	[IN:CREATE_TIMER [SL:DATE_TIME 2 minute ] [SL:METHOD_TIMER timer ] ]	[IN:CREATE_TIMER [SL:DATE_TIME 2 minute ] [SL:METHOD_TIMER timer ] ]	timer	en_XX
+How do I set a timer for fifty two minutes?	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME for fifty two minutes ] ]	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME for fifty two minutes ] ]	timer	en_XX
+play Selena Gomez's newest hit	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Selena Gomez ] [SL:MUSIC_TYPE hit ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Selena Gomez ] [SL:MUSIC_TYPE hit ] ]	music	en_XX
+Set timer for 10 minutes.	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME for 10 minutes ] ]	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME for 10 minutes ] ]	timer	en_XX
+shuffle Tonight	[IN:START_SHUFFLE_MUSIC [SL:MUSIC_ALBUM_TITLE Tonight ] ]	[IN:START_SHUFFLE_MUSIC [SL:MUSIC_ALBUM_TITLE Tonight ] ]	music	en_XX
+show me the news on the eagles	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC eagles ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC eagles ] ]	news	en_XX
+Play Jay Z	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Jay Z ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Jay Z ] ]	music	en_XX
+what was the breaking news tonight?	[IN:GET_STORIES_NEWS [SL:NEWS_REFERENCE breaking ] [SL:NEWS_TYPE news ] [SL:DATE_TIME tonight ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_REFERENCE breaking ] [SL:NEWS_TYPE news ] [SL:DATE_TIME tonight ] ]	news	en_XX
+What are the headlines for today in the news?	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE headlines ] [SL:DATE_TIME for today ] [SL:NEWS_TYPE news ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE headlines ] [SL:DATE_TIME for today ] [SL:NEWS_TYPE news ] ]	news	en_XX
+Play dance music station	[IN:PLAY_MUSIC [SL:MUSIC_GENRE dance ] [SL:MUSIC_TYPE music ] [SL:MUSIC_TYPE station ] ]	[IN:PLAY_MUSIC [SL:MUSIC_GENRE dance ] [SL:MUSIC_TYPE music ] [SL:MUSIC_TYPE station ] ]	music	en_XX
+Latest news on Trump	[IN:GET_STORIES_NEWS [SL:DATE_TIME Latest ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC Trump ] ]	[IN:GET_STORIES_NEWS [SL:DATE_TIME Latest ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC Trump ] ]	news	en_XX
+Can you show me headlines from NPR?	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE headlines ] [SL:NEWS_SOURCE NPR ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE headlines ] [SL:NEWS_SOURCE NPR ] ]	news	en_XX
+Headlines, please	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE Headlines ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE Headlines ] ]	news	en_XX
+I want to replay this song again.	[IN:REPLAY_MUSIC [SL:MUSIC_TYPE song ] ]	[IN:REPLAY_MUSIC [SL:MUSIC_TYPE song ] ]	music	en_XX
+create Laundry timer	[IN:CREATE_TIMER [SL:TIMER_NAME Laundry ] [SL:METHOD_TIMER timer ] ]	[IN:CREATE_TIMER [SL:TIMER_NAME Laundry ] [SL:METHOD_TIMER timer ] ]	timer	en_XX
+Turn timer off after first alarm	[IN:PAUSE_TIMER [SL:ORDINAL first ] ]	[IN:PAUSE_TIMER [SL:ORDINAL first ] ]	timer	en_XX
+What are the recent news stories for my area?	[IN:GET_STORIES_NEWS [SL:DATE_TIME recent ] [SL:NEWS_TYPE news stories ] ]	[IN:GET_STORIES_NEWS [SL:DATE_TIME recent ] [SL:NEWS_TYPE news stories ] ]	news	en_XX
+recent news in the MLB	[IN:GET_STORIES_NEWS [SL:DATE_TIME recent ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC MLB ] ]	[IN:GET_STORIES_NEWS [SL:DATE_TIME recent ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC MLB ] ]	news	en_XX
+what's the latest song from NeYo	[IN:QUESTION_MUSIC [SL:MUSIC_TYPE song ] [SL:MUSIC_ARTIST_NAME NeYo ] ]	[IN:QUESTION_MUSIC [SL:MUSIC_TYPE song ] [SL:MUSIC_ARTIST_NAME NeYo ] ]	music	en_XX
+How many minutes remaining	[IN:GET_TIMER ]	[IN:GET_TIMER ]	timer	en_XX
+play contemporary country	[IN:PLAY_MUSIC [SL:MUSIC_GENRE contemporary country ] ]	[IN:PLAY_MUSIC [SL:MUSIC_GENRE contemporary country ] ]	music	en_XX
+I want to listen to JAY Z's latest album.	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME JAY Z ] [SL:MUSIC_TYPE album ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME JAY Z ] [SL:MUSIC_TYPE album ] ]	music	en_XX
+how much time to I have left	[IN:GET_TIMER ]	[IN:GET_TIMER ]	timer	en_XX
+Add 20 minutes to countdown	[IN:ADD_TIME_TIMER [SL:DATE_TIME 20 minutes ] [SL:METHOD_TIMER countdown ] ]	[IN:ADD_TIME_TIMER [SL:DATE_TIME 20 minutes ] [SL:METHOD_TIMER countdown ] ]	timer	en_XX
+I want to listen to Michael Jackson's greatest hits.	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Michael Jackson ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Michael Jackson ] ]	music	en_XX
+play on point live	[IN:GET_STORIES_NEWS [SL:NEWS_SOURCE on point ] [SL:NEWS_TYPE live ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_SOURCE on point ] [SL:NEWS_TYPE live ] ]	news	en_XX
+What news stories are trending in China	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news stories ] [SL:NEWS_REFERENCE trending ] [SL:NEWS_TOPIC China ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news stories ] [SL:NEWS_REFERENCE trending ] [SL:NEWS_TOPIC China ] ]	news	en_XX
+read me the latest headline	[IN:GET_STORIES_NEWS [SL:DATE_TIME latest ] [SL:NEWS_TYPE headline ] ]	[IN:GET_STORIES_NEWS [SL:DATE_TIME latest ] [SL:NEWS_TYPE headline ] ]	news	en_XX
+Show me timers running	[IN:GET_TIMER [SL:METHOD_TIMER timers ] ]	[IN:GET_TIMER [SL:METHOD_TIMER timers ] ]	timer	en_XX
+What day will school start in Miami Fl	[IN:QUESTION_NEWS [SL:NEWS_TOPIC What day will school start in Miami Fl ] ]	[IN:QUESTION_NEWS [SL:NEWS_TOPIC What day will school start in Miami Fl ] ]	news	en_XX
+What the current world headlines?	[IN:GET_STORIES_NEWS [SL:DATE_TIME the current ] [SL:NEWS_CATEGORY world ] [SL:NEWS_TYPE headlines ] ]	[IN:GET_STORIES_NEWS [SL:DATE_TIME the current ] [SL:NEWS_CATEGORY world ] [SL:NEWS_TYPE headlines ] ]	news	en_XX
+stop timer names cookies	[IN:PAUSE_TIMER [SL:METHOD_TIMER timer ] ]	[IN:PAUSE_TIMER [SL:METHOD_TIMER timer ] ]	timer	en_XX
+Please play Country music.	[IN:PLAY_MUSIC [SL:MUSIC_GENRE Country ] [SL:MUSIC_TYPE music ] ]	[IN:PLAY_MUSIC [SL:MUSIC_GENRE Country ] [SL:MUSIC_TYPE music ] ]	music	en_XX
+tidal for my music provider please	[IN:SET_DEFAULT_PROVIDER_MUSIC [SL:MUSIC_PROVIDER_NAME tidal ] ]	[IN:SET_DEFAULT_PROVIDER_MUSIC [SL:MUSIC_PROVIDER_NAME tidal ] ]	music	en_XX
+Play my music on shuffle	[IN:START_SHUFFLE_MUSIC [SL:MUSIC_TYPE music ] ]	[IN:START_SHUFFLE_MUSIC [SL:MUSIC_TYPE music ] ]	music	en_XX
+Please read the details about the Charlottesville demonstration.	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE details ] [SL:NEWS_TOPIC Charlottesville demonstration ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE details ] [SL:NEWS_TOPIC Charlottesville demonstration ] ]	news	en_XX
+Donald Trump collusion stories please.	[IN:GET_STORIES_NEWS [SL:NEWS_TOPIC Donald Trump collusion ] [SL:NEWS_TYPE stories ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TOPIC Donald Trump collusion ] [SL:NEWS_TYPE stories ] ]	news	en_XX
+Play Taylor Swift current hit	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Taylor Swift ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Taylor Swift ] ]	music	en_XX
+Tell me the recent news.	[IN:GET_STORIES_NEWS [SL:DATE_TIME recent ] [SL:NEWS_TYPE news ] ]	[IN:GET_STORIES_NEWS [SL:DATE_TIME recent ] [SL:NEWS_TYPE news ] ]	news	en_XX
+how many timers did i set so far	[IN:GET_TIMER [SL:METHOD_TIMER timers ] ]	[IN:GET_TIMER [SL:METHOD_TIMER timers ] ]	timer	en_XX
+How much time is left on my timer.	[IN:GET_TIMER [SL:METHOD_TIMER timer ] ]	[IN:GET_TIMER [SL:METHOD_TIMER timer ] ]	timer	en_XX
+Read headlines for United States news.	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE headlines ] [SL:NEWS_TOPIC United States ] [SL:NEWS_TYPE news ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE headlines ] [SL:NEWS_TOPIC United States ] [SL:NEWS_TYPE news ] ]	news	en_XX
+What are today's top sports stories	[IN:GET_STORIES_NEWS [SL:DATE_TIME today ] [SL:NEWS_REFERENCE top ] [SL:NEWS_CATEGORY sports ] [SL:NEWS_TYPE stories ] ]	[IN:GET_STORIES_NEWS [SL:DATE_TIME today ] [SL:NEWS_REFERENCE top ] [SL:NEWS_CATEGORY sports ] [SL:NEWS_TYPE stories ] ]	news	en_XX
+find Chris Pratt uk	[IN:PLAY_MEDIA [SL:MUSIC_ARTIST_NAME Chris Pratt ] ]	[IN:PLAY_MEDIA [SL:MUSIC_ARTIST_NAME Chris Pratt ] ]	music	en_XX
+Create a new station.	[IN:CREATE_PLAYLIST_MUSIC [SL:MUSIC_TYPE station ] ]	[IN:CREATE_PLAYLIST_MUSIC [SL:MUSIC_TYPE station ] ]	music	en_XX
+Begin the timer to count up	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] ]	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] ]	timer	en_XX
+Play the Trolls soundtrack	[IN:PLAY_MUSIC [SL:MUSIC_ALBUM_TITLE Trolls ] [SL:MUSIC_TYPE soundtrack ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ALBUM_TITLE Trolls ] [SL:MUSIC_TYPE soundtrack ] ]	music	en_XX
+Can you find me James Taylor's version of this current song	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME James Taylor ] [SL:MUSIC_TYPE song ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME James Taylor ] [SL:MUSIC_TYPE song ] ]	music	en_XX
+Set time for one minute.	[IN:CREATE_TIMER [SL:METHOD_TIMER time ] [SL:DATE_TIME for one minute ] ]	[IN:CREATE_TIMER [SL:METHOD_TIMER time ] [SL:DATE_TIME for one minute ] ]	timer	en_XX
+Any recent news in Louisiana	[IN:GET_STORIES_NEWS [SL:DATE_TIME recent ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC Louisiana ] ]	[IN:GET_STORIES_NEWS [SL:DATE_TIME recent ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC Louisiana ] ]	news	en_XX
+How are Charlie Gard's parents doing?	[IN:QUESTION_NEWS [SL:NEWS_TOPIC Charlie Gard 's parents doing ] ]	[IN:QUESTION_NEWS [SL:NEWS_TOPIC Charlie Gard 's parents doing ] ]	news	en_XX
+set timer for 28 minutes for cake to be done	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME for 28 minutes ] ]	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME for 28 minutes ] ]	timer	en_XX
+play The Studio Albums 1990-2011 by Aerosmith	[IN:PLAY_MUSIC [SL:MUSIC_ALBUM_TITLE The Studio Albums 1990 - 2011 ] [SL:MUSIC_ARTIST_NAME Aerosmith ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ALBUM_TITLE The Studio Albums 1990 - 2011 ] [SL:MUSIC_ARTIST_NAME Aerosmith ] ]	music	en_XX
+what is the major news on China	[IN:GET_STORIES_NEWS [SL:NEWS_REFERENCE major ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC China ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_REFERENCE major ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC China ] ]	news	en_XX
+set routine timer 10 minutes	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME 10 minutes ] ]	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME 10 minutes ] ]	timer	en_XX
+Add eight minutes to my timer	[IN:ADD_TIME_TIMER [SL:DATE_TIME eight minutes ] [SL:METHOD_TIMER timer ] ]	[IN:ADD_TIME_TIMER [SL:DATE_TIME eight minutes ] [SL:METHOD_TIMER timer ] ]	timer	en_XX
+Change the genre to pop	[IN:PLAY_MUSIC [SL:MUSIC_GENRE pop ] ]	[IN:PLAY_MUSIC [SL:MUSIC_GENRE pop ] ]	music	en_XX
+play all romantic songs from Spotify please	[IN:PLAY_MUSIC [SL:MUSIC_GENRE romantic ] [SL:MUSIC_TYPE songs ] [SL:MUSIC_PROVIDER_NAME Spotify ] ]	[IN:PLAY_MUSIC [SL:MUSIC_GENRE romantic ] [SL:MUSIC_TYPE songs ] [SL:MUSIC_PROVIDER_NAME Spotify ] ]	music	en_XX
+i want to play a song	[IN:PLAY_MUSIC [SL:MUSIC_TYPE song ] ]	[IN:PLAY_MUSIC [SL:MUSIC_TYPE song ] ]	music	en_XX
+play Day 'N' Nite on iHeartRadio	[IN:PLAY_MUSIC [SL:MUSIC_TRACK_TITLE Day ' N ' Nite ] [SL:MUSIC_PROVIDER_NAME iHeartRadio ] ]	[IN:PLAY_MUSIC [SL:MUSIC_TRACK_TITLE Day ' N ' Nite ] [SL:MUSIC_PROVIDER_NAME iHeartRadio ] ]	music	en_XX
+What is new in celebrity news	[IN:GET_STORIES_NEWS [SL:NEWS_CATEGORY celebrity ] [SL:NEWS_TYPE news ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_CATEGORY celebrity ] [SL:NEWS_TYPE news ] ]	news	en_XX
+Start the Sleep playlist from the beginning.	[IN:REPLAY_MUSIC [SL:MUSIC_PLAYLIST_TITLE Sleep ] [SL:MUSIC_TYPE playlist ] ]	[IN:REPLAY_MUSIC [SL:MUSIC_PLAYLIST_TITLE Sleep ] [SL:MUSIC_TYPE playlist ] ]	music	en_XX
+Play God is a woman by J. Cole	[IN:PLAY_MUSIC [SL:MUSIC_TRACK_TITLE God is a woman ] [SL:MUSIC_ARTIST_NAME J . Cole ] ]	[IN:PLAY_MUSIC [SL:MUSIC_TRACK_TITLE God is a woman ] [SL:MUSIC_ARTIST_NAME J . Cole ] ]	music	en_XX
+How much time do I have left on the timer for my boiled eggs	[IN:GET_TIMER [SL:METHOD_TIMER timer ] ]	[IN:GET_TIMER [SL:METHOD_TIMER timer ] ]	timer	en_XX
+Begin playing the music again	[IN:REPLAY_MUSIC [SL:MUSIC_TYPE music ] ]	[IN:REPLAY_MUSIC [SL:MUSIC_TYPE music ] ]	music	en_XX
+Please play some workout music.	[IN:PLAY_MUSIC [SL:MUSIC_GENRE workout ] [SL:MUSIC_TYPE music ] ]	[IN:PLAY_MUSIC [SL:MUSIC_GENRE workout ] [SL:MUSIC_TYPE music ] ]	music	en_XX
+Replay last 10 seconds of song	[IN:REWIND_MUSIC [SL:ORDINAL last ] [SL:MUSIC_REWIND_TIME 10 seconds ] [SL:MUSIC_TYPE song ] ]	[IN:REWIND_MUSIC [SL:ORDINAL last ] [SL:MUSIC_REWIND_TIME 10 seconds ] [SL:MUSIC_TYPE song ] ]	music	en_XX
+Set a timer for 3 PM	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME for 3 PM ] ]	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME for 3 PM ] ]	timer	en_XX
+Reset cooking time to beginning	[IN:RESTART_TIMER [SL:METHOD_TIMER time ] ]	[IN:RESTART_TIMER [SL:METHOD_TIMER time ] ]	timer	en_XX
+Give me details about Usher's disease.	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE details ] [SL:NEWS_TOPIC Usher 's disease ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE details ] [SL:NEWS_TOPIC Usher 's disease ] ]	news	en_XX
+display my cookies timer	[IN:GET_TIMER [SL:TIMER_NAME cookies ] [SL:METHOD_TIMER timer ] ]	[IN:GET_TIMER [SL:TIMER_NAME cookies ] [SL:METHOD_TIMER timer ] ]	timer	en_XX
+Can you play soft jazz please	[IN:PLAY_MUSIC [SL:MUSIC_GENRE soft jazz ] ]	[IN:PLAY_MUSIC [SL:MUSIC_GENRE soft jazz ] ]	music	en_XX
+Any recent news from Afghanistan ?	[IN:GET_STORIES_NEWS [SL:DATE_TIME recent ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC Afghanistan ] ]	[IN:GET_STORIES_NEWS [SL:DATE_TIME recent ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC Afghanistan ] ]	news	en_XX
+new timer for 15 minutes	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME for 15 minutes ] ]	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME for 15 minutes ] ]	timer	en_XX
+Suspend the workout timer for now	[IN:PAUSE_TIMER [SL:TIMER_NAME workout ] [SL:METHOD_TIMER timer ] ]	[IN:PAUSE_TIMER [SL:TIMER_NAME workout ] [SL:METHOD_TIMER timer ] ]	timer	en_XX
+play me an eminem song	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME eminem ] [SL:MUSIC_TYPE song ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME eminem ] [SL:MUSIC_TYPE song ] ]	music	en_XX
+restart current song	[IN:REPLAY_MUSIC [SL:MUSIC_TYPE song ] ]	[IN:REPLAY_MUSIC [SL:MUSIC_TYPE song ] ]	music	en_XX
+What are the latest news in Virginia?	[IN:GET_STORIES_NEWS [SL:DATE_TIME latest ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC Virginia ] ]	[IN:GET_STORIES_NEWS [SL:DATE_TIME latest ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC Virginia ] ]	news	en_XX
+Locate news articles on health news today	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news articles ] [SL:NEWS_TOPIC health news ] [SL:DATE_TIME today ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news articles ] [SL:NEWS_TOPIC health news ] [SL:DATE_TIME today ] ]	news	en_XX
+Give me world news headlines please	[IN:GET_STORIES_NEWS [SL:NEWS_CATEGORY world ] [SL:NEWS_TYPE news headlines ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_CATEGORY world ] [SL:NEWS_TYPE news headlines ] ]	news	en_XX
+are there any news about Trump and USA today?	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC Trump and USA ] [SL:DATE_TIME today ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC Trump and USA ] [SL:DATE_TIME today ] ]	news	en_XX
+"Change genre to ""Hip Hop""."	[IN:PLAY_MUSIC [SL:MUSIC_GENRE Hip Hop ] ]	[IN:PLAY_MUSIC [SL:MUSIC_GENRE Hip Hop ] ]	music	en_XX
+get remaining time on thaw turkey timer	[IN:GET_TIMER [SL:TIMER_NAME thaw turkey ] [SL:METHOD_TIMER timer ] ]	[IN:GET_TIMER [SL:TIMER_NAME thaw turkey ] [SL:METHOD_TIMER timer ] ]	timer	en_XX
+Add 30 more minutes to the cooking timer.	[IN:ADD_TIME_TIMER [SL:DATE_TIME 30 more minutes ] [SL:METHOD_TIMER timer ] ]	[IN:ADD_TIME_TIMER [SL:DATE_TIME 30 more minutes ] [SL:METHOD_TIMER timer ] ]	timer	en_XX
+Play a country song	[IN:PLAY_MUSIC [SL:MUSIC_GENRE country ] [SL:MUSIC_TYPE song ] ]	[IN:PLAY_MUSIC [SL:MUSIC_GENRE country ] [SL:MUSIC_TYPE song ] ]	music	en_XX
+what is the title of this album	[IN:GET_TRACK_INFO_MUSIC [SL:MUSIC_TYPE album ] ]	[IN:GET_TRACK_INFO_MUSIC [SL:MUSIC_TYPE album ] ]	music	en_XX
+timer terminate	[IN:DELETE_TIMER [SL:METHOD_TIMER timer ] ]	[IN:DELETE_TIMER [SL:METHOD_TIMER timer ] ]	timer	en_XX
+Show me the last timer results	[IN:GET_TIMER [SL:ORDINAL last ] [SL:METHOD_TIMER timer ] ]	[IN:GET_TIMER [SL:ORDINAL last ] [SL:METHOD_TIMER timer ] ]	timer	en_XX
+Tell me the top headlines from The Washington Post	[IN:GET_STORIES_NEWS [SL:NEWS_REFERENCE top ] [SL:NEWS_TYPE headlines ] [SL:NEWS_SOURCE The Washington Post ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_REFERENCE top ] [SL:NEWS_TYPE headlines ] [SL:NEWS_SOURCE The Washington Post ] ]	news	en_XX
+What are the top news for today?	[IN:GET_STORIES_NEWS [SL:NEWS_REFERENCE top ] [SL:NEWS_TYPE news ] [SL:DATE_TIME for today ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_REFERENCE top ] [SL:NEWS_TYPE news ] [SL:DATE_TIME for today ] ]	news	en_XX
+I want to listen to snoop dogg on Pandora	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME snoop dogg ] [SL:MUSIC_PROVIDER_NAME Pandora ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME snoop dogg ] [SL:MUSIC_PROVIDER_NAME Pandora ] ]	music	en_XX
+set timer to start at 9 pm	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME at 9 pm ] ]	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME at 9 pm ] ]	timer	en_XX
+add twelve minutes to my Inhaler timer	[IN:ADD_TIME_TIMER [SL:DATE_TIME twelve minutes ] [SL:TIMER_NAME Inhaler ] [SL:METHOD_TIMER timer ] ]	[IN:ADD_TIME_TIMER [SL:DATE_TIME twelve minutes ] [SL:TIMER_NAME Inhaler ] [SL:METHOD_TIMER timer ] ]	timer	en_XX
+make a timer to last 1 minute	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME 1 minute ] ]	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME 1 minute ] ]	timer	en_XX
+Please set a timer for 10	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME for 10 ] ]	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME for 10 ] ]	timer	en_XX
+timer status	[IN:GET_TIMER [SL:METHOD_TIMER timer ] ]	[IN:GET_TIMER [SL:METHOD_TIMER timer ] ]	timer	en_XX
+Play some Bring Me the Horizon.	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Bring Me the Horizon ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Bring Me the Horizon ] ]	music	en_XX
+pause the timer please	[IN:PAUSE_TIMER [SL:METHOD_TIMER timer ] ]	[IN:PAUSE_TIMER [SL:METHOD_TIMER timer ] ]	timer	en_XX
+how many car accidents today so far?	[IN:QUESTION_NEWS [SL:NEWS_TOPIC car accidents ] [SL:DATE_TIME today ] ]	[IN:QUESTION_NEWS [SL:NEWS_TOPIC car accidents ] [SL:DATE_TIME today ] ]	news	en_XX
+update my Reading timer	[IN:UPDATE_TIMER [SL:TIMER_NAME Reading ] [SL:METHOD_TIMER timer ] ]	[IN:UPDATE_TIMER [SL:TIMER_NAME Reading ] [SL:METHOD_TIMER timer ] ]	timer	en_XX
+Play a slow song	[IN:PLAY_MUSIC [SL:MUSIC_GENRE slow ] [SL:MUSIC_TYPE song ] ]	[IN:PLAY_MUSIC [SL:MUSIC_GENRE slow ] [SL:MUSIC_TYPE song ] ]	music	en_XX
+are there any new headlines on cnn?	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE headlines ] [SL:NEWS_SOURCE cnn ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE headlines ] [SL:NEWS_SOURCE cnn ] ]	news	en_XX
+Add 5 minutes to the countdown	[IN:ADD_TIME_TIMER [SL:DATE_TIME 5 minutes ] [SL:METHOD_TIMER countdown ] ]	[IN:ADD_TIME_TIMER [SL:DATE_TIME 5 minutes ] [SL:METHOD_TIMER countdown ] ]	timer	en_XX
+play frozen soundtrack on spotify	[IN:PLAY_MUSIC [SL:MUSIC_GENRE frozen ] [SL:MUSIC_TYPE soundtrack ] [SL:MUSIC_PROVIDER_NAME spotify ] ]	[IN:PLAY_MUSIC [SL:MUSIC_GENRE frozen ] [SL:MUSIC_TYPE soundtrack ] [SL:MUSIC_PROVIDER_NAME spotify ] ]	music	en_XX
+Can I set my music app as deezer	[IN:SET_DEFAULT_PROVIDER_MUSIC [SL:MUSIC_PROVIDER_NAME deezer ] ]	[IN:SET_DEFAULT_PROVIDER_MUSIC [SL:MUSIC_PROVIDER_NAME deezer ] ]	music	en_XX
+Play God's Plan	[IN:PLAY_MUSIC [SL:MUSIC_TRACK_TITLE God 's Plan ] ]	[IN:PLAY_MUSIC [SL:MUSIC_TRACK_TITLE God 's Plan ] ]	music	en_XX
+Set music application as amazon music for me	[IN:SET_DEFAULT_PROVIDER_MUSIC [SL:MUSIC_PROVIDER_NAME amazon music ] ]	[IN:SET_DEFAULT_PROVIDER_MUSIC [SL:MUSIC_PROVIDER_NAME amazon music ] ]	music	en_XX
+Give me an update on the local news?	[IN:GET_STORIES_NEWS [SL:NEWS_CATEGORY local ] [SL:NEWS_TYPE news ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_CATEGORY local ] [SL:NEWS_TYPE news ] ]	news	en_XX
+Please tell me the details about OJ Simpson parole	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE details ] [SL:NEWS_TOPIC OJ Simpson parole ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE details ] [SL:NEWS_TOPIC OJ Simpson parole ] ]	news	en_XX
+Any news on Justin Bieber today?	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC Justin Bieber ] [SL:DATE_TIME today ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC Justin Bieber ] [SL:DATE_TIME today ] ]	news	en_XX
+can you pause my timer please	[IN:PAUSE_TIMER [SL:METHOD_TIMER timer ] ]	[IN:PAUSE_TIMER [SL:METHOD_TIMER timer ] ]	timer	en_XX
+What is the latest news on Russia?	[IN:GET_STORIES_NEWS [SL:DATE_TIME latest ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC Russia ] ]	[IN:GET_STORIES_NEWS [SL:DATE_TIME latest ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC Russia ] ]	news	en_XX
+Add 34 seconds to the timer	[IN:ADD_TIME_TIMER [SL:DATE_TIME 34 seconds ] [SL:METHOD_TIMER timer ] ]	[IN:ADD_TIME_TIMER [SL:DATE_TIME 34 seconds ] [SL:METHOD_TIMER timer ] ]	timer	en_XX
+Can you skip this track	[IN:SKIP_TRACK_MUSIC [SL:MUSIC_TYPE track ] ]	[IN:SKIP_TRACK_MUSIC [SL:MUSIC_TYPE track ] ]	music	en_XX
+Shuffle the songs on my Pandora playlist	[IN:START_SHUFFLE_MUSIC [SL:MUSIC_TYPE songs ] [SL:MUSIC_PLAYLIST_TITLE Pandora ] [SL:MUSIC_TYPE playlist ] ]	[IN:START_SHUFFLE_MUSIC [SL:MUSIC_TYPE songs ] [SL:MUSIC_PLAYLIST_TITLE Pandora ] [SL:MUSIC_TYPE playlist ] ]	music	en_XX
+do not play any song by lil Yachty	[IN:REMOVE_FROM_PLAYLIST_MUSIC [SL:MUSIC_TYPE song ] [SL:MUSIC_ARTIST_NAME lil Yachty ] ]	[IN:REMOVE_FROM_PLAYLIST_MUSIC [SL:MUSIC_TYPE song ] [SL:MUSIC_ARTIST_NAME lil Yachty ] ]	music	en_XX
+Top stories in my town	[IN:GET_STORIES_NEWS [SL:NEWS_REFERENCE Top ] [SL:NEWS_TYPE stories ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_REFERENCE Top ] [SL:NEWS_TYPE stories ] ]	news	en_XX
+What was the headline yesterday	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE headline ] [SL:DATE_TIME yesterday ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE headline ] [SL:DATE_TIME yesterday ] ]	news	en_XX
+Read me more on the top stories	[IN:GET_STORIES_NEWS [SL:NEWS_REFERENCE top ] [SL:NEWS_TYPE stories ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_REFERENCE top ] [SL:NEWS_TYPE stories ] ]	news	en_XX
+listen to maroon 5 Pandora	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME maroon 5 ] [SL:MUSIC_PROVIDER_NAME Pandora ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME maroon 5 ] [SL:MUSIC_PROVIDER_NAME Pandora ] ]	music	en_XX
+play my favorite songs but shuffle them	[IN:START_SHUFFLE_MUSIC [SL:MUSIC_TYPE songs ] ]	[IN:START_SHUFFLE_MUSIC [SL:MUSIC_TYPE songs ] ]	music	en_XX
+"Play the top song, ""Despacito."""	[IN:PLAY_MUSIC [SL:MUSIC_TYPE song ] [SL:MUSIC_TRACK_TITLE Despacito ] ]	[IN:PLAY_MUSIC [SL:MUSIC_TYPE song ] [SL:MUSIC_TRACK_TITLE Despacito ] ]	music	en_XX
+open iheartradio and play Tonight	[IN:PLAY_MUSIC [SL:MUSIC_PROVIDER_NAME iheartradio ] [SL:MUSIC_ALBUM_TITLE Tonight ] ]	[IN:PLAY_MUSIC [SL:MUSIC_PROVIDER_NAME iheartradio ] [SL:MUSIC_ALBUM_TITLE Tonight ] ]	music	en_XX
+Shuffle	[IN:START_SHUFFLE_MUSIC ]	[IN:START_SHUFFLE_MUSIC ]	music	en_XX
+play the last song again	[IN:PREVIOUS_TRACK_MUSIC [SL:ORDINAL last ] [SL:MUSIC_TYPE song ] ]	[IN:PREVIOUS_TRACK_MUSIC [SL:ORDINAL last ] [SL:MUSIC_TYPE song ] ]	music	en_XX
+Don't play that artist again	[IN:REMOVE_FROM_PLAYLIST_MUSIC [SL:MUSIC_TYPE artist ] ]	[IN:REMOVE_FROM_PLAYLIST_MUSIC [SL:MUSIC_TYPE artist ] ]	music	en_XX
+please play bruno mars	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME bruno mars ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME bruno mars ] ]	music	en_XX
+Can I hear Avril Lavigne's latest music?	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Avril Lavigne ] [SL:MUSIC_TYPE music ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Avril Lavigne ] [SL:MUSIC_TYPE music ] ]	music	en_XX
+set a timer for 27 minutes and a second timer for 15 seconds	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME for 27 minutes ] [SL:ORDINAL second ] [SL:METHOD_TIMER timer ] [SL:DATE_TIME for 15 seconds ] ]	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME for 27 minutes ] [SL:ORDINAL second ] [SL:METHOD_TIMER timer ] [SL:DATE_TIME for 15 seconds ] ]	timer	en_XX
+play A Milli on iHeartRadio	[IN:PLAY_MUSIC [SL:MUSIC_TRACK_TITLE A Milli ] [SL:MUSIC_PROVIDER_NAME iHeartRadio ] ]	[IN:PLAY_MUSIC [SL:MUSIC_TRACK_TITLE A Milli ] [SL:MUSIC_PROVIDER_NAME iHeartRadio ] ]	music	en_XX
+play Portugal. The Man on iheartradio	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Portugal . The Man ] [SL:MUSIC_PROVIDER_NAME iheartradio ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Portugal . The Man ] [SL:MUSIC_PROVIDER_NAME iheartradio ] ]	music	en_XX
+Please add 20 minutes to the current timer	[IN:ADD_TIME_TIMER [SL:DATE_TIME 20 minutes ] [SL:METHOD_TIMER timer ] ]	[IN:ADD_TIME_TIMER [SL:DATE_TIME 20 minutes ] [SL:METHOD_TIMER timer ] ]	timer	en_XX
+play my top channel on Pandora please	[IN:PLAY_MUSIC [SL:MUSIC_TYPE channel ] [SL:MUSIC_PROVIDER_NAME Pandora ] ]	[IN:PLAY_MUSIC [SL:MUSIC_TYPE channel ] [SL:MUSIC_PROVIDER_NAME Pandora ] ]	music	en_XX
+hey repeat all my music	[IN:REPEAT_ALL_MUSIC ]	[IN:REPEAT_ALL_MUSIC ]	music	en_XX
+Give me the news updates	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news ] ]	news	en_XX
+set a 20 minutes timer for my run	[IN:CREATE_TIMER [SL:DATE_TIME 20 minutes ] [SL:METHOD_TIMER timer ] [SL:TIMER_NAME run ] ]	[IN:CREATE_TIMER [SL:DATE_TIME 20 minutes ] [SL:METHOD_TIMER timer ] [SL:TIMER_NAME run ] ]	timer	en_XX
+begin a timer for 30 minutes for me	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME for 30 minutes ] ]	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME for 30 minutes ] ]	timer	en_XX
+what is the status on the travel ban	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE status ] [SL:NEWS_TOPIC travel ban ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE status ] [SL:NEWS_TOPIC travel ban ] ]	news	en_XX
+Please play me some dancing music	[IN:PLAY_MUSIC [SL:MUSIC_GENRE dancing ] [SL:MUSIC_TYPE music ] ]	[IN:PLAY_MUSIC [SL:MUSIC_GENRE dancing ] [SL:MUSIC_TYPE music ] ]	music	en_XX
+Please skip	[IN:SKIP_TRACK_MUSIC ]	[IN:SKIP_TRACK_MUSIC ]	music	en_XX
+Shuffle all my music library and play	[IN:START_SHUFFLE_MUSIC [SL:MUSIC_TYPE music ] [SL:MUSIC_TYPE library ] ]	[IN:START_SHUFFLE_MUSIC [SL:MUSIC_TYPE music ] [SL:MUSIC_TYPE library ] ]	music	en_XX
+How many timers are running?	[IN:GET_TIMER [SL:METHOD_TIMER timers ] ]	[IN:GET_TIMER [SL:METHOD_TIMER timers ] ]	timer	en_XX
+Please tell me what my timer is set to now	[IN:GET_TIMER [SL:METHOD_TIMER timer ] ]	[IN:GET_TIMER [SL:METHOD_TIMER timer ] ]	timer	en_XX
+Set a timer for 17 minutes	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME for 17 minutes ] ]	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME for 17 minutes ] ]	timer	en_XX
+Could you please tell me the status of the timer?	[IN:GET_TIMER [SL:METHOD_TIMER timer ] ]	[IN:GET_TIMER [SL:METHOD_TIMER timer ] ]	timer	en_XX
+Delete the workout timer.	[IN:DELETE_TIMER [SL:METHOD_TIMER timer ] ]	[IN:DELETE_TIMER [SL:METHOD_TIMER timer ] ]	timer	en_XX
+resume time for 5 more minutes	[IN:RESUME_TIMER [SL:METHOD_TIMER time ] [SL:DATE_TIME for 5 more minutes ] ]	[IN:RESUME_TIMER [SL:METHOD_TIMER time ] [SL:DATE_TIME for 5 more minutes ] ]	timer	en_XX
+play the song She's Thunderstorms	[IN:PLAY_MUSIC [SL:MUSIC_TYPE song ] [SL:MUSIC_TRACK_TITLE She 's Thunderstorms ] ]	[IN:PLAY_MUSIC [SL:MUSIC_TYPE song ] [SL:MUSIC_TRACK_TITLE She 's Thunderstorms ] ]	music	en_XX
+What's Donald Trump's latest tweet?	[IN:QUESTION_NEWS [SL:NEWS_TOPIC Donald Trump 's latest tweet ] ]	[IN:QUESTION_NEWS [SL:NEWS_TOPIC Donald Trump 's latest tweet ] ]	news	en_XX
+any new news about trump today	[IN:GET_STORIES_NEWS [SL:NEWS_REFERENCE new ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC trump ] [SL:DATE_TIME today ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_REFERENCE new ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC trump ] [SL:DATE_TIME today ] ]	news	en_XX
+what is the latest news on the  riots in Missouri?	[IN:GET_STORIES_NEWS [SL:DATE_TIME latest ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC riots in Missouri ] ]	[IN:GET_STORIES_NEWS [SL:DATE_TIME latest ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC riots in Missouri ] ]	news	en_XX
+"Who is the founder of the ""alt right"" movement?"	[IN:QUESTION_NEWS [SL:NEWS_TOPIC founder of the " alt right " movement ] ]	"[IN:QUESTION_NEWS [SL:NEWS_TOPIC founder of the "" alt right "" movement ] ]"	news	en_XX
+Give me the latest trending news.	[IN:GET_STORIES_NEWS [SL:DATE_TIME latest ] [SL:NEWS_REFERENCE trending ] [SL:NEWS_TYPE news ] ]	[IN:GET_STORIES_NEWS [SL:DATE_TIME latest ] [SL:NEWS_REFERENCE trending ] [SL:NEWS_TYPE news ] ]	news	en_XX
+What's the name of the song that's playing now?	[IN:GET_TRACK_INFO_MUSIC [SL:MUSIC_TYPE song ] ]	[IN:GET_TRACK_INFO_MUSIC [SL:MUSIC_TYPE song ] ]	music	en_XX
+What is the political news for today?	[IN:GET_STORIES_NEWS [SL:NEWS_CATEGORY political ] [SL:NEWS_TYPE news ] [SL:DATE_TIME for today ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_CATEGORY political ] [SL:NEWS_TYPE news ] [SL:DATE_TIME for today ] ]	news	en_XX
+Restart current timer.	[IN:RESTART_TIMER [SL:METHOD_TIMER timer ] ]	[IN:RESTART_TIMER [SL:METHOD_TIMER timer ] ]	timer	en_XX
+Please set a timer to go off in 10 minutes.	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME in 10 minutes ] ]	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME in 10 minutes ] ]	timer	en_XX
+Date of release for this song	[IN:GET_TRACK_INFO_MUSIC [SL:MUSIC_TYPE song ] ]	[IN:GET_TRACK_INFO_MUSIC [SL:MUSIC_TYPE song ] ]	music	en_XX
+is China helping the US with north korea	[IN:QUESTION_NEWS [SL:NEWS_TOPIC China helping the US with north korea ] ]	[IN:QUESTION_NEWS [SL:NEWS_TOPIC China helping the US with north korea ] ]	news	en_XX
+are the Rolling Stones touring?	[IN:QUESTION_MUSIC [SL:MUSIC_ARTIST_NAME the Rolling Stones ] ]	[IN:QUESTION_MUSIC [SL:MUSIC_ARTIST_NAME the Rolling Stones ] ]	music	en_XX
+Restart this song please	[IN:REPLAY_MUSIC [SL:MUSIC_TYPE song ] ]	[IN:REPLAY_MUSIC [SL:MUSIC_TYPE song ] ]	music	en_XX
+play The Essential Mariah Carey on iHeartRadio	[IN:PLAY_MUSIC [SL:MUSIC_ALBUM_TITLE The Essential Mariah Carey ] [SL:MUSIC_PROVIDER_NAME iHeartRadio ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ALBUM_TITLE The Essential Mariah Carey ] [SL:MUSIC_PROVIDER_NAME iHeartRadio ] ]	music	en_XX
+Who won the debate last night	[IN:QUESTION_NEWS [SL:NEWS_TOPIC won the debate ] [SL:DATE_TIME last night ] ]	[IN:QUESTION_NEWS [SL:NEWS_TOPIC won the debate ] [SL:DATE_TIME last night ] ]	news	en_XX
+I want to listen to One More Light by Linkin Park on Spotify	[IN:PLAY_MUSIC [SL:MUSIC_TRACK_TITLE One More Light ] [SL:MUSIC_ARTIST_NAME Linkin Park ] [SL:MUSIC_PROVIDER_NAME Spotify ] ]	[IN:PLAY_MUSIC [SL:MUSIC_TRACK_TITLE One More Light ] [SL:MUSIC_ARTIST_NAME Linkin Park ] [SL:MUSIC_PROVIDER_NAME Spotify ] ]	music	en_XX
+hit me up with  some red sox news	[IN:GET_STORIES_NEWS [SL:NEWS_TOPIC red sox ] [SL:NEWS_TYPE news ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TOPIC red sox ] [SL:NEWS_TYPE news ] ]	news	en_XX
+what's the countdown on the timer	[IN:GET_TIMER [SL:METHOD_TIMER countdown ] [SL:METHOD_TIMER timer ] ]	[IN:GET_TIMER [SL:METHOD_TIMER countdown ] [SL:METHOD_TIMER timer ] ]	timer	en_XX
+Give me details on most talked about topics	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE details ] [SL:NEWS_CATEGORY most talked about ] [SL:NEWS_TOPIC topics ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE details ] [SL:NEWS_CATEGORY most talked about ] [SL:NEWS_TOPIC topics ] ]	news	en_XX
+CAN I HEAR NINE INCH NAILS TRACK LESS THAN?	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME NINE INCH NAILS ] [SL:MUSIC_TYPE TRACK ] [SL:MUSIC_TRACK_TITLE LESS THAN ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME NINE INCH NAILS ] [SL:MUSIC_TYPE TRACK ] [SL:MUSIC_TRACK_TITLE LESS THAN ] ]	music	en_XX
+Major news in USA	[IN:GET_STORIES_NEWS [SL:NEWS_REFERENCE Major ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC USA ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_REFERENCE Major ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC USA ] ]	news	en_XX
+how are the elections going in Nicaragua	[IN:QUESTION_NEWS [SL:NEWS_TOPIC elections going in Nicaragua ] ]	[IN:QUESTION_NEWS [SL:NEWS_TOPIC elections going in Nicaragua ] ]	news	en_XX
+music from the 60s	[IN:PLAY_MUSIC [SL:MUSIC_TYPE music ] [SL:MUSIC_GENRE 60s ] ]	[IN:PLAY_MUSIC [SL:MUSIC_TYPE music ] [SL:MUSIC_GENRE 60s ] ]	music	en_XX
+what is the current political headlines?	[IN:GET_STORIES_NEWS [SL:DATE_TIME the current ] [SL:NEWS_CATEGORY political ] [SL:NEWS_TYPE headlines ] ]	[IN:GET_STORIES_NEWS [SL:DATE_TIME the current ] [SL:NEWS_CATEGORY political ] [SL:NEWS_TYPE headlines ] ]	news	en_XX
+skip the first song of the album	[IN:SKIP_TRACK_MUSIC [SL:MUSIC_TYPE song ] [SL:MUSIC_TYPE album ] ]	[IN:SKIP_TRACK_MUSIC [SL:MUSIC_TYPE song ] [SL:MUSIC_TYPE album ] ]	music	en_XX
+replay all of today's songs	[IN:REPLAY_MUSIC [SL:MUSIC_GENRE today ] [SL:MUSIC_TYPE songs ] ]	[IN:REPLAY_MUSIC [SL:MUSIC_GENRE today ] [SL:MUSIC_TYPE songs ] ]	music	en_XX
+Play me some rock music	[IN:PLAY_MUSIC [SL:MUSIC_GENRE rock ] [SL:MUSIC_TYPE music ] ]	[IN:PLAY_MUSIC [SL:MUSIC_GENRE rock ] [SL:MUSIC_TYPE music ] ]	music	en_XX
+Can I listen to Mac Miller Make Believe on Spotify?	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Mac Miller ] [SL:MUSIC_TRACK_TITLE Make Believe ] [SL:MUSIC_PROVIDER_NAME Spotify ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Mac Miller ] [SL:MUSIC_TRACK_TITLE Make Believe ] [SL:MUSIC_PROVIDER_NAME Spotify ] ]	music	en_XX
+Any news about the Dallas Cowboys	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC Dallas Cowboys ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC Dallas Cowboys ] ]	news	en_XX
+Tell me how much time is left on my timer now	[IN:GET_TIMER [SL:METHOD_TIMER timer ] ]	[IN:GET_TIMER [SL:METHOD_TIMER timer ] ]	timer	en_XX
+When will Donald Trump leave office	[IN:QUESTION_NEWS ]	[IN:QUESTION_NEWS ]	news	en_XX
+what were the headlines on CNN	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE headlines ] [SL:NEWS_SOURCE CNN ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE headlines ] [SL:NEWS_SOURCE CNN ] ]	news	en_XX
+Give me news about North Korea	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC North Korea ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC North Korea ] ]	news	en_XX
+play midnight on pandora	[IN:PLAY_MUSIC [SL:MUSIC_ALBUM_TITLE midnight ] [SL:MUSIC_PROVIDER_NAME pandora ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ALBUM_TITLE midnight ] [SL:MUSIC_PROVIDER_NAME pandora ] ]	music	en_XX
+Change channel	[IN:PLAY_MUSIC [SL:MUSIC_TYPE channel ] ]	[IN:PLAY_MUSIC [SL:MUSIC_TYPE channel ] ]	music	en_XX
+my You aren’t done brushing until this goes off timer can you resume it	[IN:RESUME_TIMER [SL:TIMER_NAME You aren’t done brushing until this goes off ] [SL:METHOD_TIMER timer ] ]	[IN:RESUME_TIMER [SL:TIMER_NAME You aren’t done brushing until this goes off ] [SL:METHOD_TIMER timer ] ]	timer	en_XX
+Spotify, Play 50 Cent	[IN:PLAY_MUSIC [SL:MUSIC_PROVIDER_NAME Spotify ] [SL:MUSIC_ARTIST_NAME 50 Cent ] ]	[IN:PLAY_MUSIC [SL:MUSIC_PROVIDER_NAME Spotify ] [SL:MUSIC_ARTIST_NAME 50 Cent ] ]	music	en_XX
+What's the latest news?	[IN:GET_STORIES_NEWS [SL:DATE_TIME latest ] [SL:NEWS_TYPE news ] ]	[IN:GET_STORIES_NEWS [SL:DATE_TIME latest ] [SL:NEWS_TYPE news ] ]	news	en_XX
+put on indie rock	[IN:PLAY_MUSIC [SL:MUSIC_GENRE indie rock ] ]	[IN:PLAY_MUSIC [SL:MUSIC_GENRE indie rock ] ]	music	en_XX
+can you give me election news?	[IN:GET_STORIES_NEWS [SL:NEWS_TOPIC election ] [SL:NEWS_TYPE news ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TOPIC election ] [SL:NEWS_TYPE news ] ]	news	en_XX
+News headlines in Boston, please.	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE News headlines ] [SL:NEWS_TOPIC Boston ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE News headlines ] [SL:NEWS_TOPIC Boston ] ]	news	en_XX
+breaking news in the united states	[IN:GET_STORIES_NEWS [SL:NEWS_REFERENCE breaking ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC united states ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_REFERENCE breaking ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC united states ] ]	news	en_XX
+set the timer to go off in 30 minutes please	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME in 30 minutes ] ]	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME in 30 minutes ] ]	timer	en_XX
+play track 8 again	[IN:REPLAY_MUSIC [SL:MUSIC_TYPE track ] ]	[IN:REPLAY_MUSIC [SL:MUSIC_TYPE track ] ]	music	en_XX
+please use iheartradio for my music	[IN:SET_DEFAULT_PROVIDER_MUSIC [SL:MUSIC_PROVIDER_NAME iheartradio ] ]	[IN:SET_DEFAULT_PROVIDER_MUSIC [SL:MUSIC_PROVIDER_NAME iheartradio ] ]	music	en_XX
+Thomas Rhett's latest album please	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Thomas Rhett ] [SL:MUSIC_TYPE album ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Thomas Rhett ] [SL:MUSIC_TYPE album ] ]	music	en_XX
+please use apple for music	[IN:SET_DEFAULT_PROVIDER_MUSIC [SL:MUSIC_PROVIDER_NAME apple ] ]	[IN:SET_DEFAULT_PROVIDER_MUSIC [SL:MUSIC_PROVIDER_NAME apple ] ]	music	en_XX
+play songs by thelonious monk	[IN:PLAY_MUSIC [SL:MUSIC_TYPE songs ] [SL:MUSIC_ARTIST_NAME thelonious monk ] ]	[IN:PLAY_MUSIC [SL:MUSIC_TYPE songs ] [SL:MUSIC_ARTIST_NAME thelonious monk ] ]	music	en_XX
+Play something happy for me	[IN:PLAY_MUSIC [SL:MUSIC_GENRE happy ] ]	[IN:PLAY_MUSIC [SL:MUSIC_GENRE happy ] ]	music	en_XX
+What type of government does France have	[IN:QUESTION_NEWS [SL:NEWS_TOPIC type of government does France have ] ]	[IN:QUESTION_NEWS [SL:NEWS_TOPIC type of government does France have ] ]	news	en_XX
+please stop my timer	[IN:PAUSE_TIMER [SL:METHOD_TIMER timer ] ]	[IN:PAUSE_TIMER [SL:METHOD_TIMER timer ] ]	timer	en_XX
+what was the most popular song last summer	[IN:QUESTION_MUSIC [SL:MUSIC_TYPE song ] ]	[IN:QUESTION_MUSIC [SL:MUSIC_TYPE song ] ]	music	en_XX
+I like this song that Spotify is playing, what is it?	[IN:GET_TRACK_INFO_MUSIC [SL:MUSIC_TYPE song ] [SL:MUSIC_PROVIDER_NAME Spotify ] ]	[IN:GET_TRACK_INFO_MUSIC [SL:MUSIC_TYPE song ] [SL:MUSIC_PROVIDER_NAME Spotify ] ]	music	en_XX
+Please read the latest news stories to me	[IN:GET_STORIES_NEWS [SL:DATE_TIME latest ] [SL:NEWS_TYPE news stories ] ]	[IN:GET_STORIES_NEWS [SL:DATE_TIME latest ] [SL:NEWS_TYPE news stories ] ]	news	en_XX
+how much time has elapsed	[IN:GET_TIMER [SL:METHOD_TIMER time ] ]	[IN:GET_TIMER [SL:METHOD_TIMER time ] ]	timer	en_XX
+who sings this version	[IN:GET_TRACK_INFO_MUSIC ]	[IN:GET_TRACK_INFO_MUSIC ]	music	en_XX
+Give me the latest news about Britney Spears.	[IN:GET_STORIES_NEWS [SL:DATE_TIME latest ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC Britney Spears ] ]	[IN:GET_STORIES_NEWS [SL:DATE_TIME latest ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC Britney Spears ] ]	news	en_XX
+Shuffle my music.	[IN:START_SHUFFLE_MUSIC [SL:MUSIC_TYPE music ] ]	[IN:START_SHUFFLE_MUSIC [SL:MUSIC_TYPE music ] ]	music	en_XX
+reset my timer please	[IN:RESTART_TIMER [SL:METHOD_TIMER timer ] ]	[IN:RESTART_TIMER [SL:METHOD_TIMER timer ] ]	timer	en_XX
+Latest news in Washington.	[IN:GET_STORIES_NEWS [SL:DATE_TIME Latest ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC Washington ] ]	[IN:GET_STORIES_NEWS [SL:DATE_TIME Latest ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC Washington ] ]	news	en_XX
+WHat is the recent news?	[IN:GET_STORIES_NEWS [SL:DATE_TIME recent ] [SL:NEWS_TYPE news ] ]	[IN:GET_STORIES_NEWS [SL:DATE_TIME recent ] [SL:NEWS_TYPE news ] ]	news	en_XX
+Display timer.	[IN:GET_TIMER [SL:METHOD_TIMER timer ] ]	[IN:GET_TIMER [SL:METHOD_TIMER timer ] ]	timer	en_XX
+Never play songs by Justin Bieber again	[IN:REMOVE_FROM_PLAYLIST_MUSIC [SL:MUSIC_TYPE songs ] [SL:MUSIC_ARTIST_NAME Justin Bieber ] ]	[IN:REMOVE_FROM_PLAYLIST_MUSIC [SL:MUSIC_TYPE songs ] [SL:MUSIC_ARTIST_NAME Justin Bieber ] ]	music	en_XX
+PLAY THE NEW PARAMORE ALBUM	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME PARAMORE ] [SL:MUSIC_TYPE ALBUM ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME PARAMORE ] [SL:MUSIC_TYPE ALBUM ] ]	music	en_XX
+Play Lana Del Rey's new album	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Lana Del Rey ] [SL:MUSIC_TYPE album ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Lana Del Rey ] [SL:MUSIC_TYPE album ] ]	music	en_XX
+activate timer for 25 minutes	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME for 25 minutes ] ]	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME for 25 minutes ] ]	timer	en_XX
+make itunes as main music provider	[IN:SET_DEFAULT_PROVIDER_MUSIC [SL:MUSIC_PROVIDER_NAME itunes ] ]	[IN:SET_DEFAULT_PROVIDER_MUSIC [SL:MUSIC_PROVIDER_NAME itunes ] ]	music	en_XX
+Play the latest song by Tory Lanez.	[IN:PLAY_MUSIC [SL:MUSIC_TYPE song ] [SL:MUSIC_ARTIST_NAME Tory Lanez ] ]	[IN:PLAY_MUSIC [SL:MUSIC_TYPE song ] [SL:MUSIC_ARTIST_NAME Tory Lanez ] ]	music	en_XX
+Set a timer for 15 minutes?	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME for 15 minutes ] ]	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME for 15 minutes ] ]	timer	en_XX
+resume the current song	[IN:RESUME_MUSIC [SL:MUSIC_TYPE song ] ]	[IN:RESUME_MUSIC [SL:MUSIC_TYPE song ] ]	music	en_XX
+play the song 22	[IN:PLAY_MUSIC [SL:MUSIC_TYPE song ] [SL:MUSIC_TRACK_TITLE 22 ] ]	[IN:PLAY_MUSIC [SL:MUSIC_TYPE song ] [SL:MUSIC_TRACK_TITLE 22 ] ]	music	en_XX
+Skip to track 8.	[IN:SKIP_TRACK_MUSIC [SL:MUSIC_TYPE track ] ]	[IN:SKIP_TRACK_MUSIC [SL:MUSIC_TYPE track ] ]	music	en_XX
+Pause my current timer	[IN:PAUSE_TIMER [SL:METHOD_TIMER timer ] ]	[IN:PAUSE_TIMER [SL:METHOD_TIMER timer ] ]	timer	en_XX
+Delete the timer with the least time on it.	[IN:DELETE_TIMER [SL:METHOD_TIMER timer ] ]	[IN:DELETE_TIMER [SL:METHOD_TIMER timer ] ]	timer	en_XX
+what are the details of Charlottesville, VA	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE details ] [SL:NEWS_TOPIC Charlottesville , VA ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE details ] [SL:NEWS_TOPIC Charlottesville , VA ] ]	news	en_XX
+play BTS music	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME BTS ] [SL:MUSIC_TYPE music ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME BTS ] [SL:MUSIC_TYPE music ] ]	music	en_XX
+what are you playing on Spotify right now	[IN:GET_TRACK_INFO_MUSIC [SL:MUSIC_PROVIDER_NAME Spotify ] ]	[IN:GET_TRACK_INFO_MUSIC [SL:MUSIC_PROVIDER_NAME Spotify ] ]	music	en_XX
+What's trending in local news?	[IN:GET_STORIES_NEWS [SL:NEWS_REFERENCE trending ] [SL:NEWS_CATEGORY local ] [SL:NEWS_TYPE news ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_REFERENCE trending ] [SL:NEWS_CATEGORY local ] [SL:NEWS_TYPE news ] ]	news	en_XX
+Give me the latest financial news	[IN:GET_STORIES_NEWS [SL:DATE_TIME latest ] [SL:NEWS_CATEGORY financial ] [SL:NEWS_TYPE news ] ]	[IN:GET_STORIES_NEWS [SL:DATE_TIME latest ] [SL:NEWS_CATEGORY financial ] [SL:NEWS_TYPE news ] ]	news	en_XX
+Can you give me details around the passing of the immigration bill	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE details ] [SL:NEWS_TOPIC passing of the immigration bill ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE details ] [SL:NEWS_TOPIC passing of the immigration bill ] ]	news	en_XX
+Make me a Hilda's music play list	[IN:CREATE_PLAYLIST_MUSIC [SL:MUSIC_PLAYLIST_TITLE Hilda 's music ] [SL:MUSIC_TYPE play list ] ]	[IN:CREATE_PLAYLIST_MUSIC [SL:MUSIC_PLAYLIST_TITLE Hilda 's music ] [SL:MUSIC_TYPE play list ] ]	music	en_XX
+What year was that song recorded?	[IN:GET_TRACK_INFO_MUSIC [SL:MUSIC_TYPE song ] ]	[IN:GET_TRACK_INFO_MUSIC [SL:MUSIC_TYPE song ] ]	music	en_XX
+Clear all timers	[IN:DELETE_TIMER [SL:AMOUNT all ] [SL:METHOD_TIMER timers ] ]	[IN:DELETE_TIMER [SL:AMOUNT all ] [SL:METHOD_TIMER timers ] ]	timer	en_XX
+bbc headlines	[IN:GET_STORIES_NEWS [SL:NEWS_SOURCE bbc ] [SL:NEWS_TYPE headlines ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_SOURCE bbc ] [SL:NEWS_TYPE headlines ] ]	news	en_XX
+play some European	[IN:PLAY_MUSIC [SL:MUSIC_GENRE European ] ]	[IN:PLAY_MUSIC [SL:MUSIC_GENRE European ] ]	music	en_XX
+play my Jacques station	[IN:PLAY_MUSIC [SL:MUSIC_PLAYLIST_TITLE Jacques ] [SL:MUSIC_TYPE station ] ]	[IN:PLAY_MUSIC [SL:MUSIC_PLAYLIST_TITLE Jacques ] [SL:MUSIC_TYPE station ] ]	music	en_XX
+How long is left on the timer?	[IN:GET_TIMER [SL:METHOD_TIMER timer ] ]	[IN:GET_TIMER [SL:METHOD_TIMER timer ] ]	timer	en_XX
+"Play ""I Like Me Better"" by the Logic"	[IN:PLAY_MUSIC [SL:MUSIC_TRACK_TITLE I Like Me Better ] [SL:MUSIC_ARTIST_NAME Logic ] ]	[IN:PLAY_MUSIC [SL:MUSIC_TRACK_TITLE I Like Me Better ] [SL:MUSIC_ARTIST_NAME Logic ] ]	music	en_XX
+i want to listen to Calvin Harris	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Calvin Harris ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Calvin Harris ] ]	music	en_XX
+Set timer to bake for 30 minutes.	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME for 30 minutes ] ]	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME for 30 minutes ] ]	timer	en_XX
+play some oldies	[IN:PLAY_MUSIC [SL:MUSIC_GENRE oldies ] ]	[IN:PLAY_MUSIC [SL:MUSIC_GENRE oldies ] ]	music	en_XX
+whats the news on Travel ban to USA	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC Travel ban to USA ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC Travel ban to USA ] ]	news	en_XX
+Go back two tracks	[IN:REPLAY_MUSIC [SL:MUSIC_TYPE tracks ] ]	[IN:REPLAY_MUSIC [SL:MUSIC_TYPE tracks ] ]	music	en_XX
+Read me the top news in Baltimore	[IN:GET_STORIES_NEWS [SL:NEWS_REFERENCE top ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC Baltimore ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_REFERENCE top ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC Baltimore ] ]	news	en_XX
+shuffle the tracks please	[IN:START_SHUFFLE_MUSIC [SL:MUSIC_TYPE tracks ] ]	[IN:START_SHUFFLE_MUSIC [SL:MUSIC_TYPE tracks ] ]	music	en_XX
+How many days has trump been on vacation?	[IN:QUESTION_NEWS [SL:NEWS_TOPIC How many days has trump been on vacation ] ]	[IN:QUESTION_NEWS [SL:NEWS_TOPIC How many days has trump been on vacation ] ]	news	en_XX
+Set timer for 6 minutes	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME for 6 minutes ] ]	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME for 6 minutes ] ]	timer	en_XX
+use google play as my default	[IN:SET_DEFAULT_PROVIDER_MUSIC [SL:MUSIC_PROVIDER_NAME google play ] ]	[IN:SET_DEFAULT_PROVIDER_MUSIC [SL:MUSIC_PROVIDER_NAME google play ] ]	music	en_XX
+What was the name of the city the alt-right protest took place in	[IN:QUESTION_NEWS [SL:NEWS_TOPIC name of the city the alt - right protest took place in ] ]	[IN:QUESTION_NEWS [SL:NEWS_TOPIC name of the city the alt - right protest took place in ] ]	news	en_XX
+Play a certain rap artist	[IN:PLAY_MUSIC [SL:MUSIC_GENRE rap ] [SL:MUSIC_TYPE artist ] ]	[IN:PLAY_MUSIC [SL:MUSIC_GENRE rap ] [SL:MUSIC_TYPE artist ] ]	music	en_XX
+"Play Madonna ""Vogue"""	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Madonna ] [SL:MUSIC_TRACK_TITLE Vogue ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Madonna ] [SL:MUSIC_TRACK_TITLE Vogue ] ]	music	en_XX
+make a 20 minute timer	[IN:CREATE_TIMER [SL:DATE_TIME 20 minute ] [SL:METHOD_TIMER timer ] ]	[IN:CREATE_TIMER [SL:DATE_TIME 20 minute ] [SL:METHOD_TIMER timer ] ]	timer	en_XX
+as my default music app use apple music	[IN:SET_DEFAULT_PROVIDER_MUSIC [SL:MUSIC_PROVIDER_NAME apple music ] ]	[IN:SET_DEFAULT_PROVIDER_MUSIC [SL:MUSIC_PROVIDER_NAME apple music ] ]	music	en_XX
+10 minutes on the timer please	[IN:CREATE_TIMER [SL:DATE_TIME 10 minutes ] [SL:METHOD_TIMER timer ] ]	[IN:CREATE_TIMER [SL:DATE_TIME 10 minutes ] [SL:METHOD_TIMER timer ] ]	timer	en_XX
+read national news headlines	[IN:GET_STORIES_NEWS [SL:NEWS_CATEGORY national ] [SL:NEWS_TYPE news headlines ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_CATEGORY national ] [SL:NEWS_TYPE news headlines ] ]	news	en_XX
+Start timer over again	[IN:RESUME_TIMER [SL:METHOD_TIMER timer ] ]	[IN:RESUME_TIMER [SL:METHOD_TIMER timer ] ]	timer	en_XX
+Give me a news update of the last 24 hours.	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news ] [SL:DATE_TIME the last 24 hours ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news ] [SL:DATE_TIME the last 24 hours ] ]	news	en_XX
+are you able to find the lyric for this song?	[IN:GET_LYRICS_MUSIC [SL:MUSIC_TYPE song ] ]	[IN:GET_LYRICS_MUSIC [SL:MUSIC_TYPE song ] ]	music	en_XX
+Play me some Chopin.	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Chopin ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Chopin ] ]	music	en_XX
+Delete most recent timer	[IN:DELETE_TIMER [SL:METHOD_TIMER timer ] ]	[IN:DELETE_TIMER [SL:METHOD_TIMER timer ] ]	timer	en_XX
+Reduce time by 10 minutes	[IN:SUBTRACT_TIME_TIMER [SL:METHOD_TIMER time ] [SL:DATE_TIME by 10 minutes ] ]	[IN:SUBTRACT_TIME_TIMER [SL:METHOD_TIMER time ] [SL:DATE_TIME by 10 minutes ] ]	timer	en_XX
+Give me details about the Usher STD lawsuit.	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE details ] [SL:NEWS_TOPIC Usher STD lawsuit ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE details ] [SL:NEWS_TOPIC Usher STD lawsuit ] ]	news	en_XX
+What is the current breaking news?	[IN:GET_STORIES_NEWS [SL:DATE_TIME the current ] [SL:NEWS_REFERENCE breaking ] [SL:NEWS_TYPE news ] ]	[IN:GET_STORIES_NEWS [SL:DATE_TIME the current ] [SL:NEWS_REFERENCE breaking ] [SL:NEWS_TYPE news ] ]	news	en_XX
+play Nas on iheartradio	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Nas ] [SL:MUSIC_PROVIDER_NAME iheartradio ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Nas ] [SL:MUSIC_PROVIDER_NAME iheartradio ] ]	music	en_XX
+Set a timer for a minute	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME for a minute ] ]	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME for a minute ] ]	timer	en_XX
+Please play Bank Account	[IN:PLAY_MUSIC [SL:MUSIC_TRACK_TITLE Bank Account ] ]	[IN:PLAY_MUSIC [SL:MUSIC_TRACK_TITLE Bank Account ] ]	music	en_XX
+I want to hear The first snow on spotify	[IN:PLAY_MUSIC [SL:MUSIC_TRACK_TITLE The first snow ] [SL:MUSIC_PROVIDER_NAME spotify ] ]	[IN:PLAY_MUSIC [SL:MUSIC_TRACK_TITLE The first snow ] [SL:MUSIC_PROVIDER_NAME spotify ] ]	music	en_XX
+Any news about the Florida Gators	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC Florida Gators ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC Florida Gators ] ]	news	en_XX
+What are Ted Cruz's comments on healthcare?	[IN:QUESTION_NEWS [SL:NEWS_TOPIC Ted Cruz 's comments on healthcare ] ]	[IN:QUESTION_NEWS [SL:NEWS_TOPIC Ted Cruz 's comments on healthcare ] ]	news	en_XX
+Coutndown about 30 seconds	[IN:CREATE_TIMER [SL:METHOD_TIMER Coutndown ] [SL:DATE_TIME about 30 seconds ] ]	[IN:CREATE_TIMER [SL:METHOD_TIMER Coutndown ] [SL:DATE_TIME about 30 seconds ] ]	timer	en_XX
+put my timers on the screen	[IN:GET_TIMER [SL:METHOD_TIMER timers ] ]	[IN:GET_TIMER [SL:METHOD_TIMER timers ] ]	timer	en_XX
+What are the details of yesterday's car chase that was in the news	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE details ] [SL:NEWS_TOPIC yesterday 's car chase ] [SL:NEWS_TYPE news ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE details ] [SL:NEWS_TOPIC yesterday 's car chase ] [SL:NEWS_TYPE news ] ]	news	en_XX
+Set a timer for 20 minutes	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME for 20 minutes ] ]	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME for 20 minutes ] ]	timer	en_XX
+What are my local news stories	[IN:GET_STORIES_NEWS [SL:NEWS_CATEGORY local ] [SL:NEWS_TYPE news stories ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_CATEGORY local ] [SL:NEWS_TYPE news stories ] ]	news	en_XX
+Stop playing this music halfway through	[IN:STOP_MUSIC [SL:MUSIC_TYPE music ] ]	[IN:STOP_MUSIC [SL:MUSIC_TYPE music ] ]	music	en_XX
+What is the latest news on the budget cuts?	[IN:GET_STORIES_NEWS [SL:DATE_TIME latest ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC budget cuts ] ]	[IN:GET_STORIES_NEWS [SL:DATE_TIME latest ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC budget cuts ] ]	news	en_XX
+What's today's headlines form the Huffington Post?	[IN:GET_STORIES_NEWS [SL:DATE_TIME today ] [SL:NEWS_TYPE headlines ] [SL:NEWS_SOURCE Huffington Post ] ]	[IN:GET_STORIES_NEWS [SL:DATE_TIME today ] [SL:NEWS_TYPE headlines ] [SL:NEWS_SOURCE Huffington Post ] ]	news	en_XX
+what is the world news now	[IN:GET_STORIES_NEWS [SL:NEWS_CATEGORY world ] [SL:NEWS_TYPE news ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_CATEGORY world ] [SL:NEWS_TYPE news ] ]	news	en_XX
+I don't want to listen to this playlist anymore	[IN:DELETE_PLAYLIST_MUSIC [SL:MUSIC_TYPE playlist ] ]	[IN:DELETE_PLAYLIST_MUSIC [SL:MUSIC_TYPE playlist ] ]	music	en_XX
+Play the classical station on Pandora	[IN:PLAY_MUSIC [SL:MUSIC_GENRE classical ] [SL:MUSIC_TYPE station ] [SL:MUSIC_PROVIDER_NAME Pandora ] ]	[IN:PLAY_MUSIC [SL:MUSIC_GENRE classical ] [SL:MUSIC_TYPE station ] [SL:MUSIC_PROVIDER_NAME Pandora ] ]	music	en_XX
+give me some elevator music	[IN:PLAY_MUSIC [SL:MUSIC_GENRE elevator ] [SL:MUSIC_TYPE music ] ]	[IN:PLAY_MUSIC [SL:MUSIC_GENRE elevator ] [SL:MUSIC_TYPE music ] ]	music	en_XX
+make a Drink water timer	[IN:CREATE_TIMER [SL:TIMER_NAME Drink water ] [SL:METHOD_TIMER timer ] ]	[IN:CREATE_TIMER [SL:TIMER_NAME Drink water ] [SL:METHOD_TIMER timer ] ]	timer	en_XX
+Are there any new developments in the Taylor Swift case	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE developments ] [SL:NEWS_TOPIC Taylor Swift case ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE developments ] [SL:NEWS_TOPIC Taylor Swift case ] ]	news	en_XX
+How many people were injured during the Charlottesville rally?	[IN:QUESTION_NEWS [SL:NEWS_TOPIC people were injured during the Charlottesville rally ] ]	[IN:QUESTION_NEWS [SL:NEWS_TOPIC people were injured during the Charlottesville rally ] ]	news	en_XX
+How long has this timer been going?	[IN:GET_TIMER [SL:METHOD_TIMER timer ] ]	[IN:GET_TIMER [SL:METHOD_TIMER timer ] ]	timer	en_XX
+I like this	[IN:LIKE_MUSIC ]	[IN:LIKE_MUSIC ]	music	en_XX
+Tell me some celebrity news.	[IN:GET_STORIES_NEWS [SL:NEWS_CATEGORY celebrity ] [SL:NEWS_TYPE news ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_CATEGORY celebrity ] [SL:NEWS_TYPE news ] ]	news	en_XX
+headline news	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE headline news ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE headline news ] ]	news	en_XX
+What is the news saying about healthcare?	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC healthcare ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC healthcare ] ]	news	en_XX
+play coke studio song	[IN:PLAY_MUSIC [SL:MUSIC_TRACK_TITLE coke studio ] [SL:MUSIC_TYPE song ] ]	[IN:PLAY_MUSIC [SL:MUSIC_TRACK_TITLE coke studio ] [SL:MUSIC_TYPE song ] ]	music	en_XX
+play Jay park	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Jay park ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Jay park ] ]	music	en_XX
+play WKSC FM on iheartradio	[IN:PLAY_MUSIC [SL:MUSIC_RADIO_ID WKSC FM ] [SL:MUSIC_PROVIDER_NAME iheartradio ] ]	[IN:PLAY_MUSIC [SL:MUSIC_RADIO_ID WKSC FM ] [SL:MUSIC_PROVIDER_NAME iheartradio ] ]	music	en_XX
+Please read me the most recent headlines?	[IN:GET_STORIES_NEWS [SL:DATE_TIME the most recent ] [SL:NEWS_TYPE headlines ] ]	[IN:GET_STORIES_NEWS [SL:DATE_TIME the most recent ] [SL:NEWS_TYPE headlines ] ]	news	en_XX
+Please read the details about  OJ's parole	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE details ] [SL:NEWS_TOPIC OJ 's parole ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE details ] [SL:NEWS_TOPIC OJ 's parole ] ]	news	en_XX
+Add song to playlist November	[IN:ADD_TO_PLAYLIST_MUSIC [SL:MUSIC_TYPE song ] [SL:MUSIC_TYPE playlist ] [SL:MUSIC_PLAYLIST_TITLE November ] ]	[IN:ADD_TO_PLAYLIST_MUSIC [SL:MUSIC_TYPE song ] [SL:MUSIC_TYPE playlist ] [SL:MUSIC_PLAYLIST_TITLE November ] ]	music	en_XX
+Fast forward to the chorus.	[IN:FAST_FORWARD_MUSIC ]	[IN:FAST_FORWARD_MUSIC ]	music	en_XX
+Play me some Miley Cyrus on Spotify	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Miley Cyrus ] [SL:MUSIC_PROVIDER_NAME Spotify ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Miley Cyrus ] [SL:MUSIC_PROVIDER_NAME Spotify ] ]	music	en_XX
+I want to listen to Kygo's latest album.	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Kygo ] [SL:MUSIC_TYPE album ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Kygo ] [SL:MUSIC_TYPE album ] ]	music	en_XX
+Please play classic rock	[IN:PLAY_MUSIC [SL:MUSIC_GENRE classic rock ] ]	[IN:PLAY_MUSIC [SL:MUSIC_GENRE classic rock ] ]	music	en_XX
+Please set a timer for 60 minutes	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME for 60 minutes ] ]	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME for 60 minutes ] ]	timer	en_XX
+Resume timer now	[IN:RESUME_TIMER [SL:METHOD_TIMER timer ] ]	[IN:RESUME_TIMER [SL:METHOD_TIMER timer ] ]	timer	en_XX
+Increase the timer by 15 minutes for stretching	[IN:ADD_TIME_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME by 15 minutes ] ]	[IN:ADD_TIME_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME by 15 minutes ] ]	timer	en_XX
+How much longer on my timer?	[IN:GET_TIMER [SL:METHOD_TIMER timer ] ]	[IN:GET_TIMER [SL:METHOD_TIMER timer ] ]	timer	en_XX
+Fill me in on the latest local trial updates	[IN:GET_STORIES_NEWS [SL:DATE_TIME in on the latest ] [SL:NEWS_CATEGORY local ] [SL:NEWS_TOPIC trial ] [SL:NEWS_TYPE updates ] ]	[IN:GET_STORIES_NEWS [SL:DATE_TIME in on the latest ] [SL:NEWS_CATEGORY local ] [SL:NEWS_TOPIC trial ] [SL:NEWS_TYPE updates ] ]	news	en_XX
+Put The System's Don't Disturb This Groove on repeat.	[IN:REPLAY_MUSIC [SL:MUSIC_ARTIST_NAME The System ] [SL:MUSIC_TRACK_TITLE Don't Disturb This Groove ] ]	[IN:REPLAY_MUSIC [SL:MUSIC_ARTIST_NAME The System ] [SL:MUSIC_TRACK_TITLE Don't Disturb This Groove ] ]	music	en_XX
+I want to listen to the next song.	[IN:SKIP_TRACK_MUSIC [SL:ORDINAL next ] [SL:MUSIC_TYPE song ] ]	[IN:SKIP_TRACK_MUSIC [SL:ORDINAL next ] [SL:MUSIC_TYPE song ] ]	music	en_XX
+What's the current news from the White House cabinet?	[IN:GET_STORIES_NEWS [SL:DATE_TIME the current ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC White House cabinet ] ]	[IN:GET_STORIES_NEWS [SL:DATE_TIME the current ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC White House cabinet ] ]	news	en_XX
+what are the top headlines this week	[IN:GET_STORIES_NEWS [SL:NEWS_REFERENCE top ] [SL:NEWS_TYPE headlines ] [SL:DATE_TIME this week ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_REFERENCE top ] [SL:NEWS_TYPE headlines ] [SL:DATE_TIME this week ] ]	news	en_XX
+I want to listen to K-pop	[IN:PLAY_MUSIC [SL:MUSIC_GENRE K - pop ] ]	[IN:PLAY_MUSIC [SL:MUSIC_GENRE K - pop ] ]	music	en_XX
+make a timer for thirteen minutes named turkey	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME for thirteen minutes ] [SL:TIMER_NAME turkey ] ]	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME for thirteen minutes ] [SL:TIMER_NAME turkey ] ]	timer	en_XX
+Set a new timer for 30 minutes.	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME for 30 minutes ] ]	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME for 30 minutes ] ]	timer	en_XX
+Play Bone Thugs N Harmony on Spotify.	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Bone Thugs N Harmony ] [SL:MUSIC_PROVIDER_NAME Spotify ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Bone Thugs N Harmony ] [SL:MUSIC_PROVIDER_NAME Spotify ] ]	music	en_XX
+Any recent news about OJ Simpson?	[IN:GET_STORIES_NEWS [SL:DATE_TIME recent ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC OJ Simpson ] ]	[IN:GET_STORIES_NEWS [SL:DATE_TIME recent ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC OJ Simpson ] ]	news	en_XX
+what are the local news updates	[IN:GET_STORIES_NEWS [SL:NEWS_CATEGORY local ] [SL:NEWS_TYPE news ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_CATEGORY local ] [SL:NEWS_TYPE news ] ]	news	en_XX
+play bruno mars radio	[IN:PLAY_MUSIC [SL:MUSIC_PLAYLIST_TITLE bruno mars ] [SL:MUSIC_TYPE radio ] ]	[IN:PLAY_MUSIC [SL:MUSIC_PLAYLIST_TITLE bruno mars ] [SL:MUSIC_TYPE radio ] ]	music	en_XX
+would you add 21 minutes to my Pull the teabag timer	[IN:ADD_TIME_TIMER [SL:DATE_TIME 21 minutes ] [SL:TIMER_NAME Pull the teabag ] [SL:METHOD_TIMER timer ] ]	[IN:ADD_TIME_TIMER [SL:DATE_TIME 21 minutes ] [SL:TIMER_NAME Pull the teabag ] [SL:METHOD_TIMER timer ] ]	timer	en_XX
+What were the major headlines this week?	[IN:GET_STORIES_NEWS [SL:NEWS_REFERENCE major ] [SL:NEWS_TYPE headlines ] [SL:DATE_TIME this week ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_REFERENCE major ] [SL:NEWS_TYPE headlines ] [SL:DATE_TIME this week ] ]	news	en_XX
+How much time do I have left on my running session?	[IN:GET_TIMER ]	[IN:GET_TIMER ]	timer	en_XX
+change my oven timer	[IN:UPDATE_TIMER [SL:TIMER_NAME oven ] [SL:DATE_TIME timer ] ]	[IN:UPDATE_TIMER [SL:TIMER_NAME oven ] [SL:DATE_TIME timer ] ]	timer	en_XX
+Look up the status of the healthcare bill in the news	[IN:GET_STORIES_NEWS [SL:NEWS_TOPIC healthcare bill ] [SL:NEWS_TYPE news ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TOPIC healthcare bill ] [SL:NEWS_TYPE news ] ]	news	en_XX
+please set a time for 2 hours	[IN:CREATE_TIMER [SL:DATE_TIME for 2 hours ] ]	[IN:CREATE_TIMER [SL:DATE_TIME for 2 hours ] ]	timer	en_XX
+how much left on the first timer?	[IN:GET_TIMER [SL:ORDINAL first ] [SL:METHOD_TIMER timer ] ]	[IN:GET_TIMER [SL:ORDINAL first ] [SL:METHOD_TIMER timer ] ]	timer	en_XX
+play the Ne-Yo	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Ne - Yo ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Ne - Yo ] ]	music	en_XX
+how many more minutes before the timer runs out?	[IN:GET_TIMER [SL:METHOD_TIMER timer ] ]	[IN:GET_TIMER [SL:METHOD_TIMER timer ] ]	timer	en_XX
+Play songs by Britney Spears.	[IN:PLAY_MUSIC [SL:MUSIC_TYPE songs ] [SL:MUSIC_ARTIST_NAME Britney Spears ] ]	[IN:PLAY_MUSIC [SL:MUSIC_TYPE songs ] [SL:MUSIC_ARTIST_NAME Britney Spears ] ]	music	en_XX
+Play OneRepublic's Baby On Baby album.	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME OneRepublic ] [SL:MUSIC_ALBUM_TITLE Baby ] [SL:MUSIC_TYPE album ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME OneRepublic ] [SL:MUSIC_ALBUM_TITLE Baby On Baby ] [SL:MUSIC_TYPE album ] ]	music	en_XX
+Who sang that last song?	[IN:GET_TRACK_INFO_MUSIC [SL:MUSIC_TYPE song ] ]	[IN:GET_TRACK_INFO_MUSIC [SL:MUSIC_TYPE song ] ]	music	en_XX
+Please play me some country music	[IN:PLAY_MUSIC [SL:MUSIC_GENRE country ] [SL:MUSIC_TYPE music ] ]	[IN:PLAY_MUSIC [SL:MUSIC_GENRE country ] [SL:MUSIC_TYPE music ] ]	music	en_XX
+How do I set a timer for eighteen minutes?	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME for eighteen minutes ] ]	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME for eighteen minutes ] ]	timer	en_XX
+tell me the latest news	[IN:GET_STORIES_NEWS [SL:DATE_TIME latest ] [SL:NEWS_TYPE news ] ]	[IN:GET_STORIES_NEWS [SL:DATE_TIME latest ] [SL:NEWS_TYPE news ] ]	news	en_XX
+What does the timer say?	[IN:GET_TIMER [SL:METHOD_TIMER timer ] ]	[IN:GET_TIMER [SL:METHOD_TIMER timer ] ]	timer	en_XX
+what is left on timer	[IN:GET_TIMER [SL:METHOD_TIMER timer ] ]	[IN:GET_TIMER [SL:METHOD_TIMER timer ] ]	timer	en_XX
+Play Red Hot Chili Peppers songs	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Red Hot Chili Peppers ] [SL:MUSIC_TYPE songs ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Red Hot Chili Peppers ] [SL:MUSIC_TYPE songs ] ]	music	en_XX
+Please pause this track now.	[IN:PAUSE_MUSIC [SL:MUSIC_TYPE track ] ]	[IN:PAUSE_MUSIC [SL:MUSIC_TYPE track ] ]	music	en_XX
+play slow dancing in a burning room by john mayer	[IN:PLAY_MUSIC [SL:MUSIC_TRACK_TITLE slow dancing in a burning room ] [SL:MUSIC_ARTIST_NAME john mayer ] ]	[IN:PLAY_MUSIC [SL:MUSIC_TRACK_TITLE slow dancing in a burning room ] [SL:MUSIC_ARTIST_NAME john mayer ] ]	music	en_XX
+play music on the speaker	[IN:PLAY_MUSIC [SL:MUSIC_TYPE music ] ]	[IN:PLAY_MUSIC [SL:MUSIC_TYPE music ] ]	music	en_XX
+i need a second timer for 3 minutes	[IN:CREATE_TIMER [SL:ORDINAL second ] [SL:METHOD_TIMER timer ] [SL:DATE_TIME for 3 minutes ] ]	[IN:CREATE_TIMER [SL:ORDINAL second ] [SL:METHOD_TIMER timer ] [SL:DATE_TIME for 3 minutes ] ]	timer	en_XX
+Are there any more details on the school board meeting	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE details ] [SL:NEWS_TOPIC school board meeting ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE details ] [SL:NEWS_TOPIC school board meeting ] ]	news	en_XX
+delete all my  timers for today	[IN:DELETE_TIMER [SL:AMOUNT all ] ]	[IN:DELETE_TIMER [SL:AMOUNT all ] ]	timer	en_XX
+Set the timer for the next 15 minutes	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME for the next 15 minutes ] ]	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME for the next 15 minutes ] ]	timer	en_XX
+Stop the music for ten minutes	[IN:STOP_MUSIC [SL:MUSIC_TYPE music ] ]	[IN:STOP_MUSIC [SL:MUSIC_TYPE music ] ]	music	en_XX
+Play Coldplay.	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Coldplay ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Coldplay ] ]	music	en_XX
+status of current timer	[IN:GET_TIMER [SL:METHOD_TIMER timer ] ]	[IN:GET_TIMER [SL:METHOD_TIMER timer ] ]	timer	en_XX
+update my check on download timer to three hours	[IN:UPDATE_TIMER [SL:TIMER_NAME check on download ] [SL:METHOD_TIMER timer ] [SL:DATE_TIME to three hours ] ]	[IN:UPDATE_TIMER [SL:TIMER_NAME check on download ] [SL:METHOD_TIMER timer ] [SL:DATE_TIME to three hours ] ]	timer	en_XX
+Play the morning news	[IN:GET_STORIES_NEWS [SL:DATE_TIME the morning ] [SL:NEWS_TYPE news ] ]	[IN:GET_STORIES_NEWS [SL:DATE_TIME the morning ] [SL:NEWS_TYPE news ] ]	news	en_XX
+Latest NFL news?	[IN:GET_STORIES_NEWS [SL:DATE_TIME Latest ] [SL:NEWS_TOPIC NFL ] [SL:NEWS_TYPE news ] ]	[IN:GET_STORIES_NEWS [SL:DATE_TIME Latest ] [SL:NEWS_TOPIC NFL ] [SL:NEWS_TYPE news ] ]	news	en_XX
+what is going on in seattle news currenty	[IN:GET_STORIES_NEWS [SL:NEWS_TOPIC seattle ] [SL:NEWS_TYPE news ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TOPIC seattle ] [SL:NEWS_TYPE news ] ]	news	en_XX
+Any news on the health care bill?	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC health care bill ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC health care bill ] ]	news	en_XX
+I want timer to start now	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] ]	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] ]	timer	en_XX
+Read me local news updates?	[IN:GET_STORIES_NEWS [SL:NEWS_CATEGORY local ] [SL:NEWS_TYPE news ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_CATEGORY local ] [SL:NEWS_TYPE news ] ]	news	en_XX
+set the timer for 45 minutes	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME for 45 minutes ] ]	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME for 45 minutes ] ]	timer	en_XX
+Play Jay Z's new album	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Jay Z ] [SL:MUSIC_TYPE album ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Jay Z ] [SL:MUSIC_TYPE album ] ]	music	en_XX
+return to the previous song	[IN:PREVIOUS_TRACK_MUSIC [SL:ORDINAL previous ] [SL:MUSIC_TYPE song ] ]	[IN:PREVIOUS_TRACK_MUSIC [SL:ORDINAL previous ] [SL:MUSIC_TYPE song ] ]	music	en_XX
+breitbart news live	[IN:GET_STORIES_NEWS [SL:NEWS_SOURCE breitbart news ] [SL:NEWS_TYPE live ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_SOURCE breitbart news ] [SL:NEWS_TYPE live ] ]	news	en_XX
+Play Michael Abels's Django Unchained	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Michael Abels ] [SL:MUSIC_TRACK_TITLE Django Unchained ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Michael Abels ] [SL:MUSIC_TRACK_TITLE Django Unchained ] ]	music	en_XX
+Read me the recent news headlines	[IN:GET_STORIES_NEWS [SL:DATE_TIME recent ] [SL:NEWS_TYPE news headlines ] ]	[IN:GET_STORIES_NEWS [SL:DATE_TIME recent ] [SL:NEWS_TYPE news headlines ] ]	news	en_XX
+Pause the timer while I tie my shoe.	[IN:PAUSE_TIMER [SL:METHOD_TIMER timer ] ]	[IN:PAUSE_TIMER [SL:METHOD_TIMER timer ] ]	timer	en_XX
+erase all set timers please	[IN:DELETE_TIMER [SL:AMOUNT all ] [SL:METHOD_TIMER timers ] ]	[IN:DELETE_TIMER [SL:AMOUNT all ] [SL:METHOD_TIMER timers ] ]	timer	en_XX
+add 5 more minutes to my timer	[IN:ADD_TIME_TIMER [SL:DATE_TIME 5 more minutes ] [SL:METHOD_TIMER timer ] ]	[IN:ADD_TIME_TIMER [SL:DATE_TIME 5 more minutes ] [SL:METHOD_TIMER timer ] ]	timer	en_XX
+prepone my 6pm timer by 1000 seconds	[IN:UPDATE_TIMER [SL:DATE_TIME 6 pm ] [SL:METHOD_TIMER timer ] [SL:DATE_TIME by 1000 seconds ] ]	[IN:UPDATE_TIMER [SL:DATE_TIME 6 pm ] [SL:METHOD_TIMER timer ] [SL:DATE_TIME by 1000 seconds ] ]	timer	en_XX
+go to my Enya station please	[IN:PLAY_MUSIC [SL:MUSIC_PLAYLIST_TITLE Enya ] [SL:MUSIC_TYPE station ] ]	[IN:PLAY_MUSIC [SL:MUSIC_PLAYLIST_TITLE Enya ] [SL:MUSIC_TYPE station ] ]	music	en_XX
+UPDATE ME ON THE LOCAL FIRE THAT WAS IN THE NEWS.	[IN:GET_STORIES_NEWS [SL:NEWS_TOPIC LOCAL FIRE ] [SL:NEWS_TYPE NEWS ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TOPIC LOCAL FIRE ] [SL:NEWS_TYPE NEWS ] ]	news	en_XX
+Who is playing right now	[IN:GET_TRACK_INFO_MUSIC ]	[IN:GET_TRACK_INFO_MUSIC ]	music	en_XX
+always play music through amazon music	[IN:SET_DEFAULT_PROVIDER_MUSIC [SL:MUSIC_PROVIDER_NAME amazon music ] ]	[IN:SET_DEFAULT_PROVIDER_MUSIC [SL:MUSIC_PROVIDER_NAME amazon music ] ]	music	en_XX
+Read the latest headlines.	[IN:GET_STORIES_NEWS [SL:DATE_TIME latest ] [SL:NEWS_TYPE headlines ] ]	[IN:GET_STORIES_NEWS [SL:DATE_TIME latest ] [SL:NEWS_TYPE headlines ] ]	news	en_XX
+Any new news about the Russia story?	[IN:GET_STORIES_NEWS [SL:NEWS_REFERENCE new ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC Russia story ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_REFERENCE new ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC Russia story ] ]	news	en_XX
+show breaking news	[IN:GET_STORIES_NEWS [SL:NEWS_REFERENCE breaking ] [SL:NEWS_TYPE news ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_REFERENCE breaking ] [SL:NEWS_TYPE news ] ]	news	en_XX
+any news about taylor swift	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC taylor swift ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC taylor swift ] ]	news	en_XX
+Don't ever play this song again	[IN:REMOVE_FROM_PLAYLIST_MUSIC [SL:MUSIC_TYPE song ] ]	[IN:REMOVE_FROM_PLAYLIST_MUSIC [SL:MUSIC_TYPE song ] ]	music	en_XX
+Play 1980s top hits	[IN:PLAY_MUSIC [SL:MUSIC_PLAYLIST_TITLE 1980s top hits ] ]	[IN:PLAY_MUSIC [SL:MUSIC_PLAYLIST_TITLE 1980s top hits ] ]	music	en_XX
+Start the next timer	[IN:CREATE_TIMER [SL:ORDINAL next ] [SL:METHOD_TIMER timer ] ]	[IN:CREATE_TIMER [SL:ORDINAL next ] [SL:METHOD_TIMER timer ] ]	timer	en_XX
+Check breaking news stories.	[IN:GET_STORIES_NEWS [SL:NEWS_REFERENCE breaking ] [SL:NEWS_TYPE news stories ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_REFERENCE breaking ] [SL:NEWS_TYPE news stories ] ]	news	en_XX
+How many days has trump been on vacation	[IN:QUESTION_NEWS [SL:NEWS_TOPIC How many days has trump been on vacation ] ]	[IN:QUESTION_NEWS [SL:NEWS_TOPIC How many days has trump been on vacation ] ]	news	en_XX
+Make my work timer go off sooner.	[IN:SUBTRACT_TIME_TIMER [SL:TIMER_NAME work ] [SL:METHOD_TIMER timer ] ]	[IN:SUBTRACT_TIME_TIMER [SL:TIMER_NAME work ] [SL:METHOD_TIMER timer ] ]	timer	en_XX
+give me details on Korea US situation.	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE details ] [SL:NEWS_TOPIC Korea US situation ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE details ] [SL:NEWS_TOPIC Korea US situation ] ]	news	en_XX
+Is there news on ViaSat 2 today?	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC ViaSat 2 ] [SL:DATE_TIME today ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC ViaSat 2 ] [SL:DATE_TIME today ] ]	news	en_XX
+Play me some classical music	[IN:PLAY_MUSIC [SL:MUSIC_GENRE classical ] [SL:MUSIC_TYPE music ] ]	[IN:PLAY_MUSIC [SL:MUSIC_GENRE classical ] [SL:MUSIC_TYPE music ] ]	music	en_XX
+give me todays news updates	[IN:GET_STORIES_NEWS [SL:DATE_TIME todays ] [SL:NEWS_TYPE news ] ]	[IN:GET_STORIES_NEWS [SL:DATE_TIME todays ] [SL:NEWS_TYPE news ] ]	news	en_XX
+let me hear Drake's latest single	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Drake ] [SL:MUSIC_TYPE single ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Drake ] [SL:MUSIC_TYPE single ] ]	music	en_XX
+start my running timer	[IN:CREATE_TIMER [SL:TIMER_NAME running ] [SL:METHOD_TIMER timer ] ]	[IN:CREATE_TIMER [SL:TIMER_NAME running ] [SL:METHOD_TIMER timer ] ]	timer	en_XX
+Play playlist Night	[IN:PLAY_MUSIC [SL:MUSIC_TYPE playlist ] [SL:MUSIC_PLAYLIST_TITLE Night ] ]	[IN:PLAY_MUSIC [SL:MUSIC_TYPE playlist ] [SL:MUSIC_PLAYLIST_TITLE Night ] ]	music	en_XX
+Add 10 minute timer	[IN:ADD_TIME_TIMER [SL:DATE_TIME 10 minute ] [SL:METHOD_TIMER timer ] ]	[IN:ADD_TIME_TIMER [SL:DATE_TIME 10 minute ] [SL:METHOD_TIMER timer ] ]	timer	en_XX
+set a practice test taking timer for 90 minutes	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME for 90 minutes ] ]	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME for 90 minutes ] ]	timer	en_XX
+Tell me the news right now	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news ] ]	news	en_XX
+What is the name of the current track playing?	[IN:GET_TRACK_INFO_MUSIC [SL:MUSIC_TYPE track ] ]	[IN:GET_TRACK_INFO_MUSIC [SL:MUSIC_TYPE track ] ]	music	en_XX
+Is it almost done	[IN:GET_TIMER ]	[IN:GET_TIMER ]	timer	en_XX
+set timer for a short 5 minute jog	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME 5 minute ] ]	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME 5 minute ] ]	timer	en_XX
+Play some Kenny Chesney	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Kenny Chesney ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Kenny Chesney ] ]	music	en_XX
+go to iheartradio and play AMP Radio	[IN:PLAY_MUSIC [SL:MUSIC_PROVIDER_NAME iheartradio ] [SL:MUSIC_RADIO_ID AMP Radio ] ]	[IN:PLAY_MUSIC [SL:MUSIC_PROVIDER_NAME iheartradio ] [SL:MUSIC_RADIO_ID AMP Radio ] ]	music	en_XX
+Let me listen to Selena Gomez' new album	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Selena Gomez ] [SL:MUSIC_TYPE album ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Selena Gomez ] [SL:MUSIC_TYPE album ] ]	music	en_XX
+set timer for 4 hours and 20 minutes	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME for 4 hours and 20 minutes ] ]	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME for 4 hours and 20 minutes ] ]	timer	en_XX
+What is the latest news on North Korea?	[IN:GET_STORIES_NEWS [SL:DATE_TIME latest ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC North Korea ] ]	[IN:GET_STORIES_NEWS [SL:DATE_TIME latest ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC North Korea ] ]	news	en_XX
+"Play ""Eat It"" by Weird Al."	[IN:PLAY_MUSIC [SL:MUSIC_TRACK_TITLE Eat It ] [SL:MUSIC_ARTIST_NAME Weird Al ] ]	[IN:PLAY_MUSIC [SL:MUSIC_TRACK_TITLE Eat It ] [SL:MUSIC_ARTIST_NAME Weird Al ] ]	music	en_XX
+Read me the recent local headlines.	[IN:GET_STORIES_NEWS [SL:DATE_TIME recent ] [SL:NEWS_CATEGORY local ] [SL:NEWS_TYPE headlines ] ]	[IN:GET_STORIES_NEWS [SL:DATE_TIME recent ] [SL:NEWS_CATEGORY local ] [SL:NEWS_TYPE headlines ] ]	news	en_XX
+what is today's big news	[IN:GET_STORIES_NEWS [SL:DATE_TIME today ] [SL:NEWS_REFERENCE big ] [SL:NEWS_TYPE news ] ]	[IN:GET_STORIES_NEWS [SL:DATE_TIME today ] [SL:NEWS_REFERENCE big ] [SL:NEWS_TYPE news ] ]	news	en_XX
+how many news stories about home invasions were there in my area s this week	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news stories ] [SL:NEWS_TOPIC home invasions ] [SL:DATE_TIME this week ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news stories ] [SL:NEWS_TOPIC home invasions ] [SL:DATE_TIME this week ] ]	news	en_XX
+Reduce my timer by 10 minutes	[IN:SUBTRACT_TIME_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME by 10 minutes ] ]	[IN:SUBTRACT_TIME_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME by 10 minutes ] ]	timer	en_XX
+What news happened in my town	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news ] ]	news	en_XX
+If despacito is on I would skip it	[IN:SKIP_TRACK_MUSIC [SL:MUSIC_TRACK_TITLE despacito ] ]	[IN:SKIP_TRACK_MUSIC [SL:MUSIC_TRACK_TITLE despacito ] ]	music	en_XX
+vote thumbs down on that song	[IN:DISLIKE_MUSIC [SL:MUSIC_TYPE song ] ]	[IN:DISLIKE_MUSIC [SL:MUSIC_TYPE song ] ]	music	en_XX
+what is the recent news about trumps son eric	[IN:GET_STORIES_NEWS [SL:DATE_TIME recent ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC trumps son eric ] ]	[IN:GET_STORIES_NEWS [SL:DATE_TIME recent ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC trumps son eric ] ]	news	en_XX
+Play Tory Lanez	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Tory Lanez ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Tory Lanez ] ]	music	en_XX
+play All of Me by John Legend	[IN:PLAY_MUSIC [SL:MUSIC_TRACK_TITLE All of Me ] [SL:MUSIC_ARTIST_NAME John Legend ] ]	[IN:PLAY_MUSIC [SL:MUSIC_TRACK_TITLE All of Me ] [SL:MUSIC_ARTIST_NAME John Legend ] ]	music	en_XX
+Any recent news about the White House?	[IN:GET_STORIES_NEWS [SL:DATE_TIME recent ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC White House ] ]	[IN:GET_STORIES_NEWS [SL:DATE_TIME recent ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC White House ] ]	news	en_XX
+Play Lupe Fiasco's latest song	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Lupe Fiasco ] [SL:MUSIC_TYPE song ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Lupe Fiasco ] [SL:MUSIC_TYPE song ] ]	music	en_XX
+start timer (enter measurement ex. in 5 minutes)	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] ]	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] ]	timer	en_XX
+Start my workout timer	[IN:CREATE_TIMER [SL:TIMER_NAME workout ] [SL:METHOD_TIMER timer ] ]	[IN:CREATE_TIMER [SL:TIMER_NAME workout ] [SL:METHOD_TIMER timer ] ]	timer	en_XX
+Local news headlined	[IN:GET_STORIES_NEWS [SL:NEWS_CATEGORY Local ] [SL:NEWS_TYPE news ] [SL:NEWS_TYPE headlined ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_CATEGORY Local ] [SL:NEWS_TYPE news ] [SL:NEWS_TYPE headlined ] ]	news	en_XX
+Fox news headlines currently	[IN:GET_STORIES_NEWS [SL:NEWS_SOURCE Fox news ] [SL:NEWS_TYPE headlines ] [SL:DATE_TIME currently ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_SOURCE Fox news ] [SL:NEWS_TYPE headlines ] [SL:DATE_TIME currently ] ]	news	en_XX
+Reset timer to 10 minutes	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME to 10 minutes ] ]	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME to 10 minutes ] ]	timer	en_XX
+Set timer for 60 mins	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME for 60 mins ] ]	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME for 60 mins ] ]	timer	en_XX
+Play Katy Perry's latest song	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Katy Perry ] [SL:MUSIC_TYPE song ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Katy Perry ] [SL:MUSIC_TYPE song ] ]	music	en_XX
+Play some jazz music	[IN:PLAY_MUSIC [SL:MUSIC_GENRE jazz ] [SL:MUSIC_TYPE music ] ]	[IN:PLAY_MUSIC [SL:MUSIC_GENRE jazz ] [SL:MUSIC_TYPE music ] ]	music	en_XX
+Give me today's headlines from Daily Local News.	[IN:GET_STORIES_NEWS [SL:DATE_TIME today ] [SL:NEWS_TYPE headlines ] [SL:NEWS_SOURCE Daily Local News ] ]	[IN:GET_STORIES_NEWS [SL:DATE_TIME today ] [SL:NEWS_TYPE headlines ] [SL:NEWS_SOURCE Daily Local News ] ]	news	en_XX
+play the musician Lana Del Rey	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Lana Del Rey ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Lana Del Rey ] ]	music	en_XX
+Find me some pop music.	[IN:PLAY_MUSIC [SL:MUSIC_GENRE pop ] [SL:MUSIC_TYPE music ] ]	[IN:PLAY_MUSIC [SL:MUSIC_GENRE pop ] [SL:MUSIC_TYPE music ] ]	music	en_XX
+default music app amazon	[IN:SET_DEFAULT_PROVIDER_MUSIC [SL:MUSIC_PROVIDER_NAME amazon ] ]	[IN:SET_DEFAULT_PROVIDER_MUSIC [SL:MUSIC_PROVIDER_NAME amazon ] ]	music	en_XX
+what is timer at now	[IN:GET_TIMER [SL:METHOD_TIMER timer ] ]	[IN:GET_TIMER [SL:METHOD_TIMER timer ] ]	timer	en_XX
+I want to listen to Linkin Park's last album	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Linkin Park ] [SL:MUSIC_TYPE album ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Linkin Park ] [SL:MUSIC_TYPE album ] ]	music	en_XX
+I want to get jog for 30 minutes and I want you to set the timer for it.	[IN:CREATE_TIMER [SL:DATE_TIME for 30 minutes ] [SL:METHOD_TIMER timer ] ]	[IN:CREATE_TIMER [SL:DATE_TIME for 30 minutes ] [SL:METHOD_TIMER timer ] ]	timer	en_XX
+Is there any late breaking news today?	[IN:GET_STORIES_NEWS [SL:DATE_TIME late ] [SL:NEWS_REFERENCE breaking ] [SL:NEWS_TYPE news ] [SL:DATE_TIME today ] ]	[IN:GET_STORIES_NEWS [SL:DATE_TIME late ] [SL:NEWS_REFERENCE breaking ] [SL:NEWS_TYPE news ] [SL:DATE_TIME today ] ]	news	en_XX
+whats the latest political news	[IN:GET_STORIES_NEWS [SL:DATE_TIME latest ] [SL:NEWS_CATEGORY political ] [SL:NEWS_TYPE news ] ]	[IN:GET_STORIES_NEWS [SL:DATE_TIME latest ] [SL:NEWS_CATEGORY political ] [SL:NEWS_TYPE news ] ]	news	en_XX
+Take away 10 seconds from timer	[IN:SUBTRACT_TIME_TIMER [SL:DATE_TIME 10 seconds ] [SL:METHOD_TIMER timer ] ]	[IN:SUBTRACT_TIME_TIMER [SL:DATE_TIME 10 seconds ] [SL:METHOD_TIMER timer ] ]	timer	en_XX
+put up a timer for 14 minutes and one for three hours	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME for 14 minutes ] [SL:AMOUNT one ] [SL:DATE_TIME for three hours ] ]	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME for 14 minutes ] [SL:AMOUNT one ] [SL:DATE_TIME for three hours ] ]	timer	en_XX
+show me all news stories regarding climate change	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news stories ] [SL:NEWS_TOPIC climate change ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news stories ] [SL:NEWS_TOPIC climate change ] ]	news	en_XX
+Give me the morning's top news	[IN:GET_STORIES_NEWS [SL:DATE_TIME the morning ] [SL:NEWS_REFERENCE top ] [SL:NEWS_TYPE news ] ]	[IN:GET_STORIES_NEWS [SL:DATE_TIME the morning ] [SL:NEWS_REFERENCE top ] [SL:NEWS_TYPE news ] ]	news	en_XX
+Subtract 10 minutes to the timer	[IN:SUBTRACT_TIME_TIMER [SL:DATE_TIME 10 minutes ] [SL:METHOD_TIMER timer ] ]	[IN:SUBTRACT_TIME_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME 10 minutes ] ]	timer	en_XX
+what is the latest anime news	[IN:GET_STORIES_NEWS [SL:DATE_TIME latest ] [SL:NEWS_CATEGORY anime ] [SL:NEWS_TYPE news ] ]	[IN:GET_STORIES_NEWS [SL:DATE_TIME latest ] [SL:NEWS_CATEGORY anime ] [SL:NEWS_TYPE news ] ]	news	en_XX
+what are the latest news updates?	[IN:GET_STORIES_NEWS [SL:DATE_TIME latest ] [SL:NEWS_TYPE news ] ]	[IN:GET_STORIES_NEWS [SL:DATE_TIME latest ] [SL:NEWS_TYPE news ] ]	news	en_XX
+Play halsey badlands.	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME halsey ] [SL:MUSIC_TRACK_TITLE badlands ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME halsey ] [SL:MUSIC_TRACK_TITLE badlands ] ]	music	en_XX
+play the newest songs	[IN:PLAY_MUSIC [SL:MUSIC_TYPE songs ] ]	[IN:PLAY_MUSIC [SL:MUSIC_TYPE songs ] ]	music	en_XX
+shuffle pop music	[IN:START_SHUFFLE_MUSIC [SL:MUSIC_GENRE pop ] [SL:MUSIC_TYPE music ] ]	[IN:START_SHUFFLE_MUSIC [SL:MUSIC_GENRE pop ] [SL:MUSIC_TYPE music ] ]	music	en_XX
+play Legend (Deluxe Edition) on iHeartRadio	[IN:PLAY_MUSIC [SL:MUSIC_ALBUM_TITLE Legend ( Deluxe Edition ) ] [SL:MUSIC_PROVIDER_NAME iHeartRadio ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ALBUM_TITLE Legend ( Deluxe Edition ) ] [SL:MUSIC_PROVIDER_NAME iHeartRadio ] ]	music	en_XX
+Start playing Justin Bieber's latest album	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Justin Bieber ] [SL:MUSIC_TYPE album ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Justin Bieber ] [SL:MUSIC_TYPE album ] ]	music	en_XX
+I want to listen to Ride by Twenty One Pilots	[IN:PLAY_MUSIC [SL:MUSIC_TRACK_TITLE Ride ] [SL:MUSIC_ARTIST_NAME Twenty One Pilots ] ]	[IN:PLAY_MUSIC [SL:MUSIC_TRACK_TITLE Ride ] [SL:MUSIC_ARTIST_NAME Twenty One Pilots ] ]	music	en_XX
+Any news on the Saints?	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC Saints ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC Saints ] ]	news	en_XX
+Find me news stories about Charlottesville	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news stories ] [SL:NEWS_TOPIC Charlottesville ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news stories ] [SL:NEWS_TOPIC Charlottesville ] ]	news	en_XX
+Read me the details about election coverage	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE details ] [SL:NEWS_TOPIC election coverage ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE details ] [SL:NEWS_TOPIC election coverage ] ]	news	en_XX
+Repeat this song, please	[IN:REPLAY_MUSIC [SL:MUSIC_TYPE song ] ]	[IN:REPLAY_MUSIC [SL:MUSIC_TYPE song ] ]	music	en_XX
+make a playlist called Cardio	[IN:CREATE_PLAYLIST_MUSIC [SL:MUSIC_PLAYLIST_TITLE Cardio ] ]	[IN:CREATE_PLAYLIST_MUSIC [SL:MUSIC_PLAYLIST_TITLE Cardio ] ]	music	en_XX
+countdown for 5 minutes please	[IN:CREATE_TIMER [SL:METHOD_TIMER countdown ] [SL:DATE_TIME for 5 minutes ] ]	[IN:CREATE_TIMER [SL:METHOD_TIMER countdown ] [SL:DATE_TIME for 5 minutes ] ]	timer	en_XX
+What happened in the local news today	[IN:GET_STORIES_NEWS [SL:NEWS_CATEGORY local ] [SL:NEWS_TYPE news ] [SL:DATE_TIME today ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_CATEGORY local ] [SL:NEWS_TYPE news ] [SL:DATE_TIME today ] ]	news	en_XX
+Donald Trump in France news	[IN:GET_STORIES_NEWS [SL:NEWS_TOPIC Donald Trump in France ] [SL:NEWS_TYPE news ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TOPIC Donald Trump in France ] [SL:NEWS_TYPE news ] ]	news	en_XX
+what is timer set for	[IN:GET_TIMER [SL:METHOD_TIMER timer ] ]	[IN:GET_TIMER [SL:METHOD_TIMER timer ] ]	timer	en_XX
+play my Pandora Warm Fuzzy Feeling station	[IN:PLAY_MUSIC [SL:MUSIC_PROVIDER_NAME Pandora ] [SL:MUSIC_PLAYLIST_TITLE Warm Fuzzy Feeling ] [SL:MUSIC_TYPE station ] ]	[IN:PLAY_MUSIC [SL:MUSIC_PROVIDER_NAME Pandora ] [SL:MUSIC_PLAYLIST_TITLE Warm Fuzzy Feeling ] [SL:MUSIC_TYPE station ] ]	music	en_XX
+play Muse on iheartradio	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Muse ] [SL:MUSIC_PROVIDER_NAME iheartradio ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Muse ] [SL:MUSIC_PROVIDER_NAME iheartradio ] ]	music	en_XX
+Resume playing this track	[IN:RESUME_MUSIC [SL:MUSIC_TYPE track ] ]	[IN:RESUME_MUSIC [SL:MUSIC_TYPE track ] ]	music	en_XX
+Set timer to go off every 18 minutes	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME 18 minutes ] ]	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME 18 minutes ] ]	timer	en_XX
+Set countdown timer for 25 minutes	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME for 25 minutes ] ]	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME for 25 minutes ] ]	timer	en_XX
+Cancel last timer	[IN:DELETE_TIMER [SL:ORDINAL last ] [SL:METHOD_TIMER timer ] ]	[IN:DELETE_TIMER [SL:ORDINAL last ] [SL:METHOD_TIMER timer ] ]	timer	en_XX
+Timer for 10 minutes	[IN:CREATE_TIMER [SL:METHOD_TIMER Timer ] [SL:DATE_TIME for 10 minutes ] ]	[IN:CREATE_TIMER [SL:METHOD_TIMER Timer ] [SL:DATE_TIME for 10 minutes ] ]	timer	en_XX
+make my timer longer by four minutes please	[IN:ADD_TIME_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME by four minutes ] ]	[IN:ADD_TIME_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME by four minutes ] ]	timer	en_XX
+Any new details on the OJ Simpson trial	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE details ] [SL:NEWS_TOPIC OJ Simpson trial ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE details ] [SL:NEWS_TOPIC OJ Simpson trial ] ]	news	en_XX
+Give me the latest news on Donald Trump	[IN:GET_STORIES_NEWS [SL:DATE_TIME latest ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC Donald Trump ] ]	[IN:GET_STORIES_NEWS [SL:DATE_TIME latest ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC Donald Trump ] ]	news	en_XX
+Subtract 3 minutes	[IN:SUBTRACT_TIME_TIMER [SL:DATE_TIME 3 minutes ] ]	[IN:SUBTRACT_TIME_TIMER [SL:DATE_TIME 3 minutes ] ]	timer	en_XX
+what's the latest news in my area	[IN:GET_STORIES_NEWS [SL:DATE_TIME latest ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC my area ] ]	[IN:GET_STORIES_NEWS [SL:DATE_TIME latest ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC my area ] ]	news	en_XX
+Pause this song for a bit	[IN:PAUSE_MUSIC [SL:MUSIC_TYPE song ] ]	[IN:PAUSE_MUSIC [SL:MUSIC_TYPE song ] ]	music	en_XX
+play Foo Fighters on iheartradio	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Foo Fighters ] [SL:MUSIC_PROVIDER_NAME iheartradio ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Foo Fighters ] [SL:MUSIC_PROVIDER_NAME iheartradio ] ]	music	en_XX
+Can you play any Dan + Shay song?	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Dan + Shay ] [SL:MUSIC_TYPE song ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Dan + Shay ] [SL:MUSIC_TYPE song ] ]	music	en_XX
+Set my timer for 1 minute and 30 seconds	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME for 1 minute and 30 seconds ] ]	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME for 1 minute and 30 seconds ] ]	timer	en_XX
+Set timer for 7 minutes	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME for 7 minutes ] ]	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME for 7 minutes ] ]	timer	en_XX
+Play Shania Twain's newest single	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Shania Twain ] [SL:MUSIC_TYPE single ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Shania Twain ] [SL:MUSIC_TYPE single ] ]	music	en_XX
+MSNBC news updates	[IN:GET_STORIES_NEWS [SL:NEWS_SOURCE MSNBC ] [SL:NEWS_TYPE news ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_SOURCE MSNBC ] [SL:NEWS_TYPE news ] ]	news	en_XX
+play beyonce 4 album	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME beyonce ] [SL:MUSIC_ALBUM_TITLE 4 ] [SL:MUSIC_TYPE album ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME beyonce ] [SL:MUSIC_ALBUM_TITLE 4 ] [SL:MUSIC_TYPE album ] ]	music	en_XX
+Tell Spotify to play The Story Of Tonight	[IN:PLAY_MUSIC [SL:MUSIC_PROVIDER_NAME Spotify ] [SL:MUSIC_TRACK_TITLE The Story Of Tonight ] ]	[IN:PLAY_MUSIC [SL:MUSIC_PROVIDER_NAME Spotify ] [SL:MUSIC_TRACK_TITLE The Story Of Tonight ] ]	music	en_XX
+can you start two timers please	[IN:CREATE_TIMER [SL:AMOUNT two ] [SL:METHOD_TIMER timers ] ]	[IN:CREATE_TIMER [SL:AMOUNT two ] [SL:METHOD_TIMER timers ] ]	timer	en_XX
+What's with the blow up chicken at the White House	[IN:QUESTION_NEWS [SL:NEWS_TOPIC blow up chicken at the White House ] ]	[IN:QUESTION_NEWS [SL:NEWS_TOPIC blow up chicken at the White House ] ]	news	en_XX
+tell me details on what's going on in Kentucky	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE details ] [SL:NEWS_TOPIC Kentucky ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE details ] [SL:NEWS_TOPIC Kentucky ] ]	news	en_XX
+What are the relevant stories for today?	[IN:GET_STORIES_NEWS [SL:NEWS_CATEGORY relevant ] [SL:NEWS_TYPE stories ] [SL:DATE_TIME for today ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_CATEGORY relevant ] [SL:NEWS_TYPE stories ] [SL:DATE_TIME for today ] ]	news	en_XX
+Has the timer gone off yet?	[IN:GET_TIMER [SL:METHOD_TIMER timer ] ]	[IN:GET_TIMER [SL:METHOD_TIMER timer ] ]	timer	en_XX
+pause timer at the halfway point	[IN:PAUSE_TIMER [SL:METHOD_TIMER timer ] ]	[IN:PAUSE_TIMER [SL:METHOD_TIMER timer ] ]	timer	en_XX
+start my timer immediately	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] ]	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] ]	timer	en_XX
+please read me all the headlines on the news right now?	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE headlines ] [SL:NEWS_TYPE news ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE headlines ] [SL:NEWS_TYPE news ] ]	news	en_XX
+id like to hear some trap music	[IN:PLAY_MUSIC [SL:MUSIC_GENRE trap ] [SL:MUSIC_TYPE music ] ]	[IN:PLAY_MUSIC [SL:MUSIC_GENRE trap ] [SL:MUSIC_TYPE music ] ]	music	en_XX
+Did anyone win the lottery?	[IN:QUESTION_NEWS [SL:NEWS_TOPIC win the lottery ] ]	[IN:QUESTION_NEWS [SL:NEWS_TOPIC win the lottery ] ]	news	en_XX
+Play all Garth Brook's music.	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Garth Brook ] [SL:MUSIC_TYPE music ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Garth Brook ] [SL:MUSIC_TYPE music ] ]	music	en_XX
+Add 10 minutes to 40 minute timer	[IN:ADD_TIME_TIMER [SL:DATE_TIME 10 minutes ] [SL:METHOD_TIMER timer ] ]	[IN:ADD_TIME_TIMER [SL:DATE_TIME 10 minutes ] [SL:METHOD_TIMER timer ] ]	timer	en_XX
+What's the top story in national news?	[IN:GET_STORIES_NEWS [SL:NEWS_REFERENCE top ] [SL:NEWS_TYPE story ] [SL:NEWS_CATEGORY national ] [SL:NEWS_TYPE news ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_REFERENCE top ] [SL:NEWS_TYPE story ] [SL:NEWS_CATEGORY national ] [SL:NEWS_TYPE news ] ]	news	en_XX
+Please replay the last minute.	[IN:REWIND_MUSIC [SL:ORDINAL last ] [SL:MUSIC_REWIND_TIME minute ] ]	[IN:REWIND_MUSIC [SL:ORDINAL last ] [SL:MUSIC_REWIND_TIME minute ] ]	music	en_XX
+Play something by Lady Gaga	[IN:PLAY_MUSIC [SL:MUSIC_TRACK_TITLE something ] [SL:MUSIC_ARTIST_NAME Lady Gaga ] ]	[IN:PLAY_MUSIC [SL:MUSIC_TRACK_TITLE something ] [SL:MUSIC_ARTIST_NAME Lady Gaga ] ]	music	en_XX
+please add four minute timer	[IN:CREATE_TIMER [SL:DATE_TIME four minute ] [SL:METHOD_TIMER timer ] ]	[IN:CREATE_TIMER [SL:DATE_TIME four minute ] [SL:METHOD_TIMER timer ] ]	timer	en_XX
+Are Brad and Angelina still getting a divorce?	[IN:QUESTION_NEWS [SL:NEWS_TOPIC Brad and Angelina still getting a divorce ] ]	[IN:QUESTION_NEWS [SL:NEWS_TOPIC Brad and Angelina still getting a divorce ] ]	news	en_XX
+Read me Sunday's paper headline	[IN:GET_STORIES_NEWS [SL:DATE_TIME Sunday ] [SL:NEWS_TYPE headline ] ]	[IN:GET_STORIES_NEWS [SL:DATE_TIME Sunday ] [SL:NEWS_TYPE headline ] ]	news	en_XX
+Can I hear that song again?	[IN:REPLAY_MUSIC [SL:MUSIC_TYPE song ] ]	[IN:REPLAY_MUSIC [SL:MUSIC_TYPE song ] ]	music	en_XX
+What is the latest news in Florida today?	[IN:GET_STORIES_NEWS [SL:DATE_TIME latest ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC Florida ] [SL:DATE_TIME today ] ]	[IN:GET_STORIES_NEWS [SL:DATE_TIME latest ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC Florida ] [SL:DATE_TIME today ] ]	news	en_XX
+Has there been any breaking news about the Russia scandal today?	[IN:GET_STORIES_NEWS [SL:NEWS_REFERENCE breaking ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC Russia scandal ] [SL:DATE_TIME today ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_REFERENCE breaking ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC Russia scandal ] [SL:DATE_TIME today ] ]	news	en_XX
+I need details on the local murder trial	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE details ] [SL:NEWS_CATEGORY local ] [SL:NEWS_TOPIC murder trial ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE details ] [SL:NEWS_CATEGORY local ] [SL:NEWS_TOPIC murder trial ] ]	news	en_XX
+Stop the song	[IN:STOP_MUSIC [SL:MUSIC_TYPE song ] ]	[IN:STOP_MUSIC [SL:MUSIC_TYPE song ] ]	music	en_XX
+Jump to the third song on my playlist.	[IN:SKIP_TRACK_MUSIC [SL:MUSIC_TYPE song ] [SL:MUSIC_TYPE playlist ] ]	[IN:SKIP_TRACK_MUSIC [SL:MUSIC_TYPE song ] [SL:MUSIC_TYPE playlist ] ]	music	en_XX
+give me major US news stories	[IN:GET_STORIES_NEWS [SL:NEWS_REFERENCE major ] [SL:NEWS_TOPIC US ] [SL:NEWS_TYPE news stories ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_REFERENCE major ] [SL:NEWS_TOPIC US ] [SL:NEWS_TYPE news stories ] ]	news	en_XX
+are there any new updates about sentencing of the former governor of Pennsylvania	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE new updates ] [SL:NEWS_TOPIC sentencing of the former governor of Pennsylvania ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE new updates ] [SL:NEWS_TOPIC sentencing of the former governor of Pennsylvania ] ]	news	en_XX
+Give me details on the Panda bear that lost one of her twin cubs.	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE details ] [SL:NEWS_TOPIC Panda bear that lost one of her twin cubs ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE details ] [SL:NEWS_TOPIC Panda bear that lost one of her twin cubs ] ]	news	en_XX
+Open Spotify and play Coldplay station.	[IN:PLAY_MUSIC [SL:MUSIC_PROVIDER_NAME Spotify ] [SL:MUSIC_ARTIST_NAME Coldplay ] [SL:MUSIC_TYPE station ] ]	[IN:PLAY_MUSIC [SL:MUSIC_PROVIDER_NAME Spotify ] [SL:MUSIC_ARTIST_NAME Coldplay ] [SL:MUSIC_TYPE station ] ]	music	en_XX
+Play the song Brown Eyed Girl.	[IN:PLAY_MUSIC [SL:MUSIC_TYPE song ] [SL:MUSIC_TRACK_TITLE Brown Eyed Girl ] ]	[IN:PLAY_MUSIC [SL:MUSIC_TYPE song ] [SL:MUSIC_TRACK_TITLE Brown Eyed Girl ] ]	music	en_XX
+Make a timer for 45 minutes.	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME for 45 minutes ] ]	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME for 45 minutes ] ]	timer	en_XX
+put up a Blink timer	[IN:CREATE_TIMER [SL:TIMER_NAME Blink ] [SL:METHOD_TIMER timer ] ]	[IN:CREATE_TIMER [SL:TIMER_NAME Blink ] [SL:METHOD_TIMER timer ] ]	timer	en_XX
+I'd like to set amazon as my default music provider	[IN:SET_DEFAULT_PROVIDER_MUSIC [SL:MUSIC_PROVIDER_NAME amazon ] ]	[IN:SET_DEFAULT_PROVIDER_MUSIC [SL:MUSIC_PROVIDER_NAME amazon ] ]	music	en_XX
+Add 10 mins to timer.	[IN:ADD_TIME_TIMER [SL:DATE_TIME 10 mins ] [SL:METHOD_TIMER timer ] ]	[IN:ADD_TIME_TIMER [SL:DATE_TIME 10 mins ] [SL:METHOD_TIMER timer ] ]	timer	en_XX
+resume timer in 12 minutes	[IN:RESUME_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME in 12 minutes ] ]	[IN:RESUME_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME in 12 minutes ] ]	timer	en_XX
+set a one hour time for the gym today	[IN:CREATE_TIMER [SL:DATE_TIME one hour ] [SL:METHOD_TIMER time ] [SL:DATE_TIME today ] ]	[IN:CREATE_TIMER [SL:DATE_TIME one hour ] [SL:METHOD_TIMER time ] [SL:DATE_TIME today ] ]	timer	en_XX
+What were last weeks headlines?	[IN:GET_STORIES_NEWS [SL:DATE_TIME last weeks ] [SL:NEWS_TYPE headlines ] ]	[IN:GET_STORIES_NEWS [SL:DATE_TIME last weeks ] [SL:NEWS_TYPE headlines ] ]	news	en_XX
+Read me the details of the police report on the robbery in north Minneapolis	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE details ] [SL:NEWS_TOPIC police report on the robbery in north Minneapolis ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE details ] [SL:NEWS_TOPIC police report on the robbery in north Minneapolis ] ]	news	en_XX
+start playing Views	[IN:PLAY_MUSIC [SL:MUSIC_ALBUM_TITLE Views ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ALBUM_TITLE Views ] ]	music	en_XX
+local news for san diego	[IN:GET_STORIES_NEWS [SL:NEWS_CATEGORY local ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC san diego ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_CATEGORY local ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC san diego ] ]	news	en_XX
+back to the 80's please	[IN:PLAY_MUSIC [SL:MUSIC_GENRE 80 ] ]	[IN:PLAY_MUSIC [SL:MUSIC_GENRE 80 ] ]	music	en_XX
+Take 5 minutes off of my timer.	[IN:SUBTRACT_TIME_TIMER [SL:DATE_TIME 5 minutes ] [SL:METHOD_TIMER timer ] ]	[IN:SUBTRACT_TIME_TIMER [SL:DATE_TIME 5 minutes ] [SL:METHOD_TIMER timer ] ]	timer	en_XX
+Create a new sound list	[IN:CREATE_PLAYLIST_MUSIC [SL:MUSIC_TYPE list ] ]	[IN:CREATE_PLAYLIST_MUSIC [SL:MUSIC_TYPE list ] ]	music	en_XX
+start up a timer for veal	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:TIMER_NAME veal ] ]	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:TIMER_NAME veal ] ]	timer	en_XX
+timer continue	[IN:RESUME_TIMER [SL:METHOD_TIMER timer ] ]	[IN:RESUME_TIMER [SL:METHOD_TIMER timer ] ]	timer	en_XX
+What's the top story on the New York Times	[IN:GET_STORIES_NEWS [SL:NEWS_REFERENCE top ] [SL:NEWS_TYPE story ] [SL:NEWS_SOURCE New York Times ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_REFERENCE top ] [SL:NEWS_TYPE story ] [SL:NEWS_SOURCE New York Times ] ]	news	en_XX
+What is the cause of Venezuela's current unrest	[IN:QUESTION_NEWS [SL:NEWS_TOPIC Venezuela 's current unrest ] ]	[IN:QUESTION_NEWS [SL:NEWS_TOPIC Venezuela 's current unrest ] ]	news	en_XX
+Can you give me details about News in North Korea?	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE details ] [SL:NEWS_TYPE News ] [SL:NEWS_TOPIC North Korea ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE details ] [SL:NEWS_TYPE News ] [SL:NEWS_TOPIC North Korea ] ]	news	en_XX
+Put Beyonce newest music on	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Beyonce ] [SL:MUSIC_TYPE music ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Beyonce ] [SL:MUSIC_TYPE music ] ]	music	en_XX
+play channel 13 live	[IN:GET_STORIES_NEWS [SL:NEWS_SOURCE channel 13 ] [SL:NEWS_TYPE live ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_SOURCE channel 13 ] [SL:NEWS_TYPE live ] ]	news	en_XX
+play it in loop	[IN:LOOP_MUSIC ]	[IN:LOOP_MUSIC ]	music	en_XX
+How many seconds are left on my timer?	[IN:GET_TIMER [SL:METHOD_TIMER timer ] ]	[IN:GET_TIMER [SL:METHOD_TIMER timer ] ]	timer	en_XX
+Cancel Timer	[IN:DELETE_TIMER [SL:METHOD_TIMER Timer ] ]	[IN:DELETE_TIMER [SL:METHOD_TIMER Timer ] ]	timer	en_XX
+What are the latest headlines	[IN:GET_STORIES_NEWS [SL:DATE_TIME latest ] [SL:NEWS_TYPE headlines ] ]	[IN:GET_STORIES_NEWS [SL:DATE_TIME latest ] [SL:NEWS_TYPE headlines ] ]	news	en_XX
+current world headlines	[IN:GET_STORIES_NEWS [SL:DATE_TIME current ] [SL:NEWS_CATEGORY world ] [SL:NEWS_TYPE headlines ] ]	[IN:GET_STORIES_NEWS [SL:DATE_TIME current ] [SL:NEWS_CATEGORY world ] [SL:NEWS_TYPE headlines ] ]	news	en_XX
+Name this song please	[IN:GET_TRACK_INFO_MUSIC [SL:MUSIC_TYPE song ] ]	[IN:GET_TRACK_INFO_MUSIC [SL:MUSIC_TYPE song ] ]	music	en_XX
+start playing 98 rock on iheartradio for me	[IN:PLAY_MUSIC [SL:MUSIC_RADIO_ID 98 rock ] [SL:MUSIC_PROVIDER_NAME iheartradio ] ]	[IN:PLAY_MUSIC [SL:MUSIC_RADIO_ID 98 rock ] [SL:MUSIC_PROVIDER_NAME iheartradio ] ]	music	en_XX
+Can you play Rihanna?	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Rihanna ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Rihanna ] ]	music	en_XX
+Please play me some R&B music	[IN:PLAY_MUSIC [SL:MUSIC_GENRE R & B ] [SL:MUSIC_TYPE music ] ]	[IN:PLAY_MUSIC [SL:MUSIC_GENRE R & B ] [SL:MUSIC_TYPE music ] ]	music	en_XX
+Play the riff-off from the Pitch Perfect soundtrack	[IN:PLAY_MUSIC [SL:MUSIC_ALBUM_TITLE Pitch Perfect ] [SL:MUSIC_TYPE soundtrack ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ALBUM_TITLE Pitch Perfect ] [SL:MUSIC_TYPE soundtrack ] ]	music	en_XX
+show me all articles regarding climate change	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE articles ] [SL:NEWS_TOPIC climate change ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE articles ] [SL:NEWS_TOPIC climate change ] ]	news	en_XX
+Give me more details about Taylor Swift's court trial, please.	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE details ] [SL:NEWS_TOPIC Taylor Swift 's court trial ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE details ] [SL:NEWS_TOPIC Taylor Swift 's court trial ] ]	news	en_XX
+Delete the current timer	[IN:DELETE_TIMER [SL:METHOD_TIMER timer ] ]	[IN:DELETE_TIMER [SL:METHOD_TIMER timer ] ]	timer	en_XX
+play Tonight on pandora	[IN:PLAY_MUSIC [SL:MUSIC_ALBUM_TITLE Tonight ] [SL:MUSIC_PROVIDER_NAME pandora ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ALBUM_TITLE Tonight ] [SL:MUSIC_PROVIDER_NAME pandora ] ]	music	en_XX
+Set music application as google play music for me	[IN:SET_DEFAULT_PROVIDER_MUSIC [SL:MUSIC_PROVIDER_NAME google play music ] ]	[IN:SET_DEFAULT_PROVIDER_MUSIC [SL:MUSIC_PROVIDER_NAME google play music ] ]	music	en_XX
+what is new in local news	[IN:GET_STORIES_NEWS [SL:NEWS_CATEGORY local ] [SL:NEWS_TYPE news ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_CATEGORY local ] [SL:NEWS_TYPE news ] ]	news	en_XX
+Was there violence in the White Nationalist protest today	[IN:QUESTION_NEWS [SL:NEWS_TOPIC violence in the White Nationalist protest ] [SL:DATE_TIME today ] ]	[IN:QUESTION_NEWS [SL:NEWS_TOPIC violence in the White Nationalist protest ] [SL:DATE_TIME today ] ]	news	en_XX
+change my You aren’t done brushing until this goes off timer	[IN:UPDATE_TIMER [SL:TIMER_NAME You aren’t done brushing until this goes off ] [SL:METHOD_TIMER timer ] ]	[IN:UPDATE_TIMER [SL:TIMER_NAME You aren’t done brushing until this goes off ] [SL:METHOD_TIMER timer ] ]	timer	en_XX
+set two timers please	[IN:CREATE_TIMER [SL:AMOUNT two ] [SL:METHOD_TIMER timers ] ]	[IN:CREATE_TIMER [SL:AMOUNT two ] [SL:METHOD_TIMER timers ] ]	timer	en_XX
+set timer for 5 minutes and pause after first minute	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME for 5 minutes ] [SL:ORDINAL first ] ]	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME for 5 minutes ] [SL:ORDINAL first ] ]	timer	en_XX
+Is there an update on the Microsoft court trial	[IN:QUESTION_NEWS [SL:NEWS_TOPIC Microsoft court trial ] ]	[IN:QUESTION_NEWS [SL:NEWS_TOPIC Microsoft court trial ] ]	news	en_XX
+play TobyMac	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME TobyMac ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME TobyMac ] ]	music	en_XX
+SET TIMER FOR 12 MINUTES	[IN:CREATE_TIMER [SL:METHOD_TIMER TIMER ] [SL:DATE_TIME FOR 12 MINUTES ] ]	[IN:CREATE_TIMER [SL:METHOD_TIMER TIMER ] [SL:DATE_TIME FOR 12 MINUTES ] ]	timer	en_XX
+What's the latest news on the person that drove his car into a crowd	[IN:GET_STORIES_NEWS [SL:DATE_TIME latest ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC person that drove his car into a crowd ] ]	[IN:GET_STORIES_NEWS [SL:DATE_TIME latest ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC person that drove his car into a crowd ] ]	news	en_XX
+can you resume the timer called meditation ended	[IN:RESUME_TIMER [SL:METHOD_TIMER timer ] [SL:TIMER_NAME meditation ended ] ]	[IN:RESUME_TIMER [SL:METHOD_TIMER timer ] [SL:TIMER_NAME meditation ended ] ]	timer	en_XX
+any news about donald trump	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC donald trump ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC donald trump ] ]	news	en_XX
+for music use tidal	[IN:SET_DEFAULT_PROVIDER_MUSIC [SL:MUSIC_PROVIDER_NAME tidal ] ]	[IN:SET_DEFAULT_PROVIDER_MUSIC [SL:MUSIC_PROVIDER_NAME tidal ] ]	music	en_XX
+Read the top story on CNN.com	[IN:GET_STORIES_NEWS [SL:NEWS_REFERENCE top ] [SL:NEWS_TYPE story ] [SL:NEWS_SOURCE CNN.com ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_REFERENCE top ] [SL:NEWS_TYPE story ] [SL:NEWS_SOURCE CNN.com ] ]	news	en_XX
+Knock off 10 minutes from the workout	[IN:SUBTRACT_TIME_TIMER [SL:DATE_TIME 10 minutes ] [SL:TIMER_NAME workout ] ]	[IN:SUBTRACT_TIME_TIMER [SL:DATE_TIME 10 minutes ] [SL:TIMER_NAME workout ] ]	timer	en_XX
+anything news worthy happen in the last hour?	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news ] [SL:DATE_TIME in the last hour ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news ] [SL:DATE_TIME in the last hour ] ]	news	en_XX
+Any latest news?	[IN:GET_STORIES_NEWS [SL:DATE_TIME latest ] [SL:NEWS_TYPE news ] ]	[IN:GET_STORIES_NEWS [SL:DATE_TIME latest ] [SL:NEWS_TYPE news ] ]	news	en_XX
+show me articles about Muslims	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE articles ] [SL:NEWS_TOPIC Muslims ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE articles ] [SL:NEWS_TOPIC Muslims ] ]	news	en_XX
+Repeat Playlist	[IN:REPLAY_MUSIC [SL:MUSIC_TYPE Playlist ] ]	[IN:REPLAY_MUSIC [SL:MUSIC_TYPE Playlist ] ]	music	en_XX
+what happen in current news?	[IN:GET_STORIES_NEWS [SL:DATE_TIME in current ] [SL:NEWS_TYPE news ] ]	[IN:GET_STORIES_NEWS [SL:DATE_TIME in current ] [SL:NEWS_TYPE news ] ]	news	en_XX
+what album is this on?	[IN:GET_TRACK_INFO_MUSIC [SL:MUSIC_TYPE album ] ]	[IN:GET_TRACK_INFO_MUSIC [SL:MUSIC_TYPE album ] ]	music	en_XX
+Read me the local news for this morning please	[IN:GET_STORIES_NEWS [SL:NEWS_CATEGORY local ] [SL:NEWS_TYPE news ] [SL:DATE_TIME for this morning ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_CATEGORY local ] [SL:NEWS_TYPE news ] [SL:DATE_TIME for this morning ] ]	news	en_XX
+Play Doxology by Phil Wickham.	[IN:PLAY_MUSIC [SL:MUSIC_TRACK_TITLE Doxology ] [SL:MUSIC_ARTIST_NAME Phil Wickham ] ]	[IN:PLAY_MUSIC [SL:MUSIC_TRACK_TITLE Doxology ] [SL:MUSIC_ARTIST_NAME Phil Wickham ] ]	music	en_XX
+play my playlist on pandora	[IN:PLAY_MUSIC [SL:MUSIC_TYPE playlist ] [SL:MUSIC_PROVIDER_NAME pandora ] ]	[IN:PLAY_MUSIC [SL:MUSIC_TYPE playlist ] [SL:MUSIC_PROVIDER_NAME pandora ] ]	music	en_XX
+What album is this	[IN:GET_TRACK_INFO_MUSIC [SL:MUSIC_TYPE album ] ]	[IN:GET_TRACK_INFO_MUSIC [SL:MUSIC_TYPE album ] ]	music	en_XX
+i like this album, save it	[IN:LIKE_MUSIC [SL:MUSIC_TYPE album ] ]	[IN:LIKE_MUSIC [SL:MUSIC_TYPE album ] ]	music	en_XX
+Stop time	[IN:PAUSE_TIMER [SL:METHOD_TIMER time ] ]	[IN:PAUSE_TIMER [SL:METHOD_TIMER time ] ]	timer	en_XX
+Football score news	[IN:GET_STORIES_NEWS [SL:NEWS_TOPIC Football score ] [SL:NEWS_TYPE news ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TOPIC Football score ] [SL:NEWS_TYPE news ] ]	news	en_XX
+repeat track 5	[IN:REPLAY_MUSIC [SL:MUSIC_TYPE track ] ]	[IN:REPLAY_MUSIC [SL:MUSIC_TYPE track ] ]	music	en_XX
+I don't like this song, skip it.	[IN:SKIP_TRACK_MUSIC [SL:MUSIC_TYPE song ] ]	[IN:SKIP_TRACK_MUSIC [SL:MUSIC_TYPE song ] ]	music	en_XX
+play Boy With Luv	[IN:PLAY_MUSIC [SL:MUSIC_TRACK_TITLE Boy With Luv ] ]	[IN:PLAY_MUSIC [SL:MUSIC_TRACK_TITLE Boy With Luv ] ]	music	en_XX
+when did scaramucci get fired?	[IN:QUESTION_NEWS [SL:NEWS_TOPIC scaramucci get fired ] ]	[IN:QUESTION_NEWS [SL:NEWS_TOPIC scaramucci get fired ] ]	news	en_XX
+add time to my Plank timer	[IN:ADD_TIME_TIMER [SL:TIMER_NAME Plank ] [SL:METHOD_TIMER timer ] ]	[IN:ADD_TIME_TIMER [SL:TIMER_NAME Plank ] [SL:METHOD_TIMER timer ] ]	timer	en_XX
+put spotify as my default app	[IN:SET_DEFAULT_PROVIDER_MUSIC [SL:MUSIC_PROVIDER_NAME spotify ] ]	[IN:SET_DEFAULT_PROVIDER_MUSIC [SL:MUSIC_PROVIDER_NAME spotify ] ]	music	en_XX
+Play last track of the album	[IN:PLAY_MUSIC [SL:MUSIC_TYPE track ] [SL:MUSIC_TYPE album ] ]	[IN:PLAY_MUSIC [SL:MUSIC_TYPE track ] [SL:MUSIC_TYPE album ] ]	music	en_XX
+Skip to Korean music	[IN:PLAY_MUSIC [SL:MUSIC_GENRE Korean ] [SL:MUSIC_TYPE music ] ]	[IN:PLAY_MUSIC [SL:MUSIC_GENRE Korean ] [SL:MUSIC_TYPE music ] ]	music	en_XX
+I want to hear some rap music.	[IN:PLAY_MUSIC [SL:MUSIC_GENRE rap ] [SL:MUSIC_TYPE music ] ]	[IN:PLAY_MUSIC [SL:MUSIC_GENRE rap ] [SL:MUSIC_TYPE music ] ]	music	en_XX
+how much time is left on this timer	[IN:GET_TIMER [SL:METHOD_TIMER timer ] ]	[IN:GET_TIMER [SL:METHOD_TIMER timer ] ]	timer	en_XX
+find me hardcore tracks	[IN:PLAY_MUSIC [SL:MUSIC_GENRE hardcore ] [SL:MUSIC_TYPE tracks ] ]	[IN:PLAY_MUSIC [SL:MUSIC_GENRE hardcore ] [SL:MUSIC_TYPE tracks ] ]	music	en_XX
+From the timer, please subtract 5 minutes.	[IN:SUBTRACT_TIME_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME 5 minutes ] ]	[IN:SUBTRACT_TIME_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME 5 minutes ] ]	timer	en_XX
+change the hair mask timer	[IN:UPDATE_TIMER [SL:TIMER_NAME hair mask ] [SL:METHOD_TIMER timer ] ]	[IN:UPDATE_TIMER [SL:TIMER_NAME hair mask ] [SL:METHOD_TIMER timer ] ]	timer	en_XX
+Tell me the latest news from The New York Times	[IN:GET_STORIES_NEWS [SL:DATE_TIME latest ] [SL:NEWS_TYPE news ] [SL:NEWS_SOURCE The New York Times ] ]	[IN:GET_STORIES_NEWS [SL:DATE_TIME latest ] [SL:NEWS_TYPE news ] [SL:NEWS_SOURCE The New York Times ] ]	news	en_XX
+Could you read details regarding dead body found in Funk Nebraska?	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE details ] [SL:NEWS_TOPIC dead body found in Funk Nebraska ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE details ] [SL:NEWS_TOPIC dead body found in Funk Nebraska ] ]	news	en_XX
+can you play nicki minaj's latest single	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME nicki minaj ] [SL:MUSIC_TYPE single ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME nicki minaj ] [SL:MUSIC_TYPE single ] ]	music	en_XX
+Please play 80's music.	[IN:PLAY_MUSIC [SL:MUSIC_GENRE 80 ] [SL:MUSIC_TYPE music ] ]	[IN:PLAY_MUSIC [SL:MUSIC_GENRE 80 ] [SL:MUSIC_TYPE music ] ]	music	en_XX
+play Cashmere Cat on iheartradio	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Cashmere Cat ] [SL:MUSIC_PROVIDER_NAME iheartradio ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Cashmere Cat ] [SL:MUSIC_PROVIDER_NAME iheartradio ] ]	music	en_XX
+Who is singing backup in this song?	[IN:GET_TRACK_INFO_MUSIC [SL:MUSIC_TYPE song ] ]	[IN:GET_TRACK_INFO_MUSIC [SL:MUSIC_TYPE song ] ]	music	en_XX
+make a timer for 10 seconds named ramen	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME for 10 seconds ] [SL:TIMER_NAME ramen ] ]	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME for 10 seconds ] [SL:TIMER_NAME ramen ] ]	timer	en_XX
+please make a godsmack channel	[IN:CREATE_PLAYLIST_MUSIC [SL:MUSIC_PLAYLIST_TITLE godsmack ] [SL:MUSIC_TYPE channel ] ]	[IN:CREATE_PLAYLIST_MUSIC [SL:MUSIC_PLAYLIST_TITLE godsmack ] [SL:MUSIC_TYPE channel ] ]	music	en_XX
+Please give me news on the Twins baseball club	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC Twins baseball club ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC Twins baseball club ] ]	news	en_XX
+Any news about our recent earthquakes	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news ] [SL:DATE_TIME recent ] [SL:NEWS_TOPIC earthquakes ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news ] [SL:DATE_TIME recent ] [SL:NEWS_TOPIC earthquakes ] ]	news	en_XX
+Start time for fifteen minutes.	[IN:CREATE_TIMER [SL:METHOD_TIMER time ] [SL:DATE_TIME for fifteen minutes ] ]	[IN:CREATE_TIMER [SL:METHOD_TIMER time ] [SL:DATE_TIME for fifteen minutes ] ]	timer	en_XX
+please create  a new playlist for me	[IN:CREATE_PLAYLIST_MUSIC [SL:MUSIC_TYPE playlist ] ]	[IN:CREATE_PLAYLIST_MUSIC [SL:MUSIC_TYPE playlist ] ]	music	en_XX
+Set timer for half hour.	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME for half hour ] ]	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME for half hour ] ]	timer	en_XX
+Give me a news update about the China base in Djibouti.	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC China base in Djibouti ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC China base in Djibouti ] ]	news	en_XX
+please tell me how much time is left on my timer	[IN:GET_TIMER [SL:METHOD_TIMER timer ] ]	[IN:GET_TIMER [SL:METHOD_TIMER timer ] ]	timer	en_XX
+lengthen my timer by 14 minutes	[IN:ADD_TIME_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME by 14 minutes ] ]	[IN:ADD_TIME_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME by 14 minutes ] ]	timer	en_XX
+I want to hear some Dr. Dre.	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Dr . Dre ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME Dr . Dre ] ]	music	en_XX
+Play that new mint condition song	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME mint condition ] [SL:MUSIC_TYPE song ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME mint condition ] [SL:MUSIC_TYPE song ] ]	music	en_XX
+Remove 3 minutes from the last timer	[IN:SUBTRACT_TIME_TIMER [SL:DATE_TIME 3 minutes ] [SL:ORDINAL last ] [SL:METHOD_TIMER timer ] ]	[IN:SUBTRACT_TIME_TIMER [SL:DATE_TIME 3 minutes ] [SL:ORDINAL last ] [SL:METHOD_TIMER timer ] ]	timer	en_XX
+tell me the headlines	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE headlines ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE headlines ] ]	news	en_XX
+Please skip track two	[IN:SKIP_TRACK_MUSIC [SL:MUSIC_TYPE track ] ]	[IN:SKIP_TRACK_MUSIC [SL:MUSIC_TYPE track ] ]	music	en_XX
+End timer now	[IN:DELETE_TIMER [SL:METHOD_TIMER timer ] ]	[IN:DELETE_TIMER [SL:METHOD_TIMER timer ] ]	timer	en_XX
+Begin timer for 10 seconds.	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME for 10 seconds ] ]	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME for 10 seconds ] ]	timer	en_XX
+play midnight by Dr. Dre	[IN:PLAY_MUSIC [SL:MUSIC_ALBUM_TITLE midnight ] [SL:MUSIC_ARTIST_NAME Dr . Dre ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ALBUM_TITLE midnight ] [SL:MUSIC_ARTIST_NAME Dr . Dre ] ]	music	en_XX
+play the track Project Dreams	[IN:PLAY_MUSIC [SL:MUSIC_TYPE track ] [SL:MUSIC_TRACK_TITLE Project Dreams ] ]	[IN:PLAY_MUSIC [SL:MUSIC_TYPE track ] [SL:MUSIC_TRACK_TITLE Project Dreams ] ]	music	en_XX
+stop playing music	[IN:STOP_MUSIC [SL:MUSIC_TYPE music ] ]	[IN:STOP_MUSIC [SL:MUSIC_TYPE music ] ]	music	en_XX
+how long on microwave timer	[IN:GET_TIMER [SL:TIMER_NAME microwave ] [SL:METHOD_TIMER timer ] ]	[IN:GET_TIMER [SL:TIMER_NAME microwave ] [SL:METHOD_TIMER timer ] ]	timer	en_XX
+begin timer	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] ]	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] ]	timer	en_XX
+what is the county election news	[IN:GET_STORIES_NEWS [SL:NEWS_TOPIC county election ] [SL:NEWS_TYPE news ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TOPIC county election ] [SL:NEWS_TYPE news ] ]	news	en_XX
+Any election news today	[IN:GET_STORIES_NEWS [SL:NEWS_TOPIC election ] [SL:NEWS_TYPE news ] [SL:DATE_TIME today ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TOPIC election ] [SL:NEWS_TYPE news ] [SL:DATE_TIME today ] ]	news	en_XX
+go back 10 seconds	[IN:REWIND_MUSIC [SL:MUSIC_REWIND_TIME 10 seconds ] ]	[IN:REWIND_MUSIC [SL:MUSIC_REWIND_TIME 10 seconds ] ]	music	en_XX
+Play 80s pop music On Pandora.	[IN:PLAY_MUSIC [SL:MUSIC_GENRE 80s ] [SL:MUSIC_GENRE pop ] [SL:MUSIC_TYPE music ] [SL:MUSIC_PROVIDER_NAME Pandora ] ]	[IN:PLAY_MUSIC [SL:MUSIC_GENRE 80s ] [SL:MUSIC_GENRE pop ] [SL:MUSIC_TYPE music ] [SL:MUSIC_PROVIDER_NAME Pandora ] ]	music	en_XX
+whats the recent news on the PGA tour?	[IN:GET_STORIES_NEWS [SL:DATE_TIME recent ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC PGA tour ] ]	[IN:GET_STORIES_NEWS [SL:DATE_TIME recent ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC PGA tour ] ]	news	en_XX
+Give me the news in my city	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news ] [SL:NEWS_CATEGORY my city ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news ] [SL:NEWS_CATEGORY my city ] ]	news	en_XX
+read details about jeff lords firing	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE details ] [SL:NEWS_TOPIC jeff lords firing ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE details ] [SL:NEWS_TOPIC jeff lords firing ] ]	news	en_XX
+reset timer for jogging	[IN:RESTART_TIMER [SL:METHOD_TIMER timer ] ]	[IN:RESTART_TIMER [SL:METHOD_TIMER timer ] ]	timer	en_XX
+Switch the song.	[IN:PLAY_MUSIC [SL:MUSIC_TYPE song ] ]	[IN:PLAY_MUSIC [SL:MUSIC_TYPE song ] ]	music	en_XX
+Time left	[IN:GET_TIMER [SL:METHOD_TIMER Time ] ]	[IN:GET_TIMER [SL:METHOD_TIMER Time ] ]	timer	en_XX
+What are the trending news stories today?	[IN:GET_STORIES_NEWS [SL:NEWS_REFERENCE trending ] [SL:NEWS_TYPE news stories ] [SL:DATE_TIME today ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_REFERENCE trending ] [SL:NEWS_TYPE news stories ] [SL:DATE_TIME today ] ]	news	en_XX
+Play Hello Bonjour off Yell Fire	[IN:PLAY_MUSIC [SL:MUSIC_TRACK_TITLE Hello Bonjour off Yell Fire ] ]	[IN:PLAY_MUSIC [SL:MUSIC_TRACK_TITLE Hello Bonjour off Yell Fire ] ]	music	en_XX
+pause the music	[IN:PAUSE_MUSIC [SL:MUSIC_TYPE music ] ]	[IN:PAUSE_MUSIC [SL:MUSIC_TYPE music ] ]	music	en_XX
+is there any big news	[IN:GET_STORIES_NEWS [SL:NEWS_REFERENCE big ] [SL:NEWS_TYPE news ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_REFERENCE big ] [SL:NEWS_TYPE news ] ]	news	en_XX
+can I get a news update	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news ] ]	news	en_XX
+What is on the news about California wildfires?	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC California wildfires ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC California wildfires ] ]	news	en_XX
+Please read the details about the Taylor Swift court trial.	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE details ] [SL:NEWS_TOPIC Taylor Swift court trial ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE details ] [SL:NEWS_TOPIC Taylor Swift court trial ] ]	news	en_XX
+Repeat that last song	[IN:PREVIOUS_TRACK_MUSIC [SL:ORDINAL last ] [SL:MUSIC_TYPE song ] ]	[IN:PREVIOUS_TRACK_MUSIC [SL:ORDINAL last ] [SL:MUSIC_TYPE song ] ]	music	en_XX
+Current european headlines	[IN:GET_STORIES_NEWS [SL:DATE_TIME Current ] [SL:NEWS_CATEGORY european ] [SL:NEWS_TYPE headlines ] ]	[IN:GET_STORIES_NEWS [SL:DATE_TIME Current ] [SL:NEWS_CATEGORY european ] [SL:NEWS_TYPE headlines ] ]	news	en_XX
+add 2 minutes to the timer	[IN:ADD_TIME_TIMER [SL:DATE_TIME 2 minutes ] [SL:METHOD_TIMER timer ] ]	[IN:ADD_TIME_TIMER [SL:DATE_TIME 2 minutes ] [SL:METHOD_TIMER timer ] ]	timer	en_XX
+Play more songs in this genre	[IN:PLAY_MUSIC [SL:MUSIC_TYPE songs ] ]	[IN:PLAY_MUSIC [SL:MUSIC_TYPE songs ] ]	music	en_XX
+What new shows will be debuting on ABC in the fall	[IN:QUESTION_NEWS [SL:NEWS_TOPIC shows will be debuting ] [SL:NEWS_SOURCE ABC ] [SL:DATE_TIME in the fall ] ]	[IN:QUESTION_NEWS [SL:NEWS_TOPIC shows will be debuting ] [SL:NEWS_SOURCE ABC ] [SL:DATE_TIME in the fall ] ]	news	en_XX
+latest news about tropical storms	[IN:GET_STORIES_NEWS [SL:DATE_TIME latest ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC tropical storms ] ]	[IN:GET_STORIES_NEWS [SL:DATE_TIME latest ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC tropical storms ] ]	news	en_XX
+reset the timer back to ten	[IN:RESTART_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME to ten ] ]	[IN:RESTART_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME to ten ] ]	timer	en_XX
+Who is the female voice in this song?	[IN:GET_TRACK_INFO_MUSIC [SL:MUSIC_TYPE song ] ]	[IN:GET_TRACK_INFO_MUSIC [SL:MUSIC_TYPE song ] ]	music	en_XX
+play the plane crash news	[IN:GET_STORIES_NEWS [SL:NEWS_TOPIC plane crash ] [SL:NEWS_TYPE news ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TOPIC plane crash ] [SL:NEWS_TYPE news ] ]	news	en_XX
+Tell me the most recent news story about Trump	[IN:GET_STORIES_NEWS [SL:DATE_TIME the most recent ] [SL:NEWS_TYPE news story ] [SL:NEWS_TOPIC Trump ] ]	[IN:GET_STORIES_NEWS [SL:DATE_TIME the most recent ] [SL:NEWS_TYPE news story ] [SL:NEWS_TOPIC Trump ] ]	news	en_XX
+go to iheartradio and play WQXR	[IN:PLAY_MUSIC [SL:MUSIC_PROVIDER_NAME iheartradio ] [SL:MUSIC_RADIO_ID WQXR ] ]	[IN:PLAY_MUSIC [SL:MUSIC_PROVIDER_NAME iheartradio ] [SL:MUSIC_RADIO_ID WQXR ] ]	music	en_XX
+What's the name of this song playing?	[IN:GET_TRACK_INFO_MUSIC [SL:MUSIC_TYPE song ] ]	[IN:GET_TRACK_INFO_MUSIC [SL:MUSIC_TYPE song ] ]	music	en_XX
+I want to listen to Moroccan music	[IN:PLAY_MUSIC [SL:MUSIC_GENRE Moroccan ] [SL:MUSIC_TYPE music ] ]	[IN:PLAY_MUSIC [SL:MUSIC_GENRE Moroccan ] [SL:MUSIC_TYPE music ] ]	music	en_XX
+Start the timer again	[IN:RESTART_TIMER [SL:METHOD_TIMER timer ] ]	[IN:RESTART_TIMER [SL:METHOD_TIMER timer ] ]	timer	en_XX
+current rap music	[IN:PLAY_MUSIC [SL:MUSIC_GENRE rap ] [SL:MUSIC_TYPE music ] ]	[IN:PLAY_MUSIC [SL:MUSIC_GENRE rap ] [SL:MUSIC_TYPE music ] ]	music	en_XX
+play the songs that I love	[IN:PLAY_MUSIC [SL:MUSIC_TYPE songs ] ]	[IN:PLAY_MUSIC [SL:MUSIC_TYPE songs ] ]	music	en_XX
+Any recent news about Hilary Clinton	[IN:GET_STORIES_NEWS [SL:DATE_TIME recent ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC Hilary Clinton ] ]	[IN:GET_STORIES_NEWS [SL:DATE_TIME recent ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC Hilary Clinton ] ]	news	en_XX
+Is this a country song?	[IN:GET_TRACK_INFO_MUSIC [SL:MUSIC_GENRE country ] [SL:MUSIC_TYPE song ] ]	[IN:GET_TRACK_INFO_MUSIC [SL:MUSIC_GENRE country ] [SL:MUSIC_TYPE song ] ]	music	en_XX
+play cardi b	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME cardi b ] ]	[IN:PLAY_MUSIC [SL:MUSIC_ARTIST_NAME cardi b ] ]	music	en_XX
+Open Spotify music playlist	[IN:PLAY_MUSIC [SL:MUSIC_PROVIDER_NAME Spotify ] [SL:MUSIC_TYPE music ] [SL:MUSIC_TYPE playlist ] ]	[IN:PLAY_MUSIC [SL:MUSIC_PROVIDER_NAME Spotify ] [SL:MUSIC_TYPE music ] [SL:MUSIC_TYPE playlist ] ]	music	en_XX
+Is there any news on the construction work?	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC construction work ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC construction work ] ]	news	en_XX
+pause cook timer	[IN:PAUSE_TIMER [SL:METHOD_TIMER timer ] ]	[IN:PAUSE_TIMER [SL:METHOD_TIMER timer ] ]	timer	en_XX
+What are the details on the Virginia car crash?	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE details ] [SL:NEWS_TOPIC Virginia car crash ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE details ] [SL:NEWS_TOPIC Virginia car crash ] ]	news	en_XX
+Can I hear the latest news in soccer?	[IN:GET_STORIES_NEWS [SL:DATE_TIME latest ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC soccer ] ]	[IN:GET_STORIES_NEWS [SL:DATE_TIME latest ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC soccer ] ]	news	en_XX
+what's the latest news on CNN?	[IN:GET_STORIES_NEWS [SL:DATE_TIME latest ] [SL:NEWS_TYPE news ] [SL:NEWS_SOURCE CNN ] ]	[IN:GET_STORIES_NEWS [SL:DATE_TIME latest ] [SL:NEWS_TYPE news ] [SL:NEWS_SOURCE CNN ] ]	news	en_XX
+tell me world news that is trending	[IN:GET_STORIES_NEWS [SL:NEWS_CATEGORY world ] [SL:NEWS_TYPE news ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_CATEGORY world ] [SL:NEWS_TYPE news ] ]	news	en_XX
+Play me some rap music from Spotify	[IN:PLAY_MUSIC [SL:MUSIC_GENRE rap ] [SL:MUSIC_TYPE music ] [SL:MUSIC_PROVIDER_NAME Spotify ] ]	[IN:PLAY_MUSIC [SL:MUSIC_GENRE rap ] [SL:MUSIC_TYPE music ] [SL:MUSIC_PROVIDER_NAME Spotify ] ]	music	en_XX
+are there any big stories going on right now	[IN:GET_STORIES_NEWS [SL:NEWS_REFERENCE big ] [SL:NEWS_TYPE stories ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_REFERENCE big ] [SL:NEWS_TYPE stories ] ]	news	en_XX
+Who was the suspect in the latest car bombing?	[IN:QUESTION_NEWS [SL:NEWS_TOPIC suspect in the latest car bombing ] ]	[IN:QUESTION_NEWS [SL:NEWS_TOPIC suspect in the latest car bombing ] ]	news	en_XX
+subtract 30 seconds from my timer	[IN:SUBTRACT_TIME_TIMER [SL:DATE_TIME 30 seconds ] [SL:METHOD_TIMER timer ] ]	[IN:SUBTRACT_TIME_TIMER [SL:DATE_TIME 30 seconds ] [SL:METHOD_TIMER timer ] ]	timer	en_XX
+What day will oj Simpson be released from jail	[IN:QUESTION_NEWS [SL:NEWS_TOPIC oj Simpson be released from jail ] ]	[IN:QUESTION_NEWS [SL:NEWS_TOPIC oj Simpson be released from jail ] ]	news	en_XX
+Read local news.	[IN:GET_STORIES_NEWS [SL:NEWS_CATEGORY local ] [SL:NEWS_TYPE news ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_CATEGORY local ] [SL:NEWS_TYPE news ] ]	news	en_XX
+start my timer over	[IN:RESUME_TIMER [SL:METHOD_TIMER timer ] ]	[IN:RESUME_TIMER [SL:METHOD_TIMER timer ] ]	timer	en_XX
+find some music to play	[IN:PLAY_MUSIC [SL:MUSIC_TYPE music ] ]	[IN:PLAY_MUSIC [SL:MUSIC_TYPE music ] ]	music	en_XX
+Reset the current timer.	[IN:RESTART_TIMER [SL:METHOD_TIMER timer ] ]	[IN:RESTART_TIMER [SL:METHOD_TIMER timer ] ]	timer	en_XX
+Play me Dirty Laundry by the Eagles	[IN:PLAY_MUSIC [SL:MUSIC_TRACK_TITLE Dirty Laundry ] [SL:MUSIC_ARTIST_NAME Eagles ] ]	[IN:PLAY_MUSIC [SL:MUSIC_TRACK_TITLE Dirty Laundry ] [SL:MUSIC_ARTIST_NAME Eagles ] ]	music	en_XX
+Play Trap music	[IN:PLAY_MUSIC [SL:MUSIC_GENRE Trap ] [SL:MUSIC_TYPE music ] ]	[IN:PLAY_MUSIC [SL:MUSIC_GENRE Trap ] [SL:MUSIC_TYPE music ] ]	music	en_XX
+play a rock song	[IN:PLAY_MUSIC [SL:MUSIC_GENRE rock ] [SL:MUSIC_TYPE song ] ]	[IN:PLAY_MUSIC [SL:MUSIC_GENRE rock ] [SL:MUSIC_TYPE song ] ]	music	en_XX
+When is the solar eclipse	[IN:QUESTION_NEWS [SL:NEWS_TOPIC solar eclipse ] ]	[IN:QUESTION_NEWS [SL:NEWS_TOPIC solar eclipse ] ]	news	en_XX
+What is the most recent news for education in the state of California	[IN:GET_STORIES_NEWS [SL:NEWS_REFERENCE most ] [SL:DATE_TIME recent ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC education in the state of California ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_REFERENCE most ] [SL:DATE_TIME recent ] [SL:NEWS_TYPE news ] [SL:NEWS_TOPIC education in the state of California ] ]	news	en_XX
+Play Friends in Low Places on repeat	[IN:LOOP_MUSIC [SL:MUSIC_TRACK_TITLE Friends in Low Places ] ]	[IN:LOOP_MUSIC [SL:MUSIC_TRACK_TITLE Friends in Low Places ] ]	music	en_XX
+lengthen my timer by 11 minutes	[IN:ADD_TIME_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME by 11 minutes ] ]	[IN:ADD_TIME_TIMER [SL:METHOD_TIMER timer ] [SL:DATE_TIME by 11 minutes ] ]	timer	en_XX
+Details on where to vote	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE Details ] [SL:NEWS_TOPIC where to vote ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_TYPE Details ] [SL:NEWS_TOPIC where to vote ] ]	news	en_XX
+What are the top news on Fox?	[IN:GET_STORIES_NEWS [SL:NEWS_REFERENCE top ] [SL:NEWS_TYPE news ] [SL:NEWS_SOURCE Fox ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_REFERENCE top ] [SL:NEWS_TYPE news ] [SL:NEWS_SOURCE Fox ] ]	news	en_XX
+What are the top news stories for Tokyo right now?	[IN:GET_STORIES_NEWS [SL:NEWS_REFERENCE top ] [SL:NEWS_TYPE news stories ] [SL:NEWS_TOPIC Tokyo ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_REFERENCE top ] [SL:NEWS_TYPE news stories ] [SL:NEWS_TOPIC Tokyo ] ]	news	en_XX
+Can you give me entertainment news for 9/25	[IN:GET_STORIES_NEWS [SL:NEWS_CATEGORY entertainment ] [SL:NEWS_TYPE news ] [SL:DATE_TIME for 9 / 25 ] ]	[IN:GET_STORIES_NEWS [SL:NEWS_CATEGORY entertainment ] [SL:NEWS_TYPE news ] [SL:DATE_TIME for 9 / 25 ] ]	news	en_XX
+stick to iheartradio as my default	[IN:SET_DEFAULT_PROVIDER_MUSIC [SL:MUSIC_PROVIDER_NAME iheartradio ] ]	[IN:SET_DEFAULT_PROVIDER_MUSIC [SL:MUSIC_PROVIDER_NAME iheartradio ] ]	music	en_XX

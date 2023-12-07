@@ -1,0 +1,2 @@
+Set my timer for my tabata workout.	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:TIMER_NAME tabata workout ] ]	[IN:CREATE_TIMER [SL:METHOD_TIMER timer ] [SL:TIMER_NAME tabata workout ] ]	timer	en_XX 
+Show me dates for music festivals in 2018	[IN:GET_EVENT [SL:CATEGORY_EVENT music festivals ] [SL:DATE_TIME in 2018 ] ]	[IN:GET_EVENT [SL:CATEGORY_EVENT music festivals ] [SL:DATE_TIME in 2018 ] ]	event	en_XX 
