@@ -225,13 +225,13 @@ def reformat_output(output):
 
 def load_model(args):
     if (args.model_type == 'openai'):
-        key_file = open('./key.txt', 'r')
+        key_file = open('./openai_k.txt', 'r')
         key = [k.strip() for k in key_file][0]
         openai.api_key =  str(key)
         model_name = "gpt-3.5-turbo"
         model = "gpt-3.5-turbo"
     else:
-        key_file = open('./google_key.txt', 'r')
+        key_file = open('./google_k.txt', 'r')
         key = [k.strip() for k in key_file][0]
         palm.configure(api_key = key)                                 
         model_name = 'models/chat-bison-001'
