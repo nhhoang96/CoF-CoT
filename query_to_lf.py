@@ -251,7 +251,7 @@ parser.add_argument("--type_prompt", default='chain_of', type=str, help='Direct 
 parser.add_argument('--seed', default=111, type=int, choices=[111,222,333])
 
 parser.add_argument("--test_file", default='test', type=str, help='Kind of conditioning: (none, control, control_filter)')
-parser.add_argument("--type_condition", default='control', type=str, help='Kind of conditioning: (none, control, control_filter)')
+parser.add_argument("--type_condition", default='control_single', type=str, help='Kind of conditioning: (none, control, control_filter)')
 parser.add_argument("--add_demo", choices=['true','false'], default='false', type=str)
 parser.add_argument("--output_for", choices=['api','test'], default='test', type=str)
 
@@ -262,7 +262,7 @@ parser.add_argument("--number_demo",  default=11, type=int)
 parser.add_argument('--demo_select_criteria', default='random', type=str)
 parser.add_argument("--temperature",  default=0.7, type=float)
 
-parser.add_argument('--add_domain', default='false', type=str)
+parser.add_argument('--add_domain', default='true', type=str)
 
 parser.add_argument('--write_output', default='false', type=str)
 

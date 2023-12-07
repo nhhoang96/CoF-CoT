@@ -17,12 +17,14 @@ Both evaluation datasets are few-shot in-context learning samples are provided. 
 Please refer to the manuscript regarding the detailed rationale of the experiment design.
 Individual prompts contain minor updates to account for the generated outputs.
 ```
-bash run_query.sh ${dataset} ${model_type}
+bash run_query.sh ${dataset} ${model_type} ${add_demo}
 ```
 
 where passing arguments ${.} are defined as follows: 
 * ```dataset```: Evaluation Dataset (i.e. MASSIVE or MTOP)
 * ```model_type```: Backbone LLMs (i.e. palm or gpt)
+* ```add_demo```: Whether to add demonstration few-shot samples (few-shot/ in-context learning) or not (zero-shot learning)
+
 
 
 ## Citation
