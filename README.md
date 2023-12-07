@@ -3,7 +3,7 @@ This repository provides evaluation datasets, implementation and sample demos fo
 
 ## Support
 We provide support for API Calls from 2 Large Language Models (LLMs), including [PaLM](https://blog.research.google/2022/04/pathways-language-model-palm-scaling-to.html) and [GPT3.5-turbo](https://openai.com/blog/gpt-3-5-turbo-fine-tuning-and-api-updates).
-Please make sure you have your own valid API keys and update them in ```key.txt``` and ```google_key.txt``` files correspondingly before running the experiments.
+Please make sure you have your own valid API keys and update them in ```openai_k.txt``` and ```google_k.txt``` files correspondingly before running the experiments.
 
 ## Prerequisites
 Refer to documentation of [PaLM](https://blog.research.google/2022/04/pathways-language-model-palm-scaling-to.html) and [GPT3.5-turbo](https://openai.com/blog/gpt-3-5-turbo-fine-tuning-and-api-updates) regarding pre-requisites.
