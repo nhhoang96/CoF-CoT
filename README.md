@@ -6,7 +6,7 @@ We provide support for API Calls from 2 Large Language Models (LLMs), including 
 Please make sure you have your own valid API keys and update them in ```key.txt``` and ```google_key.txt``` files correspondingly before running the experiments.
 
 ## Prerequisites
-Refer to documentation of PaLM](https://blog.research.google/2022/04/pathways-language-model-palm-scaling-to.html) and [GPT3.5-turbo](https://openai.com/blog/gpt-3-5-turbo-fine-tuning-and-api-updates) regarding pre-requisites.
+Refer to documentation of [PaLM](https://blog.research.google/2022/04/pathways-language-model-palm-scaling-to.html) and [GPT3.5-turbo](https://openai.com/blog/gpt-3-5-turbo-fine-tuning-and-api-updates) regarding pre-requisites.
 
 ## Dataset
 We conduct evaluations on subsets of [MTOP dataset](https://aclanthology.org/2021.eacl-main.257/) and [MASSIVE dataset](https://aclanthology.org/2023.acl-long.235/).
