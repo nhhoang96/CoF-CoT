@@ -1,7 +1,8 @@
 Data Format:
 Utterance \t Flat Representation \t Nested Representation (Original) \t Domain \t Language
 
-Number of intents = 117 intents
-Number of slots = 78 slots
+Data Format for In-context/ Few-shot Samples (5 samples):
+Utterance \t Flat Representation \t Nested Representation (Original) \t Domain \t Language \t AMR(prepared)
 
-For details of intent and slot lists for MTOP dataset, check out Example (MTOP) Google Doc
+Number of total possible intents = 117 intents
+Number of total possible slots = 78 slots
