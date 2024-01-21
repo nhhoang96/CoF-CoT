@@ -30,10 +30,11 @@ where passing arguments ${.} are defined as follows:
 ## Citation
 If you find our ideas, code or dataset helpful, please consider citing our work as follows:
 <pre>
-@article{nguyen2023cof,
+@inproceedings{nguyen2023cof,
   title={CoF-CoT: Enhancing Large Language Models with Coarse-to-Fine Chain-of-Thought Prompting for Multi-domain NLU Tasks},
-  author={Nguyen, Hoang H and Liu, Ye and Zhang, Chenwei and Zhang, Tao and Yu, Philip S},
-  journal={arXiv preprint arXiv:2310.14623},
+  author={Nguyen, Hoang and Liu, Ye and Zhang, Chenwei and Zhang, Tao and Philip, S Yu},
+  booktitle={Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing},
+  pages={12109--12119},
   year={2023}
 }
 </pre>
